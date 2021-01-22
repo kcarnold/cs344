@@ -1,5 +1,5 @@
 theme: starter-academic
-title: Academic
+title: CS 344 Spring 2021 at Calvin University
 baseurl: ''
 copyright: ''
 enableGitInfo: no
@@ -18,6 +18,8 @@ ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
   - _cache$
+  - "\\.knit\\.md$"
+  - "\\.utf8\\.md$"
 permalinks:
   authors: /author/:slug/
   categories: /category/:slug/
