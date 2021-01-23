@@ -39,7 +39,7 @@ Accordingly, the final deliverable in this course will be a document that states
 
 ### Typical Weekly Schedule
 
--   *Preparation*: a reading and a video lecture. A short quiz (graded very leniently) will assess this
+-   *Preparation*: a reading and a video lecture. A short quiz (graded very leniently) due Monday at class time will assess this
 
 -   *Lab*: reproducing a book chapter and making small, guided extensions
 
@@ -47,10 +47,31 @@ Accordingly, the final deliverable in this course will be a document that states
 
 -   *Quiz*: a short check-in of what you've learned
 
--   *Discussion*: participate in a class-wide discussion forum; summarize your perspective in a portfolio piece
+-   *Discussion*: participate in a class-wide discussion forum; summarize your perspective in a portfolio piece. Most discussions will be case studies on specific technologies, focusing on:
 
--   *Journal*: a summary of your learning this week (private to you and the course staff) *due Monday at class time*
+    -   How does it work?
+    -   What impact does it have?
+    -   How can we constructively assess it (generally, but not always, from a reformed Christian viewpoint)?
+
+-   *Journal*: a summary of your learning the past week (private to you and the course staff) *due Monday end of day*
 
 In the final weeks of the semester, project work will replace many of these elements.
 
+### Journals
+
+Rubric (supply evidence)
+
+-   25%: I can do something that I couldn't do last week. State what it is and what evidence you have that you can do it.
+
+-   25%: I can explain something that I couldn't explain last week. State what it is and give a quick example.
+
+-   25%: I contributed to someone else's learning this week. (Asked / answered questions in class / on Piazza / informally, gave constructive peer feedback, contributed to a class forum)
+
+-   25%: I engaged with AI in the world
+
 Lab, homework, and projects will generally be completed in pairs of your choice.
+
+| Monday                | Wednesday | Friday     |
+|-----------------------|-----------|------------|
+| Q&A about the reading |           | Debrief    |
+|                       |           | Discussion |
