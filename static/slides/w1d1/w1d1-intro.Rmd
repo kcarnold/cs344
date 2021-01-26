@@ -1,0 +1,69 @@
+---
+title: "Welcome to CS 344"
+subtitle: "AI / Machine Learning<br>Spring 2021"
+author: 
+  - "Ken Arnold"
+date: '2021-02-03'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+#style_duo_accent(
+#  primary_color = "#1381B0",
+#  secondary_color = "#FF961C",
+#  inverse_header_color = "#FFFFFF"
+#)
+```
+
+class: middle
+
+.center[
+## Let's do some machine learning!
+]
+
+Pick a partner. Decide who will be the *trainer* and who's the *tester*.
+
+**Trainer**:
+
+* Go to <https://teachablemachine.withgoogle.com/train/image>
+* Train a simple classifier using your webcam.
+  * Ideas: use your hands, your face, some distinctive objects, ...
+* Don't worry about making it super accurate.
+
+**Tester**:
+
+* Try out your partner's classifier (without touching the computer or the same objects).
+  * Try to find some situations where it works
+  * Try to find the most amusing situation where it fails.
+
+---
+
+## What is this course?
+
+
+---
+
+## Why not just learn this on your own?
+
+This course gives you:
+
+* Structure
+* Peers
+* Freedom to ask stupid questions
+
+---
+
+## Who am I?
+
+---
