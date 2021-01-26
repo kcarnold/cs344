@@ -67,6 +67,7 @@ By the end of this course, you will demonstrate growth in your ability to:
 
 * *Very* hands-on
 * "Flipped": read and watch lectures at home, hack together in class
+  * Watching and/or reading is expected. Make time for it.
 
 ---
 

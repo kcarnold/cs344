@@ -33,7 +33,7 @@ By the end of this course, you will demonstrate growth in your ability to:
 
 ## Philosophy
 
-Our teaching philosophy is analogous to how both classical AI (planning) and modern machine learning systems (backpropagation) work: start at the end, work backwards, and iterate. So rather than starting with mathematical fundamentals, we will start by doing
+Our teaching philosophy is analogous to how both classical AI (planning) and modern machine learning systems (backpropagation) work: start at the end, work backwards, and iterate. So rather than starting with mathematical fundamentals, we will start by doing.
 
 The course may look quite different from other courses that you have taken. Trust me that this will still work---and even if it doesn't, you will still learn a lot if you put in the effort.
 
@@ -85,7 +85,8 @@ Rubric (supply evidence)
 
 Lab, homework, and projects will generally be completed in pairs of your choice.
 
-| Monday                | Wednesday | Friday     |
-|-----------------------|-----------|------------|
-| Q&A about the reading |           | Debrief    |
-|                       |           | Discussion |
+A week will frequently look like:
+
+* Monday: *lab*. Go through an activity closely based on the textbook
+* Wednesday: discussion about an AI application or perspectives; lab as time permits
+* Friday: working on homework
