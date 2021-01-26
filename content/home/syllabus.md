@@ -19,6 +19,18 @@ By the end of this course, you will demonstrate growth in your ability to:
 -   *Design* and *analyze* how these intelligent systems relate with people, individually and collectively, through a Reformed Christian lens.
 -   Communicate the above with peers and members of the general public
 
+## Materials
+
+-   [Practical Deep Learning for Coders](https://course.fast.ai/)
+
+    -   Book
+
+    -   [Videos](https://course.fast.ai/videos/?lesson=1)
+
+    -   their [forum](https://forums.fast.ai/c/part1-v4/46)
+
+    -   
+
 ## Philosophy
 
 Our teaching philosophy is analogous to how both classical AI (planning) and modern machine learning systems (backpropagation) work: start at the end, work backwards, and iterate. So rather than starting with mathematical fundamentals, we will start by doing
@@ -58,6 +70,8 @@ Accordingly, the final deliverable in this course will be a document that states
 In the final weeks of the semester, project work will replace many of these elements.
 
 ### Journals
+
+Journals will be submitted on Moodle
 
 Rubric (supply evidence)
 
