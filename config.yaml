@@ -1,6 +1,7 @@
 theme: starter-academic
 title: CS 344 Spring 2021 at Calvin University
 baseurl: ''
+relativeURLs: true
 copyright: ''
 enableGitInfo: no
 defaultContentLanguage: en
