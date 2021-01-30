@@ -77,7 +77,7 @@ fast.ai book
 
 Successful and famous, for a reason
 
-fastai = layered API on top of PyTorch
+fastai = layered API on top of PyTorch (Python)
 
 Jupyter Notebooks
 
@@ -93,6 +93,50 @@ This course gives you:
 
 ---
 
+## Peer feedback
+
+Reading and analyzing other people's work is a *critical* skill. It will be most of what you do.
+So we *must* practice it.
+
+*Should peer feedback be blind?*
+
+We will do some peer feedback during our time together.
+
+---
+
+## Stupid Questions
+
+Piazza
+
+Class Blog
+
+---
+
+## Ungrading.
+
+Any work that can be graded consistently, fairly, and efficiently can be automated.
+
+We must focus on skils that cannot be automated.
+
+Most important: *meta*cognition: awareness of what you know and don't.
+
+We practice this by active reflection on your learning.
+
+Evidence is super-clear: intrinsic motivation is awesome, curiosity and creativity
+are core to what make us human, and grading kills intrinsic motivation and curiosity.
+
+How? You'll suggest your own grades for your *learning* (not your *work*) each *week*,
+and finally an overall written self-reflection.
+
+In four areas:
+
+* TODO 
+
+Final grade is an average of weekly grades.
+
+---
+
 ## Who am I?
 
 ---
+
