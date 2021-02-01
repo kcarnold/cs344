@@ -39,6 +39,8 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 
 -   We will be using Piazza for class discussion. Many students have found that Piazza works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Find our class signup link at: <https://piazza.com/calvin/spring2021/cs344>
 
+-   The lab machines are configured with the software needed on the Linux install. The Maroon lab has GPUs with sufficient specs for most of what we need, so we will be using them (booted into Linux); Gold lab users can use Guacamole to connect to a Maroon machine.
+
 ## Grading
 
 Your final grade will be computed as the weighted average of your grade in each of 3 categories, representing each of the primary learning outcomes of the course:
@@ -47,11 +49,11 @@ Your final grade will be computed as the weighted average of your grade in each 
 
 -   **Comm (**Communication or Community, depending on the week) (25%): You contributed to other students' learning. e.g., *asked or answered questions in class / on Piazza / informally, gave constructive peer feedback, contributed to a class forum)*
 
--   **Context** (25%): You engaged with broader perspectives on AI. e.g., its current or future impacts on individuals, organizations, societies, the environment, etc., or questions about how AI and Christian faith relate, etc.
+-   **Context** (25%): You engaged with broader perspectives on AI. e.g., its history, its current or future impacts on individuals, organizations, societies, the environment, etc., or questions about how AI and Christian faith relate, etc.
 
 Each week (including exam week) you will turn in a reflection on your work and learning for the past week. In it, you will suggest a numeric grade for each of the 3 categories. (I reserve the right to deviate from your suggested grade.) Your grade for each category will be the average of each of the 14 grades in that category.
 
-There will be weeks for which the structured content of the course does not give you a chance to sufficiently demonstrate learning in a given area. In such cases, you should proactively seek a learning opportunity in that category. I will provide some general resources; please ask for specific advice as needed. You may also simply take a 0 in that category that week; the lowest two grades in each category will be dropped.
+There will be weeks for which the structured content of the course does not give you a chance to sufficiently demonstrate learning in a given area. In such cases, you should proactively seek a learning opportunity in that category. I will provide some general resources; please ask for specific advice as needed. You may also simply take a 0 in that category that week; one or more of the lowest grades in each category will be dropped.
 
 ## Philosophy
 
@@ -87,11 +89,11 @@ Accordingly, the final deliverable in this course will be a document that states
     -   What impact does it have?
     -   How can we constructively assess it (generally, but not always, from a reformed Christian viewpoint)?
 
--   *Reflection*: a summary of your learning the past week (private to you and the course staff) *due Tuesday end of day*
+-   *Reflection*: a summary of your learning the past week (private to you and the course staff) *due Wednesday end of day*
 
     -   Reflections are structured according to the three primary areas discussed in Grading above
 
-    -   Each reflection should include what has gone well for your progress in that area (refer to specific evidence), what difficulties you are still facing, and what you want to keep doing or change.
+    -   Specific prompts will be provided in Moodle, but will generally include what has gone well for your progress in that area (refer to specific evidence), what difficulties you are still facing, and what you want to keep doing or change.
 
 In the final weeks of the semester, project work will replace many of these elements.
 
