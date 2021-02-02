@@ -9,6 +9,44 @@ title: "Schedule"
 weight: 20
 ---
 
+```{r setup, include=FALSE}
+library(tidyverse)
+library(glue)
+library(lubridate)
+```
+
+```{r include=FALSE}
+updateFiles <- FALSE
+if (updateFiles) {
+  tribble(~ gid, ~ name,
+          "90588745", "timeline") %>%
+    pwalk(function(gid, name) {
+      download.file(
+        url = glue(
+          "https://docs.google.com/spreadsheets/d/1mdTSwgOJ41di3yr6xvf6tdBRwxlrx2NGbmXY0PJo6sQ/export?format=csv&gid={gid}"
+        ),
+        destfile = glue("../{name}.csv")
+      )
+    })
+}
+```
+
 ## Schedule
 
-This is the schedule.
+```{r echo=FALSE}
+read_csv("../timeline.csv", col_types = cols_only(
+  Week = col_double(),
+  `#` = col_character(),
+  Topic = col_character(),
+  Class = col_character(),
+  FullDate = col_date(format = "")
+)) %>% 
+  select(Week, date = FullDate, class_num = `#`, class = Class) %>% 
+  drop_na(class) %>% 
+  mutate(class_num = parse_number(class_num)) %>% 
+  filter(class_num < 4) %>% 
+  select(Date = date, `#` = class_num, Topic = class) %>% 
+  mutate(Date = glue("{wday(Date, label = TRUE)} {month(Date)}/{mday(Date)}")) %>% 
+  knitr::kable()
+```
+
