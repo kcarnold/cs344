@@ -99,7 +99,7 @@ The course may look quite different from other courses that you have taken. Trus
 
 -   *Quiz*: a short check-in of what you've learned
 
--   *Discussion*: participate in a class-wide discussion forum; summarize your perspective in a portfolio piece. Most discussions will be case studies on specific technologies, focusing on:
+-   *Discussion*: participate in a class-wide discussion forum (some components in person, others on Piazza); summarize your perspective in a portfolio piece. Most discussions will be case studies on specific technologies, focusing on:
 
     -   How does it work?
     -   What impact does it have?
@@ -110,7 +110,7 @@ The course may look quite different from other courses that you have taken. Trus
     -   Reflections are structured according to the three primary areas discussed in Grading above
     -   Specific prompts will be provided in Moodle, but will generally include what has gone well for your progress in that area (refer to specific evidence), what difficulties you are still facing, and what you want to keep doing or change.
 
-In the final weeks of the semester, project work will replace many of these elements (see Project below).
+In the final weeks of the semester, project work will replace many of these elements (see Project below). You will present your project during our final exam time (May 13 at 9am) and submit your final reflection that evening.
 
 ### Weekly Structure
 
