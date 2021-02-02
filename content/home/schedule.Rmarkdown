@@ -33,6 +33,16 @@ if (updateFiles) {
 
 ## Schedule
 
+Overall, we will go through the first half of the Deep Learning for Coders book
+at the pace that works for us, then see where we are. Then we will plan together
+what remaining topics to discuss, such as:
+
+* language processing (my specific area of interest), especially Transformers
+* reinforcement learning
+* unsupervised learning
+* others as we identify them
+
+
 ```{r echo=FALSE}
 read_csv("../../timeline.csv", col_types = cols_only(
   Week = col_double(),
@@ -44,7 +54,7 @@ read_csv("../../timeline.csv", col_types = cols_only(
   select(Week, date = FullDate, class_num = `#`, class = Class) %>% 
   drop_na(class) %>% 
   mutate(class_num = parse_number(class_num)) %>% 
-  filter(class_num < 4) %>% 
+  filter(class_num < 5) %>% 
   select(Date = date, `#` = class_num, Topic = class) %>% 
   mutate(Date = glue("{wday(Date, label = TRUE)} {month(Date)}/{mday(Date)}")) %>% 
   knitr::kable()
