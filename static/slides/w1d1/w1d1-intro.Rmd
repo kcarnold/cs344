@@ -116,7 +116,7 @@ Class Blog
 
 Any work that can be graded consistently, fairly, and efficiently can be automated.
 
-We must focus on skils that cannot be automated.
+We must focus on skills that cannot be automated.
 
 Most important: *meta*cognition: awareness of what you know and don't.
 
@@ -139,4 +139,8 @@ Final grade is an average of weekly grades.
 ## Who am I?
 
 ---
+
+## Testers needed
+
+Need 1 or 2 people to stay after class (or Teams later) to test our remote lab setup.
 
