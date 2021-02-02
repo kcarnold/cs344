@@ -35,7 +35,7 @@ Many different projects are possible. When you make your project proposal, try t
 
 -   create an interactive application - using a model to do something interesting (e.g., [GANPaint](https://ganpaint.io/)), or allowing interesting exploration / interaction with the model itself (e.g., [LSTMVis](http://lstm.seas.harvard.edu/) or [Seq2Seq-Vis](https://seq2seq-vis.io/)). Links to lots of examples [here](https://distill.pub/2020/communicating-with-interactive-articles/).
 
--   try out a different deep learning toolkit (e.g., [Flux.jl](https://fluxml.ai/)) on several tasks from class
+-   try out a different deep learning toolkit (e.g., [Flux.jl](https://fluxml.ai/) or [SwiftAI](https://github.com/fastai/swiftai)) on several tasks from class
 
 -   Anything else that's fun and/or impactful---and challenges you to bring your best.
 
