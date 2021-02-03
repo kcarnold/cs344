@@ -12,9 +12,13 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
 ---
 
 ```{r setup, include=FALSE}
+# remotes::install_github('yihui/xaringan')
+#devtools::install_github("gadenbuie/countdown")
+library(countdown)
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
@@ -25,6 +29,18 @@ library(xaringanthemer)
 #  inverse_header_color = "#FFFFFF"
 #)
 ```
+
+## Pandemic Protocol
+
+The virus has upped its game. So we need to do likewise.
+
+1. Please show your green Campus Clear as you walk in.
+
+2. Please record where you're sitting on the [attendance sheet](https://docs.google.com/spreadsheets/d/1FCogt4a5yv3_jauwA6EUkzCYrVV0Yww6OoLplM7Tq54/edit#gid=112619962):
+  * <http://tiny.cc/cs344here>
+  * or link on Moodle.
+
+---
 
 ## God *expects* intelligence
 
@@ -70,7 +86,23 @@ To understand this, we must act intelligently—we must recall what God did in a
 
 ---
 
-class: middle
+## Minimal Logistics
+
+Before Friday class:
+
+* Skim the Syllabus
+* Sign up for Piazza
+* Optional Python review quiz
+* Come to Maroon lab on Friday (overflow to Gold)
+
+Before Monday class:
+
+* Get *Deep Learning for Coders* (or read the notebook version) and read chapter 1
+* Watch <https://course.fast.ai/videos/?lesson=1>
+* Complete the reading quiz on Moodle
+
+
+---
 
 .center[
 ## Let's do some machine learning!
@@ -82,7 +114,7 @@ Pick a partner. Decide who will be the *trainer* and who's the *tester*.
 
 * Go to <https://teachablemachine.withgoogle.com/train/image>
 * Train a simple classifier using your webcam.
-  * Ideas: use your hands, your face, some distinctive objects, ...
+  * Ideas: use your hands, your face, objects you have on you, ...
 * Don't worry about making it super accurate.
 
 **Tester**:
@@ -91,20 +123,10 @@ Pick a partner. Decide who will be the *trainer* and who's the *tester*.
   * Try to find some situations where it works
   * Try to find the most amusing situation where it fails.
 
----
+```{r echo=FALSE, results='asis'}
+countdown(minutes=15, update_every=15)
+```
 
-## Minimal Logistics
-
-For Friday:
-
-* Sign up for Piazza
-* Come to Maroon lab on Friday (overflow to Gold)
-
-For Monday:
-
-* Get *Deep Learning for Coders* (or read the notebook version) and read chapter 1
-* Watch <https://course.fast.ai/videos/?lesson=1>
-* Complete the reading quiz on Moodle
 
 ---
 
