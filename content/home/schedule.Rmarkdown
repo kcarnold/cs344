@@ -13,7 +13,10 @@ weight: 20
 library(tidyverse)
 library(glue)
 library(lubridate)
+# devtools::install_github("rpruim/daily")
+library(daily)
 ```
+
 
 ```{r include=FALSE}
 updateFiles <- FALSE
@@ -41,6 +44,29 @@ what remaining topics to discuss, such as:
 * reinforcement learning
 * unsupervised learning
 * others as we identify them
+
+
+```{r include=FALSE}
+here::here("daily.txt") %>% 
+  read_lines() %>% 
+  tibble(line = .) %>% 
+  mutate(
+    is_delim = str_starts(line, "==="),
+    delim_date = if_else(is_delim, str_sub(line, 4), NA_character_))
+```
+
+[Day 1 slides](/slides/w1d1/w1d1-intro.html)
+
+
+```{r echo=FALSE, results='asis'}
+#calendar_css() %>% cat()
+daily2cal(
+  path = here::here("daily.txt"),
+  start = lubridate::ymd("2021-02-03"),
+  days = "MWF") %>%
+  filter(date < lubridate::ymd("2021-02-12")) %>% 
+  html_calendar(show = 2:6) %>% cat()
+```
 
 
 ```{r echo=FALSE}

@@ -1,0 +1,62 @@
+CS 344: Artificial Intelligence
+Spring 2021 -- 11:30am
+
+days:: MWF
+
+items::
+Topic;  b;      color=black;    T:
+Read;   i;      color=blue;     R:
+Assign; i;      color=green;    A:
+HW;     t;      color=green;    A:
+Due;    t;      color=red> Due: <!-- --;        D:
+Note;   b;      color=green;    N:
+Vocab;  t;      color=purple;   V:
+
+
+===03/04/2021
+
+Note:: Advising Day
+
+===03/23/2021
+
+Note:: Advising Day
+
+===04/14/2021
+
+Note:: Advising Day
+
+
+===04/04/2021
+Note:: Easter
+
+===05/9/2021
+
+Note:: Friday Class Schedule
+
+===05/7/2021
+
+Note:: Study Day
+
+
+
+
+===02/03/2021
+Topic:: Kickoff, Teachable Machine, Logistics
+Read:: read Syllabus
+
+===
+Topic:: Lab 0: Warm-up
+Read:: read DL4C chapter 1@@https://github.com/fastai/fastbook/blob/master/01_intro.ipynb
+Read:: Watch Lesson 1 Video@@https://course.fast.ai/videos/?lesson=1
+Note:: Complete reading quiz by Monday
+
+===
+Topic:: Lab 1 (Chapter 1)
+
+===
+Topic:: Guest lecture: KVL
+
+===
+Topic:: Guest lecture: KVL
+
+===endofcal
