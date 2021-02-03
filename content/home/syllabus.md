@@ -74,6 +74,15 @@ I expect in-person attendance where possible, remote attendance when necessary, 
 
 **Etiquette**: We expect you to treat students and instructors for this with respect by adopting courteous communication practices throughout the course, either on the videos, which may be recorded, or the online forums. No personal attacks, trolling, bad language will be tolerated.
 
+### Diversity and Inclusion
+
+I came to Calvin because I wanted to explore what our Christian calling to “act justly” means in the context of data and the technologies that we use with it. Engaging that question wholeheartedly requires that each of us, me included, engage respectfully with perspectives very different from our own. For example, we must question those who abuse data for selfish gain, but we also must question the perspectives of those who challenge those abuses on purely secular grounds.
+
+I intend for this class to be an environment where we equally respect people of every ethnicity, gender, socioeconomic background, political learning, religious background, etc. I will try to create that community by having us read diverse voices, engage with issues of importance to people unlike ourselves, and structure discussions that require students to engage respectfully with perspectives different from their own. I invite your help.
+
+We will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I will welcome this feedback in whatever way is comfortable for you: in public, in private, via another person (such as our TA or my department chair, Keith VanderLinden), or via a report to [Safer Spaces](https://calvin.edu/offices-services/safer-spaces/) or the [provost's office](http://www.calvin.edu/go/comments-on-faculty/).
+
+
 ## Philosophy
 
 Our teaching philosophy is analogous to how both classical AI (planning) and modern machine learning systems (backpropagation) work: start with the goal, work backwards, and iteratively improve. So rather than starting with mathematical fundamentals, we will start by doing, then learn the fundamentals as we need to.
