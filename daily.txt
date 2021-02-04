@@ -128,5 +128,9 @@ Topic:: Guest lecture: KVL
 
 ===
 Topic:: Guest lecture: KVL
+Homework::
+
+Build and evaluate a classifier to determine if a photo is taken of the inside
+vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
 
 ===endofcal

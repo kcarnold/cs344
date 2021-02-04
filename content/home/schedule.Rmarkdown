@@ -18,66 +18,17 @@ library(daily)
 ```
 
 
-```{r include=FALSE}
-updateFiles <- FALSE
-if (updateFiles) {
-  tribble(~ gid, ~ name,
-          "90588745", "timeline") %>%
-    pwalk(function(gid, name) {
-      download.file(
-        url = glue(
-          "https://docs.google.com/spreadsheets/d/1mdTSwgOJ41di3yr6xvf6tdBRwxlrx2NGbmXY0PJo6sQ/export?format=csv&gid={gid}"
-        ),
-        destfile = glue("../../{name}.csv")
-      )
-    })
-}
-```
-
 ## Schedule
-
-Overall, we will go through the first half of the Deep Learning for Coders book
-at the pace that works for us, then see where we are. Then we will plan together
-what remaining topics to discuss, such as:
-
-* language processing (my specific area of interest), especially Transformers
-* reinforcement learning
-* unsupervised learning
-* others as we identify them
-
-
-```{r include=FALSE}
-here::here("daily.txt") %>% 
-  read_lines() %>% 
-  tibble(line = .) %>% 
-  mutate(
-    is_delim = str_starts(line, "==="),
-    delim_date = if_else(is_delim, str_sub(line, 4), NA_character_))
-```
-
-
-### Homework 1
-
-**Not yet assigned**
-
-Build and evaluate a classifier to determine if a photo is taken of the inside
-vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
-
-
-
 
 ```{r echo=FALSE, results='asis'}
 add_prefix <- function(s, prefix) {
   str_replace_all(s, regex("^", multiline = TRUE), prefix)
 }
 
-#calendar_css() %>% cat()
 daily2cal(
   path = here::here("daily.txt"),
-  start = lubridate::ymd("2021-02-03"),
-  days = "MWF") %>%
-  filter(date < lubridate::ymd("2021-02-12")) %>% 
-  #select(date, week, Topic, Prep, Resources) %>% 
+  end = lubridate::ymd("2021-02-12"),
+) %>%
   pivot_longer(-c(date, week), names_to = "label", values_to = "contents") %>% 
   filter(
     !(str_to_lower(label) %in% c("log", "reflection", "next time")),
@@ -87,34 +38,26 @@ daily2cal(
     str_extract(contents, regex("^[^\\n]+$", multiline = TRUE)),
     contents
   )) %>% 
-  #group_by(week) %>% 
   mutate(
     topic_contents = glue("* **{label}**\n{add_prefix(contents, '    ')}")) %>% 
   group_by(week, date) %>% 
   summarize(
+    date = first(date),
+    date = glue("{wday(date, label = TRUE)} {month(date)}/{mday(date)}"),
     day_contents = glue("* {first(date)}\n\n{paste0(add_prefix(topic_contents, '    '), collapse = '\n')}"), .groups = "drop") %>% 
-  #group_by(week) %>% 
   summarize(markdown = str_c(day_contents, collapse = "\n"), .groups="drop") %>% 
   pull(markdown) %>% 
   cat()
-  #html_calendar(show = 2:6) %>% cat()
 ```
 
 
-```{r echo=FALSE}
-read_csv("../../timeline.csv", col_types = cols_only(
-  Week = col_double(),
-  `#` = col_character(),
-  Topic = col_character(),
-  Class = col_character(),
-  FullDate = col_date(format = "")
-)) %>% 
-  select(Week, date = FullDate, class_num = `#`, class = Class) %>% 
-  drop_na(class) %>% 
-  mutate(class_num = parse_number(class_num)) %>% 
-  filter(class_num < 5) %>% 
-  select(Date = date, `#` = class_num, Topic = class) %>% 
-  mutate(Date = glue("{wday(Date, label = TRUE)} {month(Date)}/{mday(Date)}")) %>% 
-  knitr::kable()
-```
 
+
+Overall, we will go through the first half of the Deep Learning for Coders book
+at the pace that works for us, then see where we are. Then we will plan together
+what remaining topics to discuss, such as:
+
+* language processing (my specific area of interest), especially Transformers
+* reinforcement learning
+* unsupervised learning
+* others as we identify them
