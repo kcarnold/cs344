@@ -6,14 +6,14 @@ design:
   columns: '1'
 
 title: "Schedule"
-weight: 20
+weight: 5
 ---
 
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(glue)
 library(lubridate)
-# devtools::install_github("rpruim/daily")
+# devtools::install_github("kcarnold/daily")
 library(daily)
 ```
 
@@ -55,17 +55,49 @@ here::here("daily.txt") %>%
     delim_date = if_else(is_delim, str_sub(line, 4), NA_character_))
 ```
 
-[Day 1 slides](/slides/w1d1/w1d1-intro.html)
+
+### Homework 1
+
+**Not yet assigned**
+
+Build and evaluate a classifier to determine if a photo is taken of the inside
+vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
+
+
 
 
 ```{r echo=FALSE, results='asis'}
+add_prefix <- function(s, prefix) {
+  str_replace_all(s, regex("^", multiline = TRUE), prefix)
+}
+
 #calendar_css() %>% cat()
 daily2cal(
   path = here::here("daily.txt"),
   start = lubridate::ymd("2021-02-03"),
   days = "MWF") %>%
   filter(date < lubridate::ymd("2021-02-12")) %>% 
-  html_calendar(show = 2:6) %>% cat()
+  #select(date, week, Topic, Prep, Resources) %>% 
+  pivot_longer(-c(date, week), names_to = "label", values_to = "contents") %>% 
+  filter(
+    !(str_to_lower(label) %in% c("log", "reflection", "next time")),
+    !is.na(contents)) %>% 
+  mutate(contents = if_else(
+    label %in% c("Quiz"),
+    str_extract(contents, regex("^[^\\n]+$", multiline = TRUE)),
+    contents
+  )) %>% 
+  #group_by(week) %>% 
+  mutate(
+    topic_contents = glue("* **{label}**\n{add_prefix(contents, '    ')}")) %>% 
+  group_by(week, date) %>% 
+  summarize(
+    day_contents = glue("* {first(date)}\n\n{paste0(add_prefix(topic_contents, '    '), collapse = '\n')}"), .groups = "drop") %>% 
+  #group_by(week) %>% 
+  summarize(markdown = str_c(day_contents, collapse = "\n"), .groups="drop") %>% 
+  pull(markdown) %>% 
+  cat()
+  #html_calendar(show = 2:6) %>% cat()
 ```
 
 
