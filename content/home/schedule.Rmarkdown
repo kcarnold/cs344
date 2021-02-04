@@ -21,6 +21,10 @@ library(daily)
 ## Schedule
 
 ```{r echo=FALSE, results='asis'}
+# Note: this could use <details> for the nested tree; I think `<details open>` will work
+# https://gist.github.com/ericclemmons/b146fe5da72ca1f706b2ef72a20ac39d
+
+
 add_prefix <- function(s, prefix) {
   str_replace_all(s, regex("^", multiline = TRUE), prefix)
 }
