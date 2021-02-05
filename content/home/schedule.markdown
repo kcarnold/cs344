@@ -38,6 +38,16 @@ weight: 5
         * Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
         * Complete reading quiz by Monday
 
+    * **Notes**
+        
+        <details open><summary>Lab Logistics</summary>
+        
+        * Come to Maroon lab. Fill in computers as available, others stand around the sides of
+          the room (at safe distance) for overview (then move to Gold lab)
+        * People at Maroon lab computers: **reboot into Linux**
+        
+        </details>
+
 * Mon 2/8
 
     * **Topic**
