@@ -1,0 +1,63 @@
+---
+title: "Python Warmup"
+author: "K Arnold"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# devtools::install_github("rstudio/packrat")
+# remotes::install_github("rstudio-education/gradethis")
+
+library(learnr)
+library(reticulate)
+gradethis::gradethis_setup()
+```
+
+## Starts with capital letter
+
+Write a Python function called `starts_with_cap` that takes a string and returns `True` if the string starts with a capital letter.
+
+There are at least two different ways to do this, so if you've gotten one, try to find another!
+
+```{python starts-with-cap, exercise=TRUE, exercise.lines = 5}
+starts_with_cap("Hello") # should return True
+starts_with_cap("hello") # should return False
+```
+
+```{python starts-with-cap-solution}
+def starts_with_cap(x):
+  return x[:1].isupper()
+```
+
+## Strip after `_`
+
+Write a Python function called `strip_after_last_underscore` that takes a string and returns that same string up until the last underscore.
+
+```{python strip_after_last_underscore}
+strip_after_last_underscore("ab_c.jpg") # should return "ab"
+strip_after_last_underscore("ab_cd_123.jpg") # should return "ab_cd"
+```
+
+    strip_after_last_underscore("ab_c.jpg") # should return "ab"
+    strip_after_last_underscore("ab_cd_123.jpg") # should return "ab_cd"
+
+# map
+
+# getattr
+
+```{python}
+class Thing:
+  def __getitem__(self, x): return f"Item {x}"
+  def __getattr__(self, x): return f"Attr {x}"
+
+# explain the result of each of the following lines.
+y = Thing
+y.abc
+y['abc']
+z = y()
+z.abc
+z['abc']
+z[abc]
+```
