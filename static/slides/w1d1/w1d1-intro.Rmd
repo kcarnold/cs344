@@ -174,12 +174,15 @@ So, you should be:
 ]
 
 .pull-right[
-Why the fastai course?
+Why the [fastai course](https://course.fast.ai/)?
 
 * Author Jeremy Howard (author and video lecturer) has extensive experience
 * Past students of the fastai course have published original research and won competitions
-* Layered API on top of PyTorch makes
-* Jupyter Notebooks
+* Custom [software library](https://docs.fast.ai/) builds on PyTorch
+  * a close competitor to TensorFlow
+  * popular in academic research
+  * [layered API](https://www.mdpi.com/2078-2489/11/2/108/htm) speeds up development
+* Jupyter Notebooks: you can run everything yourself
 ]
 
 ---
