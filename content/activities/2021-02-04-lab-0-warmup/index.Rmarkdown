@@ -7,7 +7,7 @@ categories: []
 tags:
   - lab
 subtitle: ''
-summary: ''
+summary: 'Get set up, get comfortable, and start working together.'
 authors: []
 lastmod: '2021-02-04T17:30:58-05:00'
 featured: no
@@ -44,8 +44,10 @@ projects: []
 
 ### Overflow logistics
 
-* The Gold lab GPUs don't have enough RAM
-* So you'll need to use <https://remote.cs.calvin.edu> to log into a Linux Maroon machine (*not maroonvm*)
+* We don't all fit in the Maroon lab.
+* The Gold lab is available, but its GPUs don't have enough RAM
+* So overflow students will sit in Gold lab, but use <https://remote.cs.calvin.edu> to log into a Linux Maroon machine (*not maroonvm*)
+  * For today, we don't need the GPU, so you can actually use any Linux machine, even the VMs.
 
 ### Environment Setup
 
@@ -64,12 +66,25 @@ projects: []
 
 ## github
 
-* TODO: setup Classroom
-* TODO: setup assignment to clone
+1. Pick a partner (or decide to go solo).
+2. One of you go [here](https://classroom.github.com/g/WPoe10Vu) and *create* your team (use your email usernames, like `ka37-em11`)
+3. The other go there and *join* the team.
+4. Clone the repo to your computer. (If you need help, ask a friend.)
+5. Create a new Jupyter Notebook within that repo. Use it to compute 1+1.
+6. Save it and push it up to GitHub. Make sure you can see your calculation there.
 
 ## How we collaborate
 
-Problem: we're in two different rooms; it shouldn't matter which room you're in.
+Problems:
+
+* It's hard for me to see what you're doing at 6 ft away.
+* We're in two different rooms.
+
+Solution we're going to try:
+
+* Overall announcements, pointers, and microelctures: we'll use a shared document on Teams.
+* Partners: call each other on Teams (no audio) and share screen
+* Need help? join the main class meeting and share your screen.
 
 * Teams and shared document for most communication
 * Share screens liberally
@@ -84,7 +99,10 @@ in a Terminal window.
 
 ## Task
 
-Make a Tic-Tac-Toe AI.
+In our real weekly labs, we will have a guided sequence of tasks to try. But for
+today, we'll just pretend that our task is:
+
+> Make a Tic-Tac-Toe AI.
 
 Approach:
 
@@ -95,3 +113,9 @@ the first thing you'll want to see working).
   * Edit for clarifications, fork for variations
   * Add subsequent steps indented below the first step
 3. We'll discuss.
+
+**Note**: If you want to actually work this out, go for it. But concentrate on
+the reading and video for this weekend.
+
+
+**Before you leave the lab**, be kind and reboot the machines.
