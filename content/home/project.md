@@ -64,3 +64,7 @@ Many existing images/videos/audio are locked in poor quality low-efficiency code
 
 -   **Input**: a JPEG (or other legacy codec) bitstream, unpacked (e.g., the JPEG data could be arranged spatially, so the data for each macroblock would align with where it is in the image).
 -   **Output**: the correct image (or audio, video, etc.)
+
+## Learned Audio Processing
+
+Play with Google's [DDSP](https://github.com/magenta/ddsp) (Differentiable Digital Signal Processing) or [other demos from the Magenta group](https://github.com/magenta/magenta-demos). Push its limits a bit.
