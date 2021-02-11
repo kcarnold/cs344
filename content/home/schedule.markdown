@@ -56,6 +56,16 @@ weight: 5
 
     * **Topic**
         Guest lecture: KVL
+* Mon 2/15
+
+    * **Topic**
+        Lab 1 recap
+    * **Homework**
+        
+        
+        (announced today, due in about a week)
+        Build and evaluate a classifier to determine if a photo is taken of the inside
+        vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
 
 
 

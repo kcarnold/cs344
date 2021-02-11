@@ -31,7 +31,7 @@ add_prefix <- function(s, prefix) {
 
 daily2cal(
   path = here::here("daily.txt"),
-  end = lubridate::ymd("2021-02-12"),
+  end = lubridate::ymd("2021-02-20"),
 ) %>%
   pivot_longer(-c(date, week), names_to = "label", values_to = "contents") %>% 
   filter(
