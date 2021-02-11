@@ -37,6 +37,8 @@ daily2cal(
   filter(
     !(str_to_lower(label) %in% c("log", "reflection", "next time")),
     !is.na(contents)) %>% 
+  mutate(contents = str_trim(contents, side = "right")) %>% 
+  filter(label != "Notes" | contents != "") %>% 
   mutate(contents = if_else(
     label %in% c("Quiz"),
     str_extract(contents, regex("^[^\\n]+$", multiline = TRUE)),
