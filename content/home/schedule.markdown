@@ -14,58 +14,87 @@ weight: 5
 
 ## Schedule
 
-* Wed 2/3
 
-    * **Topic**
-        Kickoff, Teachable Machine, Logistics
-    * **Prep**
-        read Syllabus
-    * **Resources**
-        [Day 1 slides](/slides/w1d1/w1d1-intro.html)
-* Thu 2/4
 
-    * **Quiz**
-        Python review
-* Fri 2/5
+<table border=1 width=95%>
+<colgroup>
+<col width = "10%">
+<col width = "10%">
+<col width = "10%">
+<col width = "10%">
+<col width = "10%">
+</colgroup>
+<thead><tr>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+</tr></thead><tbody><tr>
+<!--  0 > -Inf -->
+</tr><tr>
+<td class = "even">2/1<br><span class = "html"></span><br><br></td>
+<td class = "even">2/2<br><span class = "html"></span><br><br></td>
+<td class = "even">2/3<br><span class = "html"><p><strong>Topic</strong> Kickoff, Teachable Machine, Logistics</p>
 
-    * **Topic**
-        Lab 0: Warm-up
-    * **Prep**
-        
-        * read [DL4C chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
-        * Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
-        * Complete reading quiz by Monday
-    * **Notes**
-        
-        <details><summary>Lab Logistics</summary>
-        
-        * Come to Maroon lab. Fill in computers as available, others stand around the sides of
-          the room (at safe distance) for overview (then move to Gold lab)
-        * People at Maroon lab computers: **reboot into Linux**
-        
-        </details>
-* Mon 2/8
+<p><strong>Prep</strong> read Syllabus</p>
 
-    * **Topic**
-        Lab 1 (Chapter 1)
-* Wed 2/10
+<p><strong>Resources</strong> <a href="/slides/w1d1/w1d1-intro.html">Day 1 slides</a></p>
+</span><br><br></td>
+<td class = "even">2/4<br><span class = "html"><p><strong>Quiz</strong> Python review</p>
+</span><br><br></td>
+<td class = "even">2/5<br><span class = "html"><p><strong>Topic</strong> Lab 0: Warm-up</p>
 
-    * **Topic**
-        Guest lecture: KVL
-* Fri 2/12
+<p><strong>Prep</strong> </p>
 
-    * **Topic**
-        Guest lecture: KVL
-* Mon 2/15
+<ul>
+<li>read <a href="https://github.com/fastai/fastbook/blob/master/01_intro.ipynb">DL4C chapter 1</a></li>
+<li>Watch <a href="https://course.fast.ai/videos/?lesson=1">Lesson 1 Video</a></li>
+<li>Complete reading quiz by Monday</li>
+</ul>
 
-    * **Topic**
-        Lab 1 recap
-    * **Homework**
-        
-        
-        (announced today, due in about a week)
-        Build and evaluate a classifier to determine if a photo is taken of the inside
-        vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
+<p><strong>Notes</strong> 
+<details><summary>Lab Logistics</summary></p>
+
+<ul>
+<li>Come to Maroon lab. Fill in computers as available, others stand around the sides of
+the room (at safe distance) for overview (then move to Gold lab)</li>
+<li>People at Maroon lab computers: <strong>reboot into Linux</strong></li>
+</ul>
+
+<p></details></p>
+</span><br><br></td>
+<!--  1 > 0 -->
+</tr><tr>
+<td class = "even">2/8<br><span class = "html"><p><strong>Topic</strong> Lab 1 (Chapter 1)</p>
+</span><br><br></td>
+<td class = "even">2/9<br><span class = "html"></span><br><br></td>
+<td class = "even">2/10<br><span class = "html"><p><strong>Topic</strong> Guest lecture: KVL</p>
+</span><br><br></td>
+<td class = "even">2/11<br><span class = "html"></span><br><br></td>
+<td class = "even">2/12<br><span class = "html"><p><strong>Topic</strong> Guest lecture: KVL</p>
+</span><br><br></td>
+<!--  2 > 1 -->
+</tr><tr>
+<td class = "even">2/15<br><span class = "html"><p><strong>Topic</strong> Lab 1 recap</p>
+
+<p><strong>Homework</strong> </p>
+
+<p>(announced today, due in about a week)
+Build and evaluate a classifier to determine if a photo is taken of the inside
+vs outside of a restaurant. Don&#39;t scrape photos; use the Yelp Academic Dataset.</p>
+</span><br><br></td>
+</tr></tbody></table>
+
+
+<style>
+table ul {
+  padding-left: 1rem;
+}
+</style>
+
+
+
 
 
 
