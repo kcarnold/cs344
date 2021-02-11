@@ -56,7 +56,7 @@ daily2cal(
   cat()
 ```
 
-```{r include=TRUE}
+```{r include=FALSE, eval=FALSE}
 #' A version of purrr::accumulate that maintains the data type of the input.
 #
 # Needed because accumulate with dates coerces to `dbl`.
@@ -69,6 +69,31 @@ accumulate_custom <- function(x, f) {
     res[[i]] <- prev <- f(prev, x[[i]])
   }
   res
+}
+
+split_into_sections <- function(day_contents) {
+  # If content starts with space or is only whitespace, it continues the previous
+  # section. Otherwise, it's in the Private section.
+
+  tibble(line = day_contents) %>% 
+  filter(row_number() > 1) %>% 
+  separate(line, into = c("section", "contents"), sep = "::", fill = "left") %>% 
+  
+  # starting with "  " continues sections.
+  mutate(starts_with_whitespace = str_starts(contents, "  ")) %>% 
+  
+  # trim that starting "  ".
+  mutate(contents = if_else(
+    starts_with_whitespace, str_sub(contents, 3), contents)) %>% 
+  
+  # whitespace also means continue sections.
+  mutate(should_continue_section =
+    is.na(section) & 
+      ((str_trim(contents) == "") | starts_with_whitespace)) %>% 
+  group_by(section_idx = cumsum(!should_continue_section)) %>% 
+  summarize(section = first(section), body = paste(contents, collapse = '\n')) %>% 
+  replace_na(list(section = "Private")) %>% 
+  select(-section_idx)
 }
 
 mask <- daily:::days2mask("MWF")
@@ -87,21 +112,21 @@ x <- here::here("daily.txt") %>%
   mutate(hit_end = cumsum(str_detect(daysep, "endofcal"))) %>% 
   filter(hit_end == 0) %>% 
   mutate(day = lubridate::mdy(daysep)) %>% 
-  select(-daysep) %>% 
+  select(-daysep, -day_spec, -hit_end) %>% 
   # Fill in unspecified days
-  mutate(day2 = accumulate_custom(day, function(prev_day, day) {
+  mutate(day = accumulate_custom(day, function(prev_day, day) {
     if (is.na(day)) daily:::next_cal_day(prev_day, mask)
     else day
-  }))
+  })) %>% 
+  rowwise() %>% 
+  mutate(day_contents = list(split_into_sections(rest))) %>% 
+  select(-rest) %>% 
+  unnest(day_contents)
 x
 ```
 
 ```{r}
 
-accumulate_custom(x$day, function(prev_day, day) {
-    if (is.na(day)) daily:::next_cal_day(prev_day, mask)
-    else day
-  })
 ```
 
 
