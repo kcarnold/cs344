@@ -54,6 +54,55 @@ daily2cal(
   cat()
 ```
 
+```{r include=TRUE}
+#' A version of purrr::accumulate that maintains the data type of the input.
+#
+# Needed because accumulate with dates coerces to `dbl`.
+
+accumulate_custom <- function(x, f) {
+  res <- x
+  prev <- x[[1]]
+  for(i in seq_along(x)) {
+    if (i == 1) next;
+    res[[i]] <- prev <- f(prev, x[[i]])
+  }
+  res
+}
+
+mask <- daily:::days2mask("MWF")
+x <- here::here("daily.txt") %>% 
+  read_lines() %>% 
+  tibble(line = .) %>% 
+  mutate(is_delim = str_starts(line, "==="), day_spec = cumsum(is_delim)) %>% 
+  group_by(day_spec) %>% 
+  summarize(daysep = first(line), rest = list(line)) %>% 
+  filter(day_spec > 0) %>% 
+  # remove `===` prefix
+  mutate(daysep = str_sub(daysep, start = 4)) %>% 
+  # mark skipped days (TODO handle)
+  mutate(skip = str_detect(daysep, "skip")) %>% 
+  # stop before end of calendar
+  mutate(hit_end = cumsum(str_detect(daysep, "endofcal"))) %>% 
+  filter(hit_end == 0) %>% 
+  mutate(day = lubridate::mdy(daysep)) %>% 
+  select(-daysep) %>% 
+  # Fill in unspecified days
+  mutate(day2 = accumulate_custom(day, function(prev_day, day) {
+    if (is.na(day)) daily:::next_cal_day(prev_day, mask)
+    else day
+  }))
+x
+```
+
+```{r}
+
+accumulate_custom(x$day, function(prev_day, day) {
+    if (is.na(day)) daily:::next_cal_day(prev_day, mask)
+    else day
+  })
+```
+
+
 
 
 
