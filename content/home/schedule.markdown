@@ -21,9 +21,7 @@ weight: 5
     * **Prep**
         read Syllabus
     * **Resources**
-        
-        * [Day 1 slides](/slides/w1d1/w1d1-intro.html)
-
+        [Day 1 slides](/slides/w1d1/w1d1-intro.html)
 * Thu 2/4
 
     * **Quiz**
@@ -37,36 +35,32 @@ weight: 5
         * read [DL4C chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
         * Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
         * Complete reading quiz by Monday
-
     * **Notes**
         
-        <details open><summary>Lab Logistics</summary>
+        <details><summary>Lab Logistics</summary>
         
         * Come to Maroon lab. Fill in computers as available, others stand around the sides of
           the room (at safe distance) for overview (then move to Gold lab)
         * People at Maroon lab computers: **reboot into Linux**
         
         </details>
-
 * Mon 2/8
 
     * **Topic**
         Lab 1 (Chapter 1)
-
 * Wed 2/10
 
     * **Topic**
         Guest lecture: KVL
-
 * Fri 2/12
 
     * **Topic**
         Guest lecture: KVL
-    * **Homework**
-        
-        
-        Build and evaluate a classifier to determine if a photo is taken of the inside
-        vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
+
+
+
+
+
 
 
 

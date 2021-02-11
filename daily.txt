@@ -47,99 +47,115 @@ Note:: Study Day
 ===02/03/2021
 Topic:: Kickoff, Teachable Machine, Logistics
 Prep:: read Syllabus
-Resources::
-* [Day 1 slides](/slides/w1d1/w1d1-intro.html)
+Resources:: [Day 1 slides](/slides/w1d1/w1d1-intro.html)
 
 Log::
-* 15+ min: think-pair-share about intelligence in Scripture (Psalm 103 example)
-* 5 min: bare minimum logistics
-* 15 min: Teachable Machine in partners
-* 5 min: debrief Teachable Machine
-* 5 min: objectives and send-off
+  * 15+ min: think-pair-share about intelligence in Scripture (Psalm 103 example)
+  * 5 min: bare minimum logistics
+  * 15 min: Teachable Machine in partners
+  * 5 min: debrief Teachable Machine
+  * 5 min: objectives and send-off
 
 Reflection::
-* People got talking with each other.
-* People reflected on God's word and what it means for our class, in a way that
-  will give persective to the rest of our time together.
-* People got experience with machine learning and data collection.
+  * People got talking with each other.
+  * People reflected on God's word and what it means for our class, in a way that
+    will give persective to the rest of our time together.
+  * People got experience with machine learning and data collection.
 
-It wasn't perfect, but it was the right way to start the semester.
+  It wasn't perfect, but it was the right way to start the semester.
 
 Next time::
-* Shorter Scripture passage
-* Frame the Scripture TPS with an example?
-* Maybe have a backup device in case Teachable Machine doesn't work for someone?
+  * Shorter Scripture passage
+  * Frame the Scripture TPS with an example?
+  * Maybe have a backup device in case Teachable Machine doesn't work for someone?
 
 ===02/04/2021
 Quiz:: Python review
 
-* Boolean function: does this string start with a capital letter?
-* func returning a string: strip everything after (and including) the last underscore
-* do this for every string in a list, without rewriting the logic
-* return the sum of the square of every element in a list
+  * Boolean function: does this string start with a capital letter?
+  * func returning a string: strip everything after (and including) the last underscore
+  * do this for every string in a list, without rewriting the logic
+  * return the sum of the square of every element in a list
 
-```
-x = 'grizzly', 'white', 'teddy'
-a,b,c = x
-print(c)
-```
+  ```
+  x = 'grizzly', 'white', 'teddy'
+  a,b,c = x
+  print(c)
+  ```
 
-```
-class Thing:
-  def __getitem__(self, x): return f"Item {x}"
-  def __getattr__(self, x): return f"Attr {x}"
+  ```
+  class Thing:
+    def __getitem__(self, x): return f"Item {x}"
+    def __getattr__(self, x): return f"Attr {x}"
 
-# explain the result of each of the following lines.
-y = Thing
-y.abc
-y['abc']
-z = y()
-z.abc
-z['abc']
-z[abc]
-```
+  # explain the result of each of the following lines.
+  y = Thing
+  y.abc
+  y['abc']
+  z = y()
+  z.abc
+  z['abc']
+  z[abc]
+  ```
 
-Suppose you have `def do_to_all(x, f): return [f(o) for o in x]`
+  Suppose you have `def do_to_all(x, f): return [f(o) for o in x]`
 
-Fill in the blank:
+  Fill in the blank:
 
-```
-paths = ['a_b1', 'b_c2']
-stripped_paths = do_to_all(paths, _____)
-print(paths)
-```
+  ```
+  paths = ['a_b1', 'b_c2']
+  stripped_paths = do_to_all(paths, _____)
+  print(paths)
+  ```
 
-So that you get ['a', 'b']. Explain why this works.
+  So that you get ['a', 'b']. Explain why this works.
 
 
 
 ===
 Topic:: Lab 0: Warm-up
 Prep::
-* read [DL4C chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
-* Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
-* Complete reading quiz by Monday
+  * read [DL4C chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
+  * Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
+  * Complete reading quiz by Monday
 
 Notes::
-<details open><summary>Lab Logistics</summary>
+  <details><summary>Lab Logistics</summary>
 
-* Come to Maroon lab. Fill in computers as available, others stand around the sides of
-  the room (at safe distance) for overview (then move to Gold lab)
-* People at Maroon lab computers: **reboot into Linux**
+  * Come to Maroon lab. Fill in computers as available, others stand around the sides of
+    the room (at safe distance) for overview (then move to Gold lab)
+  * People at Maroon lab computers: **reboot into Linux**
 
-</details>
+  </details>
 
 ===
 Topic:: Lab 1 (Chapter 1)
 
+Notes::
+
+
+Next Time::
+  * Simplify the questions.
+  * Give some guidance on logistics (remind Lab 0: github, Maroon lab not VMs, full-screen trick)
+  * Have students make some observations about individual images.
+
+
 ===
 Topic:: Guest lecture: KVL
 
 ===
 Topic:: Guest lecture: KVL
+
+===
+Topic:: Lab 1 recap
+
+* Review lab 1.
+* Announce hw1
+
 Homework::
 
-Build and evaluate a classifier to determine if a photo is taken of the inside
-vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
+  (announced today, due in about a week)
+  Build and evaluate a classifier to determine if a photo is taken of the inside
+  vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
 
 ===endofcal
