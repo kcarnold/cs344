@@ -114,10 +114,6 @@ Quiz:: Python review
 
 ===
 Topic:: Lab 0: Warm-up
-Prep::
-  * read [DL4C chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
-  * Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
-  * Complete reading quiz by Monday
 
 Notes::
   <details><summary>Lab Logistics</summary>
@@ -131,6 +127,12 @@ Notes::
 ===
 Topic:: Lab 1 (Chapter 1)
 
+Prep::
+  * read [DL4C chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
+  * Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
+  * Complete reading quiz
+
+
 Notes::
 
 
@@ -143,11 +145,21 @@ Next Time::
 ===
 Topic:: Guest lecture: KVL
 
+Due:: Reflection 1
+
+===02/11/2021
+Quiz:: Quiz 2
+
 ===
 Topic:: Guest lecture: KVL
 
 ===
 Topic:: Lab 1 recap
+
+Read:: [DL4C chapter 2](https://github.com/fastai/fastbook/blob/master/02_production.ipynb)
+    *note: ignore the implementation of `class DataLoaders`.*
+Watch:: [Lesson 2 Video](https://course.fast.ai/videos/?lesson=2)
+Quiz:: Reading Quiz 2
 
 * Review lab 1.
 * Announce hw1
@@ -157,5 +169,20 @@ Homework::
   (announced today, due in about a week)
   Build and evaluate a classifier to determine if a photo is taken of the inside
   vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
+
+
+===
+Topic:: Review, Intro to AI Ethics
+
+Read::
+  * [DL4C chapter 3](https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb) until "Topics in Data Ethics"
+  * the **table of contents** of the [January 2021 Montreal AI Ethics Report](https://montrealethics.ai/wp-content/uploads/2021/01/State-of-AI-Ethics-Report-January-2021.pdf)
+Discussion Post:: A topic that caught your eye
+
+===02/18/2021
+Quiz:: Quiz 3
+
+===
+Topic:: Lab 1 extension, homework work
 
 ===endofcal
