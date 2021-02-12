@@ -161,7 +161,8 @@ Read:: [DL4C chapter 2](https://github.com/fastai/fastbook/blob/master/02_produc
 Watch:: [Lesson 2 Video](https://course.fast.ai/videos/?lesson=2)
 Quiz:: Reading Quiz 2
 
-* Review lab 1.
+* Review lab 1. (peer feedback)
+* Give feedback about weekly reviews
 * Announce hw1
 
 Homework::
@@ -177,12 +178,18 @@ Topic:: Review, Intro to AI Ethics
 Read::
   * [DL4C chapter 3](https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb) until "Topics in Data Ethics"
   * the **table of contents** of the [January 2021 Montreal AI Ethics Report](https://montrealethics.ai/wp-content/uploads/2021/01/State-of-AI-Ethics-Report-January-2021.pdf)
-Discussion Post:: A topic that caught your eye
+
+Due:: Discussion post about a topic that caught your eye (before class)
+
+Due:: Reflection 2
 
 ===02/18/2021
 Quiz:: Quiz 3
 
 ===
 Topic:: Lab 1 extension, homework work
+
+* First peel-back-the-covers:
+* Use DataBlocks API instead of default ImageDataLoaders
 
 ===endofcal

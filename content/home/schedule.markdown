@@ -97,14 +97,16 @@ vs outside of a restaurant. Don&#39;t scrape photos; use the Yelp Academic Datas
 <td class = "even">2/16<br><span class = "html"></span><br><br></td>
 <td class = "even">2/17<br><span class = "html"><p><strong>Topic</strong> Review, Intro to AI Ethics</p>
 
+<p><strong>Due</strong> Discussion post about a topic that caught your eye (before class)</p>
+
+<p>Reflection 2</p>
+
 <p><strong>Read</strong> </p>
 
 <ul>
 <li><a href="https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a> until &ldquo;Topics in Data Ethics&rdquo;</li>
 <li>the <strong>table of contents</strong> of the <a href="https://montrealethics.ai/wp-content/uploads/2021/01/State-of-AI-Ethics-Report-January-2021.pdf">January 2021 Montreal AI Ethics Report</a></li>
 </ul>
-
-<p><strong>Discussion Post</strong> A topic that caught your eye</p>
 </span><br><br></td>
 <td class = "even">2/18<br><span class = "html"><p><strong>Quiz</strong> Quiz 3</p>
 </span><br><br></td>
