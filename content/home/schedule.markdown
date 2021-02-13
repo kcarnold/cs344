@@ -83,7 +83,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Quiz</strong> Reading Quiz 2</p>
 
-<p><strong>Read</strong> <a href="https://github.com/fastai/fastbook/blob/master/02_production.ipynb">DL4C chapter 2</a>
+<p><strong>Read</strong> <a href="https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb">DL4C chapter 2</a>
   <em>note: ignore the implementation of <code>class DataLoaders</code>.</em></p>
 
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=2">Lesson 2 Video</a></p>
