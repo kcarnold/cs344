@@ -1,0 +1,15 @@
+$CATEGORY: rq/rq2
+
+Name two potential challenges in using deep learning for text. {=*}
+
+What is a batch? {=*}
+
+What is data augmentation? Why might it be helpful? {=*}
+
+Give two examples of image augmentation transforms. {=*}
+
+What is out-of-domain data? {=*}
+
+What is domain shift? {=*}
+
+What is it called when we use get outputs from an already-trained model? {=*}
