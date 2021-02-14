@@ -16,18 +16,17 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-# remotes::install_github('yihui/xaringan')
-#devtools::install_github("gadenbuie/countdown")
-#library(countdown)
+source("../slides-common.R")
+slideSetup()
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
-style_duo_accent(
-  primary_color = "#1381B0",
-  secondary_color = "#FF961C",
-  inverse_header_color = "#FFFFFF"
-)
+# style_duo_accent(
+#   primary_color = "#1381B0",
+#   secondary_color = "#FF961C",
+#   inverse_header_color = "#FFFFFF"
+# )
 ```
 
 ## Logistics
@@ -49,6 +48,32 @@ style_duo_accent(
 
 ---
 
+## Reflection
+
+.absolute.right-1.top-1[Next one due Wednesday!]
+
+What could you have referenced for each of the topics?
+
+.can-edit.key-reflection-refs[
+* Tech
+  * ...
+* Community
+  * ...
+* Context / History
+  * ...
+]
+
+
+???
+
+* Tech
+  * Quizzes (Py, reading)
+  * Lab 1
+* Comm
+  * Teachable Machine first-day activity
+
+---
+
 ## Reflections: Tech
 
 .pull-left[
@@ -61,7 +86,7 @@ style_duo_accent(
 "didn't learn much implementation, but I made hypotheses about the neural nets we created in lab and analyzed them afterwards to verify that: a. Using more layers reduces the runtime (though actually only two layers are necessary) and b. reducing the amount of training data leads to a higher error percentage (such as by increasing the validation % or changing to a more unique/diverse classifier). This went well; I found the lab easy to understand after watching the video."
 ]
 
---
+---
 
 ## Reflection: Tech
 
@@ -94,7 +119,14 @@ Many ways to engage:
 
 > In our capstone class, I brought up some ideas about how AI relates to technology. We were talking about the limits of software and I proposed some ideas about how AI could be limited.
 
+---
 
+## Running Code
+
+* lab machines
+* Google Colab
+* your own computer
+* Another cloud provider?
 
 ---
 
