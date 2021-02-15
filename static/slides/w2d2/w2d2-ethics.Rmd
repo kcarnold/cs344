@@ -1,0 +1,40 @@
+---
+title: "Debrief of Week 1"
+subtitle: "AI / Machine Learning<br>Spring 2021"
+author: 
+  - "Ken Arnold"
+date: '2021-02-15'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+source("../slides-common.R")
+slideSetup()
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+# style_duo_accent(
+#   primary_color = "#1381B0",
+#   secondary_color = "#FF961C",
+#   inverse_header_color = "#FFFFFF"
+# )
+```
+
+
+
+### Some further reading on data ethics
+
+* [The Oxford Handbook of Ethics of AI](https://global.oup.com/academic/product/the-oxford-handbook-of-ethics-of-ai-9780190067397?cc=ca&lang=en&#)
+  * e.g., chapter of [Race and Gender](https://arxiv.org/abs/1908.06165) was written by Timnit Gebru
+* Coded Bias documentary
+* Fast.AI [Data Ethics course](https://ethics.fast.ai/)
+
