@@ -15,6 +15,30 @@ weight: 100
 * Helpful references
   * git
     * [GitHub's Git Handbook](https://guides.github.com/introduction/git-handbook/)
-* Videos / Podcasts / ... that others have liked
-  * “Advice on getting started in deep learning” by Andrew Ng
+
+### Keeping up with AI
+
+#### Tech
+
+* [TWIML](https://twimlai.com/) -- podcast, blog
+* [Papers With Code](https://paperswithcode.com/) (sign up for the newsletter)
+* [Two Minute Papers](https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg) YouTube channel
+* [Morning Paper](https://blog.acolyer.org/) blog
+* [Arxiv-Sanity](http://www.arxiv-sanity.com/) (but still insane)
+* [distill.pub](https://distill.pub/)
+* [Harvard Data Science Review](https://hdsr.mitpress.mit.edu/)
+
+#### Ethics / Society
+
+* Montreal AI
+* AI Now Institute
+* Data and Society
+* [AlgorithmWatch](https://algorithmwatch.org/en/)
+* [Harvard BKC](https://twitter.com/BKCHarvard)
+* ACM Conference on Fairness, Accountability, and Transparency ([FAccT](https://facctconference.org/))
+
+
+
+### Videos / Podcasts / ... that others have liked
+* “Advice on getting started in deep learning” by Andrew Ng
   

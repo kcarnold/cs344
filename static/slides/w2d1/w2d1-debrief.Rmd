@@ -41,8 +41,15 @@ library(xaringanthemer)
 
 ## Scripture on Intelligence
 
+.can-edit.key-scripture-intelligence[
 * God *expects* us to act intelligently, mirroring how he himself does.
   * example: [**Psalm 103** NIV](https://www.biblegateway.com/passage/?search=psalm+103&version=NIV)
+* Psalm 139
+  * The intelligence of even a human baby is pretty impressive
+  * God gave us purpose
+* Genesis 1
+  * Our intelligence and creativity is an image of God's
+]
 
 
 
@@ -69,6 +76,7 @@ What could you have referenced for each of the topics?
 * Tech
   * Quizzes (Py, reading)
   * Lab 1
+  * You can point to evidence that you understand Github, e.g., a link where the changes you pushed can be seen
 * Comm
   * Teachable Machine first-day activity
 
@@ -76,15 +84,19 @@ What could you have referenced for each of the topics?
 
 ## Reflections: Tech
 
+Which communicates more about what you learned?
+<br><br>
 .pull-left[
 "I had some trouble with my lab partner getting things to work. Especially trying to figure out the number of test and valid cases. We eventually figured it out"
 ]
 
---
-
 .pull-right[
 "didn't learn much implementation, but I made hypotheses about the neural nets we created in lab and analyzed them afterwards to verify that: a. Using more layers reduces the runtime (though actually only two layers are necessary) and b. reducing the amount of training data leads to a higher error percentage (such as by increasing the validation % or changing to a more unique/diverse classifier). This went well; I found the lab easy to understand after watching the video."
 ]
+
+.can-edit[
+]
+
 
 ---
 
@@ -92,11 +104,24 @@ What could you have referenced for each of the topics?
 
 > I didn't understand which error rate to use since it gives two of them. But I asked about it and found out that we should use the last one and we'll learn why in a few weeks.
 
+Who else was wondering this?
+
 ---
 
 ## Reflections: Justification
 
 > I think that I deserve a 95/100 because of the time/effort I took.
+
+Is this a good justification?
+
+.can-edit[
+* ...
+]
+
+???
+
+* What was good?
+* What was lacking?
 
 ---
 
@@ -104,29 +129,100 @@ What could you have referenced for each of the topics?
 
 > I talked with a friend about course work. It went well
 
+* What does this tell us? What more could it say?
+* What other ways can you help make our class a learning community?
+
 --
 
-Many ways to engage:
-
+.can-edit[
 * Piazza (ask, answer)
 * Discussion Forums
 * Collaboration in lab / hw
 * Speaking in class
+]
+
 
 ---
 
-## Reflections: Context
+## Peers
+
+Your peers provide:
+
+* **Collaborators**. You'll be able to do great projects together.
+* **Learning community**. I may be one of your last official teachers. But you most keep learning.
+* **Discussion partners**. Your peers bring valuable perspectives.
+* **Practice analyzing other people's work**. It will be most of what you do. So we must practice it. We will do some peer feedback during our time together.
+
+---
+
+## "I don't know"
+
+* Say this often.
+* I will too.
+* Ask questions on Piazza.
+* When you've figured it out, communicate (e.g., a blog)
+
+
+
+---
+
+## Reflections: Context / History
 
 > In our capstone class, I brought up some ideas about how AI relates to technology. We were talking about the limits of software and I proposed some ideas about how AI could be limited.
+
+
+---
+
+## Resources
+
+<https://cs.calvin.edu/courses/cs/344/ka37/#resources>
+
+---
+
+## Homework 1
+
+.can-edit[
+Build and evaluate a classifier to determine if a photo is taken of the inside vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
+
+### Steps:
+* ...
+]
+
+---
+
+## Lab 1
+
+See [this example](https://colab.research.google.com/drive/1kf1dwlCbqoL01RbVa7kPa1rjuTi1hyuA?usp=sharing) (<https://tiny.cc/jxhltz>)
+
+```{r lab1-qr, echo=FALSE, fig.align='center'}
+library(qrcode)
+qrcode::qrcode_gen('https://tiny.cc/jxhltz')
+```
+
 
 ---
 
 ## Running Code
 
+.pull-left[
 * lab machines
 * Google Colab
 * your own computer
 * Another cloud provider?
+]
+
+.pull-right[
+* Teams screen-share
+* Github commit frequently
+* ...even if you're using Colab.
+]
+
+Colab preamble:
+
+```
+try: import fastbook
+except ImportError: import subprocess; subprocess.run(['pip','install','-Uq','fastbook'])
+```
 
 ---
 
@@ -159,14 +255,6 @@ So, you should be:
 
 ---
 
-## Approach
-
-* *Very* hands-on
-* "Flipped": read and watch lectures at home, hack together in class
-  * Watching and/or reading is expected. Make time for it.
-
----
-
 ## Why not just learn this on your own?
 
 This course gives you:
@@ -175,45 +263,3 @@ This course gives you:
 * An instructor
 * Peers
 * Freedom to ask stupid questions
-
----
-
-## Structure
-
-We will vary our pace depending on students' needs, but the structure will be predictable:
-
-* **Weekend**: read (actively!) a textbook chapter, watch a video lecture
-* **Monday Lab**: apply what you've just read, extend it slightly
-* **Tuesday**: write your weekly learning reflection, contribute to discussion forums
-* **Wednesday Discussion** (in classroom): debrief lab, discuss perspectives
-* **Thursday**: take a content quiz (most weeks, not this week)
-* **Friday Lab**: work on homework / project; micro-lectures as needed
-
-
----
-
-## Who am I?
-
-* Husband, father of two 3-year-old girls
-* Natural Language Processing + Human-Computer Interaction
-
----
-
-## Peers
-
-Your peers provide:
-
-* **Collaborators**. You'll be able to do great projects together.
-* **Learning community**. I may be one of your last official teachers. But you most keep learning.
-* **Discussion partners**. Your peers bring valuable perspectives.
-* **Practice analyzing other people's work**. It will be most of what you do. So we must practice it. We will do some peer feedback during our time together.
-
----
-
-## "I don't know"
-
-* Say this often.
-* I will too.
-* Ask questions on Piazza.
-* When you've figured it out, communicate (e.g., a blog)
-

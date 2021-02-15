@@ -79,7 +79,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span><br><br></td>
 <!--  2 > 1 -->
 </tr><tr>
-<td class = "even">2/15<br><span class = "html"><p><strong>Topic</strong> Lab 1 recap</p>
+<td class = "even">2/15<br><span class = "html"><p><strong>Topic</strong> Lab 1 recap (<a href="/slides/w2d1/w2d1-debrief.html">slides</a>)</p>
 
 <p><strong>Quiz</strong> Reading Quiz 2</p>
 
