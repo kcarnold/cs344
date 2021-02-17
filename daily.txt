@@ -167,13 +167,14 @@ Quiz:: Reading Quiz 2
 
 Homework::
 
-  (announced today, due in about a week)
+  (announced today, tentatively due next Mon)
   Build and evaluate a classifier to determine if a photo is taken of the inside
   vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
+  Submit a Jupyter Notebook reporting your findings on Moodle. You may use [this repo](https://classroom.github.com/g/uMf9CjZ_) if desired.
 
 
 ===
-Topic:: Review, Intro to AI Ethics
+Topic:: Review, Intro to AI Ethics [slides](/slides/w2d2/w2d2-ethics.html)
 
 Read::
   * [DL4C chapter 3](https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb) until "Topics in Data Ethics"
@@ -196,7 +197,9 @@ Topic:: Lab 1 extension, homework work
 Topic:: Lab 2
 
 Read::
-  * Finish reading [DL4C chapter 3](https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb)
+  * Finish reading [DL4C chapter 3](https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb) (to be confirmed)
+
+Due:: Homework 1 (tentative)
 
 
 ===endofcal
