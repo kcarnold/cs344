@@ -30,15 +30,17 @@ weight: 100
 
 #### Ethics / Society
 
+* Fast.AI [Data Ethics course](https://ethics.fast.ai/)
 * Montreal AI
 * AI Now Institute
 * Data and Society
+* [The Oxford Handbook of Ethics of AI](https://global.oup.com/academic/product/the-oxford-handbook-of-ethics-of-ai-9780190067397?cc=ca&lang=en&#)
 * [AlgorithmWatch](https://algorithmwatch.org/en/)
 * [Harvard BKC](https://twitter.com/BKCHarvard)
 * ACM Conference on Fairness, Accountability, and Transparency ([FAccT](https://facctconference.org/))
 
 
-
 ### Videos / Podcasts / ... that others have liked
+
 * “Advice on getting started in deep learning” by Andrew Ng
   
