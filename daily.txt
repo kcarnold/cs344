@@ -192,4 +192,11 @@ Topic:: Lab 1 extension, homework work
 * First peel-back-the-covers:
 * Use DataBlocks API instead of default ImageDataLoaders
 
+===
+Topic:: Lab 2
+
+Read::
+  * Finish reading [DL4C chapter 3](https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb)
+
+
 ===endofcal
