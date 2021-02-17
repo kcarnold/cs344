@@ -1,9 +1,8 @@
 ---
-title: "Debrief of Week 1"
-subtitle: "AI / Machine Learning<br>Spring 2021"
+title: "Review, and AI Ethics Discussion 1"
 author: 
   - "Ken Arnold"
-date: '2021-02-15'
+date: '2021-02-17'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -29,12 +28,85 @@ library(xaringanthemer)
 # )
 ```
 
+## Logistics
+
+* Piazza: Live Q&A during class today
+  * Forgot to post Week 1 Q&A
+* Lab 1 walkthrough videos posted
+* Pace?
 
 
-### Some further reading on data ethics
+---
 
-* [The Oxford Handbook of Ethics of AI](https://global.oup.com/academic/product/the-oxford-handbook-of-ethics-of-ai-9780190067397?cc=ca&lang=en&#)
-  * e.g., chapter of [Race and Gender](https://arxiv.org/abs/1908.06165) was written by Timnit Gebru
-* Coded Bias documentary
-* Fast.AI [Data Ethics course](https://ethics.fast.ai/)
+## [Obituary](https://www.nytimes.com/2021/02/09/science/arianna-wright-dead.html): Dr. Arianna Rosenbluth (1927-09-15 - 2020-12-28)
+
+.pull-left[
+```{r echo=FALSE, out.height="100%", fig.align='center'}
+knitr::include_graphics("https://static01.nyt.com/images/2021/02/16/obituaries/05rosenbluth1/merlin_183269556_7d98de1d-baac-422a-8cf0-163383ac27f7-superJumbo.jpg")
+```
+]
+
+.pull-right[
+* PhD in Physics from Harvard at age 21
+* Programmed the first implementation of the Metropolis algorithm, in machine code (1953)
+]
+
+---
+
+## The Metropolis algorithm
+
+Goal (for most ML applications): run a generative model backwards.
+.pull-left[
+* You have observations
+* You propose a theory: a program that generates those observations
+* But the program depends on unknown constants
+* You need: good values of those constants
+]
+
+.pull-right[
+* documents (collections of words)
+* generate documents by sampling words from topics
+* which words are in which topics?
+* algorithm: Latent Dirichlet Allocation
+]
+
+(Imagine running your image classifier backwards: tell it "dog" and it should generate an image of a dog.)
+
+---
+
+> Instead of choosing configurations randomly, then weighting them with exp(−E/kT), we choose configurations with a probability exp(−E/kT) and weight them evenly.
+
+<!-- ![](https://mbjoseph.github.io/posts/2018-12-25-animating-the-metropolis-algorithm/animating-the-metropolis-algorithm_files/figure-html5/create-gif.gif) -->
+
+<https://mbjoseph.github.io/posts/2018-12-25-animating-the-metropolis-algorithm/>
+
+---
+
+class: center, middle
+
+## Open Q&A
+
+
+---
+
+## AI Ethics Examples 
+
+(We'll do this in the class OneNote)
+
+---
+
+
+## Aspects of AI that affect ethics
+
+* AI needs data (privacy)
+  * ...and empowers organizations that aggregate data
+* AI needs lots of computation
+* AI's outputs affect people
+  * predictions and decisions (bias, discrimination, gig labor, ...)
+  * how we perceive each other (and ourselves)
+  * how we perceive ideas (misinformation)
+* AI does things that people once did
+* AI systems can be attacked in new ways
+* AI embeds values about what is human
+* AI tells us about our own intelligence
 
