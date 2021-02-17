@@ -21,10 +21,6 @@ library(daily)
 ## Schedule
 
 ```{r echo=FALSE, results='asis'}
-# Note: this could use <details> for the nested tree; I think `<details open>` will work
-# https://gist.github.com/ericclemmons/b146fe5da72ca1f706b2ef72a20ac39d
-
-
 add_prefix <- function(s, prefix) {
   str_replace_all(s, regex("^", multiline = TRUE), prefix)
 }
@@ -32,7 +28,7 @@ add_prefix <- function(s, prefix) {
 cal_data <- 
   daily2cal(
   path = here::here("daily.txt"),
-  end = lubridate::ymd("2021-02-20"),
+  end = lubridate::ymd("2021-02-23"),
 ) %>%
   pivot_longer(-c(date, week), names_to = "label", values_to = "contents") %>% 
   filter(
@@ -70,21 +66,6 @@ table ul {
 }
 </style>
 
-
-```{r echo=FALSE, include=FALSE}
-#, results='asis'}
-cal_data %>% 
-  mutate(
-    topic_contents = glue("* **{label}**\n{add_prefix(contents, '    ')}")) %>% 
-  group_by(week, date) %>% 
-  summarize(
-    date = first(date),
-    date = glue("{wday(date, label = TRUE)} {month(date)}/{mday(date)}"),
-    day_contents = glue("* {first(date)}\n\n{paste0(add_prefix(topic_contents, '    '), collapse = '\n')}"), .groups = "drop") %>% 
-  summarize(markdown = str_c(day_contents, collapse = "\n"), .groups="drop") %>% 
-  pull(markdown) %>% 
-  cat()
-```
 
 ```{r include=FALSE, eval=FALSE}
 #' A version of purrr::accumulate that maintains the data type of the input.
@@ -154,11 +135,6 @@ x <- here::here("daily.txt") %>%
   unnest(day_contents)
 x
 ```
-
-```{r}
-
-```
-
 
 
 

@@ -90,12 +90,13 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Homework</strong> </p>
 
-<p>(announced today, due in about a week)
+<p>(announced today, tentatively due next Mon)
 Build and evaluate a classifier to determine if a photo is taken of the inside
-vs outside of a restaurant. Don&#39;t scrape photos; use the Yelp Academic Dataset.</p>
+vs outside of a restaurant. Don&#39;t scrape photos; use the Yelp Academic Dataset.
+Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href="https://classroom.github.com/g/uMf9CjZ_">this repo</a> if desired.</p>
 </span><br><br></td>
 <td class = "even">2/16<br><span class = "html"></span><br><br></td>
-<td class = "even">2/17<br><span class = "html"><p><strong>Topic</strong> Review, Intro to AI Ethics</p>
+<td class = "even">2/17<br><span class = "html"><p><strong>Topic</strong> Review, Intro to AI Ethics <a href="/slides/w2d2/w2d2-ethics.html">slides</a></p>
 
 <p><strong>Due</strong> Discussion post about a topic that caught your eye (before class)</p>
 
@@ -112,6 +113,18 @@ vs outside of a restaurant. Don&#39;t scrape photos; use the Yelp Academic Datas
 </span><br><br></td>
 <td class = "even">2/19<br><span class = "html"><p><strong>Topic</strong> Lab 1 extension, homework work</p>
 </span><br><br></td>
+<!--  3 > 2 -->
+</tr><tr>
+<td class = "even">2/22<br><span class = "html"><p><strong>Topic</strong> Lab 2</p>
+
+<p><strong>Due</strong> Homework 1 (tentative)</p>
+
+<p><strong>Read</strong> </p>
+
+<ul>
+<li>Finish reading <a href="https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a> (to be confirmed)</li>
+</ul>
+</span><br><br></td>
 </tr></tbody></table>
 
 
@@ -120,11 +133,6 @@ table ul {
   padding-left: 1rem;
 }
 </style>
-
-
-
-
-
 
 
 
