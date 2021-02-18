@@ -184,9 +184,6 @@ Due:: Discussion post about a topic that caught your eye (before class)
 
 Due:: Reflection 2
 
-===02/18/2021
-Quiz:: Quiz 3
-
 ===
 Topic:: Lab 1 extension, homework work
 
@@ -197,9 +194,13 @@ Topic:: Lab 1 extension, homework work
 Topic:: Lab 2
 
 Read::
-  * Finish reading [DL4C chapter 3](https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb) (to be confirmed)
+  * Finish reading [DL4C chapter 3](https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb)
 
 Due:: Homework 1 (tentative)
+
+
+===02/25/2021
+Quiz:: Quiz 3
 
 
 ===endofcal

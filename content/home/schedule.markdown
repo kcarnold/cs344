@@ -109,8 +109,7 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 <li>the <strong>table of contents</strong> of the <a href="https://montrealethics.ai/wp-content/uploads/2021/01/State-of-AI-Ethics-Report-January-2021.pdf">January 2021 Montreal AI Ethics Report</a></li>
 </ul>
 </span><br><br></td>
-<td class = "even">2/18<br><span class = "html"><p><strong>Quiz</strong> Quiz 3</p>
-</span><br><br></td>
+<td class = "even">2/18<br><span class = "html"></span><br><br></td>
 <td class = "even">2/19<br><span class = "html"><p><strong>Topic</strong> Lab 1 extension, homework work</p>
 </span><br><br></td>
 <!--  3 > 2 -->
@@ -122,7 +121,7 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 <p><strong>Read</strong> </p>
 
 <ul>
-<li>Finish reading <a href="https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a> (to be confirmed)</li>
+<li>Finish reading <a href="https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a></li>
 </ul>
 </span><br><br></td>
 </tr></tbody></table>
