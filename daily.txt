@@ -189,6 +189,13 @@ Topic:: Lab 1 extension, homework work
 
 * First peel-back-the-covers:
 * Use DataBlocks API instead of default ImageDataLoaders
+* show cat/dog batches
+* compare performance with/without augmentation
+
+Make sure this sets up well for hw1:
+* What experiments do I hope students try for hw1
+* How can I encourage meaningful comparisons? (Script to do a training run multiple times and collect evaluation outputs?)
+
 
 ===
 Topic:: Lab 2
