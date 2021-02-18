@@ -18,6 +18,8 @@ This is a hands-on course on AI systems using machine learning, with a particula
     -   Wednesday in HL 102
     -   Monday and Friday in CS labs SB 372 *Maroon* and overflow to 354 *Gold*
 
+-   **Office/Teams Hours**: See my [Google Calendar](https://kenarnold.org/calendar.html) (typically Mon and Thurs afternoons)
+
 ## Objective
 
 By the end of this course, you will demonstrate growth in your ability to:
