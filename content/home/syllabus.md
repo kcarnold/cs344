@@ -18,7 +18,7 @@ This is a hands-on course on AI systems using machine learning, with a particula
     -   Wednesday in HL 102
     -   Monday and Friday in CS labs SB 372 *Maroon* and overflow to 354 *Gold*
 
--   **Office/Teams Hours**: See my [Google Calendar](https://kenarnold.org/calendar.html) (typically Mon and Thurs afternoons)
+-   **Office/Teams Hours**: Generally Monday and Thursday afternoons; see my [Google Calendar](https://kenarnold.org/calendar.html) for details and exceptions. Or message me directly; time permitting, I'd love to chat.
 
 ## Objective
 
@@ -48,9 +48,9 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 
 -   We will be using Piazza for class discussion. Many students have found that Piazza works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Find our class signup link at: <https://piazza.com/calvin/spring2021/cs344>
 
--   The lab machines are configured with the software needed on the Linux install. The Maroon lab has GPUs with sufficient specs for most of what we need, so we will be using them (booted into Linux); Gold lab users can use Guacamole to connect to a Maroon machine.
+-   The lab machines are configured with the software needed on the Linux install. The Maroon lab has GPUs with sufficient specs for most of what we need, so we will be using them (booted into Linux); Gold lab users can use Guacamole to connect to a Maroon machine. For times when you need or want additional computing resources, you may use [Google Colab](https://colab.research.google.com/), [Paperspace](https://gradient.paperspace.com/), or other services.
 
--   We will be using various tools for collaboration, including GitHub and Google Colab.
+-   We will be using various tools for collaboration, including GitHub.
 
 ## Policies
 
