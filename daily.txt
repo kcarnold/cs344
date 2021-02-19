@@ -196,6 +196,16 @@ Make sure this sets up well for hw1:
 * What experiments do I hope students try for hw1
 * How can I encourage meaningful comparisons? (Script to do a training run multiple times and collect evaluation outputs?)
 
+Retrospective:
+
+* Some students still struggled with git. Lots of wasted time there.
+* Execution environment and collaboration is problematic.
+* Unclear what exactly the goal was.
+
+Next year: definitely do something easier than Yelp.
+
+
+I'm wondering: should I move lab out of class?
 
 ===
 Topic:: Lab 2
