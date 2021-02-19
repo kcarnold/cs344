@@ -15,6 +15,13 @@ weight: 100
 * Helpful references
   * git
     * [GitHub's Git Handbook](https://guides.github.com/introduction/git-handbook/)
+  * Jupyter Notebook
+    * [Appendix](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/app_jupyter.ipynb) from our book
+    * [tips and tricks](https://github.com/NirantK/best-of-jupyter)
+  * Google Colab ([intro](https://colab.research.google.com/notebooks/intro.ipynb), [overview](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)). Tips:
+    * Press Ctrl-Shift-P to open the Command Palette. Lots of useful stuff there; try the "scratch code cell".
+    * Click the down arrow next to the RAM/Disk meter in the toolbar (where it used to say "Connect") and select "show executed code history"
+    
 
 ### Keeping up with AI
 
