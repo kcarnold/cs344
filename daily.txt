@@ -205,13 +205,13 @@ Retrospective:
 Next year: definitely do something easier than Yelp.
 
 
-I'm wondering: should I move lab out of class?
+I'm wondering: should I move lab out of class? e.g., hold (unofficial) lab hours.
 
 ===
 Topic:: Lab 2
 
 Read::
-  * Finish reading [DL4C chapter 3](https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb)
+  * Finish reading [DL4C chapter 3](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb)
 
 Due:: Homework 1 (tentative)
 

@@ -121,7 +121,7 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 <p><strong>Read</strong> </p>
 
 <ul>
-<li>Finish reading <a href="https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a></li>
+<li>Finish reading <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a></li>
 </ul>
 </span><br><br></td>
 </tr></tbody></table>
