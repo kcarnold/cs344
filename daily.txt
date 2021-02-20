@@ -45,8 +45,8 @@ Note:: Study Day
 
 
 ===02/03/2021
-Topic:: Kickoff, Teachable Machine, Logistics
-Prep:: read Syllabus
+Topic:: Kickoff, [Teachable Machine](https://teachablemachine.withgoogle.com/train/image), Logistics
+Read:: Syllabus
 Resources:: [Day 1 slides](/slides/w1d1/w1d1-intro.html)
 
 Log::
@@ -208,12 +208,59 @@ Next year: definitely do something easier than Yelp.
 I'm wondering: should I move lab out of class? e.g., hold (unofficial) lab hours.
 
 ===
-Topic:: Lab 2
+Topic:: Conceptual Review
 
-Read::
-  * Finish reading [DL4C chapter 3](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb)
+Plan::
+
+  Logistics
+  * Should I "override email prefs" for all Piazza announcements?
+  * Shrink old calendar entries
+
+  Core
+  * Datasets: train/valid/test
+  * Data loading: what problem does it solve
+  * Confusion matrix; FP/FN / precision/recall
+  * Batches
+  * Data augmentation
+    * analogies for overfitting
+      * kids' puzzle
+      * covid vaccines / antibodies / variants
+      * background identification problem / dumbbell vs arm
+    * what specific transforms can be used
+  * Running experiments
+    * Reproducibility
+    * Variability
+  * Previews:
+    * loss
+    * NN architectures
+
+  Tools:
+
+  * Jupyter Notebooks
+    * execution order issues
+  * github
+    * stage / commit / push
+    * nbdime?
+    * integrations with Colab, Jupyter Lab
+  * Collaboration
+    * Teams screenshare
+
+  If time: review Lab 1 + extensions
+
+
+Read:: Finish reading [DL4C chapter 3](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb); **Reading Quiz**
 
 Due:: Homework 1 (tentative)
+
+===
+Topic:: Facial recognition
+
+Read:: TBA
+
+Case study?
+
+===
+Topic:: Lab 2 (basics of model-fitting)
 
 
 ===02/25/2021

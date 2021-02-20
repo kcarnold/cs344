@@ -35,9 +35,9 @@ weight: 5
 </tr><tr>
 <td class = "even">2/1<br><span class = "html"></span><br><br></td>
 <td class = "even">2/2<br><span class = "html"></span><br><br></td>
-<td class = "even">2/3<br><span class = "html"><p><strong>Topic</strong> Kickoff, Teachable Machine, Logistics</p>
+<td class = "even">2/3<br><span class = "html"><p><strong>Topic</strong> Kickoff, <a href="https://teachablemachine.withgoogle.com/train/image">Teachable Machine</a>, Logistics</p>
 
-<p><strong>Prep</strong> read Syllabus</p>
+<p><strong>Read</strong> Syllabus</p>
 
 <p><strong>Resources</strong> <a href="/slides/w1d1/w1d1-intro.html">Day 1 slides</a></p>
 </span><br><br></td>
@@ -81,10 +81,10 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </tr><tr>
 <td class = "even">2/15<br><span class = "html"><p><strong>Topic</strong> Lab 1 recap (<a href="/slides/w2d1/w2d1-debrief.html">slides</a>)</p>
 
-<p><strong>Quiz</strong> Reading Quiz 2</p>
-
 <p><strong>Read</strong> <a href="https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb">DL4C chapter 2</a>
   <em>note: ignore the implementation of <code>class DataLoaders</code>.</em></p>
+
+<p><strong>Quiz</strong> Reading Quiz 2</p>
 
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=2">Lesson 2 Video</a></p>
 
@@ -98,31 +98,36 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 <td class = "even">2/16<br><span class = "html"></span><br><br></td>
 <td class = "even">2/17<br><span class = "html"><p><strong>Topic</strong> Review, Intro to AI Ethics <a href="/slides/w2d2/w2d2-ethics.html">slides</a></p>
 
-<p><strong>Due</strong> Discussion post about a topic that caught your eye (before class)</p>
-
-<p>Reflection 2</p>
-
 <p><strong>Read</strong> </p>
 
 <ul>
 <li><a href="https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a> until &ldquo;Topics in Data Ethics&rdquo;</li>
 <li>the <strong>table of contents</strong> of the <a href="https://montrealethics.ai/wp-content/uploads/2021/01/State-of-AI-Ethics-Report-January-2021.pdf">January 2021 Montreal AI Ethics Report</a></li>
 </ul>
+
+<p><strong>Due</strong> Discussion post about a topic that caught your eye (before class)</p>
+
+<p>Reflection 2</p>
 </span><br><br></td>
 <td class = "even">2/18<br><span class = "html"></span><br><br></td>
 <td class = "even">2/19<br><span class = "html"><p><strong>Topic</strong> Lab 1 extension, homework work</p>
 </span><br><br></td>
 <!--  3 > 2 -->
 </tr><tr>
-<td class = "even">2/22<br><span class = "html"><p><strong>Topic</strong> Lab 2</p>
+<td class = "even">2/22<br><span class = "html"><p><strong>Topic</strong> Conceptual Review</p>
+
+<p><strong>Read</strong> Finish reading <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a>; <strong>Reading Quiz</strong></p>
 
 <p><strong>Due</strong> Homework 1 (tentative)</p>
+</span><br><br></td>
+<td class = "even">2/23<br><span class = "html"></span><br><br></td>
+<td class = "even">2/24<br><span class = "html"><p><strong>Topic</strong> Facial recognition</p>
 
-<p><strong>Read</strong> </p>
-
-<ul>
-<li>Finish reading <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a></li>
-</ul>
+<p><strong>Read</strong> TBA</p>
+</span><br><br></td>
+<td class = "even">2/25<br><span class = "html"><p><strong>Quiz</strong> Quiz 3</p>
+</span><br><br></td>
+<td class = "even">2/26<br><span class = "html"><p><strong>Topic</strong> Lab 2 (basics of model-fitting)</p>
 </span><br><br></td>
 </tr></tbody></table>
 

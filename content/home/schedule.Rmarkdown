@@ -28,11 +28,11 @@ add_prefix <- function(s, prefix) {
 cal_data <- 
   daily2cal(
   path = here::here("daily.txt"),
-  end = lubridate::ymd("2021-02-23"),
+  end = lubridate::ymd("2021-02-26"),
 ) %>%
   pivot_longer(-c(date, week), names_to = "label", values_to = "contents") %>% 
   filter(
-    !(str_to_lower(label) %in% c("log", "reflection", "next time")),
+    !(str_to_lower(label) %in% c("plan", "log", "reflection", "next time")),
     !is.na(contents)) %>% 
   mutate(contents = str_trim(contents, side = "right")) %>% 
   filter(label != "Notes" | contents != "") %>% 
