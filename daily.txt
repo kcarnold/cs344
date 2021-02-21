@@ -236,6 +236,7 @@ Plan::
 
   Tools:
 
+  * JSON newline-delimited
   * Jupyter Notebooks
     * execution order issues
   * github
@@ -244,6 +245,7 @@ Plan::
     * integrations with Colab, Jupyter Lab
   * Collaboration
     * Teams screenshare
+  * fastcore stuff, especially L
 
   If time: review Lab 1 + extensions
 
