@@ -114,7 +114,7 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 </span><br><br></td>
 <!--  3 > 2 -->
 </tr><tr>
-<td class = "even">2/22<br><span class = "html"><p><strong>Topic</strong> Conceptual Review</p>
+<td class = "even">2/22<br><span class = "html"><p><strong>Topic</strong> Conceptual Review <a href="/slides/w3d1/w3d1-concepts.html">Slides</a></p>
 
 <p><strong>Read</strong> Finish reading <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a>; <strong>Reading Quiz</strong></p>
 

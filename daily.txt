@@ -208,7 +208,7 @@ Next year: definitely do something easier than Yelp.
 I'm wondering: should I move lab out of class? e.g., hold (unofficial) lab hours.
 
 ===
-Topic:: Conceptual Review
+Topic:: Conceptual Review [Slides](/slides/w3d1/w3d1-concepts.html)
 
 Plan::
 
