@@ -252,21 +252,22 @@ Plan::
 
 Read:: Finish reading [DL4C chapter 3](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb); **Reading Quiz**
 
-Due:: Homework 1 (tentative)
+Due:: Homework 1
 
 ===
-Topic:: Facial recognition
+Topic:: Conceptual and Practical Review
 
-Read:: TBA
+Due:: Reflection 3
 
-Case study?
+Discussion:: Reply in last week's Discussion
+
+===02/25/2021
+Quiz:: Quiz 3
 
 ===
 Topic:: Lab 2 (basics of model-fitting)
 
 
-===02/25/2021
-Quiz:: Quiz 3
 
 
 ===endofcal

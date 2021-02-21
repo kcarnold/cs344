@@ -118,12 +118,14 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 
 <p><strong>Read</strong> Finish reading <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a>; <strong>Reading Quiz</strong></p>
 
-<p><strong>Due</strong> Homework 1 (tentative)</p>
+<p><strong>Due</strong> Homework 1</p>
 </span><br><br></td>
 <td class = "even">2/23<br><span class = "html"></span><br><br></td>
-<td class = "even">2/24<br><span class = "html"><p><strong>Topic</strong> Facial recognition</p>
+<td class = "even">2/24<br><span class = "html"><p><strong>Topic</strong> Conceptual and Practical Review</p>
 
-<p><strong>Read</strong> TBA</p>
+<p><strong>Due</strong> Reflection 3</p>
+
+<p><strong>Discussion</strong> Reply in last week&#39;s Discussion</p>
 </span><br><br></td>
 <td class = "even">2/25<br><span class = "html"><p><strong>Quiz</strong> Quiz 3</p>
 </span><br><br></td>
