@@ -39,8 +39,13 @@ which creates a fresh `self.rng` from its previous RNG. And if you look at the d
 `DataLoader??` ([github link](https://github.com/fastai/fastai/blob/master/nbs/02_data.load.ipynb)),
 `self.rng` is created by calling `random.Random`.)
 
+> Can we get 100% accurate AI?
 
+Depends on what you mean. Keywords to search for if you want to look more into this:
 
+* Verified AI
+* robust machine learning
+* robust reinforcement learning
 
 ## Context
 
