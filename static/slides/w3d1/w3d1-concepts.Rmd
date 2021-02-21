@@ -1,0 +1,221 @@
+---
+title: "Conceptual Review"
+author: 
+  - "Ken Arnold"
+date: '2021-02-22'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+source("../slides-common.R")
+slideSetup()
+library(reticulate)
+reticulate::use_condaenv("fastai")
+```
+
+## Logistics
+
+* Attendance
+* Piazza: Live Q&A during class today
+
+---
+
+class: middle, center
+
+## Data: the most important element of machine learning
+
+---
+
+## Overfitting
+
+* kids' puzzle
+* covid vaccines / antibodies / variants
+* background identification problem / dumbbell vs arm
+
+*slight misnomer*: In modern big networks, it's possible to fit the training set almost perfectly without sacrificing generalization. A wide range of models can fit the training set well; the trick is to encourage the learner to find models that also generalize.
+
+---
+
+## Data Splitting
+
+**Why**: Confidence about deployment
+
+**How**:
+
+* Hide a test set
+* Single split (train-valid)
+* or: cross-validation
+
+---
+
+## Data Loading
+
+**Why**: Model expects data in ideal format, cleanly chunked... real world is messy.
+
+**How**: pipeline of transformations (to *items*, to *batches*)
+
+**Code**:
+
+`ImageDataLoader.from_name_func` is convenient way to construct a `DataBlock`
+and `DataLoader`
+
+---
+
+## Batches
+
+**Why**: Often more efficient to process several items at once; more confident in how to update weights
+
+**How**:
+
+* need to align sizes of each image (or text document, or sound, or ...)
+* limited by GPU memory (especially for the *backward* pass)
+
+---
+
+## Diagnosing Classifiers
+
+**Why**: Better *quantify* performance (e.g., sensitivity vs specificity), better *understand* performance (analyze )
+
+**How**: Confusion matrix; FP/FN / precision/recall
+
+---
+
+## Data Augmentation
+
+**Why**: Discourage overfitting. Encourage generalization.
+
+**How**: move the camera around (images), skip words (text), add / subtract stuff.
+
+*Related*: mess with the model itself, e.g., Dropout.
+
+???
+
+Exmples of what specific transforms can be used
+
+---
+
+## Running Experiments
+* Reproducibility
+* Variability
+
+---
+
+## Previews of concepts from next week
+
+* loss
+* NN architectures
+
+---
+
+class: center, middle
+
+## Tools
+
+---
+
+## Newline-delimited JSON
+
+```python
+import json
+
+data = []
+with open(filename) as f:
+    for line in f:
+        data.append(json.loads(line))
+```
+
+---
+
+# Comprehensions
+
+Often readable and declarative. Use judiciously.
+
+## List comprehensions
+
+.pull-left[
+```{python}
+result = []
+for i in range(4):
+  if i % 2 == 1:
+    for j in range(i):
+      result.append(f'i={i} j={j}')
+result
+```
+]
+
+.pull-right[
+```{python}
+[
+  f'i={i} j={j}'
+  for i in range(4)
+  if i % 2 == 1
+  for j in range(i)
+]
+```
+]
+
+---
+
+## Jupyter Notebooks
+
+* execution order issues: Restart and Run All
+* kernel vs webpage: it's still running when you close!
+
+---
+
+## Markdown
+
+```
+*italic*, **bold**
+
+# heading
+
+## heading 2
+
+[link](https://example.com)
+
+* list
+* list 2
+```
+
+---
+
+## Git(Hub)
+
+* stage / commit / push
+* nbdime?
+* integrations with Colab, Jupyter Lab
+
+---
+
+## Collaboration
+
+* Teams screenshare
+
+---
+
+## fastcore
+
+`fastcore.L` is like a `list` but adds handy stuff:
+
+```python
+from fastai.vision.all import *
+path = untar_data(URLs.PETS)
+
+path.ls()
+(path / "images").ls().attrgot('name')
+```
+
+
+---
+
+## Lab 1
+  If time: review Lab 1 + extensions
