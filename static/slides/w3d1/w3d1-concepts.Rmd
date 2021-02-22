@@ -9,7 +9,7 @@ output:
     css: xaringan-themer.css
     nature:
       highlightStyle: github
-      highlightLines: true
+      highlightLines: false
       countIncrementalSlides: false
       ratio: "16:9"
 ---
@@ -17,30 +17,51 @@ output:
 ```{r setup, include=FALSE}
 source("../slides-common.R")
 slideSetup()
-library(reticulate)
-reticulate::use_condaenv("fastai")
+#library(reticulate)
+#reticulate::use_condaenv("fastai")
 ```
 
 ## Logistics
 
-* Attendance
+* Attendance sheet
 * Piazza: Live Q&A during class today
+* Homework 1
 
 ---
 
 class: middle, center
 
-## Data: the most important element of machine learning
+## Data<br>*fuel for machine learning*
+
+---
+
+.pull-left[
+<img src="https://www.melissaanddoug.com/dw/image/v2/BBDH_PRD/on/demandware.static/-/Sites-master-catalog/default/dwac79566a/large/000413_1.jpg?sw=562&sh=570&sm=fit">
+]
+
+.pull-right[
+<img src="https://media.nature.com/lw800/magazine-assets/d41586-021-00340-4/d41586-021-00340-4_18841126.jpg" style="height: 700px">
+]
+
+.floating-source[<https://www.nature.com/articles/d41586-021-00340-4>]
 
 ---
 
 ## Overfitting
 
-* kids' puzzle
-* covid vaccines / antibodies / variants
-* background identification problem / dumbbell vs arm
+.center[<img src="https://3.bp.blogspot.com/-dc6B2h_o1fc/VYITir_QCgI/AAAAAAAAAlU/Ysi0_reQTpI/s1600/dumbbells.png" style="width: 100%">]
+.small[.right[*"Dumbbell"*]]
 
-*slight misnomer*: In modern big networks, it's possible to fit the training set almost perfectly without sacrificing generalization. A wide range of models can fit the training set well; the trick is to encourage the learner to find models that also generalize.
+.floating-source[<https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html>]
+
+---
+
+### An aside for the interested
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Bias-Variance Trade-Off &amp; &quot;DOUBLE DESCENT&quot; 🧵<br><br>Remember the bias-variance trade-off? It says that models perform well for an &quot;intermediate level of flexibility&quot;. You&#39;ve seen the picture of the U-shape test error curve.<br><br>We try to hit the &quot;sweet spot&quot; of flexibility.<br><br>1/🧵 <a href="https://t.co/HPk05izkZh">pic.twitter.com/HPk05izkZh</a></p>&mdash; Dr. Daniela Witten (@daniela_witten) <a href="https://twitter.com/daniela_witten/status/1292293102103748609?ref_src=twsrc%5Etfw">August 9, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+<!-- *slight misnomer*: In modern big networks, it's possible to fit the training set almost perfectly without sacrificing generalization. A wide range of models can fit the training set well; the trick is to encourage the learner to find models that also generalize. -->
 
 ---
 
@@ -98,13 +119,19 @@ and `DataLoader`
 
 ???
 
-Exmples of what specific transforms can be used
+Examples of what specific transforms can be used
 
 ---
 
 ## Running Experiments
+
 * Reproducibility
+  * `set_seed`
+  * Restart and Run All
 * Variability
+  * try different seeds
+  * try different modeling choices
+  * **Keep a log** (e.g., spreadsheet with one line per run)
 
 ---
 
@@ -134,11 +161,9 @@ with open(filename) as f:
 
 ---
 
-# Comprehensions
+## List Comprehensions
 
 Often readable and declarative. Use judiciously.
-
-## List comprehensions
 
 .pull-left[
 ```{python}
@@ -162,6 +187,11 @@ result
 ```
 ]
 
+* `dict` and `set` comprehensions work similarly.
+* Modern libraries often provide "broadcast" alternatives:
+  * `x * y` works elementwise when either is `np.array` or `torch.Tensor`
+  * `paths.attrgot('name')`, if `paths` is a `fastcore` `L`
+
 ---
 
 ## Jupyter Notebooks
@@ -173,7 +203,7 @@ result
 
 ## Markdown
 
-```
+```markdown
 *italic*, **bold**
 
 # heading
@@ -217,5 +247,8 @@ path.ls()
 
 ---
 
-## Lab 1
-  If time: review Lab 1 + extensions
+## Questions?
+
+??? 
+
+If time: review Lab 1 + extensions
