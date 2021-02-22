@@ -21,11 +21,20 @@ slideSetup()
 #reticulate::use_condaenv("fastai")
 ```
 
+## Reflection: Surrounded by rich data
+
+[Genesis 1](https://www.biblegateway.com/passage/?search=Genesis%202&version=NIV): Ctrl-F "saw"
+
+---
+
 ## Logistics
 
 * Attendance sheet
 * Piazza: Live Q&A during class today
-* Homework 1
+* Homework 1:
+  * How accurately can you label inside / outside?
+  * How much data do you need?
+  * How confident are you in these conclusions? Why?
 
 ---
 
@@ -72,7 +81,7 @@ class: middle, center
 **How**:
 
 * Hide a test set
-* Single split (train-valid)
+* Single split (train-valid): [`RandomSplitter`](https://docs.fast.ai/data.transforms.html#RandomSplitter) or similar
 * or: cross-validation
 
 ---
@@ -92,6 +101,8 @@ class: middle, center
 ---
 
 **Code**:
+
+Work through the [`DataBlock` tutorial](https://docs.fast.ai/tutorial.datablock.html).
 
 `ImageDataLoader.from_name_func` is convenient way to construct a `DataBlock`
 and `DataLoader`
@@ -230,7 +241,9 @@ result
 
 * stage / commit / push
 * nbdime?
-* integrations with Colab, Jupyter Lab
+* integration with Colab, Jupyter Lab
+
+Remember to save your Colab!
 
 ---
 
