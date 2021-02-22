@@ -154,7 +154,7 @@ Quiz:: Quiz 2
 Topic:: Guest lecture: KVL
 
 ===
-Topic:: Lab 1 recap ([slides](/slides/w2d1/w2d1-debrief.html))
+Topic:: Lab 1 recap ([slides](/slides/w2d1/w2d1-debrief.html), [code](https://nbviewer.jupyter.org/github/kcarnold/cs344/blob/main/src/Data_Loading_Code.ipynb))
 
 Read:: [DL4C chapter 2](https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb)
     *note: ignore the implementation of `class DataLoaders`.*

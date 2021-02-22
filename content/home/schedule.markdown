@@ -79,7 +79,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span><br><br></td>
 <!--  2 > 1 -->
 </tr><tr>
-<td class = "even">2/15<br><span class = "html"><p><strong>Topic</strong> Lab 1 recap (<a href="/slides/w2d1/w2d1-debrief.html">slides</a>)</p>
+<td class = "even">2/15<br><span class = "html"><p><strong>Topic</strong> Lab 1 recap (<a href="/slides/w2d1/w2d1-debrief.html">slides</a>, <a href="https://nbviewer.jupyter.org/github/kcarnold/cs344/blob/main/src/Data_Loading_Code.ipynb">code</a>)</p>
 
 <p><strong>Read</strong> <a href="https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb">DL4C chapter 2</a>
   <em>note: ignore the implementation of <code>class DataLoaders</code>.</em></p>
