@@ -272,6 +272,21 @@ Prefer native Python functionality where available. e.g., `filter_keys` is bette
 
 ---
 
+## Example of Peer Review
+
+Sample hw1 in:
+
+* [nbviewer](https://nbviewer.jupyter.org/github/kcarnold/cs344/blob/main/src/Sample_HW1.ipynb)
+* [Colab](https://colab.research.google.com/github/kcarnold/cs344/blob/main/src/Sample_HW1.ipynb)
+
+---
+
+## Practice
+
+* [Colab](https://colab.research.google.com/github/kcarnold/cs344/blob/main/src/A_Batch_of_Practice_(blank).ipynb)
+
+---
+
 ## Questions?
 
 ??? 
