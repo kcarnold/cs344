@@ -13,10 +13,7 @@ This is a hands-on course on AI systems using machine learning, with a particula
 
 -   **Instructor**: Kenneth C. Arnold, Calvin University, North Hall NH298
 
--   **Meeting Time**: MWF 11:30-12:20
-
-    -   Wednesday in HL 102
-    -   Monday and Friday in CS labs SB 372 *Maroon* and overflow to 354 *Gold*
+-   **Meeting Time**: MWF 11:30-12:20, HL 102
 
 -   **Office/Teams Hours**: Generally Monday and Thursday afternoons; see my [Google Calendar](https://kenarnold.org/calendar.html) for details and exceptions. Or message me directly; time permitting, I'd love to chat.
 
