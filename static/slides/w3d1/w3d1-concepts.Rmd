@@ -283,7 +283,7 @@ Sample hw1 in:
 
 ## Practice
 
-* [Colab](https://colab.research.google.com/github/kcarnold/cs344/blob/main/src/A_Batch_of_Practice_(blank).ipynb)
+<a href="https://colab.research.google.com/github/kcarnold/cs344/blob/main/src/A_Batch_of_Practice_(blank).ipynb">Colab</a>
 
 ---
 
