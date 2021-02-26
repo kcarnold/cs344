@@ -265,9 +265,14 @@ Discussion:: Reply in last week's Discussion
 Quiz:: Quiz 3
 
 ===
+Topic:: Exploring Tensors
+
+===
 Topic:: Lab 2 (basics of model-fitting)
 
+Watch:: [Lesson 3 video](https://course.fast.ai/videos/?lesson=3)
 
+Read:: [DL4C chapter 3](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb) until "MNIST Loss Function" **Reading Quiz**
 
 
 ===endofcal

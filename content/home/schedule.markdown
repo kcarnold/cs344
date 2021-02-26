@@ -129,7 +129,15 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 </span><br><br></td>
 <td class = "even">2/25<br><span class = "html"><p><strong>Quiz</strong> Quiz 3</p>
 </span><br><br></td>
-<td class = "even">2/26<br><span class = "html"><p><strong>Topic</strong> Lab 2 (basics of model-fitting)</p>
+<td class = "even">2/26<br><span class = "html"><p><strong>Topic</strong> Exploring Tensors</p>
+</span><br><br></td>
+<!--  4 > 3 -->
+</tr><tr>
+<td class = "odd">3/1<br><span class = "html"><p><strong>Topic</strong> Lab 2 (basics of model-fitting)</p>
+
+<p><strong>Read</strong> <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb">DL4C chapter 3</a> until &ldquo;MNIST Loss Function&rdquo; <strong>Reading Quiz</strong></p>
+
+<p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=3">Lesson 3 video</a></p>
 </span><br><br></td>
 </tr></tbody></table>
 
