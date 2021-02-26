@@ -23,9 +23,9 @@ projects: []
 >
 > [About Face: A Survey of Facial Recognition Evaluation](https://arxiv.org/abs/2102.00813), presented at the AAAI 2020 Workshop on AI Evaluation
 
-Some of you may already be familiar with some of the issues that have been raised about facial recognition systems. (If not, scroll down…) Since we’ve now spent some time looking at how data affects a machine learning algorithm, let’s talk about how the *data* used to train facial recognition systems might matter.
+Some of you may already be familiar with some of the issues that have been raised about facial recognition systems. (If not, scroll down...) Since we've now spent some time looking at how data affects a machine learning algorithm, let's talk about how the *data* used to train facial recognition systems might matter.
 
-1.  Please *skim* [this paper on facial recognition evaluation](https://arxiv.org/abs/2102.00813) and [Tech Review’s coverage](https://www.technologyreview.com/2021/02/05/1017388/ai-deep-learning-facial-recognition-data-history/) of the paper.
+1.  Please *skim* [this paper on facial recognition evaluation](https://arxiv.org/abs/2102.00813) and [Tech Review's coverage](https://www.technologyreview.com/2021/02/05/1017388/ai-deep-learning-facial-recognition-data-history/) of the paper.
 
 2.  Choose one aspect that stood out to you and read it in more detail. (Maybe follow one of the citations to learn more.)
 
@@ -45,11 +45,9 @@ If this is interesting to you, mark your calendars for a screening of the film [
 
 ## Facial Recognition Background
 
-If you haven’t yet engaged with what facial recognition does and what might go wrong with it, get some background before you engage the above. Here’s a few resources (DATA 202 students will recognize these):
+If you haven't yet engaged with what facial recognition does and what might go wrong with it, get some background before you engage the above. Here's a few resources (DATA 202 students will recognize these):
 
 -   [**GenderShades**](http://gendershades.org/index.html) summary video
-
-<!-- -->
 
 -   Project Green Light (Detroit)
 
@@ -57,7 +55,7 @@ If you haven’t yet engaged with what facial recognition does and what might go
 
     -   Hill, K. (2020, July 24). [**Wrongfully Accused By an Algorithm**](https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html). The New York Times.
 
--   Portland’s facial recognition ordinance: coverage by [**The Hill**](https://thehill-com.cdn.ampproject.org/c/s/thehill.com/policy/technology/515772-portland-adopts-landmark-facial-recognition-ordinance?amp)
+-   Portland's facial recognition ordinance: coverage by [**The Hill**](https://thehill-com.cdn.ampproject.org/c/s/thehill.com/policy/technology/515772-portland-adopts-landmark-facial-recognition-ordinance?amp)
 
 -   <https://www.nytimes.com/2019/07/10/opinion/facial-recognition-race.html>
 
