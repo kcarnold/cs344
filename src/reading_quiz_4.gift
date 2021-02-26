@@ -1,0 +1,7 @@
+$CATEGORY: rq/rq4
+
+Explain how the first approach in this chapter to classifying digits (absolute value of mean difference) works. {=*}
+
+Briefly define "SGD", "loss", and "gradient". {=*}
+
+How do you set the initial values of a model's weights? {=*}
