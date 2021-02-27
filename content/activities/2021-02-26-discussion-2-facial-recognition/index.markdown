@@ -25,19 +25,23 @@ projects: []
 
 Some of you may already be familiar with some of the issues that have been raised about facial recognition systems. (If not, scroll down...) Since we've now spent some time looking at how data affects a machine learning algorithm, let's talk about how the *data* used to train facial recognition systems might matter.
 
+**Shalom in Data** We saw last week how God put so much *good* data in the created world, and created humans in his image being able to *see* that data rightly and *act* accordingly. But sin has corrupted the data we get from the world and the *actions* that we take based on it. Let's look at one example of how data can be corrupted (on the input) and lead to corrupted actions (on the output).
+
 1.  Please *skim* [this paper on facial recognition evaluation](https://arxiv.org/abs/2102.00813) and [Tech Review's coverage](https://www.technologyreview.com/2021/02/05/1017388/ai-deep-learning-facial-recognition-data-history/) of the paper.
 
 2.  Choose one aspect that stood out to you and read it in more detail. (Maybe follow one of the citations to learn more.)
 
 3.  Make a post on the Moodle discussion forum. You might choose one or more of:
 
-    1.  A *quote* from the paper or article
+    1.  What *quote* from the paper or article stood out to you?
 
-    2.  What you found interesting about it.
+    2.  What did you find interesting or surprising?
 
-    3.  A question you have
+    3.  What questions do you have?
 
-    4.  Something you disagree with or an assumption you want to question
+    4.  Did you notice anything you disagree with or an assumption you want to question?
+
+    5.  These readings are from a secular perspective; as you read did you notice any places where a Christian might go deeper or make different conclusions?
 
 4.  *optional but encouraged* Watch the [2-minute trailer for Coded Bias](https://www.codedbias.com/about).
 
