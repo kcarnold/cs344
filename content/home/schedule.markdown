@@ -133,11 +133,23 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 </span><br><br></td>
 <!--  4 > 3 -->
 </tr><tr>
-<td class = "odd">3/1<br><span class = "html"><p><strong>Topic</strong> Lab 2 (basics of model-fitting)</p>
+<td class = "odd">3/1<br><span class = "html"><p><strong>Topic</strong> Modeling Basics</p>
 
 <p><strong>Read</strong> <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb">DL4C chapter 3</a> until &ldquo;MNIST Loss Function&rdquo; <strong>Reading Quiz</strong></p>
 
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=3">Lesson 3 video</a></p>
+</span><br><br></td>
+<td class = "odd">3/2<br><span class = "html"></span><br><br></td>
+<td class = "odd">3/3<br><span class = "html"><p><strong>Topic</strong> Modeling Basics; Facial Recognition Data</p>
+
+<p><strong>Due</strong> Reflection 4</p>
+
+<p><strong>Post</strong> <a href="/activities/discussion-2-facial-recognition/">Discussion 2</a></p>
+</span><br><br></td>
+<td class = "odd">3/4<br><span class = "html"><p><strong>Note</strong> 
+Advising Day</p>
+</span><br><br></td>
+<td class = "odd">3/5<br><span class = "html"><p><strong>Topic</strong> Lab 2 (basics of model-fitting)</p>
 </span><br><br></td>
 </tr></tbody></table>
 

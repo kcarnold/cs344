@@ -7,16 +7,6 @@ days: "MWF"
 ---
 
 
-items::
-Topic;  b;      color=black;    T:
-Read;   i;      color=blue;     R:
-Assign; i;      color=green;    A:
-HW;     t;      color=green;    A:
-Due;    t;      color=red> Due: <!-- --;        D:
-Note;   b;      color=green;    N:
-Vocab;  t;      color=purple;   V:
-
-
 ===03/04/2021
 
 Note:: Advising Day
@@ -268,11 +258,21 @@ Quiz:: Quiz 3
 Topic:: Exploring Tensors
 
 ===
-Topic:: Lab 2 (basics of model-fitting)
+Topic:: Modeling Basics
 
 Watch:: [Lesson 3 video](https://course.fast.ai/videos/?lesson=3)
 
 Read:: [DL4C chapter 3](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb) until "MNIST Loss Function" **Reading Quiz**
+
+===
+Topic:: Modeling Basics; Facial Recognition Data
+
+Post:: [Discussion 2](/activities/discussion-2-facial-recognition/)
+
+Due:: Reflection 4
+
+===
+Topic:: Lab 2 (basics of model-fitting)
 
 
 ===endofcal
