@@ -47,6 +47,24 @@ Some of you may already be familiar with some of the issues that have been raise
 
 If this is interesting to you, mark your calendars for a screening of the film [Coded Bias](https://www.codedbias.com/about) on [PBS on March 22](https://www.pbs.org/independentlens/films/coded-bias/).
 
+## General Reflection Questions (optional for this activity)
+
+As we look at several different technologies throughout this semester, we will ask some of the same questions about each of them. Here's the list so far. You don't need to specifically engage them for this activity, but they may be helpful for prompting your thinking:
+
+-   How does it work?
+
+-   What resources does it need? What resources does it produce?
+
+-   What value does it produce for an organization that uses it?
+
+-   Besides its primary use, what are other consequences (within and outside the organization) of its deployment? Think of people affected, resources consumed or produced, value generated, etc.
+
+-   What are comparable or alternative non-AI products / technologies? What are real-world analogies for this technology (in terms of purpose or function)?
+
+-   What ways of looking at or thinking about people does it emphasize? De-emphasize?
+
+-   What are its limitations? Which limitations are most fundamental?
+
 ## Facial Recognition Background
 
 If you haven't yet engaged with what facial recognition does and what might go wrong with it, get some background before you engage the above. Here's a few resources (DATA 202 students will recognize these):
