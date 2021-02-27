@@ -2,6 +2,40 @@
 title: "Forum posts"
 ---
 
+## Week 4
+
+Happy Saturday everyone! As I mentioned in class, I'm sorry I'm so behind in giving you feedback, and I'm sorry for not posting a check-in quiz in the usual time this week (I'll post one by Monday, which you can attempt whenever works for you).
+
+**Where we are**: We started off treating everything as a black box (that block of code that fit the pet classifier) and we've been gradually peeling off layers of the onion:
+
+-   First we explored *data*: how do we get data, in a useful form? How does the data affect what the model learns?
+
+-   Now we're exploring the model's *outputs*: how do we measure what makes a good output, and how do we get the model to update itself to make its output better?
+
+-   After this we'll peel off the covers on the model itself.
+
+As we get into more technical depth, some people may find the material harder. Others may actually find this easier for various reasons, though. So help each other! -- ask questions, post hints, etc.
+
+**This week**:
+
+-   **Prep**:
+
+    -   All of the Lesson 3 video and part of Chapter 4; see the Calendar and Reading Quiz for details.
+
+    -   Also, start reading the [Facial Recognition discussion](https://cs.calvin.edu/courses/cs/344/ka37/activities/discussion-2-facial-recognition/) readings.
+
+    -   Sometime this week, try to revise your Homework 1 in light of our discussions, both about decisions/data/experimentation/variation and about `DataLoader`s.
+
+-   **Monday**: We'll be back in classroom, reviewing some of the reading together. Have your active reading notebooks handy and come with your questions.
+
+-   **Wednesday**:
+
+    -   We'll overflow from Monday as needed, then discuss some highlights from the facial recognition discussion.
+
+    -   Another reflection due. Keep it brief, but do try to discuss your HW1 revision.
+
+-   **Friday**: Lab (in the classroom space) on fitting models with gradient descent. If you're able to finish Chapter 4 reading by then, it'll be helpful; otherwise get it over the weekend.
+
 ## Week 3
 
 Happy Saturday everyone! I'm enjoying reading your reflections and feedback about the class. I'm hearing from many people that they'd like some more discussion about technical concepts than they're getting from the reading and videos. In light of that, I'm making a few tweaks: this week we'll do a **lecture on Monday** instead of a lab.
