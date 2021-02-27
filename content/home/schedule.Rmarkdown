@@ -55,14 +55,27 @@ cal_data %>%
   select(date, html) %>% 
   complete(date = seq(start, max(date), "day"), fill = list(html = "")) %>% 
   mutate(week  = as.numeric(floor(difftime(date, start, units = "weeks")))) %>% 
-  html_calendar(show = 2:6) %>% 
+  html_calendar(show = 2:6, past_week = 3) %>% 
   knitr::asis_output()
 ```
 
 
 <style>
-table ul {
+.daily-calendar ul {
   padding-left: 1rem;
+}
+
+.daily-calendar .past td > div {
+  overflow: auto;
+  max-height: 75px;
+}
+
+.daily-calendar td {
+    padding: 0;
+}
+
+.daily-calendar td > div {
+  padding: 5px;
 }
 </style>
 

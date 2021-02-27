@@ -16,7 +16,7 @@ weight: 5
 
 
 
-<table border=1 width=95%>
+<table class="daily-calendar" border=1 width=95%>
 <colgroup>
 <col width = "10%">
 <col width = "10%">
@@ -32,18 +32,18 @@ weight: 5
 <th>Fri</th>
 </tr></thead><tbody><tr>
 <!--  0 > -Inf -->
-</tr><tr>
-<td class = "even">2/1<br><span class = "html"></span><br><br></td>
-<td class = "even">2/2<br><span class = "html"></span><br><br></td>
-<td class = "even">2/3<br><span class = "html"><p><strong>Topic</strong> Kickoff, <a href="https://teachablemachine.withgoogle.com/train/image">Teachable Machine</a>, Logistics</p>
+</tr><tr class="past">
+<td class = "even"><div>2/1<br><span class = "html"></span><br><br></div></td>
+<td class = "even"><div>2/2<br><span class = "html"></span><br><br></div></td>
+<td class = "even"><div>2/3<br><span class = "html"><p><strong>Topic</strong> Kickoff, <a href="https://teachablemachine.withgoogle.com/train/image">Teachable Machine</a>, Logistics</p>
 
 <p><strong>Read</strong> Syllabus</p>
 
 <p><strong>Resources</strong> <a href="/slides/w1d1/w1d1-intro.html">Day 1 slides</a></p>
-</span><br><br></td>
-<td class = "even">2/4<br><span class = "html"><p><strong>Quiz</strong> Python review</p>
-</span><br><br></td>
-<td class = "even">2/5<br><span class = "html"><p><strong>Topic</strong> Lab 0: Warm-up</p>
+</span><br><br></div></td>
+<td class = "even"><div>2/4<br><span class = "html"><p><strong>Quiz</strong> Python review</p>
+</span><br><br></div></td>
+<td class = "even"><div>2/5<br><span class = "html"><p><strong>Topic</strong> Lab 0: Warm-up</p>
 
 <p><strong>Notes</strong> 
 <details><summary>Lab Logistics</summary></p>
@@ -55,10 +55,10 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </ul>
 
 <p></details></p>
-</span><br><br></td>
+</span><br><br></div></td>
 <!--  1 > 0 -->
-</tr><tr>
-<td class = "even">2/8<br><span class = "html"><p><strong>Topic</strong> Lab 1 (Chapter 1)</p>
+</tr><tr class="past">
+<td class = "even"><div>2/8<br><span class = "html"><p><strong>Topic</strong> Lab 1 (Chapter 1)</p>
 
 <p><strong>Prep</strong> </p>
 
@@ -67,19 +67,19 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <li>Watch <a href="https://course.fast.ai/videos/?lesson=1">Lesson 1 Video</a></li>
 <li>Complete reading quiz</li>
 </ul>
-</span><br><br></td>
-<td class = "even">2/9<br><span class = "html"></span><br><br></td>
-<td class = "even">2/10<br><span class = "html"><p><strong>Topic</strong> Guest lecture: KVL</p>
+</span><br><br></div></td>
+<td class = "even"><div>2/9<br><span class = "html"></span><br><br></div></td>
+<td class = "even"><div>2/10<br><span class = "html"><p><strong>Topic</strong> Guest lecture: KVL</p>
 
 <p><strong>Due</strong> Reflection 1</p>
-</span><br><br></td>
-<td class = "even">2/11<br><span class = "html"><p><strong>Quiz</strong> Quiz 2</p>
-</span><br><br></td>
-<td class = "even">2/12<br><span class = "html"><p><strong>Topic</strong> Guest lecture: KVL</p>
-</span><br><br></td>
+</span><br><br></div></td>
+<td class = "even"><div>2/11<br><span class = "html"><p><strong>Quiz</strong> Quiz 2</p>
+</span><br><br></div></td>
+<td class = "even"><div>2/12<br><span class = "html"><p><strong>Topic</strong> Guest lecture: KVL</p>
+</span><br><br></div></td>
 <!--  2 > 1 -->
-</tr><tr>
-<td class = "even">2/15<br><span class = "html"><p><strong>Topic</strong> Lab 1 recap (<a href="/slides/w2d1/w2d1-debrief.html">slides</a>, <a href="https://nbviewer.jupyter.org/github/kcarnold/cs344/blob/main/src/Data_Loading_Code.ipynb">code</a>)</p>
+</tr><tr class="past">
+<td class = "even"><div>2/15<br><span class = "html"><p><strong>Topic</strong> Lab 1 recap (<a href="/slides/w2d1/w2d1-debrief.html">slides</a>, <a href="https://nbviewer.jupyter.org/github/kcarnold/cs344/blob/main/src/Data_Loading_Code.ipynb">code</a>)</p>
 
 <p><strong>Read</strong> <a href="https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb">DL4C chapter 2</a>
   <em>note: ignore the implementation of <code>class DataLoaders</code>.</em></p>
@@ -94,9 +94,9 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 Build and evaluate a classifier to determine if a photo is taken of the inside
 vs outside of a restaurant. Don&#39;t scrape photos; use the Yelp Academic Dataset.
 Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href="https://classroom.github.com/g/uMf9CjZ_">this repo</a> if desired.</p>
-</span><br><br></td>
-<td class = "even">2/16<br><span class = "html"></span><br><br></td>
-<td class = "even">2/17<br><span class = "html"><p><strong>Topic</strong> Review, Intro to AI Ethics <a href="/slides/w2d2/w2d2-ethics.html">slides</a></p>
+</span><br><br></div></td>
+<td class = "even"><div>2/16<br><span class = "html"></span><br><br></div></td>
+<td class = "even"><div>2/17<br><span class = "html"><p><strong>Topic</strong> Review, Intro to AI Ethics <a href="/slides/w2d2/w2d2-ethics.html">slides</a></p>
 
 <p><strong>Read</strong> </p>
 
@@ -108,55 +108,68 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 <p><strong>Due</strong> Discussion post about a topic that caught your eye (before class)</p>
 
 <p>Reflection 2</p>
-</span><br><br></td>
-<td class = "even">2/18<br><span class = "html"></span><br><br></td>
-<td class = "even">2/19<br><span class = "html"><p><strong>Topic</strong> Lab 1 extension, homework work</p>
-</span><br><br></td>
+</span><br><br></div></td>
+<td class = "even"><div>2/18<br><span class = "html"></span><br><br></div></td>
+<td class = "even"><div>2/19<br><span class = "html"><p><strong>Topic</strong> Lab 1 extension, homework work</p>
+</span><br><br></div></td>
 <!--  3 > 2 -->
 </tr><tr>
-<td class = "even">2/22<br><span class = "html"><p><strong>Topic</strong> Conceptual Review <a href="/slides/w3d1/w3d1-concepts.html">Slides</a></p>
+<td class = "even"><div>2/22<br><span class = "html"><p><strong>Topic</strong> Conceptual Review <a href="/slides/w3d1/w3d1-concepts.html">Slides</a></p>
 
 <p><strong>Read</strong> Finish reading <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a>; <strong>Reading Quiz</strong></p>
 
 <p><strong>Due</strong> Homework 1</p>
-</span><br><br></td>
-<td class = "even">2/23<br><span class = "html"></span><br><br></td>
-<td class = "even">2/24<br><span class = "html"><p><strong>Topic</strong> Conceptual and Practical Review</p>
+</span><br><br></div></td>
+<td class = "even"><div>2/23<br><span class = "html"></span><br><br></div></td>
+<td class = "even"><div>2/24<br><span class = "html"><p><strong>Topic</strong> Conceptual and Practical Review</p>
 
 <p><strong>Due</strong> Reflection 3</p>
 
 <p><strong>Discussion</strong> Reply in last week&#39;s Discussion</p>
-</span><br><br></td>
-<td class = "even">2/25<br><span class = "html"><p><strong>Quiz</strong> Quiz 3</p>
-</span><br><br></td>
-<td class = "even">2/26<br><span class = "html"><p><strong>Topic</strong> Exploring Tensors</p>
-</span><br><br></td>
+</span><br><br></div></td>
+<td class = "even"><div>2/25<br><span class = "html"><p><strong>Quiz</strong> Quiz 3</p>
+</span><br><br></div></td>
+<td class = "even"><div>2/26<br><span class = "html"><p><strong>Topic</strong> Exploring Tensors</p>
+</span><br><br></div></td>
 <!--  4 > 3 -->
 </tr><tr>
-<td class = "odd">3/1<br><span class = "html"><p><strong>Topic</strong> Modeling Basics</p>
+<td class = "odd"><div>3/1<br><span class = "html"><p><strong>Topic</strong> Modeling Basics</p>
 
 <p><strong>Read</strong> <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb">DL4C chapter 3</a> until &ldquo;MNIST Loss Function&rdquo; <strong>Reading Quiz</strong></p>
 
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=3">Lesson 3 video</a></p>
-</span><br><br></td>
-<td class = "odd">3/2<br><span class = "html"></span><br><br></td>
-<td class = "odd">3/3<br><span class = "html"><p><strong>Topic</strong> Modeling Basics; Facial Recognition Data</p>
+</span><br><br></div></td>
+<td class = "odd"><div>3/2<br><span class = "html"></span><br><br></div></td>
+<td class = "odd"><div>3/3<br><span class = "html"><p><strong>Topic</strong> Modeling Basics; Facial Recognition Data</p>
 
 <p><strong>Due</strong> Reflection 4</p>
 
 <p><strong>Post</strong> <a href="/activities/discussion-2-facial-recognition/">Discussion 2</a></p>
-</span><br><br></td>
-<td class = "odd">3/4<br><span class = "html"><p><strong>Note</strong> 
+</span><br><br></div></td>
+<td class = "odd"><div>3/4<br><span class = "html"><p><strong>Note</strong> 
 Advising Day</p>
-</span><br><br></td>
-<td class = "odd">3/5<br><span class = "html"><p><strong>Topic</strong> Lab 2 (basics of model-fitting)</p>
-</span><br><br></td>
+</span><br><br></div></td>
+<td class = "odd"><div>3/5<br><span class = "html"><p><strong>Topic</strong> Lab 2 (basics of model-fitting)</p>
+</span><br><br></div></td>
 </tr></tbody></table>
 
 
 <style>
-table ul {
+.daily-calendar ul {
   padding-left: 1rem;
+}
+
+.daily-calendar .past td > div {
+  overflow: auto;
+  max-height: 75px;
+}
+
+.daily-calendar td {
+    padding: 0;
+}
+
+.daily-calendar td > div {
+  padding: 5px;
 }
 </style>
 
