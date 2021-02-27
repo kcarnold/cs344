@@ -11,6 +11,10 @@ weight: 100
 
 -   Our book: [Deep Learning for Coders](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527/)
 
+    -   [Source notebooks](https://github.com/fastai/fastbook), [Arnold's cleaned notebooks](https://github.com/kcarnold/fastbook/tree/master/clean). Suggestion: use [nbviewer](https://nbviewer.jupyter.org/) (or Colab) when reading the notebooks, rather than GitHub.
+
+    -   fast.ai course [lesson videos](https://course.fast.ai/videos/)
+
 -   Review the end-of-chapter questions at [aiquizzes](https://aiquizzes.com/)
 
 -   Connect with a broader AI community at <https://twimlai.com/community/>
