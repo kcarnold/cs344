@@ -274,5 +274,12 @@ Due:: Reflection 4
 ===
 Topic:: Lab 2 (basics of model-fitting)
 
+Fallback plan if I don't have a better lab: do the PyTorch tutorial.
+
+===
+Topic:: Scoring, softmax, loss, ...
+
+Maybe the 3B1B YouTube videos?
+
 
 ===endofcal
