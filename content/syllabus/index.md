@@ -1,12 +1,5 @@
 ---
-widget: blank
-headless: true
-design:
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '1'
-
 title: "Syllabus"
-weight: 10
 ---
 
 This is a hands-on course on AI systems using machine learning, with a particular emphasis on deep neural networks.

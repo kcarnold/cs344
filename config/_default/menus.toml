@@ -5,13 +5,13 @@
 
 [[main]]
   name = "Syllabus"
-  url = "#syllabus"
-  weight = 10
+  url = "/syllabus"
+  weight = 20
 
 [[main]]
   name = "Schedule"
   url = "#schedule"
-  weight = 20
+  weight = 10
 
 [[main]]
   name = "Activities"
