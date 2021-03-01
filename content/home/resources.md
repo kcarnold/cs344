@@ -6,7 +6,7 @@ design:
   columns: '1'
 
 title: "Resources"
-weight: 100
+weight: 30
 ---
 
 -   Our book: [Deep Learning for Coders](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527/)
