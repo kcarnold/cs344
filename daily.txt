@@ -262,24 +262,37 @@ Topic:: Modeling Basics
 
 Watch:: [Lesson 3 video](https://course.fast.ai/videos/?lesson=3)
 
-Read:: [DL4C chapter 3](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb) until "MNIST Loss Function" **Reading Quiz**
+Read:: [DL4C chapter 4](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb) until "MNIST Loss Function" **Reading Quiz**
 
 ===
 Topic:: Modeling Basics; Facial Recognition Data
 
-Post:: [Discussion 2](/activities/discussion-2-facial-recognition/)
+Note:: Reflection 4 moved to Friday
 
-Due:: Reflection 4
+===
+Quiz:: Technical Check-in
 
 ===
 Topic:: Lab 2 (basics of model-fitting)
 
+Read:: The rest of chapter 4
+
+Watch:: The first hour of the [Lesson 4 video](https://course.fast.ai/videos/?lesson=4)
+
+Due:: Reflection 4
+
 Fallback plan if I don't have a better lab: do the PyTorch tutorial.
+
 
 ===
 Topic:: Scoring, softmax, loss, ...
 
 Maybe the 3B1B YouTube videos?
+
+===
+Topic:: Facial Recognition Data
+
+Post:: [Discussion 2](/activities/discussion-2-facial-recognition/)
 
 
 ===endofcal
