@@ -19,14 +19,3 @@ We also strive for the sequence to make sense, but make no promises.
 * `003-pets-dataloader`: create data loaders for the Pets dataset using the mid-level `DataBlocks` API
 * `004-jsonlines`: pull data from newline-delimited JSON (and use list and dict comprehensions to work with it)
 * `005-image-ops`: perform broadcast and reduction operations on a tensor representing a batch of color images
-
-
-Show one batch from each of the training and validation sets 
-
-How many dogs were misclassified as cats? Vice versa? (Plot the confusion matrix.) 
-
-By default ClassificationInterpretation.from_learner uses the validation set, and that's generally what you want.  
-
-Why do you think the classification interpretation isn't instantaneous? What's it doing? 
-
-Find some images that were misclassified. Were there any mislabeled images in the training set? 
