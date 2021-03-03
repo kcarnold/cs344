@@ -142,7 +142,9 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 <td class = "odd"><div>3/2<br><span class = "html"></span><br><br></div></td>
 <td class = "odd"><div>3/3<br><span class = "html"><p><strong>Note</strong> Reflection 4 moved to Friday</p>
 
-<p><strong>Topic</strong> Modeling Basics; Facial Recognition Data</p>
+<p>Add and upvote <a href="https://calvincollege.sharepoint.com/sites/Section_77915/_layouts/15/Doc.aspx?sourcedoc=%7B11c65f0d-7020-4c67-a7b2-93a5521628a6%7D&amp;action=edit&amp;wd=target%28_Collaboration%20Space%2FWeekly%20Notes.one%7Cf65e590f-924e-461a-ad2d-681cc376dd7c%2FApplication%20Areas%7C334a318a-1626-4e37-91fd-6bf983ef82d4%2F%29&amp;wdorigin=703">application areas</a></p>
+
+<p><strong>Topic</strong> Modeling Basics</p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/4<br><span class = "html"><p><strong>Note</strong> 
 Advising Day</p>

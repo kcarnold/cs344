@@ -265,9 +265,11 @@ Watch:: [Lesson 3 video](https://course.fast.ai/videos/?lesson=3)
 Read:: [DL4C chapter 4](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb) until "MNIST Loss Function" **Reading Quiz**
 
 ===
-Topic:: Modeling Basics; Facial Recognition Data
+Topic:: Modeling Basics
 
 Note:: Reflection 4 moved to Friday
+
+Note:: Add and upvote [application areas](https://calvincollege.sharepoint.com/sites/Section_77915/_layouts/15/Doc.aspx?sourcedoc={11c65f0d-7020-4c67-a7b2-93a5521628a6}&action=edit&wd=target%28_Collaboration%20Space%2FWeekly%20Notes.one%7Cf65e590f-924e-461a-ad2d-681cc376dd7c%2FApplication%20Areas%7C334a318a-1626-4e37-91fd-6bf983ef82d4%2F%29&wdorigin=703)
 
 ===
 Quiz:: Technical Check-in
