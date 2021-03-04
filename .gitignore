@@ -61,3 +61,4 @@ Thumbs.db
 # Netlify
 /public/
 /resources/
+/repos/
