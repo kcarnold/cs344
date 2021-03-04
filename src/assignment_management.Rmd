@@ -1,0 +1,34 @@
+---
+title: "Assignment Management"
+author: "K Arnold"
+date: "3/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# remotes::install_github("rundel/ghclass")
+library(ghclass)
+library(tidyverse)
+library(glue)
+```
+
+```{r}
+ghorg <- "Calvin-CS344-21SP"
+```
+
+```{r}
+all_repos <- org_repos(ghorg)
+```
+
+Create the portfolio repo
+
+```{r}
+repoName <- "portfolio-template"
+repo_create(ghorg, name = repoName, gitignore_template = "")
+```
+
+```{r}
+repo_set_template(paste0(ghorg, "/", repoName))
+```
+
