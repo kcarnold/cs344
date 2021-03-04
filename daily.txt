@@ -267,12 +267,14 @@ Read:: [DL4C chapter 4](https://nbviewer.jupyter.org/github/fastai/fastbook/blob
 ===
 Topic:: Modeling Basics
 
-Note:: Reflection 4 moved to Friday
+Note:: Reflection delayed till next week
 
 Note:: Add and upvote [application areas](https://calvincollege.sharepoint.com/sites/Section_77915/_layouts/15/Doc.aspx?sourcedoc={11c65f0d-7020-4c67-a7b2-93a5521628a6}&action=edit&wd=target%28_Collaboration%20Space%2FWeekly%20Notes.one%7Cf65e590f-924e-461a-ad2d-681cc376dd7c%2FApplication%20Areas%7C334a318a-1626-4e37-91fd-6bf983ef82d4%2F%29&wdorigin=703)
 
-===
+===3/4/2021
 Quiz:: Technical Check-in
+
+Released:: [Portfolio Repos](https://classroom.github.com/a/t9EfXnfw)
 
 ===
 Topic:: Lab 2 (basics of model-fitting)
@@ -281,8 +283,6 @@ Read:: The rest of chapter 4
 
 Watch:: The first hour of the [Lesson 4 video](https://course.fast.ai/videos/?lesson=4)
 
-Due:: Reflection 4
-
 Fallback plan if I don't have a better lab: do the PyTorch tutorial.
 
 
@@ -290,6 +290,10 @@ Fallback plan if I don't have a better lab: do the PyTorch tutorial.
 Topic:: Scoring, softmax, loss, ...
 
 Maybe the 3B1B YouTube videos?
+
+===
+Due:: Reflection 4
+
 
 ===
 Topic:: Facial Recognition Data

@@ -140,7 +140,7 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=3">Lesson 3 video</a></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/2<br><span class = "html"></span><br><br></div></td>
-<td class = "odd"><div>3/3<br><span class = "html"><p><strong>Note</strong> Reflection 4 moved to Friday</p>
+<td class = "odd"><div>3/3<br><span class = "html"><p><strong>Note</strong> Reflection delayed till next week</p>
 
 <p>Add and upvote <a href="https://calvincollege.sharepoint.com/sites/Section_77915/_layouts/15/Doc.aspx?sourcedoc=%7B11c65f0d-7020-4c67-a7b2-93a5521628a6%7D&amp;action=edit&amp;wd=target%28_Collaboration%20Space%2FWeekly%20Notes.one%7Cf65e590f-924e-461a-ad2d-681cc376dd7c%2FApplication%20Areas%7C334a318a-1626-4e37-91fd-6bf983ef82d4%2F%29&amp;wdorigin=703">application areas</a></p>
 
@@ -148,8 +148,16 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 </span><br><br></div></td>
 <td class = "odd"><div>3/4<br><span class = "html"><p><strong>Note</strong> 
 Advising Day</p>
+
+<p><strong>Quiz</strong> Technical Check-in</p>
+
+<p><strong>Released</strong> <a href="https://classroom.github.com/a/t9EfXnfw">Portfolio Repos</a></p>
 </span><br><br></div></td>
-<td class = "odd"><div>3/5<br><span class = "html"><p><strong>Quiz</strong> Technical Check-in</p>
+<td class = "odd"><div>3/5<br><span class = "html"><p><strong>Topic</strong> Lab 2 (basics of model-fitting)</p>
+
+<p><strong>Read</strong> The rest of chapter 4</p>
+
+<p><strong>Watch</strong> The first hour of the <a href="https://course.fast.ai/videos/?lesson=4">Lesson 4 video</a></p>
 </span><br><br></div></td>
 </tr></tbody></table>
 
