@@ -2,6 +2,7 @@ ALL: deploy
 
 slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides -iname '*.Rmd' -and -not -iname "*slides-common*"))
 post_markdowns := $(patsubst %.Rmarkdown,%.markdown,$(shell find content -name '*.Rmarkdown'))
+activity_md := ${shell find content/activities -name '*.Rmarkdown'}
 
 %.html: %.Rmd
 	Rscript -e "rmarkdown::render('"$<"')"
@@ -9,7 +10,7 @@ post_markdowns := $(patsubst %.Rmarkdown,%.markdown,$(shell find content -name '
 %.html: %.md
 	Rscript -e "rmarkdown::render('"$<"')"
 
-content/home/schedule.markdown: content/home/schedule.Rmarkdown daily.txt
+content/home/schedule.markdown: content/home/schedule.Rmarkdown daily.txt $(activity_md)
 	Rscript -e "rmarkdown::render_site('content/home/schedule.Rmarkdown',  encoding = 'UTF-8')"
 
 %.markdown: %.Rmarkdown

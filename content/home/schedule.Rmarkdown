@@ -20,6 +20,23 @@ library(daily)
 
 ## Schedule
 
+```{r echo=FALSE}
+activity_dates <- Sys.glob(here::here('content/activities/*/*.markdown')) %>% 
+  tibble(path = .) %>% 
+  rowwise() %>% 
+  mutate(yaml = list(rmarkdown::yaml_front_matter(path)), title = yaml$title, slug = yaml$slug, dates = list(yaml$dates)) %>% 
+  filter(!is.null(dates)) %>% 
+  unnest_longer(dates, values_to = "date", indices_to = "kind") %>% 
+  select(slug, title, kind, date)
+
+activity_cal_data <- activity_dates %>% transmute(
+  date = lubridate::ymd(date),
+  label = str_to_title(kind),
+  contents = str_glue("[{title}](/activities/{slug})")
+)
+```
+
+
 ```{r echo=FALSE, results='asis'}
 add_prefix <- function(s, prefix) {
   str_replace_all(s, regex("^", multiline = TRUE), prefix)
@@ -43,11 +60,13 @@ cal_data <-
   ))
 ```
 
+
 ```{r echo=FALSE}
 start <- lubridate::floor_date(min(cal_data$date), unit = "week")
 
 cal_data %>% 
-    mutate(topic_contents = glue("**{label}** {contents}")) %>% 
+  bind_rows(activity_cal_data) %>% 
+  mutate(topic_contents = glue("**{label}** {contents}")) %>% 
   group_by(date) %>% 
   summarize(contents = paste(topic_contents, collapse = "\n\n")) %>% 
   rowwise() %>% 

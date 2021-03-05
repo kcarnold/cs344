@@ -16,6 +16,10 @@ weight: 5
 
 
 
+
+
+
+
 <table class="daily-calendar" border=1 width=95%>
 <colgroup>
 <col width = "10%">
@@ -88,12 +92,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=2">Lesson 2 Video</a></p>
 
-<p><strong>Homework</strong> </p>
-
-<p>(announced today, tentatively due next Mon)
-Build and evaluate a classifier to determine if a photo is taken of the inside
-vs outside of a restaurant. Don&#39;t scrape photos; use the Yelp Academic Dataset.
-Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href="https://classroom.github.com/g/uMf9CjZ_">this repo</a> if desired.</p>
+<p><strong>Assigned</strong> <a href="/activities/homework-1">Homework 1</a></p>
 </span><br><br></div></td>
 <td class = "even"><div>2/16<br><span class = "html"></span><br><br></div></td>
 <td class = "even"><div>2/17<br><span class = "html"><p><strong>Topic</strong> Review, Intro to AI Ethics <a href="/slides/w2d2/w2d2-ethics.html">slides</a></p>
@@ -118,7 +117,7 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 
 <p><strong>Read</strong> Finish reading <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a>; <strong>Reading Quiz</strong></p>
 
-<p><strong>Due</strong> Homework 1</p>
+<p><strong>Due</strong> <a href="/activities/homework-1">Homework 1</a></p>
 </span><br><br></div></td>
 <td class = "even"><div>2/23<br><span class = "html"></span><br><br></div></td>
 <td class = "even"><div>2/24<br><span class = "html"><p><strong>Topic</strong> Conceptual and Practical Review</p>
@@ -152,19 +151,19 @@ Advising Day</p>
 
 <p><strong>Released</strong> <a href="https://classroom.github.com/a/t9EfXnfw">Portfolio Repos</a></p>
 </span><br><br></div></td>
-<td class = "odd"><div>3/5<br><span class = "html"><p><strong>Topic</strong> Lab 2 (basics of model-fitting)</p>
-
-<p><strong>Read</strong> The rest of chapter 4</p>
+<td class = "odd"><div>3/5<br><span class = "html"><p><strong>Read</strong> The rest of chapter 4</p>
 
 <p><strong>Watch</strong> The first hour of the <a href="https://course.fast.ai/videos/?lesson=4">Lesson 4 video</a></p>
+
+<p><strong>Topic</strong> <a href="/activities/lab-2">Lab 2: Pull the Chain</a></p>
 </span><br><br></div></td>
 <!--  5 > 4 -->
 </tr><tr>
-<td class = "odd"><div>3/8<br><span class = "html"><p><strong>Topic</strong> Scoring, softmax, loss, &hellip;</p>
-
-<p><strong>Read</strong> the corresponding part of chapter 5</p>
+<td class = "odd"><div>3/8<br><span class = "html"><p><strong>Read</strong> the corresponding parts of ch4 and ch5; reading quiz</p>
 
 <p><strong>Watch</strong> The rest of the <a href="https://course.fast.ai/videos/?lesson=4">Lesson 4 video</a></p>
+
+<p><strong>Continue</strong> <a href="/activities/lab-2">Lab 2: Pull the Chain</a></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/9<br><span class = "html"></span><br><br></div></td>
 <td class = "odd"><div>3/10<br><span class = "html"><p><strong>Due</strong> Reflection 4</p>

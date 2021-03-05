@@ -155,14 +155,6 @@ Quiz:: Reading Quiz 2
 * Give feedback about weekly reviews
 * Announce hw1
 
-Homework::
-
-  (announced today, tentatively due next Mon)
-  Build and evaluate a classifier to determine if a photo is taken of the inside
-  vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
-  Submit a Jupyter Notebook reporting your findings on Moodle. You may use [this repo](https://classroom.github.com/g/uMf9CjZ_) if desired.
-
-
 ===
 Topic:: Review, Intro to AI Ethics [slides](/slides/w2d2/w2d2-ethics.html)
 
@@ -242,8 +234,6 @@ Plan::
 
 Read:: Finish reading [DL4C chapter 3](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb); **Reading Quiz**
 
-Due:: Homework 1
-
 ===
 Topic:: Conceptual and Practical Review
 
@@ -274,8 +264,6 @@ Quiz:: Technical Check-in
 Released:: [Portfolio Repos](https://classroom.github.com/a/t9EfXnfw)
 
 ===
-Topic:: Lab 2 (basics of model-fitting)
-
 Read:: The rest of chapter 4
 
 Watch:: The first hour of the [Lesson 4 video](https://course.fast.ai/videos/?lesson=4)
@@ -284,11 +272,9 @@ Fallback plan if I don't have a better lab: do the PyTorch tutorial.
 
 
 ===
-Topic:: Scoring, softmax, loss, ...
-
 Watch:: The rest of the [Lesson 4 video](https://course.fast.ai/videos/?lesson=4)
 
-Read:: the corresponding part of chapter 5
+Read:: the corresponding parts of ch4 and ch5; reading quiz
 
 Maybe the 3B1B YouTube videos?
 

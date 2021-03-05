@@ -1,5 +1,5 @@
 ---
-title: 'Lab 2'
+title: 'Lab 2: Pull the Chain'
 author: Ken Arnold
 date: '2021-03-05'
 slug: lab-2
@@ -11,14 +11,15 @@ summary: 'Understand backprop and gradient descent using physical analogies'
 authors: []
 lastmod: '2021-03-05'
 featured: no
+dates:
+  topic: '2021-03-05'
+  continue: '2021-03-08'
 image:
   caption: ''
   focal_point: ''
   preview_only: no
 projects: []
 ---
-
-# Lab 2
 
 ## Getting Started
 
