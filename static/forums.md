@@ -2,6 +2,16 @@
 title: "Forum posts"
 ---
 
+## Week 4 Thursday
+
+As discussed in class yesterday, the **portfolio repos are now live. Claim yours [here](https://classroom.github.com/a/t9EfXnfw)** (link is also on the class calendar). To start, go in "fundamentals", read the README, and get started soon; first few that are already up there should be pretty easy. I'll push new notebooks every few days.
+
+Also, a reminder since we'd skipped a few weeks: this week's [**check-in quiz**](https://https//moodle.calvin.edu/mod/quiz/view.php?id=1208066) **has been posted**.
+
+Finally, to reduce the variance in reflection grades, the next reflection will have a more objective rubric. Since it will require referring to the portfolio and quiz (as well as the hw1 revision), I'm **delaying the due date for the reflection** until next Wednesday (i.e., we're skipping a week for reflections).
+
+(Sorry for the midweek updates this week; I aim for these to be once a week.)
+
 ## Week 4
 
 Happy Saturday everyone! As I mentioned in class, I'm sorry I'm so behind in giving you feedback, and I'm sorry for not posting a check-in quiz in the usual time this week (I'll post one by Monday, which you can attempt whenever works for you).
