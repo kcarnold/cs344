@@ -28,7 +28,7 @@ add_prefix <- function(s, prefix) {
 cal_data <- 
   daily2cal(
   path = here::here("daily.txt"),
-  end = lubridate::ymd("2021-03-05"),
+  end = lubridate::ymd("2021-03-10"),
 ) %>%
   pivot_longer(-c(date, week), names_to = "label", values_to = "contents") %>% 
   filter(
@@ -55,7 +55,7 @@ cal_data %>%
   select(date, html) %>% 
   complete(date = seq(start, max(date), "day"), fill = list(html = "")) %>% 
   mutate(week  = as.numeric(floor(difftime(date, start, units = "weeks")))) %>% 
-  html_calendar(show = 2:6, past_week = 3) %>% 
+  html_calendar(show = 2:6, past_week = 4) %>% 
   knitr::asis_output()
 ```
 

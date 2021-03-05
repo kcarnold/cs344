@@ -251,9 +251,6 @@ Due:: Reflection 3
 
 Discussion:: Reply in last week's Discussion
 
-===02/25/2021
-Quiz:: Quiz 3
-
 ===
 Topic:: Exploring Tensors
 
@@ -289,11 +286,17 @@ Fallback plan if I don't have a better lab: do the PyTorch tutorial.
 ===
 Topic:: Scoring, softmax, loss, ...
 
+Watch:: The rest of the [Lesson 4 video](https://course.fast.ai/videos/?lesson=4)
+
+Read:: the corresponding part of chapter 5
+
 Maybe the 3B1B YouTube videos?
 
 ===
 Due:: Reflection 4
 
+===
+Topic:: Lab 3
 
 ===
 Topic:: Facial Recognition Data

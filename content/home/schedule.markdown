@@ -113,7 +113,7 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 <td class = "even"><div>2/19<br><span class = "html"><p><strong>Topic</strong> Lab 1 extension, homework work</p>
 </span><br><br></div></td>
 <!--  3 > 2 -->
-</tr><tr>
+</tr><tr class="past">
 <td class = "even"><div>2/22<br><span class = "html"><p><strong>Topic</strong> Conceptual Review <a href="/slides/w3d1/w3d1-concepts.html">Slides</a></p>
 
 <p><strong>Read</strong> Finish reading <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/03_ethics.ipynb">DL4C chapter 3</a>; <strong>Reading Quiz</strong></p>
@@ -127,8 +127,7 @@ Submit a Jupyter Notebook reporting your findings on Moodle. You may use <a href
 
 <p><strong>Discussion</strong> Reply in last week&#39;s Discussion</p>
 </span><br><br></div></td>
-<td class = "even"><div>2/25<br><span class = "html"><p><strong>Quiz</strong> Quiz 3</p>
-</span><br><br></div></td>
+<td class = "even"><div>2/25<br><span class = "html"></span><br><br></div></td>
 <td class = "even"><div>2/26<br><span class = "html"><p><strong>Topic</strong> Exploring Tensors</p>
 </span><br><br></div></td>
 <!--  4 > 3 -->
@@ -158,6 +157,17 @@ Advising Day</p>
 <p><strong>Read</strong> The rest of chapter 4</p>
 
 <p><strong>Watch</strong> The first hour of the <a href="https://course.fast.ai/videos/?lesson=4">Lesson 4 video</a></p>
+</span><br><br></div></td>
+<!--  5 > 4 -->
+</tr><tr>
+<td class = "odd"><div>3/8<br><span class = "html"><p><strong>Topic</strong> Scoring, softmax, loss, &hellip;</p>
+
+<p><strong>Read</strong> the corresponding part of chapter 5</p>
+
+<p><strong>Watch</strong> The rest of the <a href="https://course.fast.ai/videos/?lesson=4">Lesson 4 video</a></p>
+</span><br><br></div></td>
+<td class = "odd"><div>3/9<br><span class = "html"></span><br><br></div></td>
+<td class = "odd"><div>3/10<br><span class = "html"><p><strong>Due</strong> Reflection 4</p>
 </span><br><br></div></td>
 </tr></tbody></table>
 
