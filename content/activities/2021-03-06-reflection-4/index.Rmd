@@ -21,7 +21,7 @@ projects: []
 
 This reflection is a bit different from previous ones: it's systematic and objective. Consider it a check-in of what you have achieved in the first third (approximately) of the semester.
 
-### Technology
+### Technology: \_\_\_%
 
 Complete the following:
 
@@ -49,15 +49,21 @@ Complete the following:
 
 -   Homework 1
 
--   Portfolio Foundations section: \_\_%
+-   Portfolio Fundamentals section: \_\_%
 
-Compute a grade for yourself based on the simple average of your scores for each activity. (You may use a different weighting if you make a good argument.) Specific instructions for each
+Specific instructions:
 
-Quizzes
+-   **Active Reading**: Give full credit for having reproduced at least 90% of the code results of the chapter, e.g., in the [outputs-only notebooks](https://github.com/kcarnold/fastbook/tree/master/clean). *Please place these notebooks in your Portfolio repo to provide evidence*. If you reproduced less of the code, reduce credit proportionally.
 
-For each of the following quizzes, please review the quiz and the feedback.
+-   **Check-in and Reading Quizzes**: Review the quiz and feedback. If your score differs from the score on Moodle, please explain.
 
-### Community
+-   **Homework 1**: TODO
+
+-   **Portfolio Fundamentals**: Give 10 points for each Fundamentals notebook you have fully completed. Compute an overall grade as `min(100, sum(grades) * 100 / 40`. (i.e., completing four notebooks suffices for full credit at this point).
+
+Compute a grade for yourself based on the simple average of your scores for each activity. (You may use a different weighting if you make a good argument.)
+
+### Community: \_\_\_%
 
 There are many different good ways to contribute to others' learning about AI (inside or outside this class), so I do not expect everyone to have done each of the following.
 
@@ -69,11 +75,9 @@ There are many different good ways to contribute to others' learning about AI (i
 
 -   Beyond these, what else have you done to contribute to others' learning about AI since our class started? Please be specific.
 
-Compute a grade for each of these four areas, then compute an overall grade as `min(100, sum(grades) * 100 / 20)`.
+Assign a grade out of 10 points for each of these four areas, then compute an overall grade as `min(100, sum(grades) * 100 / 20)`.
 
-### Context / History
-
-**Reading Quiz 3**
+### Context / History: \_\_\_%
 
 Discussion forums or class discussions:
 
@@ -85,12 +89,6 @@ Discussion forums or class discussions:
 
 -   What's something you'll want to remember from something non-technical you *read* for this class (in our book, an assigned non-technical reading, or otherwise) and why?
 
-Compute a grade as follows:
+-   What's something you want to remember from among the questions in Reading Quiz 3?
 
--   Grade each of the four areas above out of 10 points.
-
--   Compute min(100, sum(grades) \* 100 / 30)
-
-**Overall feedback?**
-
-Optional, but it would be helpful to share how you feel like things are going this week. Your input will be helpful especially to help me make some decisions about our pace (when do we move on to ch4?), and I want to make sure our organization / structure is clear.
+Assign a grade for each of the areas above out of 10 points, then compute an overall grade as `min(100, sum(grades) * 100 / 30)`.
