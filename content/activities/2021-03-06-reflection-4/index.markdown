@@ -1,19 +1,21 @@
 ---
 title: Reflection 4
 author: Ken Arnold
-date: '2021-03-08'
+date: '2021-03-06'
 slug: reflection-4
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2021-03-08'
+lastmod: '2021-03-06'
 featured: no
 image:
   caption: ''
   focal_point: ''
   preview_only: no
+dates:
+  due: '2021-03-10'
 projects: []
 ---
 
@@ -43,11 +45,11 @@ Complete the following:
 
     -   Reading Quiz 4: \_\_%
 
--   Check-in Quiz 2
+-   Check-in Quiz 2: \_\_%
 
--   Check-in Quiz 4
+-   Check-in Quiz 4: \_\_%
 
--   Homework 1
+-   Homework 1: \_\_%
 
 -   Portfolio Fundamentals section: \_\_%
 
