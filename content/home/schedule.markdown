@@ -166,7 +166,9 @@ Advising Day</p>
 <p><strong>Continue</strong> <a href="/activities/lab-2">Lab 2: Pull the Chain</a></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/9<br><span class = "html"></span><br><br></div></td>
-<td class = "odd"><div>3/10<br><span class = "html"><p><strong>Due</strong> Reflection 4</p>
+<td class = "odd"><div>3/10<br><span class = "html"><p><strong>Read</strong> </p>
+
+<p><strong>Due</strong> <a href="/activities/reflection-4">Reflection 4</a></p>
 </span><br><br></div></td>
 </tr></tbody></table>
 
