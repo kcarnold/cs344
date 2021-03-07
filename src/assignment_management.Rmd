@@ -15,6 +15,8 @@ library(glue)
 
 ```{r}
 ghorg <- "Calvin-CS344-21SP"
+clones_path <- here::here("repos/")
+portfolio_clone_path <- fs::path_join(c(clones_path, "ai-portfolio"))
 ```
 
 ```{r}
@@ -23,12 +25,45 @@ all_repos <- org_repos(ghorg)
 
 Create the portfolio repo
 
-```{r}
+```{r eval=FALSE}
 repoName <- "portfolio-template"
 repo_create(ghorg, name = repoName, gitignore_template = "")
+repo_set_template(paste0(ghorg, "/", repoName))
 ```
 
 ```{r}
-repo_set_template(paste0(ghorg, "/", repoName))
+portfolio_repos <- org_repos(ghorg, "ai-portfolio")
+```
+
+```{r}
+ghclass::repo_add_file(
+  repo = portfolio_repos,
+  file = "../portfolio/reading/README.md",
+  message = "Add a place for active reading notebooks",
+  repo_folder = "reading",
+  branch = "ref"
+  )
+```
+
+
+```{r}
+ghclass:::get_repo_name(portfolio_repos) %>% 
+  purrr::walk(function(repo_name) {
+    ghclass:::ghclass_api_v3_req(
+      endpoint = "POST /repos/:owner/:repo/merges",
+      owner = "Calvin-CS344-21SP",
+      repo = repo_name,
+      base = "main",
+      head = "ref")
+  })
+```
+
+```{r}
+tibble(repo = portfolio_repos) %>% 
+  mutate(username = str_sub(repo, start = str_length("Calvin-CS344-21SP/ai-portfolio-") + 1)) %>% 
+  mutate(github_url = glue("git@github.com:{repo}.git")) %>% 
+  head(1) %>% 
+  rowwise() %>%
+  mutate(ret = gert::git_remote_add(repo = portfolio_clone_path, url = github_url, name = username))
 ```
 
