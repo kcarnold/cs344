@@ -2,6 +2,20 @@
 title: "Forum posts"
 ---
 
+## Week 5: How Models Learn; Getting Structured
+
+This week we continue peeling the Machine Learning onion to ask: how can models respond to feedback from data in order to improve themselves? So we'll continue practicing with loss functions, backpropagation, and gradient descent. These are the core computational building blocks that have powered most of the advances in AI in the past decade, so your effort to get comfortable with these will pay off.
+
+It seems that some people are finding it difficult to put in the self-directed effort that this class requires. Perhaps it's hard because other classes and responsibilities have firmer expectations and due dates. So a few changes are coming to make this class more structured:
+
+-   We'll try making the reflections more objective and quantitative, starting with this week's [reflection](https://cs.calvin.edu/courses/cs/344/ka37/activities/reflection-4/) (see link). Since this is short notice and it'll probably take longer than usual, here's what we'll do: please submit an initial version of your reflection by Wednesday the 10th as usual with *something* filled out in each category, but leave placeholders as needed and revise as desired through the following Wednesday.
+
+-   This week there's a reading assignment as usual, but there's no reading quiz. Instead, I'm asking you to actually submit all of your active reading notebooks so far in your Portfolio repos; see the `README` in the `readings` folder there. **Please Piazza or text me questions that come up when reading.**
+
+These new elements may expose some ways that you let some things slide in this class. There is grace for you, and I have good reason to hope that you can catch up. If you're concerned about something, remember that it's literally my job to be here for you, so just **send me a quick Teams message** and we can chat.
+
+In class this week (all HL102): **Monday** we'll finish Lab 2 together, **Wednesday** we'll go over some things from the reading (including the team-competition analogy that I previewed last week), and **Friday** we'll do more new lab work, probably working through the portfolio exercises I'll post this week.
+
 ## Week 4 Thursday
 
 As discussed in class yesterday, the **portfolio repos are now live. Claim yours [here](https://classroom.github.com/a/t9EfXnfw)** (link is also on the class calendar). To start, go in "fundamentals", read the README, and get started soon; first few that are already up there should be pretty easy. I'll push new notebooks every few days.
