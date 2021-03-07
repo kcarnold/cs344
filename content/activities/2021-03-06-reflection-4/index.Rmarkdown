@@ -21,49 +21,67 @@ projects: []
 
 *This assignment should be turned in on Moodle.*
 
-This reflection is a bit different from previous ones: it's systematic and objective. Consider it a check-in of what you have achieved in the first third (approximately) of the semester.
+This reflection is a bit different from previous ones: it's systematic and objective. Consider it a check-in of what you have achieved in the first third (approximately) of the semester. Each category has a **quantitative** and a **narrative** component.
 
 ### Technology: \_\_\_%
 
-Complete the following:
+Fill in the following list (specific instructions are below the list):
 
--   Chapter 1: \_\_%
+-   Chapter 1: \[\_\_%\] *comments*
 
-    -   Active Reading: \_\_%
+    -   Active Reading: \[\_\_%\] *comments*
 
-    -   Reading Quiz 1: \_\_%
+    -   Reading Quiz 1: \[\_\_%\] *...*
 
--   Chapter 2: \_\_%
+-   Chapter 2: \[\_\_%\]
 
-    -   Active Reading: \_\_%
+    -   Active Reading: \[\_\_%\]
 
-    -   Reading Quiz 2: \_\_%
+    -   Reading Quiz 2: \[\_\_%\]
 
--   Chapter 4: \_\_%
+-   Chapter 4: \[\_\_%\]
 
-    -   Active Reading: \_\_%
+    -   Active Reading: \[\_\_%\]
 
-    -   Reading Quiz 4: \_\_%
+    -   Reading Quiz 4: \[\_\_%\]
 
--   Check-in Quiz 2: \_\_%
+-   Check-in Quiz 2: \[\_\_%\]
 
--   Check-in Quiz 4: \_\_%
+-   Check-in Quiz 4: \[\_\_%\]
 
--   Homework 1: \_\_%
+-   Homework 1: \[\_\_%\]
 
--   Portfolio Fundamentals section: \_\_%
+-   Lab 1: \[\_\_%\]
 
-Specific instructions:
+-   Portfolio Fundamentals section: \[\_\_%\]
 
--   **Active Reading**: Give full credit for having reproduced at least 90% of the code results of the chapter, e.g., in the [outputs-only notebooks](https://github.com/kcarnold/fastbook/tree/master/clean). *Please place these notebooks in your Portfolio repo to provide evidence*. If you reproduced less of the code, reduce credit proportionally.
+#### Specific instructions
 
--   **Check-in and Reading Quizzes**: Review the quiz and feedback. If your score differs from the score on Moodle, please explain.
+Compute grades for each item as follows, and replace the "*comments*" placeholders with a brief evidence (e.g., "I got through all but 2 or 3 of the code cells (link here)") and how you feel about it ("feel mostly confident, but can we talk more about `DataObjectClassWrapperThing` in section *XZY*?").
 
--   **Homework 1**: TODO
+-   For each chapter, compute the average of Active Reading and the Reading Quiz. You may choose weights other than 50-50 if you justify your choice.
+
+    -   **Active Reading**: Give full credit for having reproduced at least 90% of the code results of the chapter, e.g., in the [outputs-only notebooks](https://github.com/kcarnold/fastbook/tree/master/clean). *Please place these notebooks in your Portfolio repo to provide evidence*. If you reproduced less of the code, reduce credit proportionally.
+
+    -   **Reading Quizzes**: Review the quiz and feedback. If your score differs from the score on Moodle, please explain.
+
+-   **Check-in Quizzes**: Review the quiz and feedback. If your score differs from the score on Moodle, please explain.
+
+-   **Homework 1**: Give full credit when your report can answer the questions listed on the [assignment page](https://cs.calvin.edu/courses/cs/344/ka37/activities/homework-1/) (now finally clarified, sorry for the delay)! Other ways of obtaining full credit are possible; message me if that applies.
+
+-   **Lab 1**: Most of this is captured in the portfolio Fundamentals, so just give 100% if you completed it.
 
 -   **Portfolio Fundamentals**: Give 10 points for each Fundamentals notebook you have fully completed. Compute an overall grade as `min(100, sum(grades) * 100 / 40`. (i.e., completing four notebooks suffices for full credit at this point).
 
-Compute a grade for yourself based on the simple average of your scores for each activity. (You may use a different weighting if you make a good argument.)
+**Quantitative:** Compute a grade for yourself based on the simple average of your scores for each activity. (You may use a different weighting if you make a good argument.)
+
+**Narrative**: In addition to the brief inline comment,s write a brief response to these questions:
+
+-   What of your technical work are you most happy with in this class so far?
+
+-   What of your technical work are you least confident in? If you're able to, can you describe what you're struggling with?
+
+-   How do you feel about our pace?
 
 ### Community: \_\_\_%
 
