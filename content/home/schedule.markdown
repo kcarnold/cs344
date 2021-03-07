@@ -159,16 +159,19 @@ Advising Day</p>
 </span><br><br></div></td>
 <!--  5 > 4 -->
 </tr><tr>
-<td class = "odd"><div>3/8<br><span class = "html"><p><strong>Read</strong> the corresponding parts of ch4 and ch5; reading quiz</p>
+<td class = "odd"><div>3/8<br><span class = "html"><p><strong>Read</strong> ch4 starting at &ldquo;MNIST loss function&rdquo;, chapter 5 until &ldquo;Model Interpretation&rdquo;</p>
 
-<p><strong>Watch</strong> The rest of the <a href="https://course.fast.ai/videos/?lesson=4">Lesson 4 video</a></p>
+<p><strong>Watch</strong> The rest of the <a href="https://course.fast.ai/videos/?lesson=4">Lesson 4 video</a> (masks postlude optional but interesting)</p>
 
 <p><strong>Continue</strong> <a href="/activities/lab-2">Lab 2: Pull the Chain</a></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/9<br><span class = "html"></span><br><br></div></td>
-<td class = "odd"><div>3/10<br><span class = "html"><p><strong>Read</strong> </p>
+<td class = "odd"><div>3/10<br><span class = "html"><p><strong>Topic</strong> Chapter 5 review</p>
 
 <p><strong>Due</strong> <a href="/activities/reflection-4">Reflection 4</a></p>
+</span><br><br></div></td>
+<td class = "odd"><div>3/11<br><span class = "html"></span><br><br></div></td>
+<td class = "odd"><div>3/12<br><span class = "html"><p><strong>Topic</strong> Lab</p>
 </span><br><br></div></td>
 </tr></tbody></table>
 

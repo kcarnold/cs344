@@ -272,16 +272,17 @@ Fallback plan if I don't have a better lab: do the PyTorch tutorial.
 
 
 ===
-Watch:: The rest of the [Lesson 4 video](https://course.fast.ai/videos/?lesson=4)
+Watch:: The rest of the [Lesson 4 video](https://course.fast.ai/videos/?lesson=4) (masks postlude optional but interesting)
 
-Read:: the corresponding parts of ch4 and ch5; reading quiz
+Read:: ch4 starting at "MNIST loss function", chapter 5 until "Model Interpretation"
 
 Maybe the 3B1B YouTube videos?
 
 ===
+Topic:: Chapter 5 review
 
 ===
-Topic:: Lab 3
+Topic:: Lab
 
 ===
 Topic:: Facial Recognition Data
