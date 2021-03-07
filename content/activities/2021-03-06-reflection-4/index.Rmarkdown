@@ -23,6 +23,8 @@ projects: []
 
 This reflection is a bit different from previous ones: it's systematic and objective. Consider it a check-in of what you have achieved in the first third (approximately) of the semester. Each category has a **quantitative** and a **narrative** component.
 
+You are welcome to make a compelling, argument for computing grades for yourself differently from this suggestion.
+
 ### Technology: \_\_\_%
 
 Fill in the following list (specific instructions are below the list):
@@ -59,7 +61,7 @@ Fill in the following list (specific instructions are below the list):
 
 Compute grades for each item as follows, and replace the "*comments*" placeholders with a brief evidence (e.g., "I got through all but 2 or 3 of the code cells (link here)") and how you feel about it ("feel mostly confident, but can we talk more about `DataObjectClassWrapperThing` in section *XZY*?").
 
--   For each chapter, compute the average of Active Reading and the Reading Quiz. You may choose weights other than 50-50 if you justify your choice.
+-   For each chapter, compute the average of Active Reading and the Reading Quiz. You may choose weights other than 50-50 if you justify your choice (e.g., you did something other than the active-reading notebooks that you can argue is better for your learning).
 
     -   **Active Reading**: Give full credit for having reproduced at least 90% of the code results of the chapter, e.g., in the [outputs-only notebooks](https://github.com/kcarnold/fastbook/tree/master/clean). *Please place these notebooks in your Portfolio repo to provide evidence*. If you reproduced less of the code, reduce credit proportionally.
 
