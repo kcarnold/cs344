@@ -169,15 +169,29 @@ Hints:
     -   `end_position` has 2 numbers (an *x* and *y* coordinate).
     -   `loss` is a single number (rather than a matrix)
 
-### Things to try
+### Analysis
 
 -   Try changing the learning rate. What do you notice when the learning rate is too big? Too small?
 
+    -   We sometimes talk about the gradient descent as having *converged* or *diverged*. Can you guess what these might mean? Identify a learning rate that corresponds to each situation, and describe the behavior of the loss and the angles in each situation.
+
 -   Try changing the definition of `loss`:
 
-    -   Try having both the *x* and *y* coordinate contribute equally to the `loss`. What does this correspond to in the physical system? What happens to the chain? What changes if you multiple the *x* by a big constant? Small constant?
+    -   Try having both the *x* and *y* coordinate contribute equally to the `loss`. What does this correspond to in the physical system? What happens to the chain? What changes if you multiple the *x* by a big constant? A small constant?
     -   Tie another string to the middle of the chain: add a term to `loss` that uses one of the intermediate positions. Where does the chain end up?
-    -   Add a term that penalizes the max absolute value of `angles2`. What happens to the chain?
+    -   *optional* Add a term that penalizes the max absolute value of `angles2`. What happens to the chain?
+
+-   For each of the following terms, identify what element of the code you created corresponds to it (variable names, methods, etc.), and describe the connection.
+
+    -   loss function
+
+    -   parameters
+
+    -   backpropagation
+
+    -   gradient descent (what would you change if you wanted to do gradient *ascent* instead?)
+
+    -   learning rate
 
 ## Wrap-up
 
