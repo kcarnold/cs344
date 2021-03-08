@@ -118,7 +118,7 @@ Can we pull the end of the chain towards the right? We'll do this by tugging on 
 Make a new code cell that we're going to build up into a *training loop* step by step. (All of the remaining instructions will go within that same code cell.)
 
 First, create a variable called `end_position` that gives the `x` and `y` coordinates of the end of the chain (the last position in `positions`). Try to figure out the syntax for this yourself, but if it takes more than 1 minute **please ask for a hint**.
-Then, **create a variable called `loss`** (we'll see why we use that name soon) that gets the value of `n` minus the `x` coordinate of the right of the chain. (Convince yourself that `loss` will get a value of 0 if the chain is straight out to the right, and greater than 0 otherwise**).
+Then, **create a variable called `loss`** (we'll see why we use that name soon) that gets the value of `n` minus the `x` coordinate of the right of the chain. (Convince yourself that `loss` will get a value of 0 if the chain is straight out to the right, and greater than 0 otherwise).
 
 Now we want to see how we might change `angles` in order to reduce `loss`. We'll do this by *backpropagating* 
 `loss` through the chain. Within this same code cell:
@@ -131,7 +131,7 @@ Now we want to see how we might change `angles` in order to reduce `loss`. We'll
 5. Print out `angles.grad`. How does its representation compare with `angles`?
 6. Add a line at the end to step down the gradient of `angles`: `angles.data -= angles.grad * lr`. (Define the learning rate `lr` to be .01 at the top of the cell.)
 7. Plot the new position of the chain. You'll need to use `show_chain(positions.detach())` so PyTorch doesn't try to take the gradient of the plotting function.
-8. Put this whole process in a loop: compute loss, backprop, update. You'll need to think about what sequence these operations need to be done in. **Don't forget to `.zero()` the `.grad`! 500 updates should be more than enough.
+8. Put this whole process in a loop: compute loss, backprop, update. You'll need to think about what sequence these operations need to be done in. **Don't forget to `.zero()` the `.grad`**! 500 updates should be more than enough.
 
 Here's a template for the loop, which also includes code to plot the loss:
 
@@ -159,6 +159,10 @@ Hints:
 
 * `end_position` is the `-1`th element of `position`.
 * The x position of the end is `end_position[0]`.
+* Use `print` statements or similar to check these values:
+  * `positions`, `end_position`, and `loss` all have a `grad_fn`.
+  * `end_position` has 2 numbers (an *x* and *y* coordinate).
+  * `loss` is a single number (rather than a matrix)
 
 ### Extensions
 
