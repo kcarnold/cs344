@@ -73,7 +73,7 @@ Compute grades for each item as follows, and replace the "*comments*" placeholde
 
 -   **Lab 1**: Most of this is captured in the portfolio Fundamentals, so just give 100% if you completed it.
 
--   **Portfolio Fundamentals**: Give 10 points for each Fundamentals notebook you have fully completed. Compute an overall grade as `min(100, sum(grades) * 100 / 40`. (i.e., completing four notebooks suffices for full credit at this point).
+-   [**Portfolio**](https://classroom.github.com/a/t9EfXnfw) **Fundamentals**: Give 10 points for each Fundamentals notebook you have fully completed. Compute an overall grade as `min(100, sum(grades) * 100 / 40`. (i.e., completing four notebooks suffices for full credit at this point).
 
 **Quantitative:** Compute a grade for yourself based on the simple average of your scores for each activity. (You may use a different weighting if you make a good argument.)
 
