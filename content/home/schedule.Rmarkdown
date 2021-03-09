@@ -17,8 +17,7 @@ library(lubridate)
 library(daily)
 ```
 
-
-## Schedule
+Note that earlier weeks are collapsed for space reasons but each day will scroll.
 
 ```{r echo=FALSE}
 activity_dates <- Sys.glob(here::here('content/activities/*/*.markdown')) %>% 

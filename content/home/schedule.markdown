@@ -11,8 +11,7 @@ weight: 5
 
 
 
-
-## Schedule
+Note that earlier weeks are collapsed for space reasons but each day will scroll.
 
 
 
