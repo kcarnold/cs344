@@ -86,10 +86,10 @@ Copy in this function to compute the positions of each endpoint in the chain. (Y
 
 And here is a function to show the chain:
 
-    def show_chain(positions):
+    def show_chain(positions, **kw):
         n = len(positions)
         xs, ys = positions.T
-        line = plt.plot(xs, ys, marker='o')
+        line = plt.plot(xs, ys, marker='o', **kw)
         plt.gca().set_xlim(-n, n); plt.gca().set_ylim(-n, n)
         return line
 
@@ -140,10 +140,12 @@ fig, (ax1, ax2) = plt.subplots(ncols=2, figsize=(16, 5))
 plt.sca(ax1) # use the left plot to show the chain
 angles = orig_angles.clone().requires_grad_()
 losses = []
-for i in range(500):
+n_iter = 500
+for i in range(n_iter):
 
     # ... some code ...
-    show_chain(positions.detach())
+    color = [1 - i / n_iter] * 3 if i != n_iter - 1 else 'blue'
+    show_chain(positions.detach(), color = color)
     
     # ... some code ...
     loss = #...
@@ -179,7 +181,7 @@ Hints:
 
     -   Try having both the *x* and *y* coordinate contribute equally to the `loss`. What does this correspond to in the physical system? What happens to the chain? What changes if you multiple the *x* by a big constant? A small constant?
     -   Tie another string to the middle of the chain: add a term to `loss` that uses one of the intermediate positions. Where does the chain end up?
-    -   *optional* Add a term that penalizes the max absolute value of `angles2`. What happens to the chain?
+    -   *optional* Add a term that penalizes the max absolute value of `angles`. What happens to the chain?
 
 -   For each of the following terms, identify what element of the code you created corresponds to it (variable names, methods, etc.), and describe the connection.
 
