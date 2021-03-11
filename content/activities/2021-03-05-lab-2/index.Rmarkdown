@@ -179,7 +179,7 @@ Hints:
 
     -   Try having both the *x* and *y* coordinate contribute equally to the `loss`. What does this correspond to in the physical system? What happens to the chain? What changes if you multiple the *x* by a big constant? A small constant?
     -   Tie another string to the middle of the chain: add a term to `loss` that uses one of the intermediate positions. Where does the chain end up?
-    -   *optional* Add a term that penalizes the max absolute value of `angles2`. What happens to the chain?
+    -   *optional* Add a term that penalizes the max absolute value of `angles`. What happens to the chain?
 
 -   For each of the following terms, identify what element of the code you created corresponds to it (variable names, methods, etc.), and describe the connection.
 
