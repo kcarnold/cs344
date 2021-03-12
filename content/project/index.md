@@ -18,6 +18,8 @@ Many different projects are possible. When you make your project proposal, try t
 
 -   replicate, critique, and extend (part of) a published work
 
+    -   see <https://paperswithcode.com/> for some examples
+
     -   see proceedings of general conferences like NeurIPS, ICML, ICLR, ..., or domain-focused conferences: text (EMNLP, ACL), speech and music (ISMIR, InterSpeech), computer vision (ICCV, SIGGRAPH), recommender systems (RecSys), etc.
 
 -   apply an existing approach to a new dataset or task
@@ -34,14 +36,14 @@ Many different projects are possible. When you make your project proposal, try t
 
 Some applications that may be interesting and feasible:
 
-## Face Generation GAN
+### Face Generation GAN
 
 Teachers have a hard time getting to know students by face, especially when students are wearing masks. Flashcard apps help, but the teacher can easily "overfit" to quirks of the student photo (background, clothing, etc.).
 
 -   **Input**: students' profile photos
 -   **Output**: a dozen different images for each student, with variation in background, lighting, clothing, etc. so that these factors are informative
 
-## Predictive Text from Very Rough Drafts (e.g., rambling speech)
+### Predictive Text from Very Rough Drafts (e.g., rambling speech)
 
 Speech recognition technology is a powerful and efficient way to enter text on a touchscreen device, but many people don't use it. One reason is that it is cognitively challenging: you must think of exactly what to say, and how to say it clearly enough to be understood, on the first time, potentially in a distracting or non-private environment. But what if you could first "think out loud" about what you want to say, perhaps whispering a stream of consciousness to your phone---then your phone would give you (a) an outline of the main points you wanted to say and (b) really accurate predictions about what word to type next in order to say it?
 
@@ -51,13 +53,25 @@ Speech recognition technology is a powerful and efficient way to enter text on a
 
 -   **Output**: a prediction of the next word to be typed in the final message you want to send.
 
-## Learned Multimedia Decoder
+### Learned Multimedia Decoder
 
 Many existing images/videos/audio are locked in poor quality low-efficiency codecs (old personal pictures, audio Bible recordings, video, music, graphics, etc.). If we could invert the poor-quality encoder, we could both recover a more faithful representation of the original and also re-encode the result in a high-efficiency codec.
 
 -   **Input**: a JPEG (or other legacy codec) bitstream, unpacked (e.g., the JPEG data could be arranged spatially, so the data for each macroblock would align with where it is in the image).
 -   **Output**: the correct image (or audio, video, etc.)
 
-## Learned Audio Processing
+### Learned Audio Processing
 
 Play with Google's [DDSP](https://github.com/magenta/ddsp) (Differentiable Digital Signal Processing) or [other demos from the Magenta group](https://github.com/magenta/magenta-demos). Push its limits a bit.
+
+### Deepfake Detection
+
+Make some deepfakes. Try to detect them.
+
+## Some potential papers to replicate
+
+...or play with and extend
+
+* [Image Representations Learned With Unsupervised Pre-Training Contain Human-like Biases](https://arxiv.org/abs/2010.15052)
+* <https://towardsdatascience.com/how-to-build-a-controllable-writing-assistant-for-novel-authors-a9fa15b57c6a>
+* [Taming Transformers for High-Resolution Image Synthesis](https://compvis.github.io/taming-transformers/)
