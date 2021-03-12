@@ -3,6 +3,8 @@ title: "CS 344: Artificial Intelligence"
 semester: "Spring 2021"
 time: "11:30am"
 start: "02/03/2021"
+end: "03/20/2021"
+past_week: 5
 days: "MWF"
 ---
 
@@ -283,6 +285,25 @@ Topic:: Chapter 5 review
 
 ===
 Topic:: Lab
+
+Spotlight:: [Taming Transformers](https://compvis.github.io/taming-transformers/)
+
+
+===
+Topic:: Lab
+
+Read:: Rest of chapter 5, chapter 6
+
+Watch:: [Lesson 6](https://course.fast.ai/videos/?lesson=6)
+
+===
+Topic:: Discussion and review
+
+===
+Topic:: Lab
+
+===
+
 
 ===
 Topic:: Facial Recognition Data

@@ -129,7 +129,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "even"><div>2/26<br><span class = "html"><p><strong>Topic</strong> Exploring Tensors</p>
 </span><br><br></div></td>
 <!--  4 > 3 -->
-</tr><tr>
+</tr><tr class="past">
 <td class = "odd"><div>3/1<br><span class = "html"><p><strong>Topic</strong> Modeling Basics</p>
 
 <p><strong>Read</strong> <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb">DL4C chapter 4</a> until &ldquo;MNIST Loss Function&rdquo; <strong>Reading Quiz</strong></p>
@@ -171,6 +171,22 @@ Advising Day</p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/11<br><span class = "html"></span><br><br></div></td>
 <td class = "odd"><div>3/12<br><span class = "html"><p><strong>Topic</strong> Lab</p>
+
+<p><strong>Spotlight</strong> <a href="https://compvis.github.io/taming-transformers/">Taming Transformers</a></p>
+</span><br><br></div></td>
+<!--  6 > 5 -->
+</tr><tr>
+<td class = "odd"><div>3/15<br><span class = "html"><p><strong>Topic</strong> Lab</p>
+
+<p><strong>Read</strong> Rest of chapter 5, chapter 6</p>
+
+<p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=6">Lesson 6</a></p>
+</span><br><br></div></td>
+<td class = "odd"><div>3/16<br><span class = "html"></span><br><br></div></td>
+<td class = "odd"><div>3/17<br><span class = "html"><p><strong>Topic</strong> Discussion and review</p>
+</span><br><br></div></td>
+<td class = "odd"><div>3/18<br><span class = "html"></span><br><br></div></td>
+<td class = "odd"><div>3/19<br><span class = "html"><p><strong>Topic</strong> Lab</p>
 </span><br><br></div></td>
 </tr></tbody></table>
 

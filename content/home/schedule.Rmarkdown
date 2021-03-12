@@ -37,15 +37,11 @@ activity_cal_data <- activity_dates %>% transmute(
 
 
 ```{r echo=FALSE, results='asis'}
-add_prefix <- function(s, prefix) {
-  str_replace_all(s, regex("^", multiline = TRUE), prefix)
-}
+daily_file <- here::here("daily.txt") 
+daily_meta <- rmarkdown::yaml_front_matter(daily_file)
 
 cal_data <- 
-  daily2cal(
-  path = here::here("daily.txt"),
-  end = lubridate::ymd("2021-03-13"),
-) %>%
+  daily2cal(path = daily_file) %>%
   pivot_longer(-c(date, week), names_to = "label", values_to = "contents") %>% 
   filter(
     !(str_to_lower(label) %in% c("plan", "log", "reflection", "next time")),
@@ -73,7 +69,7 @@ cal_data %>%
   select(date, html) %>% 
   complete(date = seq(start, max(date), "day"), fill = list(html = "")) %>% 
   mutate(week  = as.numeric(floor(difftime(date, start, units = "weeks")))) %>% 
-  html_calendar(show = 2:6, past_week = 4) %>% 
+  html_calendar(show = 2:6, past_week = daily_meta$past_week) %>% 
   knitr::asis_output()
 ```
 
