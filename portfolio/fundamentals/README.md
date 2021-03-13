@@ -30,7 +30,8 @@ We also strive for the sequence to make sense, but make no promises.
 * `001-adjust-hyperparameters-1`: change some basic hyperparameters of notebook 000
 * `002-diagnose-basic-classifier`: plot a confusion matrix, find images that were misclassified
 * `003-pets-dataloader`: create data loaders for the Pets dataset using the mid-level `DataBlocks` API
-* `004-jsonlines`: pull data from newline-delimited JSON (and use list and dict comprehensions to work with it)
+* `004-data-manip-jsonlines`: use list and dict comprehensions to work with data stored as newline-delimited JSON
 * `005-image-ops`: perform broadcast and reduction operations on a tensor representing a batch of color images
+* `006-compute-gradient`: compute the gradient of a function
 
 Notebooks will be added throughout the semester.
