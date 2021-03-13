@@ -68,6 +68,14 @@ Play with Google's [DDSP](https://github.com/magenta/ddsp) (Differentiable Digit
 
 Make some deepfakes. Try to detect them.
 
+### Miscellaneous ideas
+
+* Audio
+  * Given a sound corrupted by a random EQ curve or other processing step, predict the parameters for that processing step. *This kind of task is called [self supervised learning](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html).* See Microsoft's [HEXA](https://www.microsoft.com/en-us/research/blog/hexa-self-supervised-pretraining-with-hard-examples-improves-visual-representations/).
+* General
+  * Dynamic range compression on gradient updates by changing sensitivity based on the current and recent values. Perhaps as simple as computing the weight as a nonlinear function of the stored value and perhaps a running average.
+
+
 ## Some potential papers to replicate
 
 ...or play with and extend
