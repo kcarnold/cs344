@@ -20,6 +20,16 @@ portfolio_clone_path <- fs::path_join(c(clones_path, "ai-portfolio"))
 ```
 
 ```{r}
+roster <- read_csv("~/OneDrive - Calvin University/Teaching/CS344 21SP/classroom_roster.csv") %>% 
+  #mutate(name = coalesce(name, identifier)) %>% 
+  select(name = identifier, github_username) %>% 
+  filter(!is.na(github_username)) %>% 
+  mutate(slugname = str_replace_all(name, "[^A-Za-z]", ""))
+roster
+```
+
+
+```{r}
 all_repos <- org_repos(ghorg)
 ```
 
@@ -36,6 +46,11 @@ portfolio_repos <- org_repos(ghorg, "ai-portfolio")
 ```
 
 ```{r}
+# cd portfolio; git archive main . | (cd ../repos/ai-portfolio && tar xv)
+```
+
+
+```{r eval=FALSE}
 ghclass::repo_add_file(
   repo = portfolio_repos,
   file = "../portfolio/reading/README.md",
@@ -46,9 +61,10 @@ ghclass::repo_add_file(
 ```
 
 
-```{r}
+```{r eval=FALSE}
 ghclass:::get_repo_name(portfolio_repos) %>% 
   purrr::walk(function(repo_name) {
+    cat(repo_name)
     ghclass:::ghclass_api_v3_req(
       endpoint = "POST /repos/:owner/:repo/merges",
       owner = "Calvin-CS344-21SP",
@@ -59,11 +75,23 @@ ghclass:::get_repo_name(portfolio_repos) %>%
 ```
 
 ```{r}
-tibble(repo = portfolio_repos) %>% 
-  mutate(username = str_sub(repo, start = str_length("Calvin-CS344-21SP/ai-portfolio-") + 1)) %>% 
+portfolio_repo_data <- tibble(repo = portfolio_repos) %>% 
+  mutate(github_username = str_sub(repo, start = str_length("Calvin-CS344-21SP/ai-portfolio-") + 1)) %>% 
   mutate(github_url = glue("git@github.com:{repo}.git")) %>% 
-  head(1) %>% 
+  left_join(roster, by = 'github_username')
+```
+
+Add remotes for each student's repo
+
+```{r eval=FALSE}
+portfolio_repo_data %>% 
   rowwise() %>%
-  mutate(ret = gert::git_remote_add(repo = portfolio_clone_path, url = github_url, name = username))
+  mutate(ret = list(safely(gert::git_remote_add(repo = portfolio_clone_path, url = github_url, name = slugname))))
+```
+
+Do the rest in shell...
+
+```{r eval=FALSE}
+portfolio_repo_data$slugname %>% paste(collapse = "\n") %>% write_file(here::here('repos/slugnames.txt'))
 ```
 
