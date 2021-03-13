@@ -30,3 +30,5 @@ Train two different kinds of classifier on all 10 digits of MNIST:
 Just like in Homework 1, describe:
 * How confident are you in these conclusions? Why?
 * What decisions did you make in the process? Why? What implications did those decisions have?
+
+For reference, here is [state of the art on MNIST](https://paperswithcode.com/sota/image-classification-on-mnist). How does your accuracy compare?
