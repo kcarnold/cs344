@@ -2,6 +2,30 @@
 title: "Forum posts"
 ---
 
+## Week 6: Make it Train!
+
+We've studied what data goes into a computer vision model, what output comes out and how that depends on the data, and the basic mechanics of how these kinds of models learn. Now we're going to hook it all together and learn how to get computer vision models to do what we want. After this, we'll look at different types of models (finally something other than a ResNet! and btw, what's a ResNet?), starting with collaborative filtering and then getting into natural language processing.
+
+Please watch the Lesson 6 video and read the corresponding parts of the book (chapter 5 and 6 for now, chapter 8 by end of this week / beginning of next week). The video is long, but has some natural stopping points at chapter boundaries, so take a break! (We're skipping Chapter 7, but it is a short read if you're interested.)
+
+No reading quiz this week; instead, I've added some Fundamentals notebooks. Skip `004-data-manip-jsonlines` if you're pressed for time; `005-image-ops` is exactly what we did in class two weeks ago, and `006-compute-grad` is both PyTorch practice and what might be a fresh take on the linear regression that you learned in stats or high school. A few more are coming (I got in a fistfight with git). If you notice anything surprising about your repo, message me; I may have messed something up with git.
+
+Remember the **Lab 2 post-lab**! You'll need this for Wednesday.
+
+**Homework 2** is out! It's a chance to practice your tensor and gradient descent skills. You already know enough to make a first pass at it, and what you learn this week will help you make it better. Have a look and post your questions!
+
+This week:
+
+-   We did the first part of Lab 3 together on Friday, on **Monday** you'll have it to yourselves. You may also choose to use that time to work on Fundamentals notebooks (collaboration is welcome there too).
+
+-   On **Wednesday** we'll debrief what we learned in Labs 2 and 3. I may ask you to write about something and/or explain something to a neighbor, so prepare what you'll need for that.
+
+-   On **Friday** we'll do another application spotlight, finish anything we didn't get to on Wednesday, and do more lab work if time permits.
+
+Reflection 5 assignment is coming, but it'll be mainly asking about your Lab 2 and 3 and Fundamentals notebooks.
+
+For Context this week, some of you may choose to go back to the Week 4 forum (which was relatively quiet). Others may choose to start exchanging project ideas; I posted a Discussion forum for that.
+
 ## Week 5: How Models Learn; Getting Structured
 
 This week we continue peeling the Machine Learning onion to ask: how can models respond to feedback from data in order to improve themselves? So we'll continue practicing with loss functions, backpropagation, and gradient descent. These are the core computational building blocks that have powered most of the advances in AI in the past decade, so your effort to get comfortable with these will pay off.
