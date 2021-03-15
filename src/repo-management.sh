@@ -1,20 +1,31 @@
 #!/bin/bash
 
-set -eu
+#set -eu
 
-if false; then
-    echo update remotes
-    while read slug; do git fetch "$slug"; done < ../slugnames.txt
-fi
+# http://www.binaryphile.com/bash/2020/01/12/determining-the-location-of-your-script-in-bash.html
+TOP=$(cd "$(dirname "$0")"; cd -P ..; pwd)
+SLUGNAMES="${TOP}/repos/slugnames.txt"
 
-# set up ref branches (once)
-#while read slug; do git co -b ${slug}-ref ${slug}/ref ; done < ../slugnames.txt
+function sync_local_portfolio() {
+    cd "${TOP}/repos/ai-portfolio"
+    git checkout main
+    (cd "${TOP}/portfolio"; git archive main . | (cd ../repos/ai-portfolio && tar xv))
+    git status
+}
 
-# set up main branches (once)
-#while read slug; do git co -b ${slug}-main ${slug}/main ; done < ../slugnames.txt
+function update_remotes() {
+    while read slug; do git fetch "$slug"; done < "$SLUGNAMES"
+}
 
+function setup_branches() {
+    # set up ref branches (once)
+    #while read slug; do git co -b ${slug}-ref ${slug}/ref ; done < "$SLUGNAMES"
 
-if false; then
+    # set up main branches (once)
+    #while read slug; do git co -b ${slug}-main ${slug}/main ; done < "$SLUGNAMES"
+}
+
+function update_ref_branches() {
     while read slug; do
         echo "$slug"
         if false; then
@@ -26,27 +37,31 @@ if false; then
             git reset --hard "${ROOT_COMMIT}"
             # merge in the ref
             git merge --strategy-option=theirs --allow-unrelated-histories main -m "Merge the reference branch"
+        else
+            git checkout "${slug}-ref"
+            # git merge theirs: https://stackoverflow.com/a/46741538/69707
+            git merge -s ours --no-commit main
+            git read-tree -m -u main
+            git commit -m "Merge reference"
         fi
-        #git checkout "${slug}-ref"
-        # git merge theirs: https://stackoverflow.com/a/46741538/69707
-        #git merge -s ours --no-commit main
-        #git read-tree -m -u main
-        #git commit -m "Merge reference"
-    done < ../slugnames.txt
-fi
+    done < "$SLUGNAMES"
+}
 
-# Merge main branches
-if false; then
+function merge_main_branches() {
     while read slug; do
         git checkout "${slug}-main"
+        # Update in case we're behind or have local changes.
         git reset --hard "${slug}/main"
         git merge "${slug}-ref" -m "Merge from the reference"
-    done < ../slugnames.txt
-fi
+    done < "$SLUGNAMES"
+}
 
-while read slug; do
-    echo "$slug"
-    git push "${slug}" "${slug}-ref":ref --force
-    git push "${slug}" "${slug}-main":main
-done < ../slugnames.txt
-
+function push_updates() {
+    git push origin main:main
+    git push origin main:ref
+    while read slug; do
+        echo "$slug"
+        git push "${slug}" "${slug}-ref":ref
+        git push "${slug}" "${slug}-main":main
+    done < "$SLUGNAMES"
+}
