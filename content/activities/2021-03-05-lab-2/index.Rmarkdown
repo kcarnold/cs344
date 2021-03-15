@@ -195,6 +195,14 @@ Hints:
 
     -   learning rate
 
+-   The analogy in this lab didn't include the *data* that are used to train a model. We could extend the analogy by imagining each data point as its own little string pulling the chain in potentially different directions. Which of the following would correspond to *stochastic* gradient descent?
+
+    -   all of the strings pulling at the same time
+
+    -   only letting one string pull at a time, in systematic order
+
+    -   only letting one string pull at a time, in random order
+
 ## Wrap-up
 
 Make sure that both partners have a copy of the notebook.
