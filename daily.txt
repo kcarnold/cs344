@@ -270,8 +270,6 @@ Read:: The rest of chapter 4
 
 Watch:: The first hour of the [Lesson 4 video](https://course.fast.ai/videos/?lesson=4)
 
-Fallback plan if I don't have a better lab: do the PyTorch tutorial.
-
 
 ===
 Watch:: The rest of the [Lesson 4 video](https://course.fast.ai/videos/?lesson=4) (masks postlude optional but interesting)
