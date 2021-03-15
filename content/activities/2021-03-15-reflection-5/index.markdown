@@ -41,7 +41,7 @@ Fill in the following list (specific instructions are below the list):
 
 Compute grades for each item as follows, and replace the "*comments*" placeholders with a brief evidence (e.g., "I got through all but 2 or 3 of the code cells (link here)") and how you feel about it ("feel mostly confident, but can we talk more about `DataObjectClassWrapperThing` in section *XZY*?").
 
--   For chapter 5, consider your Active Reading notebook, since there was no reading quiz or check-in quiz here. You are welcome to make a different argument for how you engaged with and understood it.
+-   For chapter 5, consider your Active Reading notebook, since there was no reading quiz or check-in quiz here. If you didn't do one, you are welcome to make a different argument for how you engaged with and understood it.
 
 -   **Lab 2**: Consider mostly the post-lab quiz. If you think you learned more (or less?) than the quiz grade suggests, argue so here.
 
@@ -73,6 +73,4 @@ Assign a grade out of 10 points for each of these four areas, then compute an ov
 
 ### Context / History: \_\_\_%
 
-From our discussion forums or class discussions:
-
-TODO, needs updating.
+From our discussion forums or class discussions: give full credit for any substantial engagement here. (Did you make any more post on a previous weeks' discussion forums? Did you post about any project ideas on this week's forum? etc.)
