@@ -45,53 +45,19 @@ repo_set_template(paste0(ghorg, "/", repoName))
 portfolio_repos <- org_repos(ghorg, "ai-portfolio")
 ```
 
-```{r}
-# cd portfolio; git archive main . | (cd ../repos/ai-portfolio && tar xv)
-```
-
+Add remotes for each student's repo, if missing.
 
 ```{r eval=FALSE}
-ghclass::repo_add_file(
-  repo = portfolio_repos,
-  file = "../portfolio/reading/README.md",
-  message = "Add a place for active reading notebooks",
-  repo_folder = "reading",
-  branch = "ref"
-  )
-```
-
-
-```{r eval=FALSE}
-ghclass:::get_repo_name(portfolio_repos) %>% 
-  purrr::walk(function(repo_name) {
-    cat(repo_name)
-    ghclass:::ghclass_api_v3_req(
-      endpoint = "POST /repos/:owner/:repo/merges",
-      owner = "Calvin-CS344-21SP",
-      repo = repo_name,
-      base = "main",
-      head = "ref")
-  })
-```
-
-```{r}
-portfolio_repo_data <- tibble(repo = portfolio_repos) %>% 
-  mutate(github_username = str_sub(repo, start = str_length("Calvin-CS344-21SP/ai-portfolio-") + 1)) %>% 
-  mutate(github_url = glue("git@github.com:{repo}.git")) %>% 
-  left_join(roster, by = 'github_username')
-```
-
-Add remotes for each student's repo
-
-```{r eval=FALSE}
-portfolio_repo_data %>% 
+roster %>% 
+  mutate(remote_url = glue("git@github.com:{ghorg}/ai-portfolio-{github_username}.git")) %>% 
+  anti_join(gert::git_remote_list(repo = portfolio_clone_path), by = c("slugname" = "name")) %>% 
   rowwise() %>%
-  mutate(ret = list(safely(gert::git_remote_add(repo = portfolio_clone_path, url = github_url, name = slugname))))
+  mutate(ret = list(safely(gert::git_remote_add(repo = portfolio_clone_path, url = remote_url, name = slugname))))
 ```
 
-Do the rest in shell...
+Dump our slugnames for use in `src/repo-management.sh`:
 
 ```{r eval=FALSE}
-portfolio_repo_data$slugname %>% paste(collapse = "\n") %>% write_file(here::here('repos/slugnames.txt'))
+roster$slugname %>% paste(collapse = "\n") %>% write_file(here::here('repos/slugnames.txt'))
 ```
 

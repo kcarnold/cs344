@@ -1,10 +1,18 @@
 #!/bin/bash
 
+# This script should be run within the repos/ai-portfoilo directory
+
 set -eu
 
 # http://www.binaryphile.com/bash/2020/01/12/determining-the-location-of-your-script-in-bash.html
 TOP=$(cd "$(dirname "$0")"; cd -P ..; pwd)
 SLUGNAMES="${TOP}/repos/slugnames.txt"
+
+# Read in the slugnames (use with https://stackoverflow.com/questions/8880603/loop-through-an-array-of-strings-in-bash)
+slugnames=()
+while read slug; do
+    slugnames+=($slug)
+done < $SLUGNAMES
 
 if [ $# == 0 ]; then
     cmdname=help
@@ -23,23 +31,23 @@ case "$cmdname" in
 
     update_student_work)
         while read slug; do
-            git checkout "${slug}-main"
-            git pull --ff-only "$slug"
+            #git checkout "${slug}-main"
+            (cd ../portfolio-$slug && git pull --ff-only "$slug")
         done < "$SLUGNAMES"
         ;;
 
     setup_branches)
-        # set up ref branches (once)
-        #while read slug; do git co -b ${slug}-ref ${slug}/ref ; done < "$SLUGNAMES"
+        # https://stackoverflow.com/a/3847586/69707
+        branches=()
+        eval "$(git for-each-ref --shell --format='branches+=(%(refname))' refs/heads/)"
 
-        # set up main branches (once)
-        #while read slug; do git co -b ${slug}-main ${slug}/main ; done < "$SLUGNAMES"
-        ;;
+        # https://stackoverflow.com/questions/8880603/loop-through-an-array-of-strings-in-bash
+        for slug in "${slugnames[@]}"; do
+            if [[ ! " ${branches[@]} " =~ " refs/heads/${slug}-ref " ]]; then
+                echo "Missing ${slug}-ref"
+                git fetch ${slug}
+                git checkout -b ${slug}-ref ${slug}/ref
 
-    update_ref_branches)
-        while read slug; do
-            echo "$slug"
-            if false; then
                 # Construct ref branch
                 # Need to use the 'feedback' branch because the incorrectly merged branches will have multiple roots :(
                 ROOT_COMMIT="$(git rev-list --max-parents=0 "${slug}"/feedback)"
@@ -48,13 +56,32 @@ case "$cmdname" in
                 git reset --hard "${ROOT_COMMIT}"
                 # merge in the ref
                 git merge --strategy-option=theirs --allow-unrelated-histories main -m "Merge the reference branch"
-            else
-                git checkout "${slug}-ref"
-                # git merge theirs: https://stackoverflow.com/a/46741538/69707
-                git merge -s ours --no-commit main
-                git read-tree -m -u main
-                git commit -m "Merge reference"
             fi
+            if [[ ! " ${branches[@]} " =~ " refs/heads/${slug}-main " ]]; then
+                echo "Missing ${slug}-main"
+                git fetch ${slug}
+                git co -b ${slug}-main ${slug}/main
+            fi
+        done
+        ;;
+
+    setup_worktrees)
+        git checkout main
+        for slug in "${slugnames[@]}"; do
+            if [[ ! -d "../portfolio-$slug" ]]; then
+                git worktree add "../portfolio-$slug" "$slug"-main
+            fi
+        done
+        ;;
+
+    update_ref_branches)
+        while read slug; do
+            echo "$slug"
+            git checkout "${slug}-ref"
+            # git merge theirs: https://stackoverflow.com/a/46741538/69707
+            git merge -s ours --no-commit main
+            git read-tree -m -u main
+            git commit -m "Merge reference" || true
         done < "$SLUGNAMES"
         ;;
 
