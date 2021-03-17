@@ -186,9 +186,13 @@ Advising Day</p>
 <td class = "odd"><div>3/17<br><span class = "html"><p><strong>Topic</strong> Discussion and review</p>
 
 <p><strong>Due</strong> <a href="/activities/reflection-5">Reflection 5</a></p>
+
+<p><strong>Slides</strong> <a href="/slides/w6/w6-elements.html">Where we are now</a></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/18<br><span class = "html"></span><br><br></div></td>
 <td class = "odd"><div>3/19<br><span class = "html"><p><strong>Topic</strong> Lab</p>
+
+<p><strong>Spotlight</strong> <a href="/project">Project Suggestions</a></p>
 </span><br><br></div></td>
 </tr></tbody></table>
 
