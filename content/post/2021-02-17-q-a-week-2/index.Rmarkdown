@@ -19,6 +19,11 @@ projects: []
 
 ## Tech
 
+> Why do we get two different error rates from `fine_tune`?
+
+The training happens in two stages. You'll learn more about this process in later chapters.
+For now, use the last error rate.
+
 > Why do I get different results when training the same model multiple times, even though I set the seed?
 
 Nobody actually asked this, but it bugged me (based on my expectations from sklearn) so I looked into it.
