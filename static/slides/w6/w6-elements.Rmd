@@ -1,0 +1,83 @@
+---
+title: "Where we are now"
+author: 
+  - "Ken Arnold"
+date: '2021-03-17'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: false
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+source("../slides-common.R")
+slideSetup()
+```
+
+# Increasing Structure
+
+* Initial goal: practice more self-directed learning (e.g., for industry)
+* but... this is leaving some people behind.
+* so:
+  * main part of the course is structured
+  * Homework and Project is unstructured / under-specified
+  
+---
+
+# Main elements
+
+* Active reading: primary way of "covering" material
+  * Watch lecture videos if it helps you
+  * Ask *way* more questions! (e.g., "this section seems really complicated... how important is it really?")
+* Fundamentals notebooks: practice with basic skills (working out at the gym)
+* Labs: more narrative exercises (team drills)
+* Homework: application and extension (playing the game)
+
+---
+
+# New Fundamentals notebooks pushed in the last week
+
+* practice with JSON (optional)
+* manipulating batches of images
+* computing the gradient of a function
+* practice with softmax and sigmoid
+
+---
+
+# Poll
+
+* git? Moodle?
+* pace?
+
+---
+
+# Homework 2
+
+Goal:
+
+* Interview: "I trained a classifier on MNIST"
+* Connect ch1/2 high-level classifier usage with ch4/5 low/mid-level gradient descent
+* Practice with tensor shapes, backprop, cross-entropy loss, learning rate tuning, etc.
+
+---
+
+# Review Lab 2
+
+---
+
+# Lab 3
+
+Goals:
+
+* "Hello world" of learning from a data stream (Stochastic Gradient Descent)
+* Recognize problematic situations in numerical computing
+* Practice debugging techniques
+
+Strategy:
+
+* Don't avoid the errors. If you've prematurely fixed something, go back and break it again and see what it does to the output
