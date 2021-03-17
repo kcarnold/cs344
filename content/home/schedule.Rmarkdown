@@ -13,6 +13,7 @@ weight: 5
 library(tidyverse)
 library(glue)
 library(lubridate)
+knitr::opts_chunk$set(echo = FALSE)
 # devtools::install_github("kcarnold/daily")
 library(daily)
 ```
@@ -35,6 +36,20 @@ activity_cal_data <- activity_dates %>% transmute(
 )
 ```
 
+```{r}
+slide_cal_data <- 
+Sys.glob(here::here('static/slides/*/*.Rmd')) %>% 
+  tibble(path = .) %>% 
+  rowwise() %>% 
+  mutate(yaml = list(rmarkdown::yaml_front_matter(path)), title = yaml$title, date = yaml$date) %>% 
+  mutate(path = str_extract(path, "(/slides/.+)$") %>% str_replace(".Rmd", ".html")) %>% 
+  filter(date > "2021-03-01") %>% 
+  transmute(
+    date = lubridate::ymd(date),
+    label = "Slides",
+    contents = str_glue("[{title}]({path})")
+  )
+```
 
 ```{r echo=FALSE, results='asis'}
 daily_file <- here::here("daily.txt") 
@@ -55,12 +70,12 @@ cal_data <-
   ))
 ```
 
-
 ```{r echo=FALSE}
 start <- lubridate::floor_date(min(cal_data$date), unit = "week")
 
 cal_data %>% 
   bind_rows(activity_cal_data) %>% 
+  bind_rows(slide_cal_data) %>% 
   mutate(topic_contents = glue("**{label}** {contents}")) %>% 
   group_by(date) %>% 
   summarize(contents = paste(topic_contents, collapse = "\n\n")) %>% 
