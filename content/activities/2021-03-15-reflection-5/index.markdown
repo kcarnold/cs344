@@ -45,6 +45,8 @@ Compute grades for each item as follows, and replace the "*comments*" placeholde
 
 -   **Lab 2**: Consider mostly the post-lab quiz. If you think you learned more (or less?) than the quiz grade suggests, argue so here.
 
+-   **Lab 3**: since we didn't get to work on this in class as much as planned, you may omit---though comments on what you did get to are welcome.
+
 -   [**Portfolio**](https://classroom.github.com/a/t9EfXnfw) **Fundamentals**: Consider notebooks starting at `003-pets-dataloader` (so one overlap with last week). Give 10 points for each Fundamentals notebook you have fully completed. Compute an overall grade as `min(100, sum(grades) * 100 / 30`. (i.e., completing three notebooks suffices for full credit).
 
 **Quantitative:** Compute a grade for yourself based on the simple average of your scores for each activity. (You may use a different weighting if you make a good argument.)
