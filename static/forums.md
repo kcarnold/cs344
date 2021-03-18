@@ -8,11 +8,11 @@ A few mid-week things:
 
 First, I'm sorry for my harsh and insensitive comment during class today about those who didn't yet do the Lab 2 post-lab. Since students are asking for more clarity about expectations, clearly there is something lacking about my communication in that regard. But rather than seeking to understand the situation, I just expressed frustration about it. Please forgive me. And if this expectation wasn't clear to you, I would welcome any suggestions if you have them.
 
-Reflection 5 is due today as usual. I've clarified the assignment for what is (not) expected about Lab 3. Also, although there are a few potential ways you can engage Context this week (project ideas forum, current discussion forum, replying in previous forums), it hasn't been as lively as usual. So you may choose to just leave Context blank this week; there's built-in allowance in our grading system for that.
+Reflection 5 is due today as usual. I've clarified the assignment for what is (not) expected about Lab 3. Also, although there are a few potential ways you can engage Context this week (including the project ideas forum, the current discussion forum, and replying in previous forums), it hasn't been as lively as usual. So you may choose to just leave Context blank this week; there's built-in allowance in our grading system for that. (Don't **forget your Reflection 4 updates** if you were meaning to come back and fill in some things.)
 
 Next week's Context will be on facial recognition---in part because there's two screenings of Coded Bias happening. **The first one is tomorrow evening**---see the [discussion assignment](https://cs.calvin.edu/courses/cs/344/ka37/activities/discussion-2-facial-recognition/) for details.
 
-Finally, I've posted submission assignments on Moodle for all the Fundamentals notebooks. Hopefully it should only take a few minutes to copy and paste the relevant URLs from github. I've set all of them to be "due" at the end of this week, which I think is a reasonable expectation but it's ok if you're still catching up on these.
+Finally, I've posted submission assignments on Moodle for all the Fundamentals notebooks. Hopefully it should only take a few minutes to copy and paste the relevant URLs from github. I've set all of them to be "due" at the end of this week, which I think is a reasonable expectation but it's ok if you're still catching up on these. (And please let me know if they're taking much longer than 15 minutes each once you've understood the concept.)
 
 ## Week 6: Make it Train!
 
