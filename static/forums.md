@@ -2,11 +2,23 @@
 title: "Forum posts"
 ---
 
+## Week 6 mid-week
+
+A few mid-week things:
+
+First, I'm sorry for my harsh and insensitive comment during class today about those who didn't yet do the Lab 2 post-lab. Since students are asking for more clarity about expectations, clearly there is something lacking about my communication in that regard. But rather than seeking to understand the situation, I just expressed frustration about it. Please forgive me. And if this expectation wasn't clear to you, I would welcome any suggestions if you have them.
+
+Reflection 5 is due today as usual. I've clarified the assignment for what is (not) expected about Lab 3. Also, although there are a few potential ways you can engage Context this week (project ideas forum, current discussion forum, replying in previous forums), it hasn't been as lively as usual. So you may choose to just leave Context blank this week; there's built-in allowance in our grading system for that.
+
+Next week's Context will be on facial recognition---in part because there's two screenings of Coded Bias happening. **The first one is tomorrow evening**---see the [discussion assignment](https://cs.calvin.edu/courses/cs/344/ka37/activities/discussion-2-facial-recognition/) for details.
+
+Finally, I've posted submission assignments on Moodle for all the Fundamentals notebooks. Hopefully it should only take a few minutes to copy and paste the relevant URLs from github. I've set all of them to be "due" at the end of this week, which I think is a reasonable expectation but it's ok if you're still catching up on these.
+
 ## Week 6: Make it Train!
 
 We've studied what data goes into a computer vision model, what output comes out and how that depends on the data, and the basic mechanics of how these kinds of models learn. Now we're going to hook it all together and learn how to get computer vision models to do what we want. After this, we'll look at different types of models (finally something other than a ResNet! and btw, what's a ResNet?), starting with collaborative filtering and then getting into natural language processing.
 
-Please watch the Lesson 6 video and read the corresponding parts of the book (chapter 5 and 6 for now, chapter 8 by end of this week / beginning of next week). The video is long, but has some natural stopping points at chapter boundaries, so take a break! (We're skipping Chapter 7, but it is a short read if you're interested.)
+Please watch the Lesson 6 video and read the corresponding parts of the book (chapter 5 and 6 for now, chapter 8 by end of this week / beginning of next week). The video is long, but has some natural stopping points at chapter boundaries, so take breaks! (We're skipping Chapter 7, but it is a short read if you're interested.)
 
 No reading quiz this week; instead, I've added some Fundamentals notebooks. Skip `004-data-manip-jsonlines` if you're pressed for time; `005-image-ops` is exactly what we did in class two weeks ago, and `006-compute-grad` is both PyTorch practice and what might be a fresh take on the linear regression that you learned in stats or high school. A few more are coming (I got in a fistfight with git). If you notice anything surprising about your repo, message me; I may have messed something up with git.
 
