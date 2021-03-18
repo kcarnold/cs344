@@ -1,14 +1,17 @@
 ---
-title: 'Discussion 2: Facial Recognition'
+title: 'Facial Recognition (Structured Discussion 2)'
 author: Ken Arnold
-date: '2021-02-26'
+date: '2021-03-15'
 slug: discussion-2-facial-recognition
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2021-02-26T10:26:23-05:00'
+lastmod: '2021-03-17'
+dates:
+  assigned: "2021-03-17"
+  due: "2021-03-24"
 featured: no
 image:
   caption: ''
@@ -25,7 +28,13 @@ projects: []
 
 Some of you may already be familiar with some of the issues that have been raised about facial recognition systems. (If not, scroll down...) Since we've now spent some time looking at how data affects a machine learning algorithm, let's talk about how the *data* used to train facial recognition systems might matter.
 
-**Shalom in Data** We saw last week how God put so much *good* data in the created world, and created humans in his image being able to *see* that data rightly and *act* accordingly. But sin has corrupted the data we get from the world and the *actions* that we take based on it. Let's look at one example of how data can be corrupted (on the input) and lead to corrupted actions (on the output).
+***Optional pre-discussion activity***: Check out the film [Coded Bias](https://www.codedbias.com/about) ([2-minute trailer](https://www.codedbias.com/about)), which focuses on facial recognition and a few other areas that many of you have already highlighted in forum posts. I have not yet watched it, but I suspect it will be provocative in a way that's relevant to this class. It's not yet released publicly, but there are two screenings in the next week!
+
+-   Thursday March 18, 7-8:30pm, [Indie Lens](https://www.eventbrite.com/e/indie-lens-pop-up-presents-coded-bias-registration-142790272549)
+
+-   [PBS on March 22](https://www.pbs.org/independentlens/films/coded-bias/) (10pm)
+
+**Shalom in Data** We saw a few weeks ago how God put so much *good* data in the created world, and created humans in his image being able to *see* that data rightly and *act* accordingly. But sin has corrupted the data we get from the world and the *actions* that we take based on it. Let's look at one example of how data can be corrupted (on the input) and lead to corrupted actions (on the output). *Reading and response activities:*
 
 1.  Please *skim* [this paper on facial recognition evaluation](https://arxiv.org/abs/2102.00813) and [Tech Review's coverage](https://www.technologyreview.com/2021/02/05/1017388/ai-deep-learning-facial-recognition-data-history/) of the paper.
 
@@ -42,10 +51,6 @@ Some of you may already be familiar with some of the issues that have been raise
     4.  Did you notice anything you disagree with or an assumption you want to question?
 
     5.  These readings are from a secular perspective; as you read did you notice any places where a Christian might go deeper or make different conclusions?
-
-4.  *optional but encouraged* Watch the [2-minute trailer for Coded Bias](https://www.codedbias.com/about).
-
-If this is interesting to you, mark your calendars for a screening of the film [Coded Bias](https://www.codedbias.com/about) on [PBS on March 22](https://www.pbs.org/independentlens/films/coded-bias/).
 
 ## General Reflection Questions (optional for this activity)
 
