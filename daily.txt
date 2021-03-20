@@ -302,6 +302,8 @@ Topic:: Lab
 
 Spotlight:: [Project Suggestions](/project)
 
+Due:: Fundamentals 000-008 (suggested due date)
+
 ===
 
 
@@ -310,5 +312,6 @@ Topic:: Facial Recognition Data
 
 Post:: [Discussion 2](/activities/discussion-2-facial-recognition/)
 
+Due:: Project Proposal Drafts
 
 ===endofcal
