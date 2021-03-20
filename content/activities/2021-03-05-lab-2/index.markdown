@@ -14,6 +14,7 @@ featured: no
 dates:
   topic: '2021-03-05'
   continue: '2021-03-08'
+  postlab: '2021-03-11'
 image:
   caption: ''
   focal_point: ''
@@ -123,10 +124,10 @@ Now we want to see how we might change `angles` in order to reduce `loss`. We'll
 
 6.  Print out `angles.grad`. How does its shape compare with `angles`?
 
-7.  Add a line at the end to step down the gradient of `angles`:  
-      
-    `angles.data -= angles.grad * learning_rate`.  
-      
+7.  Add a line at the end to step down the gradient of `angles`:
+
+    `angles.data -= angles.grad * learning_rate`.
+
     (Define the `learning_rate` to be .01 at the top of the cell.)
 
 8.  Plot the new position of the chain. You'll need to use `show_chain(positions.detach())` so PyTorch doesn't try to take the gradient of the plotting function.
