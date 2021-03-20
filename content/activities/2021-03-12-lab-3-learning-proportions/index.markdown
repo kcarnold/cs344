@@ -23,6 +23,8 @@ projects: []
 
 
 
+Here's a [video walkthrough](https://www.youtube.com/playlist?list=PLYvyo-La3zBN8qoyCf3l0RRaopUa0KXPG)!
+
 The following template is provided in your Portfolio repositories under [`narrative/lab03-sgd.ipynb`](https://github.com/kcarnold/cs344/tree/main/portfolio/narrative/lab03-sgd.ipynb)
 
 # Lab 03: Estimate proportions using SGD
