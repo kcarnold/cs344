@@ -87,9 +87,9 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <p><strong>Read</strong> <a href="https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb">DL4C chapter 2</a>
   <em>note: ignore the implementation of <code>class DataLoaders</code>.</em></p>
 
-<p><strong>Quiz</strong> Reading Quiz 2</p>
-
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=2">Lesson 2 Video</a></p>
+
+<p><strong>Quiz</strong> Reading Quiz 2</p>
 
 <p><strong>Assigned</strong> <a href="/activities/homework-1">Homework 1</a></p>
 </span><br><br></div></td>
@@ -105,7 +105,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Due</strong> Discussion post about a topic that caught your eye (before class)</p>
 
-<p>Reflection 2</p>
+<p><strong>Due</strong> Reflection 2</p>
 </span><br><br></div></td>
 <td class = "even"><div>2/18<br><span class = "html"></span><br><br></div></td>
 <td class = "even"><div>2/19<br><span class = "html"><p><strong>Topic</strong> Lab 1 extension, homework work</p>
@@ -132,19 +132,18 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </tr><tr class="past">
 <td class = "odd"><div>3/1<br><span class = "html"><p><strong>Topic</strong> Modeling Basics</p>
 
-<p><strong>Read</strong> <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb">DL4C chapter 4</a> until &ldquo;MNIST Loss Function&rdquo; <strong>Reading Quiz</strong></p>
-
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=3">Lesson 3 video</a></p>
+
+<p><strong>Read</strong> <a href="https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb">DL4C chapter 4</a> until &ldquo;MNIST Loss Function&rdquo; <strong>Reading Quiz</strong></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/2<br><span class = "html"></span><br><br></div></td>
-<td class = "odd"><div>3/3<br><span class = "html"><p><strong>Note</strong> Reflection delayed till next week</p>
+<td class = "odd"><div>3/3<br><span class = "html"><p><strong>Topic</strong> Modeling Basics</p>
 
-<p>Add and upvote <a href="https://calvincollege.sharepoint.com/sites/Section_77915/_layouts/15/Doc.aspx?sourcedoc=%7B11c65f0d-7020-4c67-a7b2-93a5521628a6%7D&amp;action=edit&amp;wd=target%28_Collaboration%20Space%2FWeekly%20Notes.one%7Cf65e590f-924e-461a-ad2d-681cc376dd7c%2FApplication%20Areas%7C334a318a-1626-4e37-91fd-6bf983ef82d4%2F%29&amp;wdorigin=703">application areas</a></p>
+<p><strong>Note</strong> Reflection delayed till next week</p>
 
-<p><strong>Topic</strong> Modeling Basics</p>
+<p><strong>Note</strong> Add and upvote <a href="https://calvincollege.sharepoint.com/sites/Section_77915/_layouts/15/Doc.aspx?sourcedoc=%7B11c65f0d-7020-4c67-a7b2-93a5521628a6%7D&amp;action=edit&amp;wd=target%28_Collaboration%20Space%2FWeekly%20Notes.one%7Cf65e590f-924e-461a-ad2d-681cc376dd7c%2FApplication%20Areas%7C334a318a-1626-4e37-91fd-6bf983ef82d4%2F%29&amp;wdorigin=703">application areas</a></p>
 </span><br><br></div></td>
-<td class = "odd"><div>3/4<br><span class = "html"><p><strong>Note</strong> 
-Advising Day</p>
+<td class = "odd"><div>3/4<br><span class = "html"><p><strong>Note</strong> Advising Day</p>
 
 <p><strong>Quiz</strong> Technical Check-in</p>
 
@@ -158,9 +157,9 @@ Advising Day</p>
 </span><br><br></div></td>
 <!--  5 > 4 -->
 </tr><tr>
-<td class = "odd"><div>3/8<br><span class = "html"><p><strong>Read</strong> ch4 starting at &ldquo;MNIST loss function&rdquo;, chapter 5 until &ldquo;Model Interpretation&rdquo;</p>
+<td class = "odd"><div>3/8<br><span class = "html"><p><strong>Watch</strong> The rest of the <a href="https://course.fast.ai/videos/?lesson=4">Lesson 4 video</a> (masks postlude optional but interesting)</p>
 
-<p><strong>Watch</strong> The rest of the <a href="https://course.fast.ai/videos/?lesson=4">Lesson 4 video</a> (masks postlude optional but interesting)</p>
+<p><strong>Read</strong> ch4 starting at &ldquo;MNIST loss function&rdquo;, chapter 5 until &ldquo;Model Interpretation&rdquo;</p>
 
 <p><strong>Continue</strong> <a href="/activities/lab-2">Lab 2: Pull the Chain</a></p>
 </span><br><br></div></td>
@@ -199,9 +198,9 @@ Advising Day</p>
 <td class = "odd"><div>3/18<br><span class = "html"></span><br><br></div></td>
 <td class = "odd"><div>3/19<br><span class = "html"><p><strong>Topic</strong> Lab</p>
 
-<p><strong>Due</strong> Fundamentals 000-008 (suggested due date)</p>
-
 <p><strong>Spotlight</strong> <a href="/project">Project Suggestions</a></p>
+
+<p><strong>Due</strong> Fundamentals 000-008 (suggested due date)</p>
 
 <p><strong>Finish</strong> <a href="/activities/lab-3-learning-proportions">Lab 3: Learning Proportions</a></p>
 </span><br><br></div></td>
@@ -212,7 +211,6 @@ Advising Day</p>
 <td class = "odd"><div>3/24<br><span class = "html"><p><strong>Due</strong> <a href="/activities/discussion-2-facial-recognition">Facial Recognition (Structured Discussion 2)</a></p>
 </span><br><br></div></td>
 </tr></tbody></table>
-
 
 <style>
 .daily-calendar ul {
@@ -232,12 +230,6 @@ Advising Day</p>
   padding: 5px;
 }
 </style>
-
-
-
-
-
-
 
 Overall, we will go through the first half of the Deep Learning for Coders book
 at the pace that works for us, then see where we are. Then we will plan together

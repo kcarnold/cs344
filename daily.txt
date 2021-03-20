@@ -125,9 +125,6 @@ Prep::
   * Complete reading quiz
 
 
-Notes::
-
-
 Next Time::
   * Simplify the questions.
   * Give some guidance on logistics (remind Lab 0: github, Maroon lab not VMs, full-screen trick)
@@ -306,6 +303,7 @@ Due:: Fundamentals 000-008 (suggested due date)
 
 ===
 
+Topic::
 
 ===
 Topic:: Facial Recognition Data

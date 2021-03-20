@@ -51,65 +51,12 @@ Sys.glob(here::here('static/slides/*/*.Rmd')) %>%
   )
 ```
 
-```{r echo=FALSE, results='asis'}
+```{r echo=FALSE}
 daily_file <- here::here("daily.txt") 
 daily_meta <- rmarkdown::yaml_front_matter(daily_file)
-
-cal_data <- 
-  daily2cal(path = daily_file) %>%
-  pivot_longer(-c(date, week), names_to = "label", values_to = "contents") %>% 
-  filter(
-    !(str_to_lower(label) %in% c("plan", "log", "reflection", "next time")),
-    !is.na(contents)) %>% 
-  mutate(contents = str_trim(contents, side = "right")) %>% 
-  filter(label != "Notes" | contents != "") %>% 
-  mutate(contents = if_else(
-    label %in% c("Quiz"),
-    str_extract(contents, regex("^[^\\n]+$", multiline = TRUE)),
-    contents
-  ))
 ```
 
-```{r echo=FALSE}
-start <- lubridate::floor_date(min(cal_data$date), unit = "week")
-
-cal_data %>% 
-  bind_rows(activity_cal_data) %>% 
-  bind_rows(slide_cal_data) %>% 
-  mutate(topic_contents = glue("**{label}** {contents}")) %>% 
-  group_by(date) %>% 
-  summarize(contents = paste(topic_contents, collapse = "\n\n")) %>% 
-  rowwise() %>% 
-  mutate(html = markdown::markdownToHTML(text = contents, fragment.only = TRUE)) %>% 
-  select(date, html) %>% 
-  complete(date = seq(start, max(date), "day"), fill = list(html = "")) %>% 
-  mutate(week  = as.numeric(floor(difftime(date, start, units = "weeks")))) %>% 
-  html_calendar(show = 2:6, past_week = daily_meta$past_week) %>% 
-  knitr::asis_output()
-```
-
-
-<style>
-.daily-calendar ul {
-  padding-left: 1rem;
-}
-
-.daily-calendar .past td > div {
-  overflow: auto;
-  max-height: 75px;
-}
-
-.daily-calendar td {
-    padding: 0;
-}
-
-.daily-calendar td > div {
-  padding: 5px;
-}
-</style>
-
-
-```{r include=FALSE, eval=FALSE}
+```{r}
 #' A version of purrr::accumulate that maintains the data type of the input.
 #
 # Needed because accumulate with dates coerces to `dbl`.
@@ -130,7 +77,7 @@ split_into_sections <- function(day_contents) {
 
   tibble(line = day_contents) %>% 
   filter(row_number() > 1) %>% 
-  separate(line, into = c("section", "contents"), sep = "::", fill = "left") %>% 
+  separate(line, into = c("section", "contents"), sep = "::(.?)", fill = "left") %>% 
   
   # starting with "  " continues sections.
   mutate(starts_with_whitespace = str_starts(contents, "  ")) %>% 
@@ -144,13 +91,13 @@ split_into_sections <- function(day_contents) {
     is.na(section) & 
       ((str_trim(contents) == "") | starts_with_whitespace)) %>% 
   group_by(section_idx = cumsum(!should_continue_section)) %>% 
-  summarize(section = first(section), body = paste(contents, collapse = '\n')) %>% 
-  replace_na(list(section = "Private")) %>% 
+  summarize(label = first(section), contents = paste(contents, collapse = '\n')) %>% 
+  replace_na(list(label = "Private")) %>% 
   select(-section_idx)
 }
 
 mask <- daily:::days2mask("MWF")
-x <- here::here("daily.txt") %>% 
+cal_data <- here::here("daily.txt") %>% 
   read_lines() %>% 
   tibble(line = .) %>% 
   mutate(is_delim = str_starts(line, "==="), day_spec = cumsum(is_delim)) %>% 
@@ -174,12 +121,55 @@ x <- here::here("daily.txt") %>%
   rowwise() %>% 
   mutate(day_contents = list(split_into_sections(rest))) %>% 
   select(-rest) %>% 
-  unnest(day_contents)
-x
+  rename(date = day) %>% 
+  unnest(day_contents) %>% 
+  ungroup() %>% 
+  filter(date <= lubridate::mdy(daily_meta$end))
+
+start <- lubridate::floor_date(min(cal_data$date), unit = "week")
+
+cal_data %>% 
+  filter(
+    !(str_to_lower(label) %in% c("plan", "log", "reflection", "next time", "private")),
+    !is.na(contents)) %>% 
+  mutate(contents = str_trim(contents, side = "right")) %>% 
+  mutate(contents = if_else(
+    label %in% c("Quiz"),
+    str_extract(contents, regex("^[^\\n]+$", multiline = TRUE)),
+    contents
+  )) %>% 
+  bind_rows(activity_cal_data) %>% 
+  bind_rows(slide_cal_data) %>% 
+  mutate(topic_contents = glue("**{label}** {contents}")) %>% 
+  group_by(date) %>% 
+  summarize(contents = paste(topic_contents, collapse = "\n\n")) %>% 
+  rowwise() %>% 
+  mutate(html = markdown::markdownToHTML(text = contents, fragment.only = TRUE)) %>% 
+  select(date, html) %>% 
+  complete(date = seq(start, max(date), "day"), fill = list(html = "")) %>% 
+  mutate(week  = as.numeric(floor(difftime(date, start, units = "weeks")))) %>% 
+  html_calendar(show = 2:6, past_week = daily_meta$past_week) %>% 
+  knitr::asis_output()
 ```
 
+<style>
+.daily-calendar ul {
+  padding-left: 1rem;
+}
 
+.daily-calendar .past td > div {
+  overflow: auto;
+  max-height: 75px;
+}
 
+.daily-calendar td {
+    padding: 0;
+}
+
+.daily-calendar td > div {
+  padding: 5px;
+}
+</style>
 
 Overall, we will go through the first half of the Deep Learning for Coders book
 at the pace that works for us, then see where we are. Then we will plan together
