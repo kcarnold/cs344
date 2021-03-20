@@ -3,7 +3,7 @@ title: "CS 344: Artificial Intelligence"
 semester: "Spring 2021"
 time: "11:30am"
 start: "02/03/2021"
-end: "03/20/2021"
+end: "03/26/2021"
 past_week: 5
 days: "MWF"
 ---
@@ -303,7 +303,11 @@ Due:: Fundamentals 000-008 (suggested due date)
 
 ===
 
-Topic::
+Lab:: Logistic Regression
+
+Read:: Chapter 7 (active reading optional); Chapter 8
+
+Spotlight:: TBD
 
 ===
 Topic:: Facial Recognition Data
@@ -311,5 +315,8 @@ Topic:: Facial Recognition Data
 Post:: [Discussion 2](/activities/discussion-2-facial-recognition/)
 
 Due:: Project Proposal Drafts
+
+===
+Topic:: Collaborative Filtering
 
 ===endofcal

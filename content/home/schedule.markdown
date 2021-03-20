@@ -206,9 +206,24 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span><br><br></div></td>
 <!--  7 > 6 -->
 </tr><tr>
-<td class = "odd"><div>3/22<br><span class = "html"></span><br><br></div></td>
-<td class = "odd"><div>3/23<br><span class = "html"></span><br><br></div></td>
-<td class = "odd"><div>3/24<br><span class = "html"><p><strong>Due</strong> <a href="/activities/discussion-2-facial-recognition">Facial Recognition (Structured Discussion 2)</a></p>
+<td class = "odd"><div>3/22<br><span class = "html"><p><strong>Lab</strong> Logistic Regression</p>
+
+<p><strong>Read</strong> Chapter 7 (active reading optional); Chapter 8</p>
+
+<p><strong>Spotlight</strong> TBD</p>
+</span><br><br></div></td>
+<td class = "odd"><div>3/23<br><span class = "html"><p><strong>Note</strong> Advising Day</p>
+</span><br><br></div></td>
+<td class = "odd"><div>3/24<br><span class = "html"><p><strong>Topic</strong> Facial Recognition Data</p>
+
+<p><strong>Post</strong> <a href="/activities/discussion-2-facial-recognition/">Discussion 2</a></p>
+
+<p><strong>Due</strong> Project Proposal Drafts</p>
+
+<p><strong>Due</strong> <a href="/activities/discussion-2-facial-recognition">Facial Recognition (Structured Discussion 2)</a></p>
+</span><br><br></div></td>
+<td class = "odd"><div>3/25<br><span class = "html"></span><br><br></div></td>
+<td class = "odd"><div>3/26<br><span class = "html"><p><strong>Topic</strong> Collaborative Filtering</p>
 </span><br><br></div></td>
 </tr></tbody></table>
 
