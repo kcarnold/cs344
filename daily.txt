@@ -305,7 +305,7 @@ Due:: Fundamentals 000-008 (suggested due date)
 
 Lab:: Logistic Regression
 
-Read:: Chapter 7 (active reading optional); Chapter 8
+Read:: Chapter 7 (active reading optional); Chapter 8; cumulative reading quiz
 
 Spotlight:: TBD
 
@@ -314,7 +314,10 @@ Topic:: Facial Recognition Data
 
 Post:: [Discussion 2](/activities/discussion-2-facial-recognition/)
 
-Due:: Project Proposal Drafts
+Due:: Project Proposal Drafts, Reflection 6
+
+===3/25/2021
+Quiz:: quiz (tentative)
 
 ===
 Topic:: Collaborative Filtering

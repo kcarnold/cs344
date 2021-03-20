@@ -174,6 +174,8 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Spotlight</strong> <a href="https://compvis.github.io/taming-transformers/">Taming Transformers</a></p>
 
+<p><strong>Assigned</strong> <a href="/activities/homework-2">Homework 2</a></p>
+
 <p><strong>Start</strong> <a href="/activities/lab-3-learning-proportions">Lab 3: Learning Proportions</a></p>
 </span><br><br></div></td>
 <!--  6 > 5 -->
@@ -208,7 +210,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </tr><tr>
 <td class = "odd"><div>3/22<br><span class = "html"><p><strong>Lab</strong> Logistic Regression</p>
 
-<p><strong>Read</strong> Chapter 7 (active reading optional); Chapter 8</p>
+<p><strong>Read</strong> Chapter 7 (active reading optional); Chapter 8; cumulative reading quiz</p>
 
 <p><strong>Spotlight</strong> TBD</p>
 </span><br><br></div></td>
@@ -218,16 +220,17 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Post</strong> <a href="/activities/discussion-2-facial-recognition/">Discussion 2</a></p>
 
-<p><strong>Due</strong> Project Proposal Drafts</p>
+<p><strong>Due</strong> Project Proposal Drafts, Reflection 6</p>
 
 <p><strong>Due</strong> <a href="/activities/discussion-2-facial-recognition">Facial Recognition (Structured Discussion 2)</a></p>
 </span><br><br></div></td>
-<td class = "odd"><div>3/25<br><span class = "html"></span><br><br></div></td>
+<td class = "odd"><div>3/25<br><span class = "html"><p><strong>Quiz</strong> quiz (tentative)</p>
+</span><br><br></div></td>
 <td class = "odd"><div>3/26<br><span class = "html"><p><strong>Topic</strong> Collaborative Filtering</p>
 </span><br><br></div></td>
 </tr></tbody></table>
 
-Future topics (tentative)
+Future topics (tentative):
 
 * Mon 3/29: Tabular data
 * Mon 4/5: Language Processing 1
@@ -235,6 +238,8 @@ Future topics (tentative)
 * Mon 4/19: Adversarial Learning
 * Mon 4/26: Reinforcement Learning
 * Mon 5/3: Unsupervised and Self-Supervised Learning
+
+
 
 
 <style>

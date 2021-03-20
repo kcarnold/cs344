@@ -97,7 +97,7 @@ split_into_sections <- function(day_contents) {
 }
 
 mask <- daily:::days2mask("MWF")
-cal_data <- here::here("daily.txt") %>% 
+daily_data <- here::here("daily.txt") %>% 
   read_lines() %>% 
   tibble(line = .) %>% 
   mutate(is_delim = str_starts(line, "==="), day_spec = cumsum(is_delim)) %>% 
@@ -126,10 +126,8 @@ cal_data <- here::here("daily.txt") %>%
   filter(str_trim(contents) != "") %>% 
   ungroup()
 
-start <- lubridate::floor_date(min(cal_data$date), unit = "week")
-
-cal_data %>% 
-  filter(date <= lubridate::mdy(daily_meta$end)) %>% 
+cal_data <- 
+  daily_data %>% 
   filter(
     !(str_to_lower(label) %in% c("plan", "log", "reflection", "next time", "private")),
     !is.na(contents)) %>% 
@@ -140,12 +138,18 @@ cal_data %>%
     contents
   )) %>% 
   bind_rows(activity_cal_data) %>% 
-  bind_rows(slide_cal_data) %>% 
+  bind_rows(slide_cal_data)
+
+start <- lubridate::floor_date(min(cal_data$date), unit = "week")
+
+cal_data %>% 
+  filter(date <= lubridate::mdy(daily_meta$end)) %>% 
   mutate(topic_contents = glue("**{label}** {contents}")) %>% 
   group_by(date) %>% 
   summarize(contents = paste(topic_contents, collapse = "\n\n")) %>% 
   rowwise() %>% 
   mutate(html = markdown::markdownToHTML(text = contents, fragment.only = TRUE)) %>% 
+  ungroup() %>% 
   select(date, html) %>% 
   complete(date = seq(start, max(date), "day"), fill = list(html = "")) %>% 
   mutate(week  = as.numeric(floor(difftime(date, start, units = "weeks")))) %>% 
@@ -153,7 +157,7 @@ cal_data %>%
   knitr::asis_output()
 ```
 
-Future topics (tentative)
+Future topics (tentative):
 
 ```{r results='asis'}
 cal_data %>% 
@@ -164,6 +168,21 @@ cal_data %>%
   paste0(collapse = "\n") %>% cat()
 ```
 
+
+```{r eval=FALSE}
+summarize_week <- function(start, end) {
+  cal_data %>% 
+    filter(between(date, ymd(start), ymd(end))) %>%
+    arrange(date) %>% 
+    mutate(entry = str_glue("{label}: {str_trim(contents)}")) %>% 
+    group_by(date) %>% 
+    summarize(entry = str_glue("* {wday(first(date), label=TRUE)}: {paste0(entry, collapse='; ')}")) %>% 
+    pull(entry) %>% 
+    paste0(collapse = "\n")
+}
+
+summarize_week("2021-03-22", "2021-03-26") %>% clipr::write_clip()
+```
 
 <style>
 .daily-calendar ul {
