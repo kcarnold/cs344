@@ -319,4 +319,46 @@ Due:: Project Proposal Drafts
 ===
 Topic:: Collaborative Filtering
 
+===
+Topic:: Tabular data
+
+===
+
+===
+
+===
+Topic:: Language Processing 1
+
+===
+
+===
+
+===
+Topic:: NLP 2
+
+===
+
+===
+
+===
+Topic:: Adversarial Learning
+
+===
+
+===
+
+===
+Topic:: Reinforcement Learning
+
+===
+
+===
+
+===
+Topic:: Unsupervised and Self-Supervised Learning
+
+===
+
+===
+
 ===endofcal

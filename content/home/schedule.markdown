@@ -227,6 +227,16 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span><br><br></div></td>
 </tr></tbody></table>
 
+Future topics (tentative)
+
+* Mon 3/29: Tabular data
+* Mon 4/5: Language Processing 1
+* Mon 4/12: NLP 2
+* Mon 4/19: Adversarial Learning
+* Mon 4/26: Reinforcement Learning
+* Mon 5/3: Unsupervised and Self-Supervised Learning
+
+
 <style>
 .daily-calendar ul {
   padding-left: 1rem;
@@ -245,12 +255,3 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
   padding: 5px;
 }
 </style>
-
-Overall, we will go through the first half of the Deep Learning for Coders book
-at the pace that works for us, then see where we are. Then we will plan together
-what remaining topics to discuss, such as:
-
-* language processing (my specific area of interest), especially Transformers
-* reinforcement learning
-* unsupervised learning
-* others as we identify them

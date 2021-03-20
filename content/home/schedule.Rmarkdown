@@ -123,12 +123,13 @@ cal_data <- here::here("daily.txt") %>%
   select(-rest) %>% 
   rename(date = day) %>% 
   unnest(day_contents) %>% 
-  ungroup() %>% 
-  filter(date <= lubridate::mdy(daily_meta$end))
+  filter(str_trim(contents) != "") %>% 
+  ungroup()
 
 start <- lubridate::floor_date(min(cal_data$date), unit = "week")
 
 cal_data %>% 
+  filter(date <= lubridate::mdy(daily_meta$end)) %>% 
   filter(
     !(str_to_lower(label) %in% c("plan", "log", "reflection", "next time", "private")),
     !is.na(contents)) %>% 
@@ -152,6 +153,18 @@ cal_data %>%
   knitr::asis_output()
 ```
 
+Future topics (tentative)
+
+```{r results='asis'}
+cal_data %>% 
+  filter(date > lubridate::mdy(daily_meta$end)) %>%
+  filter(label == "Topic") %>% 
+  transmute(entry = str_glue("* {wday(date, label=TRUE)} {month(date)}/{day(date)}: {str_trim(contents)}")) %>% 
+  pull(entry) %>% 
+  paste0(collapse = "\n") %>% cat()
+```
+
+
 <style>
 .daily-calendar ul {
   padding-left: 1rem;
@@ -170,12 +183,3 @@ cal_data %>%
   padding: 5px;
 }
 </style>
-
-Overall, we will go through the first half of the Deep Learning for Coders book
-at the pace that works for us, then see where we are. Then we will plan together
-what remaining topics to discuss, such as:
-
-* language processing (my specific area of interest), especially Transformers
-* reinforcement learning
-* unsupervised learning
-* others as we identify them
