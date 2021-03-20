@@ -4,6 +4,8 @@ title: "Forum posts"
 
 ## Week 7
 
+This week, we're reviewing and consolidating what we've learned about modeling and learning by gradient descent, and (if all goes well) applying it to a new task (recommending stuff to people).
+
 -   **Reading**: as mentioned in class, we're taking a week off from the Fast.ai grind. Instead:
 
     -   If you didn't get to chapter 8 last week, get to it sometime this week.
