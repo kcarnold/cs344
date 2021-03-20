@@ -43,6 +43,16 @@ Teachers have a hard time getting to know students by face, especially when stud
 -   **Input**: students' profile photos
 -   **Output**: a dozen different images for each student, with variation in background, lighting, clothing, etc. so that these factors are informative
 
+### Code Analysis for Intro Programming Classes
+
+AI models of (programming) code have improved markedly in recent years (see, e.g., [Unified Pre-training for Program Understanding and Generation](https://arxiv.org/abs/2103.06333)), but intro programming classes haven't yet been able to benefit from them. Could you figure out a way to use program understanding methods to give good feedback to CS learners and their instructors? (e.g., help the instructor see patterns in students' code)
+
+Some code and pre-trained models you might play with:
+
+* Facebook's [TransCoder](https://github.com/facebookresearch/TransCoder)
+* Microsoft's [CodeXGLUE](https://github.com/microsoft/CodeXGLUE)
+* the [PLBART code](https://github.com/wasiahmad/PLBART)
+
 ### Predictive Text from Very Rough Drafts (e.g., rambling speech)
 
 Speech recognition technology is a powerful and efficient way to enter text on a touchscreen device, but many people don't use it. One reason is that it is cognitively challenging: you must think of exactly what to say, and how to say it clearly enough to be understood, on the first time, potentially in a distracting or non-private environment. But what if you could first "think out loud" about what you want to say, perhaps whispering a stream of consciousness to your phone---then your phone would give you (a) an outline of the main points you wanted to say and (b) really accurate predictions about what word to type next in order to say it?
@@ -72,7 +82,6 @@ Make some deepfakes. Try to detect them.
 
 * Language
   * sequence-to-sequence-to-sequence (the latent code is a sequence). Ask me for details.
-  * Code analysis for intro programming classes (e.g., help the instructor see patterns in students' code)
 * Audio
   * Given a sound corrupted by a random EQ curve or other processing step, predict the parameters for that processing step. *This kind of task is called [self supervised learning](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html).* See Microsoft's [HEXA](https://www.microsoft.com/en-us/research/blog/hexa-self-supervised-pretraining-with-hard-examples-improves-visual-representations/).
 * General
