@@ -2,6 +2,44 @@
 title: "Forum posts"
 ---
 
+## Week 7
+
+-   **Reading**: as mentioned in class, we're taking a week off from the Fast.ai grind. Instead:
+
+    -   If you didn't get to chapter 8 last week, get to it sometime this week.
+
+    -   Have a leisurely look back at Chapter 7 (which we'd skipped); instead of trying to replicate it, just focus on the core insights:
+
+        -   wisely subset your data
+
+        -   learn how to decode complicated-sounding papers into simple ideas
+
+        -   messiness in your data might actually be helpful (especially Mixup, Label Smoothing, and Test-Time Augmentation)
+
+    -   There's a cumulative reading quiz on Moodle to remind you of a few key ideas. Some of it will be helpful to review before class on Monday.
+
+-   Our discussion of Facial Recognition Data is on [Moodle](https://moodle.calvin.edu/mod/forum/view.php?id=1216990); please be prepared to share some highlights when we discuss this in class on Wednesday.
+
+    -   I enjoyed watching Coded Bias on Thursday night! If you missed that and still want to watch, there's signs that it may be available for streaming on demand on PBS even after the Monday 10pm screening.
+
+    -   IndieLens posted a [Discussion Guide](http://bit.ly/ILPOP-CODEDBIAS-Discussion-Guide) for the film. Please feel free to bring up any points or questions from there in our discussion, even if you didn't watch the film. The film has a pretty liberal slant, so I'd be particularly interested in conservative perspectives.
+
+-   I made a [video walkthrough for Lab 3](https://www.youtube.com/playlist?list=PLYvyo-La3zBN8qoyCf3l0RRaopUa0KXPG). It was fun, good idea whoever that was who suggested it on Piazza.
+
+-   By now you should have most of the Fundamentals notebooks submitted in Moodle. I'm gradually posting [solutions](https://github.com/kcarnold/cs344/tree/main/portfolio/fundamentals); I'll let you know when they're done. Also stay tuned for a few new notebooks this week.
+
+**What's up this week?**
+
+-   **Mon**: Probably a lab on Logistic Regression 3 ways, to level up and consolidate concepts of modeling and gradient descent, get briefly introduced to scikit-learn (more in chapter 9), and train our first neural net
+
+-   **Wed**: Continue the discussion of Facial Recognition Data that we started on Moodle ([Facial Recognition (Structured Discussion 2)](/activities/discussion-2-facial-recognition)).
+
+    -   Due: Project Proposal Drafts; Reflection 6
+
+-   **Fri**: Collaborative Filtering (chapter 8)
+
+See you on Monday!
+
 ## Week 6 mid-week
 
 A few mid-week things:
