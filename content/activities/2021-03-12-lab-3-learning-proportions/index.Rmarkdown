@@ -34,6 +34,8 @@ portfolio_link <- function(path) {
 }
 ```
 
+Here's a [video walkthrough](https://www.youtube.com/playlist?list=PLYvyo-La3zBN8qoyCf3l0RRaopUa0KXPG)!
+
 The following template is provided in your Portfolio repositories under `r portfolio_link("narrative/lab03-sgd.ipynb")`
 
 ```{r echo=FALSE, results='asis'}
