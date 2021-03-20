@@ -1,0 +1,53 @@
+---
+title: 'Lab 3: Learning Proportions'
+author: Ken Arnold
+date: '2021-03-12'
+slug: lab-3-learning-proportions
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-03-19T10:40:14-04:00'
+featured: no
+dates:
+  start: '2021-03-12'
+  continue: '2021-03-15'
+  finish: '2021-03-19'
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r setup, include=FALSE}
+#reticulate::use_condaenv("fastai", required = TRUE)
+#library(reticulate)
+#py_discover_config()
+
+portfolio_ghroot <- "https://github.com/kcarnold/cs344/tree/main/portfolio/"
+portfolio_link <- function(path) {
+  paste0(
+    '[`', path, '`](', portfolio_ghroot, path, ')'
+  )
+}
+```
+
+The following template is provided in your Portfolio repositories under `r portfolio_link("narrative/lab03-sgd.ipynb")`
+
+```{r echo=FALSE, results='asis'}
+md <- system2(
+  "jupyter-nbconvert",
+  args = c("--to", "markdown", "--stdout", here::here("portfolio/narrative/lab03-sgd.ipynb")),
+  stdout = TRUE,
+  stderr = FALSE # discard
+)
+cat(paste0(md, collapse = "\n"))
+
+#exporter <- import("nbconvert")$MarkdownExporter()
+#r <- exporter$from_filename(here::here("portfolio/narrative/lab03-sgd.ipynb"))
+#md <- r[[1]]
+#cat(md)
+```
+
