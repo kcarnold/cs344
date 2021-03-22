@@ -37,6 +37,7 @@ We also strive for the sequence to make sense, but make no promises.
 * `006-compute-gradient`: Compute the gradient of a function.
 * `007-softmax`: Practice using the `softmax` function.
 * `008-softmax-2`: More practice using the `softmax` function, and connect it with the `sigmoid` function.
+* `009-linreg-learner`: Fit a linear regression by gradient descent.
 
 Notebooks will be added throughout the semester.
 
