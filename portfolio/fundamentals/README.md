@@ -49,3 +49,6 @@ Updating notebooks after distribution is hard because merge conflicts are highly
 * `000`
     * Skip the "How many dogs were there in the dataset? How many cats?" question.
     * Add `from fastbook import *` (or `from ipywidgets import widgets`) to be able to use `widgets.FileUpload()`.
+* `009` The note on 'evaluate the loss' should read: 
+
+    Note: PyTorch loss functions take model outputs (predictions), then correct targets (true). `sklearn` loss functions (metrics) use the reverse order.
