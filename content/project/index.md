@@ -18,7 +18,7 @@ Many different projects are possible. When you make your project proposal, try t
 
 -   replicate, critique, and extend (part of) a published work
 
-    -   see <https://paperswithcode.com/> for some examples
+    -   see <https://paperswithcode.com/> for some examples. Their [newsletter](https://paperswithcode.com/newsletter) is particularly approachable.
 
     -   see proceedings of general conferences like NeurIPS, ICML, ICLR, ..., or domain-focused conferences: text (EMNLP, ACL), speech and music (ISMIR, InterSpeech), computer vision (ICCV, SIGGRAPH), recommender systems (RecSys), etc.
 
@@ -94,10 +94,17 @@ Make some deepfakes. Try to detect them.
 
 ## Some potential papers to replicate
 
-...or play with and extend
+...or play with and extend. See the master list above for more sources.
 
 * [Image Representations Learned With Unsupervised Pre-Training Contain Human-like Biases](https://arxiv.org/abs/2010.15052)
 * <https://towardsdatascience.com/how-to-build-a-controllable-writing-assistant-for-novel-authors-a9fa15b57c6a>
 * [Taming Transformers for High-Resolution Image Synthesis](https://compvis.github.io/taming-transformers/)
 * [Prefix Tuning](https://arxiv.org/pdf/2101.00190.pdf)
 * [Concept Bottleneck Models](https://arxiv.org/abs/2007.04612)
+* [GradInit](https://paperswithcode.com/paper/gradinit-learning-to-initialize-neural) (try this on some simple models)
+
+## Other example projects
+
+See the [share-your-projects thread](https://forums.fast.ai/t/share-your-v2-projects-here/65757) on the fast.ai forum.
+
+* [Video background blurring](https://deeplearning.berlin/fastai/privacy/getting%20started/2021/02/09/Background-Blur-Part-1.html)
