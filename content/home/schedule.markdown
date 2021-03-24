@@ -216,15 +216,15 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span><br><br></div></td>
 <td class = "odd"><div>3/23<br><span class = "html"><p><strong>Note</strong> Advising Day</p>
 </span><br><br></div></td>
-<td class = "odd"><div>3/24<br><span class = "html"><p><strong>Topic</strong> Facial Recognition Data</p>
+<td class = "odd"><div>3/24<br><span class = "html"><p><strong>Topic</strong> Discussion on Facial Recognition Data; Mini-lab on non-linearities</p>
 
-<p><strong>Post</strong> <a href="/activities/discussion-2-facial-recognition/">Discussion 2</a></p>
+<p><strong>Due</strong> Project Proposal Drafts</p>
 
-<p><strong>Due</strong> Project Proposal Drafts, Reflection 6</p>
-
-<p><strong>Due</strong> <a href="/activities/discussion-2-facial-recognition">Facial Recognition (Structured Discussion 2)</a></p>
+<p><strong>Post</strong> <a href="/activities/discussion-2-facial-recognition">Facial Recognition (Structured Discussion 2)</a></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/25<br><span class = "html"><p><strong>Quiz</strong> quiz (tentative)</p>
+
+<p><strong>Due</strong> <a href="/activities/reflection-5">Reflection 6</a></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/26<br><span class = "html"><p><strong>Topic</strong> Collaborative Filtering</p>
 </span><br><br></div></td>

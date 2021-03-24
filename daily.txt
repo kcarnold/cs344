@@ -310,11 +310,9 @@ Read:: Chapter 7 (active reading optional); Chapter 8; cumulative reading quiz
 Spotlight:: TBD
 
 ===
-Topic:: Facial Recognition Data
+Topic:: Discussion on Facial Recognition Data; Mini-lab on non-linearities
 
-Post:: [Discussion 2](/activities/discussion-2-facial-recognition/)
-
-Due:: Project Proposal Drafts, Reflection 6
+Due:: Project Proposal Drafts
 
 ===3/25/2021
 Quiz:: quiz (tentative)
