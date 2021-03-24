@@ -33,7 +33,7 @@ Fill in the following list (specific instructions are below the list):
 
     -   Active Reading chapter 8:
 
-    -   Cumulative Reading Quiz:
+    -   Reading Quiz 5 (Cumulative):
 
 -   Lab 3: \[\_\_%\] *comments*
 
