@@ -211,12 +211,12 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "odd"><div>3/22<br><span class = "html"><p><strong>Lab</strong> Logistic Regression</p>
 
 <p><strong>Read</strong> Chapter 7 (active reading optional); Chapter 8; cumulative reading quiz</p>
-
-<p><strong>Spotlight</strong> TBD</p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/23<br><span class = "html"><p><strong>Note</strong> Advising Day</p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/24<br><span class = "html"><p><strong>Topic</strong> Discussion on Facial Recognition Data; Mini-lab on non-linearities</p>
+
+<p><strong>Spotlight</strong> <a href="https://paperswithcode.com/newsletter/">PapersWithCode Newsletter</a></p>
 
 <p><strong>Due</strong> Project Proposal Drafts</p>
 

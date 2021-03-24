@@ -307,10 +307,11 @@ Lab:: Logistic Regression
 
 Read:: Chapter 7 (active reading optional); Chapter 8; cumulative reading quiz
 
-Spotlight:: TBD
 
 ===
 Topic:: Discussion on Facial Recognition Data; Mini-lab on non-linearities
+
+Spotlight:: [PapersWithCode Newsletter](https://paperswithcode.com/newsletter/)
 
 Due:: Project Proposal Drafts
 
