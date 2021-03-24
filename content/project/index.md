@@ -30,7 +30,7 @@ Many different projects are possible. When you make your project proposal, try t
 
 -   create an interactive application - using a model to do something interesting (e.g., [GANPaint](https://ganpaint.io/)), or allowing interesting exploration / interaction with the model itself (e.g., [LSTMVis](http://lstm.seas.harvard.edu/) or [Seq2Seq-Vis](https://seq2seq-vis.io/)). Links to lots of examples [here](https://distill.pub/2020/communicating-with-interactive-articles/).
 
--   try out a different deep learning toolkit (e.g., [Flux.jl](https://fluxml.ai/) or [SwiftAI](https://github.com/fastai/swiftai)) on several tasks from class
+-   try out a different deep learning toolkit (e.g., TensorFlow, tensorflow.js or [Flux.jl](https://fluxml.ai/)) on several tasks from class
 
 -   Anything else that's fun and/or impactful---and challenges you to bring your best.
 
@@ -52,6 +52,10 @@ Some code and pre-trained models you might play with:
 * Facebook's [TransCoder](https://github.com/facebookresearch/TransCoder)
 * Microsoft's [CodeXGLUE](https://github.com/microsoft/CodeXGLUE)
 * the [PLBART code](https://github.com/wasiahmad/PLBART)
+
+### Form-to-Text
+
+Every day I manually enter in the numbers from the [Spectrum Health COVID dashboard](https://www.spectrumhealth.org/covid19) into a Google Spreadsheet to use on Calvin's dashboard. Why so manual? It's a screenshot. **Automate this process**, ideally using no additional labeling effort. I have about 6 months worth of data.
 
 ### Predictive Text from Very Rough Drafts (e.g., rambling speech)
 
