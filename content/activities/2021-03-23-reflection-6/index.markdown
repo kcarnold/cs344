@@ -15,11 +15,11 @@ image:
   focal_point: ''
   preview_only: no
 dates:
-  due: '2021-03-24'
+  due: '2021-03-25'
 projects: []
 ---
 
-*This assignment should be turned in on Moodle.*
+*This assignment should be turned in on Moodle. Note: released late, so due date postponed a bit.*
 
 This reflection is similar in format to Reflection 5 but more flexible. You are, as always, welcome to make a compelling, argument for computing grades for yourself differently from this suggestion.
 
@@ -47,9 +47,9 @@ Fill in the following list (specific instructions are below the list):
 
 **Narrative**:
 
--   Describe what you learned in Lab 3. First, describe what you learned when working on the activity yourself. Then, review the walkthrough videos (if you haven't already) and describe any interesting differences between the walkthrough and your own work. Finally, summarize your overall takeaways from the whole lab.
+-   Describe what you learned in Lab 3. First, describe what you learned when working on the activity yourself. Then, review the [walkthrough videos](https://www.youtube.com/playlist?list=PLYvyo-La3zBN8qoyCf3l0RRaopUa0KXPG) (if you haven't already) and describe any interesting differences between the walkthrough and your own work. Finally, summarize your overall takeaways from the whole lab.
 
--   Describe your experience with the fundamentals notebooks. How difficult are they? How long are they taking you? How are you collaborating, if applicable? (Consider notebook `009` separately, since we did it together in class.) *If you need help with something, please ask on Piazza or Teams*.
+-   Describe your experience with the fundamentals notebooks. How difficult are they? How long are they taking you? How are you collaborating, if applicable? (Consider notebook `009` separately, since we did it together in class and did a [walkthrough](https://www.youtube.com/playlist?list=PLYvyo-La3zBOvTxiOhy4y6l65TxcUtCuS) also.) *If you need help with something, please ask on Piazza or Teams*.
 
 -   How do you feel about our pace?
 

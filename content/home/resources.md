@@ -9,6 +9,12 @@ title: "Resources"
 weight: 30
 ---
 
+-   Videos
+
+    -   Fundamentals 009 (Linear Regression with `Learner`) [walkthrough](https://www.youtube.com/playlist?list=PLYvyo-La3zBOvTxiOhy4y6l65TxcUtCuS)
+
+    -   [Lab 3 walkthrough](https://www.youtube.com/playlist?list=PLYvyo-La3zBN8qoyCf3l0RRaopUa0KXPG)
+
 -   Our book: [Deep Learning for Coders](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527/)
 
     -   [Source notebooks](https://github.com/fastai/fastbook), [Arnold's cleaned notebooks](https://github.com/kcarnold/fastbook/tree/master/clean). Suggestion: use [nbviewer](https://nbviewer.jupyter.org/) (or Colab) when reading the notebooks, rather than GitHub.
