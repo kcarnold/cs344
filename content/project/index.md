@@ -100,3 +100,4 @@ Make some deepfakes. Try to detect them.
 * <https://towardsdatascience.com/how-to-build-a-controllable-writing-assistant-for-novel-authors-a9fa15b57c6a>
 * [Taming Transformers for High-Resolution Image Synthesis](https://compvis.github.io/taming-transformers/)
 * [Prefix Tuning](https://arxiv.org/pdf/2101.00190.pdf)
+* [Concept Bottleneck Models](https://arxiv.org/abs/2007.04612)
