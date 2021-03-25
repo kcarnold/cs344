@@ -2,7 +2,7 @@
 title: Reflection 6
 author: Ken Arnold
 date: '2021-03-23'
-slug: reflection-5
+slug: reflection-6
 categories: []
 tags: []
 subtitle: ''

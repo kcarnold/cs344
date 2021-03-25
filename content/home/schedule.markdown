@@ -224,7 +224,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span><br><br></div></td>
 <td class = "odd"><div>3/25<br><span class = "html"><p><strong>Quiz</strong> quiz (tentative)</p>
 
-<p><strong>Due</strong> <a href="/activities/reflection-5">Reflection 6</a></p>
+<p><strong>Due</strong> <a href="/activities/reflection-6">Reflection 6</a></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/26<br><span class = "html"><p><strong>Topic</strong> Collaborative Filtering</p>
 </span><br><br></div></td>
