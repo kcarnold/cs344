@@ -156,7 +156,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <p><strong>Topic</strong> <a href="/activities/lab-2">Lab 2: Pull the Chain</a></p>
 </span><br><br></div></td>
 <!--  5 > 4 -->
-</tr><tr>
+</tr><tr class="past">
 <td class = "odd"><div>3/8<br><span class = "html"><p><strong>Watch</strong> The rest of the <a href="https://course.fast.ai/videos/?lesson=4">Lesson 4 video</a> (masks postlude optional but interesting)</p>
 
 <p><strong>Read</strong> ch4 starting at &ldquo;MNIST loss function&rdquo;, chapter 5 until &ldquo;Model Interpretation&rdquo;</p>
@@ -226,13 +226,22 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Due</strong> <a href="/activities/reflection-6">Reflection 6</a></p>
 </span><br><br></div></td>
-<td class = "odd"><div>3/26<br><span class = "html"><p><strong>Topic</strong> Collaborative Filtering</p>
+<td class = "odd"><div>3/26<br><span class = "html"><p><strong>Topic</strong> nonlinear regression</p>
+
+<p><strong>Start</strong> <a href="/activities/lab-4-nonlinear-regression">Lab 4: Nonlinear Regression</a></p>
+</span><br><br></div></td>
+<!--  8 > 7 -->
+</tr><tr>
+<td class = "odd"><div>3/29<br><span class = "html"><p><strong>Topic</strong> Collaborative Filtering and Tabular data</p>
+
+<p><strong>Read</strong> Through chapter 9</p>
+
+<p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=7">Lesson 7</a></p>
 </span><br><br></div></td>
 </tr></tbody></table>
 
 Future topics (tentative):
 
-* Mon 3/29: Tabular data
 * Mon 4/5: Language Processing 1
 * Mon 4/12: NLP 2
 * Mon 4/19: Adversarial Learning

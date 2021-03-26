@@ -319,10 +319,14 @@ Due:: Project Proposal Drafts
 Quiz:: quiz (tentative)
 
 ===
-Topic:: Collaborative Filtering
+Topic:: nonlinear regression
 
 ===
-Topic:: Tabular data
+Topic:: Collaborative Filtering and Tabular data
+
+Read:: Through chapter 9
+
+Watch:: [Lesson 7](https://course.fast.ai/videos/?lesson=7)
 
 ===
 
