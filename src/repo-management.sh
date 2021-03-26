@@ -99,12 +99,10 @@ case "$cmdname" in
         ;;
 
     push_updates)
-        git push origin main:main
-        git push origin main:ref
+        git push origin main:main main:ref
         while read slug; do
             echo "$slug"
-            git push "${slug}" "${slug}-ref":ref
-            git push "${slug}" "${slug}-main":main
+            git push "${slug}" "${slug}-ref":ref "${slug}-main":main
         done < "$SLUGNAMES"
     ;;
 
