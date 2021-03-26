@@ -57,6 +57,8 @@ roster %>%
 
 Dump our slugnames for use in `src/repo-management.sh`:
 
+FIXME: this needs to end with a trailing newline!
+
 ```{r eval=FALSE}
 roster$slugname %>% paste(collapse = "\n") %>% write_file(here::here('repos/slugnames.txt'))
 ```
