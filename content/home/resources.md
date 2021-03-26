@@ -9,6 +9,10 @@ title: "Resources"
 weight: 30
 ---
 
+**To fix fastai on Google Colab**, add a cell with the following
+
+`!pip install -U fastbook torchtext==0.8.1`
+
 -   Videos
 
     -   Fundamentals 009 (Linear Regression with `Learner`) [walkthrough](https://www.youtube.com/playlist?list=PLYvyo-La3zBOvTxiOhy4y6l65TxcUtCuS)
