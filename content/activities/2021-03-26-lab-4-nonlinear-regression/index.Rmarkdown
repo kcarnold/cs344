@@ -20,21 +20,30 @@ projects: []
 ---
 
 ```{r setup, include=FALSE}
+cur_portfolio <- "narrative/lab04-nn-regression.ipynb"
 portfolio_ghroot <- "https://github.com/kcarnold/cs344/tree/main/portfolio/"
-portfolio_link <- function(path) {
+portfolio_link <- function(path = cur_portfolio) {
   paste0(
     '[`', path, '`](', portfolio_ghroot, path, ')'
   )
 }
 ```
 
-The following template is provided in your Portfolio repositories under `r portfolio_link("narrative/lab04-nn-regression.ipynb")`
+The following template is provided in your Portfolio repositories under `r portfolio_link()`.
+
+Common gotchas on this lab:
+
+* Remember to *instantiate* your modules (e.g., `nn.MSELoss`**`()`**), and use PyTorch losses, not `mean_squared_error` from sklearn.
+* For Step 1, as long as either Train or Valid loss is below the threshold you're okay.
+* Name your model `model` for the plot code to work (sorry)
 
 ```{r echo=FALSE, results='asis'}
+# For inline images: https://discourse.jupyter.org/t/convert-notebook-to-a-standalone-markdown/5363/11
 md <- system2(
   #"jupyter-nbconvert", # FIXME
   "/usr/local/Caskroom/miniconda/base/bin/jupyter-nbconvert",
-  args = c("--to", "markdown", "--stdout", here::here("portfolio/narrative/lab04-nn-regression.ipynb")),
+  args = c("--to", "markdown", "--stdout", '--ExtractOutputPreprocessor.enabled=False',
+           here::here(paste0("portfolio/", cur_portfolio))),
   stdout = TRUE,
   stderr = FALSE # discard
 )
