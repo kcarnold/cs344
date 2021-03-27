@@ -3,7 +3,7 @@ title: "CS 344: Artificial Intelligence"
 semester: "Spring 2021"
 time: "11:30am"
 start: "02/03/2021"
-end: "03/30/2021"
+end: "04/02/2021"
 past_week: 6
 days: "MWF"
 ---
@@ -309,7 +309,7 @@ Read:: Chapter 7 (active reading optional); Chapter 8; cumulative reading quiz
 
 
 ===
-Topic:: Discussion on Facial Recognition Data; Mini-lab on non-linearities
+Topic:: Discussion on Facial Recognition Data
 
 Spotlight:: [PapersWithCode Newsletter](https://paperswithcode.com/newsletter/)
 
@@ -319,18 +319,20 @@ Due:: Project Proposal Drafts
 Quiz:: quiz (tentative)
 
 ===
-Topic:: nonlinear regression
+Topic:: Nonlinear Regression
 
 ===
-Topic:: Collaborative Filtering and Tabular data
+Topic:: Collaborative Filtering
 
 Read:: Through chapter 9
 
 Watch:: [Lesson 7](https://course.fast.ai/videos/?lesson=7)
 
 ===
+Topic:: Tabular data
 
 ===
+Topic:: Tabular Data Lab
 
 ===
 Topic:: Language Processing 1

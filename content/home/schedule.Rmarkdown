@@ -170,9 +170,11 @@ cal_data %>%
 
 
 ```{r eval=FALSE}
-summarize_week <- function(start, end) {
+summarize_week <- function(start) {
+  start <- ymd(start)
+  end <- start + days(6)
   cal_data %>% 
-    filter(between(date, ymd(start), ymd(end))) %>%
+    filter(between(date,start, end)) %>%
     arrange(date) %>% 
     mutate(entry = str_glue("{label}: {str_trim(contents)}")) %>% 
     group_by(date) %>% 
@@ -181,7 +183,7 @@ summarize_week <- function(start, end) {
     paste0(collapse = "\n")
 }
 
-summarize_week("2021-03-22", "2021-03-26") %>% clipr::write_clip()
+summarize_week("2021-03-29") %>% clipr::write_clip()
 ```
 
 <style>

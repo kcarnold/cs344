@@ -214,7 +214,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span><br><br></div></td>
 <td class = "odd"><div>3/23<br><span class = "html"><p><strong>Note</strong> Advising Day</p>
 </span><br><br></div></td>
-<td class = "odd"><div>3/24<br><span class = "html"><p><strong>Topic</strong> Discussion on Facial Recognition Data; Mini-lab on non-linearities</p>
+<td class = "odd"><div>3/24<br><span class = "html"><p><strong>Topic</strong> Discussion on Facial Recognition Data</p>
 
 <p><strong>Spotlight</strong> <a href="https://paperswithcode.com/newsletter/">PapersWithCode Newsletter</a></p>
 
@@ -226,17 +226,25 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Due</strong> <a href="/activities/reflection-6">Reflection 6</a></p>
 </span><br><br></div></td>
-<td class = "odd"><div>3/26<br><span class = "html"><p><strong>Topic</strong> nonlinear regression</p>
+<td class = "odd"><div>3/26<br><span class = "html"><p><strong>Topic</strong> Nonlinear Regression</p>
 
 <p><strong>Start</strong> <a href="/activities/lab-4-nonlinear-regression">Lab 4: Nonlinear Regression</a></p>
 </span><br><br></div></td>
 <!--  8 > 7 -->
 </tr><tr>
-<td class = "odd"><div>3/29<br><span class = "html"><p><strong>Topic</strong> Collaborative Filtering and Tabular data</p>
+<td class = "odd"><div>3/29<br><span class = "html"><p><strong>Topic</strong> Collaborative Filtering</p>
 
 <p><strong>Read</strong> Through chapter 9</p>
 
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=7">Lesson 7</a></p>
+
+<p><strong>Slides</strong> <a href="/slides/w8/w8-tabular.html">Tabular Data and Applications</a></p>
+</span><br><br></div></td>
+<td class = "odd"><div>3/30<br><span class = "html"></span><br><br></div></td>
+<td class = "odd"><div>3/31<br><span class = "html"><p><strong>Topic</strong> Tabular data</p>
+</span><br><br></div></td>
+<td class = "even"><div>4/1<br><span class = "html"></span><br><br></div></td>
+<td class = "even"><div>4/2<br><span class = "html"><p><strong>Topic</strong> Tabular Data Lab</p>
 </span><br><br></div></td>
 </tr></tbody></table>
 
