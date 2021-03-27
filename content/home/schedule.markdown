@@ -253,6 +253,8 @@ Future topics (tentative):
 * Mon 4/5: Language Processing 1
 * Mon 4/12: NLP 2
 * Mon 4/19: Adversarial Learning
+* Wed 4/21: Human-AI Interaction (explainability, interpretability, etc.)
+* Fri 4/23: Fairness
 * Mon 4/26: Reinforcement Learning
 * Mon 5/3: Unsupervised and Self-Supervised Learning
 

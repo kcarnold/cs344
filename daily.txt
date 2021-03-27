@@ -352,8 +352,10 @@ Topic:: NLP 2
 Topic:: Adversarial Learning
 
 ===
+Topic:: Human-AI Interaction (explainability, interpretability, etc.)
 
 ===
+Topic:: Fairness
 
 ===
 Topic:: Reinforcement Learning
