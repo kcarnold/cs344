@@ -2,6 +2,36 @@
 title: "Forum posts"
 ---
 
+## Week 8: Collaborative Filtering
+
+Our first few weeks focused on data, then we spent a few weeks on how models work in general; now it's time for applications! We'll start with recommendation systems, which have had a big impact on many of our lives. Since that's a kind of tabular data, we'll also discuss some of the classic approaches to machine learning on tabular data (decision trees, random forests, and other methods). This is the "bread and butter" of how many organizations use machine learning.
+
+Next week we'll start with natural language processing---my personal favorite use of machine learning. We could spend a whole class on that, but I'll try to keep it to 2 weeks so we have time for some other topics: GANs, explainability and other human+model interaction concerns, and reinforcement learning (learning to act).
+
+-   **Reading**: back to fastai for two more weeks. This week is [Lesson 7](https://course.fast.ai/videos/?lesson=7), which gets us through chapter 9.
+
+    -   Instead of a reading quiz, I'll post some Fundamentals notebooks to help you practice some of the skills I think are most important from these chapters.
+
+-   **Monday**: Lecture on recommender systems (collaborative filtering). (No lab, to take a break.)
+
+-   **Wed**: Lecture on tabular data
+
+-   **Fri**: Lab on Tabular Data and embeddings.
+
+**Project proposals** have generally been looking good, though many could benefit from being more specific about what data and approach to try. Start with some existing example and build on it or adapt it. I hope to finish giving feedback on these today.
+
+**Expectations**: I dropped a few things last week (e.g., Thursday quiz, more Fundamentals) for all of our sanity. Things to do this week:
+
+-   Finish the reading
+
+-   Finish Lab 4
+
+-   A few Fundamentals notebooks (hopefully posted by Monday)
+
+-   Quiz Thursday
+
+-   Reflection due... how about Thursday or Friday? What do you think?
+
 ## Week 7
 
 This week, we're reviewing and consolidating what we've learned about modeling and learning by gradient descent, and (if all goes well) applying it to a new task (recommending stuff to people).
