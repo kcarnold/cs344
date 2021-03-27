@@ -1,0 +1,81 @@
+---
+title: "Tabular Data and Applications"
+author: 
+  - "Ken Arnold"
+date: '2021-03-29'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: false
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+source("../slides-common.R")
+slideSetup()
+```
+
+## Recommender Systems
+
+Think of a few experiences you've had with recommender systems.
+
+* What sort of things were recommended to you?
+* What were some signals that you gave to the system that the recommendation was good (or not)?
+* What other data did the system have about you?
+* What other data did the system have about the items it recommended to you?
+
+---
+
+## Example: YouTube
+
+*insert screenshot of paper; see MorningPaper*
+
+
+---
+
+## RecSys Data
+
+*data table*
+
+* Tabular
+* Categorical features with high *cardinality*
+  * Lots of viewers!
+  * Lots of videos!
+
+Models:
+
+*screenshot from YouTube paper*
+
+---
+
+## Core Idea: Similarity
+
+* Find examples of people like you
+* ... interacting with items like the ones being considered
+
+So we need a way to measure *similarity* for both *users* and *items*
+
+---
+
+## Exercise
+
+On paper (or electronically), briefly explain collaborative filtering.
+
+--
+
+Share your explanation with a partner.
+
+---
+
+## Extension: Word Vectors
+
+"You know a word by the company it keeps"
+
+
+
+* Embeddings
+
