@@ -103,13 +103,43 @@ Share your explanation with a partner.
 
 ---
 
-## Extension: Word Vectors
+## Extension: Word Embeddings
+
+"The meaning of a word is its use in the language" - Wittgenstein
 
 "You know a word by the company it keeps"
 
+```{r out.width="100%"}
+knitr::include_graphics("images/slp3-skipgram.png")
+```
 
 
-* Embeddings
+---
+
+```{r}
+knitr::include_graphics("images/slp3-parallelogram.png")
+```
+
+.floating-source[Source: Jurafsky and Martin. [Speech and Language Processing 3rd ed](https://web.stanford.edu/~jurafsky/slp3/)]
+
+---
+
+.pull-left[
+```{r out.width="100%"}
+knitr::include_graphics("images/comparative_superlative.jpg")
+```
+]
+
+.pull-right[
+```{r out.width="100%"}
+knitr::include_graphics("images/man_woman.jpg")
+```
+]
+
+See also:
+[Word embeddings quantify 100 years of gender and ethnic stereotypes](https://www.pnas.org/content/115/16/E3635) (Garg et al, PNAS 2018)
+
+.floating-source[Source: [GloVe project](https://nlp.stanford.edu/projects/glove/)]
 
 ---
 
