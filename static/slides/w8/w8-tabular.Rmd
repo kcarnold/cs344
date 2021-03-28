@@ -15,6 +15,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
 source("../slides-common.R")
 slideSetup()
 ```
@@ -30,25 +31,31 @@ Think of a few experiences you've had with recommender systems.
 
 ---
 
-## Example: YouTube
+class: center
 
-*insert screenshot of paper; see MorningPaper*
-
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/yt-recsys-p1.png")
+```
 
 ---
 
 ## RecSys Data
 
-*data table*
+Draw an example of the *data table*(s) that YouTube might be using. (What are the columns?)
+
+--
+
+| timestamp | Viewer | Video | Watch time |
+|----|---|---|---|---|
+| 1616963421 | UC2nEn-yNA1BtdDNWziphPGA | WK_Nr4tUtl8 | 600 |
+| 1616963422 | UCYO_jab_esuFRV4b17AJtAw | aircAruvnKk | 1153 |
+| ...
+
 
 * Tabular
 * Categorical features with high *cardinality*
   * Lots of viewers!
   * Lots of videos!
-
-Models:
-
-*screenshot from YouTube paper*
 
 ---
 
@@ -58,6 +65,31 @@ Models:
 * ... interacting with items like the ones being considered
 
 So we need a way to measure *similarity* for both *users* and *items*
+
+---
+
+## Live Experimentation
+
+> During development, we make extensive use of offline metrics (precision, recall, ranking loss, etc.) to guide iterative improvements to our system. However for the final determination of the effectiveness of an algorithm or model, **we rely on A/B testing via live experiments**. In a live experiment, we can measure subtle changes in click-through rate, watch time, and many other metrics that measure user engagement. This is important because **live A/B results are not always correlated with offline experiments**.
+
+--
+
+* They don't use likes, surveys, etc., but rather **watches**.
+* Why? **Lots more data**! "allowing us to produce recommendations deep in the tail where explicit feedback is extremely sparse."
+
+???
+
+This is a very rich paper in terms of practical applications of machine learning in an organization.
+I'll just highlight a few things.
+
+---
+
+class: center
+
+```{r out.width="70%"}
+knitr::include_graphics("images/yt-candidate-generation-no-serving.png")
+```
+
 
 ---
 
@@ -79,3 +111,11 @@ Share your explanation with a partner.
 
 * Embeddings
 
+---
+
+## Further Reading
+
+* [Deep Neural Networks for YouTube Recommendations](https://research.google.com/pubs/pub45530.html), Covington et al, RecSys ’16.
+  * [Video of the presentation](https://www.youtube.com/watch?v=WK_Nr4tUtl8)
+  * [Morning Paper summary](https://blog.acolyer.org/2016/09/19/deep-neural-networks-for-youtube-recommendations/)
+* [Deep Learning Based Recommender System: A Survey and New Perspectives](https://doi.org/10.1145/3285029)
