@@ -20,6 +20,53 @@ source("../slides-common.R")
 slideSetup()
 ```
 
+## Logistics
+
+* Project update instead of Reflection 7?
+* Good Friday? Easter Monday?
+  * No homework this weekend (next reading by Wednesday 4/7)
+  * On Good Friday should we...
+    * current plan: lab (no turn in)
+    * alternatives: no class, or in-class lament around AI?
+* Next context activity: recommender systems!
+
+---
+
+## Q&A
+
+> Freeze and unfreeze??
+
+"Feature learning" / "representation learning".
+
+Lab 4 example:
+
+.pull-left[
+```{r}
+knitr::include_graphics("images/lab4-features.png")
+```
+]
+
+.pull-right[
+```{r}
+knitr::include_graphics("images/lab4-model.png")
+```
+]
+
+---
+
+## Q&A Continued
+
+> Can you use regression and classification in the same model?
+
+When ch6 fine-tuned a ResNet for regression, it basically *was*:
+
+* model initially trained on classification task (ImageNet)
+* fine-tuned on a regression task (head location)
+
+
+
+---
+
 ## Recommender Systems
 
 Think of a few experiences you've had with recommender systems.
@@ -36,14 +83,22 @@ class: center
 ```{r echo=FALSE, out.width="80%"}
 knitr::include_graphics("images/yt-recsys-p1.png")
 ```
-
+.floating-source[[Deep Neural Networks for YouTube Recommendations](https://research.google.com/pubs/pub45530.html)]
 ---
 
 ## RecSys Data
 
 Draw an example of the *data table*(s) that YouTube might be using. (What are the columns?)
 
---
+Columns:
+
+.can-edit[
+* Person
+]
+
+---
+
+## RecSys Data
 
 | timestamp | Viewer | Video | Watch time |
 |----|---|---|---|---|
@@ -90,6 +145,20 @@ class: center
 knitr::include_graphics("images/yt-candidate-generation-no-serving.png")
 ```
 
+---
+
+## Learn by Gradient Descent
+
+* Imagine you know the "genre" of each video.
+* Use data to determine which genres each user likes.
+
+--
+
+* But some videos lack genre information. So look at *which users liked them*
+
+--
+
+* Turns out we don't need *any* prior genre information; just initialize randomly.
 
 ---
 
