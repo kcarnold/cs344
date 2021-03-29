@@ -96,6 +96,7 @@ Make some deepfakes. Try to detect them.
 
 ...or play with and extend. See the master list above for more sources.
 
+* [Deep Image Prior](https://dmitryulyanov.github.io/deep_image_prior): doing cool stuff with images and deep neural nets, without even training them.
 * [Image Representations Learned With Unsupervised Pre-Training Contain Human-like Biases](https://arxiv.org/abs/2010.15052)
 * <https://towardsdatascience.com/how-to-build-a-controllable-writing-assistant-for-novel-authors-a9fa15b57c6a>
 * [Taming Transformers for High-Resolution Image Synthesis](https://compvis.github.io/taming-transformers/)
