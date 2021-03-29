@@ -27,6 +27,12 @@ weight: 30
 
 -   Review the end-of-chapter questions at [aiquizzes](https://aiquizzes.com/)
 
+-   Fast.ai community resources:
+
+    -   the [Fast.ai forums](forums.fast.ai/) and [Discord](https://discord.com/invite/xnpeRdg)
+
+    -   <https://walkwithfastai.com/>
+
 -   Connect with a broader AI community at <https://twimlai.com/community/>
 
 -   Helpful references
