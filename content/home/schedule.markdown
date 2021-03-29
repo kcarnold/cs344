@@ -246,11 +246,17 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "even"><div>4/1<br><span class = "html"></span><br><br></div></td>
 <td class = "even"><div>4/2<br><span class = "html"><p><strong>Topic</strong> Tabular Data Lab</p>
 </span><br><br></div></td>
+<!--  9 > 8 -->
+</tr><tr>
+<td class = "even"><div>4/5<br><span class = "html"><p><strong>Topic</strong> Language Processing 1</p>
+</span><br><br></div></td>
+<td class = "even"><div>4/6<br><span class = "html"></span><br><br></div></td>
+<td class = "even"><div>4/7<br><span class = "html"><p><strong>Discussion</strong> Recommender Systems</p>
+</span><br><br></div></td>
 </tr></tbody></table>
 
 Future topics (tentative):
 
-* Mon 4/5: Language Processing 1
 * Mon 4/12: NLP 2
 * Mon 4/19: Adversarial Learning
 * Wed 4/21: Human-AI Interaction (explainability, interpretability, etc.)

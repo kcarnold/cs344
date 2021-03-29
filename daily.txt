@@ -3,7 +3,7 @@ title: "CS 344: Artificial Intelligence"
 semester: "Spring 2021"
 time: "11:30am"
 start: "02/03/2021"
-end: "04/02/2021"
+end: "04/08/2021"
 past_week: 6
 days: "MWF"
 ---
@@ -338,6 +338,7 @@ Topic:: Tabular Data Lab
 Topic:: Language Processing 1
 
 ===
+Discussion:: Recommender Systems
 
 ===
 
