@@ -1,0 +1,38 @@
+---
+title: "Hymnary Projects"
+author: "K Arnold"
+date: "3/30/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Several people have expressed interest in music-oriented projects, and perhaps the recommender systems we discussed yesterday piqued your curiosity. I just talked with Professor Plantinga, who runs Hymnary.org, and we came up with three projects that I think would be both doable and interesting.
+
+1\. **Hymn recommendation and search result ranking**. If you search for Christmas, what songs should pop up? If you're a worship leader at a church that sings contemporary arrangements of hymns, what should show up when you start planning your Palm Sunday service?
+
+*Input*: user, query, time of year, other metadata
+
+  *Output*: a ranked list of search results
+
+  *Approach*: perhaps a recommender system much like we looked at yesterday in class (using fastai's collab_learner or similar)
+
+2\. **Identify phrase breaks in songs**. Hymnary's FlexPresenter can show music notation and lyrics synchronized with audio. But they've had to manually mark where good line/phrase breaks would be. You could do this automatically.
+
+  *Input*: song lyrics, potentially with corresponding music
+
+  *Output*: syllables marked with which might be good for splitting a line
+
+  *Approach*: perhaps a token classification system (see the [Huggingface examples](https://github.com/huggingface/transformers/tree/master/examples#the-big-table-of-tasks)).
+
+3\. **Generate guitar chords for songs**. Most songs in Hymnary have four-part or piano accompaniments; not all have guitar chords. And sometimes it's helpful to simplify the guitar chords.
+
+  *Input*: sheet music (in MusicXML or MIDI format); level of complexity desired
+
+  *Output*: guitar chords
+
+  *Approach*: perhaps a sequence-to-sequence "translation" model (see the Huggingface examples again).
+
+If you're interested in any of these projects, chat me!

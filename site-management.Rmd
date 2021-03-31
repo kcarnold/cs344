@@ -1,0 +1,20 @@
+---
+title: "Site Management"
+author: "K Arnold"
+date: "3/29/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(blogdown)
+```
+
+```{r}
+blogdown::new_post("Project Milestone 2", subdir = "activities")
+```
+
+```{r}
+blogdown::check_site()
+```
+
