@@ -340,6 +340,10 @@ Topic:: Language Processing 1
 ===
 Discussion:: Recommender Systems
 
+Read:: chapters 10 and 12
+
+Watch:: [Lesson 8](https://course.fast.ai/videos/?lesson=8)
+
 ===
 
 ===
