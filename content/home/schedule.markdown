@@ -242,8 +242,11 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span><br><br></div></td>
 <td class = "odd"><div>3/30<br><span class = "html"></span><br><br></div></td>
 <td class = "odd"><div>3/31<br><span class = "html"><p><strong>Topic</strong> Tabular data</p>
+
+<p><strong>Slides</strong> <a href="/slides/w8/w8d2-embeddings.html">Embeddings</a></p>
 </span><br><br></div></td>
-<td class = "even"><div>4/1<br><span class = "html"></span><br><br></div></td>
+<td class = "even"><div>4/1<br><span class = "html"><p><strong>Due</strong> <a href="/activities/project-milestone-2">Project Milestone 2</a></p>
+</span><br><br></div></td>
 <td class = "even"><div>4/2<br><span class = "html"><p><strong>Topic</strong> Tabular Data Lab</p>
 </span><br><br></div></td>
 <!--  9 > 8 -->
