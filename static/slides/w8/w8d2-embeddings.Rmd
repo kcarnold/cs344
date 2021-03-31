@@ -55,15 +55,7 @@ knitr::include_graphics("images/yt-candidate-generation-no-serving.png")
 
 ---
 
-## What are *embeddings*?
-
-* A *vector* for each *thing*
-* Typically *tens* or *hundreds* of numbers
-* Typically trained so that *similarity* is meaningful.
-
----
-
-## How do embeddings solve high cardinality?
+## Which movies are similar?
 
 Intuition: represent a *movie* by its *genre vector*.
 
@@ -108,13 +100,37 @@ print(with_rating_count[['title'] + column_names[6:]].iloc[:10].T.to_markdown())
 
 ---
 
-## How do embeddings solve high cardinality?
+## Genre vectors are *embeddings* (but not great ones)
 
-* Two movies are *similar* if their *genre vectors* are nearby.
+* A *vector* for each *thing*
+* Typically *tens* or *hundreds* of numbers
+* Typically *trained* so that *similarity* is meaningful.
+
+---
+
+## How do embeddings measure similarity?
+
+* Two movies are *similar* if their *genre vectors* are "nearby".
 * e.g., "Star Wars (A New Hope)" and "Return of the Jedi" share 5 genres with each other
 * ... 3 with "Independence Day"
 * ... and 0 with "Toy Story"
 
+
+Can you think of a math operation that would give us the number of genres in common?
+
+* Perhaps from *linear algebra*?
+
+--
+
+* Multiply pairs of numbers. (Each genre shared by two movies gets a 1; otherwise 0.) Then sum.
+
+--
+
+* aka, the **dot product**.
+
+--
+
+* sometimes *normalize by vector magnitude* (giving "cosine similarity")
 
 ---
 
@@ -133,15 +149,55 @@ print(with_rating_count[['title'] + column_names[6:]].iloc[:10].T.to_markdown())
 
 ---
 
+class: center, middle
+
+## How do embeddings solve high cardinality?
+
+--
+
+Work with tens of numbers instead of tens of thousands of movies.
+
+
+---
+
 ## Extension: Word Embeddings
 
-"The meaning of a word is its use in the language" - Wittgenstein
+Task: given a single word, predict the next word
 
-"You know a word by the company it keeps" - [John Firth](https://en.wikipedia.org/wiki/John_Rupert_Firth), 1950's linguist
+* "red lentil chili recipe"
+* "red lentil curry recipe"
+* "chickpea chili recipe"
+* "chickpea" \_\_\_
 
-```{r out.width="100%"}
-knitr::include_graphics("images/slp3-skipgram.png")
-```
+What will you predict? How?
+
+<br>
+
+--
+
+| word | lentil | chickpea | recipe | dish | red | yellow | chili | curry |
+|---|---|---|---|
+| is an ingredient | 1 | 1 | 0 | 0 | 0 | 0| 0 | 0 |
+| is a legume | 1 | 1 | 0 | 0 | 0 | 0| 0 | 0 |
+| is a color | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 |
+| is information  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| described by an ingredient | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 1 |
+
+
+---
+
+## Where do those embeddings come from?
+
+**Option A**: hire an army of linguists (and food experts etc.)
+
+--
+
+**Option B**: learn it from data.
+
+
+* "The meaning of a word is its use in the language" - Wittgenstein
+* "You know a word by the company it keeps" - [John Firth](https://en.wikipedia.org/wiki/John_Rupert_Firth), 1950's linguist
+
 
 
 ---
@@ -173,6 +229,16 @@ See also:
 
 ---
 
+## How does word2vec work?
+
+```{r out.width="100%"}
+knitr::include_graphics("images/slp3-skipgram.png")
+```
+
+
+
+---
+
 ## Further Reading
 
 * [Deep Neural Networks for YouTube Recommendations](https://research.google.com/pubs/pub45530.html), Covington et al, RecSys ’16.
@@ -201,4 +267,19 @@ Today:
 * Compare and contrast *item embeddings* (in recommender systems) and *word embeddings* (in language modeling).
 ]
 
-**Exercise**: Write down 3 key things you learned today.
+---
+
+## Wrap-up
+
+1. Write down 3 key things you learned today.
+
+2. What questions do you have about what we discussed today?
+
+Submit [this form](https://forms.office.com/r/KvJRKxfuVp).
+
+```{r echo=FALSE, out.width="25%", fig.align='center'}
+library(qrcode)
+qrcode::qrcode_gen('https://forms.office.com/r/KvJRKxfuVp')
+
+```
+
