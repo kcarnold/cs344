@@ -179,3 +179,26 @@ See also:
   * [Video of the presentation](https://www.youtube.com/watch?v=WK_Nr4tUtl8)
   * [Morning Paper summary](https://blog.acolyer.org/2016/09/19/deep-neural-networks-for-youtube-recommendations/)
 * [Deep Learning Based Recommender System: A Survey and New Perspectives](https://doi.org/10.1145/3285029)
+
+
+---
+
+## Objectives
+
+.pull-left[
+Review:
+
+* What data do recommender systems work with?
+* What outputs do recommender systems produce?
+* What are the core ideas behind the collaborative filtering approach to recommender systems?
+]
+
+.pull-right[
+Today:
+
+* Identify what *embeddings* are.
+* Describe how embeddings address the problem of *high cardinality*.
+* Compare and contrast *item embeddings* (in recommender systems) and *word embeddings* (in language modeling).
+]
+
+**Exercise**: Write down 3 key things you learned today.
