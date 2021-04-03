@@ -257,11 +257,15 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <p><strong>Read</strong> chapters 10 and 12 (skim the <code>xx</code> tokenization details; feel free to stop training early)</p>
 
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=8">Lesson 8</a></p>
+
+<p><strong>Notes</strong> <a href="https://jalammar.github.io/">Jay Alammar</a> (<a href="https://www.youtube.com/channel/UCmOwsoHty5PrmE-3QhUBfPQ">YouTube</a>) has made some nice visual explanations of language models.</p>
 </span><br><br></div></td>
 <td class = "even"><div>4/8<br><span class = "html"></span><br><br></div></td>
 <td class = "even"><div>4/9<br><span class = "html"><p><strong>Discussion</strong> Recommender Systems</p>
 
 <p><strong>Due</strong> <a href="/activities/discussion-recommender-systems">Discussion: Recommender Systems</a></p>
+
+<p><strong>Due</strong> <a href="/activities/reflection-8">Reflection 8</a></p>
 </span><br><br></div></td>
 </tr></tbody></table>
 
