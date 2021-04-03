@@ -3,7 +3,7 @@ title: "CS 344: Artificial Intelligence"
 semester: "Spring 2021"
 time: "11:30am"
 start: "02/03/2021"
-end: "04/08/2021"
+end: "04/09/2021"
 past_week: 7
 days: "MWF"
 ---

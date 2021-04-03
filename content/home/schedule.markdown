@@ -258,6 +258,11 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=8">Lesson 8</a></p>
 </span><br><br></div></td>
+<td class = "even"><div>4/8<br><span class = "html"></span><br><br></div></td>
+<td class = "even"><div>4/9<br><span class = "html"><p><strong>Discussion</strong> Recommender Systems</p>
+
+<p><strong>Due</strong> <a href="/activities/discussion-recommender-systems">Discussion: Recommender Systems</a></p>
+</span><br><br></div></td>
 </tr></tbody></table>
 
 Future topics (tentative):

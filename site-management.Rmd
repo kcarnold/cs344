@@ -10,8 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 library(blogdown)
 ```
 
-```{r}
-blogdown::new_post("Project Milestone 2", subdir = "activities")
+```{r eval=FALSE}
+blogdown::new_post("Discussion: Recommender Systems", subdir = "activities")
 ```
 
 ```{r}
