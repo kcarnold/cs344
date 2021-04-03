@@ -57,6 +57,8 @@ weight: 30
 
     -   [A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
 
+    -   <https://blog.floydhub.com/training-neural-nets-a-hackers-perspective/>
+
 ### Keeping up with AI
 
 #### Tech

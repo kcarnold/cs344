@@ -14,6 +14,8 @@ Last week we saw how *embeddings* are a super-useful tool for letting your AI re
 
 -   **Friday**: Discussion about recommender systems! Reflection 8 due. (We skipped Reflection 7.)
 
+For a lighter take on word embeddings and language modeling, try [this improv game](http://robotmindmeld.com/).
+
 TODO:
 
 *fundamentals notebook posted*
