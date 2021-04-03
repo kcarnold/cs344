@@ -11,7 +11,7 @@ library(blogdown)
 ```
 
 ```{r eval=FALSE}
-blogdown::new_post("Discussion: Recommender Systems", subdir = "activities")
+blogdown::new_post("Reflection 8", subdir = "activities")
 ```
 
 ```{r}
