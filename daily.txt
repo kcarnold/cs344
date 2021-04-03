@@ -329,10 +329,13 @@ Read:: Through chapter 9
 Watch:: [Lesson 7](https://course.fast.ai/videos/?lesson=7)
 
 ===
-Topic:: Tabular data
+Topic:: Embeddings
 
 ===
-Topic:: Tabular Data Lab
+Topic:: Collaborative Filtering and Embeddings in code
+
+===
+Topic:: Predictive Text
 
 ===
 Topic:: Language Processing 1

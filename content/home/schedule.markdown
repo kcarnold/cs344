@@ -241,35 +241,31 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <p><strong>Slides</strong> <a href="/slides/w8/w8-tabular.html">Tabular Data and Applications</a></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/30<br><span class = "html"></span><br><br></div></td>
-<td class = "odd"><div>3/31<br><span class = "html"><p><strong>Topic</strong> Tabular data</p>
+<td class = "odd"><div>3/31<br><span class = "html"><p><strong>Topic</strong> Embeddings</p>
 
 <p><strong>Slides</strong> <a href="/slides/w8/w8d2-embeddings.html">Embeddings</a></p>
 </span><br><br></div></td>
 <td class = "even"><div>4/1<br><span class = "html"><p><strong>Due</strong> <a href="/activities/project-milestone-2">Project Milestone 2</a></p>
 </span><br><br></div></td>
-<td class = "even"><div>4/2<br><span class = "html"><p><strong>Topic</strong> Tabular Data Lab</p>
+<td class = "even"><div>4/2<br><span class = "html"><p><strong>Topic</strong> Collaborative Filtering and Embeddings in code</p>
 </span><br><br></div></td>
 <!--  9 > 8 -->
 </tr><tr>
-<td class = "even"><div>4/5<br><span class = "html"><p><strong>Topic</strong> Language Processing 1</p>
+<td class = "even"><div>4/5<br><span class = "html"><p><strong>Topic</strong> Predictive Text</p>
 </span><br><br></div></td>
 <td class = "even"><div>4/6<br><span class = "html"></span><br><br></div></td>
-<td class = "even"><div>4/7<br><span class = "html"><p><strong>Discussion</strong> Recommender Systems</p>
-
-<p><strong>Read</strong> chapters 10 and 12</p>
-
-<p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=8">Lesson 8</a></p>
+<td class = "even"><div>4/7<br><span class = "html"><p><strong>Topic</strong> Language Processing 1</p>
 </span><br><br></div></td>
 </tr></tbody></table>
 
 Future topics (tentative):
 
-* Mon 4/12: NLP 2
-* Mon 4/19: Adversarial Learning
-* Wed 4/21: Human-AI Interaction (explainability, interpretability, etc.)
-* Fri 4/23: Fairness
-* Mon 4/26: Reinforcement Learning
-* Mon 5/3: Unsupervised and Self-Supervised Learning
+* Wed 4/14: NLP 2
+* Wed 4/21: Adversarial Learning
+* Fri 4/23: Human-AI Interaction (explainability, interpretability, etc.)
+* Mon 4/26: Fairness
+* Wed 4/28: Reinforcement Learning
+* Wed 5/5: Unsupervised and Self-Supervised Learning
 
 
 
