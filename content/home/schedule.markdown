@@ -254,7 +254,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "even"><div>4/6<br><span class = "html"></span><br><br></div></td>
 <td class = "even"><div>4/7<br><span class = "html"><p><strong>Topic</strong> Language Processing 1</p>
 
-<p><strong>Read</strong> chapters 10 and 12</p>
+<p><strong>Read</strong> chapters 10 and 12 (skim the <code>xx</code> tokenization details; feel free to stop training early)</p>
 
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=8">Lesson 8</a></p>
 </span><br><br></div></td>

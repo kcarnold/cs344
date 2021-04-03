@@ -337,7 +337,7 @@ Topic:: Predictive Text
 ===
 Topic:: Language Processing 1
 
-Read:: chapters 10 and 12
+Read:: chapters 10 and 12 (skim the `xx` tokenization details; feel free to stop training early)
 
 Watch:: [Lesson 8](https://course.fast.ai/videos/?lesson=8)
 
