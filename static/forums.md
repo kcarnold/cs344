@@ -2,6 +2,22 @@
 title: "Forum posts"
 ---
 
+## Week 9: NLP
+
+Last week we saw how *embeddings* are a super-useful tool for letting your AI refer to individual things in the real world, like people, movies, and words. This week we'll look more at words, especially focusing on how we can analyze and predict *sequences* of words. We'll focus mostly on *what* we're asking our models to do (predict the next word, classify a sequence); next week we'll look at *how* models do that (RNNs, LSTMs, and Transformers).
+
+-   **Reading**: By Wednesday, please have chapter 10 read in detail and chapter 12 skimmed. **Come to class with your questions about the reading**.
+
+-   **Monday**: Your prof's PhD research work was about predictive text and what it does to people. I'll give a slightly shorter version of my defense talk.
+
+-   **Wednesday**: Q&A about chapter 10.
+
+-   **Friday**: Discussion about recommender systems! Reflection 8 due. (We skipped Reflection 7.)
+
+TODO:
+
+*fundamentals notebook posted*
+
 ## Week 8: Collaborative Filtering
 
 Our first few weeks focused on data, then we spent a few weeks on how models work in general; now it's time for applications! We'll start with recommendation systems, which have had a big impact on many of our lives. Since that's a kind of tabular data, we'll also discuss some of the classic approaches to machine learning on tabular data (decision trees, random forests, and other methods). This is the "bread and butter" of how many organizations use machine learning.
