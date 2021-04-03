@@ -9,7 +9,7 @@ title: "Resources"
 weight: 30
 ---
 
-**To fix fastai on Google Colab**, add a cell with the following
+**To fix fastai on Google Colab**, add a cell with the following, then restart the runtime.
 
 `!pip install -U fastbook torchtext==0.8.1`
 
@@ -51,6 +51,12 @@ weight: 30
         -   Press Ctrl-Shift-P to open the Command Palette. Lots of useful stuff there; try the "scratch code cell".
         -   Click the down arrow next to the RAM/Disk meter in the toolbar (where it used to say "Connect") and select "show executed code history"
 
+-   Training Tips
+
+    -   <http://josh-tobin.com/assets/pdf/troubleshooting-deep-neural-networks-01-19.pdf>
+
+    -   [A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
+
 ### Keeping up with AI
 
 #### Tech
@@ -76,8 +82,8 @@ weight: 30
 
 ### Videos / Podcasts / ... that others have liked
 
+-   [3Blue1Brown Neural Network Videos](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 -   "Advice on getting started in deep learning" by Andrew Ng
--   3Blue1Brown Neural Network Videos
 
 ### Our General Reflection Questions
 
