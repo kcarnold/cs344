@@ -4,7 +4,7 @@ semester: "Spring 2021"
 time: "11:30am"
 start: "02/03/2021"
 end: "04/08/2021"
-past_week: 6
+past_week: 7
 days: "MWF"
 ---
 
@@ -315,9 +315,6 @@ Spotlight:: [PapersWithCode Newsletter](https://paperswithcode.com/newsletter/)
 
 Due:: Project Proposal Drafts
 
-===3/25/2021
-Quiz:: quiz (tentative)
-
 ===
 Topic:: Nonlinear Regression
 
@@ -340,21 +337,18 @@ Topic:: Predictive Text
 ===
 Topic:: Language Processing 1
 
-===
-Discussion:: Recommender Systems
-
 Read:: chapters 10 and 12
 
 Watch:: [Lesson 8](https://course.fast.ai/videos/?lesson=8)
 
 ===
+Discussion:: Recommender Systems
 
 ===
-Topic:: NLP 2
+Lab:: NLP
 
 ===
-
-===
+Topic:: Modern language models
 
 ===
 Topic:: Adversarial Learning

@@ -179,7 +179,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <p><strong>Start</strong> <a href="/activities/lab-3-learning-proportions">Lab 3: Learning Proportions</a></p>
 </span><br><br></div></td>
 <!--  6 > 5 -->
-</tr><tr>
+</tr><tr class="past">
 <td class = "odd"><div>3/15<br><span class = "html"><p><strong>Topic</strong> Lab</p>
 
 <p><strong>Read</strong> Rest of chapter 5, chapter 6</p>
@@ -222,9 +222,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Post</strong> <a href="/activities/discussion-2-facial-recognition">Facial Recognition (Structured Discussion 2)</a></p>
 </span><br><br></div></td>
-<td class = "odd"><div>3/25<br><span class = "html"><p><strong>Quiz</strong> quiz (tentative)</p>
-
-<p><strong>Due</strong> <a href="/activities/reflection-6">Reflection 6</a></p>
+<td class = "odd"><div>3/25<br><span class = "html"><p><strong>Due</strong> <a href="/activities/reflection-6">Reflection 6</a></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/26<br><span class = "html"><p><strong>Topic</strong> Nonlinear Regression</p>
 
@@ -238,7 +236,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=7">Lesson 7</a></p>
 
-<p><strong>Slides</strong> <a href="/slides/w8/w8-tabular.html">Tabular Data and Applications</a></p>
+<p><strong>Slides</strong> <a href="/slides/w8/w8-tabular.html">Recommender Systems and Collaborative Filtering</a></p>
 </span><br><br></div></td>
 <td class = "odd"><div>3/30<br><span class = "html"></span><br><br></div></td>
 <td class = "odd"><div>3/31<br><span class = "html"><p><strong>Topic</strong> Embeddings</p>
@@ -255,17 +253,21 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span><br><br></div></td>
 <td class = "even"><div>4/6<br><span class = "html"></span><br><br></div></td>
 <td class = "even"><div>4/7<br><span class = "html"><p><strong>Topic</strong> Language Processing 1</p>
+
+<p><strong>Read</strong> chapters 10 and 12</p>
+
+<p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=8">Lesson 8</a></p>
 </span><br><br></div></td>
 </tr></tbody></table>
 
 Future topics (tentative):
 
-* Wed 4/14: NLP 2
-* Wed 4/21: Adversarial Learning
-* Fri 4/23: Human-AI Interaction (explainability, interpretability, etc.)
-* Mon 4/26: Fairness
-* Wed 4/28: Reinforcement Learning
-* Wed 5/5: Unsupervised and Self-Supervised Learning
+* Wed 4/14: Modern language models
+* Fri 4/16: Adversarial Learning
+* Mon 4/19: Human-AI Interaction (explainability, interpretability, etc.)
+* Wed 4/21: Fairness
+* Fri 4/23: Reinforcement Learning
+* Fri 4/30: Unsupervised and Self-Supervised Learning
 
 
 
