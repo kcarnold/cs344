@@ -1,5 +1,5 @@
 ---
-title: "Tabular Data and Applications"
+title: "Recommender Systems and Collaborative Filtering"
 author: 
   - "Ken Arnold"
 date: '2021-03-29'
@@ -169,52 +169,3 @@ On paper (or electronically), briefly explain collaborative filtering.
 --
 
 Share your explanation with a partner.
-
----
-
-## Extension: Word Embeddings
-
-"The meaning of a word is its use in the language" - Wittgenstein
-
-"You know a word by the company it keeps"
-
-```{r out.width="100%"}
-knitr::include_graphics("images/slp3-skipgram.png")
-```
-
-
----
-
-```{r}
-knitr::include_graphics("images/slp3-parallelogram.png")
-```
-
-.floating-source[Source: Jurafsky and Martin. [Speech and Language Processing 3rd ed](https://web.stanford.edu/~jurafsky/slp3/)]
-
----
-
-.pull-left[
-```{r out.width="100%"}
-knitr::include_graphics("images/comparative_superlative.jpg")
-```
-]
-
-.pull-right[
-```{r out.width="100%"}
-knitr::include_graphics("images/man_woman.jpg")
-```
-]
-
-See also:
-[Word embeddings quantify 100 years of gender and ethnic stereotypes](https://www.pnas.org/content/115/16/E3635) (Garg et al, PNAS 2018)
-
-.floating-source[Source: [GloVe project](https://nlp.stanford.edu/projects/glove/)]
-
----
-
-## Further Reading
-
-* [Deep Neural Networks for YouTube Recommendations](https://research.google.com/pubs/pub45530.html), Covington et al, RecSys ’16.
-  * [Video of the presentation](https://www.youtube.com/watch?v=WK_Nr4tUtl8)
-  * [Morning Paper summary](https://blog.acolyer.org/2016/09/19/deep-neural-networks-for-youtube-recommendations/)
-* [Deep Learning Based Recommender System: A Survey and New Perspectives](https://doi.org/10.1145/3285029)
