@@ -18,8 +18,6 @@ knitr::opts_chunk$set(echo = FALSE)
 library(daily)
 ```
 
-Note that earlier weeks are collapsed for space reasons but each day will scroll.
-
 ```{r echo=FALSE}
 activity_dates <- Sys.glob(here::here('content/activities/*/*.markdown')) %>% 
   tibble(path = .) %>% 
@@ -191,7 +189,7 @@ summarize_week("2021-03-29") %>% clipr::write_clip()
   padding-left: 1rem;
 }
 
-.daily-calendar .past td > div {
+.daily-calendar .past-DISABLED td > div {
   overflow: auto;
   max-height: 75px;
 }
