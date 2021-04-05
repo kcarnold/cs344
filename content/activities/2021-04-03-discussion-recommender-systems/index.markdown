@@ -19,15 +19,25 @@ image:
 projects: []
 ---
 
-We will discuss the effects of recommender systems. As usual, you should post on Moodle and be prepared to raise aspects of your own or others' posts during our in-class discussion.
+We will discuss the effects of algorithmic recommendation systems on people. As usual, you should post on Moodle and be prepared to raise aspects of your own or others' posts during our in-class discussion.
 
-Readings to be announced.
+### Discussion Post
 
-Core readings:
+You may choose to respond to one of our general discussion questions (see Resources on the website). You may also simply share any *thoughts*, *questions*, or *realizations* from your reading.
 
--   Guillaume Chaslot, [How Algorithms Can Learn to Discredit the Media](https://medium.com/@guillaumechaslot/how-algorithms-can-learn-to-discredit-the-media-d1360157c4fa)
+### Readings
 
-Optional readings:
+Pick one of these articles (or find a different one) to consider the effect of recommender systems on...
+
+-   **job ad discrimination**: AlgorithmWatch, [Automated discrimination: Facebook uses gross stereotypes to optimize ad delivery](https://algorithmwatch.org/en/automated-discrimination-facebook-google/)
+
+-   AlgorithmWatch, [Undress or fail: Instagram's algorithm strong-arms users into showing skin](https://algorithmwatch.org/en/instagram-algorithm-nudity/)
+
+-   **radicalization**: this is a contested area, but: [Auditing radicalization pathways on YouTube](https://dl.acm.org/doi/10.1145/3351095.3372879) ([open access](https://arxiv.org/abs/1908.08313))
+
+-   **conspiracy theories** Guillaume Chaslot, [How Algorithms Can Learn to Discredit the Media](https://medium.com/@guillaumechaslot/how-algorithms-can-learn-to-discredit-the-media-d1360157c4fa) (note that this hasn't been empirically tested)
+
+**Optional readings**:
 
 -   Anything else from [fast.ai Data Ethics Lesson 1](https://ethics.fast.ai/syllabus/#lesson-1-disinformation) (including the [video](http://ethics.fast.ai/videos/?lesson=1))
 
