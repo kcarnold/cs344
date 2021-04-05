@@ -38,6 +38,9 @@ We also strive for the sequence to make sense, but make no promises.
 * `007-softmax`: Practice using the `softmax` function.
 * `008-softmax-2`: More practice using the `softmax` function, and connect it with the `sigmoid` function.
 * `009-linreg-learner`: Fit a linear regression by gradient descent.
+* `010-sklearn-regression`: Fit various regression models using sklearn.
+* `011-sklearn-classification`: Fit various classification models using sklearn; compare and contrast regression with classification
+
 
 Notebooks will be added throughout the semester.
 
