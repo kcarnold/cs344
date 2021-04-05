@@ -284,6 +284,10 @@ Future topics (tentative):
   padding-left: 1rem;
 }
 
+.daily-calendar details {
+  margin-bottom: 0; // override a wowchemy style
+}
+
 .daily-calendar .past-DISABLED td > div {
   overflow: auto;
   max-height: 75px;
