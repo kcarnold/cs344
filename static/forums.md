@@ -6,19 +6,31 @@ title: "Forum posts"
 
 Last week we saw how *embeddings* are a super-useful tool for letting your AI refer to individual things in the real world, like people, movies, and words. This week we'll look more at words, especially focusing on how we can analyze and predict *sequences* of words. We'll focus mostly on *what* we're asking our models to do (predict the next word, classify a sequence); next week we'll look at *how* models do that (RNNs, LSTMs, and Transformers).
 
--   **Reading**: By Wednesday, please have chapter 10 read in detail and chapter 12 skimmed. **Come to class with your questions about the reading**.
+-   **Tech Reading**: By Wednesday, please have chapter 10 read in detail and chapter 12 skimmed.
 
--   **Monday**: Your prof's PhD research work was about predictive text and what it does to people. I'll give a slightly shorter version of my defense talk.
+    -   **Come to class with your questions about the reading**.
+
+    -   skim the `xx` tokenization details; feel free to stop training early when doing active reading
+
+    -   [Jay Alammar](https://jalammar.github.io/) ([YouTube](https://www.youtube.com/channel/UCmOwsoHty5PrmE-3QhUBfPQ)) has made some nice visual explanations of language models.
+
+-   We're going to have a **discussion on recommendation systems**! See [instructions](https://cs.calvin.edu/courses/cs/344/ka37/activities/discussion-recommender-systems/) for some suggested readings.
+
+-   **Fundamentals**: I (finally) posted two more on regression and classification. They cover some of the most useful things to remember about the tabular modeling that you saw in Chapter 9, unhitched from fastai so you can use them anywhere.
+
+Here's what's up on the schedule.
+
+-   **Monday**: I gave an abbreviated version of the presentation I gave when I defended my PhD research dissertation, about predictive text and what it does to people.
 
 -   **Wednesday**: Q&A about chapter 10.
 
--   **Friday**: Discussion about recommender systems! Reflection 8 due. (We skipped Reflection 7.)
+-   **Friday**: Discussion about recommender systems. [Reflection 8](https://cs.calvin.edu/courses/cs/344/ka37/activities/reflection-8/) due. (We skipped Reflection 7.)
+
+-   **Monday**: NLP Lab
+
+Please continue to work on projects; I'm working on getting feedback on proposals.
 
 For a lighter take on word embeddings and language modeling, try [this improv game](http://robotmindmeld.com/).
-
-TODO:
-
-*fundamentals notebook posted*
 
 ## Week 8: Collaborative Filtering
 
