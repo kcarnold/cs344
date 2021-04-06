@@ -205,14 +205,14 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <p><strong>Finish</strong> <a href="/activities/lab-3-learning-proportions">Lab 3: Learning Proportions</a></p>
 </span><br></details></div></td>
 <!--  7 > 6 -->
-</tr><tr>
-<td class = "odd"><div><details open><summary>3/22</summary><br><span class = "html"><p><strong>Lab</strong> Logistic Regression</p>
+</tr><tr class="past">
+<td class = "odd"><div><details><summary>3/22</summary><br><span class = "html"><p><strong>Lab</strong> Logistic Regression</p>
 
 <p><strong>Read</strong> Chapter 7 (active reading optional); Chapter 8; cumulative reading quiz</p>
 </span><br></details></div></td>
-<td class = "odd"><div><details open><summary>3/23</summary><br><span class = "html"><p><strong>Note</strong> Advising Day</p>
+<td class = "odd"><div><details><summary>3/23</summary><br><span class = "html"><p><strong>Note</strong> Advising Day</p>
 </span><br></details></div></td>
-<td class = "odd"><div><details open><summary>3/24</summary><br><span class = "html"><p><strong>Topic</strong> Discussion on Facial Recognition Data</p>
+<td class = "odd"><div><details><summary>3/24</summary><br><span class = "html"><p><strong>Topic</strong> Discussion on Facial Recognition Data</p>
 
 <p><strong>Spotlight</strong> <a href="https://paperswithcode.com/newsletter/">PapersWithCode Newsletter</a></p>
 
@@ -220,9 +220,9 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Post</strong> <a href="/activities/discussion-2-facial-recognition">Facial Recognition (Structured Discussion 2)</a></p>
 </span><br></details></div></td>
-<td class = "odd"><div><details open><summary>3/25</summary><br><span class = "html"><p><strong>Due</strong> <a href="/activities/reflection-6">Reflection 6</a></p>
+<td class = "odd"><div><details><summary>3/25</summary><br><span class = "html"><p><strong>Due</strong> <a href="/activities/reflection-6">Reflection 6</a></p>
 </span><br></details></div></td>
-<td class = "odd"><div><details open><summary>3/26</summary><br><span class = "html"><p><strong>Topic</strong> Nonlinear Regression</p>
+<td class = "odd"><div><details><summary>3/26</summary><br><span class = "html"><p><strong>Topic</strong> Nonlinear Regression</p>
 
 <p><strong>Start</strong> <a href="/activities/lab-4-nonlinear-regression">Lab 4: Nonlinear Regression</a></p>
 </span><br></details></div></td>
@@ -265,16 +265,26 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Due</strong> <a href="/activities/reflection-8">Reflection 8</a></p>
 </span><br></details></div></td>
+<!--  10 > 9 -->
+</tr><tr>
+<td class = "even"><div><details open><summary>4/12</summary><br><span class = "html"><p><strong>Lab</strong> NLP</p>
+</span><br></details></div></td>
+<td class = "even"><div><details open><summary>4/13</summary><br><span class = "html"><p><strong>Opportunity</strong> <a href="https://iui.acm.org/2021/hcai_tutorial.html">Human-Centered AI: Reliable, Safe and Trustworthy</a> (tutorial at Intelligent User Interfaces conferences)</p>
+</span><br></details></div></td>
+<td class = "even"><div><details open><summary>4/14</summary><br><span class = "html"><p><strong>Note</strong> Advising Day</p>
+</span><br></details></div></td>
+<td class = "even"><div><details open><summary>4/15</summary><br><span class = "html"></span><br></details></div></td>
+<td class = "even"><div><details open><summary>4/16</summary><br><span class = "html"><p><strong>Topic</strong> Modern language models</p>
+</span><br></details></div></td>
 </tr></tbody></table>
 
 Future topics (tentative):
 
-* Wed 4/14: Modern language models
-* Fri 4/16: Adversarial Learning
-* Mon 4/19: Human-AI Interaction (explainability, interpretability, etc.)
-* Wed 4/21: Fairness
-* Fri 4/23: Reinforcement Learning
-* Fri 4/30: Unsupervised and Self-Supervised Learning
+* Mon 4/19: Adversarial Learning
+* Wed 4/21: Human-AI Interaction (explainability, interpretability, etc.)
+* Fri 4/23: Fairness
+* Mon 4/26: Reinforcement Learning
+* Mon 5/3: Unsupervised and Self-Supervised Learning
 
 
 
@@ -286,11 +296,6 @@ Future topics (tentative):
 
 .daily-calendar details {
   margin-bottom: 0; // override a wowchemy style
-}
-
-.daily-calendar .past-DISABLED td > div {
-  overflow: auto;
-  max-height: 75px;
 }
 
 .daily-calendar td {

@@ -3,8 +3,8 @@ title: "CS 344: Artificial Intelligence"
 semester: "Spring 2021"
 time: "11:30am"
 start: "02/03/2021"
-end: "04/09/2021"
-past_week: 7
+end: "04/16/2021"
+past_week: 8
 days: "MWF"
 ---
 
@@ -348,6 +348,13 @@ Discussion:: Recommender Systems
 
 ===
 Lab:: NLP
+
+===04/13/2021
+Opportunity:: [Human-Centered AI: Reliable, Safe and Trustworthy](https://iui.acm.org/2021/hcai_tutorial.html) (tutorial at Intelligent User Interfaces conferences)
+
+===
+
+advising day
 
 ===
 Topic:: Modern language models
