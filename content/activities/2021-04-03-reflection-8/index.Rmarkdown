@@ -21,3 +21,8 @@ projects: []
 
 Your updates can now include your progress on your project.
 
+TODO this should include:
+
+* Fundamentals 9 and 10
+* reading on NLP
+* Recsys discussion

@@ -23,7 +23,7 @@ We will discuss the effects of algorithmic recommendation systems on people. As 
 
 ### Discussion Post
 
-You may choose to respond to one of our general discussion questions (see Resources on the website). You may also simply share any *thoughts*, *questions*, or *realizations* from your reading.
+You may choose to respond to one of our general discussion questions (see Resources on the website). You may also simply share a one-sentence summary of the article for your future self, and any *thoughts*, *questions*, or *realizations* from your reading.
 
 ### Readings
 
