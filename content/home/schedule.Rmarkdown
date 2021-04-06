@@ -193,11 +193,6 @@ summarize_week("2021-03-29") %>% clipr::write_clip()
   margin-bottom: 0; // override a wowchemy style
 }
 
-.daily-calendar .past-DISABLED td > div {
-  overflow: auto;
-  max-height: 75px;
-}
-
 .daily-calendar td {
     padding: 0;
 }
