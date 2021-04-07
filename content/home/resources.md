@@ -13,6 +13,8 @@ weight: 30
 
 `!pip install -U fastbook torchtext==0.8.1`
 
+-   [MIT 6.S191 Introduction to Deep Learning](http://introtodeeplearning.com/)
+
 -   Videos
 
     -   Fundamentals 009 (Linear Regression with `Learner`) [walkthrough](https://www.youtube.com/playlist?list=PLYvyo-La3zBOvTxiOhy4y6l65TxcUtCuS)
@@ -74,7 +76,7 @@ weight: 30
 #### Ethics / Society
 
 -   Fast.AI [Data Ethics course](https://ethics.fast.ai/)
--   Montreal AI
+-   [Montreal AI](https://montrealethics.ai/introduction-to-ethical-ai-principles/)
 -   AI Now Institute
 -   Data and Society
 -   [The Oxford Handbook of Ethics of AI](https://global.oup.com/academic/product/the-oxford-handbook-of-ethics-of-ai-9780190067397?cc=ca&lang=en&#)
