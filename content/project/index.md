@@ -65,9 +65,9 @@ AI models of (programming) code have improved markedly in recent years (see, e.g
 
 Some code and pre-trained models you might play with:
 
-* Facebook's [TransCoder](https://github.com/facebookresearch/TransCoder)
-* Microsoft's [CodeXGLUE](https://github.com/microsoft/CodeXGLUE)
-* the [PLBART code](https://github.com/wasiahmad/PLBART)
+-   Facebook's [TransCoder](https://github.com/facebookresearch/TransCoder)
+-   Microsoft's [CodeXGLUE](https://github.com/microsoft/CodeXGLUE)
+-   the [PLBART code](https://github.com/wasiahmad/PLBART)
 
 ### Form-to-Text
 
@@ -100,28 +100,32 @@ Make some deepfakes. Try to detect them.
 
 ### Miscellaneous ideas
 
-* Language
-  * sequence-to-sequence-to-sequence (the latent code is a sequence). Ask me for details.
-* Audio
-  * Given a sound corrupted by a random EQ curve or other processing step, predict the parameters for that processing step. *This kind of task is called [self supervised learning](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html).* See Microsoft's [HEXA](https://www.microsoft.com/en-us/research/blog/hexa-self-supervised-pretraining-with-hard-examples-improves-visual-representations/).
-* General
-  * Dynamic range compression on gradient updates by changing sensitivity based on the current and recent values. Perhaps as simple as computing the weight as a nonlinear function of the stored value and perhaps a running average.
+-   Language
 
+    -   sequence-to-sequence-to-sequence (the latent code is a sequence). Ask me for details.
+
+-   Audio
+
+    -   Given a sound corrupted by a random EQ curve or other processing step, predict the parameters for that processing step. *This kind of task is called [self supervised learning](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html).* See Microsoft's [HEXA](https://www.microsoft.com/en-us/research/blog/hexa-self-supervised-pretraining-with-hard-examples-improves-visual-representations/).
+
+-   General
+
+    -   Dynamic range compression on gradient updates by changing sensitivity based on the current and recent values. Perhaps as simple as computing the weight as a nonlinear function of the stored value and perhaps a running average.
 
 ## Some potential papers to replicate
 
 ...or play with and extend. See the master list above for more sources.
 
-* [Deep Image Prior](https://dmitryulyanov.github.io/deep_image_prior): doing cool stuff with images and deep neural nets, without even training them.
-* [Image Representations Learned With Unsupervised Pre-Training Contain Human-like Biases](https://arxiv.org/abs/2010.15052)
-* <https://towardsdatascience.com/how-to-build-a-controllable-writing-assistant-for-novel-authors-a9fa15b57c6a>
-* [Taming Transformers for High-Resolution Image Synthesis](https://compvis.github.io/taming-transformers/)
-* [Prefix Tuning](https://arxiv.org/pdf/2101.00190.pdf)
-* [Concept Bottleneck Models](https://arxiv.org/abs/2007.04612)
-* [GradInit](https://paperswithcode.com/paper/gradinit-learning-to-initialize-neural) (try this on some simple models)
+-   [Deep Image Prior](https://dmitryulyanov.github.io/deep_image_prior): doing cool stuff with images and deep neural nets, without even training them.
+-   [Image Representations Learned With Unsupervised Pre-Training Contain Human-like Biases](https://arxiv.org/abs/2010.15052)
+-   <https://towardsdatascience.com/how-to-build-a-controllable-writing-assistant-for-novel-authors-a9fa15b57c6a>
+-   [Taming Transformers for High-Resolution Image Synthesis](https://compvis.github.io/taming-transformers/)
+-   [Prefix Tuning](https://arxiv.org/pdf/2101.00190.pdf)
+-   [Concept Bottleneck Models](https://arxiv.org/abs/2007.04612)
+-   [GradInit](https://paperswithcode.com/paper/gradinit-learning-to-initialize-neural) (try this on some simple models)
 
 ## Other example projects
 
 See the [share-your-projects thread](https://forums.fast.ai/t/share-your-v2-projects-here/65757) on the fast.ai forum.
 
-* [Video background blurring](https://deeplearning.berlin/fastai/privacy/getting%20started/2021/02/09/Background-Blur-Part-1.html)
+-   [Video background blurring](https://deeplearning.berlin/fastai/privacy/getting%20started/2021/02/09/Background-Blur-Part-1.html)
