@@ -247,7 +247,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span></details></div></td>
 <!--  9 > 8 -->
 </tr><tr>
-<td class = "even"><div><details open><summary>4/5</summary><span class = "html"><p><strong>Topic</strong> Predictive Text</p>
+<td class = "even"><div><details open><summary>4/5</summary><span class = "html"><p><strong>Topic</strong> Predictive Text (<a href="https://cs.calvin.edu/courses/cs/344/ka37/slides/2021-04-05%20Predictive%20Text%20Biases%20Writers.pdf">slides</a>)</p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/6</summary><span class = "html"></span></details></div></td>
 <td class = "even"><div><details open><summary>4/7</summary><span class = "html"><p><strong>Topic</strong> Language Processing 1</p>
@@ -268,19 +268,23 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <!--  10 > 9 -->
 </tr><tr>
 <td class = "even"><div><details open><summary>4/12</summary><span class = "html"><p><strong>Lab</strong> NLP</p>
+
+<p><strong>Watch</strong> Lecture 2 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/13</summary><span class = "html"><p><strong>Opportunity</strong> <a href="https://iui.acm.org/2021/hcai_tutorial.html">Human-Centered AI: Reliable, Safe and Trustworthy</a> (tutorial at Intelligent User Interfaces conferences)</p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/14</summary><span class = "html"><p><strong>Note</strong> Advising Day</p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/15</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/16</summary><span class = "html"><p><strong>Topic</strong> Modern language models</p>
+<td class = "even"><div><details open><summary>4/16</summary><span class = "html"><p><strong>Topic</strong> Generating images (e.g., GANs)</p>
+
+<p><strong>Watch</strong> Lecture 4 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
 </span></details></div></td>
 </tr></tbody></table>
 
 Future topics (tentative):
 
-* Mon 4/19: Adversarial Learning
+* Mon 4/19: Modern language models
 * Wed 4/21: Human-AI Interaction (explainability, interpretability, etc.)
 * Fri 4/23: Fairness
 * Mon 4/26: Reinforcement Learning
