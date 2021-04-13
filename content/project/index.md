@@ -34,7 +34,7 @@ Many different projects are possible. When you make your project proposal, try t
 
 -   Anything else that's fun and/or impactful---and challenges you to bring your best.
 
-### Some Project Types and Expectations
+### Tips by Project Type
 
 #### Classification
 
