@@ -346,10 +346,14 @@ Notes:: [Jay Alammar](https://jalammar.github.io/) ([YouTube](https://www.youtub
 ===
 Discussion:: Recommender Systems
 
+Maybe today do the lab on embedding similarity? We have both movie similarity and word similarity.
+
 ===
 Lab:: NLP
 
 Watch:: Lecture 2 of [MIT 6.S191](http://introtodeeplearning.com/)
+
+Try:: some [HuggingFace Transformers](https://huggingface.co/transformers/) notebooks, specifically: [overall functionality](https://colab.research.google.com/github/huggingface/transformers/blob/master/notebooks/03-pipelines.ipynb) and [text generation](https://colab.research.google.com/github/huggingface/blog/blob/master/notebooks/02_how_to_generate.ipynb)
 
 ===04/13/2021
 Opportunity:: [Human-Centered AI: Reliable, Safe and Trustworthy](https://iui.acm.org/2021/hcai_tutorial.html) (tutorial at Intelligent User Interfaces conferences)
@@ -363,6 +367,12 @@ Topic:: Generating images (e.g., GANs)
 
 Watch:: Lecture 4 of [MIT 6.S191](http://introtodeeplearning.com/)
 
+Try:: [GANLab](https://poloclub.github.io/ganlab/)
+
+go through some of this? https://towardsdatascience.com/this-will-change-the-way-you-look-at-gans-9992af250454
+but with a simpler density, like a Gaussian
+
+https://github.com/ConorLazarou/medium/blob/master/12019/visualizing_gan_spiral/main.py
 
 ===
 Topic:: Modern language models
@@ -375,6 +385,10 @@ Topic:: Human-AI Interaction (explainability, interpretability, etc.)
 Topic:: Fairness
 
 https://cacm.acm.org/magazines/2021/4/251365-the-impossibility-of-fairness/fulltext
+
+https://arxiv.org/abs/2011.07586
+
+
 
 ===
 Topic:: Reinforcement Learning

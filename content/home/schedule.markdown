@@ -270,6 +270,8 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "even"><div><details open><summary>4/12</summary><span class = "html"><p><strong>Lab</strong> NLP</p>
 
 <p><strong>Watch</strong> Lecture 2 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
+
+<p><strong>Try</strong> some <a href="https://huggingface.co/transformers/">HuggingFace Transformers</a> notebooks, specifically: <a href="https://colab.research.google.com/github/huggingface/transformers/blob/master/notebooks/03-pipelines.ipynb">overall functionality</a> and <a href="https://colab.research.google.com/github/huggingface/blog/blob/master/notebooks/02_how_to_generate.ipynb">text generation</a></p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/13</summary><span class = "html"><p><strong>Opportunity</strong> <a href="https://iui.acm.org/2021/hcai_tutorial.html">Human-Centered AI: Reliable, Safe and Trustworthy</a> (tutorial at Intelligent User Interfaces conferences)</p>
 </span></details></div></td>
@@ -279,6 +281,8 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "even"><div><details open><summary>4/16</summary><span class = "html"><p><strong>Topic</strong> Generating images (e.g., GANs)</p>
 
 <p><strong>Watch</strong> Lecture 4 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
+
+<p><strong>Try</strong> <a href="https://poloclub.github.io/ganlab/">GANLab</a></p>
 </span></details></div></td>
 </tr></tbody></table>
 
