@@ -2,6 +2,24 @@
 title: "Forum posts"
 ---
 
+## Week 9 mid-week
+
+A few updates:
+
+-   Reflection 8 is finally fully online (Moodle and website), sorry about that! If you need more time because of that, let me know.
+
+-   I forgot to announce an exciting opportunity next Tuesday: a livestreamed tutorial on [Human-Centered AI](https://iui.acm.org/2021/hcai_tutorial.html) by one of the leaders in the field of human-computer interaction. I'm sad I'm not able to make it; can anyone attend some part of it and share some highlights with the rest of us?
+
+-   The fast.ai materials on NLP are too low-level, so we're going to switch sources. This will be mainly relevant for Monday, but you can get a head start now.
+
+    -   For *conceptual* coverage, **watch Lecture 2** (or just read the slides) from the [MIT Intro to Deep Learning course](http://introtodeeplearning.com/). I recommend also skimming Lecture 1 since it might be a helpful review.
+
+    -   For *code*, we'll use [HuggingFace Transformers](https://huggingface.co/transformers/). Have a look at [this notebook](https://colab.research.google.com/github/huggingface/transformers/blob/master/notebooks/03-pipelines.ipynb) to see what's possible overall, and [this notebook](https://colab.research.google.com/github/huggingface/blog/blob/master/notebooks/02_how_to_generate.ipynb) on text generation relevant to what we discussed today.
+
+-   Several groups are interested in doing GANs, so we'll talk about that some next week. I haven't decided whether to do in Monday or Friday (Wed is advising day). But you can go ahead and **watch Lecture 4** on the MIT course.
+
+Did anyone try Robot Mind Meld?
+
 ## Week 9: NLP
 
 Last week we saw how *embeddings* are a super-useful tool for letting your AI refer to individual things in the real world, like people, movies, and words. This week we'll look more at words, especially focusing on how we can analyze and predict *sequences* of words. We'll focus mostly on *what* we're asking our models to do (predict the next word, classify a sequence); next week we'll look at *how* models do that (RNNs, LSTMs, and Transformers).
