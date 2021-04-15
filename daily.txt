@@ -3,8 +3,8 @@ title: "CS 344: Artificial Intelligence"
 semester: "Spring 2021"
 time: "11:30am"
 start: "02/03/2021"
-end: "04/16/2021"
-past_week: 8
+end: "05/15/2021"
+past_week: 9
 days: "MWF"
 ---
 
@@ -365,7 +365,7 @@ advising day
 ===
 Topic:: Generating images (e.g., GANs)
 
-Watch:: Lecture 4 of [MIT 6.S191](http://introtodeeplearning.com/)
+Watch:: Lecture 4 of [MIT 6.S191](http://introtodeeplearning.com/) (and skim Lecture 3)
 
 Try:: [GANLab](https://poloclub.github.io/ganlab/)
 
@@ -373,6 +373,12 @@ go through some of this? https://towardsdatascience.com/this-will-change-the-way
 but with a simpler density, like a Gaussian
 
 https://github.com/ConorLazarou/medium/blob/master/12019/visualizing_gan_spiral/main.py
+
+How can generative models be controlled?
+- LMs: prefix, source/encoder
+- GANs: noise vector
+- VAEs: latent space
+-- meaningful / disentangled directions in latent space
 
 ===
 Topic:: Modern language models
@@ -405,5 +411,8 @@ Topic:: Unsupervised and Self-Supervised Learning
 ===
 
 ===
+
+===05/13/2021
+Topic:: Final Project Showcase
 
 ===endofcal
