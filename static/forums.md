@@ -2,6 +2,30 @@
 title: "Forum posts"
 ---
 
+## Week 10: Generative Models
+
+So far we've been looking at AIs that take in a single (but maybe complicated) thing, like  an image,
+and output a single simple thing (a classification label, a couple of numbers, etc.).
+Last week we looked at language models, where the AI can read a *sequence* of
+words (er, *tokens*) and output a guess of the next token.
+
+We'll come back to delve more into language models, but since several final project teams
+want to generate things, we'll take a natural tangent to look at AIs that generate
+things. We already saw how we can make a language model generate a long sequence by
+repeatedly asking for the next word; we'll explore those more and also look at two related
+approaches for generating images / sound / video: Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs).
+
+
+
+
+
+
+
+https://github.com/eyaler/avatars4all — check out the Colab notebooks there.
+https://j.mp/generativetools — lots more examples.
+https://runwayml.com/
+
+
 ## Week 9 mid-week
 
 A few updates:
