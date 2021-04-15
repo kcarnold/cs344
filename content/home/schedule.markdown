@@ -227,8 +227,8 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <p><strong>Start</strong> <a href="/activities/lab-4-nonlinear-regression">Lab 4: Nonlinear Regression</a></p>
 </span></details></div></td>
 <!--  8 > 7 -->
-</tr><tr>
-<td class = "odd"><div><details open><summary>3/29</summary><span class = "html"><p><strong>Topic</strong> Collaborative Filtering</p>
+</tr><tr class="past">
+<td class = "odd"><div><details><summary>3/29</summary><span class = "html"><p><strong>Topic</strong> Collaborative Filtering</p>
 
 <p><strong>Read</strong> Through chapter 9</p>
 
@@ -236,14 +236,14 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Slides</strong> <a href="/slides/w8/w8-tabular.html">Recommender Systems and Collaborative Filtering</a></p>
 </span></details></div></td>
-<td class = "odd"><div><details open><summary>3/30</summary><span class = "html"></span></details></div></td>
-<td class = "odd"><div><details open><summary>3/31</summary><span class = "html"><p><strong>Topic</strong> Embeddings</p>
+<td class = "odd"><div><details><summary>3/30</summary><span class = "html"></span></details></div></td>
+<td class = "odd"><div><details><summary>3/31</summary><span class = "html"><p><strong>Topic</strong> Embeddings</p>
 
 <p><strong>Slides</strong> <a href="/slides/w8/w8d2-embeddings.html">Embeddings</a></p>
 </span></details></div></td>
-<td class = "even"><div><details open><summary>4/1</summary><span class = "html"><p><strong>Due</strong> <a href="/activities/project-milestone-2">Project Milestone 2</a></p>
+<td class = "even"><div><details><summary>4/1</summary><span class = "html"><p><strong>Due</strong> <a href="/activities/project-milestone-2">Project Milestone 2</a></p>
 </span></details></div></td>
-<td class = "even"><div><details open><summary>4/2</summary><span class = "html"><p><strong>Topic</strong> Collaborative Filtering and Embeddings in code</p>
+<td class = "even"><div><details><summary>4/2</summary><span class = "html"><p><strong>Topic</strong> Collaborative Filtering and Embeddings in code</p>
 </span></details></div></td>
 <!--  9 > 8 -->
 </tr><tr>
@@ -280,19 +280,52 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "even"><div><details open><summary>4/15</summary><span class = "html"></span></details></div></td>
 <td class = "even"><div><details open><summary>4/16</summary><span class = "html"><p><strong>Topic</strong> Generating images (e.g., GANs)</p>
 
-<p><strong>Watch</strong> Lecture 4 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
+<p><strong>Watch</strong> Lecture 4 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a> (and skim Lecture 3)</p>
 
 <p><strong>Try</strong> <a href="https://poloclub.github.io/ganlab/">GANLab</a></p>
+</span></details></div></td>
+<!--  11 > 10 -->
+</tr><tr>
+<td class = "even"><div><details open><summary>4/19</summary><span class = "html"><p><strong>Topic</strong> Modern language models</p>
+</span></details></div></td>
+<td class = "even"><div><details open><summary>4/20</summary><span class = "html"></span></details></div></td>
+<td class = "even"><div><details open><summary>4/21</summary><span class = "html"><p><strong>Topic</strong> Human-AI Interaction (explainability, interpretability, etc.)</p>
+</span></details></div></td>
+<td class = "even"><div><details open><summary>4/22</summary><span class = "html"><p><strong>Due</strong> <a href="/activities/project-milestone-3">Project Milestone 3</a></p>
+</span></details></div></td>
+<td class = "even"><div><details open><summary>4/23</summary><span class = "html"><p><strong>Topic</strong> Fairness</p>
+</span></details></div></td>
+<!--  12 > 11 -->
+</tr><tr>
+<td class = "even"><div><details open><summary>4/26</summary><span class = "html"><p><strong>Topic</strong> Reinforcement Learning</p>
+
+<p><strong>Read</strong> <a href="https://arxiv.org/abs/1803.03453v4">The Surprising Creativity of Digital Evolution</a></p>
+</span></details></div></td>
+<td class = "even"><div><details open><summary>4/27</summary><span class = "html"></span></details></div></td>
+<td class = "even"><div><details open><summary>4/28</summary><span class = "html"></span></details></div></td>
+<td class = "even"><div><details open><summary>4/29</summary><span class = "html"></span></details></div></td>
+<td class = "even"><div><details open><summary>4/30</summary><span class = "html"></span></details></div></td>
+<!--  13 > 12 -->
+</tr><tr>
+<td class = "odd"><div><details open><summary>5/3</summary><span class = "html"><p><strong>Topic</strong> Unsupervised and Self-Supervised Learning</p>
+</span></details></div></td>
+<td class = "odd"><div><details open><summary>5/4</summary><span class = "html"></span></details></div></td>
+<td class = "odd"><div><details open><summary>5/5</summary><span class = "html"></span></details></div></td>
+<td class = "odd"><div><details open><summary>5/6</summary><span class = "html"></span></details></div></td>
+<td class = "odd"><div><details open><summary>5/7</summary><span class = "html"><p><strong>Note</strong> Study Day</p>
+</span></details></div></td>
+<!--  14 > 13 -->
+</tr><tr>
+<td class = "odd"><div><details open><summary>5/10</summary><span class = "html"></span></details></div></td>
+<td class = "odd"><div><details open><summary>5/11</summary><span class = "html"></span></details></div></td>
+<td class = "odd"><div><details open><summary>5/12</summary><span class = "html"></span></details></div></td>
+<td class = "odd"><div><details open><summary>5/13</summary><span class = "html"><p><strong>Topic</strong> Final Project Showcase</p>
 </span></details></div></td>
 </tr></tbody></table>
 
 Future topics (tentative):
 
-* Mon 4/19: Modern language models
-* Wed 4/21: Human-AI Interaction (explainability, interpretability, etc.)
-* Fri 4/23: Fairness
-* Mon 4/26: Reinforcement Learning
-* Mon 5/3: Unsupervised and Self-Supervised Learning
+
 
 
 
