@@ -7,8 +7,12 @@ title: "Project"
 This course will culminate in a semester project. Successful projects will demonstrate proficiency in all of the main course learning objectives:
 
 -   You'll design, implement, and/or analyze an intelligent system
+
 -   You'll communicate your work in both technical and non-technical terms
+
 -   You'll consider broader perspectives on your project.
+
+    -   Don't think of this as "checking the ethics box"! Every AI project brings up important questions: what it means to be intelligent, where data comes from, what a good solution might be used for, etc. Think about how what we've discussed in other topics might relate to your project.
 
 Projects should generally be done in pairs, though allowances may be made on request.
 
