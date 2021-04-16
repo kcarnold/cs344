@@ -363,7 +363,7 @@ Opportunity:: [Human-Centered AI: Reliable, Safe and Trustworthy](https://iui.ac
 advising day
 
 ===
-Topic:: Generating images (e.g., GANs)
+Topic:: Generative Models ([slides](/slides/2021-04-16%20Generative%20Models.pdf))
 
 Watch:: Lecture 4 of [MIT 6.S191](http://introtodeeplearning.com/) (and skim Lecture 3)
 
@@ -385,19 +385,22 @@ Topic:: Modern language models
 
 
 ===
-Topic:: Human-AI Interaction (explainability, interpretability, etc.)
-
-===
 Topic:: Fairness
 
-https://cacm.acm.org/magazines/2021/4/251365-the-impossibility-of-fairness/fulltext
+Watch:: Lecture 6 of [MIT 6.S191](http://introtodeeplearning.com/)
 
-https://arxiv.org/abs/2011.07586
+Read:: [ACM Selects on Algorithmic Fairness](https://selects.acm.org/selections/why-algorithmic-fairness)
 
+Read:: [The (Im)possibility of Fairness](https://cacm.acm.org/magazines/2021/4/251365-the-impossibility-of-fairness/fulltext)
+
+
+===
 
 
 ===
 Topic:: Reinforcement Learning
+
+Watch:: Lecture 5 of [MIT 6.S191](http://introtodeeplearning.com/)
 
 Read:: [The Surprising Creativity of Digital Evolution](https://arxiv.org/abs/1803.03453v4)
 
@@ -406,7 +409,9 @@ Read:: [The Surprising Creativity of Digital Evolution](https://arxiv.org/abs/18
 ===
 
 ===
-Topic:: Unsupervised and Self-Supervised Learning
+Topic:: Human-AI Interaction (explainability, interpretability, etc.)
+
+Read:: [Uncertainty as a Form of Transparency](https://arxiv.org/abs/2011.07586)
 
 ===
 

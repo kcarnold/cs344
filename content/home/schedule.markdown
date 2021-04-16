@@ -278,7 +278,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "even"><div><details open><summary>4/14</summary><span class = "html"><p><strong>Note</strong> Advising Day</p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/15</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/16</summary><span class = "html"><p><strong>Topic</strong> Generating images (e.g., GANs)</p>
+<td class = "even"><div><details open><summary>4/16</summary><span class = "html"><p><strong>Topic</strong> Generative Models (<a href="/slides/2021-04-16%20Generative%20Models.pdf">slides</a>)</p>
 
 <p><strong>Watch</strong> Lecture 4 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a> (and skim Lecture 3)</p>
 
@@ -289,15 +289,22 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "even"><div><details open><summary>4/19</summary><span class = "html"><p><strong>Topic</strong> Modern language models</p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/20</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/21</summary><span class = "html"><p><strong>Topic</strong> Human-AI Interaction (explainability, interpretability, etc.)</p>
+<td class = "even"><div><details open><summary>4/21</summary><span class = "html"><p><strong>Topic</strong> Fairness</p>
+
+<p><strong>Watch</strong> Lecture 6 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
+
+<p><strong>Read</strong> <a href="https://selects.acm.org/selections/why-algorithmic-fairness">ACM Selects on Algorithmic Fairness</a></p>
+
+<p><strong>Read</strong> <a href="https://cacm.acm.org/magazines/2021/4/251365-the-impossibility-of-fairness/fulltext">The (Im)possibility of Fairness</a></p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/22</summary><span class = "html"><p><strong>Due</strong> <a href="/activities/project-milestone-3">Project Milestone 3</a></p>
 </span></details></div></td>
-<td class = "even"><div><details open><summary>4/23</summary><span class = "html"><p><strong>Topic</strong> Fairness</p>
-</span></details></div></td>
+<td class = "even"><div><details open><summary>4/23</summary><span class = "html"></span></details></div></td>
 <!--  12 > 11 -->
 </tr><tr>
 <td class = "even"><div><details open><summary>4/26</summary><span class = "html"><p><strong>Topic</strong> Reinforcement Learning</p>
+
+<p><strong>Watch</strong> Lecture 5 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
 
 <p><strong>Read</strong> <a href="https://arxiv.org/abs/1803.03453v4">The Surprising Creativity of Digital Evolution</a></p>
 </span></details></div></td>
@@ -307,7 +314,9 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "even"><div><details open><summary>4/30</summary><span class = "html"></span></details></div></td>
 <!--  13 > 12 -->
 </tr><tr>
-<td class = "odd"><div><details open><summary>5/3</summary><span class = "html"><p><strong>Topic</strong> Unsupervised and Self-Supervised Learning</p>
+<td class = "odd"><div><details open><summary>5/3</summary><span class = "html"><p><strong>Topic</strong> Human-AI Interaction (explainability, interpretability, etc.)</p>
+
+<p><strong>Read</strong> <a href="https://arxiv.org/abs/2011.07586">Uncertainty as a Form of Transparency</a></p>
 </span></details></div></td>
 <td class = "odd"><div><details open><summary>5/4</summary><span class = "html"></span></details></div></td>
 <td class = "odd"><div><details open><summary>5/5</summary><span class = "html"></span></details></div></td>
