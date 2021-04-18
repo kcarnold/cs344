@@ -155,7 +155,7 @@ cal_data %>%
   knitr::asis_output()
 ```
 
-Future topics (tentative):
+<!-- Future topics (tentative): -->
 
 ```{r results='asis'}
 cal_data %>% 

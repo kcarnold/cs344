@@ -286,10 +286,29 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span></details></div></td>
 <!--  11 > 10 -->
 </tr><tr>
-<td class = "even"><div><details open><summary>4/19</summary><span class = "html"><p><strong>Topic</strong> Modern language models</p>
+<td class = "even"><div><details open><summary>4/19</summary><span class = "html"><p><strong>Topic</strong> Generative models continued</p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/20</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/21</summary><span class = "html"><p><strong>Topic</strong> Fairness</p>
+<td class = "even"><div><details open><summary>4/21</summary><span class = "html"><p><strong>Topic</strong> Modern language models</p>
+
+<p><strong>Watch</strong> <a href="https://www.youtube.com/watch?v=AFkGPmU16QA&amp;list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&amp;index=19">fast.ai Transformer lecture</a> (from the <a href="https://www.fast.ai/2019/07/08/fastai-nlp/">NLP course</a>)</p>
+
+<p><strong>Read</strong> <a href="https://jalammar.github.io/illustrated-gpt2/">Illustrated GPT-2</a></p>
+</span></details></div></td>
+<td class = "even"><div><details open><summary>4/22</summary><span class = "html"><p><strong>Due</strong> <a href="/activities/project-milestone-3">Project Milestone 3</a></p>
+</span></details></div></td>
+<td class = "even"><div><details open><summary>4/23</summary><span class = "html"><p><strong>Topic</strong> Lab (TBD)</p>
+</span></details></div></td>
+<!--  12 > 11 -->
+</tr><tr>
+<td class = "even"><div><details open><summary>4/26</summary><span class = "html"><p><strong>Topic</strong> Human-AI Interaction (explainability, interpretability, etc.)</p>
+
+<p><strong>Watch</strong> <a href="https://www.youtube.com/watch?v=I0yrJz8uc5Q">Stop doing &ldquo;explainable&rdquo; ML</a></p>
+
+<p><strong>Read</strong> <a href="https://arxiv.org/abs/2011.07586">Uncertainty as a Form of Transparency</a></p>
+</span></details></div></td>
+<td class = "even"><div><details open><summary>4/27</summary><span class = "html"></span></details></div></td>
+<td class = "even"><div><details open><summary>4/28</summary><span class = "html"><p><strong>Topic</strong> Fairness</p>
 
 <p><strong>Watch</strong> Lecture 6 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
 
@@ -297,27 +316,16 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Read</strong> <a href="https://cacm.acm.org/magazines/2021/4/251365-the-impossibility-of-fairness/fulltext">The (Im)possibility of Fairness</a></p>
 </span></details></div></td>
-<td class = "even"><div><details open><summary>4/22</summary><span class = "html"><p><strong>Due</strong> <a href="/activities/project-milestone-3">Project Milestone 3</a></p>
-</span></details></div></td>
-<td class = "even"><div><details open><summary>4/23</summary><span class = "html"></span></details></div></td>
-<!--  12 > 11 -->
-</tr><tr>
-<td class = "even"><div><details open><summary>4/26</summary><span class = "html"><p><strong>Topic</strong> Reinforcement Learning</p>
+<td class = "even"><div><details open><summary>4/29</summary><span class = "html"></span></details></div></td>
+<td class = "even"><div><details open><summary>4/30</summary><span class = "html"><p><strong>Topic</strong> Reinforcement Learning</p>
 
 <p><strong>Watch</strong> Lecture 5 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
 
 <p><strong>Read</strong> <a href="https://arxiv.org/abs/1803.03453v4">The Surprising Creativity of Digital Evolution</a></p>
 </span></details></div></td>
-<td class = "even"><div><details open><summary>4/27</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/28</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/29</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/30</summary><span class = "html"></span></details></div></td>
 <!--  13 > 12 -->
 </tr><tr>
-<td class = "odd"><div><details open><summary>5/3</summary><span class = "html"><p><strong>Topic</strong> Human-AI Interaction (explainability, interpretability, etc.)</p>
-
-<p><strong>Read</strong> <a href="https://arxiv.org/abs/2011.07586">Uncertainty as a Form of Transparency</a></p>
-</span></details></div></td>
+<td class = "odd"><div><details open><summary>5/3</summary><span class = "html"></span></details></div></td>
 <td class = "odd"><div><details open><summary>5/4</summary><span class = "html"></span></details></div></td>
 <td class = "odd"><div><details open><summary>5/5</summary><span class = "html"></span></details></div></td>
 <td class = "odd"><div><details open><summary>5/6</summary><span class = "html"></span></details></div></td>
@@ -332,7 +340,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span></details></div></td>
 </tr></tbody></table>
 
-Future topics (tentative):
+<!-- Future topics (tentative): -->
 
 
 
