@@ -2,28 +2,27 @@
 title: "Forum posts"
 ---
 
-## Week 10: Generative Models
+## Generative Models
 
-So far we've been looking at AIs that take in a single (but maybe complicated) thing, like  an image,
-and output a single simple thing (a classification label, a couple of numbers, etc.).
-Last week we looked at language models, where the AI can read a *sequence* of
-words (er, *tokens*) and output a guess of the next token.
+tl;dr: vote for [which assignment to review tomorrow](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUMjAzTVRSTjJFSFBDRFExUkVQN0c4V0M0Ni4u) and [what to do a lab on this week](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUOEQwNDNSMFJBOUQ2RVlLV01SOU9XM0FBNy4u)
 
-We'll come back to delve more into language models, but since several final project teams
-want to generate things, we'll take a natural tangent to look at AIs that generate
-things. We already saw how we can make a language model generate a long sequence by
-repeatedly asking for the next word; we'll explore those more and also look at two related
-approaches for generating images / sound / video: Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs).
+This week we'll finish talking about generating images, talk more about generating text, and get some practice.
 
+* On **Monday** we'll finish the [Generative Models lecture](https://cs.calvin.edu/courses/cs/344/ka37/slides/2021-04-16%20Generative%20Models.pdf).
+  We'll also **review** some past assignments; please [vote for which one](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUMjAzTVRSTjJFSFBDRFExUkVQN0c4V0M0Ni4u) by 10am.
+* On *Wednesday* we'll discuss how to actually generate text using language models, and discuss one of the most important concepts in deep learning recently: **attention**. Optional but encouraged prep:
+    * Watch: [fast.ai Transformer lecture](https://www.youtube.com/watch?v=AFkGPmU16QA&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&index=19) (from the [NLP course](https://www.fast.ai/2019/07/08/fastai-nlp/))
+    * Read: [Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
+* [Project Milestone 3](/activities/project-milestone-3) videos are due Thursday.
+* On *Friday* we'll do a lab of some sort. We've talked about a lot; what do you want practice with? It would be helpful to have your input on [this survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUOEQwNDNSMFJBOUQ2RVlLV01SOU9XM0FBNy4u) by Tuesday.
 
+(I'd originally thought to discuss fairness some this week, but I'm not yet fully happy with the set of readings. We'll do it next week.)
 
+---
 
+So far we've been looking at AIs that take in a single (but maybe complicated) thing, like an image, and output a single simple thing (a classification label, a couple of numbers, etc.). Last week we looked at language models, where the AI can read a *sequence* of words (er, *tokens*) and output a guess of the next token.
 
-
-
-https://github.com/eyaler/avatars4all — check out the Colab notebooks there.
-https://j.mp/generativetools — lots more examples.
-https://runwayml.com/
+We'll come back to delve more into language models, but since several final project teams want to generate things, we'll take a natural tangent to look at AIs that generate things. We already saw how we can make a language model generate a long sequence by repeatedly asking for the next word; we'll explore those more and also look at two related approaches for generating images / sound / video: Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs).
 
 
 ## Week 9 mid-week
