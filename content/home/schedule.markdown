@@ -287,6 +287,8 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <!--  11 > 10 -->
 </tr><tr>
 <td class = "even"><div><details open><summary>4/19</summary><span class = "html"><p><strong>Topic</strong> Generative models continued</p>
+
+<p><strong>Topic</strong> Review</p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/20</summary><span class = "html"></span></details></div></td>
 <td class = "even"><div><details open><summary>4/21</summary><span class = "html"><p><strong>Topic</strong> Modern language models</p>
@@ -321,13 +323,16 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Watch</strong> Lecture 5 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
 
+<p><strong>Watch</strong> <a href="https://www.youtube.com/watch?v=WXuK6gekU1Y">AlphaGo Documentary</a> (optional)</p>
+
 <p><strong>Read</strong> <a href="https://arxiv.org/abs/1803.03453v4">The Surprising Creativity of Digital Evolution</a></p>
 </span></details></div></td>
 <!--  13 > 12 -->
 </tr><tr>
 <td class = "odd"><div><details open><summary>5/3</summary><span class = "html"></span></details></div></td>
 <td class = "odd"><div><details open><summary>5/4</summary><span class = "html"></span></details></div></td>
-<td class = "odd"><div><details open><summary>5/5</summary><span class = "html"></span></details></div></td>
+<td class = "odd"><div><details open><summary>5/5</summary><span class = "html"><p><strong>Note</strong> Last ordinary class meeting</p>
+</span></details></div></td>
 <td class = "odd"><div><details open><summary>5/6</summary><span class = "html"></span></details></div></td>
 <td class = "odd"><div><details open><summary>5/7</summary><span class = "html"><p><strong>Note</strong> Study Day</p>
 </span></details></div></td>

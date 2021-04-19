@@ -181,7 +181,7 @@ summarize_week <- function(start) {
     paste0(collapse = "\n")
 }
 
-summarize_week("2021-03-29") %>% clipr::write_clip()
+summarize_week("2021-04-19") %>% clipr::write_clip()
 ```
 
 <style>

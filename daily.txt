@@ -383,6 +383,8 @@ How can generative models be controlled?
 ===
 Topic:: Generative models continued
 
+Topic:: Review
+
 Review and finish the lecture from last time
 Introduce DALL-E as a bridge to sequence models?
 Review some Fundamentals notebooks or labs.
@@ -399,8 +401,16 @@ other options:
 Read [Attentional Interfaces](https://distill.pub/2016/augmented-rnns/#attentional-interfaces)
 Watch [Attention Model Intuition](https://www.youtube.com/watch?v=SysgYptB198) and [details](https://www.youtube.com/watch?v=quoGRI-1l0A)
 
+CLASS EXAMPLE: TRANSLATION EXAMPLE, WITH ATTENTION (question-and-answer)
+
 ===
 Topic:: Lab (TBD)
+
+language generation:
+- pull apart an encoder-decoder model
+- fine-tune a few Transformers
+- maybe look at https://github.com/karpathy/minGPT
+
 
 ===
 Topic:: Human-AI Interaction (explainability, interpretability, etc.)
@@ -410,6 +420,9 @@ Watch:: [Stop doing "explainable" ML](https://www.youtube.com/watch?v=I0yrJz8uc5
 Read:: [Uncertainty as a Form of Transparency](https://arxiv.org/abs/2011.07586)
 
 continuity: we're looking at visualizations of how models work; let's look at these.
+
+https://github.com/hila-chefer/Transformer-Explainability / https://arxiv.org/abs/2012.09838v2
+and https://arxiv.org/abs/2103.15679
 
 
 ===
@@ -427,8 +440,12 @@ Topic:: Reinforcement Learning
 
 Watch:: Lecture 5 of [MIT 6.S191](http://introtodeeplearning.com/)
 
+Watch:: [AlphaGo Documentary](https://www.youtube.com/watch?v=WXuK6gekU1Y) (optional)
+
 Read:: [The Surprising Creativity of Digital Evolution](https://arxiv.org/abs/1803.03453v4)
 
+===05/05/2021
+Note:: Last ordinary class meeting
 
 ===05/13/2021
 Topic:: Final Project Showcase
