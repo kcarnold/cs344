@@ -55,11 +55,21 @@ weight: 30
 
 -   Training Tips
 
+    -   <https://huggingface.co/blog/simple-considerations>
+
     -   <http://josh-tobin.com/assets/pdf/troubleshooting-deep-neural-networks-01-19.pdf>
 
     -   [A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
 
     -   <https://blog.floydhub.com/training-neural-nets-a-hackers-perspective/>
+
+-   Tools
+
+    -   [RunwayML](runwayml.com) (very high-level interface)
+
+    -   Streamlit
+
+    -   [WandB](https://wandb.ai/) (experiment tracking)
 
 ### Keeping up with AI
 

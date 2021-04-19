@@ -40,6 +40,10 @@ Many different projects are possible. When you make your project proposal, try t
 
 ### Tips by Project Type
 
+General:
+
+-   [🚧 Simple considerations for simple people building fancy neural networks](https://huggingface.co/blog/simple-considerations)
+
 #### Classification
 
 You might apply image classification to a different task (e.g., places, people, foods, etc.). Since you should be able to get a baseline approach working quickly, here are some ways you can deepen this kind of project:
