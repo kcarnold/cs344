@@ -246,11 +246,11 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "even"><div><details><summary>4/2</summary><span class = "html"><p><strong>Topic</strong> Collaborative Filtering and Embeddings in code</p>
 </span></details></div></td>
 <!--  9 > 8 -->
-</tr><tr>
-<td class = "even"><div><details open><summary>4/5</summary><span class = "html"><p><strong>Topic</strong> Predictive Text (<a href="https://cs.calvin.edu/courses/cs/344/ka37/slides/2021-04-05%20Predictive%20Text%20Biases%20Writers.pdf">slides</a>)</p>
+</tr><tr class="past">
+<td class = "even"><div><details><summary>4/5</summary><span class = "html"><p><strong>Topic</strong> Predictive Text (<a href="https://cs.calvin.edu/courses/cs/344/ka37/slides/2021-04-05%20Predictive%20Text%20Biases%20Writers.pdf">slides</a>)</p>
 </span></details></div></td>
-<td class = "even"><div><details open><summary>4/6</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/7</summary><span class = "html"><p><strong>Topic</strong> Language Processing 1</p>
+<td class = "even"><div><details><summary>4/6</summary><span class = "html"></span></details></div></td>
+<td class = "even"><div><details><summary>4/7</summary><span class = "html"><p><strong>Topic</strong> Language Processing 1</p>
 
 <p><strong>Read</strong> chapters 10 and 12 (skim the <code>xx</code> tokenization details; feel free to stop training early)</p>
 
@@ -258,27 +258,27 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Notes</strong> <a href="https://jalammar.github.io/">Jay Alammar</a> (<a href="https://www.youtube.com/channel/UCmOwsoHty5PrmE-3QhUBfPQ">YouTube</a>) has made some nice visual explanations of language models.</p>
 </span></details></div></td>
-<td class = "even"><div><details open><summary>4/8</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/9</summary><span class = "html"><p><strong>Discussion</strong> Recommender Systems</p>
+<td class = "even"><div><details><summary>4/8</summary><span class = "html"></span></details></div></td>
+<td class = "even"><div><details><summary>4/9</summary><span class = "html"><p><strong>Discussion</strong> Recommender Systems</p>
 
 <p><strong>Due</strong> <a href="/activities/discussion-recommender-systems">Discussion: Recommender Systems</a></p>
 
 <p><strong>Due</strong> <a href="/activities/reflection-8">Reflection 8</a></p>
 </span></details></div></td>
 <!--  10 > 9 -->
-</tr><tr>
-<td class = "even"><div><details open><summary>4/12</summary><span class = "html"><p><strong>Lab</strong> NLP</p>
+</tr><tr class="past">
+<td class = "even"><div><details><summary>4/12</summary><span class = "html"><p><strong>Lab</strong> NLP</p>
 
 <p><strong>Watch</strong> Lecture 2 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
 
 <p><strong>Try</strong> some <a href="https://huggingface.co/transformers/">HuggingFace Transformers</a> notebooks, specifically: <a href="https://colab.research.google.com/github/huggingface/transformers/blob/master/notebooks/03-pipelines.ipynb">overall functionality</a> and <a href="https://colab.research.google.com/github/huggingface/blog/blob/master/notebooks/02_how_to_generate.ipynb">text generation</a></p>
 </span></details></div></td>
-<td class = "even"><div><details open><summary>4/13</summary><span class = "html"><p><strong>Opportunity</strong> <a href="https://iui.acm.org/2021/hcai_tutorial.html">Human-Centered AI: Reliable, Safe and Trustworthy</a> (tutorial at Intelligent User Interfaces conferences)</p>
+<td class = "even"><div><details><summary>4/13</summary><span class = "html"><p><strong>Opportunity</strong> <a href="https://iui.acm.org/2021/hcai_tutorial.html">Human-Centered AI: Reliable, Safe and Trustworthy</a> (tutorial at Intelligent User Interfaces conferences)</p>
 </span></details></div></td>
-<td class = "even"><div><details open><summary>4/14</summary><span class = "html"><p><strong>Note</strong> Advising Day</p>
+<td class = "even"><div><details><summary>4/14</summary><span class = "html"><p><strong>Note</strong> Advising Day</p>
 </span></details></div></td>
-<td class = "even"><div><details open><summary>4/15</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/16</summary><span class = "html"><p><strong>Topic</strong> Generative Models (<a href="/slides/2021-04-16%20Generative%20Models.pdf">slides</a>)</p>
+<td class = "even"><div><details><summary>4/15</summary><span class = "html"></span></details></div></td>
+<td class = "even"><div><details><summary>4/16</summary><span class = "html"><p><strong>Topic</strong> Generative Models (<a href="/slides/2021-04-16%20Generative%20Models.pdf">slides</a>)</p>
 
 <p><strong>Watch</strong> Lecture 4 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a> (and skim Lecture 3)</p>
 
@@ -300,6 +300,8 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <td class = "even"><div><details open><summary>4/22</summary><span class = "html"><p><strong>Due</strong> <a href="/activities/project-milestone-3">Project Milestone 3</a></p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/23</summary><span class = "html"><p><strong>Topic</strong> Lab (TBD)</p>
+
+<p><strong>Reference</strong> <a href="http://peterbloem.nl/blog/transformers">Transformers from Scratch</a></p>
 </span></details></div></td>
 <!--  12 > 11 -->
 </tr><tr>
@@ -307,16 +309,20 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Watch</strong> <a href="https://www.youtube.com/watch?v=I0yrJz8uc5Q">Stop doing &ldquo;explainable&rdquo; ML</a></p>
 
-<p><strong>Read</strong> <a href="https://arxiv.org/abs/2011.07586">Uncertainty as a Form of Transparency</a></p>
+<p><strong>Skim</strong> <a href="https://arxiv.org/abs/2103.11251">Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges</a></p>
+
+<p><strong>Skim</strong> <a href="https://arxiv.org/abs/2011.07586">Uncertainty as a Form of Transparency</a></p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/27</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/28</summary><span class = "html"><p><strong>Topic</strong> Fairness</p>
+<td class = "even"><div><details open><summary>4/28</summary><span class = "html"><p><strong>Topic</strong> Fairness and Bias</p>
 
 <p><strong>Watch</strong> Lecture 6 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
 
 <p><strong>Read</strong> <a href="https://selects.acm.org/selections/why-algorithmic-fairness">ACM Selects on Algorithmic Fairness</a></p>
 
 <p><strong>Read</strong> <a href="https://cacm.acm.org/magazines/2021/4/251365-the-impossibility-of-fairness/fulltext">The (Im)possibility of Fairness</a></p>
+
+<p><strong>Read</strong> <a href="https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1">Moving beyond “algorithmic bias is a data problem</a> (or this <a href="https://twitter.com/sarahookr/status/1361373527861915648">thread</a>)</p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/29</summary><span class = "html"></span></details></div></td>
 <td class = "even"><div><details open><summary>4/30</summary><span class = "html"><p><strong>Topic</strong> Reinforcement Learning</p>

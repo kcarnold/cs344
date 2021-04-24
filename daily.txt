@@ -4,7 +4,7 @@ semester: "Spring 2021"
 time: "11:30am"
 start: "02/03/2021"
 end: "05/15/2021"
-past_week: 9
+past_week: 11
 days: "MWF"
 ---
 
@@ -406,10 +406,23 @@ CLASS EXAMPLE: TRANSLATION EXAMPLE, WITH ATTENTION (question-and-answer)
 ===
 Topic:: Lab (TBD)
 
+Reference:: [Transformers from Scratch](http://peterbloem.nl/blog/transformers)
+
+
 language generation:
 - pull apart an encoder-decoder model
 - fine-tune a few Transformers
 - maybe look at https://github.com/karpathy/minGPT
+- maybe do a prefix tuning example
+
+CLIP: https://colab.research.google.com/drive/1bSQGtld1GYUweeJTKmm3k0npAe9IpVLn#scrollTo=htUBAqTAmM0k
+https://www.reddit.com/r/MachineLearning/comments/ldc6oc/p_list_of_sitesprogramsprojects_that_use_openais/
+Especially promising: Clip-Glass
+
+* Text encoder
+* Image encoder
+* Matching
+* TamingTransformers / Switching VAE generator -> Image encoder -> matching
 
 
 ===
@@ -417,7 +430,9 @@ Topic:: Human-AI Interaction (explainability, interpretability, etc.)
 
 Watch:: [Stop doing "explainable" ML](https://www.youtube.com/watch?v=I0yrJz8uc5Q)
 
-Read:: [Uncertainty as a Form of Transparency](https://arxiv.org/abs/2011.07586)
+Skim:: [Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges](https://arxiv.org/abs/2103.11251)
+
+Skim:: [Uncertainty as a Form of Transparency](https://arxiv.org/abs/2011.07586)
 
 continuity: we're looking at visualizations of how models work; let's look at these.
 
@@ -425,14 +440,18 @@ https://github.com/hila-chefer/Transformer-Explainability / https://arxiv.org/ab
 and https://arxiv.org/abs/2103.15679
 
 
+
+
 ===
-Topic:: Fairness
+Topic:: Fairness and Bias
 
 Watch:: Lecture 6 of [MIT 6.S191](http://introtodeeplearning.com/)
 
 Read:: [ACM Selects on Algorithmic Fairness](https://selects.acm.org/selections/why-algorithmic-fairness)
 
 Read:: [The (Im)possibility of Fairness](https://cacm.acm.org/magazines/2021/4/251365-the-impossibility-of-fairness/fulltext)
+
+Read:: <a href="https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1">Moving beyond “algorithmic bias is a data problem</a> (or this [thread](https://twitter.com/sarahookr/status/1361373527861915648))
 
 
 ===
