@@ -2,28 +2,74 @@
 title: "Forum posts"
 ---
 
+## Starting to Wrap Up
+
+What you need to do this week:
+
+-   Feedback on project updates
+
+    -   Point out what's cool, ask questions, give suggestions.
+
+    -   Some updates missing; get them in ASAP.
+
+-   Read and watch: the main ones are first on the calendar.
+
+    -   **Mon**: [Stop doing "Explainable" ML](https://www.youtube.com/watch?v=I0yrJz8uc5Q) (it's short)
+
+    -   **Wed**: Lecture 6 of [MIT 6.S191](http://introtodeeplearning.com/) (video or slides, whichever you have capacity for)
+
+    -   **Fri**: Lecture 5 of [MIT 6.S191](http://introtodeeplearning.com/) (same)
+
+-   Keep thinking through Lab 5; **no submission is needed**. Review Fundamentals 013 solutions if you're struggling with what this is predicting. (If you're interested in an extension of that to, e.g., generating images, ask me. This can be a fallback if your current project doesn't work out.)
+
+I've noticed that everyone seems to have low capacity for new material. So aside from finishing projects, we will have **no more new programming assignments**. Instead, we will focus on reinforcing where we've gotten. Our class time will shift towards review, Q&A, and open lab time to work on projects or past work.
+
+One way we'll reinforce what we've learned is by focusing on our third course objective: **communication** with peers and the general public. So there will be two remaining assignments:
+
+1.  Your project submission should include a **short explanation of the technology you build on** for a nontechnical audience.
+
+    -   You may choose to do this on a different technology instead; ask me.
+
+    -   The explanation should make sense without reference to the rest of your project, though you may use the project as an example.
+
+2.  Summarize, for a non-technical audience, one of the discussions we've had on the social and ethical context of AI.
+
+    -   You may choose a topic we haven't discussed also; ask me.
+
+    -   You may also incorporate this into your project submission if it's related.
+
+I'm also inviting creative ideas for how to support your project work. For example:
+
+-   Is anyone interested in having a "hack session" on a few specific projects during class time?
+
+-   Would anyone be interested in project hack sessions outside of class time (e.g., a time where a bunch of us hang out on a Teams call or a Discord and just try to get stuff working)?
+
+Grading: meeting shortly after end of class. Bring a suggestion and evidence.
+
 ## Generative Models
 
 tl;dr: vote for [which assignment to review tomorrow](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUMjAzTVRSTjJFSFBDRFExUkVQN0c4V0M0Ni4u) and [what to do a lab on this week](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUOEQwNDNSMFJBOUQ2RVlLV01SOU9XM0FBNy4u)
 
 This week we'll finish talking about generating images, talk more about generating text, and get some practice.
 
-* On **Monday** we'll finish the [Generative Models lecture](https://cs.calvin.edu/courses/cs/344/ka37/slides/2021-04-16%20Generative%20Models.pdf).
-  We'll also **review** some past assignments; please [vote for which one](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUMjAzTVRSTjJFSFBDRFExUkVQN0c4V0M0Ni4u) by 10am.
-* On *Wednesday* we'll discuss how to actually generate text using language models, and discuss one of the most important concepts in deep learning recently: **attention**. Optional but encouraged prep:
-    * Watch: [fast.ai Transformer lecture](https://www.youtube.com/watch?v=AFkGPmU16QA&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&index=19) (from the [NLP course](https://www.fast.ai/2019/07/08/fastai-nlp/))
-    * Read: [Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
-* [Project Milestone 3](/activities/project-milestone-3) videos are due Thursday.
-* On *Friday* we'll do a lab of some sort. We've talked about a lot; what do you want practice with? It would be helpful to have your input on [this survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUOEQwNDNSMFJBOUQ2RVlLV01SOU9XM0FBNy4u) by Tuesday.
+-   On **Monday** we'll finish the [Generative Models lecture](https://cs.calvin.edu/courses/cs/344/ka37/slides/2021-04-16%20Generative%20Models.pdf). We'll also **review** some past assignments; please [vote for which one](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUMjAzTVRSTjJFSFBDRFExUkVQN0c4V0M0Ni4u) by 10am.
+
+-   On *Wednesday* we'll discuss how to actually generate text using language models, and discuss one of the most important concepts in deep learning recently: **attention**. Optional but encouraged prep:
+
+    -   Watch: [fast.ai Transformer lecture](https://www.youtube.com/watch?v=AFkGPmU16QA&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&index=19) (from the [NLP course](https://www.fast.ai/2019/07/08/fastai-nlp/))
+    -   Read: [Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
+
+-   [Project Milestone 3](/activities/project-milestone-3) videos are due Thursday.
+
+-   On *Friday* we'll do a lab of some sort. We've talked about a lot; what do you want practice with? It would be helpful to have your input on [this survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUOEQwNDNSMFJBOUQ2RVlLV01SOU9XM0FBNy4u) by Tuesday.
 
 (I'd originally thought to discuss fairness some this week, but I'm not yet fully happy with the set of readings. We'll do it next week.)
 
----
+------------------------------------------------------------------------
 
 So far we've been looking at AIs that take in a single (but maybe complicated) thing, like an image, and output a single simple thing (a classification label, a couple of numbers, etc.). Last week we looked at language models, where the AI can read a *sequence* of words (er, *tokens*) and output a guess of the next token.
 
 We'll come back to delve more into language models, but since several final project teams want to generate things, we'll take a natural tangent to look at AIs that generate things. We already saw how we can make a language model generate a long sequence by repeatedly asking for the next word; we'll explore those more and also look at two related approaches for generating images / sound / video: Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs).
-
 
 ## Week 9 mid-week
 
