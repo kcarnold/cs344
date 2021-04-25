@@ -4,15 +4,17 @@ title: "Forum posts"
 
 ## Starting to Wrap Up
 
-What you need to do this week:
+Last full week of class!! (Next Friday is reading day.)
 
--   Feedback on project updates
+**What you need to do this week**:
+
+-   Give feedback on project updates
 
     -   Point out what's cool, ask questions, give suggestions.
 
-    -   Some updates missing; get them in ASAP.
+    -   Some updates are missing; get them in ASAP.
 
--   Read and watch: the main ones are first on the calendar.
+-   Read and watch: the main ones are first on the [calendar](https://cs.calvin.edu/courses/cs/344/ka37/).
 
     -   **Mon**: [Stop doing "Explainable" ML](https://www.youtube.com/watch?v=I0yrJz8uc5Q) (it's short)
 
@@ -20,7 +22,7 @@ What you need to do this week:
 
     -   **Fri**: Lecture 5 of [MIT 6.S191](http://introtodeeplearning.com/) (same)
 
--   Keep thinking through Lab 5; **no submission is needed**. Review Fundamentals 013 solutions if you're struggling with what this is predicting. (If you're interested in an extension of that to, e.g., generating images, ask me. This can be a fallback if your current project doesn't work out.)
+-   **Keep working through Lab 5; no submission is needed**. Review Fundamentals 013 solutions if you're struggling with what this is predicting. (If you're interested in an extension of that to, e.g., generating images, ask me. This can be a fallback if your current project doesn't work out.)
 
 I've noticed that everyone seems to have low capacity for new material. So aside from finishing projects, we will have **no more new programming assignments**. Instead, we will focus on reinforcing where we've gotten. Our class time will shift towards review, Q&A, and open lab time to work on projects or past work.
 
@@ -44,7 +46,7 @@ I'm also inviting creative ideas for how to support your project work. For examp
 
 -   Would anyone be interested in project hack sessions outside of class time (e.g., a time where a bunch of us hang out on a Teams call or a Discord and just try to get stuff working)?
 
-Grading: meeting shortly after end of class. Bring a suggestion and evidence.
+See you tomorrow!
 
 ## Generative Models
 
