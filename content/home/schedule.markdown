@@ -291,7 +291,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <p><strong>Topic</strong> Review</p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/20</summary><span class = "html"></span></details></div></td>
-<td class = "even"><div><details open><summary>4/21</summary><span class = "html"><p><strong>Topic</strong> Modern language models</p>
+<td class = "even"><div><details open><summary>4/21</summary><span class = "html"><p><strong>Topic</strong> Modern language models (<a href="/slides/2021-04-21%20Transformers.pdf">slides</a>)</p>
 
 <p><strong>Watch</strong> <a href="https://www.youtube.com/watch?v=AFkGPmU16QA&amp;list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&amp;index=19">fast.ai Transformer lecture</a> (from the <a href="https://www.fast.ai/2019/07/08/fastai-nlp/">NLP course</a>)</p>
 
@@ -299,7 +299,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/22</summary><span class = "html"><p><strong>Due</strong> <a href="/activities/project-milestone-3">Project Milestone 3</a></p>
 </span></details></div></td>
-<td class = "even"><div><details open><summary>4/23</summary><span class = "html"><p><strong>Topic</strong> Lab (TBD)</p>
+<td class = "even"><div><details open><summary>4/23</summary><span class = "html"><p><strong>Lab</strong> Transformers translation model (<a href="https://nbviewer.jupyter.org/github/kcarnold/cs344/blob/main/portfolio/narrative/lab05-translation-transformers-lm.ipynb">notebook</a>)</p>
 
 <p><strong>Reference</strong> <a href="http://peterbloem.nl/blog/transformers">Transformers from Scratch</a></p>
 </span></details></div></td>
@@ -311,12 +311,16 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 
 <p><strong>Skim</strong> <a href="https://arxiv.org/abs/2103.11251">Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges</a></p>
 
+<p><strong>Consider</strong> <a href="https://www.youtube.com/watch?v=-VYi_YSNDas">Ben Shneiderman: Human–Centered AI (ACM IUI 2021)</a></p>
+
 <p><strong>Skim</strong> <a href="https://arxiv.org/abs/2011.07586">Uncertainty as a Form of Transparency</a></p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/27</summary><span class = "html"></span></details></div></td>
 <td class = "even"><div><details open><summary>4/28</summary><span class = "html"><p><strong>Topic</strong> Fairness and Bias</p>
 
 <p><strong>Watch</strong> Lecture 6 of <a href="http://introtodeeplearning.com/">MIT 6.S191</a></p>
+
+<p><strong>Watch</strong> <a href="https://www.youtube.com/watch?v=jIXIuYdnyyk">21 fairness definitions and their politics</a></p>
 
 <p><strong>Read</strong> <a href="https://selects.acm.org/selections/why-algorithmic-fairness">ACM Selects on Algorithmic Fairness</a></p>
 

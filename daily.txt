@@ -391,7 +391,7 @@ Review some Fundamentals notebooks or labs.
 
 
 ===
-Topic:: Modern language models
+Topic:: Modern language models ([slides](/slides/2021-04-21%20Transformers.pdf))
 
 Watch:: [fast.ai Transformer lecture](https://www.youtube.com/watch?v=AFkGPmU16QA&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&index=19) (from the [NLP course](https://www.fast.ai/2019/07/08/fastai-nlp/))
 
@@ -404,7 +404,7 @@ Watch [Attention Model Intuition](https://www.youtube.com/watch?v=SysgYptB198) a
 CLASS EXAMPLE: TRANSLATION EXAMPLE, WITH ATTENTION (question-and-answer)
 
 ===
-Topic:: Lab (TBD)
+Lab:: Transformers translation model ([notebook](https://nbviewer.jupyter.org/github/kcarnold/cs344/blob/main/portfolio/narrative/lab05-translation-transformers-lm.ipynb))
 
 Reference:: [Transformers from Scratch](http://peterbloem.nl/blog/transformers)
 
@@ -432,6 +432,8 @@ Watch:: [Stop doing "explainable" ML](https://www.youtube.com/watch?v=I0yrJz8uc5
 
 Skim:: [Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges](https://arxiv.org/abs/2103.11251)
 
+Consider:: [Ben Shneiderman: Human–Centered AI (ACM IUI 2021)](https://www.youtube.com/watch?v=-VYi_YSNDas)
+
 Skim:: [Uncertainty as a Form of Transparency](https://arxiv.org/abs/2011.07586)
 
 continuity: we're looking at visualizations of how models work; let's look at these.
@@ -446,6 +448,8 @@ and https://arxiv.org/abs/2103.15679
 Topic:: Fairness and Bias
 
 Watch:: Lecture 6 of [MIT 6.S191](http://introtodeeplearning.com/)
+
+Watch:: [21 fairness definitions and their politics](https://www.youtube.com/watch?v=jIXIuYdnyyk)
 
 Read:: [ACM Selects on Algorithmic Fairness](https://selects.acm.org/selections/why-algorithmic-fairness)
 
