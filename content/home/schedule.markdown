@@ -305,7 +305,7 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 </span></details></div></td>
 <!--  12 > 11 -->
 </tr><tr>
-<td class = "even"><div><details open><summary>4/26</summary><span class = "html"><p><strong>Topic</strong> Human-AI Interaction (explainability, interpretability, etc.)</p>
+<td class = "even"><div><details open><summary>4/26</summary><span class = "html"><p><strong>Topic</strong> Human-AI Interaction (<a href="/slides/2021-04-26%20Human-AI%20Interaction.pdf">slides</a>)</p>
 
 <p><strong>Watch</strong> <a href="https://www.youtube.com/watch?v=I0yrJz8uc5Q">Stop doing &ldquo;explainable&rdquo; ML</a></p>
 

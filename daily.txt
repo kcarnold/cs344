@@ -426,7 +426,7 @@ Especially promising: Clip-Glass
 
 
 ===
-Topic:: Human-AI Interaction (explainability, interpretability, etc.)
+Topic:: Human-AI Interaction ([slides](/slides/2021-04-26%20Human-AI%20Interaction.pdf))
 
 Watch:: [Stop doing "explainable" ML](https://www.youtube.com/watch?v=I0yrJz8uc5Q)
 
