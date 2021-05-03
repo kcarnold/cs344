@@ -8,13 +8,100 @@ This course will culminate in a semester project. Successful projects will demon
 
 -   You'll design, implement, and/or analyze an intelligent system
 
--   You'll communicate your work in both technical and non-technical terms
+    -   Your work should dig below the surface in some way, but how you do it is up to you. Some suggestions are given below.
+
+-   You'll communicate your work in both technical and non-technical terms.
+
+    -   You should include a summary that's understandable to the general public (friends and family, for example) as well as a detailed report.
 
 -   You'll consider broader perspectives on your project.
 
     -   Don't think of this as "checking the ethics box"! Every AI project brings up important questions: what it means to be intelligent, where data comes from, what a good solution might be used for, etc. Think about how what we've discussed in other topics might relate to your project.
 
 Projects should generally be done in pairs, though allowances may be made on request.
+
+### Project Components
+
+The project includes the components outlined below and described in further detail in subsequent sections:
+
+-   A technical report on the project
+
+-   A **short explanation of the technology you build on** for a nontechnical audience.
+
+    -   You may choose to do this on a different technology instead; ask the instructor.
+
+    -   The explanation should make sense without reference to the rest of your project, though you may use the project as an example.
+
+-   A **summary of a social/ethical discussion** we've had as a class, for a nontechnical audience.
+
+    -   Ideally this would be related to the content of your project, but that is not required.
+
+    -   You may choose a topic we haven't discussed also; ask me.
+
+-   Supporting code
+
+-   Brief presentation to the class during final exam period
+
+### Technical Report
+
+The report should be at the level of polish and formality of a blog post (more than a class homework assignment, less than an academic paper). Precise technical language should be used.
+
+Here are some elements that would generally be expected in a report. Not all reports need to have all elements, and reports may include other elements. The following table is formatted in a way that should be useful as a checklist to include in your submission.
+
+| Element                                                                                                                                                                                                                                                                                          | Included? | Notes |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------|
+| A succinct but descriptive **title**                                                                                                                                                                                                                                                             |           |       |
+| A **real-world question or goal** and *why* it's interesting.                                                                                                                                                                                                                                    |           |       |
+| A description of the **dataset**: what sort of data does it contain? Where did it come from? Why did you choose it? What are its strengths and limitations?                                                                                                                                      |           |       |
+| A specific technical goal or question                                                                                                                                                                                                                                                            |           |       |
+| Your technical **approach** for achieving that goal or answering that question                                                                                                                                                                                                                   |           |       |
+| What you noticed from **exploring the data** (e.g., counts by category, distributions of continuous variables, things you notice from inspecting individual samples at random)                                                                                                                   |           |       |
+| Your **modeling setup**: what are your features? Targets? Metrics? Loss function?                                                                                                                                                                                                                |           |       |
+| Your **validation approach**: train-val-test split? cross-validation?                                                                                                                                                                                                                            |           |       |
+| Your **baseline results**: applying the simplest model you can think of; how good were the results (quantitatively and perhaps qualitatively)?                                                                                                                                                   |           |       |
+| Your **attempts at improved results**: what did you adjust, and why? How did the results change?                                                                                                                                                                                                 |           |       |
+| An **analysis of errors** (quantitatively and perhaps qualitatively)                                                                                                                                                                                                                             |           |       |
+| **An analysis of the effects of alternative choices.** You can consider differences in model architecture, specific task, hyperparameter choices, inclusion/exclusion criteria, etc. Remember to think about the choice of **metrics** and the **uncertainty** involved in any estimate of them. |           |       |
+| A **summary of your findings**. Did you achieve your goal or answer your question?                                                                                                                                                                                                               |           |       |
+| **Limitations and future directions**                                                                                                                                                                                                                                                            |           |       |
+
+Artistic or exploratory projects may need other elements.
+
+### Presentation
+
+The final course meeting (during the designated final exam period) will be devoted to final project presentations. Feedback on others' projects is expected, so attendance is mandatory.
+
+Aim for about 5 minutes of content. All team members should present.
+
+### Supporting Code
+
+Submit code needed to replicate the visual and quantitative results in your report.
+
+-   Share any github repos with `kcarnold` or make them public.
+
+-   Include the notebooks you used.
+
+    -   If you used Colab, download the `ipynb` file.
+
+    -   "Restart and Run All" before submitting.
+
+### Advice
+
+* **Repeat trials** with different random seeds. Consider the variability of results.
+* **Notice decisions** you make during data prep and modeling.
+    * What data did you omit?
+    * How did you set up the modeling problem?
+    * What’s missing?
+* **Analyze errors**
+    * What systematic mistakes did the model make?
+    * What effect did decisions have on those mistakes?
+
+
+Technically: **keep it simple**. A thoughtful analysis of a technically simple thing is much better than a hasty analysis of a technically fancy thing.
+
+-   [🚧 Simple considerations for simple people building fancy neural networks](https://huggingface.co/blog/simple-considerations)
+
+
 
 ### Types of Projects
 
@@ -40,9 +127,6 @@ Many different projects are possible. When you make your project proposal, try t
 
 ### Tips by Project Type
 
-General:
-
--   [🚧 Simple considerations for simple people building fancy neural networks](https://huggingface.co/blog/simple-considerations)
 
 #### Classification
 
