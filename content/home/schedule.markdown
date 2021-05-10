@@ -314,6 +314,8 @@ the room (at safe distance) for overview (then move to Gold lab)</li>
 <p><strong>Consider</strong> <a href="https://www.youtube.com/watch?v=-VYi_YSNDas">Ben Shneiderman: Human–Centered AI (ACM IUI 2021)</a></p>
 
 <p><strong>Skim</strong> <a href="https://arxiv.org/abs/2011.07586">Uncertainty as a Form of Transparency</a></p>
+
+<p><strong>CheatSheet</strong> <a href="https://ex.pegg.io/">Explainable AI Cheat Sheet</a></p>
 </span></details></div></td>
 <td class = "even"><div><details open><summary>4/27</summary><span class = "html"></span></details></div></td>
 <td class = "even"><div><details open><summary>4/28</summary><span class = "html"><p><strong>Topic</strong> Fairness and Bias</p>

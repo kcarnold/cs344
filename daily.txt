@@ -436,6 +436,8 @@ Consider:: [Ben Shneiderman: Human–Centered AI (ACM IUI 2021)](https://www.you
 
 Skim:: [Uncertainty as a Form of Transparency](https://arxiv.org/abs/2011.07586)
 
+CheatSheet:: [Explainable AI Cheat Sheet](https://ex.pegg.io/)
+
 continuity: we're looking at visualizations of how models work; let's look at these.
 
 https://github.com/hila-chefer/Transformer-Explainability / https://arxiv.org/abs/2012.09838v2
