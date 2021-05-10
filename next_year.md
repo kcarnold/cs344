@@ -20,3 +20,8 @@
 
 * [Applied Machine Learning course at Cornell Tech](https://www.youtube.com/playlist?list=PL2UML_KCiC0UlY7iCQDSiGDMovaupqc83)
 
+## Potential Activities
+
+* Logistic regression in NN (as same thing as linreg, just different loss and activation)
+* Vision to text encoder decoder—with paraphrase setup both ways
+
