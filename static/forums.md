@@ -2,6 +2,30 @@
 title: "Forum posts"
 ---
 
+## End of Semester Notes
+
+#### Projects
+
+First, a compromise about project **presentations**: we will do the primary event **online** to be hospitable to those who need that. But those who are on campus can informally gather right after the presentations, including lunch outside (weather permitting).
+
+Take note of the recently [revised description](https://cs.calvin.edu/courses/cs/344/ka37/project/) of the **components of the project** on the website.
+
+I want to support you in making awesome projects. But you need to proactively reach out---and many but not all teams have done that.
+
+-   [**Sign up**](https://outlook.office365.com/owa/calendar/Arnoldmeetings@calvincollege.onmicrosoft.com/bookings/) **for a time to meet with me**. (Use "Short chat" or "Longer chat" depending on what you need.) I'm still figuring out how to get that app to sync with my calendar correctly, so apologies in advance if I need to reschedule a meeting with you.
+
+-   **Some update on project is expected by end of day tomorrow**. If you're not able to meet with me by then, at least a Teams note is expected.
+
+-   I'll have a good amount of availability next Monday-Wednesday for additional project support. Use the same sign-up link. Once you sign up, send me a Teams chat if you'd like to meet in person, otherwise I'll call you at that time.
+
+#### Course Survey
+
+I'd like to have your input as I revise this course for next year. **Please find some time to fill out [this survey](https://calvin.co1.qualtrics.com/jfe/form/SV_73S6Vg5n43TuE7k) sometime in the next two weeks**. It's moderately long and takes some thought, but the system should save your progress as long as you're using the same browser.
+
+#### Debrief and Grading Meetings
+
+Please sign up for a debrief and grading meeting with me late next week or early the following week, at the [same link](https://outlook.office365.com/owa/calendar/Arnoldmeetings@calvincollege.onmicrosoft.com/bookings/) as above. Be prepared to talk about what you've learned in this course and offer a suggested grade and evidence to back it up.
+
 ## Starting to Wrap Up
 
 Last full week of class!! (Next Friday is reading day.)
