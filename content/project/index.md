@@ -22,31 +22,35 @@ Projects should generally be done in pairs, though allowances may be made on req
 
 ### Project Components
 
-The project includes the components outlined below and described in further detail in subsequent sections:
+The project includes the components outlined below:
 
 -   A technical report on the project
 
 -   A **short explanation of the technology you build on** for a nontechnical audience.
 
-    -   You may choose to do this on a different technology instead; ask the instructor.
-
-    -   The explanation should make sense without reference to the rest of your project, though you may use the project as an example.
-
 -   A **summary of a social/ethical discussion** we've had as a class, for a nontechnical audience.
 
-    -   Ideally this would be related to the content of your project, but that is not required.
-
-    -   You may choose a topic we haven't discussed also; ask me.
-
--   Supporting code
+-   Supporting materials, including code, as appropriate
 
 -   Brief presentation to the class during final exam period
+
+The following sections provide additional detail about each component.
 
 ### Technical Report
 
 The report should be at the level of polish and formality of a blog post (more than a class homework assignment, less than an academic paper). Precise technical language should be used.
 
-Here are some elements that would generally be expected in a report. Not all reports need to have all elements, and reports may include other elements. The following table is formatted in a way that should be useful as a checklist to include in your submission.
+-   A Jupyter Notebook (`.ipynb`) file is preferred.
+
+-   Assume an audience that is familiar with AI / machine learning in general but none of the specific software used (e.g., fastai).
+
+-   The report should still make sense if all of the source code is hidden.
+
+-   Use Markdown (text) cells to format headers (`## Header`) and links.
+
+-   Include the checklist below (modified as appropriate) as an appendix to your notebook.
+
+Here are some elements that would generally be expected in a report. Not all reports need to have all elements, and reports may include other elements. The following table is formatted in a way that should be useful as a checklist to include in your submission; see the [source code for this page](https://raw.githubusercontent.com/kcarnold/cs344/main/content/project/index.md) for how to include it in your report.
 
 | Element                                                                                                                                                                                                                                                                                          | Included? | Notes |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------|
@@ -67,13 +71,31 @@ Here are some elements that would generally be expected in a report. Not all rep
 
 Artistic or exploratory projects may need other elements.
 
+### Nontechnical explanation
+
+Include a **short explanation of the technology you build on** for a nontechnical audience.
+
+-   You may choose to do this on a different technology instead; ask the instructor.
+
+-   The explanation should make sense without reference to the rest of your project, though you may use the project as an example.
+
+Aim for a description that would fit on one page or less, including a carefully selected supporting image or two.
+
+### Discussion summary
+
+Include a **summary of a social/ethical discussion** we've had as a class, for a nontechnical audience.
+
+-   Ideally this would be related to the content of your project, but that is not required.
+
+-   You may choose a topic we haven't discussed also; ask the instructor.
+
 ### Presentation
 
 The final course meeting (during the designated final exam period) will be devoted to final project presentations. Feedback on others' projects is expected, so attendance is mandatory.
 
 Aim for about 5 minutes of content. All team members should present.
 
-### Supporting Code
+### Supporting Material
 
 Submit code needed to replicate the visual and quantitative results in your report.
 
@@ -83,9 +105,15 @@ Submit code needed to replicate the visual and quantitative results in your repo
 
     -   If you used Colab, download the `ipynb` file.
 
-    -   "Restart and Run All" before submitting.
+    -   "Restart and Run All" before submitting, if possible.
 
-### Advice
+    -   The technical report may include all of the needed code; if so, nothing more is required.
+
+-   Include clear instructions for how to acquire any data you used. (Don't upload the dataset itself, unless it happens to be very small.)
+
+
+
+## Advice
 
 * **Repeat trials** with different random seeds. Consider the variability of results.
 * **Notice decisions** you make during data prep and modeling.
