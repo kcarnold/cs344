@@ -2,6 +2,22 @@
 title: "Forum posts"
 ---
 
+## More end-of-semester notes
+
+To organize the rest of our time together, I have posted a few items on Moodle:
+
+* Your main project materials (the technical report and supporting materials)
+* Your *non-technical explanation* of the technology you're using
+* Your *summary of a social/ethical discussion* we've had
+* A *final reflection*, for us to discuss at your debrief / grading meeting.
+* The [feedback survey](https://calvin.co1.qualtrics.com/jfe/form/SV_73S6Vg5n43TuE7k), which you have through next week to complete.
+
+If you have not yet signed up for a grading/debrief meeting, please do so [**here**](https://outlook.office365.com/owa/calendar/Arnoldmeetings@calvincollege.onmicrosoft.com/bookings/).
+
+Remember to also complete your Calvin course evaluation by end-of-day Thursday.
+
+I'm really looking forward to seeing all of you at our showcase (Thursday 9am), and anyone who can make it, in person afterwards. It's been an honor to share this semester with you all.
+
 ## End of Semester Notes
 
 #### Projects
