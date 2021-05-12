@@ -4,17 +4,20 @@
 
 * Start with applications. Gradually deepen the code and concepts.
 * Intentionally overlap application areas and even specific datasets between DATA 202 and CS 344.
-* The material on interpretability and fairness/bias could have come much earlier.
+* The material on interpretability and fairness/bias could have come much earlier in the semester.
+* Remind students about the drivetrain approach for projects
 
 ## Materials
 
-* The fast.ait textbook doesn’t encourage enough spending time with data (EDA)
+* The fast.ai textbook doesn’t encourage enough spending time with data (EDA)
 
 
 ## Logistics
 
 * Don't bother auto-pushing content to student repos.
-* Use a single platform (Colab?)
+* Use a single compute platform (Colab?)
+* Use a single submission platform (Moodle?)
+
 
 ## Potential Resources
 
