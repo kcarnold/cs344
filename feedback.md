@@ -1,7 +1,9 @@
 # Feedback Notes
 
 I don't see anything in the repo.
+
 ## Fundamentals
+
 ### 000 (basic classifier)
 
 Note that the confusion matrix only uses the validation set, not the whole dataset.
@@ -23,6 +25,7 @@ Another way of discussing your confidence in your results is to discuss how cons
 The breed experiment seems to be missing.
 
 Note the difference between the train/validation seed (passed to the Splitter) and the overall seed (passed to set_seed). You only changed one of these quantities. That was sufficient to get variability in this case, but you should be aware of that when running further experiments.
+
 ### 002 (diagnose)
 
 Good.
@@ -43,8 +46,6 @@ torch.softmax has a numerical trick: it adds a constant to all the numbers so th
 
 ### 008 (softmax-2)
 
-
-
 ### 009 (linreg Learner)
 
 Good.
@@ -60,4 +61,3 @@ You can look at the code that generates the data to see what the ideal values sh
 You should explain your reasoning for why you think those are the ideal values.
 
 Notice that the bias is closer to -0.75 than -1 (which is what you'd get from looking at the equation for generating the data), which is because rand_like is uniform between 0 and 1 (i.e., its mean is 0.5) and we scale it by 0.5 so its mean is now 0.25. I meant to have it be randn_like(), which would have had mean 0.
-
