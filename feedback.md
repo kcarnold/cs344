@@ -8,15 +8,19 @@ Note that the confusion matrix only uses the validation set, not the whole datas
 
 ### 001 (hyperparameters)
 
-Use Markdown (text) cells rather than code comments to talk about what each part of the code is doing.
+The instructions intended to ask for two separate experiments: one changing the validation split, the other changing the target (cat/dog vs breed).
 
-Use Markdown headers to structure the different parts of the report.
+The two experiments had more differences than you intended: it wasn't just the label that was different, but the image size and augmentation were also different.
 
-The breed experiment seems to be missing.
+Use text cells: use Markdown headers to structure the different parts of the report, and other cells to talk about what each part of the code is doing and what its results were.
+
+The report should include results from each experiment in a form that's easy to read (not just looking at the "error_rate" from a progress table).
 
 You should repeat each experiment a few times and report how consistent the results are. Ideally, use a statistical test to quantify how different the results are for the different hyperparameters.
 
 Another way of discussing your confidence in your results is to discuss how consistent the results are for several replications of the same experiment. If there's a bigger difference in error rate for different experiments than for different runs of the same experiment (i.e., different seeds), that gives you confidence that the difference is actually due to the hyperparameters instead of random variation.
+
+The breed experiment seems to be missing.
 
 Note the difference between the train/validation seed (passed to the Splitter) and the overall seed (passed to set_seed). You only changed one of these quantities. That was sufficient to get variability in this case, but you should be aware of that when running further experiments.
 ### 002 (diagnose)
