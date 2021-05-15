@@ -11,6 +11,26 @@ Social impact:
 * Feedback loops
 * Biases
 
+### Knowledge
+
+* Kinds of AI systems
+* Components of systems
+* Mathematical basis
+* How outputs depend on data
+
+### Skills
+
+* Select an approach to solve a problem
+* Map problem characteristics onto approach elements
+* Implement approach in code
+
+### Dispositions
+
+* Treat data as both valuable and flawed
+* Treat people as more than just data sources or targets to manipulate
+* Investigate where data came from
+* Think through how a system will affect people.
+
 ## High level
 
 * Start with applications. Gradually deepen the code and concepts.
@@ -30,7 +50,7 @@ Social impact:
 * Don't bother auto-pushing content to student repos.
 * Use a single compute platform (Colab?)
 * Use a single submission platform (Moodle?)
-
+* Projects: meet earlier, get more specific
 
 ## Potential Resources
 
@@ -42,6 +62,13 @@ Social impact:
 * Logistic regression in NN (as same thing as linreg, just different loss and activation)
 * Vision to text encoder decoder—with paraphrase setup both ways
 
-Batch size -- can use a bigger model.
+## Low-Level Stuff
 
-
+* More visualization tools.
+    * Loss plots
+    * Data exploration, e.g., class distribution
+    * A "quick snapshot" of a dataset?
+        * examples, clustered using pretrained embeddings?
+    * Visualizing the results of learning:
+* Batch size -- can use a bigger model.
+* sklearn 011: Make sure to ask about *validation* set (See Andrew Feikema's submission)
