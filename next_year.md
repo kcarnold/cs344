@@ -30,6 +30,10 @@ Social impact:
 * Treat people as more than just data sources or targets to manipulate
 * Investigate where data came from
 * Think through how a system will affect people.
+* Think about what the data doesn't include, what the algorithm ignores or de-emphasizes.
+* Repeat experiments.
+* Notice and document the decisions you're making.
+* Seek understanding of what a system gets wrong (rather than just reporting numbers)
 
 ## High level
 
@@ -72,3 +76,9 @@ Social impact:
     * Visualizing the results of learning:
 * Batch size -- can use a bigger model.
 * sklearn 011: Make sure to ask about *validation* set (See Andrew Feikema's submission)
+
+### Project Debrief
+
+* For a team project: what was their role?
+* What's your 60-second self-reflection on your performance on the project?
+* Ask students to describe their process; what was challenging and how overcame
