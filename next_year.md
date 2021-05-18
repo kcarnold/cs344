@@ -34,14 +34,21 @@ Social impact:
 * Repeat experiments.
 * Notice and document the decisions you're making.
 * Seek understanding of what a system gets wrong (rather than just reporting numbers)
+* Try variations
+* experiment-tracking mechanism? model storage?
 
 ## High level
 
 * Start with applications. Gradually deepen the code and concepts.
 * Intentionally overlap application areas and even specific datasets between DATA 202 and CS 344.
 * The material on interpretability and fairness/bias could have come much earlier in the semester.
-* Remind students about the drivetrain approach for projects
 * Specifically connect with *Reformed* tradition
+
+### Projects
+
+* Remind students about the drivetrain approach for projects
+* Ask for a *minimal* deliverable and a *stretch* deliverable.
+* Check with Pat and with 396/398 if there are elements of project structure that we could deliberately practice.
 
 ## Materials
 
@@ -65,6 +72,7 @@ Social impact:
 * Play with latent space / generation (projection, latent space math, )
 * Logistic regression in NN (as same thing as linreg, just different loss and activation)
 * Vision to text encoder decoder—with paraphrase setup both ways
+* Write an explanation, share it with your mom, describe how it went, improve the explanation.
 
 ## Low-Level Stuff
 
@@ -76,6 +84,7 @@ Social impact:
     * Visualizing the results of learning:
 * Batch size -- can use a bigger model.
 * sklearn 011: Make sure to ask about *validation* set (See Andrew Feikema's submission)
+* Reporting: clearer delineation of *problem statement* vs *student answer*.
 
 ### Project Debrief
 
