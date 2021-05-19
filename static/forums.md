@@ -2,6 +2,8 @@
 title: "Forum posts"
 ---
 
+Hi, you've booked a ____ debrief/grading meeting with me. I'll be on campus so we can do in-person or online according to your preference; let me know. At that meeting we'll discuss the project and the final reflection, so those materials should be submitted on Moodle by that time. I don't see a final reflection from you yet, so let me know if you need to reschedule.
+
 ## More end-of-semester notes
 
 To organize the rest of our time together, I have posted a few items on Moodle:
