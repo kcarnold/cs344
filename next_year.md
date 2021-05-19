@@ -53,7 +53,8 @@ Social impact:
 ## Materials
 
 * The fast.ai textbook doesn’t encourage enough spending time with data (EDA)
-* Use more of the HuggingFace stuff instead?
+* Use more of the HuggingFace stuff instead? Sequence modeling?
+* Is there a canonical simple thing to do with RL? Perhaps we could start with 3 weeks on applications, then spiral into details?
 
 
 ## Logistics
@@ -73,6 +74,7 @@ Social impact:
 * Logistic regression in NN (as same thing as linreg, just different loss and activation)
 * Vision to text encoder decoder—with paraphrase setup both ways
 * Write an explanation, share it with your mom, describe how it went, improve the explanation.
+* Actually have a small-group discussion about a perspectival topic (deliberately trying to express a range of perspectives) and summarize it (record it?).
 
 ## Low-Level Stuff
 
@@ -85,6 +87,8 @@ Social impact:
 * Batch size -- can use a bigger model.
 * sklearn 011: Make sure to ask about *validation* set (See Andrew Feikema's submission)
 * Reporting: clearer delineation of *problem statement* vs *student answer*.
+* More data wrangling?
+* Clarify to students what *limitations* means (e.g., "time to finish the project" is not a limitation)
 
 ### Project Debrief
 
