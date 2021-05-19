@@ -2,6 +2,8 @@
 
 I don't see anything in the repo.
 
+Use Markdown (text) cells rather than code comments for narrative answers.
+
 ## Fundamentals
 
 ### 000 (basic classifier)
@@ -43,6 +45,12 @@ The first adjustment to the slope ("weights") moves farther from the ideal value
 Since you didn't try x+100 with the exp() approach, I'll just tell you what happens: it overflows, so you get NaN.
 
 torch.softmax has a numerical trick: it adds a constant to all the numbers so that the largest number is 0. This avoids the NaN's, and since adding constants doesn't change the ideal result (as you noticed), it Just Works.
+
+Be careful with mutating assignments (like x = x * 10) in notebook cells, since it can make it easy to lose track of what the current value actually is ("Have I run the cell yet? Did I unintentionally run it multiple times?"). I think this may have happened to you and confused you. The clearest resolution is to "Restart and Run All".
+
+The explanation of the Analysis section is unclear. I'd say: adding or subtracting a constant from everything doesn't change the softmax, but multiplying or dividing does.
+
+If you're familiar with Elo rankings for sports teams or chess, that can give an intuition: a match between 100 and 150 has the same win probability as a match between 150 and 200 (shifting by a constant doesn't change things), but a match between 200 and 300 would be much more likely in favor of the higher score (multiplying by a constant does change things).
 
 ### 008 (softmax-2)
 
