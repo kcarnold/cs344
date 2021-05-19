@@ -31,12 +31,14 @@ case "$cmdname" in
 
     update_student_work)
         while read slug; do
-            if false; then # worktree version
-                (cd ../portfolio-$slug && git pull --ff-only "$slug")
-            else
-                git checkout "${slug}-main"
-                git pull --ff-only
-            fi
+            (cd ../portfolio-$slug && git pull --ff-only "$slug")
+        done < "$SLUGNAMES"
+        ;;
+
+    local_stat)
+        while read slug; do
+            echo $slug
+            (cd ../portfolio-$slug && git status)
         done < "$SLUGNAMES"
         ;;
 
