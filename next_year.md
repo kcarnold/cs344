@@ -15,8 +15,9 @@ Social impact:
 
 * Kinds of AI systems
 * Components of systems
-* Mathematical basis
+* Mathematical basis (what is backprop, how it works, etc.)
 * How outputs depend on data
+* Worldviews of data ethics
 
 ### Skills
 
@@ -29,6 +30,7 @@ Social impact:
 * Treat data as both valuable and flawed
 * Treat people as more than just data sources or targets to manipulate
 * Investigate where data came from
+    * "you credit the source, but the source doesn't credit their sources at all. So we can't acknowledge the artists who created these skins (thankfulness, humility), have any recourse if some of the skins are inappropriate (accountability), or easily add new skins (replicability)."
 * Think through how a system will affect people.
 * Think about what the data doesn't include, what the algorithm ignores or de-emphasizes.
 * Repeat experiments.
@@ -67,6 +69,10 @@ Social impact:
 ## Potential Resources
 
 * [Applied Machine Learning course at Cornell Tech](https://www.youtube.com/playlist?list=PL2UML_KCiC0UlY7iCQDSiGDMovaupqc83)
+* <https://incidentdatabase.ai/>
+* Interactive AI:
+    * [Agency plus automation: Designing artificial intelligence into interactive systems](https://www.pnas.org/content/116/6/1844)
+    * Ben S [Human-Centered AI IUI 2021 tutorial](https://iui.acm.org/2021/hcai_tutorial.html)
 
 ## Potential Activities
 
@@ -89,6 +95,7 @@ Social impact:
 * Reporting: clearer delineation of *problem statement* vs *student answer*.
 * More data wrangling?
 * Clarify to students what *limitations* means (e.g., "time to finish the project" is not a limitation)
+* If using Colab: share the working directory with me? Use underscores instead of dashes in filenames.
 
 ### Project Debrief
 
