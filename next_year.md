@@ -84,12 +84,27 @@ Meta:
 ## Potential Activities
 
 * Play with latent space / generation (projection, latent space math, )
-* Logistic regression in NN (as same thing as linreg, just different loss and activation)
 * Vision to text encoder decoder—with paraphrase setup both ways
 * Write an explanation, share it with your mom, describe how it went, improve the explanation.
 * Actually have a small-group discussion about a perspectival topic (deliberately trying to express a range of perspectives) and summarize it (record it?).
 * Instead of fighting with querying Bing (ch2), just collect a small set of images by hand / from personal photo library
 
+### Partially prepped materials I could return to
+
+* Translation encoder-decoder (was Lab 5)
+* Trebuchet
+* Team Elo
+* Transformers from scratch
+* (see my Colab for more)
+
+### Potential Fundamentals
+
+* Logistic regression in NN (as same thing as linreg, just different loss and activation). Explicitly draw the connections between the sklearn approach and this one.
+* Overfitting a batch
+* Tabular models with fastai
+* CNN model input/output shapes; last-layer representation shape
+* Some sort of VAE
+* LM on image tokens
 ## Low-Level Stuff
 
 * More visualization tools.
