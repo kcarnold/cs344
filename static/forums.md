@@ -2,6 +2,28 @@
 title: "Forum posts"
 ---
 
+## Final Email
+
+Great work on projects! Prof. Vander Linden was eavesdropping on our presentations and spoke favorably afterwards. You should all have comments on all the parts in Moodle. I'd encourage you to turn your reports into blog posts and refer to them when applying for jobs or grad school.
+
+Final grades are now posted. (Moodle is accurate; Self Service has a few errors but I've already asked the registrar to fix them.) They are almost all exactly what we discussed in the debriefs, but in some cases I assigned a higher grade after reviewing your work more comprehensively.
+
+I'll leave the [feedback survey](https://calvin.co1.qualtrics.com/jfe/form/SV_73S6Vg5n43TuE7k) open for a few more days. I'll be studying the critical comments to help prioritize my list of dozens of things to change next year, and the positive ones to make sure those changes don't unintentionally break something that worked.
+
+For those who want to go further or deeper in AI, I'd love to help:
+
+* I'll be working on a few things over the summer that you could plug into.
+* Rising seniors might choose one of [my senior projects](https://cs.calvin.edu/courses/cs/396/proposals/).
+* If there's interest, we could start an AI reading group next year.
+* Let me know if you're interested in helping develop materials for next year's AI class.
+
+If you want to keep your portfolio repo, I recommend that you move it to your own GitHub account. The easiest way is to copy the files to a new repo, but if you'd like to move the existing repo, ask me and I can give you admin access to your repo.
+
+Finally, thanks to each of you for your investment and perseverance in our learning community this semester, despite all of its challenges. May you be equipped to do the good work that God has for you, whatever it may be.
+
+
+## Teams note for debrief
+
 Hi, you've booked a ____ debrief/grading meeting with me. I'll be on campus so we can do in-person or online according to your preference; let me know. At that meeting we'll discuss the project and the final reflection, so those materials should be submitted on Moodle by that time. I don't see a final reflection from you yet, so let me know if you need to reschedule.
 
 ## More end-of-semester notes
