@@ -38,7 +38,17 @@ To find any mislabeled images, you could have extended the top-loss plot until t
 
 ### 006 (compute grad)
 
-The first adjustment to the slope ("weights") moves farther from the ideal value because the initial intercept is way too high. Given that intercept, the optimal slope is perhaps closer to 2, so the first update is, in a sense, *locally* correct.
+Missing consideration of what the ideal value of "weights" is (see y_true = 4 * x + ..., so the ideal value is 4).
+
+That wasn't quite the ideal value of "weights" (see y_true = 4 * x + ..., so the ideal value is 4).
+
+Just knowing that the loss decreased doesn't actually tell you what the ideal value is (see y_true = 4 * x + ..., so the ideal value is 4).
+
+Oops, you actually did gradient ascent, so understandably the loss went up. If you're doing gradient descent, then something that's initially surprising happens:
+
+The first gradient descent adjustment to the slope ("weights") reduces it, which actually moves farther from the ideal value. Although this might be surprising, it's because the initial intercept is way too high. Given that intercept, the optimal slope is perhaps closer to 2, so the first update is, in a sense, *locally* correct.
+
+It looks like you found parameter values with a better loss, but the notebook doesn't include code to compute the gradient, so perhaps this was just done by eye. That's not a bad exercise, but not the one that was intended here.
 
 ### 007 (softmax)
 
