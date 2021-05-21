@@ -11,6 +11,11 @@ Social impact:
 * Feedback loops
 * Biases
 
+Meta:
+
+* Easy for students to predict the class structure.
+* Make it easy for me to give feedback.
+ 
 ### Knowledge
 
 * Kinds of AI systems
@@ -18,6 +23,7 @@ Social impact:
 * Mathematical basis (what is backprop, how it works, etc.)
 * How outputs depend on data
 * Worldviews of data ethics
+* History and trajectory of AI?
 
 ### Skills
 
@@ -65,6 +71,7 @@ Social impact:
 * Use a single compute platform (Colab?)
 * Use a single submission platform (Moodle?)
 * Projects: meet earlier, get more specific
+* AI Lab Hours
 
 ## Potential Resources
 
@@ -81,6 +88,7 @@ Social impact:
 * Vision to text encoder decoder—with paraphrase setup both ways
 * Write an explanation, share it with your mom, describe how it went, improve the explanation.
 * Actually have a small-group discussion about a perspectival topic (deliberately trying to express a range of perspectives) and summarize it (record it?).
+* Instead of fighting with querying Bing (ch2), just collect a small set of images by hand / from personal photo library
 
 ## Low-Level Stuff
 
