@@ -4,7 +4,7 @@ semester: "Spring 2021"
 time: "11:30am"
 start: "02/03/2021"
 end: "05/15/2021"
-past_week: 11
+past_week: 0
 days: "MWF"
 ---
 
@@ -468,6 +468,12 @@ Watch:: Lecture 5 of [MIT 6.S191](http://introtodeeplearning.com/)
 Watch:: [AlphaGo Documentary](https://www.youtube.com/watch?v=WXuK6gekU1Y) (optional)
 
 Read:: [The Surprising Creativity of Digital Evolution](https://arxiv.org/abs/1803.03453v4)
+
+===
+Topic:: Technical Review
+
+===
+Topic:: Finish technical review; Christian perspectives and commissioning
 
 ===05/05/2021
 Note:: Last ordinary class meeting
