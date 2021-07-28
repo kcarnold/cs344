@@ -15,7 +15,7 @@ Meta:
 
 * Easy for students to predict the class structure.
 * Make it easy for me to give feedback.
- 
+
 ### Knowledge
 
 * Kinds of AI systems
@@ -67,11 +67,30 @@ Meta:
 
 ## Logistics
 
+Simplify, reduce number of platforms (most common student feedback!)
+
 * Don't bother auto-pushing content to student repos.
 * Use a single compute platform (Colab?)
 * Use a single submission platform (Moodle?)
 * Projects: meet earlier, get more specific
 * AI Lab Hours
+
+Analyze a system for two weeks:
+
+1. First week, what problem does it solve and how.
+2. Second week: social and ethical perspectives. Make sure we articulate both sides clearly.
+
+Possible systems
+
+* Facebook news feed
+* YouTube recommender
+* Facial recognition 
+* Prediction of life events (recidivism, loans, admissions, insurance)
+* Google search
+* Predictive text keyboard
+* Text to speech and vice versa
+* GAN 
+* Background blurring 
 
 ## Potential Resources
 
@@ -105,6 +124,7 @@ Meta:
 * CNN model input/output shapes; last-layer representation shape
 * Some sort of VAE
 * LM on image tokens
+
 ## Low-Level Stuff
 
 * More visualization tools.
