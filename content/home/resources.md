@@ -33,6 +33,8 @@ weight: 30
 
     -   the [Fast.ai forums](forums.fast.ai/) and [Discord](https://discord.com/invite/xnpeRdg)
 
+    -   <https://www.cognitivefactory.fr/fastaidocs/>
+
     -   <https://walkwithfastai.com/>
 
 -   Connect with a broader AI community at <https://twimlai.com/community/>
