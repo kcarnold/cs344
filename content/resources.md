@@ -1,12 +1,5 @@
 ---
-widget: blank
-headless: true
-design:
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '1'
-
 title: "Resources"
-weight: 30
 ---
 
 **To fix fastai on Google Colab**, add a cell with the following, then restart the runtime.
