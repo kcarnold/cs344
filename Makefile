@@ -18,5 +18,5 @@ content/home/schedule.markdown: content/home/schedule.Rmarkdown daily.txt $(acti
 
 deploy: $(slide_htmls) $(post_markdowns) content/home/schedule.markdown  static/forums.html
 	hugo
-	rsync -rxi --delete-after public/ cs-prod:/webroot/courses/cs/344/ka37/
+	rsync -rxi --delete-after public/ cs-prod:/webroot/courses/cs/344/22sp/
 	# --times --delete-after --delete-excluded
