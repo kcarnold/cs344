@@ -10,13 +10,13 @@ activity_md := ${shell find content/activities -name '*.Rmarkdown'}
 %.html: %.md
 	Rscript -e "rmarkdown::render('"$<"')"
 
-content/home/schedule.markdown: content/home/schedule.Rmarkdown daily.txt $(activity_md)
-	Rscript -e "rmarkdown::render_site('content/home/schedule.Rmarkdown',  encoding = 'UTF-8')"
+content/schedule.markdown: content/schedule.Rmarkdown daily.txt $(activity_md)
+	Rscript -e "rmarkdown::render_site('content/schedule.Rmarkdown',  encoding = 'UTF-8')"
 
 %.markdown: %.Rmarkdown
 	Rscript -e "rmarkdown::render_site('"$<"', encoding = 'UTF-8')"
 
-deploy: $(slide_htmls) $(post_markdowns) content/home/schedule.markdown  static/forums.html
+deploy: $(slide_htmls) $(post_markdowns) content/schedule.markdown  static/forums.html
 	hugo
 	rsync -rxi --delete-after public/ cs-prod:/webroot/courses/cs/344/22sp/
 	# --times --delete-after --delete-excluded
