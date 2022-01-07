@@ -1,64 +1,42 @@
 ---
 title: "CS 344: Artificial Intelligence"
-semester: "Spring 2022"
+semester: "Spring 2021"
 time: "11:30am"
-start: "01/10/2022"
-end: "04/29/2022"
+start: "02/03/2021"
+end: "05/15/2021"
 past_week: 0
 days: "MWF"
 ---
 
-===02/28/2022
 
-Note:: Spring Break
-
-===03/01/2022
-
-Note:: Spring Break
-
-===03/02/2022
-
-Note:: Spring Break
-
-===03/03/2022
-
-Note:: Spring Break
-
-===03/04/2022
-
-Note:: Spring Break
-
-
-===03/22/2022
+===03/04/2021
 
 Note:: Advising Day
 
-===03/23/2022
+===03/23/2021
 
 Note:: Advising Day
 
-===04/15/2022
+===04/14/2021
 
-Note:: Good Friday
-Note:: No Classes
+Note:: Advising Day
 
-===04/18/2022
 
-Note:: Easter Monday
-Note:: No Classes
+===04/04/2021
+Note:: Easter
 
-===04/21/2022
+===05/9/2021
 
 Note:: Friday Class Schedule
 
-===04/22/2022
+===05/7/2021
 
 Note:: Study Day
 
 
 
 
-===01/10/2022
+===02/03/2021
 Topic:: Kickoff, [Teachable Machine](https://teachablemachine.withgoogle.com/train/image), Logistics
 Read:: Syllabus
 Resources:: [Day 1 slides](/slides/w1d1/w1d1-intro.html)
@@ -83,7 +61,7 @@ Next time::
   * Frame the Scripture TPS with an example?
   * Maybe have a backup device in case Teachable Machine doesn't work for someone?
 
-===
+===02/04/2021
 Quiz:: Python review
 
   * Boolean function: does this string start with a capital letter?
@@ -129,6 +107,15 @@ Quiz:: Python review
 ===
 Topic:: Lab 0: Warm-up
 
+Notes::
+  <details><summary>Lab Logistics</summary>
+
+  * Come to Maroon lab. Fill in computers as available, others stand around the sides of
+    the room (at safe distance) for overview (then move to Gold lab)
+  * People at Maroon lab computers: **reboot into Linux**
+
+  </details>
+
 ===
 Topic:: Lab 1 (Chapter 1)
 
@@ -148,6 +135,9 @@ Next Time::
 Topic:: Guest lecture: KVL
 
 Due:: Reflection 1
+
+===02/11/2021
+Quiz:: Quiz 2
 
 ===
 Topic:: Guest lecture: KVL
@@ -267,6 +257,11 @@ Note:: Reflection delayed till next week
 
 Note:: Add and upvote [application areas](https://calvincollege.sharepoint.com/sites/Section_77915/_layouts/15/Doc.aspx?sourcedoc={11c65f0d-7020-4c67-a7b2-93a5521628a6}&action=edit&wd=target%28_Collaboration%20Space%2FWeekly%20Notes.one%7Cf65e590f-924e-461a-ad2d-681cc376dd7c%2FApplication%20Areas%7C334a318a-1626-4e37-91fd-6bf983ef82d4%2F%29&wdorigin=703)
 
+===3/4/2021
+Quiz:: Technical Check-in
+
+Released:: [Portfolio Repos](https://classroom.github.com/a/t9EfXnfw)
+
 ===
 Read:: The rest of chapter 4
 
@@ -360,9 +355,12 @@ Watch:: Lecture 2 of [MIT 6.S191](http://introtodeeplearning.com/)
 
 Try:: some [HuggingFace Transformers](https://huggingface.co/transformers/) notebooks, specifically: [overall functionality](https://colab.research.google.com/github/huggingface/transformers/blob/master/notebooks/03-pipelines.ipynb) and [text generation](https://colab.research.google.com/github/huggingface/blog/blob/master/notebooks/02_how_to_generate.ipynb)
 
-===
+===04/13/2021
 Opportunity:: [Human-Centered AI: Reliable, Safe and Trustworthy](https://iui.acm.org/2021/hcai_tutorial.html) (tutorial at Intelligent User Interfaces conferences)
 
+===
+
+advising day
 
 ===
 Topic:: Generative Models ([slides](/slides/2021-04-16%20Generative%20Models.pdf))
@@ -447,6 +445,7 @@ and https://arxiv.org/abs/2103.15679
 
 
 
+
 ===
 Topic:: Fairness and Bias
 
@@ -470,7 +469,16 @@ Watch:: [AlphaGo Documentary](https://www.youtube.com/watch?v=WXuK6gekU1Y) (opti
 
 Read:: [The Surprising Creativity of Digital Evolution](https://arxiv.org/abs/1803.03453v4)
 
-===04/28/2022
+===
+Topic:: Technical Review
+
+===
+Topic:: Finish technical review; Christian perspectives and commissioning
+
+===05/05/2021
+Note:: Last ordinary class meeting
+
+===05/13/2021
 Topic:: Final Project Showcase
 
 ===endofcal

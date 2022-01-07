@@ -1,12 +1,5 @@
 ---
-widget: blank
-headless: true
-design:
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '1'
-
 title: "Schedule"
-weight: 5
 ---
 
 ```{r setup, include=FALSE}
@@ -18,6 +11,8 @@ knitr::opts_chunk$set(echo = FALSE)
 library(daily)
 ```
 
+Note: All activities in the future are tentative.
+
 ```{r echo=FALSE}
 activity_dates <- Sys.glob(here::here('content/activities/*/*.markdown')) %>% 
   tibble(path = .) %>% 
@@ -25,7 +20,8 @@ activity_dates <- Sys.glob(here::here('content/activities/*/*.markdown')) %>%
   mutate(yaml = list(rmarkdown::yaml_front_matter(path)), title = yaml$title, slug = yaml$slug, dates = list(yaml$dates)) %>% 
   filter(!is.null(dates)) %>% 
   unnest_longer(dates, values_to = "date", indices_to = "kind") %>% 
-  select(slug, title, kind, date)
+  select(slug, title, kind, date) %>%
+  filter(date > "2022-01-01")
 
 activity_cal_data <- activity_dates %>% transmute(
   date = lubridate::ymd(date),
@@ -41,7 +37,7 @@ Sys.glob(here::here('static/slides/*/*.Rmd')) %>%
   rowwise() %>% 
   mutate(yaml = list(rmarkdown::yaml_front_matter(path)), title = yaml$title, date = yaml$date) %>% 
   mutate(path = str_extract(path, "(/slides/.+)$") %>% str_replace(".Rmd", ".html")) %>% 
-  filter(date > "2021-03-01") %>% 
+  filter(date > "2022-01-01") %>% 
   transmute(
     date = lubridate::ymd(date),
     label = "Slides",
