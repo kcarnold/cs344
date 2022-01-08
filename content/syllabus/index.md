@@ -14,10 +14,15 @@ This is a hands-on course on AI systems using machine learning, with a particula
 
 By the end of this course, you will demonstrate growth in your ability to:
 
--   *Design, implement,* and *analyze* some state-of-the-art types of data-fueled intelligent systems
--   *Design* and *analyze* how these intelligent systems relate with people, individually and collectively, through a Reformed Christian lens.
--   Communicate the above with peers and members of the general public
--   Contribute to a team that learns: identify what you need to learn, reflect on your own learning, and help others learn
+- Design a machine learning system to address a given challenge.
+    - Select an appropriate ML approach to solve a problem.
+    - Map characteristics of the problem onto elements of the approach.
+    - Identify necessary characteristics of the data required for an ML system.
+- Implement machine learning systems using both high-level and low-level programming interfaces.
+	- Write code to implement the forward pass of linear regression, logistic regression, and neural net extensions thereof. (compute predictions and loss)
+	- Design and implement data preprocessing processes to encode data into a format appropriate for machine learning modeling.
+- Critically analyze the use and misuse of AI and ML techniques in situations affecting people
+- Describe the history and trajectory of artificial intelligence
 
 ## Prerequisites
 
