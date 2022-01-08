@@ -6,7 +6,7 @@ This is a hands-on course on AI systems using machine learning, with a particula
 
 -   **Instructor**: Kenneth C. Arnold, Calvin University, North Hall NH298
 
--   **Meeting Time**: MWF 11:30-12:20, SB 382 (To be confirmed)
+-   **Meeting Time**: MWF 11:30-12:20, SB 382 (To be confirmed) and Gold Lab
 
 -   **Office/Teams Hours**: Generally Monday and Thursday afternoons; see my [Google Calendar](https://kenarnold.org/calendar.html) for details and exceptions. Or message me directly; time permitting, I'd love to chat.
 
@@ -44,27 +44,29 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 
 ## Policies
 
-**Grading**: Your final grade will be computed as the weighted average of your grade in each of 3 categories, representing each of the primary learning outcomes of the course:
+**Grading**: The final course grade will be composed of 2 elements:
 
--   **Technology** (50%): You demonstrated the newly learned ability to design, implement, analyze, debug, or understand something significant.
--   **Comm** (Communication or Community, depending on the week) (25%): You contributed to other students' learning. e.g., *asked or answered questions in class / on Piazza / informally, gave constructive peer feedback, contributed to a class forum*
--   **Context** (25%): You engaged with broader perspectives on AI. e.g., its history, its current or future impacts on individuals, organizations, societies, the environment, etc., or questions about how AI and Christian faith relate, etc.
+- Effort: did you do it, on time?
+- Mastery: did you get it?
 
-Each week (including exam week) you will turn in a reflection on your work and learning for the past week. In it, you will suggest a numeric grade for each of the 3 categories. (I reserve the right to deviate from your suggested grade.) Your grade for each category will be the average of each of the 14 grades in that category.
+Each activity in the course will be allocated 5 effort points. On-time submissions receive all 5 points; each business day late (i.e., excluding weekends) is penalized by 1 point. Everyone will receive 5 free effort points, i.e., you get five grace days. Please reserve these for cases of personal hardship. Exemptions per assignment will be granted in very limited circumstances.
 
-There will be weeks for which the structured content of the course does not give you a chance to sufficiently demonstrate learning in a given area. In such cases, you should proactively seek a learning opportunity in that category. I will provide some general resources; please ask for specific advice as needed. You may also simply take a 0 in that category that week; one or more of the lowest grades in each category will be dropped.
+For the *mastery* component of grading, .....
 
-**Late work**: Late submissions will only be accepted if prior arrangements have been made or you document an extenuating circumstance. Likewise, an incomplete grade (I) will only be given in unusual circumstances, and only if those circumstances have been confirmed by the Student Life office.
+This grading policy is experimental and depends on student buy-in and participation. I reserve the right to change the grading policy at any point.
+
+
+**Incompletes**: An incomplete grade (I) will only be given in unusual circumstances, and only if those circumstances have been confirmed by the Student Life office.
 
 **Attendance** is not mandatory, but highly encouraged, both for your own learning and as one of the main ways to contribute to other students' learning. Come to class to ask the questions that you think everyone else already knows the answer to but in fact they nod in agreement. Come to class to help your fellow students figure out that thing that just clicked for you yesterday. Or come because you want to discuss AI!
 
-I expect in-person attendance where possible, remote attendance when necessary, and asynchronous attendance when really necessary (e.g., you're in Asia and it's the middle of the night). I also expect you to be *cognitively* present: if you're not actually going to participate, don't come.
+I expect in-person attendance where possible, remote attendance when necessary, and asynchronous attendance when really necessary. I also expect you to be *cognitively* present: if you're not actually going to participate, don't come.
 
 **Disabilities**: Calvin University is committed to providing access to all students. If you are as student with a documented disability, please notify a disability coordinator in the Center for Student Success (located in Spoelhof University Center 360). If you have an accommodation memo, please come talk to me in the first two weeks of class.
 
 **Academic Integrity**: Your work in this class should demonstrate *gratitude* and *respect* to those whose work enables yours. It should demonstrate the *integrity* necessary to produce work that your future employer can legally use. And it should demonstrate an active embrace of the often-necessary struggle of figuring things out yourself. So I expect you to credit the people who help you, be they classmates or StackOverflow strangers, and heed the license terms under which they offer their code.
 
-**Etiquette**: We expect you to treat students and instructors for this with respect by adopting courteous communication practices throughout the course, either on the videos, which may be recorded, or the online forums. No personal attacks, trolling, bad language will be tolerated.
+**Etiquette**: We expect you to treat students and instructors for this with respect by adopting courteous communication practices throughout the course. No personal attacks, trolling, bad language will be tolerated.
 
 ### Diversity and Inclusion
 
@@ -73,7 +75,6 @@ I came to Calvin because I wanted to explore what our Christian calling to “ac
 I intend for this class to be an environment where we equally respect people of every ethnicity, gender, socioeconomic background, political learning, religious background, etc. I will try to create that community by having us read diverse voices, engage with issues of importance to people unlike ourselves, and structure discussions that require students to engage respectfully with perspectives different from their own. I invite your help.
 
 We will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I will welcome this feedback in whatever way is comfortable for you: in public, in private, via another person (such as our TA or my department chair, Keith VanderLinden), or via a report to [Safer Spaces](https://calvin.edu/offices-services/safer-spaces/) or the [provost's office](http://www.calvin.edu/go/comments-on-faculty/).
-
 
 ## Philosophy
 
