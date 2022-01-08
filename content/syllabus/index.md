@@ -56,7 +56,26 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 
 Each activity in the course will be allocated 5 effort points. On-time submissions receive all 5 points; each business day late (i.e., excluding weekends) is penalized by 1 point. Everyone will receive 5 free effort points, i.e., you get five grace days. Please reserve these for cases of personal hardship. Exemptions per assignment will be granted in very limited circumstances.
 
-For the *mastery* component of grading, .....
+The *mastery* component of grading (inspired by a system used at [Grinnell College](https://osera.cs.grinnell.edu/csc151/syllabus/)) will be composed of two grades for each unit. A mastery grade is awarded for a unit when a student provides evidence to demonstrate mastery of one or more of the learning outcomes for that unit.
+You present this evidence to the course staff by referring to a specific assignment in your weekly reflection (described later).
+
+> Alternatively, you may meet with the course staff (during office hours or during a lull in lab time) to earn a mastery grade. However, times to do this will be limited, so be prepared to provide written evidence.
+
+Mastery will be graded on a four-point scale (adapted from the [EMRF rubric](http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf) by Stutzman and Race):
+
+- **E**: Excellent
+    - Demonstrates complete understanding of the material
+    - No errors; could serve as an example solution
+- **M**: Meets expectations
+    - Demonstrates complete understanding of the material
+    - Minor errors
+- **R**: Needs Revision
+    - Demonstrates limited understanding of the material
+    - Many minor errors or one or more major errors
+- **N**: Not completed
+    - Not completed to a degree where understanding is evident
+
+You may earn up to 2 mastery grades during each week of class (ending Mondays unless otherwise indicated), and up to one mastery grade for each unit in the midterm and final projects. Generally you will attempt one new mastery grade and one revised assignment from a previous week during each week.
 
 This grading policy is experimental and depends on student buy-in and participation. I reserve the right to change the grading policy at any point.
 
