@@ -75,6 +75,7 @@ Before Wednesday class:
 
 * Skim the Syllabus
 * Sign up for Piazza
+* Fill out survey
 
 Before Friday class:
 
@@ -147,6 +148,17 @@ So, you should be:
 - Hands-on: lots of programming and analysis.
 - Typically one "lecture" meeting per week, two lab days
 - Reading and watching videos outside of class is expected. Make time for it.
+
+---
+
+## Sequence
+
+- First 6 or 7 weeks: fundamentals of machine learning
+  - Top-down: image classification using convolutional neural nets
+  - Bottom-up: array computing, elements of neural network modeling, learning by gradient descent
+- Then: repeat using language processing and Transformers models
+- Finally: applications and other topics (human-AI interaction, reinforcement learning, engineering and deployment considerations, ...)
+- Discussions on applications, ethics and social impact, and Christian perspectives throughout
 
 ---
 
