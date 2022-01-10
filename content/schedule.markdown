@@ -29,21 +29,18 @@ Note: All activities in the future are tentative.
 </tr></thead><tbody><tr>
 <!--  0 > -Inf -->
 </tr><tr>
-<td class = "odd"><div><details open><summary>1/10</summary><span class = "html"><p><strong>Topic</strong> Kickoff, <a href="https://teachablemachine.withgoogle.com/train/image">Teachable Machine</a>, Logistics</p>
+<td class = "odd"><div><details open><summary>1/10</summary><span class = "html"><p><strong>Topic</strong> Introduction</p>
 
-<p><strong>Read</strong> Syllabus</p>
+<p><strong>Resources</strong> </p>
 
-<p><strong>Resources</strong> <a href="/slides/w1d1/w1d1-intro.html">Day 1 slides</a></p>
+<ul>
+<li><a href="https://teachablemachine.withgoogle.com/train/image">Teachable Machine</a></li>
+<li>Syllabus</li>
+<li><a href="/slides/w1d1/w1d1-intro.html">Day 1 slides</a></li>
+</ul>
 </span></details></div></td>
 <td class = "odd"><div><details open><summary>1/11</summary><span class = "html"></span></details></div></td>
-<td class = "odd"><div><details open><summary>1/12</summary><span class = "html"><p><strong>Quiz</strong> Python review</p>
-</span></details></div></td>
-<td class = "odd"><div><details open><summary>1/13</summary><span class = "html"></span></details></div></td>
-<td class = "odd"><div><details open><summary>1/14</summary><span class = "html"><p><strong>Topic</strong> Lab 0: Warm-up</p>
-</span></details></div></td>
-<!--  1 > 0 -->
-</tr><tr>
-<td class = "odd"><div><details open><summary>1/17</summary><span class = "html"><p><strong>Topic</strong> Lab 1 (Chapter 1)</p>
+<td class = "odd"><div><details open><summary>1/12</summary><span class = "html"><p><strong>Topic</strong> History of AI (KVL)</p>
 
 <p><strong>Prep</strong> </p>
 
@@ -52,23 +49,27 @@ Note: All activities in the future are tentative.
 <li>Watch <a href="https://course.fast.ai/videos/?lesson=1">Lesson 1 Video</a></li>
 <li>Complete reading quiz</li>
 </ul>
+</span></details></div></td>
+<td class = "odd"><div><details open><summary>1/13</summary><span class = "html"></span></details></div></td>
+<td class = "odd"><div><details open><summary>1/14</summary><span class = "html"><p><strong>Topic</strong> Lab 0: Warm-up</p>
+</span></details></div></td>
+<!--  1 > 0 -->
+</tr><tr>
+<td class = "odd"><div><details open><summary>1/17</summary><span class = "html"><p><strong>Topic</strong> Data</p>
 
 <p><strong>Assigned</strong> <a href="/activities/homework-1">Homework 1</a></p>
 </span></details></div></td>
 <td class = "odd"><div><details open><summary>1/18</summary><span class = "html"></span></details></div></td>
-<td class = "odd"><div><details open><summary>1/19</summary><span class = "html"><p><strong>Topic</strong> Guest lecture: KVL</p>
-
-<p><strong>Due</strong> Reflection 1</p>
-</span></details></div></td>
+<td class = "odd"><div><details open><summary>1/19</summary><span class = "html"></span></details></div></td>
 <td class = "odd"><div><details open><summary>1/20</summary><span class = "html"></span></details></div></td>
-<td class = "odd"><div><details open><summary>1/21</summary><span class = "html"><p><strong>Topic</strong> Guest lecture: KVL</p>
+<td class = "odd"><div><details open><summary>1/21</summary><span class = "html"><p><strong>Topic</strong> Lab 1</p>
 </span></details></div></td>
 <!--  2 > 1 -->
 </tr><tr>
 <td class = "odd"><div><details open><summary>1/24</summary><span class = "html"><p><strong>Topic</strong> Lab 1 recap (<a href="/slides/w2d1/w2d1-debrief.html">slides</a>, <a href="https://nbviewer.jupyter.org/github/kcarnold/cs344/blob/main/src/Data_Loading_Code.ipynb">code</a>)</p>
 
 <p><strong>Read</strong> <a href="https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb">DL4C chapter 2</a>
-  <em>note: ignore the implementation of <code>class DataLoaders</code>.</em></p>
+  <em>note: ignore the implementation of <code>class DataLoaders</code></em>. Use duckduckgo instead of Bing.</p>
 
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=2">Lesson 2 Video</a></p>
 

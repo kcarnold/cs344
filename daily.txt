@@ -59,9 +59,12 @@ Note:: Study Day
 
 
 ===01/10/2022
-Topic:: Kickoff, [Teachable Machine](https://teachablemachine.withgoogle.com/train/image), Logistics
-Read:: Syllabus
-Resources:: [Day 1 slides](/slides/w1d1/w1d1-intro.html)
+Topic:: Introduction
+
+Resources::
+  - [Teachable Machine](https://teachablemachine.withgoogle.com/train/image)
+  - Syllabus
+  - [Day 1 slides](/slides/w1d1/w1d1-intro.html)
 
 Log::
   * 15+ min: think-pair-share about intelligence in Scripture (Psalm 103 example)
@@ -84,7 +87,16 @@ Next time::
   * Maybe have a backup device in case Teachable Machine doesn't work for someone?
 
 ===
-Quiz:: Python review
+Topic:: History of AI (KVL)
+
+Prep::
+  * read [DL4C chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
+  * Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
+  * Complete reading quiz
+
+
+
+Quiz: Python review
 
   * Boolean function: does this string start with a capital letter?
   * func returning a string: strip everything after (and including) the last underscore
@@ -130,33 +142,27 @@ Quiz:: Python review
 Topic:: Lab 0: Warm-up
 
 ===
-Topic:: Lab 1 (Chapter 1)
+Topic:: Data
 
-Prep::
-  * read [DL4C chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
-  * Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
-  * Complete reading quiz
+
 
 
 Next Time::
   * Simplify the questions.
-  * Give some guidance on logistics (remind Lab 0: github, Maroon lab not VMs, full-screen trick)
+  * Give some guidance on logistics (remind Lab 0: github, Maroon not VMs, full-screen trick)
   * Have students make some observations about individual images.
 
 
 ===
-Topic:: Guest lecture: KVL
-
-Due:: Reflection 1
 
 ===
-Topic:: Guest lecture: KVL
+Topic:: Lab 1
 
 ===
 Topic:: Lab 1 recap ([slides](/slides/w2d1/w2d1-debrief.html), [code](https://nbviewer.jupyter.org/github/kcarnold/cs344/blob/main/src/Data_Loading_Code.ipynb))
 
 Read:: [DL4C chapter 2](https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb)
-    *note: ignore the implementation of `class DataLoaders`.*
+    *note: ignore the implementation of `class DataLoaders`*. Use duckduckgo instead of Bing.
 Watch:: [Lesson 2 Video](https://course.fast.ai/videos/?lesson=2)
 Quiz:: Reading Quiz 2
 
