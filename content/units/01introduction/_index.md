@@ -6,11 +6,11 @@ weight: 1
 
 Students who complete this unit will demonstrate that they can:
 
-- Explain history of AI and some of its major milestones
+- Identify some of the major milestones in the history of AI.
 - Contrast contemporary ML-based and numerical AI with classical rule-based and symbolic AI
-- Describe how modern ML uses data to learn parameters for a program
-- Implement a simple image classifier on a pre-wrangled dataset using fast.ai.
+- Describe how modern machine learning uses data to learn parameters for a program
 - Implement basic numerical computing operations using NumPy
+- Implement a simple image classifier on a pre-wrangled dataset using fast.ai.
 
  Materials
 
