@@ -75,7 +75,19 @@ Mastery will be graded on a four-point scale (adapted from the [EMRF rubric](htt
 - **N**: Not completed
     - Not completed to a degree where understanding is evident
 
-You may earn up to 2 mastery grades during each week of class (ending Mondays unless otherwise indicated), and up to one mastery grade for each unit in the midterm and final projects. Generally you will attempt one new mastery grade and one revised assignment from a previous week during each week.
+
+**If I get an R, can I revise?**
+
+Yes, this is expected and highly encouraged. You can submit revisions in the same way that you submit new items. When submitting a revision:
+
+- Include in your weekly reflection a concise and specific explanation of the original error(s).
+- Submit a complete, standalone solution. Do not include evidence of your past errors.
+
+**When can I earn mastery grades?**
+
+You may earn up to 2 mastery grades during each week of class (ending Mondays unless otherwise indicated), and up to one mastery grade for each unit in the midterm and final projects. Generally you will attempt one new mastery grade and one revised assignment from a previous week during each week. 
+
+**This sounds unusual. Will we actually be doing this??**
 
 This grading policy is experimental and depends on student buy-in and participation. I reserve the right to change the grading policy at any point.
 
