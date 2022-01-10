@@ -36,8 +36,9 @@ Note: All activities in the future are tentative.
 <ul>
 <li><a href="https://teachablemachine.withgoogle.com/train/image">Teachable Machine</a></li>
 <li>Syllabus</li>
-<li><a href="/slides/w1d1/w1d1-intro.html">Day 1 slides</a></li>
 </ul>
+
+<p><strong>Slides</strong> <a href="/slides/w1d1/w1d1-intro.html">Welcome to CS 344</a></p>
 </span></details></div></td>
 <td class = "odd"><div><details open><summary>1/11</summary><span class = "html"></span></details></div></td>
 <td class = "odd"><div><details open><summary>1/12</summary><span class = "html"><p><strong>Topic</strong> History of AI (KVL)</p>

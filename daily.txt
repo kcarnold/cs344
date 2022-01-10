@@ -64,27 +64,41 @@ Topic:: Introduction
 Resources::
   - [Teachable Machine](https://teachablemachine.withgoogle.com/train/image)
   - Syllabus
-  - [Day 1 slides](/slides/w1d1/w1d1-intro.html)
 
 Log::
-  * 15+ min: think-pair-share about intelligence in Scripture (Psalm 103 example)
-  * 5 min: bare minimum logistics
-  * 15 min: Teachable Machine in partners
-  * 5 min: debrief Teachable Machine
-  * 5 min: objectives and send-off
+  - 15+ min: think-pair-share about how God expects intelligent behavior from his creatures generally and from his people specifically.
+    - students generated:
+      - perception
+      - self-preservation (I connected with cultural mandate)
+      - communication (I noted we'd be studying language)
+      - caring / empathy (I noted this is a pinnacle of intelligence, required for the love-your-neighbor commandment: as yourself!)
+  - 5 min: bare minimum logistics
+  - 15 min: Teachable Machine in partners
+    - Extensions:
+      - describe what it actually learned
+      - What does it do for "neither" or "both"?
+      - Try a new dataset?
+      - What would you have wanted to see to understand WHY it decided one way or another?
+  - 3 min: debrief Teachable Machine
 
 Reflection::
-  * People got talking with each other.
-  * People reflected on God's word and what it means for our class, in a way that
+  - People got talking with each other.
+  - People reflected on God's word and what it means for our class, in a way that
     will give persective to the rest of our time together.
-  * People got experience with machine learning and data collection.
+  - People got experience with machine learning and data collection.
 
   It wasn't perfect, but it was the right way to start the semester.
 
 Next time::
-  * Shorter Scripture passage
-  * Frame the Scripture TPS with an example?
-  * Maybe have a backup device in case Teachable Machine doesn't work for someone?
+  - Enumerate objectives for the God-expects activity
+    - e.g., that things we do without thinking actually require advanced intelligence (adaptive behavior). e.g., eating, walking
+  - Enumarete objectives and *debrief* for the Teachable Machine activity
+    - Dependence on data collection
+    - Bias, learning the easy things
+    - Mutual exclusion
+    - Need for explanation / visualization of internals?
+    - Difference between this sort of "program" and an explicitly coded program.
+  - Maybe have a backup device in case Teachable Machine doesn't work for someone?
 
 ===
 Topic:: History of AI (KVL)
