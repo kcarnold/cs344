@@ -19,7 +19,7 @@ content/schedule.markdown: content/schedule.Rmarkdown daily.txt $(activity_md)
 	Rscript -e "rmarkdown::render_site('"$<"', encoding = 'UTF-8')"
 
 deploy: $(slide_htmls) $(post_markdowns) content/schedule.markdown  static/forums.html
-	hugo $(HUGO_FLAGS)
+	hugo $(HUGO_FLAGS) --cleanDestinationDir
 	rsync -rxi --delete-after public/ cs-prod:/webroot/courses/cs/344/22sp/
 # --times --delete-after --delete-excluded
 
