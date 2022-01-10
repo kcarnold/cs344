@@ -1,9 +1,9 @@
 ---
 title: "Welcome to CS 344"
-subtitle: "AI / Machine Learning<br>Spring 2021"
+subtitle: "AI / Machine Learning<br>Spring 2022"
 author: 
   - "Ken Arnold"
-date: '2021-02-03'
+date: '2022-01-10'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -12,7 +12,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      ratio: "16:9"
+      ratio: "4:3"
 ---
 
 ```{r setup, include=FALSE}
@@ -30,57 +30,30 @@ library(xaringanthemer)
 #)
 ```
 
-## Pandemic Protocol
-
-The virus has upped its game. So we need to do likewise.
-
-1. Please show your green Campus Clear as you walk in.
-
-2. Please record where you're sitting on the [attendance sheet](https://docs.google.com/spreadsheets/d/1FCogt4a5yv3_jauwA6EUkzCYrVV0Yww6OoLplM7Tq54/edit#gid=112619962):
-  * <http://tiny.cc/cs344here>
-  * or link on Moodle.
-
----
-
 ## God *expects* intelligence
 
-* In what way does this text expect *us* to perceive / think / act intelligently?
-* In what way does this text show us how *God* perceives / thinks / acts intelligently?
+- What *general* aspects of living as creatures require us to act intelligently?
+- What *specific* commands has God given to his people that require intelligent action?
 
-[**Psalm 103** NIV](https://www.biblegateway.com/passage/?search=psalm+103&version=NIV)
-
-Praise the Lord, my soul;
-    all my inmost being, praise his holy name.
-Praise the Lord, my soul,
-    and forget not all his benefits—
-who forgives all your sins
-    and heals all your diseases,
-who redeems your life from the pit
-    and crowns you with love and compassion,
-who satisfies your desires with good things
-    so that your youth is renewed like the eagle’s.
-
-The Lord works righteousness
-    and justice for all the oppressed.
-
-He made known his ways to Moses,
-    his deeds to the people of Israel:
-The Lord is compassionate and gracious,
-    slow to anger, abounding in love.
-He will not always accuse,
-    nor will he harbor his anger forever;
-he does not treat us as our sins deserve
-    or repay us according to our iniquities.
-For as high as the heavens are above the earth,
-    so great is his love for those who fear him;
-as far as the east is from the west,
-    so far has he removed our transgressions from us.
 
 ???
 
-**w2**: We are to remember: call to mind, recall past episodes of his work for us, individually and jointly, in our own experience or in history. We are to consider what implications these past episodes have for our present situation. And we are to think not just of episodes (like the Exodus) but also of the promises and statements about God (like the giving of the Law and the promises of blessing).
+general:
 
-**v6**: Now we learn some more specifics about God’s intelligence. He “works righteousness and justice”. That is, he uses eternal and grand standards of what the right actions and outcomes are, and applies them to a specific circumstance of each specific person. Furthermore, he identifies that certain people are oppressed—he must observe and evaluate the relationships of authority and vulnerability between people.
+- "be fruitful and multiply": general command
+- eating, drinking, avoiding danger, reproducing
+  - farming requires long-term planning
+  - hunting requires quick and targeted perception and action
+
+specific:
+
+- how are we to perceive others?
+- commanded to empathy: love neighbor as self. simulate another's experience.
+
+Psalm 103:
+
+- **v2**: We are to remember: call to mind, recall past episodes of his work for us, individually and jointly, in our own experience or in history. We are to consider what implications these past episodes have for our present situation. And we are to think not just of episodes (like the Exodus) but also of the promises and statements about God (like the giving of the Law and the promises of blessing).
+- **v6**: Now we learn some more specifics about God's intelligence. He “works righteousness and justice”. That is, he uses eternal and grand standards of what the right actions and outcomes are, and applies them to a specific circumstance of each specific person. Furthermore, he identifies that certain people are oppressed—he must observe and evaluate the relationships of authority and vulnerability between people.
 
 To understand this, we must act intelligently—we must recall what God did in and through Moses, understood not through direct experience but through reading and hearing the various accounts of these events. We must be able to understand what it means for a person to be “merciful” and “gracious”—descriptions of someone’s character and general pattern of behavior, abstracted from individual incidents. The concepts of mercy and grace themselves require us to understand moral requirements, evaluate ourselves in light of them (to know that we need mercy and grace), and recognize our state of affairs with God as the result of God being “merciful and gracious”.
 
@@ -88,14 +61,12 @@ To understand this, we must act intelligently—we must recall what God did in a
 
 ## Minimal Logistics
 
-Before Friday class:
+Before Wednesday class:
 
 * Skim the Syllabus
 * Sign up for Piazza
-* Optional Python review quiz
-* Come to Maroon lab on Friday (overflow to Gold)
 
-Before Monday class:
+Before Friday class:
 
 * Get *Deep Learning for Coders* (or read the notebook version) and read chapter 1
 * Watch <https://course.fast.ai/videos/?lesson=1>
@@ -110,18 +81,20 @@ Before Monday class:
 
 Pick a partner. Decide who will be the *trainer* and who's the *tester*.
 
-**Trainer**:
+**Trainer** (needs a laptop):
 
 * Go to <https://teachablemachine.withgoogle.com/train/image>
-* Train a simple classifier using your webcam.
-  * Ideas: use your hands, your face, objects you have on you, ...
+* Train a simple classifier using your webcam. Ideas:
+  - which hand are you holding up? happy or sad face? looking left or right? two colors?
 * Don't worry about making it super accurate.
 
 **Tester**:
 
 * Try out your partner's classifier (without touching the computer or the same objects).
   * Try to find some situations where it works
-  * Try to find the most amusing situation where it fails.
+  * Try to write a succinct description of what situations cause it to behave unexpectedly.
+
+We'll share descriptions after...
 
 ```{r echo=FALSE, results='asis'}
 countdown(minutes=15, update_every=15)
@@ -138,10 +111,10 @@ This is a course on developing AI systems using machine learning, with a particu
 
 By the end of this course, you will demonstrate growth in your ability to:
 
-- *Design, implement,* and *analyze* some state-of-the-art types of data-fueled intelligent systems
-- *Design* and *analyze* how these intelligent systems relate with people, individually and collectively, through a Reformed Christian lens.
-- Communicate the above with peers and members of the general public
-- Contribute to a team that learns: identify what you need to learn, reflect on your own learning, and help others learn
+- Design a machine learning system to address a given challenge.
+- Implement machine learning systems using both high-level and low-level programming interfaces.
+- Critically analyze the use and misuse of AI and ML techniques in situations affecting people
+- Describe the history and trajectory of artificial intelligence
 
 ---
 
@@ -161,9 +134,9 @@ So, you should be:
 
 ## Approach
 
-* *Very* hands-on
-* "Flipped": read and watch lectures at home, hack together in class
-  * Watching and/or reading is expected. Make time for it.
+- Hands-on: lots of programming and analysis.
+- Typically one "lecture" meeting per week, two lab days
+- Reading and watching videos outside of class is expected. Make time for it.
 
 ---
 
@@ -214,7 +187,7 @@ We will vary our pace depending on students' needs, but the structure will be pr
 
 ## Who am I?
 
-* Husband, father of two 3-year-old girls
+* Husband, father of two 4-year-old girls
 * Natural Language Processing + Human-Computer Interaction
 
 ---
@@ -224,7 +197,7 @@ We will vary our pace depending on students' needs, but the structure will be pr
 Your peers provide:
 
 * **Collaborators**. You'll be able to do great projects together.
-* **Learning community**. I may be one of your last official teachers. But you most keep learning.
+* **Learning community**. I may be one of your last official teachers. But you must keep learning.
 * **Discussion partners**. Your peers bring valuable perspectives.
 * **Practice analyzing other people's work**. It will be most of what you do. So we must practice it. We will do some peer feedback during our time together.
 
@@ -239,27 +212,21 @@ Your peers provide:
 
 ---
 
-## Ungrading.
+## Weekly Reflections
 
-Any work that can be graded consistently, fairly, and efficiently can be automated.
+- Goal: *meta*cognition: awareness of what you know and don't.
+- weekly short writeup highlighting two pieces of work:
+  1. something that shows you've achieved the week's learning objectives (typically lab / homework)
+  2. something you've revised from a previous week, and how it's improved.
+- Simple grading system:
+  - Effort: credit for timely submission (don't get behind!)
+  - Mastery: simple grades for the items highlighted in reflections
 
-We must focus on skills that cannot be automated.
-
-Most important: *meta*cognition: awareness of what you know and don't.
-
-We practice this by active reflection on your learning.
-
-Evidence is super-clear: intrinsic motivation is awesome, curiosity and creativity
-are core to what make us human, and grading kills intrinsic motivation and curiosity.
-
-How? You'll suggest your own grades for your *learning* (not your *work*) each *week*,
-and finally an overall written self-reflection.
-
-See syllabus for details.
+details in syllabus.
 
 ---
 
-## Testers needed
+## Projects
 
-Need 1 or 2 people to stay after class (or Teams later) to test our remote lab setup.
-
+- Midterm project: analyze and partially replicate an existing machine learning result (paper, blog post, Kaggle competition, etc.)
+- Final project: do new work
