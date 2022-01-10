@@ -89,7 +89,7 @@ Yes, this is expected and highly encouraged. You can submit revisions in the sam
 
 **When can I earn mastery grades?**
 
-You may earn up to 2 mastery grades during each week of class (ending Mondays unless otherwise indicated), and up to one mastery grade for each unit in the midterm and final projects. Generally you will attempt one new mastery grade and one revised assignment from a previous week during each week. 
+You may earn up to 2 mastery grades during each week of class (ending Mondays unless otherwise indicated), and up to one mastery grade for each unit in the midterm and final projects. Generally you will attempt one new mastery grade and one revised assignment from a previous week during each week.
 
 **This sounds unusual. Will we actually be doing this??**
 
@@ -133,13 +133,17 @@ The course may look quite different from other courses that you have taken. Trus
 
 ## Typical Weekly Schedule
 
--   *Preparation*: a reading and a video lecture, assessed by a short quiz (graded leniently) due Monday at class time
+* **Weekend**: read (actively!) a textbook chapter, watch a video lecture
+- **Monday**
+    - meet in lab for a guided activity.
+    - complete a reading quiz by end of day
+* **Tuesday**: write your weekly learning reflection, contribute to discussion forums
+* **Wednesday**
+    - meet in classroom to debrief lab, discuss concepts, discuss AI applications or perspectives
+* **Thursday**: take a content quiz
+* **Friday**: meet in lab to work on homework / project; some lectures as needed
 
--   *Lab*: reproducing a book chapter and making small, guided extensions
-
--   *Homework*: applying a technique or concept in a new area
-
--   *Quiz*: a short check-in of what you've learned
+More description about specific elements:
 
 -   *Discussion*: participate in a class-wide discussion forum (some components in person, others on Piazza); summarize your perspective in a portfolio piece. Most discussions will be case studies on specific technologies, focusing on:
 
@@ -147,17 +151,8 @@ The course may look quite different from other courses that you have taken. Trus
     -   What impact does it have?
     -   How can we constructively assess it (generally, but not always, from a reformed Christian viewpoint)?
 
--   *Reflection*: a summary of your learning the past week (private to you and the course staff) *due Wednesday end of day*
+-   *Reflection*: a summary of your learning the past week (private to you and the course staff) *due Wednesday end of day*. Reflections have 3 parts:
 
-    -   Reflections are structured according to the three primary areas discussed in Grading above
-    -   Specific prompts will be provided in Moodle, but will generally include what has gone well for your progress in that area (refer to specific evidence), what difficulties you are still facing, and what you want to keep doing or change.
-
-In the final weeks of the semester, project work will replace many of these elements (see Project below). You will present your project during our final exam time (May 13 at 9am) and submit your final reflection that evening.
-
-### Weekly Structure
-
-A week will frequently look like:
-
--   Monday: *in lab*. Go through an activity closely based on the textbook
--   Wednesday in classroom: debrief and Q&A about the reading / lab; discussion about an AI application or perspective
--   Friday *in lab*: working on homework
+    1. What assignment you're turning in for mastery credit this week.
+    2. What assignment you've revised for mastery credit this week: summarize what your specific errors were.
+    3. What work, if any, you are turning in late. For each activity, specify how many Effort points it should be awarded according to the late work policy described above.
