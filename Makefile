@@ -19,4 +19,7 @@ content/schedule.markdown: content/schedule.Rmarkdown daily.txt $(activity_md)
 deploy: $(slide_htmls) $(post_markdowns) content/schedule.markdown  static/forums.html
 	hugo
 	rsync -rxi --delete-after public/ cs-prod:/webroot/courses/cs/344/22sp/
-	# --times --delete-after --delete-excluded
+# --times --delete-after --delete-excluded
+
+serve:
+	hugo server --disableFastRender
