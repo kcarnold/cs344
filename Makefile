@@ -1,6 +1,7 @@
 ALL: deploy
 
-slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides -iname '*.Rmd' -and -not -iname "*slides-common*"))
+slide_sources := $(wildcard content/units/slides*.Rmd)
+slide_htmls := $(patsubst %.Rmd,%.html,$(slide_sources))
 post_markdowns := $(patsubst %.Rmarkdown,%.markdown,$(shell find content -name '*.Rmarkdown'))
 activity_md := ${shell find content/activities -name '*.Rmarkdown'}
 

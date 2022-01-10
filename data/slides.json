@@ -1,0 +1,13 @@
+{"slides": [
+    {
+        "pathMatch": "01introduction",
+        "contents": [{
+        "filename": "slides-w1d1.html",
+        "title": "Introduction"
+        }
+    ]},
+    {
+        "pathMatch": "02data",
+        "contents": []
+    }
+]}

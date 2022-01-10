@@ -1,0 +1,44 @@
+{{ partial "header.html" . }}
+
+Unit?
+
+<h1>{{ .Title | markdownify }}</h1>
+
+Slides:
+
+{{ range $.Site.Data.slides.slides }}
+{{ if (strings.Count (index . "pathMatch") $.Path) }}
+{{ range (index . "contents") }}
+<a href="{{index . "filename"}}">{{ index . "title" }}</a>
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ .Content }}
+
+
+{{ if .Sections }}
+<ul>
+{{ range .Sections }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </li>
+{{ end }}
+</ul>
+{{ else }}
+
+
+<ul>
+  {{ $pages := .Pages.ByTitle }}
+  {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+  {{ range (where $pages "Section" .Section ) }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+
+{{ end }}
+
+{{ partial "footer.html" . }}

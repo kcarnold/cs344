@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Welcome to CS 344</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ken Arnold" />
+    <meta name="date" content="2022-01-10" />
+    <script src="libs/header-attrs-2.11.3/header-attrs.js"></script>
+    <link href="libs/countdown-0.3.5/countdown.css" rel="stylesheet" />
+    <script src="libs/countdown-0.3.5/countdown.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Welcome to CS 344
+## AI / Machine Learning<br>Spring 2022
+### Ken Arnold
+### 2022-01-10
+
+---
+
+
+
+
+
+
+## Masks required.
+
+- Even if you're fully vaccinated.
+- Even if you just recovered from COVID
+- Up over nose, down over chin.
+
+Recommended: surgical + cloth, or N95/KN95/KF94
+
+---
+
+## God *expects* intelligence
+
+- What *general* aspects of living as creatures require us to act intelligently?
+- What *specific* commands has God given to his people that require intelligent action?
+
+
+???
+
+general:
+
+- "be fruitful and multiply": general command
+- eating, drinking, avoiding danger, reproducing
+  - farming requires long-term planning
+  - hunting requires quick and targeted perception and action
+
+specific:
+
+- how are we to perceive others?
+- commanded to empathy: love neighbor as self. simulate another's experience.
+
+Psalm 103:
+
+- **v2**: We are to remember: call to mind, recall past episodes of his work for us, individually and jointly, in our own experience or in history. We are to consider what implications these past episodes have for our present situation. And we are to think not just of episodes (like the Exodus) but also of the promises and statements about God (like the giving of the Law and the promises of blessing).
+- **v6**: Now we learn some more specifics about God's intelligence. He “works righteousness and justice”. That is, he uses eternal and grand standards of what the right actions and outcomes are, and applies them to a specific circumstance of each specific person. Furthermore, he identifies that certain people are oppressed—he must observe and evaluate the relationships of authority and vulnerability between people.
+
+To understand this, we must act intelligently—we must recall what God did in and through Moses, understood not through direct experience but through reading and hearing the various accounts of these events. We must be able to understand what it means for a person to be “merciful” and “gracious”—descriptions of someone’s character and general pattern of behavior, abstracted from individual incidents. The concepts of mercy and grace themselves require us to understand moral requirements, evaluate ourselves in light of them (to know that we need mercy and grace), and recognize our state of affairs with God as the result of God being “merciful and gracious”.
+
+---
+
+## Minimal Logistics
+
+Before Wednesday class:
+
+* Skim the Syllabus
+* Sign up for Piazza
+* Fill out survey
+
+Before Friday class:
+
+* Get *Deep Learning for Coders* (or read the notebook version) and read chapter 1
+* Watch &lt;https://course.fast.ai/videos/?lesson=1&gt;
+* Complete the reading quiz on Moodle
+
+
+---
+
+.center[
+## Let's do some machine learning!
+]
+
+Pick a partner. Decide who will be the *trainer* and who's the *tester*.
+
+**Trainer** (needs a laptop):
+
+* Go to &lt;https://teachablemachine.withgoogle.com/train/image&gt;
+* Train a simple classifier using your webcam. Ideas:
+  - which hand are you holding up? happy or sad face? looking left or right? two colors?
+* Don't worry about making it super accurate.
+
+**Tester**:
+
+* Try out your partner's classifier (without touching the computer or the same objects).
+  * Try to find some situations where it works
+  * Try to write a succinct description of what situations cause it to behave unexpectedly.
+
+We'll share descriptions after...
+
+<div class="countdown blink-colon noupdate-15" id="timer_61dc88a4" style="right:0;bottom:0;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+
+---
+
+## What is this course?
+
+This is a course on developing AI systems using machine learning, with a particular emphasis on deep neural networks.
+
+### Objectives
+
+By the end of this course, you will demonstrate growth in your ability to:
+
+- Design a machine learning system to address a given challenge.
+- Implement machine learning systems using both high-level and low-level programming interfaces.
+- Critically analyze the use and misuse of AI and ML techniques in situations affecting people
+- Describe the history and trajectory of artificial intelligence
+
+---
+
+## Real objective
+
+.center[
+**You graduate and do amazing work in AI.**
+]
+
+So, you should be:
+
+* self-directed, collaborative learners
+* able to be immediately productive at some kinds of ML problems
+* in the habit of practicing the integrity and perseverance needed to work in a team
+
+---
+
+## Approach
+
+- Hands-on: lots of programming and analysis.
+- Typically one "lecture" meeting per week, two lab days
+- Reading and watching videos outside of class is expected. Make time for it.
+
+---
+
+## Sequence
+
+- First 6 or 7 weeks: fundamentals of machine learning
+  - Top-down: image classification using convolutional neural nets
+  - Bottom-up: array computing, elements of neural network modeling, learning by gradient descent
+- Then: repeat using language processing and Transformers models
+- Finally: applications and other topics (human-AI interaction, reinforcement learning, engineering and deployment considerations, ...)
+- Discussions on applications, ethics and social impact, and Christian perspectives throughout
+
+---
+
+## Materials
+
+.pull-left[
+![](https://images-na.ssl-images-amazon.com/images/I/516YvsJCS9L._SX379_BO1,204,203,200_.jpg)
+]
+
+.pull-right[
+Why the [fastai course](https://course.fast.ai/)?
+
+* Author Jeremy Howard (author and video lecturer) has extensive experience
+* Past students of the fastai course have published original research and won competitions
+* Custom [software library](https://docs.fast.ai/) builds on PyTorch
+  * a close competitor to TensorFlow
+  * popular in academic research
+  * [layered API](https://www.mdpi.com/2078-2489/11/2/108/htm) speeds up development
+* Jupyter Notebooks: you can run everything yourself
+]
+
+---
+
+## Why not just learn this on your own?
+
+This course gives you:
+
+* Structure
+* An instructor
+* Peers
+* Freedom to ask stupid questions
+
+---
+
+## Structure
+
+We will vary our pace depending on students' needs, but the structure will be predictable:
+
+* **Weekend**: read (actively!) a textbook chapter, watch a video lecture
+* **Monday Lab**: apply what you've just read, extend it slightly
+* **Tuesday**: write your weekly learning reflection, contribute to discussion forums
+* **Wednesday Discussion** (in classroom): debrief lab, discuss perspectives
+* **Thursday**: take a content quiz (most weeks, not this week)
+* **Friday Lab**: work on homework / project; micro-lectures as needed
+
+
+---
+
+## Who am I?
+
+* Husband, father of two 4-year-old girls
+* Natural Language Processing + Human-Computer Interaction
+
+---
+
+## Peers
+
+Your peers provide:
+
+* **Collaborators**. You'll be able to do great projects together.
+* **Learning community**. I may be one of your last official teachers. But you must keep learning.
+* **Discussion partners**. Your peers bring valuable perspectives.
+* **Practice analyzing other people's work**. It will be most of what you do. So we must practice it. We will do some peer feedback during our time together.
+
+---
+
+## "I don't know"
+
+* Say this often.
+* I will too.
+* Ask questions on Piazza.
+* When you've figured it out, communicate (e.g., a blog)
+
+---
+
+## Weekly Reflections
+
+- Goal: *meta*cognition: awareness of what you know and don't.
+- weekly short writeup highlighting two pieces of work:
+  1. something that shows you've achieved the week's learning objectives (typically lab / homework)
+  2. something you've revised from a previous week, and how it's improved.
+- Simple grading system:
+  - Effort: credit for timely submission (don't get behind!)
+  - Mastery: simple grades for the items highlighted in reflections
+
+details in syllabus.
+
+---
+
+## Projects
+
+- Midterm project: analyze and partially replicate an existing machine learning result (paper, blog post, Kaggle competition, etc.)
+- Final project: do new work
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "4:3"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
