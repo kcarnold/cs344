@@ -22,8 +22,8 @@ menu:
     - name: Schedule
       url: "/schedule"
       weight: 3
-    - name: Activities
-      url: "/activities"
+    - name: Units
+      url: "/units"
       weight: 4
     - name: Project
       url: "/project"
