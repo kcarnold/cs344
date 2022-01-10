@@ -30,6 +30,16 @@ library(xaringanthemer)
 #)
 ```
 
+## Masks required.
+
+- Even if you're fully vaccinated.
+- Even if you just recovered from COVID
+- Up over nose, down over chin.
+
+Recommended: surgical + cloth, or N95/KN95/KF94
+
+---
+
 ## God *expects* intelligence
 
 - What *general* aspects of living as creatures require us to act intelligently?
