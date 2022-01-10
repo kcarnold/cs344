@@ -37,7 +37,7 @@ menu:
 
 params:
   description: ""
-  footer: "&copy; [Ken Arnold](https://kenarnold.org) 2021 -- {Year} | [Github](https://github.com/kcarnold)"
+  footer: "&copy; [Ken Arnold](https://kenarnold.org) 2021 -- {Year} | [GitHub](https://github.com/kcarnold)"
 
 markup:
   highlight:
