@@ -1,22 +1,22 @@
 {{ partial "header.html" . }}
 
 
-<ul  class="breadcrumbs">
-    {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
-</ul>
-  {{ define "breadcrumbnav" }}
-  {{ if .p1.Parent }}
-  {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
-  {{ else if not .p1.IsHome }}
-  {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
-  {{ end }}
-  <li{{ if eq .p1 .p2 }} class="active"{{ end }}>
-    <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
-  </li>
-  {{ end }}
-  
-  
+{{ define "breadcrumbnav" }}
+{{ if .p1.Parent }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+{{ else if not .p1.IsHome }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+{{ end }}
+<li{{ if eq .p1 .p2 }} class="active"{{ end }}>
+<a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
+</li>
+{{ end }}
+
+
 <div class="article-meta{{- if .Draft }} draft{{end}}">
+    <ul  class="breadcrumbs">
+        {{ template "breadcrumbnav" (dict "p1" .Parent "p2" .) }}
+    </ul>    
 <h1><span class="title">{{ .Title | markdownify }}</span></h1>
 {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
 {{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
