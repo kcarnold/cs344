@@ -12,7 +12,7 @@
   <li>
     <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> ({{.Date.Format "Jan 2"}})
     <ul>
-        {{ $pages := .Pages.ByTitle }}
+        {{ $pages := .Pages.ByDate }}
         {{ range (where $pages "Section" .Section ) }}
         <li>
           <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> ({{ .Date.Format "Mon Jan 2" }})
