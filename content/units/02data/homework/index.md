@@ -1,23 +1,8 @@
 ---
-title: Homework 1
+title: Homework 2
 author: Ken Arnold
-date: '2021-02-15'
-slug: homework-1
-categories: []
-tags: []
-subtitle: ''
-summary: ''
-authors: []
-lastmod: '2021-03-05T13:25:34-05:00'
-featured: no
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
-dates:
-  assigned: '2022-01-17'
-  due: '2022-01-24'
-projects: []
+date: '2022-01-21'
+draft: true
 ---
 
 Suppose that you have been contracted by a restaurant marketing firm to evaluate the potential of using AI to help them categorize photos of their clients' restaurants.
