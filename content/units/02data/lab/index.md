@@ -1,28 +1,13 @@
 ---
-title: 'Lab 1'
-author: Ken Arnold
-date: '2021-02-08'
-slug: lab-1
-categories: []
-tags:
-  - lab
-subtitle: ''
+title: 'Lab 2: Basic image classifier'
+author: "Ken Arnold"
+date: 2022-01-17
 summary: 'Try out some variations on a classification model.'
-authors: []
-lastmod: '2021-02-08T17:30:58-05:00'
-featured: no
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
-projects: []
 ---
-
-# Lab 1
 
 ## Getting Started
 
-Partner up (optional but encouraged) and accept your repo [here](https://classroom.github.com/g/uXsCgWBr).
+Get the template TODO
 
 ## Instructions
 
