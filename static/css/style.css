@@ -30,6 +30,21 @@ hr {
   background: rgb(218, 37, 37);
 }
 
+/* https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs li {
+  display: inline;
+}
+
+.breadcrumbs li+li:before {
+  padding: 5px;
+  color: black;
+  content: "/\00a0";
+}
+
 /* code */
 pre {
   border: 1px solid #ddd;
