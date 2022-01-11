@@ -3,6 +3,7 @@ title: 'Lab 2: Basic image classifier'
 author: "Ken Arnold"
 date: 2022-01-17
 summary: 'Try out some variations on a classification model.'
+draft: true
 ---
 
 ## Getting Started

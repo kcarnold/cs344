@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+<div class="article-meta{{- if .Draft }} draft{{end}}">
+<h1><span class="title">{{ .Title | markdownify }}</span></h1>
+{{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
+{{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
+</div>
+
+<main>
+{{ if .Draft }}
+<h2>Warning: This is draft content. Do not start work on this assignment yet.</h2>
+{{ end }}
+
+{{ .Content }}
+</main>
+
+{{ partial "footer.html" . }}
