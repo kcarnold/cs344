@@ -18,10 +18,4 @@ Students who complete this unit will demonstrate that they can:
 - Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
 - *optional*: Watch [Lecture 1 of MIT 6.S191 Deep Learning](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1)
 
-Discussion Forum:
-
-- identify AI examples
-- what's intelligent about it?
-- what resources were needed to make it?
-
 Midterm project milestone: choose a result to replicate
