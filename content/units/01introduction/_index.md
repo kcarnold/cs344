@@ -14,18 +14,9 @@ Students who complete this unit will demonstrate that they can:
 
  Materials
 
-- DL4C ch1, lesson 1 video
-- Supplemental: MIT course video
-
-Assignments:
-- Lab 0 - Warmup
-    - Introduction to array computing
-    - Applying NumPy operations (elementwise, dot products)
-    - Writing functions
-        - Write the linear-projection function: assert dimensions compatible, do multiply+add
-        - Get comfortable with functions
-- Lab 1 - basic fast.ai classifier with variations
-- Homework 1: Computing warm-up
+- Read [DL4C chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
+- Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
+- *optional*: Watch [Lecture 1 of MIT 6.S191 Deep Learning](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1)
 
 Discussion Forum:
 
