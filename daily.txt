@@ -92,7 +92,7 @@ Reflection::
 Next time::
   - Enumerate objectives for the God-expects activity
     - e.g., that things we do without thinking actually require advanced intelligence (adaptive behavior). e.g., eating, walking
-  - Enumarete objectives and *debrief* for the Teachable Machine activity
+  - Enumerate objectives and *debrief* for the Teachable Machine activity
     - Dependence on data collection
     - Bias, learning the easy things
     - Mutual exclusion
@@ -107,49 +107,6 @@ Prep::
   * read [DL4C chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
   * Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
   * Complete reading quiz
-
-
-
-Quiz: Python review
-
-  * Boolean function: does this string start with a capital letter?
-  * func returning a string: strip everything after (and including) the last underscore
-  * do this for every string in a list, without rewriting the logic
-  * return the sum of the square of every element in a list
-
-  ```
-  x = 'grizzly', 'white', 'teddy'
-  a,b,c = x
-  print(c)
-  ```
-
-  ```
-  class Thing:
-    def __getitem__(self, x): return f"Item {x}"
-    def __getattr__(self, x): return f"Attr {x}"
-
-  # explain the result of each of the following lines.
-  y = Thing
-  y.abc
-  y['abc']
-  z = y()
-  z.abc
-  z['abc']
-  z[abc]
-  ```
-
-  Suppose you have `def do_to_all(x, f): return [f(o) for o in x]`
-
-  Fill in the blank:
-
-  ```
-  paths = ['a_b1', 'b_c2']
-  stripped_paths = do_to_all(paths, _____)
-  print(paths)
-  ```
-
-  So that you get ['a', 'b']. Explain why this works.
-
 
 
 ===
