@@ -4,6 +4,8 @@ title: "Schedule"
 
 
 
+<h2>Warning: This page may be out of date.</h2>
+
 Note: All activities in the future are tentative.
 
 
@@ -57,8 +59,6 @@ Note: All activities in the future are tentative.
 <!--  1 > 0 -->
 </tr><tr>
 <td class = "odd"><div><details open><summary>1/17</summary><span class = "html"><p><strong>Topic</strong> Data</p>
-
-<p><strong>Assigned</strong> <a href="/activities/homework-1">Homework 1</a></p>
 </span></details></div></td>
 <td class = "odd"><div><details open><summary>1/18</summary><span class = "html"></span></details></div></td>
 <td class = "odd"><div><details open><summary>1/19</summary><span class = "html"></span></details></div></td>
@@ -75,8 +75,6 @@ Note: All activities in the future are tentative.
 <p><strong>Watch</strong> <a href="https://course.fast.ai/videos/?lesson=2">Lesson 2 Video</a></p>
 
 <p><strong>Quiz</strong> Reading Quiz 2</p>
-
-<p><strong>Due</strong> <a href="/activities/homework-1">Homework 1</a></p>
 </span></details></div></td>
 <td class = "odd"><div><details open><summary>1/25</summary><span class = "html"></span></details></div></td>
 <td class = "odd"><div><details open><summary>1/26</summary><span class = "html"><p><strong>Topic</strong> Review, Intro to AI Ethics <a href="/slides/w2d2/w2d2-ethics.html">slides</a></p>

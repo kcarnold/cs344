@@ -11,6 +11,8 @@ knitr::opts_chunk$set(echo = FALSE)
 library(daily)
 ```
 
+<h2>Warning: This page may be out of date.</h2>
+
 Note: All activities in the future are tentative.
 
 ```{r echo=FALSE}
