@@ -1,0 +1,42 @@
+{{ partial "header.html" . }}
+
+{{if not .IsHome }}
+<h1>{{ .Title | markdownify }}</h1>
+{{ end }}
+
+{{ .Content }}
+
+{{ if .Sections }}
+<ul>
+{{ range .Sections }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> ({{.Date.Format "Jan 2"}})
+    <ul>
+        {{ $pages := .Pages.ByTitle }}
+        {{ range (where $pages "Section" .Section ) }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> ({{ .Date.Format "Mon Jan 2" }})
+        </li>
+        {{ end }}
+      </ul>      
+  </li>
+{{ end }}
+</ul>
+{{ else }}
+
+Contents:
+
+<ul>
+  {{ $pages := .Pages.ByTitle }}
+  {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+  {{ range (where $pages "Section" .Section ) }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>  ({{ .Date.Format "Mon Jan 2" }})
+  </li>
+  {{ end }}
+</ul>
+
+
+{{ end }}
+
+{{ partial "footer.html" . }}
