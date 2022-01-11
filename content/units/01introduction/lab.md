@@ -4,6 +4,7 @@ author: Ken Arnold
 date: '2022-01-14'
 tags:
   - lab
+draft: true
 ---
 
 ## Objectives
