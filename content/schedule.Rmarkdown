@@ -28,6 +28,9 @@ activity_cal_data <- activity_dates %>% transmute(
   label = str_to_title(kind),
   contents = str_glue("[{title}](/activities/{slug})")
 )
+
+# library(fs)
+# dir_ls(here::here("content/units"), recurse = TRUE, glob = "*.md") %>% map_dfr(~ rmarkdown::yaml_front_matter(.), .id = 'file') %>% select(file, title, date) %>% extract(file, into = "url", regex = "content/(.+).md")
 ```
 
 ```{r}
