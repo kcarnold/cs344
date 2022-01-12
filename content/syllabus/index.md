@@ -60,7 +60,7 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 
 **Late work**: Everyone will receive 5 free effort points, i.e., you get five grace days. Please reserve these for cases of personal hardship. Exemptions per assignment will be granted in very limited circumstances. 
 
-The *mastery* component of grading (inspired by a system used at [Grinnell College](https://osera.cs.grinnell.edu/csc151/syllabus/)) will be composed of two grades for each unit. A mastery grade is awarded for a unit when a student provides evidence to demonstrate mastery of one or more of the learning outcomes for that unit.
+The *mastery* component of grading (inspired by a system used at [Grinnell College](https://osera.cs.grinnell.edu/csc151/syllabus/)) will be composed of two grades for each unit: an individual grade and a group grade. A mastery grade is awarded for a unit when a student provides evidence to demonstrate mastery of one or more of the learning outcomes for that unit.
 You present this evidence to the course staff by referring to a specific assignment in your weekly reflection (described later).
 
 > Alternatively, you may meet with the course staff (during office hours or during a lull in lab time) to earn a mastery grade. However, times to do this will be limited, so be prepared to provide written evidence.
@@ -95,6 +95,13 @@ You may earn up to 2 mastery grades during each week of class (ending Mondays un
 
 This grading policy is experimental and depends on student buy-in and participation. I reserve the right to change the grading policy at any point.
 
+**Can we work in pairs?**
+
+Lab, homework, and project activities should generally be done in pairs, though solo work is also fine. Teams of 3 can be okay too.
+
+However, group work can only get you one of the two mastery grades for a unit.
+
+Some weeks there will be review assignments available, which will provide you the opportunity to demonstrate individual mastery. (As a corollary, these assignments *must* be done individually, without consulting other students or aids.)
 
 **Incompletes**: An incomplete grade (I) will only be given in unusual circumstances, and only if those circumstances have been confirmed by the Student Life office.
 
