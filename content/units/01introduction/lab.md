@@ -26,7 +26,6 @@ draft: true
   setting up FastAI config
   Done.
   ```
-
 4. Log off and log back in.
 
 ## Jupyter Notebooks
@@ -39,7 +38,10 @@ in a Terminal window.
 Add a code cell that computes 1+1. Check the output.
 {{</task>}}
 
-Add a Markdown cell that looks like this:
+**Note carefully** the difference between **Command mode** and **Edit mode**. (see Help->Keyboard shortcuts).
+
+{{<task>}}
+Add a Markdown cell that looks like this (you may need to refer to Help->Markdown)
 
 > Here is some Markdown formatting:
 > 
@@ -47,7 +49,20 @@ Add a Markdown cell that looks like this:
 > - This *is* italic.
 > - This is a [link to Calvin's website](https://calvin.edu).
 
+"Run" the cell to ensure that it gets formatted correctly. Check that the website link opens correctly.
+{{</task>}}
+
+I highly encourage you to get comfortable with keyboard shortcuts for the following operations:
+
+- Switch between edit and command mode.
+- Insert a cell above or below
+- Change a cell to code / Markdown
+- Run the current cell (with or without selecting the cell below)
+
 ## NumPy
+
+Notice the Add a cell to `import numpy as np`; that's the standard way to import it.
+
 
 - Compute error, squared error, and MSE
 - Compute one-dim linear projection (mx + b)
