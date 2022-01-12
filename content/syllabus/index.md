@@ -55,7 +55,7 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 **Effort** points are awarded for satisfactory effort by the due date and are intended to keep you from getting behind in the course. The following types of activities count as effort points:
 
 - **Labs**, **Homework**, and weekly **reflections** will be considered satisfactory if an attempt has been made to answer all questions by the due date. Each activity will be allocated 5 effort points. On-time submissions receive all 5 points; late turn-ins are penalized by 1 point each business day (i.e., excluding weekends).
-**Discussion Forums** will be awarded 2 effort points if an original post with intellectual substance is made by the due date. Many discussion assignments will also include one or two replies to other students, which will count for 1 effort point each. Late posts may receive half credit.
+- **Discussion Forums** will be awarded 2 effort points if an original post with intellectual substance is made by the due date. Many discussion assignments will also include one or two replies to other students, which will count for 1 effort point each. Late posts may receive half credit.
 - All **Quizzes** (both preparation and review) count as 5 effort points. The actual score will be used: unlimited attempts will be allowed, so perfect scores are expected. Moodle makes it tedious to manage late quizzes, so each quiz will officially close a week late and no late quizzes will be accepted.
 
 **Late work**: Everyone will receive 5 free effort points, i.e., you get five grace days. Please reserve these for cases of personal hardship. Exemptions per assignment will be granted in very limited circumstances. 
