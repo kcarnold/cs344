@@ -35,7 +35,9 @@ You can start the Jupyter Notebook server either by finding it on the main menu
 (start typing "jup" and it should come right up) or running `jupyter notebook`
 in a Terminal window.
 
+{{<task>}}
 Add a code cell that computes 1+1. Check the output.
+{{</task>}}
 
 Add a Markdown cell that looks like this:
 

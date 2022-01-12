@@ -76,3 +76,22 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+/** Exercises */
+
+.exercise {
+	background: #D6E0CC;
+	border: 1px solid #777777;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 5px;
+}
+
+.exercise code {
+  background: #cad0c3;
+}
+
+/* override the above for highlight blocks, since unfortunately it gets too high specificity */
+.exercise .highlight code {
+  background: none;
+}
