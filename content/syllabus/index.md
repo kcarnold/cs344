@@ -43,7 +43,7 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 
 -   We will be using Piazza for class discussion. Many students have found that Piazza works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Find our class signup link at: <https://piazza.com/calvin/spring2022/cs344>
 
--   The lab machines are configured with the software needed in Linux. The Gold lab GPUs are slightly better, so we'll generally use them but Maroon should usually work too.For times when you need or want additional computing resources, you may use [Borg](https://borg.calvin.edu/), [Google Colab](https://colab.research.google.com/), [Paperspace](https://gradient.paperspace.com/), or other services.
+-   The lab machines are configured with the software needed in Linux. The Gold lab GPUs are slightly better, so we'll generally use them but Maroon should usually work too. For times when you need or want additional computing resources, you may use [Borg](https://borg.calvin.edu/), [Google Colab](https://colab.research.google.com/), [Paperspace](https://gradient.paperspace.com/), or other services.
 
 ## Policies
 
