@@ -100,36 +100,19 @@ This grading policy is experimental and depends on student buy-in and participat
 
 **Attendance** is not mandatory, but highly encouraged, both for your own learning and as one of the main ways to contribute to other students' learning. Come to class to ask the questions that you think everyone else already knows the answer to but in fact they nod in agreement. Come to class to help your fellow students figure out that thing that just clicked for you yesterday. Or come because you want to discuss AI!
 
-I expect in-person attendance where possible, remote attendance when necessary, and asynchronous attendance when really necessary. I also expect you to be *cognitively* present: if you're not actually going to participate, don't come.
+**Disabilities**: Calvin University is committed to providing access to all students. If you are as student with a documented disability, please notify a disability coordinator in the Center for Student Success (located in Spoelhof University Center 360). If you have an accommodation memo, please come talk to me in the first two weeks of class. **If something comes up mid-semester, like an injury, please reach out to the disability coordinator and me.**
 
-**Disabilities**: Calvin University is committed to providing access to all students. If you are as student with a documented disability, please notify a disability coordinator in the Center for Student Success (located in Spoelhof University Center 360). If you have an accommodation memo, please come talk to me in the first two weeks of class.
-
-**Academic Integrity**: Your work in this class should demonstrate *gratitude* and *respect* to those whose work enables yours. It should demonstrate the *integrity* necessary to produce work that your future employer can legally use. And it should demonstrate an active embrace of the often-necessary struggle of figuring things out yourself. So I expect you to credit the people who help you, be they classmates or StackOverflow strangers, and heed the license terms under which they offer their code.
+**Academic Integrity**: Your work in this class should demonstrate *gratitude* and *respect* to those whose work enables yours. It should demonstrate the *integrity* necessary to produce work that your future employer can legally use. And it should demonstrate an active embrace of the often-necessary struggle of figuring things out yourself. So I expect you to *credit the people who help you*, be they classmates or StackOverflow strangers, and *heed the license terms* under which they offer their code.
 
 **Etiquette**: We expect you to treat students and instructors for this with respect by adopting courteous communication practices throughout the course. No personal attacks, trolling, bad language will be tolerated.
 
 ### Diversity and Inclusion
 
-I came to Calvin because I wanted to explore what our Christian calling to “act justly” means in the context of data and the technologies that we use with it. Engaging that question wholeheartedly requires that each of us, me included, engage respectfully with perspectives very different from our own. For example, we must question those who abuse data for selfish gain, but we also must question the perspectives of those who challenge those abuses on purely secular grounds.
+I came to Calvin because I wanted to explore what our Christian calling to “act justly” means in the context of AI, data, and the technologies that we use with it. Engaging that question wholeheartedly requires that each of us, me included, engage respectfully with perspectives very different from our own. For example, we must question those who abuse data for selfish gain, but we also must question the perspectives of those who challenge those abuses on purely secular grounds.
 
 I intend for this class to be an environment where we equally respect people of every ethnicity, gender, socioeconomic background, political learning, religious background, etc. I will try to create that community by having us read diverse voices, engage with issues of importance to people unlike ourselves, and structure discussions that require students to engage respectfully with perspectives different from their own. I invite your help.
 
 We will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I will welcome this feedback in whatever way is comfortable for you: in public, in private, via another person (such as our TA or my department chair, Keith VanderLinden), or via a report to [Safer Spaces](https://calvin.edu/offices-services/safer-spaces/) or the [provost's office](http://www.calvin.edu/go/comments-on-faculty/).
-
-## Philosophy
-
-Our teaching philosophy is analogous to how both classical AI (planning) and modern machine learning systems (backpropagation) work: start with the goal, work backwards, and iteratively improve. So rather than starting with mathematical fundamentals, we will start by doing, then learn the fundamentals as we need to.
-
-The course may look quite different from other courses that you have taken. Trust me that this will still work---and even if it doesn't, you will still learn a lot if you put in the effort. That effort will entail:
-
--   A sustained effort throughout the semester ("cramming" is ineffective for retention)
-
-    -   Weekly learning reflections
-    -   Regular completion of at-home and in-class activities
-
--   A semester project that demonstrates depth in implementing and analyzing an intelligent technology (see **Project** below)
-
--   Contribution to peers' learning
 
 ## Typical Weekly Schedule
 
