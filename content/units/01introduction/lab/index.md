@@ -12,6 +12,22 @@ tags:
 - Apply mathematical operations to arrays using PyTorch
 - Encapsulate functionality into functions
 
+<div class="boxed" style="background: #fee;">
+
+### Hotfix
+
+If you were hitting problems on Friday in lab, it was probably because of a [bug](https://github.com/fastai/fastcore/issues/353). The fix didn't make it into the version that's installed on the lab computers, so here's a hot-fix:
+
+1. In the folder where your `lab01.ipynb` notebook file was, you may find a temporary folder named `tmpXXXXX`, where `XXX` are random characters. Look inside to see if it has folders named `annotations` and/or `images`. If so, you should delete this `tmpXXX` folder.
+2. On the Terminal, run `pip install 'fastcore>1.3.26'`.
+3. Restart the kernel on any Jupyter notebook that's running: on the "Kernel" menu, select "Restart and Run All".
+
+All the image-classifier code should now run.
+
+> If anyone is interested in what happened: the `untar_data` function extracts the archive into a temporary directory and then moves it to where you want it. (This is a bug because only the target directory should need to have space for the extracted data.) The temporary directory was incorrectly specified to be the *current* directory (`.`), which on our lab computers is on a network filesystem. So a room full of computers all running that same command increased the load on our local network to the point where the command took unacceptably long. The fix in the new release is to use the system temp storage, which is not necessarily the right place either but at least isn't on the network.
+
+</div>
+
 ### Environment Setup
 
 1. Boot the computer to Linux and log in.
