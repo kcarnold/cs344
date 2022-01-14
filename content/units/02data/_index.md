@@ -10,9 +10,9 @@ Students who complete this unit will demonstrate that they can:
 - Contrast a training set and validation set; explain appropriate uses of both
 - Write Python code to prepare a dataset for an image classifier.
 - Identify ethical issues pertaining to the collection and use of data in AI systems
-- Implement multidimensional numerical computing operations using NumPy (or PyTorch)
+- Implement multidimensional numerical computing operations using PyTorch
 
-Materials
+## Preparation
 
 - Read {{< fastbook num="2" nbname="02_production.ipynb" >}}
     - *note: ignore the implementation of `class DataLoaders`*.
@@ -20,7 +20,7 @@ Materials
 - Read {{< fastbook num="3" nbname="03_ethics.ipynb" >}}
 - Watch {{< fastvideo num="2" >}}
 
-
+<!-- 
 Activities
 - Lab 2: basic fast.ai classifier
     - maybe also: wrangling practice, tensor practice (some early Fundamentals)
@@ -32,4 +32,4 @@ Discussion Forum:
 
 - who has data on you? how much? what do you feel about that?
 
-Midterm project milestone: summarize existing results, generate questions
+Midterm project milestone: summarize existing results, generate questions -->
