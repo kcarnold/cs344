@@ -14,8 +14,8 @@ Students who complete this unit will demonstrate that they can:
 
  Materials
 
-- Read [DL4C chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
-- Watch [Lesson 1 Video](https://course.fast.ai/videos/?lesson=1)
+- Read {{< fastbook num="1" nbname="01_intro.ipynb" >}}
+- Watch {{< fastvideo num="1" >}}
 - *optional*: Watch [Lecture 1 of MIT 6.S191 Deep Learning](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1)
 
 Midterm project milestone: choose a result to replicate

@@ -13,9 +13,15 @@ Students who complete this unit will demonstrate that they can:
 - Implement multidimensional numerical computing operations using NumPy (or PyTorch)
 
 Materials
-- DL4C ch2, ch3
 
-- Activities
+- Read {{< fastbook num="2" nbname="02_production.ipynb" >}}
+    - *note: ignore the implementation of `class DataLoaders`*.
+    - Use duckduckgo instead of Bing.
+- Read {{< fastbook num="3" nbname="03_ethics.ipynb" >}}
+- Watch {{< fastvideo num="2" >}}
+
+
+Activities
 - Lab 2: basic fast.ai classifier
     - maybe also: wrangling practice, tensor practice (some early Fundamentals)
     - Review working with files in Python
