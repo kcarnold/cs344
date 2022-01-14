@@ -59,14 +59,56 @@ I highly encourage you to get comfortable with keyboard shortcuts for the follow
 - Change a cell to code / Markdown
 - Run the current cell (with or without selecting the cell below)
 
-## NumPy
+{{<task>}}
+Suppose a cell has multiple expressions in it, like this:
 
-Notice the Add a cell to `import numpy as np`; that's the standard way to import it.
+```python
+x = 1.0
+x * 2
+print("Something")
+x = x * 2
+x * 2
+```
 
+Which one gets displayed? Can you figure out the general rule for what output gets displayed from a notebook cell?
+{{</task>}}
+
+## Image Classifier
+
+In the next section, you'll find the image classifier code from Chapter 1 of the textbook.
+
+Although the original was famously short, it was inhospitably jam-packed. So I've taken the liberty to space things out a bit and split it into multiple cells.
+
+{{<task>}}Run the code blocks as is.{{</task>}}
+
+Although several things appear on the way, refer to the final table for the accuracy of the resulting classifier.
+
+For our first look at this code, let's explore a few of its parts. Add Markdown cells for your answers to each of these exercises:
+
+{{<task>}}
+1. What is `path`? (Make a cell that displays its value.) Find the corresponding files on your computer. Describe how they are organized.
+2. Run `images = get_image_files_sorted(path)`, then `first_img = images[0]`. Describe what `images` is a list of. And find the file corresponding to the first image. Is it a cat or a dog?
+3. Run `is_cat(first_img.name)`. Describe what `is_cat` is and how it works.
+4. Run `dls.train.show_batch()`. Describe what the text over each image indicates.
+{{</task>}}
+
+
+## PyTorch
+
+we're just going to be using it as an array processing library for now
+
+- write a dot product by hand with lists
+- upgrade to Tensors (same code)
+- do the elementwise multiply and then sum
+- call `dot`
+
+Notice the 
+
+Add a cell to `import numpy as np`; that's the standard way to import it.
 
 - Compute error, squared error, and MSE
 - Compute one-dim linear projection (mx + b)
-- Compute 3D linear projection (Sepia kernel)
+- Compute 3D linear projection (Sepia kernel) TODO move to NEXT WEEK
 
 ## Python Functions
 
