@@ -19,9 +19,6 @@ menu:
     - name: Syllabus
       url: "/syllabus"
       weight: 2
-    - name: Schedule
-      url: "/schedule"
-      weight: 3
     - name: Units
       url: "/units"
       weight: 4
@@ -31,9 +28,6 @@ menu:
     - name: Resources
       url: "/resources"
       weight: 6
-    - name: Posts
-      url: "/post"
-      weight: 7
 
 params:
   description: ""
