@@ -1,5 +1,5 @@
 ---
-title: "Unit 02: Data"
+title: "Unit 2: Data"
 date: 2022-01-17
 weight: 2
 ---
