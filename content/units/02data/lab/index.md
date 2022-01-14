@@ -16,27 +16,13 @@ Get the template TODO
 
 We're going to start with the cat-vs-dog classifier that we built in chapter 1 and try changing a few things.
 
-Before we get started, discuss with your partner how you think each one of these changes would change the performance of the classifier. Write your answers below.
-
-> Train the model on less data
-
-*your answer here*
-
-> Use an architecture with fewer layers
-
-*your answer here*
-
-> Have it predict the breed of pet instead of just cat/dog.
-
-*your answer here*
-
-Now let's start. You might see a task like this:
+You might see a task like this:
 
 > Train a classifier to distinguish between images of cats and dogs.
 > 
-> * Use the [Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/).
-> * Fine-tune a 34-layer ResNet model for 1 epoch
-> * Report the error rate on a held-out validation set of 20% of the data.
+> - Use the [Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/).
+> - Fine-tune a 34-layer ResNet model for 1 epoch
+> - Report the error rate on a held-out validation set of 20% of the data.
 
 The first code block from chapter 1 accomplishes this task. Retype or copy-paste it here, but add some comments if you haven't already:
 
