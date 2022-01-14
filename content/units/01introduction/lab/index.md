@@ -9,7 +9,7 @@ tags:
 ## Objectives
 
 - Use a Jupyter notebook to run Python code on the lab computers
-- Apply mathematical operations to arrays using NumPy
+- Apply mathematical operations to arrays using PyTorch
 - Encapsulate functionality into functions
 
 ### Environment Setup
@@ -29,13 +29,13 @@ tags:
 
 ## Jupyter Notebooks
 
-Make a folder for this class, perhaps `cs344`. Download the Lab 1 Template notebook and put it in your folder.
+Make a folder for this class, perhaps `cs344`. Download the [Lab 1 Template notebook](lab01.ipynb) and put it in your folder.
 
 You can start the Jupyter Notebook server either by finding it on the main menu
 (start typing "jup" and it should come right up) or running `jupyter notebook`
 in a Terminal window. Find your Lab 1 notebook and open it.
 
-Run the Envirenmont Check cells by selecting the first one and pressing Shift-Enter once for each cell. Stop when you get to "Jupyter Notebooks". A number will appear next to each of the code cells when they have run successfull.
+Run the Environment Check cells by selecting the first one and pressing Shift-Enter once for each cell. Stop when you get to "Jupyter Notebooks". A number will appear next to each of the code cells when they have run successfully.
 
 {{<task>}}
 Add a code cell that computes 1+1. Check the output.
