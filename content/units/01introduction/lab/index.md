@@ -9,6 +9,7 @@ tags:
 ## Objectives
 
 - Use a Jupyter notebook to run Python code on the lab computers
+- Start to uncover how the fast.ai image classifier training pipeline works
 - Apply mathematical operations to arrays using PyTorch
 - Encapsulate functionality into functions
 
