@@ -18,7 +18,7 @@ Also read your peers' posts and try to reply to a few.
 - Pick a large company and look at their "AI blog" (or sometimes just tech blog)
 - Lots of YouTubers, podcasters, bloggers, news sources, etc. like to talk about AI
 - Providers of AI computing, like NVIDIA, Amazon AWS, Google Cloud, Microsoft Azure, etc. like to show off what people are doing with their tools
-- <PapersWithCode.com>, especially their [newsletter](https://paperswithcode.com/newsletter)
+- https://PapersWithCode.com/ especially their [newsletter](https://paperswithcode.com/newsletter)
 - AI work shows up at many academic conferences.
 - Search for the term "AI" combined with a field you're interested in.
 
