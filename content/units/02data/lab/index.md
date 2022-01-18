@@ -39,7 +39,9 @@ The first code block from chapter 1 (or lab 1) accomplishes this task. It has be
 > 3. If this still doesn't work, add `bs=8` as a keyword parameter to `ImageDataLoaders.from_name_func`. 
 
 {{<task>}}
-Make a list with one element: the last `error_rate` reported during classifier training: `clf_1_error_rates = [0.005413]`
+Make a list with one element: the last `error_rate` reported during classifier training: `clf_1_error_rates = [0.005413]`.
+
+(Just hard-code the number. Also: you'll see two tables; look at the second table.)
 {{</task>}}
 
 ### Classifier 2
