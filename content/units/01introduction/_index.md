@@ -12,7 +12,7 @@ Students who complete this unit will demonstrate that they can:
 - Implement basic numerical computing operations using PyTorch
 - Implement a simple image classifier on a pre-wrangled dataset using fast.ai.
 
- ## Preparation
+## Preparation
 
 - Read {{< fastbook num="1" nbname="01_intro.ipynb" >}}
 - Watch {{< fastvideo num="1" >}}
