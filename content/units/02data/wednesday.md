@@ -3,18 +3,38 @@ title: "Class Meeting: Data"
 date: 2022-01-19
 ---
 
-
-Links:
-
-<!--
 Survey results:
+
 - "I learn way better through struggling and hands on practice than through lecture"
 - 3 Nathans, 2 Calebs
-Homework 1: resubmit
-Homework 2 description
-Python Warm-up Quiz
-Weekly reflection
-Piazza
+- Range of background: help each other. **Piazza**
+
+## Logistics
+
+- Homework 1: resubmit
+- Homework 2 description
+- Python Warm-up Quiz: Review solutions.
+- Weekly reflection
+
+## Review
+
+Unit 1 objectives
+
+- Identify some of the major milestones in the history of AI.
+- Contrast contemporary ML-based and numerical AI with classical rule-based and symbolic AI
+- Describe how modern machine learning uses data to learn parameters for a program
+- Implement basic numerical computing operations using PyTorch
+- Implement a simple image classifier on a pre-wrangled dataset using fast.ai.
+
+Unit 2 objectives
+
+- Describe the structure of data fed to an image classifier
+- Contrast a training set and validation set; explain appropriate uses of both
+- Write Python code to prepare a dataset for an image classifier.
+- Identify ethical issues pertaining to the collection and use of data in AI systems
+- Implement multidimensional numerical computing operations using PyTorch
+
+## Q&A
 
 > Why Python?
 
@@ -23,12 +43,8 @@ Piazza
 - Readable!
 - Flexible: Enough metaprogramming to be concise where needed; some limited amount of magic is possible.
 - Fast enough. Core operations are in low-level code; Python is the conductor.
-    - [Array programming](https://en.wikipedia.org/wiki/Array_programming)
-    - Benefits of GPU: highly parallel
-
-Learning objectives - first two weeks
-
-data:
+  - [Array programming](https://en.wikipedia.org/wiki/Array_programming)
+  - Benefits of GPU: highly parallel
 
 > Lots of jargon!
 
@@ -51,11 +67,11 @@ Yes! But not all at once, and not big chunks of it.
 
 Gradually integrating information from wider area of the image. Lower layers = really zoomed in.
 
-> Converting sound to image is a cool idea
+> Converting sound to image is a cool idea.
 
 Recently this approach has been replaced by: turn everything into a *sequence* and pretend it's language.
 
-> Pretrained models are useful
+> Pretrained models are useful.
 
 But can introduce bias, may not actually be as helpful as thought (more later).
 
@@ -89,5 +105,3 @@ One full pass through the training data. Not uncommon to see tens or hundreds of
 > Overfitting as a problem?
 
 - Recent results: a model can completely memorize its training set while still generalizing well (its behavior away from training set points is typically much better behaved than the figure suggests!), and in fact continue to improve generalization performance after reaching 100% accuracy (e.g., Grokking paper).
-
--->
