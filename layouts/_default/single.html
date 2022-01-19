@@ -18,8 +18,10 @@
         {{ template "breadcrumbnav" (dict "p1" .Parent "p2" .) }}
     </ul>    
 <h1><span class="title">{{ .Title | markdownify }}</span></h1>
+{{ if .Params.includeMeta }}
 {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
-{{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
+{{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "2006-01-02" }}</h2>{{ end }}
+{{ end }}
 </div>
 
 <main>
