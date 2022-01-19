@@ -27,6 +27,7 @@ You will need to organize your photos into a dataset. I suggest:
 Submit a Jupyter Notebook reporting your findings on Moodle. In addition to the code needed, include answers to these questions:
 
 - How accurate is your classifier? Report your answer as a *range* (lower to upper) of expected accuracy values.
+- What sort of mistakes did it make? Why do you think it may have made those mistakes?
 - How many images do you need to get good accuracy? (Try your classifier on fewer images.)
 - What choices did you have to make in the process of collecting data, processing it, and analyzing the results?
   - What are one or two choices that you could have made differently?
