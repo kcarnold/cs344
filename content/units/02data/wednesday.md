@@ -48,6 +48,8 @@ The [figure in the book](https://nbviewer.org/github/fastai/fastbook/blob/master
 
 - That's a polynomial fit. It's much more sensitive than the functions typically used in NN's.
 - Recent results: a model can completely memorize its training set while still generalizing well (its behavior away from training set points is typically much better behaved than the figure suggests!), and in fact continue to improve generalization performance after reaching 100% accuracy (e.g., [Grokking paper](https://arxiv.org/abs/2201.02177)).
+- Early stopping might *hurt* because of "double descent".
+- So yes, overfitting can be a problem, but don't angst over it, just keep training.
 - **But**: *memorization* might be a problem. "Phone: xxx-yyy-zzzz. SSN: "
 
 #### Why Python?
