@@ -1,31 +1,35 @@
 ---
-title: Homework 2
+title: "Homework 2: Train and evaluate a classifier on your own images"
 author: Ken Arnold
 date: '2022-01-21'
-draft: true
+draft: false
 ---
 
-Suppose that you have been contracted by a restaurant marketing firm to evaluate the potential of using AI to help them categorize photos of their clients' restaurants.
+## Goal
 
-Build and evaluate a classifier to determine if a photo is taken of the inside vs outside of a restaurant. Don't scrape photos; use the Yelp Academic Dataset.
+In this assignment, you will train and evaluate your own image classifier using `fastai`.
 
-Submit a Jupyter Notebook reporting your findings on Moodle. Your report should be able to answer questions like:
+## Instructions
 
--   How accurately can you label inside / outside?
--   How many images will the marketing firm need to label?
--   How confident are you in these conclusions? Why?
--   What decisions did you make in the process? Why? What implications did those decisions have?
+Pick two buildings on campus. Make a classifier that distinguishes photos of one from photos of the other.
 
-## Notes
+- Take your own photos; don't use photos from the Internet.
+- Please avoid recognizable images of people.
 
-You may use [this repo](https://classroom.github.com/g/uMf9CjZ_) if desired.
+You will need to organize your photos into a dataset. I suggest:
 
-Since the Yelp photos dataset is unwieldy, I made some more convenient subsets of it for you. (You may want to experiment on yet-smaller subsets of it for your own purposes.)
+- Name photos like `NorthHall_3.jpg`.
+- Place all your photos in a folder for each building. So an image will actually be at `NorthHall/NorthHall_3.jpg`. (This way it's easy to rename buildings.)
+- Use the approach from Chapter 2 to make a classifier based on these images.
 
-The dataset agreement does not legally permit me to redistribute it, so I'll need to have you confirm that you have downloaded the dataset. So: send me a message with the md5sum or sha1sum of the yelp_photos.tgz that you have, and I'll send you how to get my subsets.
+Submit a Jupyter Notebook reporting your findings on Moodle. In addition to the code needed, include answers to these questions:
 
-Mac or Linux: `md5sum yelp_photos.tgz`
+- How accurate is your classifier? Report your answer as a *range* (lower to upper) of expected accuracy values.
+- How many images do you need to get good accuracy? (Try your classifier on fewer images.)
+- What choices did you have to make in the process of collecting data, processing it, and analyzing the results?
+  - What are one or two choices that you could have made differently?
+  - What do you expect would be different if you made that different choice?
 
-on Windows [apparently](https://superuser.com/questions/245775/is-there-a-built-in-checksum-utility-on-windows-7/898377#898377) you run: `certutil -hashfile yelp_photos.tgz MD5`
+## Full-Class Dataset
 
-If you are uncomfortable agreeing to the Yelp dataset agreement, please contact the instructor for an alternative dataset.
+Please contribute your photos to [this folder in our class Team](https://calvincollege.sharepoint.com/:f:/s/Section_81629/EpapLK3FkZlBm-AQutdecNEB8U9a6SXGDXEEGcFnTJ5YwA?e=FK6vVj). Make a new folder with your userid. Upload your two folders into it. (Drag and drop should work.)
