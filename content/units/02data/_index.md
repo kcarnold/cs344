@@ -18,7 +18,10 @@ Students who complete this unit will demonstrate that they can:
     - *note: ignore the implementation of `class DataLoaders`*.
     - Use duckduckgo instead of Bing.
 - Read {{< fastbook num="3" nbname="03_ethics.ipynb" >}}
+    - *note*: you can spread out this reading between this week and next week.
 - Watch {{< fastvideo num="2" >}}
+    - *note*: The first hour of {{< fastvideo num="3" >}} finishes up this chapter's material. The first 12 or so minutes may be particularly helpful at this point.
+- Complete the preparation quiz in Moodle.
 
 <!-- 
 Activities
