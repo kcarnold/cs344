@@ -101,6 +101,12 @@ Although the original was famously short, it was inhospitably jam-packed. So I'v
 
 {{<task>}}Run the code blocks as is.{{</task>}}
 
+> Note: If you experience an "out of memory error":
+> 
+> 1. Check that you don't have another notebook already running (if you're not sure, log off and log back in).
+> 2. "Restart and Run All" on the Kernel menu.
+> 3. If this still doesn't work, add `bs=8` as a keyword parameter to `ImageDataLoaders.from_name_func`.
+
 <!-- Although several things appear on the way, refer to the final table for the accuracy of the resulting classifier. -->
 
 > Optionally, you may try the uploader widget on a photo of your choice.
