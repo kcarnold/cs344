@@ -30,6 +30,6 @@ Submit a Jupyter Notebook reporting your findings on Moodle. In addition to the 
   - What are one or two choices that you could have made differently?
   - What do you expect would be different if you made that different choice?
 
-## Full-Class Dataset
+## Common Dataset
 
-Please contribute your photos to [this folder in our class Team](https://calvincollege.sharepoint.com/:f:/s/Section_81629/EpapLK3FkZlBm-AQutdecNEB8U9a6SXGDXEEGcFnTJ5YwA?e=FK6vVj). Make a new folder with your userid. Upload your two folders into it. (Drag and drop should work.)
+Please contribute your photos to [this folder in our class Team](https://calvincollege.sharepoint.com/:f:/s/Section_81629/EpapLK3FkZlBm-AQutdecNEB8U9a6SXGDXEEGcFnTJ5YwA?e=FK6vVj). Make a new folder with your username. Upload your two folders into it. (Drag and drop should work.)
