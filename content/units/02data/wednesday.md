@@ -3,17 +3,17 @@ title: "Class Meeting: Data"
 date: 2022-01-19
 ---
 
-Survey results:
+## Welcome Survey
 
 - "I learn way better through struggling and hands on practice than through lecture"
-- 3 Nathans, 2 Calebs
+- 3 Nathan, 2 Caleb, 2 Ben
 - Range of background: help each other. **Piazza**
 
 ## Logistics
 
 - Homework 1: resubmit
 - Homework 2 description
-- Python Warm-up Quiz: Review solutions.
+- Python Warm-up Quiz: Review the solutions.
 - Weekly reflection
 
 ## Review
@@ -34,7 +34,21 @@ Unit 2 objectives
 - Identify ethical issues pertaining to the collection and use of data in AI systems
 - Implement multidimensional numerical computing operations using PyTorch
 
+## Lab 1 Walkthrough with Q&A
+
+(done live)
+
 ## Q&A
+
+> Overfitting as a problem?
+
+The [figure in the book](https://nbviewer.org/github/fastai/fastbook/blob/master/01_intro.ipynb#How-Our-Image-Recognizer-Works) is misleading.
+
+![overfitting, supposedly](https://nbviewer.org/github/fastai/fastbook/blob/master/images/att_00000.png)
+
+- That's a polynomial fit. It's much more sensitive than the functions typically used in NN's.
+- Recent results: a model can completely memorize its training set while still generalizing well (its behavior away from training set points is typically much better behaved than the figure suggests!), and in fact continue to improve generalization performance after reaching 100% accuracy (e.g., [Grokking paper](https://arxiv.org/abs/2201.02177)).
+- **But**: *memorization* might be a problem. "Phone: xxx-yyy-zzzz. SSN: "
 
 > Why Python?
 
@@ -44,7 +58,7 @@ Unit 2 objectives
 - Flexible: Enough metaprogramming to be concise where needed; some limited amount of magic is possible.
 - Fast enough. Core operations are in low-level code; Python is the conductor.
   - [Array programming](https://en.wikipedia.org/wiki/Array_programming)
-  - Benefits of GPU: highly parallel
+  - Benefits of GPU: highly parallel. Good for array operations (matrix multiply, nonlinearity, softmax)
 
 > Lots of jargon!
 
@@ -52,7 +66,7 @@ The more often something shows up in class, the more important it is to know.
 
 > Do we need math?
 
-Yes! But not all at once, and not big chunks of it.
+Yes! But not all at once. Some highlights:
 
 - Linear algebra: vectors, linear operators (matrix multiplication), dimensionality reduction
 - Calculus: chain rule
@@ -101,7 +115,3 @@ One full pass through the training data. Not uncommon to see tens or hundreds of
 - Gradient descent: which little wiggle would improve performance on the whole dataset?
 - SGD: which would improve performance on *these few images I just saw*?
 - SGD gets to a *better* solution *faster* than complete gradient descent. (intuition: more chances to try something and get feedback.)
-
-> Overfitting as a problem?
-
-- Recent results: a model can completely memorize its training set while still generalizing well (its behavior away from training set points is typically much better behaved than the figure suggests!), and in fact continue to improve generalization performance after reaching 100% accuracy (e.g., Grokking paper).
