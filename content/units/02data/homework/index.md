@@ -11,6 +11,8 @@ In this assignment, you will train and evaluate your own image classifier using 
 
 ## Instructions
 
+**Do this assignment individually.** You may help each other, but *use Piazza* so all benefit.
+
 Pick two buildings on campus. Make a classifier that distinguishes photos of one from photos of the other.
 
 - Take your own photos; don't use photos from the Internet.
@@ -30,6 +32,10 @@ Submit a Jupyter Notebook reporting your findings on Moodle. In addition to the 
   - What are one or two choices that you could have made differently?
   - What do you expect would be different if you made that different choice?
 
-## Common Dataset
+### Submission
+
+Upload only your `ipynb` file to Moodle, not the image files.
+
+### Common Dataset
 
 Please contribute your photos to [this folder in our class Team](https://calvincollege.sharepoint.com/:f:/s/Section_81629/EpapLK3FkZlBm-AQutdecNEB8U9a6SXGDXEEGcFnTJ5YwA?e=FK6vVj). Make a new folder with your username. Upload your two folders into it. (Drag and drop should work.)

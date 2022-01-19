@@ -11,8 +11,8 @@ date: 2022-01-19
 
 ## Logistics
 
-- Homework 1: resubmit
-- Homework 2 description
+- Homework 1: Check your submission. You may need to resubmit.
+- Homework 2 posted.
 - Python Warm-up Quiz: Review the solutions.
 - Weekly reflection
 
