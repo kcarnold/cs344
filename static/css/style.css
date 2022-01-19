@@ -87,6 +87,7 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
   padding: 5px;
 }
 
+.exercise pre { box-shadow: none; }
 .exercise code {
   background: #cad0c3;
 }
