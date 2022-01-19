@@ -11,7 +11,12 @@ Students who complete this unit will demonstrate that they can:
 - Implement a basic image classifier model using a fully-connected network.
 - Compute the gradients of programs with respect to parameters using one level of backpropagation
 
-Materials: DL4C ch4
+## Preparation
+
+- Finish reading {{< fastbook num="3" nbname="03_ethics.ipynb" >}}. Complete the prep quiz in Moodle.
+- Read {{< fastbook num="4" nbname="04_mnist_basics.ipynb" >}}. Complete the prep quiz in Moodle.
+- Watch {{< fastvideo num="3" >}}.
+- Watch the first hour of {{< fastvideo num="4" >}}.
 
 Activities:
 
