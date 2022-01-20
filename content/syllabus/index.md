@@ -41,9 +41,9 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
     -   [Videos](https://course.fast.ai/videos/?lesson=1)
     -   their [forum](https://forums.fast.ai/c/part1-v4/46)
 
--   We will be using Piazza for class discussion. Many students have found that Piazza works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Find our class signup link at: <https://piazza.com/calvin/spring2022/cs344>
+-   We will be using Piazza for class discussion. Many students have found that Piazza works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Access Piazza by clicking on the link in Moodle.
 
--   The lab machines are configured with the software needed in Linux. The Gold lab GPUs are slightly better, so we'll generally use them but Maroon should usually work too. For times when you need or want additional computing resources, you may use [Borg](https://borg.calvin.edu/), [Google Colab](https://colab.research.google.com/), [Paperspace](https://gradient.paperspace.com/), or other services.
+-   The lab machines are configured with the software needed in Linux. The Gold lab GPUs are slightly better, so we'll generally use them but Maroon should usually work too. For times when you need or want additional computing resources, you may use [Borg](https://borg.calvin.edu/), [Google Colab](https://colab.research.google.com/), [Paperspace](https://gradient.paperspace.com/), or other services. **The Guacamole remote access machines have older GPUs**, so see notes in the Lab 1 and 2 instructions for tips on making things run there (or just use Google Colab).
 
 ## Policies
 
