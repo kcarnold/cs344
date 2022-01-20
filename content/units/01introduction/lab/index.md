@@ -219,7 +219,8 @@ Generally you'd get the predicted values, `y_pred`, by calling a function that i
 
 {{<task>}}
 
-1. Implement each line of the above algorithm in PyTorch code. Use separate cells so you can check the results.
+1. Implement each line of the above algorithm in PyTorch code.
+    - Use separate cells so you can check the results along the way. For example, the first cell should have two lines, the first to assign (`resid = ...`) and the second to show the result (`resid`).
     - **You should not need to write any loops.**
     - Try using both `squared_error.mean()` and `torch.mean(squared_error)`.
 2. Now, write the entire computation in a single succinct expression (i.e., without having to create intermediate variables for `resid` and `squared_error`). Check that you get the same result.
