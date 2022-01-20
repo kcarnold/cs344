@@ -6,6 +6,13 @@ tags:
   - lab
 ---
 
+<!-- Next year:
+
+- test cases for linear layer
+- make sure that w.sum() != w @ x
+
+-->
+
 ## Objectives
 
 - Use a Jupyter notebook to run Python code on the lab computers
@@ -198,18 +205,25 @@ One way to do this is to make a `Linear` class that has these as parameters. Fil
 
 ## Mean Squared Error
 
-Now let's apply what you just learned about elementwise operations on PyTorch tensors to another very common building block in machine learning: measuring *error*. (How bad is our prediction?) A very common loss function (a technical term for a measure of error) is the *mean squared error*:
+Now let's apply what you just learned about elementwise operations on PyTorch tensors to another very common building block in machine learning: measuring *error*.
 
-- compute `resid` as true minus predicted.
+Once we make some predictions, we usually want to be able to measure how *good* the predictions were. For regression tasks, i.e., tasks where we're predicting *numbers*, one very common measure is the *mean squared error*. Here's an algorithm to compute it:
+
+- compute `resid` as true (`y_true`) minus predicted (`y_pred`).
 - compute `squared_error` by squaring each number in `resid`
 - compute `mean_squared_error` by taking the `mean` of `squared_error`.
 
-We've provided a sample `y_true` and `y_pred`icted in the template so you can try coding this up.
+> **Technical note**: This process implements the mean squared error *loss function*. That is a function that is given some *true* values (call them `$y_1$` through `$y_n$`) and some *predicted* values (call them `$\hat{y}_1$` through `$\hat{y}_n$`) and returns `$$\text{MSE} = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2.$$`
+
+Generally you'd get the predicted values, `y_pred`, by calling a function that implements a model (like `linear.forward()` above. But to focus our attention on the error computation, we've provided sample values for `y_true` and `y_pred` in the template that you can just use as-is.
 
 {{<task>}}
-1. Implement each line of the above algorithmm in PyTorch code. Use separate cells so you can check the results. **You should not need to write any loops.**
-  - Try using both `squared_error.mean()` and `torch.mean(squared_error)`.
-2. Try to write the entire computation in a single succinct expression.
+
+1. Implement each line of the above algorithm in PyTorch code. Use separate cells so you can check the results.
+    - **You should not need to write any loops.**
+    - Try using both `squared_error.mean()` and `torch.mean(squared_error)`.
+2. Now, write the entire computation in a single succinct expression (i.e., without having to create intermediate variables for `resid` and `squared_error`). Check that you get the same result.
+
 {{</task>}}
 
 Notes:
