@@ -33,9 +33,26 @@ Submit a Jupyter Notebook reporting your findings on Moodle. In addition to the 
   - What are one or two choices that you could have made differently?
   - What do you expect would be different if you made that different choice?
 
+Tips:
+
+- Chapter 2 has some helpful low-level code for constructing an `ImageDataLoader`. Once you have that, you can use the same techniques you used in Lab 2.
+- You probably need to set the batch size to be smaller than the default (which is 64 images). Do this by passing `bs=2` as a keyword parameter to your `ImageDataLoader`.
+- Like in Lab 2, just hard-code the accuracy values you get from multiple different `seed`s.
+- Visualize things:
+  - What does one batch of your `DataLoader` look like?
+  - What do the predictions of your classifier look like?
+  - What does the confusion matrix look like?
+  - *refer to Chapter 2 for the code for these*.
+- Note that `from_name_func` fails silently with `parent_label`. (It should throw an exception. The fact that it doesn't is, I think, a bug in `fastai`.) Use `from_path_func` instead if you want to use that approach.
+
 ### Submission
 
 Upload only your `ipynb` file to Moodle, not the image files.
+
+Your `ipynb` should:
+
+- Include all the code needed to get *one* accuracy number.
+- *Don't* include extraneous code (like the `pip` code to check the environment, or the batch practice from Lab 2)
 
 ### Common Dataset
 
