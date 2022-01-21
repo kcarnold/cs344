@@ -137,8 +137,8 @@ We will not always do this well. If you or someone else in this class is hurt by
 
 A *Reflection* is a summary of your learning the past week (private to you and the course staff) *due Wednesday end of day*. Reflections have 3 parts:
 
-    1. What assignment you're turning in for mastery credit this week.
-    2. What assignment you've revised for mastery credit this week: summarize what your specific errors were.
-    3. What work, if any, you are turning in late. For each activity, specify how many Effort points it should be awarded according to the late work policy described above.
+1. What assignment you're turning in for mastery credit this week.
+2. What assignment you've revised for mastery credit this week: summarize what your specific errors were.
+3. What work, if any, you are turning in late. For each activity, specify how many Effort points it should be awarded according to the late work policy described above.
 
 Details are given in the specific assignments.
