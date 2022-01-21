@@ -40,7 +40,7 @@ Unit 2 objectives
 
 ## Q&A
 
-### Overfitting as a problem?
+#### Overfitting as a problem?
 
 The [figure in the book](https://nbviewer.org/github/fastai/fastbook/blob/master/01_intro.ipynb#How-Our-Image-Recognizer-Works) is misleading.
 
@@ -77,15 +77,15 @@ Yes! But not all at once. Some highlights:
 - Linear algebra: vectors, linear operators (matrix multiplication), dimensionality reduction
 - Calculus: chain rule
 
-## Training and Validation Data
-
 #### Can we explore the validation set, or should we leave it totally hidden?
 
 To get some assurance about how our model will work once deployed, we need some data that we intentionally don't look at until the very end. That's the *test set*. But we often need to guess at how well it's going to work before then---e.g., because we're adjusting a parameter that might affect how well the model generalizes. The validation set (or, sometimes, validation *sets*) help us estimate that.
 
 In general, it's a good idea to look at the validation set to understand how and why the model worked or didn't, e.g., get an overview of what kinds of images an image classifier tends to misclassify. But it's probably not a good idea to study it in too much depth, or it will stop being a good proxy for the test set.
 
-#### What if the randomly selected held-out part was the most unhelpful? (Note: validation of 20% means training set is 80%.)
+#### What if the randomly selected held-out part was the most unhelpful?
+
+(Note: validation of 20% means training set is 80%.)
 
 - This is why we need sizeable validation sets. (What if it happened to pick only the *easiest* examples for validation?)
 - Randomness usually helps: it's pretty unlikely to randomly select all extreme examples
