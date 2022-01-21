@@ -43,16 +43,18 @@ Tips:
   - What do the predictions of your classifier look like?
   - What does the confusion matrix look like?
   - *refer to Chapter 2 for the code for these*.
-- Note that `from_name_func` fails silently with `parent_label`. (It should throw an exception. The fact that it doesn't is, I think, a bug in `fastai`.) Use `from_path_func` instead if you want to use that approach.
+- Note that `from_name_func` fails silently with `parent_label`. (It should throw an exception. I submitted [this bug](https://github.com/fastai/fastai/issues/3559) to propose that it does.) Use `from_path_func` instead if you want to use that approach.
 
 ### Submission
 
 Upload only your `ipynb` file to Moodle, not the image files.
 
-Your `ipynb` should:
+Guidance:
 
 - Include all the code needed to get *one* accuracy number.
+- *Don't* try to show the results of every model you trained, but *do* make a single cell to change numbers for any aspects you varied (e.g., the seed, how many images you used)
 - *Don't* include extraneous code (like the `pip` code to check the environment, or the batch practice from Lab 2)
+- Use *Markdown* cells, not code comments, to report results.
 
 ### Common Dataset
 
