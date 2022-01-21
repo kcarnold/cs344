@@ -35,13 +35,14 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 
 ## Materials
 
+- Moodle contains links to all of the resources used in this course. It will also be where you engage in [discussion forums](/discussionss) and submit assignments.
 -   We will be following the fast.ai [Practical Deep Learning for Coders](https://course.fast.ai/) course for much of this course.
 
     -   You should buy their book (available in the Calvin bookstore), although it's also available as Jupyter Notebooks
     -   [Videos](https://course.fast.ai/videos/?lesson=1)
     -   their [forum](https://forums.fast.ai/c/part1-v4/46)
 
--   We will be using Piazza for class discussion. Many students have found that Piazza works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Access Piazza by clicking on the link in Moodle.
+-   We will be using Piazza for Q&A. Many students have found that Piazza works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Access Piazza by clicking on the link in Moodle.
 
 -   The lab machines are configured with the software needed in Linux. The Gold lab GPUs are slightly better, so we'll generally use them but Maroon should usually work too. For times when you need or want additional computing resources, you may use [Borg](https://borg.calvin.edu/), [Google Colab](https://colab.research.google.com/), [Paperspace](https://gradient.paperspace.com/), or other services. **The Guacamole remote access machines have older GPUs**, so see notes in the Lab 1 and 2 instructions for tips on making things run there (or just use Google Colab).
 
@@ -55,7 +56,7 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 **Effort** points are awarded for satisfactory effort by the due date and are intended to keep you from getting behind in the course. The following types of activities count as effort points:
 
 - **Labs**, **Homework**, and weekly **reflections** will be considered satisfactory if an attempt has been made to answer all questions by the due date. Each activity will be allocated 5 effort points. On-time submissions receive all 5 points; late turn-ins are penalized by 1 point each business day (i.e., excluding weekends).
-- **Discussion Forums** will be awarded 2 effort points if an original post with intellectual substance is made by the due date. Many discussion assignments will also include one or two replies to other students, which will count for 1 effort point each. Late posts may receive half credit.
+- **Discussion Forums** (see [details](/discussions/)) will be awarded 2 effort points if an original post with intellectual substance is made by the due date. Many discussion assignments will also include one or two replies to other students, which will count for 1 effort point each. Late posts may receive half credit.
 - All **Quizzes** (both preparation and review) count as 5 effort points. The actual score will be used: unlimited attempts will be allowed, so perfect scores are expected. Moodle makes it tedious to manage late quizzes, so each quiz will officially close a week late and no late quizzes will be accepted.
 
 **Late work**: Everyone will receive 5 free effort points, i.e., you get five grace days. Please reserve these for cases of personal hardship. Exemptions per assignment will be granted in very limited circumstances. 
@@ -123,31 +124,14 @@ We will not always do this well. If you or someone else in this class is hurt by
 
 ## Typical Weekly Schedule
 
-* **Weekend**: read (actively!) a textbook chapter, watch a video lecture
+- **Weekend**: read (actively!) a textbook chapter, watch a video lecture
 - **Monday**
     - meet in lab for a guided activity.
     - complete a reading quiz by end of day
-* **Tuesday**: write your weekly learning reflection, contribute to discussion forums
-* **Wednesday**
-    - meet in classroom to debrief lab, discuss concepts, discuss AI applications or perspectives
-* **Thursday**: take a content quiz (some weeks)
-* **Friday**: meet in lab to work on homework / project; some lectures as needed
-
-### Discussion
-
-The class includes weekly class-wide discussion forums (primarily on Moodle, some discussion in person). Most discussions will be case studies on specific technologies. We'll address three basic questions:
-
-1. How does it work?
-    - How does it use technologies that we've studied in class?
-    - How does it go beyond what we've studied?
-2. What impact does it have?
-    - What people and relationships are affected by it?
-    - What resources does it need? What resources does it produce?
-    - What value does it produce for an organization that uses it?
-    - Besides its primary use, what are other consequences of its deployment? (Consider both inside and outside an organization.)
-3. How can we constructively assess it from a Reformed Christian perspective and other perspectives?
-    - What ways of looking at or thinking about people does it emphasize? De-emphasize?
-    - What are its main limitations?
+- **Tuesday**: write your weekly learning reflection, contribute to discussion forums
+- **Wednesday**: debrief lab, discuss concepts, discuss AI applications or perspectives
+- **Thursday**: take a content quiz (some weeks)
+- **Friday**: meet in lab to work on homework / project; some lectures as needed
 
 ### Reflections
 
