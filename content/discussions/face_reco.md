@@ -33,7 +33,7 @@ Classification of face images to identify specific people or to predict attribut
 - Some cities have banned facial recognition
 - [An Update On Our Use of Face Recognition | Meta](https://about.fb.com/news/2021/11/update-on-use-of-face-recognition/): "We’re shutting down the Face Recognition system on Facebook."
 
-## Questions
+## Provocations
 
 - Are some uses bad? (predicting [likelihood to commit a crime](https://www.nytimes.com/2019/07/10/opinion/facial-recognition-race.html)? identifying political dissenters?)
 - How to balance privacy with safety (e.g., identifying missing children)?
