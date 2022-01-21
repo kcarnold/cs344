@@ -22,12 +22,15 @@ menu:
     - name: Units
       url: "/units"
       weight: 4
+    - name: Discussions
+      url: "/discussions/"
+      weight: 5
     - name: Project
       url: "/project"
-      weight: 5
+      weight: 6
     - name: Resources
       url: "/resources"
-      weight: 6
+      weight: 7
 
 params:
   description: ""
