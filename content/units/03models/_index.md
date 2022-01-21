@@ -14,6 +14,7 @@ Students who complete this unit will demonstrate that they can:
 ## Preparation
 
 - Finish reading {{< fastbook num="3" nbname="03_ethics.ipynb" >}}. Complete the prep quiz in Moodle.
+    - Optionally, watch {{< fastvideo num="5" >}} on this material.
 - Read {{< fastbook num="4" nbname="04_mnist_basics.ipynb" >}}. Complete the prep quiz in Moodle.
 - Watch {{< fastvideo num="3" >}}.
 - Watch the first hour of {{< fastvideo num="4" >}}.
