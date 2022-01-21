@@ -130,19 +130,31 @@ We will not always do this well. If you or someone else in this class is hurt by
 * **Tuesday**: write your weekly learning reflection, contribute to discussion forums
 * **Wednesday**
     - meet in classroom to debrief lab, discuss concepts, discuss AI applications or perspectives
-* **Thursday**: take a content quiz
+* **Thursday**: take a content quiz (some weeks)
 * **Friday**: meet in lab to work on homework / project; some lectures as needed
 
-More description about specific elements:
+### Discussion
 
--   *Discussion*: participate in a class-wide discussion forum (some components in person, others on Piazza); summarize your perspective in a portfolio piece. Most discussions will be case studies on specific technologies, focusing on:
+The class includes weekly class-wide discussion forums (primarily on Moodle, some discussion in person). Most discussions will be case studies on specific technologies. We'll address three basic questions:
 
-    -   How does it work?
-    -   What impact does it have?
-    -   How can we constructively assess it (generally, but not always, from a reformed Christian viewpoint)?
+1. How does it work?
+    - How does it use technologies that we've studied in class?
+    - How does it go beyond what we've studied?
+2. What impact does it have?
+    - What people and relationships are affected by it?
+    - What resources does it need? What resources does it produce?
+    - What value does it produce for an organization that uses it?
+    - Besides its primary use, what are other consequences of its deployment? (Consider both inside and outside an organization.)
+3. How can we constructively assess it from a Reformed Christian perspective and other perspectives?
+    - What ways of looking at or thinking about people does it emphasize? De-emphasize?
+    - What are its main limitations?
 
--   *Reflection*: a summary of your learning the past week (private to you and the course staff) *due Wednesday end of day*. Reflections have 3 parts:
+### Reflections
+
+A *Reflection* is a summary of your learning the past week (private to you and the course staff) *due Wednesday end of day*. Reflections have 3 parts:
 
     1. What assignment you're turning in for mastery credit this week.
     2. What assignment you've revised for mastery credit this week: summarize what your specific errors were.
     3. What work, if any, you are turning in late. For each activity, specify how many Effort points it should be awarded according to the late work policy described above.
+
+Details are given in the specific assignments.
