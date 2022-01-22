@@ -14,7 +14,7 @@ Students who complete this unit will demonstrate that they can:
 ## Preparation
 
 - Finish reading {{< fastbook num="3" nbname="03_ethics.ipynb" >}}. Complete the prep quiz in Moodle.
-    - Optionally, watch {{< fastvideo num="5" >}} on this material.
+    - *Recommended*: watch {{< fastvideo num="5" >}} on this material.
 - Next week's chapter is dense, so I highly recommend you get a head start on [Preparation 4](/units/04models/).
 
 > Note: chapter 4 material has been delayed by a week. To [keep links working](https://www.w3.org/Provider/Style/URI), I haven't renamed this unit in the URL.
