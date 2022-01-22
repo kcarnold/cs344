@@ -1,9 +1,9 @@
 {{ partial "header.html" . }}
 
+{{ if not .Sections }}
 {{ $currentPage := . }}
-{{ with .Parent }}
-<ul class="breadcrumbs">{{ range .Sections }}
-  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+<ul class="breadcrumbs">{{ range .Parent.Sections }}
+  <li>{{ if eq . $currentPage }}{{ .Title }}{{ else }} <a href="{{ .Permalink }}">{{ .Title }}</a> {{ end }}</li>
 {{ end }}</ul>
 {{ end }}
 
