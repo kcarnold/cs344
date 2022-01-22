@@ -61,13 +61,13 @@ in a Terminal window. Find your Lab 1 notebook and open it.
 
 Run the Environment Check cells by selecting the first one and pressing Shift-Enter once for each cell. Stop when you get to "Jupyter Notebooks". A number will appear next to each of the code cells when they have run successfully.
 
-{{<task>}}
+{{% task %}}
 Add a code cell that computes 1+1. Check the output.
-{{</task>}}
+{{% /task %}}
 
 **Note carefully** the difference between **Command mode** and **Edit mode**. (see Help->Keyboard shortcuts).
 
-{{<task>}}
+{{% task %}}
 Add a Markdown cell that looks like this (you may need to refer to Help->Markdown)
 
 > Here is some Markdown formatting:
@@ -77,7 +77,7 @@ Add a Markdown cell that looks like this (you may need to refer to Help->Markdow
 > - This is a [link to Calvin's website](https://calvin.edu).
 
 "Run" the cell to ensure that it gets formatted correctly. Check that the website link opens correctly.
-{{</task>}}
+{{% /task %}}
 
 I highly encourage you to get comfortable with keyboard shortcuts for the following operations:
 
@@ -86,7 +86,7 @@ I highly encourage you to get comfortable with keyboard shortcuts for the follow
 - Change a cell to code / Markdown
 - Run the current cell (with or without selecting the cell below)
 
-{{<task>}}
+{{% task %}}
 Suppose a cell has multiple expressions in it, like this:
 
 ```python
@@ -98,7 +98,7 @@ x * 2
 ```
 
 Which one gets displayed? Can you figure out the general rule for what output gets displayed from a notebook cell?
-{{</task>}}
+{{% /task %}}
 
 ## Image Classifier
 
@@ -106,7 +106,7 @@ In the next section, you'll find the image classifier code from Chapter 1 of the
 
 Although the original was famously short, it was inhospitably jam-packed. So I've taken the liberty to space things out a bit and split it into multiple cells.
 
-{{<task>}}Run the code blocks as is.{{</task>}}
+{{% task %}}Run the code blocks as is.{{% /task %}}
 
 > Note: If you experience an "out of memory error":
 > 
@@ -120,12 +120,12 @@ Although the original was famously short, it was inhospitably jam-packed. So I'v
 
 For our first look at this code, let's explore a few of its parts. Add Markdown cells for your answers to each of these exercises:
 
-{{<task>}}
+{{% task %}}
 1. What is `path`? (Make a cell that displays its value.) Find the corresponding files on your computer. Describe how they are organized.
 2. Run `images = get_image_files_sorted(path)`, then `first_img = images[0]`. Describe what `images` is a list of. And find the file corresponding to the first image. Is it a cat or a dog?
 3. Run `is_cat(first_img.name)`. Describe what `is_cat` is and how it works.
 4. Run `dls.train.show_batch()`. Describe what the text over each image indicates.
-{{</task>}}
+{{% /task %}}
 
 ## PyTorch
 
@@ -151,9 +151,9 @@ Let's do that in Python, and then Torch. To start, let's make a `w`eights and an
 
 #### `for` loop approach
 
-{{<task>}}
+{{% task %}}
 **Write a function that uses a `for` loop** to compute the dot product of `w` and `x`. Name the function `dot_loop`. Check that you get `-1.0` for the `w` and `x` provided in the template.
-{{</task>}}
+{{% /task %}}
 
 #### Torch Elementwise Operations
 
@@ -163,17 +163,17 @@ First, we'll learn about *elementwise operations* (called *pointwise operations*
 
 If you try to `*` two Python lists together, you get a `TypeError` (how do you multiply lists??). But in PyTorch (and NumPy, which it's heavily based on), array operations happen *element-by-element* (sometimes called *elementwise*): to multiply two tensors that have the same shape, multiply each number in the first tensor with the corresponding number of the second tensor. The result is a new tensor of the same shape with all the elementwise products.
 
-{{<task>}}Try running `w * x`{{</task>}}
+{{% task %}}Try running `w * x`{{% /task %}}
 
 Torch also provides [*reduction* methods](https://pytorch.org/docs/stable/torch.html#reduction-ops), so named because they *reduce* the number of elements in a Tensor.
 
 One really useful reduction op is `.sum`.
 
-{{<task>}}Try running `w.sum()`.{{</task>}}
+{{% task %}}Try running `w.sum()`.{{% /task %}}
 
 > You can also write that as `torch.sum(w)`.
 
-{{<task>}}Now **make a new version of `dot_loop`, called `dot_ops`**, that uses an elementwise op to multiply corresponding numbers and a reduction op to sum the result. Check that the result is the same.{{</task>}}
+{{% task %}}Now **make a new version of `dot_loop`, called `dot_ops`**, that uses an elementwise op to multiply corresponding numbers and a reduction op to sum the result. Check that the result is the same.{{% /task %}}
 
 Finally, since `dot` is such an important operation, PyTorch provides it directly:
 
@@ -193,9 +193,9 @@ To apply this knowledge, let's try writing a slightly more complex function: a l
 
 The most basic component of a neural network (and many other machine learning methods) is a *linear transformation layer*. Going back to our `y = w*x + b` example, the `w*x + b` is the linear transformation: given an `x`, dot it with some `w`eights and add a `b`ias.
 
-{{<task>}}
+{{% task %}}
 **Write a function that performs a linear transformation of a vector `x`.** Use PyTorch's built-in functionality for dot products.
-{{</task>}}
+{{% /task %}}
 
 ### Linear layer, Module-style
 
@@ -217,7 +217,7 @@ Once we make some predictions, we usually want to be able to measure how *good* 
 
 Generally you'd get the predicted values, `y_pred`, by calling a function that implements a model (like `linear.forward()` above. But to focus our attention on the error computation, we've provided sample values for `y_true` and `y_pred` in the template that you can just use as-is.
 
-{{<task>}}
+{{% task %}}
 
 1. Implement each line of the above algorithm in PyTorch code.
     - Use separate cells so you can check the results along the way. For example, the first cell should have two lines, the first to assign (`resid = ...`) and the second to show the result (`resid`).
@@ -225,7 +225,7 @@ Generally you'd get the predicted values, `y_pred`, by calling a function that i
     - Try using both `squared_error.mean()` and `torch.mean(squared_error)`.
 2. Now, write the entire computation in a single succinct expression (i.e., without having to create intermediate variables for `resid` and `squared_error`). Check that you get the same result.
 
-{{</task>}}
+{{% /task %}}
 
 Notes:
 

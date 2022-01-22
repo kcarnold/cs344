@@ -38,17 +38,17 @@ The first code block from chapter 1 (or lab 1) accomplishes this task. It has be
 > 2. "Restart and Run All" on the Kernel menu.
 > 3. If this still doesn't work, add `bs=8` as a keyword parameter to `ImageDataLoaders.from_name_func`. 
 
-{{<task>}}
+{{% task %}}
 Make a list with one element: the last `error_rate` reported during classifier training: `clf_1_error_rates = [0.005413]`.
 
 (Just hard-code the number. Also: you'll see two tables; look at the second table.)
-{{</task>}}
+{{% /task %}}
 
 ### Classifier 2
 
-{{<task>}}
+{{% task %}}
 Repeat the previous task, but use an 18-layer ResNet architecture instead (`resnet18`). Record the result in `clf_2_error_rates`. How does the error rate compare?
-{{</task>}}
+{{% /task %}}
 
 ### Comparisons
 
@@ -60,11 +60,11 @@ So, instead of just comparing the single accuracy (error rate) numbers we get fr
 
 A random *seed* makes a sequence of random numbers (or decisions) identical, which really helps for reproducibility. So to run our experiment several times, all we need to do is change the seed before each run.
 
-{{<task>}}
+{{% task %}}
 Repeat the two classifier training runs we did above, changing the seed we pass to `set_seed` (*not* the `seed` passed to `ImageDataLoaders`; we'll discuss why later). Put the accuracy numbers in the `error_rates` lists we constructed. Aim for at least 3 numbers in each list.
 
 Now, compare the two lists. Which classifier performs better? Do you think the difference you observe between the two classifiers could have arisen simply by chance? Why or why not?
-{{</task>}}
+{{% /task %}}
 
 
 
@@ -80,9 +80,9 @@ In a future week we will try varying more aspects.
 
 Now, let's see what's going *into* the classifier. The images are given in *batches* of `dataloaders.train.bs` (defaults to 64) images at a time. They all get packed into a single PyTorch `Tensor`. That's possible because `Tensor`s can have multiple axes.
 
-{{<task>}}
+{{% task %}}
 **Run `images.shape`**. What do you think each number represents? (We'll study this more below.)
-{{</task>}}
+{{% /task %}}
 
 ### Get one image
 
@@ -90,9 +90,9 @@ The first axis is the **batch size**. To show the first image in the batch, run
 
 `show_image(images[0])`.
 
-{{<task>}}
+{{% task %}}
 Show the third image in the batch.
-{{</task>}}
+{{% /task %}}
 
 ### Get one channel
 
@@ -100,15 +100,15 @@ The second batch is the color channel (red, green, and blue).
 
 You can provide multiple indices at the same time, e.g., `images[0, 0]` is the *red* channel of the first image.
 
-{{<task>}}
+{{% task %}}
 Show the *blue* channel of the *5th* image in the batch.
-{{</task>}}
+{{% /task %}}
 
 ### Elementwise operations
 
-{{<task>}}
+{{% task %}}
 Explain the result of running `show_images(255 - images)`.
-{{</task>}}
+{{% /task %}}
 
 <!-- 2. **Run `labels`**. Explain those numbers, with the help of `dataloaders.train.vocab`.
 3. **Show the first image in the batch.**
