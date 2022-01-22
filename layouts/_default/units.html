@@ -1,8 +1,13 @@
 {{ partial "header.html" . }}
 
-{{if not .IsHome }}
-<h1>{{ .Title | markdownify }}</h1>
+{{ $currentPage := . }}
+{{ with .Parent }}
+<ul class="breadcrumbs">{{ range .Sections }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}</ul>
 {{ end }}
+
+<h1>{{ .Title | markdownify }}</h1>
 
 {{ .Content }}
 
