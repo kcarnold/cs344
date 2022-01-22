@@ -9,6 +9,13 @@ draft: false
 
 In this assignment, you will train and evaluate your own image classifier using `fastai`.
 
+Completing this homework will give you practice
+
+- Working with image datasets
+- Training image classifiers
+- Evaluating image classifiers
+- Explaining your decisions and their possible consequences.
+
 ## Instructions
 
 **Do this assignment individually.** You may help each other, but *use Piazza* so all benefit.
