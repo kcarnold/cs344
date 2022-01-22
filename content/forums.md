@@ -4,6 +4,8 @@ title: "Forum Posts 22SP"
 
 ## Week 3: Data, Ethics Intro
 
+Happy Saturday everyone!
+
 We were trying to go too fast, so I delayed starting on Chapter 4 by a week. If you've already started on Chapter 4, that's great; it's a dense chapter, so more time on it will help.
 Instead, this week we'll look more into data and also how we evaluate AI systems. See [this week's page](https://cs.calvin.edu/courses/cs/344/22sp/units/03models/) for more details.
 
@@ -11,11 +13,14 @@ At this point, everything from Week 1 should be done, plus Preparation 2 and Lab
 
 This week:
 
-- Prep 3 is due Monday. It's substantially smaller than it used to be (reload the page if chapter 4 stuff still shows up).
+- Prep 3, including the quiz, is due Monday. It's substantially smaller than it used to be (reload the page if chapter 4 stuff still shows up).
 - Homework 2 is due Tuesday. You may need to come to lab on your own time to finish it up.
 - Discussion posts are due by class time on Wednesday (this had been incorrect on Moodle, sorry). **Come to class prepared to discuss an interesting point that someone else raised.**
+- Our first **Reflection** is due on Wednesday.
 - I'm considering having a check-in quiz this week; if so, that will be on your own time and probably open on Thursday.
 - We'll work on Homework 3 on Friday.
+
+I look forward to seeing everyone on Monday!
 
 ## Week 2: Data
 
