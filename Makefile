@@ -4,7 +4,6 @@ HUGO_FLAGS := --buildDrafts --buildFuture
 
 slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides -iname '*.Rmd' -and -not -iname "*slides-common*"))
 post_markdowns := $(patsubst %.Rmarkdown,%.markdown,$(shell find content -name '*.Rmarkdown'))
-activity_md := ${shell find content/activities -name '*.Rmarkdown'}
 
 %.html: %.Rmd
 	Rscript -e "rmarkdown::render('"$<"')"
@@ -12,7 +11,7 @@ activity_md := ${shell find content/activities -name '*.Rmarkdown'}
 %.html: %.md
 	Rscript -e "rmarkdown::render('"$<"')"
 
-content/schedule.markdown: content/schedule.Rmarkdown daily.txt $(activity_md)
+content/schedule.markdown: content/schedule.Rmarkdown daily.txt
 	Rscript -e "rmarkdown::render_site('content/schedule.Rmarkdown',  encoding = 'UTF-8')"
 
 %.markdown: %.Rmarkdown
