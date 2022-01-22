@@ -1,5 +1,5 @@
 ---
-title: "Class Meeting: Data 2"
+title: "Friday Class: Data 2"
 date: 2022-01-21
 ---
 
