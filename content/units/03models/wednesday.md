@@ -5,8 +5,9 @@ date: 2022-01-26
 
 Plan:
 
-- Discuss highlights from facial recognition [discussion forum](../discussion/)
-- Review core concepts of Lab 3
+- Discuss highlights from facial recognition [discussion forum](../discussion/) -- come prepared with insights from others' posts
+- Opportunity: class blog
+- Intro to AI Tech Questions
 - How to evaluate a classifier? Accuracy and confusion matrices
 - *time permitting* loss functions and the importance of partial credit
 

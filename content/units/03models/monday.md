@@ -3,9 +3,7 @@ title: "Monday class: AI Questions, Lab"
 date: 2022-01-24
 ---
 
-Plan:
+No class meeting because of instructor illness.
 
-- Intro to AI Tech Questions
-- Lab: more practice with multidimensional arrays
-    - image array slicing and setting
-    - from vector dot products to matrix products: inner dimensions must match.
+- AI ethics material moved to Wednesday
+- Lab 3 dropped; some material moved to Fundamentals
