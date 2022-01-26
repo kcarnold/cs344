@@ -1,4 +1,5 @@
 ALL: deploy
+all: deploy
 
 HUGO_FLAGS := --buildDrafts --buildFuture
 
