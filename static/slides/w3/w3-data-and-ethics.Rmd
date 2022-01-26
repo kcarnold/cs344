@@ -44,6 +44,7 @@ slideSetup()
 .floating-source[Source: [pixabay](https://pixabay.com/photos/robot-robotic-future-technology-3d-2658699/)]
 
 ---
+
 ## AI Ethics Beyond Killer Robots
 
 - AI needs data (privacy)
@@ -58,7 +59,51 @@ slideSetup()
 - AI embeds values about what is human
 - AI tells us about our own intelligence
 
+---
 
+## Hypothetical Example: Shoplifting Prediction System
+
+- Problem: busy store, too many cameras to monitor
+- Input: surveillance camera video
+- Output: people, labeled by likelihood to shoplift
+
+What issues might come up?
+
+--
+
+- **bias**
+- **transparency / explainability**
+
+---
+
+## Hypothetical Example: Resume Screening 
+
+- Problem: many candidates, many jobs
+- Input: resumes, job description
+- Output: ranked list of most promising matches
+
+What issues might come up?
+
+--
+
+- **bias**
+- **feedback loops**
+
+---
+
+## Hypothetical Example: News Recommendation
+
+- Problem: too much going on (information overload)
+- Input: articles
+- Output: ranked list of articles for me to readable
+
+What issues might come up?
+
+--
+
+- **feedback loops**
+- **measurement bias**
+- potential for **adversarial manipulation**
 
 ---
 
