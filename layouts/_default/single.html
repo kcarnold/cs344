@@ -34,4 +34,7 @@
 {{ .Content }}
 </main>
 
+{{with .Prev}}<div style="text-align: left; font-size: smaller;">&larr; <a href="{{.Permalink}}">{{ .Title }}</a></div>{{ end }}
+{{with .Next}}<div style="text-align: right; font-size: smaller;"><a href="{{.Permalink}}">{{ .Title }}</a> &rarr;</div>{{ end }}
+
 {{ partial "footer.html" . }}
