@@ -23,7 +23,7 @@ slideSetup()
 
 ## Reflection: Surrounded by rich data
 
-[Genesis 1](https://www.biblegateway.com/passage/?search=Genesis%202&version=NIV): Ctrl-F "saw"
+[Genesis 1](https://www.biblegateway.com/passage/?search=Genesis%201&version=NIV): Ctrl-F "saw"
 
 ---
 
@@ -271,17 +271,15 @@ result
 ```
 ]
 
-* `dict` and `set` comprehensions work similarly.
-* Modern libraries often provide "broadcast" alternatives:
-  * `x * y` works elementwise when either is `np.array` or `torch.Tensor`
-  * `paths.attrgot('name')`, if `paths` is a `fastcore` `L`
+- `dict` and `set` comprehensions work similarly.
+- Numerical libraries often provide "broadcast" alternatives: `x * y` works elementwise when either is `np.array` or `torch.Tensor`
 
 ---
 
 ## Jupyter Notebooks
 
 - execution order issues: Restart and Run All
-- kernel vs webpage: it's still running when you close!
+- kernel vs webpage: it's still running when you close the page!
 - Tracebacks:
   - *What is the error*? look at the end. "What is it talking about?"
   - *What triggered it*? look for your own code (farther up)
@@ -299,8 +297,8 @@ result
 
 [link](https://example.com)
 
-* list
-* list 2
+- list
+- list 2
 ```
 
 ---
@@ -314,4 +312,4 @@ result
 
 --
 
-https://stackoverflow.com/help/how-to-ask
+<https://stackoverflow.com/help/how-to-ask>
