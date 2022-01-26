@@ -1,5 +1,5 @@
 ---
-title: "Review, and AI Ethics Discussion 1"
+title: "Rosenbluth obit"
 author: 
   - "Ken Arnold"
 date: '2021-02-17'
@@ -22,18 +22,6 @@ slideSetup()
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 ```
-
-## Logistics
-
-* Attendance
-* Piazza: Live Q&A during class today
-  * Forgot to post Week 1 Q&A; see website
-* Lab 1 walkthrough videos posted
-* 1-on-1s
-* Pace?
-
-
----
 
 ## [Obituary](https://www.nytimes.com/2021/02/09/science/arianna-wright-dead.html): Dr. Arianna Rosenbluth (1927-09-15 - 2020-12-28)
 
@@ -76,34 +64,4 @@ Goal (for most ML applications): run a generative model backwards.
 <!-- ![](https://mbjoseph.github.io/posts/2018-12-25-animating-the-metropolis-algorithm/animating-the-metropolis-algorithm_files/figure-html5/create-gif.gif) -->
 
 <https://mbjoseph.github.io/posts/2018-12-25-animating-the-metropolis-algorithm/>
-
----
-
-class: center, middle
-
-## Open Q&A
-
-
----
-
-## AI Ethics Examples 
-
-(We'll do this in the class OneNote)
-
----
-
-
-## Aspects of AI that affect ethics
-
-* AI needs data (privacy)
-  * ...and empowers organizations that aggregate data
-* AI needs lots of computation
-* AI's outputs affect people
-  * predictions and decisions (bias, discrimination, gig labor, ...)
-  * how we perceive each other (and ourselves)
-  * how we perceive ideas (misinformation)
-* AI does things that people once did
-* AI systems can be attacked in new ways
-* AI embeds values about what is human
-* AI tells us about our own intelligence
 
