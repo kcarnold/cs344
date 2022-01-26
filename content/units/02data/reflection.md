@@ -41,3 +41,6 @@ Include the following in your reflection this week:
   - questions:
 - Late submissions:
   - Assignment: ___ Effort points:  __
+- General reflections:
+  - How is this class going for you so far?
+  - Is this class taking more or less time for you than you think it should?
