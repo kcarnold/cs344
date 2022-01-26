@@ -7,7 +7,7 @@ date: 2022-01-21
 
 ### Plan
 
-See slides
+See [course overview slides](/slides/w1d1/w1-course-overview.html)
 
 ### Python Debugging Tips
 
