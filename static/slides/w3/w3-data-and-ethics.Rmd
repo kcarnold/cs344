@@ -109,11 +109,28 @@ What issues might come up?
 
 class: middle, center
 
-## Data<br>*fuel for machine learning*
+## How to evaluate a classifier
+
+---
+
+## Overfitting
+
+Did this classifier successfully learn to recognize a "dumbbell"?
+
+.center[<img src="https://3.bp.blogspot.com/-dc6B2h_o1fc/VYITir_QCgI/AAAAAAAAAlU/Ysi0_reQTpI/s1600/dumbbells.png" style="width: 100%">]
+.small[.right[*"Dumbbell"*]]
+
+.floating-source[<https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html>]
+
+---
+
+## Other Overfitting Examples
 
 ---
 
 .pull-left[
+Can my kids solve jigsaw puzzles... or just *this* jigsaw puzzle?
+
 <img src="https://www.melissaanddoug.com/dw/image/v2/BBDH_PRD/on/demandware.static/-/Sites-master-catalog/default/dwac79566a/large/000413_1.jpg?sw=562&sh=570&sm=fit">
 ]
 
@@ -123,23 +140,6 @@ class: middle, center
 
 .floating-source[<https://www.nature.com/articles/d41586-021-00340-4>]
 
----
-
-## Overfitting
-
-.center[<img src="https://3.bp.blogspot.com/-dc6B2h_o1fc/VYITir_QCgI/AAAAAAAAAlU/Ysi0_reQTpI/s1600/dumbbells.png" style="width: 100%">]
-.small[.right[*"Dumbbell"*]]
-
-.floating-source[<https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html>]
-
----
-
-### An aside for the interested
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Bias-Variance Trade-Off &amp; &quot;DOUBLE DESCENT&quot; 🧵<br><br>Remember the bias-variance trade-off? It says that models perform well for an &quot;intermediate level of flexibility&quot;. You&#39;ve seen the picture of the U-shape test error curve.<br><br>We try to hit the &quot;sweet spot&quot; of flexibility.<br><br>1/🧵 <a href="https://t.co/HPk05izkZh">pic.twitter.com/HPk05izkZh</a></p>&mdash; Dr. Daniela Witten (@daniela_witten) <a href="https://twitter.com/daniela_witten/status/1292293102103748609?ref_src=twsrc%5Etfw">August 9, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-
-<!-- *slight misnomer*: In modern big networks, it's possible to fit the training set almost perfectly without sacrificing generalization. A wide range of models can fit the training set well; the trick is to encourage the learner to find models that also generalize. -->
 
 ---
 
@@ -161,10 +161,6 @@ class: middle, center
 **Why**: Model expects data in ideal format, cleanly chunked... real world is messy.
 
 **How**: pipeline of transformations (to *items*, to *batches*)
-]
-
-.pull-right[
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s an animation of a <a href="https://twitter.com/PyTorch?ref_src=twsrc%5Etfw">@PyTorch</a> DataLoader.<br><br>It turns your dataset into a shuffled, batched tensors iterator.<br><br>(This is my first animation using <a href="https://twitter.com/manim_community?ref_src=twsrc%5Etfw">@manim_community</a>, the community fork of <a href="https://twitter.com/3blue1brown?ref_src=twsrc%5Etfw">@3blue1brown</a>&#39;s manim)<br><br>Here&#39;s a little summary of the different parts for those curious:<br>1/5 <a href="https://t.co/t6NtOxVRMm">pic.twitter.com/t6NtOxVRMm</a></p>&mdash; Scott Condron (@_ScottCondron) <a href="https://twitter.com/_ScottCondron/status/1363494433715552259?ref_src=twsrc%5Etfw">February 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 ]
 
 ---
@@ -189,11 +185,29 @@ and `DataLoader`
 
 ---
 
+<https://youtu.be/TJgUiZgX5rE?t=121>
+
+<https://youtu.be/ridS396W2BY?t=32>
+
+---
+
 ## Diagnosing Classifiers
 
-**Why**: Better *quantify* performance (e.g., sensitivity vs specificity), better *understand* performance (analyze )
+- **Why**: Better *quantify* performance (e.g., sensitivity vs specificity), better *understand* performance (analyze errors)
+- **How**: [Confusion matrix](https://en.wikipedia.org/wiki/Sensitivity_and_specificity#Confusion_matrix); False Positive vs False Negative.
 
-**How**: Confusion matrix; FP/FN / precision/recall
+Example: Automotive collision avoidance system *predicts imminent collisions*
+
+- consequence of false positive? false negative?
+- effect of adjustments
+
+---
+
+## Averages Hide.
+
+![Face Recognition Accuracy Broken Down](https://i0.wp.com/sitn.hms.harvard.edu/wp-content/uploads/2020/10/Najibi_Fig-1-1.png?w=1440&ssl=1)
+
+.floating-source[[Racial Discrimination in Face Recognition Technology](https://sitn.hms.harvard.edu/flash/2020/racial-discrimination-in-face-recognition-technology/)]
 
 ---
 
@@ -204,6 +218,8 @@ and `DataLoader`
 **How**: move the camera around (images), skip words (text), add / subtract stuff.
 
 *Related*: mess with the model itself, e.g., Dropout.
+
+more in later chapters.
 
 ???
 
@@ -223,29 +239,9 @@ Examples of what specific transforms can be used
 
 ---
 
-## Previews of concepts from next week
-
-* loss
-* NN architectures
-
----
-
 class: center, middle
 
 ## Tools
-
----
-
-## Newline-delimited JSON
-
-```python
-import json
-
-data = []
-with open(filename) as f:
-    for line in f:
-        data.append(json.loads(line))
-```
 
 ---
 
@@ -284,8 +280,11 @@ result
 
 ## Jupyter Notebooks
 
-* execution order issues: Restart and Run All
-* kernel vs webpage: it's still running when you close!
+- execution order issues: Restart and Run All
+- kernel vs webpage: it's still running when you close!
+- Tracebacks:
+  - *What is the error*? look at the end. "What is it talking about?"
+  - *What triggered it*? look for your own code (farther up)
 
 ---
 
@@ -306,58 +305,13 @@ result
 
 ---
 
-## Git(Hub)
+## How to ask a good question
 
-* stage / commit / push
-* nbdime?
-* integration with Colab, Jupyter Lab
+- There are no stupid questions in this class. But there are *lazy* questions.
+- You must learn to *ask well*.
 
-Remember to save your Colab!
+*What makes a well-asked question?*
 
----
+--
 
-## Collaboration
-
-* Teams screenshare
-
----
-
-## fastcore
-
-[`fastcore.L`](https://fastcore.fast.ai/#L) is like a `list` but adds handy stuff:
-
-```python
-paths = path.ls()
-paths.attrgot('name')
-```
-  
-I haven't used it much yet, but I'm guessing these will be useful:
-
-* [`first`](https://fastcore.fast.ai/basics.html#first)
-* [`chunked`](https://fastcore.fast.ai/basics.html#chunked)
-* [`argwhere`](https://fastcore.fast.ai/basics.html#argwhere)
-
-Prefer native Python functionality where available. e.g., `filter_keys` is better expressed as a dict comprehension.
-
----
-
-## Example of Peer Review
-
-Sample hw1 in:
-
-* [nbviewer](https://nbviewer.jupyter.org/github/kcarnold/cs344/blob/main/src/Sample_HW1.ipynb)
-* [Colab](https://colab.research.google.com/github/kcarnold/cs344/blob/main/src/Sample_HW1.ipynb)
-
----
-
-## Practice
-
-<a href="https://colab.research.google.com/github/kcarnold/cs344/blob/main/src/A_Batch_of_Practice_(blank).ipynb">Colab</a>
-
----
-
-## Questions?
-
-??? 
-
-If time: review Lab 1 + extensions
+https://stackoverflow.com/help/how-to-ask
