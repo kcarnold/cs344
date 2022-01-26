@@ -69,6 +69,9 @@ slideSetup <- function(mark_languages = FALSE) {
       "display" = "block",
       "margin-top" = "1rem",
       "text-align" = "right"
+    ),
+    "img" = list(
+      "max-height" = "95vh"
     )
 
   ))

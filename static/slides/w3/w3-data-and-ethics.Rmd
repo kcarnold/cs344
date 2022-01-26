@@ -35,13 +35,16 @@ slideSetup()
 
 ---
 
-## AI Ethics
+## AI Ethics?
 
+.tc[
+![](img/robot-2658699_1920.jpg)
+]
 
+.floating-source[Source: [pixabay](https://pixabay.com/photos/robot-robotic-future-technology-3d-2658699/)]
 
-.floating-source[[pixabay](https://pixabay.com/photos/robot-robotic-future-technology-3d-2658699/)]
-
---
+---
+## AI Ethics Beyond Killer Robots
 
 - AI needs data (privacy)
   - ...and empowers organizations that aggregate data

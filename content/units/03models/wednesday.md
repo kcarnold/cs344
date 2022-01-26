@@ -7,7 +7,7 @@ Plan:
 
 - Discuss highlights from facial recognition [discussion forum](../discussion/) -- come prepared with insights from others' posts
 - Opportunity: class blog
-- Intro to AI Tech Questions
+- Intro to AI Tech Questions: [slides](/slides/w3/w3-data-and-ethics.html)
 - How to evaluate a classifier? Accuracy and confusion matrices
 - *time permitting* loss functions and the importance of partial credit
 
