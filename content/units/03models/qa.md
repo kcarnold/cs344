@@ -11,6 +11,10 @@ Use the prep instructions, prep quizzes, and learning objectives as a guide. (Un
 
 Important concepts will come back again in lab, homework, and future readings, so don't fret over missing something.
 
+### Why did we learn the dot product in Lab 1?
+
+Because it's a core building block to neural net modeling. You'll see in Lab 4 and beyond how we build on it!
+
 ### How much math needed?
 
 Depends!
