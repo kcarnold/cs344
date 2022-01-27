@@ -8,14 +8,14 @@ Students who complete this unit will demonstrate that they can:
 
 - Describe the structure of the data provided as input to an image classifier in terms of batches and labels
 - Contrast a training set and validation set; explain appropriate uses of both
-- Write Python code to prepare a dataset for an image classifier.
+- Adapt Python code to load data to be used by an image classifier.
 - Implement numerical computing operations on multidimensional arrays using PyTorch
 
 ## Preparation
 
 - Read {{< fastbook num="2" nbname="02_production.ipynb" >}}
-    - *note: ignore the implementation of `class DataLoaders`*.
-    - Use duckduckgo instead of Bing.
+    - *note: ignore the implementation details of `class DataLoaders`*; you only need to know that it has a  `.train` and a `.valid`, each of which are `DataLoader`s that take filenames and give batches of `(image, label)` pairs.
+    - If you want to replicate the code, use duckduckgo instead of trying to get a Bing API key.
 - Start reading {{< fastbook num="3" nbname="03_ethics.ipynb" >}}
     - *note*: you can spread out this reading between this week and next week.
 - Watch {{< fastvideo num="2" >}}
