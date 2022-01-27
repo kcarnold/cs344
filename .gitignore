@@ -61,5 +61,10 @@ Thumbs.db
 # Netlify
 /public/
 /resources/
+
+# Student data
 /repos/
+/student_data/
+
+# Hugo
 .hugo_build.lock
