@@ -11,6 +11,17 @@ date: 2022-01-27
     - If you understand what the data loaders give you (batches of numbers paired with labels), you're set.
     - I've had to look up things in the tutorials and docs; see, e.g., this week's [feedback](../feedback/).
 
+## Reflection
+
+- Good questions about clarifying learning objectives. I've made some revisions accordingly.
+- Preparation assignments probably aren't strong enough evidence in general. Some exceptions were made this round.
+
+## Grading
+
+- "Meets expectations" grades currently show up as 75%. Remember that Effort grades will average against this (exact balance will be decided at end of semester)
+- I set up Discussion 3 grades incorrectly; extra Effort points for everybody!
+- The Moodle gradebook is better now, but still doesn't have all the details set up. If you're keeping up with things, don't worry about bad-looking course grades yet.
+
 ## Homework 2
 
 - Burst photos: what effect would that have?

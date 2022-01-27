@@ -18,6 +18,10 @@ Include the following in your reflection this week:
 
     - Copy and paste the specific learning objective from the [Unit 1 objectives](../).
     - Indicate the name of the assignment that demonstrates that you have achieved that objective.
+      - Single quiz questions, especially from preparation quizzes, are generally not sufficient evidence of mastery. However:
+        1. They can always be useful to strengthen other evidence.
+        2. Particularly thoughtful essay responses can be an exception. (Consider making a post on the class blog if so!)
+      - If you do want to use a quiz towards mastery credit, copy and paste the relevant part into the reflection itself.
     - In a sentence or two, argue that the assignment demonstrates your achievement.
     - List any remaining questions or uncertainties you have about this or other objectives.
 
