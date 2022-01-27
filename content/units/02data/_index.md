@@ -9,7 +9,7 @@ Students who complete this unit will demonstrate that they can:
 - Describe the structure of data fed to an image classifier
 - Contrast a training set and validation set; explain appropriate uses of both
 - Write Python code to prepare a dataset for an image classifier.
-- Implement multidimensional numerical computing operations using PyTorch
+- Implement numerical computing operations on multidimensional arrays using PyTorch
 
 ## Preparation
 
