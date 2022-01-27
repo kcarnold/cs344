@@ -48,6 +48,8 @@ Make a list with one element: the last `error_rate` reported during classifier t
 
 ### Classifier 2
 
+One aspect that affects how a model performs is how many *layers* of processing it was trained to do. Generally, a *deeper* model (more layers) can be more accurate, but requires more computational time, and often requires more training to reach that level of accuracy. Let's try a classifier using a different number of layers:
+
 {{% task %}}
 Repeat the previous task, but use an 18-layer ResNet architecture instead (`resnet18`). Record the result in `clf_2_error_rates`. How does the error rate compare?
 {{% /task %}}
@@ -68,13 +70,11 @@ Repeat the two classifier training runs we did above, changing the seed we pass 
 Now, compare the two lists. Which classifier performs better? Do you think the difference you observe between the two classifiers could have arisen simply by chance? Why or why not?
 {{% /task %}}
 
-
-
 We just changed the *architecture*, but not anything else. We could also change:
 
-* The *data*: give it different images (or more or fewer of the same images)
-* The *task*: have it try to predict something different
-* The *hyperparameters*: train it a different way, e.g., let it train longer (more epochs) or adjust itself faster (higher learning rate)
+- The *data*: give it different images (or more or fewer of the same images)
+- The *task*: have it try to predict something different
+- The *hyperparameters*: train it a different way, e.g., let it train longer (more epochs) or adjust itself faster (higher learning rate)
 
 In a future week we will try varying more aspects.
 
