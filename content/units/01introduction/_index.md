@@ -6,9 +6,9 @@ weight: 1
 
 Students who complete this unit will demonstrate that they can:
 
+- Contrast contemporary ML-based numerical AI with classical rule-based symbolic AI
+- Describe the overall approach of how modern AI learns from data
 - Identify some of the major milestones in the history of AI.
-- Contrast contemporary ML-based and numerical AI with classical rule-based and symbolic AI
-- Describe how modern machine learning uses data to learn parameters for a program
 - Implement basic numerical computing operations using PyTorch
 - Implement a simple image classifier on a pre-wrangled dataset using fast.ai.
 
