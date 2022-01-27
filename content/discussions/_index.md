@@ -14,6 +14,7 @@ Each week we'll choose a different technology (or sometimes another type of ques
 - Write a short post (100-200 words) with your answer. Cite sources to support your views. The topic page will often give additional references that you may refer to.
   - Title your post with a summary of your answer.
   - Post it in the discussion forum for the corresponding week.
+  - Longer, more substantial posts are welcome; consider contributing these to the class blog.
 - Respond to one other student's post.
 
 ## Questions about Technologies
