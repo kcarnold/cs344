@@ -22,7 +22,14 @@ Activities:
 - linear regression from scratch
 
 
-Q&A:
+## Homework 2 feedback
+
+- Burst photos: what effect would that have?
+- Accuracy numbers: why might we see the exact same accuracy number from several trials?
+- Include stats about your dataset, e.g., how many photos total?
+- When you're using a smaller dataset, you're probably also using a smaller *validation* set. What does that do to your accuracy numbers?
+
+## Q&A
 
 ### What aspects of the reading should we focus on?
 
@@ -54,4 +61,10 @@ See chapter 5. You can get pretty outlandish.
 
 Yes, see the EU's [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) and subsequent legislation like California's [CCPA](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act).
 
+### What's gradient boosting?
 
+The book mentions gradient-boosted trees in Chapter 2 as an alternative approach to tabular data. File it away as an alternative approach (along with software names: XGBoost and LightGBM) but we won't be discussing it in this class.
+
+### Do we really need labels?
+
+**No**: a big area of growth now is in *self-supervised* learning, where the model learns overall patterns in the data independent of labels, then only needs a small amount of labeled data (or none at all, in some cases) to make conclusions. For example, consider learning to predict what text ends up near an image on a website... or blanking out part of an image and learning to fill it in.
