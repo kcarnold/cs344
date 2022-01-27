@@ -96,7 +96,7 @@ Show the third image in the batch.
 
 ### Get one channel
 
-The second batch is the color channel (red, green, and blue).
+The second axis is the color channel (red, green, and blue).
 
 You can provide multiple indices at the same time, e.g., `images[0, 0]` is the *red* channel of the first image.
 
