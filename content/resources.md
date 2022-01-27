@@ -2,6 +2,10 @@
 title: "Resources"
 ---
 
+## [Glossary](../glossary/)
+
+See link.
+
 ## Running Code
 
 ### Google Colab
