@@ -1,7 +1,13 @@
 ---
-title: "Homework 2 Feedback"
+title: "Feedback"
 date: 2022-01-27
 ---
+
+## General
+
+- Use Markdown cells to narrate what you're doing.
+
+## Homework 2
 
 - Burst photos: what effect would that have?
 - Accuracy numbers: why might we see the exact same accuracy number from several trials?
