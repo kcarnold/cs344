@@ -1,10 +1,12 @@
 ---
-title: 'Lab 2: Basic image classifier'
+title: 'Lab 2: Comparing classifiers, image batch structure'
 author: "Ken Arnold"
 date: 2022-01-17
 summary: 'Try out some variations on a classification model.'
 draft: false
 ---
+
+<!-- next year: make it mandatory to do at least 2 trials and report a range of accuracy values -->
 
 ## Objectives
 
@@ -22,7 +24,7 @@ We're going to start with the cat-vs-dog classifier that we built in chapter 1 a
 
 ### Classifier 1
 
-Here is an example of a task that an advisor might give you:
+Here is an example of a task that a research advisor might give you:
 
 > Train a classifier to distinguish between images of cats and dogs.
 > 
@@ -107,7 +109,7 @@ Show the *blue* channel of the *5th* image in the batch.
 ### Elementwise operations
 
 {{% task %}}
-Explain the result of running `show_images(255 - images)`.
+Explain the result of running `show_images(255 - images[:3])`.
 {{% /task %}}
 
 <!-- 2. **Run `labels`**. Explain those numbers, with the help of `dataloaders.train.vocab`.
