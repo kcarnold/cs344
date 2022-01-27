@@ -61,6 +61,7 @@ pre, .boxed {
   padding: 1em;
   overflow-x: auto;
 }
+pre { background: #f8f8f8; }
 code { background: #f9f9f9; }
 pre code { background: none; }
 
