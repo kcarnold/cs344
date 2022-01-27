@@ -20,3 +20,38 @@ Students who complete this unit will demonstrate that they can:
 Activities:
 
 - linear regression from scratch
+
+
+Q&A:
+
+### What aspects of the reading should we focus on?
+
+Use the prep instructions, prep quizzes, and learning objectives as a guide. (Unfortunately, when faced with a potential digression, the book tends to always take it.)
+
+Important concepts will come back again in lab, homework, and future readings, so don't fret over missing something.
+
+### How much math needed?
+
+Depends!
+
+- For training models out-of-the-box, almost no math at all, just like you don't need to know about how hash tables work to write SQL queries against databases.
+- For pushign the envelope of machine learning, we need all the creativity we can get, coming from any corner of math, physics, CS, statistics, etc. For example, one very promising new kind of neural network, [S4](https://srush.github.io/annotated-s4/), uses state-space models from physics and signal processing.
+- Most of our work will be somewhere between these two extremes.
+
+### What's a test set?
+
+In the hierarchy of data purity:
+
+- Training set: our playground. Mess with it all you want.
+- Validation set: strength tests. Use occasionally to check that you're getting stronger. But not too much or you'll start learning how to game it! (20% is a reasonable size but a wide range is reasonable.)
+- Test set: don't touch this. Until you're basically done.
+
+### How much augmentation?
+
+See chapter 5. You can get pretty outlandish.
+
+### Are there laws that safeguard our information?
+
+Yes, see the EU's [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) and subsequent legislation like California's [CCPA](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act).
+
+
