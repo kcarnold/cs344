@@ -11,6 +11,7 @@ See link.
 ### Google Colab
 
 In addition to the lab computers, you can run all the book's notebooks, and most of our labs and homeworks, on [Google Colab](https://colab.research.google.com/).
+Links to open notebooks in Colab are given next to each reading link.
 
 To install fastai, insert a cell at the top that contains:
 
@@ -21,10 +22,13 @@ from fastbook import *
 
 (In the past it was also necessary to install `torchtext==0.8.1`. I suspect this is no longer required but I have not tested that.)
 
-Tips:
+Tips and Notes:
+
+- Under the *Runtime* menu, select **Change runtime type** and select **GPU**. Otherwise many things will run very slowly.
+- If you open a notebook from GitHub, **any changes are not saved**! Make sure you select "*Copy to Drive*" on the toolbar if you want to save changes.
 - [intro](https://colab.research.google.com/notebooks/intro.ipynb), [overview](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
--   Press Ctrl-Shift-P to open the Command Palette. Lots of useful stuff there; try the "scratch code cell".
--   Click the down arrow next to the RAM/Disk meter in the toolbar (where it used to say "Connect") and select "show executed code history".
+- Press Ctrl-Shift-P to open the Command Palette. Lots of useful stuff there; try the "scratch code cell".
+- Click the down arrow next to the RAM/Disk meter in the toolbar (where it used to say "Connect") and select "show executed code history".
 
 ### Jupyter Notebook
 
