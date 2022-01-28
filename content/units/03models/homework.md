@@ -76,10 +76,22 @@ interp.plot_top_losses(k = 5)
 interp.print_classification_report()
 ```
 
-Finally, you can compute the accuracy or error rate directly by treating a correct prediction as a 1 and an incorrect prediction as 0 (I call this the *sum-as-count pattern*).
+Finally, you can compute the accuracy or error rate directly by treating a correct prediction as a 1 and an incorrect prediction as 0 (I call this the *sum-as-count pattern*). This code also demonstrates a clean way to spread out a Python expression over multiple lines: put everything in parentheses.
 
 ```python
-(interp.decoded == interp.targs).to(float).mean()
+(
+    # Make a Tensor of Trues and Falses, True if the classifier got the corresponding image right
+    (
+        # the predictions that the model made on the test set
+        interp.decoded
+        # compare with the target labels provided by the DataLoader
+        == interp.targs
+    )
+    # convert True to 1.0, False to 0.0
+    .to(float)
+    # Compute the fraction of True's.
+    .mean()
+)
 ```
 
 I think this should work too:
