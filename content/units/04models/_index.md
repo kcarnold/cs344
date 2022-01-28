@@ -7,7 +7,11 @@ weight: 4
 Students who complete this unit will demonstrate that they can:
 
 - Describe the basic structure of a machine learning model.
-- Contrast sensible vs non-sensible sequences of model layers (e.g., alternating linear and nonlinear)
+- Describe the overall approach of Stochastic Gradient Descent.
+- Describe the parameters and operation of a linear layer.
+- Describe the difference between a metric and a loss function.
+- Identify the following loss functions: Mean Squared Error, Mean Absolute Difference, and 
+<!-- - Contrast sensible vs non-sensible sequences of model layers (e.g., alternating linear and nonlinear) -->
 - Implement a basic image classifier model using a fully-connected network.
 - Compute the gradients of programs with respect to parameters using one level of backpropagation
 
