@@ -6,7 +6,7 @@ weight: 5
 
 Students who complete this unit will demonstrate that they can:
 
-- Describe how a model takes information from a batch of data to improve its performance on that and other data.
+- Contrast sensible vs non-sensible sequences of model layers (e.g., alternating linear and nonlinear)
 - Describe and compute cross-entropy loss
 - Implement a logistic regression model from fundamentals
 
