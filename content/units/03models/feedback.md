@@ -84,41 +84,4 @@ Questions to reflect on:
 
 Note: ideally you'd keep the *same* validation set and vary only the *training* set size. While you weren't expected to do that for this assignment, you could use an [`IndexSplitter`](https://docs.fast.ai/data.transforms.html#IndexSplitter) to put specific indices in the validation set.
 
-Alternatively, we could first split off a *test* set, then pass all of the remaining data to the usual pipeline and adjust the validation percentage to adjust the training set size. Then, to evaluate the performance, we'd use `test_dl` to make a new `DataLoader` for the test set. See <https://docs.fast.ai/tutorial.pets.html#Adding-a-test-dataloader-for-inference> and [this forum post](https://forums.fast.ai/t/a-brief-guide-to-test-sets-in-v2-you-can-do-labelled-now-too/57054) for details. It would look something like:
-
-```python
-# Get the image files
-image_files = get_image_files(path)
-
-# Split off a test set
-remaining_indices, test_indices = RandomSplitter(seed=42)(image_files)
-test_files = image_files[test_indices]
-remaining_files = image_files[remaining_indices]
-
-# train as normal...
-
-# Construct dataloader
-test_dl = dataloaders.test_dl(test_files, with_labels=True)
-
-# The ClassificationInterpretation object gathers a lot of useful data for us.
-interp = ClassificationInterpretation.from_learner(learn, dl=test_dl)
-interp.plot_top_losses(k = 5)
-interp.print_classification_report()
-# compute accuracy directly
-(interp.decoded == interp.targs).to(float).mean()
-```
-
-Lower level APIs:
-
-```python
-# Then you can validate with it...
-learn.validate(dl=test_dl)
-
-
-# Or get the raw predictions
-preds = learn.get_preds(dl = test_dl)
-
-# Compute accuracy ourselves
-y = torch.cat([labels for images, labels in its]).to('cpu') # there's gotta be a better way to do this!
-
-```
+Alternatively, we could first split off a *test* set, then pass all of the remaining data to the usual pipeline and adjust the validation percentage to adjust the training set size. Then, to evaluate the performance, we'd use `test_dl` to make a new `DataLoader` for the test set. See <https://docs.fast.ai/tutorial.pets.html#Adding-a-test-dataloader-for-inference> and [this forum post](https://forums.fast.ai/t/a-brief-guide-to-test-sets-in-v2-you-can-do-labelled-now-too/57054) for details---or [Homework 3](../homework/) has the full instructions.
