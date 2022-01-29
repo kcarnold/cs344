@@ -27,6 +27,7 @@ Students who complete this unit will demonstrate that they can:
 - The book uses "rank" to refer to the number of axes of a tensor, but "rank" means something different in linear algebra. To avoid confusion, let's call it "number of axes", or perhaps "number of dimensions" (abbreviated "ndim" in PyTorch).
   - For example, a length-5 column vector times a length-4 row vector would give a matrix (tensor) with two axes (2-dimensional), with shape (5, 4) and rank 1 in the linear algebra sense. See [this notebook](https://nbviewer.jupyter.org/github/kcarnold/cs344/blob/main/src/Number_of_Dimensions_is_not_Rank.ipynb).
 
-Activities (to be posted)
+### Optional Supplemental Materials
 
-- linear regression from scratch
+- [Lecture 1 of MIT 6.S191 Deep Learning](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1)
+- [$1 gesture recognizer](https://depts.washington.edu/acelab/proj/dollar/index.html) for a different style of simple model (we won't study this)

@@ -22,13 +22,11 @@ Students who complete this unit will demonstrate that they can:
     - *note*: The first hour of {{< fastvideo num="3" >}} finishes up this chapter's material. The first 12 or so minutes may be particularly helpful at this point.
 - Complete the preparation quiz in Moodle.
 
-<!-- 
-Activities
-- Lab 2: basic fast.ai classifier
-    - maybe also: wrangling practice, tensor practice (some early Fundamentals)
-    - Review working with files in Python
-    - List comprehensions etc.
+### Optional Supplemental Material
 
+Read the paper that introduced a well-known dataset: [ImageNet](https://ieeexplore.ieee.org/document/5206848), Microsoft [COCO](https://arxiv.org/abs/1405.0312v3), [MNIST](https://ieeexplore.ieee.org/document/726791), etc.
+
+<!-- 
 Discussion Forum:
 
 - who has data on you? how much? what do you feel about that?
