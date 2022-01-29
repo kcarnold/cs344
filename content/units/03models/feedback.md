@@ -99,5 +99,26 @@ remaining_files = image_files[remaining_indices]
 
 # Construct dataloader
 test_dl = dataloaders.test_dl(test_files, with_labels=True)
-ClassificationInterpretation.from_learner(learn, dl=test_dl)
+
+# The ClassificationInterpretation object gathers a lot of useful data for us.
+interp = ClassificationInterpretation.from_learner(learn, dl=test_dl)
+interp.plot_top_losses(k = 5)
+interp.print_classification_report()
+# compute accuracy directly
+(interp.decoded == interp.targs).to(float).mean()
+```
+
+Lower level APIs:
+
+```python
+# Then you can validate with it...
+learn.validate(dl=test_dl)
+
+
+# Or get the raw predictions
+preds = learn.get_preds(dl = test_dl)
+
+# Compute accuracy ourselves
+y = torch.cat([labels for images, labels in its]).to('cpu') # there's gotta be a better way to do this!
+
 ```
