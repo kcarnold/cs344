@@ -12,21 +12,19 @@
 {{ .Content }}
 
 {{ if .Sections }}
-<ul>
 {{ range .Sections }}
-  <li>
-    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> ({{.Date.Format "Jan 2"}})
-    <ul>
-        {{ $pages := .Pages.ByDate }}
-        {{ range (where $pages "Section" .Section ) }}
-        <li>
-          <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> ({{ .Date.Format "Mon Jan 2" }})
-        </li>
-        {{ end }}
-      </ul>      
-  </li>
+<details {{- if .Date.After (time "2022-01-28" ) }} open{{end}}>
+  <summary><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> ({{.Date.Format "Jan 2"}})</summary>
+  <ul style="margin: 0;">
+      {{ $pages := .Pages.ByDate }}
+      {{ range (where $pages "Section" .Section ) }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> ({{ .Date.Format "Mon Jan 2" }})
+      </li>
+      {{ end }}
+    </ul>      
+</details>
 {{ end }}
-</ul>
 {{ else }}
 
 <h2>Contents</h2>
