@@ -42,6 +42,14 @@ type: Feedback
     resid
     ```
 
+## Lab 2
+
+- 18 layers may have looked similar at first, but once you repeated the experiment, many (but not all!) people saw that the ResNet34 tended to do a bit better. How could you tell if that was a *statistically significant* difference?
+  - Perhaps *plot* the error rates?
+  - Perhaps a statistical test? (are samples*paired* or *unpaired*?)
+- The image tensor is *batch* by *color channel* by *height* by *width*. (I may have width and height flipped, can someone check this?)
+- `255 - image` *inverts* the colors in the image: black goes to white, etc.
+
 ## Homework 2
 
 - The numerical value of the seed is unimportant and should not be reported in narrative. It just "throws the dice" again.
