@@ -10,3 +10,8 @@ date: 2022-01-31
 - Explain why the gradient for one parameter may initially seem to go in the wrong direction.
 - Contrast the effects of gradient *ascent* and gradient *descent*.
 - Descend the estimated gradient until convergence.
+
+
+- Multidimensional Array practice
+    - image array slicing and setting
+    - from vector dot products to matrix products: inner dimensions must match.
