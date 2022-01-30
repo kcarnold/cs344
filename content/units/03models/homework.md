@@ -1,5 +1,5 @@
 ---
-title: "Homework 3: Generalization and Critique"
+title: "Homework 3: Generalization"
 date: 2022-01-28
 draft: false
 ---
@@ -10,7 +10,6 @@ The process of completing this assignment will improve your ability to:
 
 - Explain the importance of validating image classifiers.
 - Describe factors that affect how image classifiers generalize.
-- Describe how the concept of *distributions* applies to image data.
 
 ## Task
 
@@ -100,9 +99,6 @@ I think this should work too:
 accuracy(interp.preds, interp.targs)
 ```
 
+<!-- ## Other Notes
 
-<!-- And maybe Fundamentals:
-
-- Multidimensional Array practice
-    - image array slicing and setting
-    - from vector dot products to matrix products: inner dimensions must match. -->
+- Describe how the concept of *distributions* applies to image data. -->
