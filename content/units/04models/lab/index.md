@@ -18,7 +18,6 @@ The process of completing this assignment will improve your ability to:
 - Identify the following loss functions: Mean Squared Error and Mean Absolute Difference.
 - Compute the gradients of programs with respect to parameters using one level of backpropagation
 
-
 ## Setup
 
 Download the template: [`lab04.ipynb`](lab04.ipynb).
@@ -111,13 +110,14 @@ Hopefully this has convinced you that it would be a good idea to *quantify* the 
 We'll introduce two **loss functions**:
 
 - Mean Squared Error (abbreviated **MSE**, also known as the *L2 norm*): square the residual, take the mean.
+  - Technically, L2 norm is the *RMSE*, the square ***R**oot of the MSE. But you might try to convince yourself that any parameter that minimizes the MSE also minimizes the RMSE and vice versa.
 - Mean Absolute Error (abbreviated **MAE**, also known as the *L1 norm* or sometimes *mean absolute deviation* (MAD)): flip negative errors to be positive (absolute value), take the mean.
 
 Which one of them is more *sensitive* to outliers? Let's find out.
 
 {{% task %}}
 
-1. Add correct computations of the `mse` and `mae` to the interactive function above.
+1. Add correct computations of the `mse` and `mae` to the interactive function above. See your solution at the end of Lab 1 if you don't remember.
 2. Adjust the slider to minimize MSE. Then adjust it to minimize MAE. Write down the values in the blank cell provided.
 3. How would you describe the difference between the line that minimizes MSE and the line that minimizes MAE? Write your response in the cell provided.
 
@@ -131,14 +131,34 @@ Soon see how we can compute the gradient exactly using code. But for now, let's 
 
 {{% task %}}
 
-1. Write a function `linreg_mse` that computes the MSE for a given slope. (Start with the function above, remove the plotting and `@interact`, add a `return`.) Test that function at a few individual points.
-2. We can compute the gradient using a numerical difference: `(linreg_mse(x0 + eps) - linreg_mse(x0)) / eps`. Set `eps` ("epsilon") to 1e-4 and use two different values of `x0`: 0.0, and the value that you wrote down above that minimizes the MSE.
+1. Write a function `linreg_mse` that computes the MSE for a given slope. (Start with the function above, remove the plotting and `@interact`, add a `return`.) Test that function at a few specific values of `slope`.
+2. We can compute the gradient using a numerical difference: `(linreg_mse(x0 + eps) - linreg_mse(x0)) / eps`. Set `eps` ("epsilon") to 1e-3 and use two different values of `x0`: 0.0, and the value that you wrote down above that minimizes the MSE.
+
+<!--TODO: We need to explain this numerical difference! -->
 
 {{% /task %}}
 
 Write a brief description of how the numerical gradient behaves.
 
-### Gradient Descent
+### Gradient Descent (*optional*)
 
 - Contrast the effects of gradient *ascent* and gradient *descent*.
-- Descend the estimated gradient until convergence.
+
+{{% task %}}
+
+Write a loop that adjusts the *slope* parameter to minimize MSE. You'll need to decide how big of a step to take: use a step size of 0.01.
+
+<!-- TODO: Give the algorithm here. -->
+
+Keep track of the MSE at each step in the loop. Plot the result.
+
+{{% /task %}}
+
+## Check for Understanding
+
+You should now be able to answer the following questions:
+
+1. Considering the gradient of the slope parameter with respect to the MSE: if the value of the gradient is *positive*, which direction do we need to move to get a lower MSE?
+2. If the value of the gradient is *negative*, which direction do we need to move to get a lower MSE?
+3. What can we say about the gradient when the parameter minimizes the MSE?
+4. What would we need to change in order to use gradient descent to minimize the MAE instead?
