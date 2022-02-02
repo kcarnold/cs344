@@ -1,0 +1,78 @@
+---
+title: "Foundations of Gradient-Based Learning"
+author: 
+  - "Ken Arnold"
+date: '2022-02-02'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: false
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+source("../slides-common.R")
+slideSetup()
+#library(reticulate)
+#reticulate::use_condaenv("fastai")
+```
+
+## Logistics
+
+- Reflection due *next* week
+- Lab 4 post-lab posted
+- Homework 3 due tomorrow
+
+---
+
+## How to ask a good question
+
+- There are no stupid questions in this class.
+- But there are *unasked* questions.
+- And there are *lazy* questions.
+- You must learn to *ask well*.
+
+*What makes a well-asked question?*
+
+--
+
+<https://stackoverflow.com/help/how-to-ask>
+
+
+---
+
+## Monday Lab Recap
+
+Explain to your neighbor what we did on Monday.
+
+--
+
+How does Monday lab compare with linear regression that you've seen before?
+
+
+---
+
+## Model = architecture + loss + data + optimization
+
+---
+
+## Linear Regression
+
+---
+
+## Bias (Intercept)
+
+---
+
+## Stochastic Gradient Descent
+
+We only need a few points to find a descent direction
+
+---
+
+## Computing that gradient
+
