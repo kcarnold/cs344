@@ -4,7 +4,7 @@ date: 2022-02-02
 type: Class
 ---
 
-Plan:
+### Plan
 
 - Model = architecture + loss + data + optimization
 - How does this apply to linear regression?
@@ -17,3 +17,7 @@ Plan:
   - Not symbolic differentiation
 - Loss functions and their gradients: MSE vs MAE
 - Extend to a linear combination of basis functions (secretly ReLUs)
+
+### Resources
+
+[Interactive Gradient Descent demo](https://observablehq.com/d/80f8b8504873a853)
