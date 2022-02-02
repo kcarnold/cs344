@@ -8,9 +8,9 @@ See link.
 
 ## fastai hotfixes
 
-**Warning**: fastai drops incomplete batches in the training set, and `bs=1` would fail because of batch normalization. So use `bs = 2` for small data.
+**Warning**: fastai drops incomplete batches in the training set, and `bs=1` would fail because of batch normalization. So use `bs = 2` for small data. (And more epochs.)
 
-`plot_top_losses` is broken. Here's a monkey-patch:
+`plot_top_losses` is broken. Here's a monkey-patch; add this as a new code cell just after your fastai imports:
 
 ```python
 def _plot_top_losses(self, k, largest=True, **kwargs):
