@@ -13,7 +13,7 @@ The process of completing this assignment will improve your ability to:
 
 ## Task
 
-Evaluate your classifier on a set of images collected by others in the class. Report the following:
+Load up the classifier you trained in [Homework 2](../02data/homework/). **Evaluate it on a set of images collected by others** in the class. Report the following:
 
 1. Metadata about your original (Homework 2) dataset (see below for details),
 2. Metadata about the dataset you are testing on.
@@ -38,10 +38,10 @@ Refer to Homework 2 for the link to the shared dataset. If you click Download in
 
 You should have at least 5 images of each building, ideally more, ideally from several people. Make sure that these are images that you (and your code) *never saw* in the course of doing Homework 2.
 
-If you cannot find examples of the same two buildings that you used, you may either:
+If you cannot find examples of the same two buildings that you used, *you do not need to collect new data*. You may either:
 
 1. Reinterpret the problem as detecting a specific building (i.e., rename the other images to be just "Other"), or
-2. Switch which buildings you train your Homework 2 classifier on, and repeat the trials you did there.
+2. Retrain your Homework 2 classifier on a different set of buildings, based on images from other students.
 
 Either way, *clearly describe the choices you made*.
 
@@ -72,10 +72,16 @@ And finally we can ask it for various things, like the confusion matrix, top los
 
 ```python
 interp.plot_top_losses(k = 5)
+interp.plot_confusion_matrix()
+```
+
+To get the accuracy, you can either use the classification report...
+
+```python
 interp.print_classification_report()
 ```
 
-Finally, you can compute the accuracy or error rate directly by treating a correct prediction as a 1 and an incorrect prediction as 0 (I call this the *sum-as-count pattern*). This code also demonstrates a clean way to spread out a Python expression over multiple lines: put everything in parentheses.
+... or you can compute the accuracy or error rate directly by treating a correct prediction as a 1 and an incorrect prediction as 0 (I call this the *sum-as-count pattern*). This code also demonstrates a clean way to spread out a Python expression over multiple lines: put everything in parentheses.
 
 ```python
 (
