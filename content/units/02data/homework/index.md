@@ -29,7 +29,6 @@ You will need to organize your photos into a dataset. I suggest:
 
 - Name photos like `NorthHall_3.jpg`.
 - Place all your photos in a folder for each building. So an image will actually be at `NorthHall/NorthHall_3.jpg`. (This way it's easy to rename buildings.)
-- Use the approach from Chapter 2 to make a classifier based on these images.
 
 Submit a Jupyter Notebook reporting your findings on Moodle. In addition to the code needed, include answers to these questions:
 
@@ -42,7 +41,8 @@ Submit a Jupyter Notebook reporting your findings on Moodle. In addition to the 
 
 Tips:
 
-- Chapter 2 has some helpful low-level code for constructing an `ImageDataLoader`. Once you have that, you can use the same techniques you used in Lab 2.
+- Chapter 2 has some helpful low-level code for constructing an `ImageDataLoader`. Alternatively, use `ImageDataLoaders.from_path_func(..., label_func=parent_label, bs=2)`.)
+- You can use the same techniques you used in Lab 2 to evaluate the classifier. See chapter 2 for examples of how to make a confusion matrix and plot top losses (and Resources here for a bugfix for `plot_top_losses`.)
 - You probably need to set the batch size to be smaller than the default (which is 64 images). Do this by passing `bs=2` as a keyword parameter to your `ImageDataLoader`.
 - Like in Lab 2, just hard-code the accuracy values you get from multiple different `seed`s.
 - Visualize things:
