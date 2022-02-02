@@ -16,7 +16,7 @@ type: Feedback
   - Don't worry that you don't know all the low-level details of how classifiers work, e.g., what all the numbers do. We're gradually peeling back layers over the next few weeks.
   - Don't worry about not knowing the low-level details of how to make fastai `DataLoaders`. That's not a learning objective of this class.
     - If you understand what the data loaders give you (batches of numbers paired with labels), you're set.
-    - I've had to look up things in the tutorials and docs; see, e.g., this week's [feedback](../feedback/).
+    - I've had to look up things in the tutorials and docs; see, e.g., [Homework 3](../homework/).
 
 ## Reflection
 
@@ -54,6 +54,9 @@ type: Feedback
 
 - The numerical value of the seed is unimportant and should not be reported in narrative. It just "throws the dice" again.
 - *Sideways images*: fastai doesn't honor EXIF orientation flags. I submitted a [bug report](https://github.com/fastai/fastai/issues/3565).
+- You can use the approach of chapter 2 to construct the `DataLoaders`, or just use the chapter 1 convenience function: `ImageDataLoaders.from_path_func(..., label_func=parent_label)`.
+- `fastai` drops incomplete batches in the training set. Unfortunately you can't set the batch size to 1 (because the model uses *batch normalization*--beyond the scope of this course). So give the keyword arg `bs = 2` to whatever creates your `dataloaders` (e.g., `ImageDataLoaders.from_path_func(..., bs = 2)`).
+- Since you have so little data, `fine_tune()` for several epochs -- at least `fine_tune(4)`.
 
 Questions to reflect on:
 
