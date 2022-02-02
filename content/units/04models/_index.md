@@ -9,7 +9,6 @@ Students who complete this unit will demonstrate that they can:
 - Describe the basic structure of a machine learning model.
 - Describe the overall approach of Stochastic Gradient Descent: how does it use information from a batch of data to improve its performance on that and other data?
 - Describe the parameters and operation of a linear layer.
-- Describe the difference between a metric and a loss function.
 - Identify the following loss functions: Mean Squared Error and Mean Absolute Difference.
 - Implement a basic image classifier model using a fully-connected network.
 - Compute the gradients of programs with respect to parameters using one level of backpropagation
@@ -31,5 +30,10 @@ Students who complete this unit will demonstrate that they can:
 
 ### Optional Supplemental Materials
 
-- [Lecture 1 of MIT 6.S191 Deep Learning](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1)
-- [$1 gesture recognizer](https://depts.washington.edu/acelab/proj/dollar/index.html) for a different style of simple model (we won't study this)
+There are too many videos out there on deep learning to list here, but here's a few very different styles:
+
+- (MIT) [Lecture 1 of MIT 6.S191 Deep Learning](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1)
+- (elementary) [CrashCourse AI Playlist](https://www.youtube.com/playlist?list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b)
+- (mathy) [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) (highly recommended channel for math)
+
+<!-- - [$1 gesture recognizer](https://depts.washington.edu/acelab/proj/dollar/index.html) for a different style of simple model (we won't study this) -->

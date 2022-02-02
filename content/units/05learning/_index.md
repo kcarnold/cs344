@@ -6,8 +6,9 @@ weight: 5
 
 Students who complete this unit will demonstrate that they can:
 
-- Contrast sensible vs non-sensible sequences of model layers (e.g., alternating linear and nonlinear)
+- Describe the difference between a metric and a loss function.
 - Describe and compute cross-entropy loss
+- Contrast sensible vs non-sensible sequences of model layers (e.g., alternating linear and nonlinear)
 - Implement a logistic regression model from fundamentals
 
 <!-- - Activities
