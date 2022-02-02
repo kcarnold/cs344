@@ -13,7 +13,7 @@ The process of completing this assignment will improve your ability to:
 
 ## Task
 
-Load up the classifier you trained in [Homework 2](../02data/homework/). **Evaluate it on a set of images collected by others** in the class. Report the following:
+Load up the classifier you trained in [Homework 2](../../02data/homework/). **Evaluate it on a set of images collected by others** in the class. Report the following:
 
 1. Metadata about your original (Homework 2) dataset (see below for details),
 2. Metadata about the dataset you are testing on.
