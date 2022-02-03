@@ -44,7 +44,7 @@ In general, autonomous cars include 4 stages of activity: perception, localizati
 
 - Current road systems
    - Some roads are unmarked; the lack of uniformity in road signage and stoplights.
-- Wheather conditions
+- Weather conditions
    - Sensors simply do not work perfectly in heavy bad weather. 
 - Hacking
 - Transparency
