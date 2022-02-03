@@ -9,7 +9,7 @@ Students who complete this unit will demonstrate that they can:
 - Identify ethical issues pertaining to the collection and use of data in AI systems
 - Explain examples of social impacts of AI systems in wide use today
 - Explain examples of biases in AI systems.
-- Explain the importance of validating image classifiers.
+- Explain the importance of evaluating image classifiers on unseen data.
 
 ## Preparation
 
