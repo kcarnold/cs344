@@ -34,11 +34,26 @@
   {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
   {{ range (where $pages "Section" .Section ) }}
   <li>
-    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>  ({{ .Date.Format "Mon Jan 2" }})
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>  ({{ .Date.Format "Mon Jan 2" }}{{with .Params.due }}, due {{ (time .).Format "Mon Jan 2" }}{{ end }})
   </li>
   {{ end }}
 </ul>
 
+<h2>Due this Week</h2> 
+
+<ul>
+{{ $unit := . }}
+{{ range .Site.RegularPages }}
+{{ $page := . }}
+{{ with $due := .Params.due }}
+{{if (and 
+  (ge (time $due) (time $unit.Date))
+  (lt (time $due) ((time $unit.Date).AddDate 0 0 7))) }}
+<li><a href="{{ $page.Permalink }}">{{ $page.Title | markdownify }}</a> ({{ (time $due).Format "Mon" }})</li>
+{{ end }}
+{{ end }}
+{{ end }}
+</ul>
 
 {{ end }}
 
