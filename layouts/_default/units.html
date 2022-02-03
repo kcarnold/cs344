@@ -34,7 +34,7 @@
   {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
   {{ range (where $pages "Section" .Section ) }}
   <li>
-    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>  ({{ .Date.Format "Mon Jan 2" }}{{with .Params.due }}, due {{ (time .).Format "Mon Jan 2" }}{{ end }})
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>  ({{with .Params.due }}due {{ (time .).Format "Mon Jan 2" }}{{ else }}{{ .Date.Format "Mon Jan 2" }}{{ end }})
   </li>
   {{ end }}
 </ul>
