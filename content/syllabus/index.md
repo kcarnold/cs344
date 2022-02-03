@@ -5,9 +5,7 @@ title: "Syllabus"
 This is a hands-on course on AI systems using machine learning, with a particular emphasis on deep neural networks.
 
 -   **Instructor**: Kenneth C. Arnold, Calvin University, North Hall NH298
-
 -   **Meeting Time**: MWF 11:30-12:20, SB 354 (Gold Lab)
-
 -   **Office/Teams Hours**: Generally Monday and Thursday afternoons; see my [Google Calendar](https://kenarnold.org/calendar.html) for details and exceptions. Or message me directly; time permitting, I'd love to chat.
 
 ## Objective
@@ -21,8 +19,8 @@ By the end of this course, you will demonstrate growth in your ability to:
 - Implement machine learning systems using both high-level and low-level programming interfaces.
 	- Write code to implement the forward pass of linear regression, logistic regression, and neural net extensions thereof. (compute predictions and loss)
 	- Design and implement data preprocessing processes to encode data into a format appropriate for machine learning modeling.
-- Critically analyze the use and misuse of AI and ML techniques in situations affecting people
-- Describe the history and trajectory of artificial intelligence
+- Critically analyze the use and misuse of AI and ML techniques in situations affecting people.
+- Describe the history and trajectory of artificial intelligence.
 
 ## Prerequisites
 
@@ -48,23 +46,30 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 
 ## Policies
 
-**Grading**: The final course grade will be composed of 2 elements:
+### How will the course be graded?
 
-- Effort: did you do it, on time?
-- Mastery: did you get it?
+The final course grade will be composed of 2 elements:
 
-**Effort** points are awarded for satisfactory effort by the due date and are intended to keep you from getting behind in the course. The following types of activities count as effort points:
+- **Effort**: did you do it, on time?
+- **Mastery**: did you get it?
 
-- **Labs**, **Homework**, and weekly **reflections** will be considered satisfactory if an attempt has been made to answer all questions by the due date. Each activity will be allocated 5 effort points. On-time submissions receive all 5 points; late turn-ins are penalized by 1 point each business day (i.e., excluding weekends).
+### How are Effort grades computed?
+
+Effort points are awarded for satisfactory effort by the due date and are intended to keep you from getting behind in the course. The following types of activities count as effort points:
+
+- **Labs**, **Homework**, and **Reflections** (see below) will be considered satisfactory if an attempt has been made to answer all questions by the due date. Each activity will be allocated 5 effort points. On-time submissions receive all 5 points; late turn-ins are penalized by 1 point each business day (i.e., excluding weekends).
 - **Discussion Forums** (see [details](/discussions/)) will be awarded 2 effort points if an original post with intellectual substance is made by the due date. Many discussion assignments will also include one or two replies to other students, which will count for 1 effort point each. Late posts may receive half credit.
 - All **Quizzes** (both preparation and review) count as 5 effort points. The actual score will be used: unlimited attempts will be allowed, so perfect scores are expected. Moodle makes it tedious to manage late quizzes, so each quiz will officially close a week late and no late quizzes will be accepted.
 
-**Late work**: Everyone will receive 5 free effort points, i.e., you get five grace days. Please reserve these for cases of personal hardship. Exemptions per assignment will be granted in very limited circumstances. 
+### Can I turn in things late?
 
-The *mastery* component of grading (inspired by a system used at [Grinnell College](https://osera.cs.grinnell.edu/csc151/syllabus/)) will be composed of two grades for each unit: an individual grade and a group grade. A mastery grade is awarded for a unit when a student provides evidence to demonstrate mastery of one or more of the learning outcomes for that unit.
-You present this evidence to the course staff by referring to a specific assignment in your weekly reflection (described later).
+Everyone will receive 5 free effort points, i.e., you get five grace days. Please reserve these for cases of personal hardship. Exemptions per assignment will be granted in very limited circumstances.
 
-> Alternatively, you may meet with the course staff (during office hours or during a lull in lab time) to earn a mastery grade. However, times to do this will be limited, so be prepared to provide written evidence.
+When you're turning in something late, you will mention this in the Reflection for the week.
+
+### What are Mastery grades?
+
+The *mastery* component of grading (inspired by a system used at [Grinnell College](https://osera.cs.grinnell.edu/csc151/syllabus/)) will be composed of one or two grades for each unit, corresponding to key assignments in that unit (typically a Homework).
 
 Mastery will be graded on a four-point scale (adapted from the [EMRF rubric](http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf) by Stutzman and Race):
 
@@ -80,41 +85,54 @@ Mastery will be graded on a four-point scale (adapted from the [EMRF rubric](htt
 - **N**: Not completed
     - Not completed to a degree where understanding is evident
 
+Grades on the semester project and on perspectival reports will add additional mastery grades.
 
-**If I get an R, can I revise?**
+### How are Mastery grades computed?
 
-Yes, this is expected and highly encouraged. You can submit revisions in the same way that you submit new items. When submitting a revision:
+The mapping of Mastery grades to numbers and their weighting with Effort grades will be determined at the end of the semester so that if you achieve all M grades with minimal late submissions you should expect at least a B+. I will make a reasonable attempt to keep the gradebook in Moodle configured to approximate this grade, but do not be discouraged by temporary low numerical grades in Moodle.
 
-- Include in your weekly reflection a concise and specific explanation of the original error(s).
-- Submit a complete, standalone solution. Do not include evidence of your past errors.
+### How do I revise assignments?
 
-**When can I earn mastery grades?**
+Revisions are expected and highly encouraged. You may submit **up to one revision per week**. To submit a revision: 
 
-You may earn up to 2 mastery grades during each week of class (ending Mondays unless otherwise indicated), and up to one mastery grade for each unit in the midterm and final projects. Generally you will attempt one new mastery grade and one revised assignment from a previous week during each week.
+- Submit a complete, standalone solution on Moodle. (Clean up anything from your past errors.)
+- **Email the instructor** with the following:
+  - What assignment you're revising
+  - A concise and specific explanation of the original error(s) and how you addressed them.
 
-**This sounds unusual. Will we actually be doing this??**
+### This sounds unusual. Will we actually be doing this??
 
 This grading policy is experimental and depends on student buy-in and participation. I reserve the right to change the grading policy at any point.
 
-**Can we work in pairs?**
+### Can we work in pairs?
 
 Lab, homework, and project activities should generally be done in pairs, though solo work is also fine. Teams of 3 can be okay too.
 
-However, group work can only get you one of the two mastery grades for a unit.
+Some weeks there will be review assignments available, which will provide you the opportunity to demonstrate individual mastery. These assignments *must* be done individually, without consulting other students or aids.
 
-Some weeks there will be review assignments available, which will provide you the opportunity to demonstrate individual mastery. (As a corollary, these assignments *must* be done individually, without consulting other students or aids.)
+### Are Incomplete grades offered?
 
-**Incompletes**: An incomplete grade (I) will only be given in unusual circumstances, and only if those circumstances have been confirmed by the Student Life office.
+An incomplete grade (I) will only be given in unusual circumstances, and only if those circumstances have been confirmed by the Student Life office.
 
-**Attendance** is not mandatory, but highly encouraged, both for your own learning and as one of the main ways to contribute to other students' learning. Come to class to ask the questions that you think everyone else already knows the answer to but in fact they nod in agreement. Come to class to help your fellow students figure out that thing that just clicked for you yesterday. Or come because you want to discuss AI!
+### Do I have to come to class?
+
+Attendance is not mandatory, but highly encouraged, both for your own learning and as one of the main ways to contribute to other students' learning. Come to class:
+
+- to ask the questions that you think everyone else already knows the answer to (but in fact they nod in agreement because they were wondering that too).
+- to help your fellow students figure out that thing that just clicked for you yesterday.
+- or just because you want to discuss AI!
+
+### I have some special needs; will you accommodate them?
 
 **Disabilities**: Calvin University is committed to providing access to all students. If you are as student with a documented disability, please notify a disability coordinator in the Center for Student Success (located in Spoelhof University Center 360). If you have an accommodation memo, please come talk to me in the first two weeks of class. **If something comes up mid-semester, like an injury, please reach out to the disability coordinator and me.**
 
-**Academic Integrity**: Your work in this class should demonstrate *gratitude* and *respect* to those whose work enables yours. It should demonstrate the *integrity* necessary to produce work that your future employer can legally use. And it should demonstrate an active embrace of the often-necessary struggle of figuring things out yourself. So I expect you to *credit the people who help you*, be they classmates or StackOverflow strangers, and *heed the license terms* under which they offer their code.
+### How do I demonstrate academic integrity in this class?
+
+Your work in this class should demonstrate *gratitude* and *respect* to those whose work enables yours. It should demonstrate the *integrity* necessary to produce work that your future employer can legally use. And it should demonstrate an active embrace of the often-necessary struggle of figuring things out yourself. So I expect you to *credit the people who help you*, be they classmates or StackOverflow strangers, and *heed the license terms* under which they offer their code.
 
 **Etiquette**: We expect you to treat students and instructors for this with respect by adopting courteous communication practices throughout the course. No personal attacks, trolling, bad language will be tolerated.
 
-### Diversity and Inclusion
+## Diversity and Inclusion
 
 I came to Calvin because I wanted to explore what our Christian calling to “act justly” means in the context of AI, data, and the technologies that we use with it. Engaging that question wholeheartedly requires that each of us, me included, engage respectfully with perspectives very different from our own. For example, we must question those who abuse data for selfish gain, but we also must question the perspectives of those who challenge those abuses on purely secular grounds.
 
@@ -135,10 +153,9 @@ We will not always do this well. If you or someone else in this class is hurt by
 
 ### Reflections
 
-A *Reflection* is a summary of your learning the past week (private to you and the course staff) *due Wednesday end of day*. Reflections have 3 parts:
+A *Reflection* is a summary of your learning the past two weeks. They are typically *due Thursday end of day* and typically include:
 
-1. What assignment you're turning in for mastery credit this week.
-2. What assignment you've revised for mastery credit this week: summarize what your specific errors were.
-3. What work, if any, you are turning in late. For each activity, specify how many Effort points it should be awarded according to the late work policy described above.
+- A response to each of the learning objectives for each of the two weeks.
+- Feedback to the instructor about how things are going
 
 Details are given in the specific assignments.
