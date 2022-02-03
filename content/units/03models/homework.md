@@ -8,7 +8,7 @@ draft: false
 
 The process of completing this assignment will improve your ability to:
 
-- Explain the importance of validating image classifiers.
+- Explain the importance of evaluating image classifiers on unseen data. <!-- TODO: could align more with this -->
 - Describe factors that affect how image classifiers generalize.
 
 ## Task
