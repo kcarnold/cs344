@@ -10,6 +10,12 @@ draft: false
 - watch out for fastai small dataset issues
 - maybe disable validation entirely, just use hw3 for validation?
 - Give students a clear outline of the code, and the structure of the responses (maybe even templates).
+- description of dataset
+  - examples of images
+- accuracy range observed
+  - prediction of what range of accuracy will likely be achieved in *future* unseen imaes
+- example and characterization of a mistake it made
+- summary of mistakes
 -->
 
 ## Goal
