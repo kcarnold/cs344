@@ -199,3 +199,5 @@ You should now be able to answer the following questions:
 2. If the value of the gradient is *negative*, which direction do we need to move to get a lower MSE?
 3. What can we say about the gradient when the parameter minimizes the MSE?
 4. What would we need to change in order to use gradient descent to minimize the MAE instead?
+
+*In future labs you will turn in these questions. For this lab it's optional.*
