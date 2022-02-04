@@ -1,12 +1,11 @@
 ---
-title: "Autonomous Vehicles"
+title: "Autonomous cars and Ethics
 ---
 
 
 ### Background
 
 - NHTSA(National Highway Transportation Safety Administration) [states](https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety) that 94% of serious crashes are due to human error and that automated vehicles have the potential to remove human error from the equation.
-
 ### What is autonomous cars
 
 An autonomous car is a vehicle capable of sensing its environment and operating without human involvement; a human passanger is not required to take control of the vehicle at any time, nor a human passenger required to be present in the vehicle at all.
@@ -45,7 +44,7 @@ In general, autonomous cars include 4 stages of activity: perception, localizati
 
 - Current road systems
    - Some roads are unmarked; the lack of uniformity in road signage and stoplights.
-- Wheather conditions
+- Weather conditions
    - Sensors simply do not work perfectly in heavy bad weather. 
 - Hacking
 - Transparency
@@ -60,3 +59,4 @@ In general, autonomous cars include 4 stages of activity: perception, localizati
 - [Tesla X crash in Mountain View, California](https://abc7news.com/tesla-autopilot-crash-car/5966601/)
 - [Tesla on autopilot killed two people](https://www.latimes.com/california/story/2022-01-19/a-tesla-on-autopilot-killed-two-people-in-gardena-is-the-driver-guilty-of-manslaughter)
 - [The back-up driver of an Uber self-driving car that killed a pedestrian has been charged with negligent homicide](https://www.bbc.com/news/technology-54175359)
+
