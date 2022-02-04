@@ -2,6 +2,16 @@
 title: "Forum Posts 22SP"
 ---
 
+## Week 5: Learning
+
+- Homework 4 and Reflection 4 both due next Thursday. Realigned time so that reflection can include everything you've done related to the week's learning objectives.
+- Syllabus has been updated to reflect simplified logistics and grading; should be much more clear now.
+- Homework 4: Fundamentals notebooks. Submitted as a single assignment for simplicity.
+  - just the Fundamentals this time;  future may include a mix.
+  
+- Prep 5
+
+
 ## Week 3: Data, Ethics Intro
 
 Happy Saturday everyone!
