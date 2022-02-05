@@ -1,0 +1,3 @@
+<a href="https:///cs.calvin.edu/courses/cs/344/22sp/fundamentals/{{ .Get "nbname" }}">{{ .Get "name" }}</a>
+(<a href="https://nbviewer.ipython.org/urls/cs.calvin.edu/courses/cs/344/22sp/fundamentals/{{ .Get "nbname" }}">preview</a>)
+{{- /* strip trailing whitespace */ -}}
