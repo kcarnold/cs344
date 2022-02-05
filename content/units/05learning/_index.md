@@ -4,7 +4,7 @@ date: 2022-02-07
 weight: 5
 ---
 
-We extend our modeling skills to encompass classification models, and start to build the tools that will let us represent complex functions by using hidden layers. Both of these objectives require us to learn about *nonlinear* operations. We'll focus on the two most commonly used ones: the *softmax* operator (which converts scores to probabilities) and the *rectifier* ("ReLU", which clips negative values).
+In this unit we extend our modeling skills to encompass classification models, and start to build the tools that will let us represent complex functions by using hidden layers. Both of these objectives require us to learn about *nonlinear* operations. We'll focus on the two most commonly used ones: the *softmax* operator (which converts scores to probabilities) and the *rectifier* ("ReLU", which clips negative values).
 
 Students who complete this unit will demonstrate that they can:
 
@@ -23,11 +23,11 @@ The fastai course videos are a bit disorganized here, sorry about that.
 
 - Watch the Lab 4 [walk-through video](https://calvincollege.sharepoint.com/:f:/s/Section_81629/EiZcXdth0VZMhjz4S_69w0oByq-i_tuvqJMm1VgDMjNtJw?e=EC58DP) if you have not yet.
 - Read {{< fastbook num="5" nbname="05_pet_breeds.ipynb" >}}.
-  - skip Presizing and LR finder
+  - skip (or skim) Presizing and the LR finder
   - skim "discriminative" rates (which would better be called "layer-dependent learning rates")
   - Watch {{< fastvideo num="4" >}} (starting about 1 hr in) and {{<fastvideo num="6">}} (first half hour) for this material.
-- Skim {{<fastbook num="6" nbname="06_multicat.ipynb">}}.
-  - Watch {{<fastvideo num="6">}} from 30m to 1h30m for this material.
+- *Recommended* skim {{<fastbook num="17" nbname="17_foundations.ipynb">}}.
+  - This should reinforce what we've been studying about how linear regression works and how Tensors work, and give you a preview of how we'll extend it to a full neural net.
 
 ## Class Meetings
 
