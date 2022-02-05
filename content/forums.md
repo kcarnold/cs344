@@ -4,13 +4,21 @@ title: "Forum Posts 22SP"
 
 ## Week 5: Learning
 
-- Homework 4 and Reflection 4 both due next Thursday. Realigned time so that reflection can include everything you've done related to the week's learning objectives.
-- Syllabus has been updated to reflect simplified logistics and grading; should be much more clear now.
-- Homework 4: Fundamentals notebooks. Submitted as a single assignment for simplicity.
-  - just the Fundamentals this time;  future may include a mix.
-  
-- Prep 5
+Happy Saturday! We're making good progress getting under the hood of how neural nets work. **Last week** we tackled regression; we introduced *linear layers* as the basic building blocks of neural nets, *gradient descent* as general way to find good values of parameters, and *backpropagation* as a general tool to compute gradients efficiently and without numerical issues. **This week** we extend to *classification*, where we'll learn about some *non-linear* layers, which are where neural nets get their power.
 
+Logistics!
+
+- Prep 5 should be done by Monday's class as usual.
+  - To be honest, we won't get to much of that material until Wednesday, though. So feel free to wait till then even to submit the quiz.
+- Discussion 4 is due Wednesday; same instructions as last time, just different topic.
+- Homework 4 and Reflection 4 are both due next Thursday.
+  - We've shifted the due date for Reflections so that the reflection can include everything you've done related to the week's learning objectives.
+  - Homework 4 introduces a kind of assignment you may have heard about from last year's students: the Fundamentals notebook. These were a consistent student favorite last year, so I'm bringing them back! Future homework assignments will include a mix of narrative and Fundamentals tasks; this one is just Fundamentals.
+- The Syllabus has been updated to reflect simplified logistics and grading; it should be much more clear now.
+
+See you Monday!
+
+PS - Here's an example of a very non-neural [AI to solve Wordle](https://aditya-sengupta.github.io/coding/2022/01/13/wordle.html). Neural nets are great tools for handling *perception* tasks, but not all tasks are perception tasks.
 
 ## Week 3: Data, Ethics Intro
 
