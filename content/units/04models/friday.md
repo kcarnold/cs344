@@ -7,7 +7,7 @@ type: Class
 Plan:
 
 - [Exodus 21:33-36](https://www.biblegateway.com/passage/?search=Exodus+21%3A33-36&version=NIV&interface=print)
-- Discussion topic presentation
+- Discussion topic presentation: [Autonomous Vehicles](../../../discussions/vehicles/)
 - PyTorch can compute the gradient for us
   - Intuition of backpropagation
     - Not numerical gradient computation. It's "ill-conditioned" (viz. delta of 1e-3 vs 1e-4)
