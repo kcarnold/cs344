@@ -1,20 +1,20 @@
 ---
-title: "Unit 5: Learning"
+title: "Unit 5: Learning and Classification"
 date: 2022-02-07
 weight: 5
 ---
+
+We extend our modeling skills to encompass classification models, and start to build the tools that will let us represent complex functions by using hidden layers. Both of these objectives require us to learn about *nonlinear* operations. We'll focus on the two most commonly used ones: the *softmax* operator (which converts scores to probabilities) and the *rectifier* ("ReLU", which clips negative values).
 
 Students who complete this unit will demonstrate that they can:
 
 - Describe the difference between a metric and a loss function.
 - Describe and compute cross-entropy loss
-- Contrast sensible vs non-sensible sequences of model layers (e.g., alternating linear and nonlinear)
-- Implement a logistic regression model from fundamentals
-
-*This week focuses on classification*.
+- Explain the purpose and mathematical properties of the softmax operation.
+- Explain the role of nonlinearities in a neural network (e.g., why they are used between linear layers)
+- Implement a logistic regression model using basic numerical computing primitives
 
 <!-- - Activities
-	- softmax fundamentals 1 and 2
 	- some variation on Learning Proportions lab? ^^bandit learning^^: how likely is each arm to give a payout? -->
 
 ## Preparation
@@ -41,6 +41,11 @@ The fastai course videos are a bit disorganized here, sorry about that.
 - Discussion summary (come prepared to contribute)
 - Classification losses and metrics
   - the bracket vs the Elo
+  - cross-entropy: intuition and math <!-- connect this to the `plot_top_losses` output: probs and losess -->
+  - how do we make probabilities? softmax (and its relative the sigmoid)
+  - where do the "right" scores come from?
+    - In linear regression we were given the right scores.
+    - In classification, we have to learn the scores from data. (hence Elo scores)
 
 ### Friday
 
