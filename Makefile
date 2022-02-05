@@ -6,6 +6,7 @@ HUGO_FLAGS := --buildDrafts --buildFuture
 slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides -iname '*.Rmd' -and -not -iname "*slides-common*"))
 post_markdowns := $(patsubst %.Rmarkdown,%.markdown,$(shell find content -name '*.Rmarkdown'))
 slide_pdfs := $(patsubst %.html,%.pdf,$(slide_htmls))
+fundamentals := $(subst _soln,,$(wildcard static/fundamentals/*_soln.ipynb))
 
 
 %.html: %.Rmd
@@ -20,7 +21,10 @@ slide_pdfs := $(patsubst %.html,%.pdf,$(slide_htmls))
 %.markdown: %.Rmarkdown
 	Rscript -e "rmarkdown::render_site('"$<"', encoding = 'UTF-8')"
 
-deploy-quick: $(slide_htmls) $(post_markdowns)
+$(fundamentals) : %.ipynb : %_soln.ipynb
+	python nb_strip.py "$<" "$@"
+
+deploy-quick: $(slide_htmls) $(post_markdowns) $(fundamentals)
 	hugo $(HUGO_FLAGS) --cleanDestinationDir
 	rsync -rxi --delete-after public/ cs-prod:/webroot/courses/cs/344/22sp/
 # --times --delete-after --delete-excluded
