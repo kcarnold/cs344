@@ -26,6 +26,7 @@ The fastai course videos are still a bit disorganized, sorry about that.
 ### Supplemental Materials
 
 - [Automatic differentiation in machine learning: a survey](https://arxiv.org/abs/1502.05767)
+- [`autograd-for-dummies`: A minimal autograd engine and neural network library for machine learning students.](https://github.com/malwaredllc/autograd-for-dummies)
 
 ## Class Meetings
 
