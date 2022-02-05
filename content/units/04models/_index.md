@@ -10,8 +10,8 @@ Students who complete this unit will demonstrate that they can:
 - Describe the overall approach of Stochastic Gradient Descent: how does it use information from a batch of data to improve its performance on that and other data?
 - Describe the parameters and operation of a linear layer.
 - Identify the following loss functions: Mean Squared Error and Mean Absolute Difference.
-- Implement a basic image classifier model using a fully-connected network.
-- Compute the gradients of programs with respect to parameters using one level of backpropagation
+- Trace the execution of a basic image classifier model using a fully-connected network.
+- Apply automatic differentiation (as implemented in PyTorch) to compute the gradients of programs
 
 (Note that we're focusing on *regression* models this week; next week we'll add *classification*.)
 
