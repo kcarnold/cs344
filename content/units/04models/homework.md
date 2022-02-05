@@ -43,7 +43,7 @@ We also strive for the sequence to make sense.
 The following Fundamentals should mostly be review:
 
 - {{% fundamentals name="Classifier Diagnostics" nbname="diagnose-image-classifier.ipynb" %}}: report on the mistakes made by a classifier
-- [Image Ops](/fundamentals/image-ops.ipynb): perform broadcast and reduction operations on a tensor representing a batch of color images
+- {{% fundamentals name="Image Ops" nbname="image-ops.ipynb" %}}: perform broadcast and reduction operations on a tensor representing a batch of color images
 
 These will practice some new skills:
 
