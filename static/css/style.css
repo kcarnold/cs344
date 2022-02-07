@@ -49,6 +49,9 @@ hr {
   content: "/\00a0";
 }
 
+.section-nav { list-style: square; column-count: 3;}
+/*.section-nav li { display: inline-block; }*/
+
 #TableOfContents, #TOC {
   border: 1px solid #eee;
   border-radius: 5px;

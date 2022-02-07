@@ -2,8 +2,8 @@
 
 {{ if not .Sections }}
 {{ $currentPage := . }}
-<ul class="breadcrumbs">{{ range .Parent.Sections }}
-  <li>{{ if eq . $currentPage }}{{ .Title }}{{ else }} <a href="{{ .Permalink }}">{{ .Title }}</a> {{ end }}</li>
+<ul class="section-nav">{{ range .Parent.Sections }}
+  <li>{{ if eq . $currentPage }}<b>{{ .Title }}</b>{{ else }} <a href="{{ .Permalink }}">{{ .Title }}</a> {{ end }}</li>
 {{ end }}</ul>
 {{ end }}
 
