@@ -60,7 +60,8 @@ def strip_source(source):
                     result.append(uncommented)
                     continue
                 else:
-                    print("WARNING: failed match", uncommented)
+                    print("ERROR: failed match", uncommented)
+                    sys.exit(1)
         result.append(line)
     return '\n'.join(result)
 
