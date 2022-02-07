@@ -50,7 +50,8 @@ The following Fundamentals should mostly be review:
   - For analysis question 1, hard-code the numbers.
 - {{% fundamentals name="Image Ops" nbname="image-ops.ipynb" %}}: perform broadcast and reduction operations on a tensor representing a batch of color images
   - For *grayscale*, just use an equal weighting of the red, green, and blue channels
-  - Remember *slicing*, e.g., what does `images[2:4]` evaluate to? Also, you can "skip" a slice dimension by using `:`, e.g., `images[:, 0, 5]` returns row 5 in the red channel of all images. 
+  - Remember *slicing*, e.g., what does `images[2:4]` evaluate to? Also, you can "skip" a slice dimension by using `:`, e.g., `images[:, 0, 5]` returns row 5 in the red channel of all images.
+  - Also remember that Python has *negative* indices. So `x[:, -5:]` means to keep the last 5 elements of everything in the second axis.
 
 These will practice some new skills:
 
