@@ -37,5 +37,7 @@ deploy: deploy-quick deploy-pdf
 serve:
 	hugo server --disableFastRender $(HUGO_FLAGS)
 
+# Based on https://github.com/gjtorikian/html-proofer
+# installed on my machine using `brew gem install html-proofer`.
 check:
 	htmlproofer --check-html --check-img-http --disable-external --report-invalid-tags --report-mismatched-tags --report-missing-names public/
