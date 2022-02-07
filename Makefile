@@ -7,7 +7,7 @@ slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides -iname '*.Rmd'
 post_markdowns := $(patsubst %.Rmarkdown,%.markdown,$(shell find content -name '*.Rmarkdown'))
 slide_pdfs := $(patsubst %.html,%.pdf,$(slide_htmls))
 fundamentals := $(subst _soln,,$(wildcard static/fundamentals/*_soln.ipynb))
-
+fundamentals_html := $(patsubst %.ipynb,%.html,$(fundamentals))
 
 %.html: %.Rmd
 	Rscript -e "rmarkdown::render('"$<"')"
@@ -24,7 +24,10 @@ fundamentals := $(subst _soln,,$(wildcard static/fundamentals/*_soln.ipynb))
 $(fundamentals) : %.ipynb : %_soln.ipynb
 	python nb_strip.py "$<" "$@"
 
-deploy-quick: $(slide_htmls) $(post_markdowns) $(fundamentals)
+$(fundamentals_html) : %.html : %.ipynb
+	jupyter nbconvert --to=html "$<"
+
+deploy-quick: $(slide_htmls) $(post_markdowns) $(fundamentals) $(fundamentals_html)
 	hugo $(HUGO_FLAGS) --cleanDestinationDir
 	rsync -rxi --delete-after public/ cs-prod:/webroot/courses/cs/344/22sp/
 # --times --delete-after --delete-excluded
