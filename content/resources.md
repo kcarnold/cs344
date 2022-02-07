@@ -2,9 +2,9 @@
 title: "Resources"
 ---
 
-## [Glossary](../glossary/)
+## Glossary
 
-See link.
+Here's a [Glossary](../glossary/) of some terms we've used in class. Please suggest additional terms to add!
 
 ## fastai hotfixes
 
@@ -64,7 +64,7 @@ Tips and Notes:
     -   fast.ai course [lesson videos](https://course.fast.ai/videos/)
 -   Review the end-of-chapter questions at [aiquizzes](https://aiquizzes.com/)
 -   Fast.ai community resources:
-    -   the [Fast.ai forums](forums.fast.ai/) and [Discord](https://discord.com/invite/xnpeRdg)
+    -   the [Fast.ai forums](https://forums.fast.ai/) and [Discord](https://discord.com/invite/xnpeRdg)
     -   <https://www.cognitivefactory.fr/fastaidocs/>
     -   <https://walkwithfastai.com/>
 -   Connect with a broader AI community at <https://twimlai.com/community/>
@@ -81,7 +81,7 @@ Tips and Notes:
     -   [A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
     -   <https://blog.floydhub.com/training-neural-nets-a-hackers-perspective/>
 -   Tools
-    -   [RunwayML](runwayml.com) (very high-level interface)
+    -   [RunwayML](https://runwayml.com/) (very high-level interface)
     -   Streamlit
     -   [WandB](https://wandb.ai/) (experiment tracking)
 

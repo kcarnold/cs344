@@ -33,7 +33,7 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 
 ## Materials
 
-- Moodle contains links to all of the resources used in this course. It will also be where you engage in [discussion forums](/discussionss) and submit assignments.
+- Moodle contains links to all of the resources used in this course. It will also be where you engage in [discussion forums](/discussions/) and submit assignments.
 -   We will be following the fast.ai [Practical Deep Learning for Coders](https://course.fast.ai/) course for much of this course.
 
     -   You should buy their book (available in the Calvin bookstore), although it's also available as Jupyter Notebooks

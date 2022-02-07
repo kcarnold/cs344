@@ -36,3 +36,6 @@ deploy: deploy-quick deploy-pdf
 
 serve:
 	hugo server --disableFastRender $(HUGO_FLAGS)
+
+check:
+	htmlproofer --check-html --check-img-http --disable-external --report-invalid-tags --report-mismatched-tags --report-missing-names public/
