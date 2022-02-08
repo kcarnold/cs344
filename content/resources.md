@@ -59,31 +59,43 @@ Tips and Notes:
 
 ## Materials
 
+### fastai
+
 -   Our book: [Deep Learning for Coders](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527/)
     -   [Source notebooks](https://github.com/fastai/fastbook), [Arnold's cleaned notebooks](https://github.com/kcarnold/fastbook/tree/master/clean). Suggestion: use [nbviewer](https://nbviewer.jupyter.org/) (or Colab) when reading the notebooks, rather than GitHub.
-    -   fast.ai course [lesson videos](https://course.fast.ai/videos/)
--   Review the end-of-chapter questions at [aiquizzes](https://aiquizzes.com/)
--   Fast.ai community resources:
-    -   the [Fast.ai forums](https://forums.fast.ai/) and [Discord](https://discord.com/invite/xnpeRdg)
-    -   <https://www.cognitivefactory.fr/fastaidocs/>
-    -   <https://walkwithfastai.com/>
--   Connect with a broader AI community at <https://twimlai.com/community/>
--   [MIT 6.S191 Introduction to Deep Learning](http://introtodeeplearning.com/)
--   Videos
-    -   Fundamentals 009 (Linear Regression with `Learner`) [walkthrough](https://www.youtube.com/playlist?list=PLYvyo-La3zBOvTxiOhy4y6l65TxcUtCuS)
-    -   [Lab 3 walkthrough](https://www.youtube.com/playlist?list=PLYvyo-La3zBN8qoyCf3l0RRaopUa0KXPG)
--   Helpful references
-    -   git
-        -   [GitHub's Git Handbook](https://guides.github.com/introduction/git-handbook/)
--   Training Tips
-    -   <https://huggingface.co/blog/simple-considerations>
-    -   <http://josh-tobin.com/assets/pdf/troubleshooting-deep-neural-networks-01-19.pdf>
-    -   [A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
-    -   <https://blog.floydhub.com/training-neural-nets-a-hackers-perspective/>
--   Tools
-    -   [RunwayML](https://runwayml.com/) (very high-level interface)
-    -   Streamlit
-    -   [WandB](https://wandb.ai/) (experiment tracking)
+- fast.ai course [lesson videos](https://course.fast.ai/videos/)
+- Review the end-of-chapter questions at [aiquizzes](https://aiquizzes.com/)
+- <https://www.cognitivefactory.fr/fastaidocs/>
+- <https://walkwithfastai.com/>
+
+### Educational Materials
+
+- [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow et al.
+- ISLR [book](https://www.statlearning.com/) and [course](https://www.statlearning.com/online-course)
+- [MIT 6.S191 Introduction to Deep Learning](http://introtodeeplearning.com/)
+- Spring 2021 Videos for this class
+  - Fundamentals 009 (Linear Regression with `Learner`) [walkthrough](https://www.youtube.com/playlist?list=PLYvyo-La3zBOvTxiOhy4y6l65TxcUtCuS)
+  - [Lab 3 walkthrough](https://www.youtube.com/playlist?list=PLYvyo-La3zBN8qoyCf3l0RRaopUa0KXPG)
+- [3Blue1Brown Neural Network Videos](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- "Advice on getting started in deep learning" by Andrew Ng
+
+### Community
+
+- the [Fast.ai forums](https://forums.fast.ai/) and [Discord](https://discord.com/invite/xnpeRdg)
+- [TWiML community](https://twimlai.com/community/)
+- [WandB community](https://community.wandb.ai/)
+
+### Tools
+
+- [GitHub's Git Handbook](https://guides.github.com/introduction/git-handbook/)
+- Training Tips
+  - <https://huggingface.co/blog/simple-considerations>
+  - <http://josh-tobin.com/assets/pdf/troubleshooting-deep-neural-networks-01-19.pdf>
+  - A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
+  - https://blog.floydhub.com/training-neural-nets-a-hackers-perspective/>
+- [RunwayML](https://runwayml.com/) (very high-level interface)
+- Streamlit
+- [WandB](https://wandb.ai/) (experiment tracking)
 
 ## Keeping up with AI
 
@@ -107,8 +119,3 @@ Tips and Notes:
 -   [AlgorithmWatch](https://algorithmwatch.org/en/)
 -   [Harvard BKC](https://twitter.com/BKCHarvard)
 -   ACM Conference on Fairness, Accountability, and Transparency ([FAccT](https://facctconference.org/))
-
-### Videos / Podcasts / ... that others have liked
-
--   [3Blue1Brown Neural Network Videos](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
--   "Advice on getting started in deep learning" by Andrew Ng
