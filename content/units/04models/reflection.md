@@ -18,7 +18,8 @@ It also gives an invitation for you to give general comments and feedback to the
 By default, the following assignments will be assessed for mastery grades for this Reflection Interval:
 
 - Homework 3
-- Lab 4 (post-lab questions are optional)
+- Lab 4 (post-lab questions are optional this time)
+- Homework 4
 
 Note: many people will have revisions to Homework 2 to turn in also.
 
