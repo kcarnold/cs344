@@ -1,0 +1,70 @@
+---
+title: "Learning to Classify"
+author: 
+  - "Ken Arnold"
+date: '2022-02-09'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: false
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+source("../slides-common.R")
+slideSetup()
+#library(reticulate)
+#reticulate::use_condaenv("fastai")
+```
+
+## Logistics
+
+- Reflection and Homework due tomorrow
+
+---
+
+## Interesting Points from Discussion?
+
+- Share with neighbors.
+- Then we'll share with everyone.
+
+---
+
+## How to classify?
+
+- How do we measure how good a classifier is?
+- How do we turn scores into probabilities?
+
+---
+
+## Elo
+
+A measure of relative skill:
+
+- Higher Elo more likely to win
+- Greater point spread -> more confidence in win
+
+- Uses: [chess](https://en.wikipedia.org/wiki/Elo_rating_system), [NFL](https://projects.fivethirtyeight.com/complete-history-of-the-nfl/)
+- 538's [Superbowl prediction](https://projects.fivethirtyeight.com/2021-nfl-predictions/games/) 
+([discussion](https://fivethirtyeight.com/features/rams-or-bengals-our-guide-to-super-bowl-lvi/))
+
+---
+
+## How do we measure how good a classifier is?
+
+Cross Entropy: should give high probability to correct result.
+
+---
+
+## How do we turn scores into probabilities?
+
+---
+
+## Where do the "right" scores come from?
+
+- In linear regression we were given the right scores.
+- In classification, we have to learn the scores from data.
