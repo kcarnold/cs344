@@ -33,15 +33,17 @@ The fastai course videos are a bit disorganized here, sorry about that.
 
 ### Monday
 
-- Backpropagation review
 - Work session for Homework 4
 
 ### Wednesday
 
 - Discussion summary (come prepared to contribute)
-- Classification losses and metrics
-  - the bracket vs the Elo
-  - cross-entropy: intuition and math <!-- connect this to the `plot_top_losses` output: probs and losess -->
+- Classification ([slides](/slides/w5/w5-classification.html))
+  - intuition of scores: Elo
+  - cross-entropy
+    - intuition: maximize prob given to the correct answer
+      - illustration: `plot_top_losses` output: probs and losess
+    - math: sum the *log of* the prob given to the right answer
   - how do we make probabilities? softmax (and its relative the sigmoid)
   - where do the "right" scores come from?
     - In linear regression we were given the right scores.
@@ -49,6 +51,7 @@ The fastai course videos are a bit disorganized here, sorry about that.
 
 ### Friday
 
+- Discussion presentation
 - Nonlinearities
 
 ### Homework
