@@ -31,7 +31,7 @@ Then we'd get a value at `param.grad`, which would be...
 
 ### Are there other ways of representing images besides pixels?
 
-Look up how CT and MRI machines work! They're pretty neat. Ultimately you're going to get pixels (or *voxels*) out, but the in-between can look different. Also check out NeRFs!
+Look up how CT and MRI machines work! They're pretty neat. Ultimately you're going to get pixels (or *voxels*) out, but the in-between can look different. Also check out NeRFs! ([Technical Perspective](https://cacm.acm.org/magazines/2022/1/257453-technical-perspective-neural-radiance-fields-explode-on-the-scene/fulltext), [detailed article](https://cacm.acm.org/magazines/2022/1/257450-nerf/fulltext))
 
 ### PyTorch vs NumPy arrays?
 
@@ -65,7 +65,7 @@ But matrix multiplication is commutative, so that would be the same as (BA)x. So
 
 The *nonlinearity* breaks the linear trick, so we can actually get the benefit of mulitple layers.
 
-### Why use backprop (automatic differentiation*) when we could just do the calculus?
+### Why use backprop (*automatic differentiation*) when we could just do the calculus?
 
 Symbolic differentiation is reasonable when you have a simple function, but gets messy very quickly when your function gets more complex.
 
