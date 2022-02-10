@@ -18,10 +18,10 @@
 </ul>
 {{ else }}
 
-Contents:
+<h2>Contents</h2>
 
 <ul>
-  {{ $pages := .Pages.ByTitle }}
+  {{ $pages := .Pages }}
   {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
   {{ range (where $pages "Section" .Section ) }}
   <li>
