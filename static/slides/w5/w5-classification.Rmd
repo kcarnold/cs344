@@ -68,3 +68,29 @@ Cross Entropy: should give high probability to correct result.
 
 - In linear regression we were given the right scores.
 - In classification, we have to learn the scores from data.
+
+---
+
+# Friday
+
+---
+
+## Review
+
+Which of the following is a good *loss function* for classification?
+
+1. Mean squared error
+2. Accuracy (number of answers that were correct)
+3. Error rate (number of answers that were incorrect)
+4. Average of the probability the classifier assigned to the wrong answer
+5. Average of the negative of the log of the probability the classifier assigned to the right answer
+
+Why?
+
+---
+
+## Softmax
+
+This year the Super Bowl is between the LA Rams and the Cincinnati Bengals.
+
+FiveThirtyEight rates their team Elo scores at 1661 for the Rams and 1593 for the Bengals.
