@@ -6,8 +6,9 @@ HUGO_FLAGS := --buildDrafts --buildFuture
 slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides -iname '*.Rmd' -and -not -iname "*slides-common*"))
 post_markdowns := $(patsubst %.Rmarkdown,%.markdown,$(shell find content -name '*.Rmarkdown'))
 slide_pdfs := $(patsubst %.html,%.pdf,$(slide_htmls))
-fundamentals := $(subst _soln,,$(wildcard static/fundamentals/*_soln.ipynb))
-fundamentals_html := $(patsubst %.ipynb,%.html,$(fundamentals))
+fundamentals_soln := $(wildcard static/fundamentals/*_soln.ipynb)
+fundamentals := $(subst _soln,,$(fundamentals_soln))
+fundamentals_html := $(patsubst %.ipynb,%.html,$(fundamentals) $(fundamentals_soln))
 
 %.html: %.Rmd
 	Rscript -e "rmarkdown::render('"$<"')"
