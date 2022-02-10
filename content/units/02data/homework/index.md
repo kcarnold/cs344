@@ -1,7 +1,6 @@
 ---
 title: "Homework 2: Train and evaluate a classifier on your own images"
-author: Ken Arnold
-date: '2022-01-21'
+date: 2022-01-21
 draft: false
 ---
 
