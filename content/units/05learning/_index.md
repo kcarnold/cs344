@@ -29,6 +29,13 @@ The fastai course videos are a bit disorganized here, sorry about that.
 - *Recommended* skim {{<fastbook num="17" nbname="17_foundations.ipynb">}}.
   - This should reinforce what we've been studying about how linear regression works and how Tensors work, and give you a preview of how we'll extend it to a full neural net.
 
+### Supplemental Material
+
+We're using Elo scores for intuition a few times this week, but we're intentionally not diving deep on it. If you do want to dive deep:
+
+- [Elo as a statistical learning model | Steven Morse](https://stmorse.github.io/journal/Elo.html)
+- [FiveThirtyEight's Elo Ratings and Logistic Regression – Nic Dobson – half a thought in the head](https://nicidob.github.io/nba_elo/)
+
 ## Class Meetings
 
 ### Monday
@@ -52,7 +59,7 @@ The fastai course videos are a bit disorganized here, sorry about that.
 ### Friday
 
 - Discussion presentation
-- Nonlinearities
+- Nonlinearities (continuing ([slides](/slides/w5/w5-classification.html)))
 
 ### Homework
 
