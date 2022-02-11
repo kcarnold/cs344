@@ -162,3 +162,20 @@ Where do Linear, Cross-Entropy and Softmax or Sigmoid go?
 ---
 
 ## Going deeper
+
+Open our Trace Simple Classifier in [Colab](https://colab.research.google.com/github/kcarnold/cs344/blob/main/static/fundamentals/u4n2-trace-mnist.ipynb).
+
+---
+
+```python
+new_linear = nn.Linear(in_features=784, out_features=1)
+new_linear.weight.data = (linear_2.weight.data @ linear_1.weight.data)
+new_linear.bias.data = linear_2(linear_1.bias).data
+new_linear(example_3_flat)
+```
+
+---
+
+## ReLU Intuition
+
+Piecewise linear. Ramps.
