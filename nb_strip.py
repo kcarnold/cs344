@@ -7,6 +7,9 @@ out_fname = sys.argv[2]
 
 nb = nbformat.read(in_filename, as_version=nbformat.NO_CONVERT)
 
+# Reset the kernel spec because sometimes my local environment has a different ipykernel name.
+nb['metadata']['kernelspec'] = {'display_name': 'Python 3', 'language': 'python', 'name': 'python3'}
+
 cells = []
 for cell in nb['cells']:
     if cell['cell_type'] != 'code':
