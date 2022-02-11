@@ -75,12 +75,25 @@ Cross Entropy: should give high probability to correct result.
 
 ---
 
+## Discussion Intro
+
+(Caleb)
+
+---
+
+## Review
+
+Which of the following two classifiers has a better *accuracy*? Which has a better *cross-entropy loss*? 
+
+
+---
+
 ## Review
 
 Which of the following is a good *loss function* for classification?
 
 1. Mean squared error
-2. Accuracy (number of answers that were correct)
+2. Softmax (generalization of sigmoid to multiple categories)
 3. Error rate (number of answers that were incorrect)
 4. Average of the probability the classifier assigned to the wrong answer
 5. Average of the negative of the log of the probability the classifier assigned to the right answer
@@ -89,8 +102,63 @@ Why?
 
 ---
 
+## From scores to probabilities
+
+Suppose we have 3 chess players:
+
+| player | Elo |
+|--------|-----|
+| A | 1000 |
+| B | 2200 |
+| C | 1010 |
+
+A and B play. Who wins?
+
+--
+
+A and C play. Who wins?
+
+
+
+---
+
 ## Softmax
 
 This year the Super Bowl is between the LA Rams and the Cincinnati Bengals.
 
 FiveThirtyEight rates their team Elo scores at 1661 for the Rams and 1593 for the Bengals.
+
+Continue [here](https://colab.research.google.com/drive/1CdTEcZP2bOx7zbPltAdTE7xBse6JI9z5)
+
+---
+
+## Softmax
+
+1. Start with scores (use variable name `logits`), which can be any numbers (positive, negative, whatever)
+2. Make them only positive by exponentiating: `xx = exp(logits)` or `10 ** logits`
+3. Make them sum to 1: `probs = xx / xx.sum()`
+
+---
+
+## Some properties of softmax
+
+- Sums to 1 (by construction)
+- Largest logit in gets biggest prob output
+- `logits + constant` doesn't change output.
+- `logits * constant` *does* change output.
+
+---
+
+## Sigmoid
+
+Special case of softmax when you just have one `score` (binary classification): use `logits = [score, 0.0]`
+
+---
+
+## Building a Neural Net
+
+Where do Linear, Cross-Entropy and Softmax or Sigmoid go?
+
+---
+
+## Going deeper
