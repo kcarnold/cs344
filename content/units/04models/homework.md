@@ -44,19 +44,19 @@ Complete the following 4 notebooks for this week. Do your work in the correspond
 
 The following Fundamentals should mostly be review:
 
-- {{% fundamentals name="Classifier Diagnostics" nbname="diagnose-image-classifier.ipynb" %}}: report on the mistakes made by a classifier
+- {{% fundamentals name="Classifier Diagnostics" nbname="u2n1-diagnose-image-classifier.ipynb" %}}: report on the mistakes made by a classifier
   - Reference: {{< fastbook num="2" nbname="02_production.ipynb" >}}.
   - Tip: `dataloaders.train.n`, `dataloaders.valid.n`.
   - For analysis question 1, hard-code the numbers.
-- {{% fundamentals name="Image Ops" nbname="image-ops.ipynb" %}}: perform broadcast and reduction operations on a tensor representing a batch of color images
+- {{% fundamentals name="Image Ops" nbname="u2n2-image-ops.ipynb" %}}: perform broadcast and reduction operations on a tensor representing a batch of color images
   - For *grayscale*, just use an equal weighting of the red, green, and blue channels
   - Remember *slicing*, e.g., what does `images[2:4]` evaluate to? Also, you can "skip" a slice dimension by using `:`, e.g., `images[:, 0, 5]` returns row 5 in the red channel of all images.
   - Also remember that Python has *negative* indices. So `x[:, -5:]` means to keep the last 5 elements of everything in the second axis.
 
 These will practice some new skills:
 
-- {{% fundamentals name="Compute Gradient with PyTorch" nbname="compute-grad-PyTorch.ipynb" %}}: compute the gradient of a simple function using PyTorch
-- {{% fundamentals name="Trace Simple Image Classifier" nbname="trace-mnist.ipynb" %}}: trace and explain the dimensionality of each tensor in a simple image classifier.
+- {{% fundamentals name="Compute Gradient with PyTorch" nbname="u4n1-compute-grad-PyTorch.ipynb" %}}: compute the gradient of a simple function using PyTorch
+- {{% fundamentals name="Trace Simple Image Classifier" nbname="u4n2-trace-mnist.ipynb" %}}: trace and explain the dimensionality of each tensor in a simple image classifier.
 
 These are mostly self-contained, but you may find it helpful to refer to {{< fastbook num="4" nbname="04_mnist_basics.ipynb" >}}.
 
