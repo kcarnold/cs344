@@ -66,13 +66,3 @@ In the Moodle assignment for this Homework:
 
 1. Attach each `ipynb` file separately.
 2. Copy and paste your responses to the Analysis questions into the text box.
-
-<!-- New:
-
-- Fit single linear regression using PyTorch -->
-
-<!-- - Repeat Lab 4 but using backprop
-  - manual
-  - PyTorch's
-  - Use MAE instead
-- Extend to basis functions -->
