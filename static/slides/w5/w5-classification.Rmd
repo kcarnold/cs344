@@ -178,4 +178,4 @@ new_linear(example_3_flat)
 
 ## ReLU Intuition
 
-Piecewise linear. Ramps.
+Piecewise linear. Ramps. See [this notebook](https://colab.research.google.com/github/kcarnold/cs344/blob/main/static/fundamentals/u5n1-linreg-manual.ipynb).
