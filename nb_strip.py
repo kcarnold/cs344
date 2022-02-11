@@ -1,3 +1,4 @@
+from glob import glob
 import sys
 import nbformat
 import re
@@ -9,6 +10,10 @@ nb = nbformat.read(in_filename, as_version=nbformat.NO_CONVERT)
 
 # Reset the kernel spec because sometimes my local environment has a different ipykernel name.
 nb['metadata']['kernelspec'] = {'display_name': 'Python 3', 'language': 'python', 'name': 'python3'}
+
+out_switch_re = re.compile('\s+#([+-])out')
+
+outputs = True
 
 cells = []
 for cell in nb['cells']:
@@ -22,15 +27,20 @@ nb['cells'] = cells
 
 
 def strip_source(source):
+    global outputs
     result = []
     lines = source.split('\n')
     skip_next = False
     skip_until = None
-    for i in range(len(lines)):
+    for i, line in enumerate(lines):
+        if m := out_switch_re.search(line):
+            plus_minus = m.group(1)
+            assert plus_minus in '+-'
+            outputs = plus_minus == '+'
+            line = out_switch_re.sub('', line)
         if skip_next:
             skip_next = False
             continue
-        line = lines[i]
         if skip_until is not None:
             if skip_until in line:
                 # all done
@@ -72,7 +82,8 @@ def strip_source(source):
 for cell in cells:
     if cell['cell_type'] == 'code':
         cell.source = strip_source(cell.source)
-        #cell.outputs.clear()
-
+        if not outputs:
+            cell.outputs.clear()
+            cell.execution_count = None
 
 nbformat.write(nb, out_fname)
