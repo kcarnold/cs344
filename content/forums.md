@@ -6,9 +6,10 @@ title: "Forum Posts 22SP"
 
 In this unit we push towards state-of-the-art models, still focusing on computer vision. We’ll introduce or revisit tools that allow our models to achieve high performance, such as data augmentation and regularization. Finally, we’ll get more practice with how neural networks work from the ground up as we implement our own simple neural net image classifier from scratch (definitely something to mention in an interview!).
 
-Logistics:
+Logistics are basically as usual:
 
 - Prep 6 for Monday (note that the quiz is always open for an extra week, but do remember to come back to it!)
+- We'll do Fundamentals work during lab time again, so no separate Lab due this week.
 - Discussion 5 for Wednesday as usual.
 - Homework 5 is 3 more Fundamentals notebooks, due Thursday as usual.
 - No reflection this week (they're every other week).
