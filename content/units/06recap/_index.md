@@ -4,8 +4,7 @@ date: 2022-02-14
 weight: 6
 ---
 
-In this unit we push towards state-of-the-art models, still focusing on computer vision. We'll introduce or revisit tools that allow our models to achieve high performance, such as data augmentation and regularization. Finally, we'll get more practice with how neural networks work from the ground up as we implement our own simple neural net image classifier from scratch (definitely something to mention in an interview!).
-
+In this unit, after reviewing where we've been, we push towards state-of-the-art models (still focusing on computer vision). We’ll introduce or revisit tools that allow our models to achieve high performance, such as data augmentation and regularization. Finally, we’ll get more practice with how neural networks work from the ground up as we implement our own simple neural net image classifier from scratch (definitely something to mention in an interview!).
 Students who complete this unit will demonstrate that they can:
 
 - Identify some examples of data augmentation and regularization.
@@ -41,9 +40,16 @@ We'll be doing some automatic differentiation this week:
 
 ### Monday
 
+- Review
+  - Homework 4 materials
+  - Backpropagation
+- Homework 5 work time
 
 ### Wednesday
 
 - Discussion summary (come prepared to contribute)
+- Augmentation and Regularization
 
 ### Friday
+
+- 
