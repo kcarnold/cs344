@@ -15,6 +15,16 @@ Each week's web page also has a "Due this week" section with links to the assign
 
 Not necessarily, especially with *stochastic* gradient descent and techniques like Dropout: there will always be some noise in the gradient. The parameters end up dancing around an area where loss is low.
 
+### Why use MSE when it's so sensitive to outliers?
+
+If we have to guess a single number for everything, the *mean* is the value that minimizes the MSE. So this question comes down to: why ever use the mean instead of the median?
+
+One reason is that, if there *aren't* big outliers, the sample mean has less variance. Intuition: the median ignores the actual values of all but one or two data points; if you shifted every data point except the middle one up or down, the median won't change but the mean will.
+
+### What are the parameters of a linear layer anyway?
+
+You see this in the Fundamentals notebook where you trace the book's image classifier: the `Linear` layer has a `weights` that's `in_features` by `out_features`, and a `bias` that's `out_features` big.
+
 ### Is anyone held responsible for AI systems with racial bias?
 
 Many people argue there's not enough accountability.
