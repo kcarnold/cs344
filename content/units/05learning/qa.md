@@ -3,9 +3,29 @@ title: "Week 5 Q&A"
 date: 2022-02-10
 ---
 
-Sorry there's some Week 4 questions that I didn't get to...
+## Reflections
+
+### How do I see when everything is due?
+
+Click Calendar in the left sidebar in Moodle.
+
+Each week's web page also has a "Due this week" section with links to the assignments.
+
+### Does the magnitude of the gradient approach zero when we're done training?
+
+Not necessarily, especially with *stochastic* gradient descent and techniques like Dropout: there will always be some noise in the gradient. The parameters end up dancing around an area where loss is low.
+
+### Is anyone held responsible for AI systems with racial bias?
+
+Many people argue there's not enough accountability.
+
+- The ACM conference on Fairness, Accountability, and Transparency ([ACM FAccT](https://facctconference.org/)) highlights work on some of the sociotechnical aspects of accountability.
+- Cathy O'Neil (January Series speaker 2020) started a [consulting company](https://orcaarisk.com/) on exactly this.
+- Perhaps one of you can present on transparency and accountability as a topic.
 
 ## Chapter 4
+
+Sorry there's some Week 4 questions that I didn't get to...
 
 ### Chapter 4 uses "gradient" in several different ways. What's up with that?
 
