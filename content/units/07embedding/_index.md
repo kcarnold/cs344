@@ -32,3 +32,5 @@ The fastai course videos are still a bit disorganized, sorry about that.
 ### Friday
 
 ### Homework
+
+- sklearn fundamentals
