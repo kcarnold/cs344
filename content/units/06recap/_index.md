@@ -1,5 +1,5 @@
 ---
-title: "Unit 6: Learning Recap"
+title: "Unit 6: Recap and Regularization"
 date: 2022-02-14
 weight: 6
 ---
