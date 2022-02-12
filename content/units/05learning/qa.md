@@ -15,6 +15,10 @@ Each week's web page also has a "Due this week" section with links to the assign
 
 Not necessarily, especially with *stochastic* gradient descent and techniques like Dropout: there will always be some noise in the gradient. The parameters end up dancing around an area where loss is low.
 
+### Does a trained classifier use average images?
+
+Chapter 4 started by giving an example by averaging the pixel values of the 3's and 7's to make simple prototype images. But a trained image classifier will do something much more effective than that: it computes abstract vectorized representations of images where images that are in the same class *are* nearby each other. The final linear+softmax layer still just picks the class that has the prototype image vector that's closest to the current image. Those prototype image-vectors may happen to be near a weighted average of the images in that class, but there's no guarantee that that will happen (or that it produces the optimal classification).
+
 ### Why use MSE when it's so sensitive to outliers?
 
 If we have to guess a single number for everything, the *mean* is the value that minimizes the MSE. So this question comes down to: why ever use the mean instead of the median?
@@ -24,6 +28,8 @@ One reason is that, if there *aren't* big outliers, the sample mean has less var
 ### What are the parameters of a linear layer anyway?
 
 You see this in the Fundamentals notebook where you trace the book's image classifier: the `Linear` layer has a `weights` that's `in_features` by `out_features`, and a `bias` that's `out_features` big.
+
+The linear layer makes line-like relationships between each of its inputs and each of its outputs. Look at just one output (they're all independent anyway), which will just be a single number. If you change one of the inputs but keep all of the other inputs at the same value, and you plot the output vs that input you're changing, you'll get a line. The slope of that line is given by the weight that connects that input with that output, and the intercept of that line will be given by the bias for that output plus each of the other inputs times its corresponding weight.
 
 ### Is anyone held responsible for AI systems with racial bias?
 
