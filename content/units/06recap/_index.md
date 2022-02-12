@@ -25,6 +25,15 @@ The fastai course videos are still a bit disorganized, sorry about that.
 
 ### Supplemental Materials
 
+Strategies for getting state-of-the-art performance:
+
+- [Simple considerations for simple people building fancy neural networks](https://huggingface.co/blog/simple-considerations)
+- [How to be an effective Deep Learning Researcher/Engineer](https://www.dropbox.com/s/3iv93falplmt0yc/8_effective_dl.pdf?dl=0)
+- [A Light in the Dark: Deep Learning Practices for Industrial Computer Vision | Abstract](https://arxiv.org/abs/2201.02028)
+  > We find that our neural networks achieve similar performances as pre-trained DNNs, even though they consist of far fewer parameters and do not rely on third-party datasets.
+
+We'll be doing some automatic differentiation this week:
+
 - [Automatic differentiation in machine learning: a survey](https://arxiv.org/abs/1502.05767)
 - [`autograd-for-dummies`: A minimal autograd engine and neural network library for machine learning students.](https://github.com/malwaredllc/autograd-for-dummies)
 
