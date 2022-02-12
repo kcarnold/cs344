@@ -7,7 +7,7 @@ draft: false
 
 ## This Week's Fundamentals
 
-Complete the following 4 notebooks for this week. Do your work in the corresponding notebook; it the end you'll submit 3 `ipynb` files.
+Complete the following notebooks for this week. Do your work in the corresponding notebook; it the end you'll submit 3 `ipynb` files.
 
 - {{% fundamentals name="Softmax 1" nbname="u5n1-softmax.ipynb" %}}: practice using `softmax`
 - {{% fundamentals name="Softmax and Sigmoid" nbname="u5n2-softmax-2.ipynb" %}}: More `softmax` practice and connect with `sigmoid`
