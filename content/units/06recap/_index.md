@@ -47,5 +47,3 @@ We'll be doing some automatic differentiation this week:
 - Discussion summary (come prepared to contribute)
 
 ### Friday
-
-### Homework

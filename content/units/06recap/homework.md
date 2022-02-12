@@ -26,7 +26,10 @@ This week we have a *narrative* homework and a *fundamentals* homework.
 
 Complete the following notebooks for this week. Do your work in the corresponding notebook.
 
-TODO: replace these with the sklearn ones
+TODO:
+
+- consider advancing the linreg one to logistic reg
+- start the mini project about NN from the ground up?
 
 - {{% fundamentals name="Softmax 1" nbname="u5n1-softmax.ipynb" %}}: practice using `softmax`
 - {{% fundamentals name="Softmax and Sigmoid" nbname="u5n2-softmax-2.ipynb" %}}: More `softmax` practice and connect with `sigmoid`

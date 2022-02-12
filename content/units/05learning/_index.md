@@ -60,8 +60,3 @@ We're using Elo scores for intuition a few times this week, but we're intentiona
 
 - Discussion presentation
 - Nonlinearities (continuing ([slides](/slides/w5/w5-classification.html)))
-
-### Homework
-
-- Softmax fundamentals
-- Extend linear regression to logistic regression
