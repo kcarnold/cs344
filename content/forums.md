@@ -2,6 +2,19 @@
 title: "Forum Posts 22SP"
 ---
 
+## Week 6: Learning Recap
+
+In this unit we push towards state-of-the-art models, still focusing on computer vision. We’ll introduce or revisit tools that allow our models to achieve high performance, such as data augmentation and regularization. Finally, we’ll get more practice with how neural networks work from the ground up as we implement our own simple neural net image classifier from scratch (definitely something to mention in an interview!).
+
+Logistics:
+
+- Prep 6 for Monday (note that the quiz is always open for an extra week, but do remember to come back to it!)
+- Discussion 5 for Wednesday as usual.
+- Homework 5 is 3 more Fundamentals notebooks, due Thursday as usual.
+- No reflection this week (they're every other week).
+
+I had gotten behind on answering your questions; here's some [Q&amp;A from week 5](https://cs.calvin.edu/courses/cs/344/22sp/units/05learning/qa/)
+
 ## Week 5: Learning
 
 Happy Saturday! We're making good progress getting under the hood of how neural nets work. **Last week** we tackled regression; we introduced *linear layers* as the basic building blocks of neural nets, *gradient descent* as general way to find good values of parameters, and *backpropagation* as a general tool to compute gradients efficiently and without numerical issues. **This week** we extend to *classification*, where we'll learn about some *non-linear* layers, which are where neural nets get their power.
