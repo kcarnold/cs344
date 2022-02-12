@@ -33,8 +33,11 @@ Strategies for getting state-of-the-art performance:
 
 We'll be doing some automatic differentiation this week:
 
+- [Yet another backpropagation tutorial](https://windowsontheory.org/2020/11/03/yet-another-backpropagation-tutorial/) by Harvard CS Professor Boaz Barak
 - [Automatic differentiation in machine learning: a survey](https://arxiv.org/abs/1502.05767)
 - [`autograd-for-dummies`: A minimal autograd engine and neural network library for machine learning students.](https://github.com/malwaredllc/autograd-for-dummies)
+
+Finally, I sometimes remark that "machine learning is lazy" (in that it tends to focus on superficial easy features). Here's a more precise statement of a related claim: [What do deep networks learn and when do they learn it](https://windowsontheory.org/2021/02/17/what-do-deep-networks-learn-and-when-do-they-learn-it/)
 
 ## Class Meetings
 
