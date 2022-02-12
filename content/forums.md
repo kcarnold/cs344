@@ -2,9 +2,9 @@
 title: "Forum Posts 22SP"
 ---
 
-## Week 6: Learning Recap
+## Week 6: Recap and Regularization
 
-In this unit we push towards state-of-the-art models, still focusing on computer vision. We’ll introduce or revisit tools that allow our models to achieve high performance, such as data augmentation and regularization. Finally, we’ll get more practice with how neural networks work from the ground up as we implement our own simple neural net image classifier from scratch (definitely something to mention in an interview!).
+In this unit, after reviewing where we've been, we push towards state-of-the-art models (still focusing on computer vision). We’ll introduce or revisit tools that allow our models to achieve high performance, such as data augmentation and regularization. Finally, we’ll get more practice with how neural networks work from the ground up as we implement our own simple neural net image classifier from scratch (definitely something to mention in an interview!).
 
 Logistics are basically as usual:
 
@@ -14,7 +14,7 @@ Logistics are basically as usual:
 - Homework 5 is 3 more Fundamentals notebooks, due Thursday as usual.
 - No reflection this week (they're every other week).
 
-I had gotten behind on answering your questions; here's some [Q&amp;A from week 5](https://cs.calvin.edu/courses/cs/344/22sp/units/05learning/qa/)
+I had gotten behind on answering your questions; here's some [Q&amp;A from week 5](https://cs.calvin.edu/courses/cs/344/22sp/units/05learning/qa/). And I'm still behind in feedback too, my apologies.
 
 ## Week 5: Learning
 
