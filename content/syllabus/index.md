@@ -140,16 +140,13 @@ I intend for this class to be an environment where we equally respect people of 
 
 We will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I will welcome this feedback in whatever way is comfortable for you: in public, in private, via another person (such as our TA or my department chair, Keith VanderLinden), or via a report to [Safer Spaces](https://calvin.edu/offices-services/safer-spaces/) or the [provost's office](http://www.calvin.edu/go/comments-on-faculty/).
 
-## Typical Weekly Schedule
+## Typical Weekly Expectations
 
 - **Weekend**: read (actively!) a textbook chapter, watch a video lecture
-- **Monday**
-    - meet in lab for a guided activity.
-    - complete a reading quiz by end of day
-- **Tuesday**: write your weekly learning reflection, contribute to discussion forums
-- **Wednesday**: debrief lab, discuss concepts, discuss AI applications or perspectives
-- **Thursday**: take a content quiz (some weeks)
-- **Friday**: meet in lab to work on homework / project; some lectures as needed
+- **Monday**: prep quiz should be completed.
+- **Tuesday**: lab due (if there is a lab)
+- **Wednesday**: discussion forum due by class time, come to class with insights to share
+- **Thursday**: weekly homework due; reflection due (every other week)
 
 ### Reflections
 
