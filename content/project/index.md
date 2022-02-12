@@ -189,10 +189,6 @@ Some code and pre-trained models you might play with:
 -   Microsoft's [CodeXGLUE](https://github.com/microsoft/CodeXGLUE)
 -   the [PLBART code](https://github.com/wasiahmad/PLBART)
 
-### Form-to-Text
-
-Every day I manually enter in the numbers from the [Spectrum Health COVID dashboard](https://www.spectrumhealth.org/covid19) into a Google Spreadsheet to use on Calvin's dashboard. Why so manual? It's a screenshot. **Automate this process**, ideally using no additional labeling effort. I have about 6 months worth of data.
-
 ### Predictive Text from Very Rough Drafts (e.g., rambling speech)
 
 Speech recognition technology is a powerful and efficient way to enter text on a touchscreen device, but many people don't use it. One reason is that it is cognitively challenging: you must think of exactly what to say, and how to say it clearly enough to be understood, on the first time, potentially in a distracting or non-private environment. But what if you could first "think out loud" about what you want to say, perhaps whispering a stream of consciousness to your phone---then your phone would give you (a) an outline of the main points you wanted to say and (b) really accurate predictions about what word to type next in order to say it?
@@ -210,9 +206,6 @@ Many existing images/videos/audio are locked in poor quality low-efficiency code
 -   **Input**: a JPEG (or other legacy codec) bitstream, unpacked (e.g., the JPEG data could be arranged spatially, so the data for each macroblock would align with where it is in the image).
 -   **Output**: the correct image (or audio, video, etc.)
 
-### Learned Audio Processing
-
-Play with Google's [DDSP](https://github.com/magenta/ddsp) (Differentiable Digital Signal Processing) or [other demos from the Magenta group](https://github.com/magenta/magenta-demos). Push its limits a bit.
 
 ### Deepfake Detection
 
@@ -243,6 +236,21 @@ Make some deepfakes. Try to detect them.
 -   [Prefix Tuning](https://arxiv.org/pdf/2101.00190.pdf)
 -   [Concept Bottleneck Models](https://arxiv.org/abs/2007.04612)
 -   [GradInit](https://paperswithcode.com/paper/gradinit-learning-to-initialize-neural) (try this on some simple models)
+
+## Some potential libraries to play with
+
+Basic outline of a project here:
+
+- Get the code running (could be very easy if you find a Colab notebook etc)
+- Replicate something interesting that's already been done.
+- Use an example that you provide instead of one of their pre-built ones.
+- Push the limits a bit.
+
+Some potential libraries or codebases:
+
+- [NVIDIA/NeMo: NeMo: a toolkit for conversational AI](https://github.com/NVIDIA/NeMo)
+- Demos from Google's [Magenta group](https://github.com/magenta/magenta-demos). 
+- Lots of stuff on PapersWithCode
 
 ## Other example projects
 
