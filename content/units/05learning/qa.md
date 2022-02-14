@@ -114,3 +114,11 @@ Note that reverse-mode autodiff (like PyTorch uses) isn't necessarily optimal fo
 - Getting the learning rate right is hard. Hence there's been a whole bunch of research on *adaptive* optimizers that automatically tune the learning rates. The most popular is probably one called Adam.
 - It requires being able to compute the gradient. That might be tricky if, for example, your model is making a discrete choice and only gets information about the results of one action out of many.
 - For structured problems (like classic linear regression and its relatives) there are often *much* faster algorithms.
+
+## Other questions and clarifications
+
+These questions and issues also came up; I'd be happy to talk about them if anyone desires:
+
+- difference between "bias" in the ethical sense, "bias" in the statistical sense, and "bias" in a linear layer
+- "parameters" of a linear layer (all the weights and biases) vs the parameters taken by its constructor (how many weights and biases to use)
+- Why did we flatten the image in the simple MNIST classifier?
