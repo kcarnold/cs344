@@ -43,11 +43,14 @@ Finally, I sometimes remark that "machine learning is lazy" (in that it tends to
 
 ### Monday
 
-- Review
-  - [Week 5 Q&A](../05learning/qa/)
-  - Linear layers and nonlinearities
-  - Homework 4 materials
-- Homework 5 work time
+Review:
+
+- [Week 5 Q&A](../05learning/qa/)
+- Linear layers
+  - What are their parameters? How do they use them to compute the results?
+  - Why do we need nonlinearities? without them, a stack of Linear layers is just a Linear layer.
+  - How do ReLUs allow piecewise linear function approximation?
+- other parts of Homework 4 (time permitting)
 
 ### Wednesday
 
