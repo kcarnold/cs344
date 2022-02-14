@@ -44,8 +44,9 @@ Finally, I sometimes remark that "machine learning is lazy" (in that it tends to
 ### Monday
 
 - Review
+  - [Week 5 Q&A](../05learning/qa/)
+  - Linear layers and nonlinearities
   - Homework 4 materials
-  - Backpropagation
 - Homework 5 work time
 
 ### Wednesday
@@ -55,4 +56,6 @@ Finally, I sometimes remark that "machine learning is lazy" (in that it tends to
 
 ### Friday
 
-- 
+- Backpropagation
+- Finish Wednesday lecture
+- Homework work time, if time allows
