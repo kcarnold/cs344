@@ -13,6 +13,8 @@ Complete the following notebooks for this week. Do your work in the correspondin
 - {{% fundamentals name="Softmax and Sigmoid" nbname="u5n2-softmax-2.ipynb" %}}: More `softmax` practice and connect with `sigmoid`
 - {{% fundamentals name="Fitting Linear Regression by Gradient Descent" nbname="u5n3-linreg-manual.ipynb" %}}
 
+*Note*: the last one may take longer than the usual Fundamentals; it's a bit more like a mini-project. But there's lots of guidance on the way.
+
 These are mostly self-contained, but you may find it helpful to refer to {{< fastbook num="4" nbname="04_mnist_basics.ipynb" >}}.
 
 ## Submitting
