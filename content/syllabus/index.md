@@ -34,15 +34,16 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 ## Materials
 
 - Moodle contains links to all of the resources used in this course. It will also be where you engage in [discussion forums](/discussions/) and submit assignments.
--   We will be following the fast.ai [Practical Deep Learning for Coders](https://course.fast.ai/) course for much of this course.
 
-    -   You should buy their book (available in the Calvin bookstore), although it's also available as Jupyter Notebooks
-    -   [Videos](https://course.fast.ai/videos/?lesson=1)
-    -   their [forum](https://forums.fast.ai/c/part1-v4/46)
+- We will be following the fast.ai [Practical Deep Learning for Coders](https://course.fast.ai/) course for the first third or so of this course. They provide the following materials that will be useful to us:
 
--   We will be using Piazza for Q&A. Many students have found that Piazza works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Access Piazza by clicking on the link in Moodle.
+  - The **book** (*Deep Learning for Coders with Fastai and PyTorch*) is available in the Calvin bookstore and also [freely available online](https://github.com/fastai/fastbook) (links provided in the corresponding reading assignments)
+  - Links will also be provided to the author's [video lectures](https://course.fast.ai/videos/?lesson=1) corresponding to each section, where applicable.
+  - You may find it helpful to browse their [forum](https://forums.fast.ai/c/part1-v4/46), or even post questions there.
 
--   The lab machines are configured with the software needed in Linux. The Gold lab GPUs are slightly better, so we'll generally use them but Maroon should usually work too. For times when you need or want additional computing resources, you may use [Borg](https://borg.calvin.edu/), [Google Colab](https://colab.research.google.com/), [Paperspace](https://gradient.paperspace.com/), or other services. **The Guacamole remote access machines have older GPUs**, so see notes in the Lab 1 and 2 instructions for tips on making things run there (or just use Google Colab).
+- We will be using Piazza for Q&A. Many students have found that Piazza works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Access Piazza by clicking on the link in Moodle.
+
+- The lab machines are configured with the software needed in Linux. We'll generally use the Gold lab because its GPUs are slightly better, but Maroon should usually work too. For times when you need or want additional computing resources, you may use [Borg](https://borg.calvin.edu/), [Google Colab](https://colab.research.google.com/), [Paperspace](https://gradient.paperspace.com/), or other services. **The Guacamole remote access machines have older GPUs**, so see notes in the Lab 1 and 2 instructions for tips on making things run there (or just use Google Colab).
 
 ## Policies
 
@@ -128,7 +129,13 @@ Attendance is not mandatory, but highly encouraged, both for your own learning a
 
 ### How do I demonstrate academic integrity in this class?
 
-Your work in this class should demonstrate *gratitude* and *respect* to those whose work enables yours. It should demonstrate the *integrity* necessary to produce work that your future employer can legally use. And it should demonstrate an active embrace of the often-necessary struggle of figuring things out yourself. So I expect you to *credit the people who help you*, be they classmates or StackOverflow strangers, and *heed the license terms* under which they offer their code.
+The primary purpose of exercises in this class is to help you *learn* the material. The primary purpose of assessments are to help you *retain* the material. Academic integrity entails using course materials for the purposes that they were designed, not bypassing those purposes in an attempt to obtain answers without effort or demonstrate performance without learning.
+
+Moreover, your work in this class should demonstrate *gratitude* and *respect* to those whose work enables yours. It should demonstrate the *integrity* necessary to produce work that your future employer can legally use. And it should demonstrate an active embrace of the often-necessary struggle of figuring things out yourself. So I expect you to *credit the people who help you*, be they classmates or StackOverflow strangers, and *heed the license terms* under which they offer their code.
+
+Solutions to exercises are easy to find. You are expected *not* to refer to them until after you have submitted your work. If you do refer to them, you are *required* to clearly indicate that you have done so within the assignment.
+
+If you realize that your actions have violated academic integrity principles, please let the instructor know as soon as possible.
 
 **Etiquette**: We expect you to treat students and instructors for this with respect by adopting courteous communication practices throughout the course. No personal attacks, trolling, bad language will be tolerated.
 
