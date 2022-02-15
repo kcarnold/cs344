@@ -66,3 +66,29 @@ In the Moodle assignment for this Homework:
 
 1. Attach each `ipynb` file separately.
 2. Copy and paste your responses to the Analysis questions into the text box.
+
+<!-- 
+## Feedback
+
+Next time, please copy and paste the Analysis questions into the textbox here.
+
+Hopefully quick revisions:
+
+- diagnose-classifier: Be careful about the difference between percentage and fraction. An accuracy of .99 is 99% accurate or 1% error rate.
+
+- diagnose-classifier: loss is directly derived from probability: loss is `-log(prob)` when the clf was right, `-log(1-prob)` when the clf was wrong
+
+- compute-grad analysis is overcomplicated. Use only basic math operations like `+` or `*`; don't use any autograd functionality (like `.backward()`).
+
+- image-ops: only-red-channel didn't work. Use ops like the previous problem.
+
+- trace-mnist: the activation shapes are incorrect (Maybe you're thinking the *weight* shapes). Check `act1_shape` against `act1.shape`.
+- trace-mnist: weight shapes should be lists of two numbers (that evaluate to the same thing as `linear_1.weight.shape`, for example).
+
+Optional revisions:
+
+- diagnose-classifier: the probability number is actually the probability that the classifier assigned to the decision that it made. (I think it should be the probability that it assigns to the *correct* answer, but they're not going to change that now.)
+- image ops: grayscale should have used the average of all 3 channels (mean on axis 1)
+- black-out could have used negative indexing (e.g., `-50:`)
+
+-->
