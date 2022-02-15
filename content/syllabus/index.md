@@ -4,21 +4,21 @@ title: "Syllabus"
 
 This is a hands-on course on AI systems using machine learning, with a particular emphasis on deep neural networks.
 
--   **Instructor**: Kenneth C. Arnold, Calvin University, North Hall NH298
--   **Meeting Time**: MWF 11:30-12:20, SB 354 (Gold Lab)
--   **Office/Teams Hours**: Generally Monday and Thursday afternoons; see my [Google Calendar](https://kenarnold.org/calendar.html) for details and exceptions. Or message me directly; time permitting, I'd love to chat.
+- **Instructor**: Kenneth C. Arnold, Calvin University, North Hall NH298
+- **Meeting Time**: MWF 11:30-12:20, SB 354 (Gold Lab)
+- **Office/Teams Hours**: Generally Monday and Thursday afternoons; see my [Google Calendar](https://kenarnold.org/calendar.html) for details and exceptions. Or message me directly; time permitting, I'd love to chat.
 
 ## Objective
 
 By the end of this course, you will demonstrate growth in your ability to:
 
 - Design a machine learning system to address a given challenge.
-    - Select an appropriate ML approach to solve a problem.
-    - Map characteristics of the problem onto elements of the approach.
-    - Identify necessary characteristics of the data required for an ML system.
+  - Select an appropriate ML approach to solve a problem.
+  - Map characteristics of the problem onto elements of the approach.
+  - Identify necessary characteristics of the data required for an ML system.
 - Implement machine learning systems using both high-level and low-level programming interfaces.
-	- Write code to implement the forward pass of linear regression, logistic regression, and neural net extensions thereof. (compute predictions and loss)
-	- Design and implement data preprocessing processes to encode data into a format appropriate for machine learning modeling.
+  - Write code to implement the forward pass of linear regression, logistic regression, and neural net extensions thereof. (compute predictions and loss)
+  - Design and implement data preprocessing processes to encode data into a format appropriate for machine learning modeling.
 - Critically analyze the use and misuse of AI and ML techniques in situations affecting people.
 - Describe the history and trajectory of artificial intelligence.
 
@@ -26,10 +26,10 @@ By the end of this course, you will demonstrate growth in your ability to:
 
 Familiarity with computer science concepts at the level of CS 212 will be generally expected. Beyond that, students should come to this course with some (perhaps rusty) ability to:
 
--   Read and write Python code (or be willing to invest significant energy the first few weeks picking it up)
--   Think systematically, generate and test hypotheses to explain observations, and communicate that thinking precisely.
--   Manage time, individually and in small groups
--   Collaborate to solve problems
+- Read and write Python code (or be willing to invest significant energy the first few weeks picking it up)
+- Think systematically, generate and test hypotheses to explain observations, and communicate that thinking precisely.
+- Manage time, individually and in small groups
+- Collaborate to solve problems
 
 ## Materials
 
@@ -75,16 +75,16 @@ The *mastery* component of grading (inspired by a system used at [Grinnell Colle
 Mastery will be graded on a four-point scale (adapted from the [EMRF rubric](http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf) by Stutzman and Race):
 
 - **E**: Excellent
-    - Demonstrates complete understanding of the material
-    - No errors; could serve as an example solution
+  - Demonstrates complete understanding of the material
+  - No errors; could serve as an example solution
 - **M**: Meets expectations
-    - Demonstrates complete understanding of the material
-    - Minor errors
+  - Demonstrates complete understanding of the material
+  - Minor errors
 - **R**: Needs Revision
-    - Demonstrates limited understanding of the material
-    - Many minor errors or one or more major errors
+  - Demonstrates limited understanding of the material
+  - Many minor errors or one or more major errors
 - **N**: Not completed
-    - Not completed to a degree where understanding is evident
+  - Not completed to a degree where understanding is evident
 
 Grades on the semester project and on perspectival reports will add additional mastery grades.
 
@@ -94,7 +94,7 @@ The mapping of Mastery grades to numbers and their weighting with Effort grades 
 
 ### How do I revise assignments?
 
-Revisions are expected and highly encouraged. You may submit **up to one revision per week**. To submit a revision: 
+Revisions are expected and highly encouraged. You may submit **up to one revision per week**. To submit a revision:
 
 - Submit a complete, standalone solution on Moodle. (Clean up anything from your past errors.)
 - **Email the instructor** with the following:
