@@ -7,10 +7,22 @@
 	"settings": {
 		"makefile.extensionOutputFolder": "./.vscode",
 		"cSpell.words": [
-			"gradebook",
-			"Moodle",
-			"perspectival"
-		],
+      "fastbook",
+      "gradebook",
+      "Moodle",
+      "nbname",
+      "ipynb",
+      "backpropagation",
+      "fastvideo",
+      "autograd",
+      "nonlinearities",
+      "dataloaders",
+      "softmax",
+      "pyplot",
+      "logprobs",
+      "resid",
+      "perspectival"
+    ],
         "editor.detectIndentation": false,
         "editor.tabSize": 2
 	}
