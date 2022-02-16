@@ -1,0 +1,65 @@
+---
+title: "Learning "
+author: 
+  - "Ken Arnold"
+date: 2022-02-16
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: false
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+source("../slides-common.R")
+slideSetup()
+#library(reticulate)
+#reticulate::use_condaenv("fastai")
+```
+
+## Interesting Points from Discussion?
+
+- Share with neighbors.
+- Then we'll share with everyone.
+
+---
+
+## This week's Objectives
+
+- Explain how a pre-trained model can be repurposed for a new task by separating it into a general-purpose "body" (aka "encoder") and a task-specific "head".
+- Identify some examples of data augmentation and regularization.
+- Predict the effect of data augmentation and regularization on model training.
+- Implement a multi-layer neural network using basic numerical computing primitives
+
+
+---
+
+## Backpropagation Review
+
+
+---
+
+## Fine-Tuning: Head and Body
+
+Linear regression and logistic classification are the final layers of models.
+
+---
+
+## Overfitting in Classification
+
+Intuition: overconfidence
+
+---
+
+## Label Smoothing Penalizes Overconfidence
+
+---
+
+## Regularization inside a model
+
+- Weight decay (penalize large *weights*)
+- Dropout (randomly zero out *activations*)
