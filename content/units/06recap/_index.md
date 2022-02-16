@@ -4,7 +4,7 @@ date: 2022-02-14
 weight: 6
 ---
 
-In this unit, after reviewing where we've been, we push towards state-of-the-art models (still focusing on computer vision). We'll first show how our work last 2 weeks connects to the pretrained models we used in the opening weeks. Then, we’ll introduce or revisit tools that allow our models to achieve high performance, such as data augmentation and regularization. Finally, we’ll get more practice with how neural networks work from the ground up as we implement our own simple neural net image classifier from scratch (definitely something to mention in an interview!).
+In this unit, after reviewing where we've been, we push towards state-of-the-art models (still focusing on computer vision). We'll first show how our work last 2 weeks connects to the pre-trained models we used in the opening weeks. Then, we’ll introduce or revisit tools that allow our models to achieve high performance, such as data augmentation and regularization. Finally, we’ll get more practice with how neural networks work from the ground up as we implement our own simple neural net image classifier from scratch (definitely something to mention in an interview!).
 Students who complete this unit will demonstrate that they can:
 
 - Explain how a pre-trained model can be repurposed for a new task by separating it into a general-purpose "body" (aka "encoder") and a task-specific "head".
