@@ -98,8 +98,10 @@ Revisions are expected and highly encouraged. You may submit **up to one revisio
 
 - Submit a complete, standalone solution on Moodle. (Clean up anything from your past errors.)
 - **Email the instructor** with the following:
-  - What assignment you're revising
-  - A concise and specific explanation of the original error(s) and how you addressed them.
+  - What assignment you're revising (you may revise any past assignment that was graded for Mastery)
+  - A concise and specific explanation of the original error(s) and how you addressed them. This should convince the instructor that you have not only achieved a correct result but have learned through the process.
+
+Revisions with a convincing explanation can achieve up to an Excellent grade for its Mastery component. Submitting a revision has no effect on the Effort grade.
 
 ### This sounds unusual. Will we actually be doing this??
 
