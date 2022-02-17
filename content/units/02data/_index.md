@@ -24,7 +24,10 @@ Students who complete this unit will demonstrate that they can:
 
 <!-- Note for next year: 
 
-Chapter 13, "A color picture is a rank-3 tensor" -- shows the decomposition of an image into its 3 color channels. -->
+- We need a diagram of an image tensor!
+- Chapter 13, "A color picture is a rank-3 tensor" -- shows the decomposition of an image into its 3 color channels.
+
+-->
 
 ### Optional Supplemental Material
 
