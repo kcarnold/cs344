@@ -2,7 +2,7 @@
 title: "Homework 6"
 date: 2022-02-18
 due: 2022-02-24
-draft: true
+draft: false
 ---
 
 This week we have a *narrative* homework and a *fundamentals* homework.
@@ -22,6 +22,7 @@ This week we have a *narrative* homework and a *fundamentals* homework.
   - Skim the linked paper: read the *abstract*, then read at the captions for the main figures and/or tables.
   - What accuracy improvement did the paper's authors find from their technique? How did that improvement compare with what the authors of the blog post found?
 
+<!--
 ## Mini-Project: Image Classifier from Scratch
 
 Goals:
@@ -29,28 +30,19 @@ Goals:
 - How everything works from the ground up
 - Practice with array computing
 - Build intuition for things like learning rates
-
+-->
 
 ## This Week's Fundamentals
 
-Complete the following notebooks for this week. Do your work in the corresponding notebook.
+Complete the following notebook for this week. Do your work in the corresponding notebook.
 
-TODO:
-
-- consider advancing the linreg one to logistic reg
-- start the mini project about NN from the ground up?
-
-- {{% fundamentals name="Softmax 1" nbname="u5n1-softmax.ipynb" %}}: practice using `softmax`
-- {{% fundamentals name="Softmax and Sigmoid" nbname="u5n2-softmax-2.ipynb" %}}: More `softmax` practice and connect with `sigmoid`
-- {{% fundamentals name="Fitting Linear Regression by Gradient Descent" nbname="u5n3-linreg-manual.ipynb" %}}
-
-TODO: This should be chapter 6 or 7?
-
-These are mostly self-contained, but you may find it helpful to refer to {{< fastbook num="4" nbname="04_mnist_basics.ipynb" >}}.
+- {{% fundamentals name="MNIST Classifier" nbname="u6n1-mnist-clf.ipynb" %}}: Training a basic classifier on MNIST using mini-batch gradient descent
 
 ## Submitting
 
 In the Moodle assignment for this Homework:
 
-1. Attach each `ipynb` file separately.
-2. Copy and paste your responses to the Analysis questions (where applicable) into the text box.
+1. Attach the `ipynb` file.
+2. Copy and paste your paragraph answer to the Narrative section into the Moodle text box.
+3. Copy and paste your responses to the Analysis questions (where applicable) into the text box.
+
