@@ -61,6 +61,14 @@ Review:
 ### Friday
 
 - Finish Wednesday lecture
-  - Backpropagation
   - Augmentation and Regularization
-- Homework work time, if time allows
+  - Backpropagation (moved to video)
+
+<!--
+
+Next year: the diagram of overconfidence kinda worked, but:
+
+- more visuals would have helped
+- I'm getting a lot of mileage out of 1D function approximation, but it might also be too limiting. Perhaps working with dot products from the start would be a better intuitive framework? Rotate (Linear), then selectively squish (ReLU)?
+
+-->
