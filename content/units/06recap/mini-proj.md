@@ -12,6 +12,8 @@ Build a simple image classifier from scratch, using only basic numerical computi
 Specifically:
 
 - Train a model to label the MNIST handwritten digits
+  - First, try to predict the digit as a *regression* task using Mean Squared Error loss. Analyze the results of this exercise.
+  - Then, try to predict the digit as a *classification* task, using cross-entropy loss.
 - Evaluate the accuracy on the test set.
 - Compare two different models: a single layer (logistic regression) model and a two-layer model with 30 hidden dimensions and ReLU activation.
 
@@ -64,3 +66,5 @@ Beyond that, you're on your own! See "constraints" above.
 ### Optional Constraint: No Autograd
 
 I have a suggested structure for implementing backpropagation yourself in a modular way. If you're interested, please ask me.
+
+Note: the PyTorch `cross_entropy` function does some interesting things under the hood. See {{% fundamentals name="this notebook" nbname="cross_entropy_logsumexp.ipynb" %}}.
