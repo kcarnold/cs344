@@ -2,6 +2,23 @@
 title: "Forum Posts 22SP"
 ---
 
+## Week 7: Embeddings
+
+Welcome to unit 7, the week before Spring Break!
+
+In this unit we introduce one of the most powerful concepts in machine learning: the *embedding*. It's the idea that instead of being explicitly given a representation for something, we *learn* it from data *based on the properties it should have*. We've actually already seen embeddings of various kinds (the inputs to the last layer of an image classifier for one), but we'll look at two examples where the embedding aspect is even clearer: movies and words.
+
+Some logistics:
+
+1. I made some late updates to Preparation 7, and posted the quiz late, so it's okay if you don't get to it until Wednesday.
+2. Homework 6 is due on Thursday. It's not the mini-project I'd hoped because I thought that would be too much, but it gets you pretty close. (If you're interested in trying that mini-project anyway, I wrote up some [instructions](https://cs.calvin.edu/courses/cs/344/22sp/units/06recap/mini-proj/) for it.)
+3. I recorded a video demo of how backprop works; see our [Walkthroughs folder in Teams](https://calvincollege.sharepoint.com/:f:/s/Section_81629/EiZcXdth0VZMhjz4S_69w0oByq-i_tuvqJMm1VgDMjNtJw?e=YHcM0a).
+4. Reflection 3 is due on *Friday*. It's the same structure as last week: write your own quick summary of all the learning objectives from the past two weeks.
+5. In lieu of a normal Discussion this week, we get to start thinking about **project ideas**! I've put up a Forum on Moodle for this week if you'd like to pitch an idea and are looking for partners. We'll talk more about projects in class this week; here's the [overall description](https://cs.calvin.edu/courses/cs/344/22sp/project/).
+6. I've fixed up the gradebook, so now would be a good time to check where you stand. (I haven't gotten to all of the revisions yet.) Things I haven't graded yet should show up as "dropped", but if there's anything that's missing or too-low and not "dropped", please let me know.
+
+See you Monday!
+
 ## Week 6: Recap and Regularization
 
 In this unit, after reviewing where we've been, we push towards state-of-the-art models (still focusing on computer vision). We’ll introduce or revisit tools that allow our models to achieve high performance, such as data augmentation and regularization. Finally, we’ll get more practice with how neural networks work from the ground up as we implement our own simple neural net image classifier from scratch (definitely something to mention in an interview!).
