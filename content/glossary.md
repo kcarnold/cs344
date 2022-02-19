@@ -20,3 +20,32 @@ A collection of data points that are processed together. Using bigger batches ca
 
 Not to be confused with "training set" or "validation set", both of which are processed in batches.
 
+## Stochastic Gradient Descent
+
+An algorithm for finding parameters to a function that are in the neighborhood of a shallow local minimum.
+
+- "In the neighborhood of": it won't hit the local minimum exactly because of mini-batch noise.
+- "Local minimum": it won't necessarily be near the *global* minimum of the function (the best possible setting of the parameters). But that's ok because...
+- "shallow": small changes in the parameters don't lead to a big change in loss. That's important for *generalization*.
+
+Algorithm:
+
+**Input**: a dataset, a model architecture, and some *hyperparameters*:
+
+- N (number of iterations)
+- learning rate (`$\gamma$`)
+- momentum parameter (`$\mu$`)
+- weight decay parameter (`$\lambda$`)
+
+Steps:
+
+- Initialize parameters randomly (draw them from distributions chosen so that the typical values of both the loss and the gradient are reasonable).
+- Repeat N times:
+  - Draw a batch of data. (Typically organized into "epochs" of complete passes through the training set, but you can also just choose samples at random.)
+  - Compute and keep track of the loss on that batch.
+  - Compute the gradient of the loss with respect to each parameter (call that each parameter's "gradient").
+  - For each parameter:
+    - compute the *update* as that parameter's gradient plus `$\lambda$` times the current parameter value
+    - update the parameter by subtracting from it `$\gamma$` times the update.
+
+For the math, and extra details like the momentum parameter, see, e.g., the [PyTorch SGD docs](https://pytorch.org/docs/stable/generated/torch.optim.SGD.html#torch.optim.SGD).
