@@ -8,7 +8,7 @@ post_markdowns := $(patsubst %.Rmarkdown,%.markdown,$(shell find content -name '
 slide_pdfs := $(patsubst %.html,%.pdf,$(slide_htmls))
 fundamentals_soln := $(wildcard static/fundamentals/*_soln.ipynb)
 fundamentals := $(subst _soln,,$(fundamentals_soln))
-fundamentals_html := $(patsubst %.ipynb,%.html,$(fundamentals) $(fundamentals_soln))
+fundamentals_html := $(patsubst %.ipynb,%.html,$(sort $(fundamentals) $(fundamentals_soln) $(wildcard static/fundamentals/*.ipynb)))
 
 %.html: %.Rmd
 	Rscript -e "rmarkdown::render('"$<"')"
