@@ -22,16 +22,6 @@ This week we have a *narrative* homework and a *fundamentals* homework.
   - Skim the linked paper: read the *abstract*, then read at the captions for the main figures and/or tables.
   - What accuracy improvement did the paper's authors find from their technique? How did that improvement compare with what the authors of the blog post found?
 
-<!--
-## Mini-Project: Image Classifier from Scratch
-
-Goals:
-
-- How everything works from the ground up
-- Practice with array computing
-- Build intuition for things like learning rates
--->
-
 ## This Week's Fundamentals
 
 Complete the following notebook for this week. Do your work in the corresponding notebook.
