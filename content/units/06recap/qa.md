@@ -2,7 +2,29 @@
 title: "Week 6 Q&A"
 ---
 
+## Chapter 3
+
+Some stragglers:
+
+### Why are darker faces harder for CV to recognize?
+
+- Mostly: lack of training data. Most datasets of faces were heavily biased towards light-colored skin.
+- Also: Early film was designed to reproduce light-colored skin well; wasn't really tested on dark-colored skin.
+
+### Is it too late to fix the ethical issues in technology?
+
+1. Yes, in one sense: the Fall already happened, and that's the ultimate cause of these problems. Humans are broken, and the systems we make will always be broken.
+2. No, in an important sense: **you**.
+
+### Is every ethical problem in AI about race and gender?
+
+Critical Theory has monopolized ethical discussions in many areas of society lately, so many ethics researchers tend to highlight aspects of their work that relate to power differentials across race and gender. But other aspects are also important; just a few examples include the relationship of AI moderation to freedom of speech, the environmental impact of AI, the existential risks that we may be taking in developing more powerful AI technology, and systems that optimize themselves to hold our attention.
+
 ## Chapter 5
+
+### Why am I saying to skim or skip certain topics?
+
+There are some things in our book that the fastai people make a much bigger deal about than most researchers and practitioners. It's a lot of reading and stuff to understand, so I'm trying to help you focus on the parts that are going to pay most dividends down the line.
 
 ### Do the concepts of loss functions and optimization apply to other ML models besides image classifiers?
 
@@ -12,7 +34,9 @@ Yes!
 - regression: see chapter 6; just use MSE or MAE instead of cross-entropy.
 - generative models: sometimes use contrastive losses, which are just classification losses where the model has to distinguish true from generated data.
 
-### how transferrable models are between physical machines.
+### How transferrable models are between physical machines?
+
+Generally very much so. They're trained with lots of noise added intentionally, so little differences in floating point behavior don't tend to matter much.
 
 ### Guidelines for how cleaning relates to modeling?
 
@@ -41,3 +65,15 @@ A linear layer.
 ### Why does cross-entropy need negative-log?
 
 The [Wikipedia article](https://en.wikipedia.org/wiki/Cross_entropy) is actually pretty good here.
+
+### Do all the images really have to be the same size?
+
+They used to have to be, but modern networks can work with any size. It's still more efficient to run a batch of images at the same size through at the same time though.
+
+### Why ReLU?
+
+Piecewise linear approximation.
+
+### I'm still fuzzy about SGD.
+
+See the Glossary.
