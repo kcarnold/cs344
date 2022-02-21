@@ -28,6 +28,11 @@ Students who complete this unit will demonstrate that they can:
 
 ### Monday
 
+- [Slides](https://cs.calvin.edu/courses/cs/344/22sp/slides/w7/w7-recsys-embedding.html#1)
+- Project
+- Recommendation Systems
+- Latent Factors
+
 ### Wednesday
 
 - (No discussion this week)
