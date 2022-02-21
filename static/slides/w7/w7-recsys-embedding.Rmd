@@ -20,9 +20,15 @@ source("../slides-common.R")
 slideSetup()
 ```
 
-## Logistics
+## Projects
 
-- Projects
+- **Replicate** some prior result
+  - "They got a number. Can we get the same number?"
+  - Pick a single, simple result
+  - Write some part of the code yourselves (data input, modeling, optimizer, experiment harness, etc.)
+- Then **extend** in some way.
+
+Can be in teams. Each member documents contribution.
 
 ---
 
