@@ -30,14 +30,25 @@ Students who complete this unit will demonstrate that they can:
 
 - [Slides](https://cs.calvin.edu/courses/cs/344/22sp/slides/w7/w7-recsys-embedding.html#1)
 - Project
-- Recommendation Systems
+- Introduction to Recommendation Systems
 - Latent Factors
 
 ### Wednesday
 
 - (No discussion this week)
+- Continue lecture: Embeddings
+  - What do they look like?
+  - Where do they come from?
+  - Example: exploring MovieLens embeddings
+- It's all still just function approximation
 
 ### Friday
+
+sklearn bootcamp:
+
+- The `fit`-`predict` API
+- Decision Trees and Random Forests
+- Start Homework 7
 
 ### Homework
 
