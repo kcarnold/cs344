@@ -11,7 +11,7 @@ nb = nbformat.read(in_filename, as_version=nbformat.NO_CONVERT)
 # Reset the kernel spec because sometimes my local environment has a different ipykernel name.
 nb['metadata']['kernelspec'] = {'display_name': 'Python 3', 'language': 'python', 'name': 'python3'}
 
-out_switch_re = re.compile('\s+#([+-])out')
+out_switch_re = re.compile('\s*#([+-])out')
 
 outputs = True
 
