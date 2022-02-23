@@ -39,7 +39,7 @@ Students who complete this unit will demonstrate that they can:
 - Continue lecture: Embeddings
   - What do they look like?
   - Where do they come from?
-  - Example: exploring MovieLens embeddings
+  - [Worksheet](embedding_worksheet.pdf): exploring movie embeddings
 - It's all still just function approximation
 
 ### Friday
