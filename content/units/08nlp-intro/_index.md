@@ -1,6 +1,6 @@
 ---
 title: "Unit 8: NLP Intro"
-date: 2022-02-21
+date: 2022-03-07
 weight: 8
 ---
 
@@ -9,7 +9,10 @@ In this lesson we'll start learning about how we can extend the sort of modeling
 
 Students who complete this unit will demonstrate that they can:
 
-- Describe language modeling as a prediction problem
+- Identify at least two different language understanding tasks that can be addressed using machine learning methods.
+- Describe causal language modeling as a prediction problem
+- Explain at least two different approaches for converting text data into a form usable by a machine learning model.
+- Identify both word and character n-grams in a given string.
 - Describe how perplexity relates to log-likelihood and cross-entropy (and the general concept of partial credit in classifiers)
 - Implement basic data manipulation operations in language processing
 
@@ -27,6 +30,7 @@ Since NLP has advanced so much in the past few years, we're starting to hit the 
 
 - Textbook: [SLP3](https://web.stanford.edu/~jurafsky/slp3/) (architectures, tasks, RNN etc.)
 - Videos: [Stanford course on Natural Language Understanding 21SP](https://www.youtube.com/playlist?list=PLoROMvodv4rPt5D0zs3YhbWSZA8Q_DyiJ)
+- [Jay Alammar](https://jalammar.github.io/) ([YouTube](https://www.youtube.com/channel/UCmOwsoHty5PrmE-3QhUBfPQ)) has made some nice visual explanations of language models.
 
 ## Class Meetings
 
@@ -40,3 +44,4 @@ Since NLP has advanced so much in the past few years, we're starting to hit the 
 ### Homework
 
 - tokenization fundamentals
+- n-gram LM
