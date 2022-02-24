@@ -1,7 +1,7 @@
 ---
 title: "Unit 8: NLP Intro"
 date: 2022-02-21
-weight: 7
+weight: 8
 ---
 
 Some of the most impactful developments in AI recently have come from modeling and generating *sequences*.
