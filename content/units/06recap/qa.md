@@ -1,5 +1,6 @@
 ---
 title: "Week 6 Q&A"
+date: 2022-02-16
 ---
 
 ## Chapter 3
