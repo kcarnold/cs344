@@ -2,6 +2,7 @@ ALL: deploy
 all: deploy
 
 HUGO_FLAGS := --buildDrafts --buildFuture
+DEST_DIR := /tmp/cs344-build/
 
 slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides -iname '*.Rmd' -and -not -iname "*slides-common*"))
 post_markdowns := $(patsubst %.Rmarkdown,%.markdown,$(shell find content -name '*.Rmarkdown'))
@@ -29,12 +30,12 @@ $(fundamentals_html) : %.html : %.ipynb
 	jupyter nbconvert --to=html "$<"
 
 deploy-quick: $(slide_htmls) $(post_markdowns) $(fundamentals) $(fundamentals_html)
-	hugo $(HUGO_FLAGS) --cleanDestinationDir
-	rsync -rxi --delete-after public/ cs-prod:/webroot/courses/cs/344/22sp/
+	hugo $(HUGO_FLAGS) --destination ${DEST_DIR} --cleanDestinationDir
+	rsync -rxi --delete-after ${DEST_DIR}/ cs-prod:/webroot/courses/cs/344/22sp/
 # --times --delete-after --delete-excluded
 
 deploy-pdf: deploy-quick $(slide_pdfs)
-	rsync -rxi --delete-after public/ cs-prod:/webroot/courses/cs/344/22sp/
+	rsync -rxi --delete-after ${DEST_DIR}/ cs-prod:/webroot/courses/cs/344/22sp/
 
 deploy: deploy-quick deploy-pdf
 
