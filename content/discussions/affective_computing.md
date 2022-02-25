@@ -1,6 +1,7 @@
-# Emotional Artificial Intelligence
-
-Brea Koenes
+---
+title: "Emotional Artificial Intelligence"
+author: "Brea Koenes"
+---
 
 ## Background
 
