@@ -40,14 +40,14 @@ Students who complete this unit will demonstrate that they can:
   - What do they look like?
   - Where do they come from?
   - [Worksheet](embedding_worksheet.pdf): exploring movie embeddings
-- It's all still just function approximation
+- It's still all about functions from data to outputs.
 
 ### Friday
 
-sklearn bootcamp:
-
-- The `fit`-`predict` API
-- Decision Trees and Random Forests
+- Discussion kickoff
+- sklearn bootcamp:
+  - The `fit`-`predict` API
+  - Decision Trees and Random Forests
 - Start Homework 7
 
 <!--
