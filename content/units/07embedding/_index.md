@@ -50,10 +50,6 @@ sklearn bootcamp:
 - Decision Trees and Random Forests
 - Start Homework 7
 
-### Homework
-
-- sklearn fundamentals
-
 <!--
 Prep question
 
@@ -77,5 +73,4 @@ def dot_product(x1, x2):
         ...
     return result
 ```
-
 -->
