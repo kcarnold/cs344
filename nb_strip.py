@@ -33,6 +33,7 @@ def strip_source(source):
     skip_next = False
     skip_until = None
     for i, line in enumerate(lines):
+        # Turn on or off output.
         if m := out_switch_re.search(line):
             plus_minus = m.group(1)
             assert plus_minus in '+-'
@@ -78,6 +79,21 @@ def strip_source(source):
         result.append(line)
     return '\n'.join(result)
 
+narrative_re = re.compile(r'\*your( narrative)? (answer|response)( here)?\*')
+
+assert narrative_re.match('*your narrative response here*')
+assert narrative_re.match('*your narrative answer here*')
+assert narrative_re.match('*your answer here*')
+assert narrative_re.match('*your response here*')
+
+def strip_md(source):
+    result = []
+    lines = source.split('\n')
+    for i, line in enumerate(lines):
+        result.append(line)
+        if narrative_re.search(line):
+            break
+    return '\n'.join(result)
 
 for cell in cells:
     if cell['cell_type'] == 'code':
@@ -85,5 +101,7 @@ for cell in cells:
         if not outputs:
             cell.outputs.clear()
             cell.execution_count = None
+    elif cell['cell_type'] == 'markdown':
+        cell.source = strip_md(cell.source)
 
 nbformat.write(nb, out_fname)
