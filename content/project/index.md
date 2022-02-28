@@ -179,15 +179,21 @@ Teachers have a hard time getting to know students by face, especially when stud
 -   **Input**: students' profile photos
 -   **Output**: a dozen different images for each student, with variation in background, lighting, clothing, etc. so that these factors are informative
 
+Potential resources:
+
+- [Third Time's the Charm? Image and Video Editing with StyleGAN3 | Papers With Code](https://paperswithcode.com/paper/third-time-s-the-charm-image-and-video)
+- [Near Perfect GAN Inversion | Abstract](https://arxiv.org/abs/2202.11833) "To edit a real photo using Generative Adversarial Networks (GANs), we need a GAN inversion algorithm to identify the latent vector that perfectly reproduces it"
+
 ### Code Analysis for Intro Programming Classes
 
 AI models of (programming) code have improved markedly in recent years (see, e.g., [Unified Pre-training for Program Understanding and Generation](https://arxiv.org/abs/2103.06333)), but intro programming classes haven't yet been able to benefit from them. Could you figure out a way to use program understanding methods to give good feedback to CS learners and their instructors? (e.g., help the instructor see patterns in students' code)
 
 Some code and pre-trained models you might play with:
 
--   Facebook's [TransCoder](https://github.com/facebookresearch/TransCoder)
--   Microsoft's [CodeXGLUE](https://github.com/microsoft/CodeXGLUE)
--   the [PLBART code](https://github.com/wasiahmad/PLBART)
+- [CodeParrot](https://huggingface.co/blog/codeparrot)
+- Facebook's [TransCoder](https://github.com/facebookresearch/TransCoder)
+- Microsoft's [CodeXGLUE](https://github.com/microsoft/CodeXGLUE)
+- the [PLBART code](https://github.com/wasiahmad/PLBART)
 
 ### Predictive Text from Very Rough Drafts (e.g., rambling speech)
 
