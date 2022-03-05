@@ -18,16 +18,15 @@ Students who complete this unit will demonstrate that they can:
 
 ## Preparation
 
-Since NLP has advanced so much in the past few years, we're starting to hit the limits of the fastai material.
+Since NLP has advanced so much in the past few years, we're going to use the [Hugging Face NLP Course](https://huggingface.co/course/) instead of the material in our textbook.
 
-- Watch [Lecture 2 of MIT 6.S191](https://www.youtube.com/watch?v=qjrad0V0uJE&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=2)
-  - You may want to go back to skim [Lecture 1](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1) if you didn't do so back in Week 4.
-- *Skim* {{<fastbook num="10" nbname="10_nlp.ipynb">}}
-  - Some of this material is relevant, some of it isn't.
-  - {{<fastvideo num="8">}} discusses this material. Watching it is decidedly optional.
+- Do chapters 1 and 2 of the [Hugging Face NLP Course](https://huggingface.co/course/).
+- Watch Jay Alammar's "gentle visual intro to Transformers models" from the [Part 2 Release Event](https://huggingface.co/course/event/1?fw=pt), and one more of your choice.
 
 ### Supplemental Material
 
+- Watch [Lecture 2 of MIT 6.S191](https://www.youtube.com/watch?v=qjrad0V0uJE&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=2)
+  - You may want to go back to skim [Lecture 1](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1) if you didn't do so back in Week 4.
 - Textbook: [SLP3](https://web.stanford.edu/~jurafsky/slp3/) (architectures, tasks, RNN etc.)
 - Videos: [Stanford course on Natural Language Understanding 21SP](https://www.youtube.com/playlist?list=PLoROMvodv4rPt5D0zs3YhbWSZA8Q_DyiJ)
 - [Jay Alammar](https://jalammar.github.io/) ([YouTube](https://www.youtube.com/channel/UCmOwsoHty5PrmE-3QhUBfPQ)) has made some nice visual explanations of language models.
@@ -35,6 +34,8 @@ Since NLP has advanced so much in the past few years, we're starting to hit the 
 ## Class Meetings
 
 ### Monday
+
+Lecture: NLP Intro and Predictive Text (slides)
 
 ### Wednesday
 
