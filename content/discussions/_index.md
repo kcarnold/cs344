@@ -128,3 +128,11 @@ A very brief description of what it is.
 4. Create a Pull Request (PR) to contribute the file to the repo.
 
 You may also just send the file directly to the instructor. But if you do the above, you'll get credit on GitHub as a contributor to the course repo.
+
+## Summary Report
+
+At the end of the course, you'll write a 1000-word (TODO: finalize word count) essay for a nontechnical audience about the broader issues raised by an AI topic of your choice. You may choose a topic of one of the discussion forums or listed on the topic sign-up sheet; if you would like to write about a topic other than those, please ask the instructor for approval first.
+
+Your essay should address all of the applicable questions in the "Questions about Technologies" section above.
+
+You are encouraged to discuss how any of the issues you discuss arose in your course project. However, if your course project does not address related issues, make sure to include a brief statement in your project report about broader perspectives, such as answers to the main questions above.
