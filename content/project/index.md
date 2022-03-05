@@ -2,8 +2,6 @@
 title: "Project"
 ---
 
-## Semester Project
-
 This course will culminate in a semester project. Successful projects will demonstrate that you can:
 
 -   Design, implement, and/or analyze an intelligent system
@@ -185,19 +183,27 @@ Some potential libraries or codebases:
 
 Professor Arnold is willing to advise one of the following research-y projects. Others may be permitted if you have a very clear proposal, discussed well in advance.
 
-#### Denoising Autoencoder for Text
+### Denoising Autoencoder for Text
 
-#### Text vectorization using prefix learning
+I'll write up a description of this soon.
 
+### Text vectorization using prefix learning
 
-#### Question generation by inverting a QA system
+I'll write up a description of this soon.
 
-#### Paraphrasing using any-to-any translation
+### Question generation by inverting a QA system
 
-#### Decompose and Recompose Complex Sentences using Simple Sentences
+I'll write up a description of this soon.
 
+### Paraphrasing using any-to-any translation
 
-#### Predictive Text from Very Rough Drafts (e.g., rambling speech)
+I'll write up a description of this soon.
+
+### Decompose and Recompose Complex Sentences using Simple Sentences
+
+I'll write up a description of this soon.
+
+### Predictive Text from Very Rough Drafts (e.g., rambling speech)
 
 Speech recognition technology is a powerful and efficient way to enter text on a touchscreen device, but many people don't use it. One reason is that it is cognitively challenging: you must think of exactly what to say, and how to say it clearly enough to be understood, on the first time, potentially in a distracting or non-private environment. But what if you could first "think out loud" about what you want to say, perhaps whispering a stream of consciousness to your phone---then your phone would give you (a) an outline of the main points you wanted to say and (b) really accurate predictions about what word to type next in order to say it?
 

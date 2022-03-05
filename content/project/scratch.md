@@ -1,3 +1,7 @@
+---
+title: "Project Scratch"
+---
+
 -   write a thorough explainer about a topic beyond the scope of the course and teach it to the class
 
     -   Examples: [Jay Alammar's blog](https://jalammar.github.io/), many articles on [distill.pub](https://distill.pub/), [3Blue1Brown videos](https://www.youtube.com/c/3blue1brown),
