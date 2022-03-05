@@ -6,7 +6,7 @@ draft: false
 
 <!-- next year:
 
-- watch out for fastai small dataset issues
+- watch out for fastai small dataset issues. **GIVE A MINIMUM COUNT**.
 - maybe disable validation entirely, just use hw3 for validation?
 - Give students a clear outline of the code, and the structure of the responses (maybe even templates).
 - description of dataset
