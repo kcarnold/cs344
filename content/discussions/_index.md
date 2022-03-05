@@ -78,7 +78,7 @@ author: "Your name"
 
 ## Quote
 
-> optional quote
+> optional quote or Scripture reference
 >
 > source
 
