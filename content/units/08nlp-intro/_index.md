@@ -35,7 +35,7 @@ Since NLP has advanced so much in the past few years, we're going to use the [Hu
 
 ### Monday
 
-Lecture: NLP Intro and Predictive Text (slides)
+Lecture: NLP Intro and Predictive Text ([slides](https://cs.calvin.edu/courses/cs/344/22sp/slides/2022-03-07%20NLP%20intro%20and%20Predictive%20Text.pdf))
 
 ### Wednesday
 
