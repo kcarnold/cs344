@@ -13,7 +13,7 @@
 
 {{ if .Sections }}
 {{ range .Sections }}
-<details {{- if .Date.After (time "2022-02-08" ) }} open{{end}}>
+<details {{- if .Date.After (time "2022-02-15" ) }} open{{end}}>
   <summary><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> ({{.Date.Format "Jan 2"}})</summary>
   <ul style="margin: 0;">
       {{- $pages := .Pages.ByDate -}}
