@@ -30,6 +30,8 @@ Students who complete this unit will demonstrate that they can:
 
 ### Optional Supplemental Materials
 
+For an explanation of minimizing squared error, see [Ordinary Least Squares Regression explained visually](https://setosa.io/ev/ordinary-least-squares-regression/).
+
 There are too many videos out there on deep learning to list here, but here's a few very different styles:
 
 - (MIT) [Lecture 1 of MIT 6.S191 Deep Learning](https://www.youtube.com/watch?v=5tvmMX8r_OM&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1)
