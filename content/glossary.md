@@ -49,3 +49,20 @@ Steps:
     - update the parameter by subtracting from it `$\gamma$` times the update.
 
 For the math, and extra details like the momentum parameter, see, e.g., the [PyTorch SGD docs](https://pytorch.org/docs/stable/generated/torch.optim.SGD.html#torch.optim.SGD).
+
+## Neural Net Layers
+
+### Linear
+
+### Softmax
+
+## Loss functions
+
+### MSE
+
+### MAE
+
+### Cross-Entropy Loss
+
+## Embeddings
+
