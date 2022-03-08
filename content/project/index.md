@@ -20,66 +20,59 @@ Your project should be one of the following 3 types. The criteria for success di
 
 1. **Application** of a specific technique that we studied in class to a different situation. For example, you might train an image classifier on a new set of images, or a text classification model on a new domain.
 
-  - For these projects, we will allow simple methods (e.g., using code right out of class materials) but expect high-quality motivation, execution, and analysis.
+    - For these projects, we will allow simple methods (e.g., using code right out of class materials) but expect high-quality motivation, execution, and analysis.
+    - Participating in a Kaggle competition could be one good version of this project (or a Replication project).
 
 2. **Replication** of a quantitative result that you find in a research paper, blog post, etc.
 
-  - For these projects, we will not expect as much discussion of motivation, assuming that the original artifact took care of that.
-  - Depending on your results, you should either:
-    - Demonstrate *surmounting significant technical challenge* in attaining the result,
-    - Provide a thoughtful *analysis* of the decisions you and the original authors made, or
-    - Improve on the quantitative result in some measurable and well-motivated way.
+    - For these projects, we will not expect as much discussion of motivation, assuming that the original artifact took care of that.
+    - Depending on your results, you should either:
+      - Demonstrate *surmounting significant technical challenge* in attaining the result,
+      - Provide a thoughtful *analysis* of the decisions you and the original authors made, or
+      - Improve on the quantitative result in some measurable and well-motivated way.
 
 3. **Research** along one of the directions listed below.
 
-  - For these projects, any meaningful progress towards answering the research question will be considered a successful project, if reported well.
+    - For these projects, any meaningful progress towards answering the research question will be considered a successful project, if reported well.
 
 ## Project Components
 
 The project includes the components outlined below:
 
 -   A technical report on the project
-
 -   A **short explanation of the technology you build on** for a nontechnical audience.
-
 -   Supporting materials, including code, as appropriate
-
 -   Brief presentation to the class during final exam period
 
 The following sections provide additional detail about each component.
 
 ### Technical Report
 
-The report should be at the level of polish and formality of a blog post (more than a class homework assignment, less than an academic paper). Precise technical language should be used.
+The report should be at the level of polish and formality of a blog post (more than a class homework assignment, less than an academic paper). Precise technical language should be used in descriptions of methods.
 
--   A Jupyter Notebook (`.ipynb`) file is preferred.
-
--   Assume an audience that is familiar with AI / machine learning in general but none of the specific software used (e.g., fastai).
-
+-   Assume an audience that is familiar with AI / machine learning in general but none of the specific software used (e.g., fastai or transformers).
 -   The report should still make sense if all of the source code is hidden.
-
+-   Submit your work as a Jupyter Notebook (`.ipynb`) file if possible.
 -   Use Markdown (text) cells to format headers (`## Header`) and links.
-
--   Include the checklist below (modified as appropriate) as an appendix to your notebook.
 
 Here are some elements that would generally be expected in a report. Not all reports need to have all elements, and reports may include other elements. The following table is formatted in a way that should be useful as a checklist to include in your submission; see the [source code for this page](https://raw.githubusercontent.com/kcarnold/cs344/main/content/project/index.md) for how to include it in your report.
 
-| Element                                                                                                                                                                                                                                                                                          | Included? | Notes |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------|
-| A succinct but descriptive **title**                                                                                                                                                                                                                                                             |           |       |
-| A **real-world question or goal** and *why* it's interesting.                                                                                                                                                                                                                                    |           |       |
-| A description of the **dataset**: what sort of data does it contain? Where did it come from? Why did you choose it? What are its strengths and limitations?                                                                                                                                      |           |       |
-| A specific technical goal or question                                                                                                                                                                                                                                                            |           |       |
-| Your technical **approach** for achieving that goal or answering that question                                                                                                                                                                                                                   |           |       |
-| What you noticed from **exploring the data** (e.g., counts by category, distributions of continuous variables, things you notice from inspecting individual samples at random)                                                                                                                   |           |       |
-| Your **modeling setup**: what are your features? Targets? Metrics? Loss function?                                                                                                                                                                                                                |           |       |
-| Your **validation approach**: train-val-test split? cross-validation?                                                                                                                                                                                                                            |           |       |
-| Your **baseline results**: applying the simplest model you can think of; how good were the results (quantitatively and perhaps qualitatively)?                                                                                                                                                   |           |       |
-| Your **attempts at improved results**: what did you adjust, and why? How did the results change?                                                                                                                                                                                                 |           |       |
-| An **analysis of errors** (quantitatively and perhaps qualitatively)                                                                                                                                                                                                                             |           |       |
-| **An analysis of the effects of alternative choices.** You can consider differences in model architecture, specific task, hyperparameter choices, inclusion/exclusion criteria, etc. Remember to think about the choice of **metrics** and the **uncertainty** involved in any estimate of them. |           |       |
-| A **summary of your findings**. Did you achieve your goal or answer your question?                                                                                                                                                                                                               |           |       |
-| **Limitations and future directions**                                                                                                                                                                                                                                                            |           |       |
+Reports should generally include:
+
+- A succinct but descriptive **title**
+- A **real-world question or goal** and *why* it's interesting.
+- A description of the **dataset**: what sort of data does it contain? Where did it come from? Why did you choose it? What are its strengths and limitations?
+- A specific technical goal or question
+- Your technical **approach** for achieving that goal or answering that question
+- What you noticed from **exploring the data** (e.g., counts by category, distributions of continuous variables, things you notice from inspecting individual samples at random)
+- Your **modeling setup**: what are your features? Targets? Metrics? Loss function?
+- Your **validation approach**: train-val-test split? cross-validation?
+- Your **baseline results**: applying the simplest model you can think of; how good were the results (quantitatively and perhaps qualitatively)?
+- Your **attempts at improved results**: what did you adjust, and why? How did the results change?
+- An **analysis of errors** (quantitatively and perhaps qualitatively)
+- **An analysis of the effects of alternative choices.** You can consider differences in model architecture, specific task, hyperparameter choices, inclusion/exclusion criteria, etc. Remember to think about the choice of **metrics** and the **uncertainty** involved in any estimate of them.
+- A **summary of your findings**. Did you achieve your goal or answer your question?
+- **Limitations and future directions**
 
 Artistic or exploratory projects may need other elements.
 
@@ -115,8 +108,6 @@ Submit code needed to replicate the visual and quantitative results in your repo
 
 -   Include clear instructions for how to acquire any data you used. (Don't upload the dataset itself, unless it happens to be very small.)
 
-
-
 ## General Advice
 
 * **Repeat trials** with different random seeds. Consider the variability of results.
@@ -132,7 +123,6 @@ Submit code needed to replicate the visual and quantitative results in your repo
 Technically: **keep it simple**. A thoughtful analysis of a technically simple thing is much better than a hasty analysis of a technically fancy thing.
 
 -   [🚧 Simple considerations for simple people building fancy neural networks](https://huggingface.co/blog/simple-considerations)
-
 
 ## Application Projects
 
@@ -176,7 +166,7 @@ Basic outline of a project here:
 Some potential libraries or codebases:
 
 - [NVIDIA/NeMo: NeMo: a toolkit for conversational AI](https://github.com/NVIDIA/NeMo)
-- Demos from Google's [Magenta group](https://github.com/magenta/magenta-demos). 
+- Demos from Google's [Magenta group](https://github.com/magenta/magenta-demos).
 - Lots of stuff on PapersWithCode
 
 ## Research Projects
@@ -218,10 +208,6 @@ The approach here would look like:
 
 See [Question Answering Datasets | Papers With Code](https://paperswithcode.com/datasets?task=question-answering&page=1) for some potential datasets. You could probably use one of the [`transformers` examples](https://github.com/huggingface/transformers/tree/master/examples/pytorch/question-answering) code bases with little modification.
 
-### Paraphrasing using any-to-any translation
-
-I'll write up a description of this soon.
-
 ### Decompose and Recompose Complex Sentences using Simple Sentences
 
 Writers sometimes like to write really long and complicated sentences because those are the first things that come to mind and it's easy to just keep typing and get your ideas out there but it's not really clear what you're trying to say and you're thinking while you're writing so you end up with this big long train of thought that's hard for people to follow and it would be really helpful to readers if the writer could split the big sentence apart into little sentences that are simpler but sometimes there are actually complicated things that the writer is trying to explain and the simple little sentences get hard to follow so we don't necessary want to do this entirely automatically so it would be helpful to have the writer stay in control of this process. So:
@@ -250,6 +236,12 @@ Speech recognition technology is a powerful and efficient way to enter text on a
     -   Training data could be generated automatically by corrupting ground-truth outputs in various ways.
 
 -   **Output**: a prediction of the next word to be typed in the final message you want to send.
+
+### Other language tasks
+
+- Paraphrasing using any-to-any translation
+- Mining Wikipedia edit history (or other datasets, like Newsela) for data on editing language
+- Language models that learn to generate "blanks" that a writer would need to fill in
 
 ### De-EQ
 
