@@ -183,6 +183,8 @@ Some potential libraries or codebases:
 
 Professor Arnold is willing to advise one of the following research-y projects. Others may be permitted if you have a very clear proposal, discussed well in advance.
 
+(You may notice some commonalities among these ideas. That's intentional.)
+
 ### Denoising Autoencoder for Text
 
 **Goal**: help people clean up or edit text.
@@ -222,7 +224,12 @@ I'll write up a description of this soon.
 
 ### Decompose and Recompose Complex Sentences using Simple Sentences
 
-I'll write up a description of this soon.
+Writers sometimes like to write really long and complicated sentences because those are the first things that come to mind and it's easy to just keep typing and get your ideas out there but it's not really clear what you're trying to say and you're thinking while you're writing so you end up with this big long train of thought that's hard for people to follow and it would be really helpful to readers if the writer could split the big sentence apart into little sentences that are simpler but sometimes there are actually complicated things that the writer is trying to explain and the simple little sentences get hard to follow so we don't necessary want to do this entirely automatically so it would be helpful to have the writer stay in control of this process. So:
+
+- **Task 1**: Complex input sentence in, set of simpler sentences out.
+- **Task 2**: Set of simple sentences in, combined sentence out.
+
+Possible dataset: [BiSECT Dataset | Papers With Code](https://paperswithcode.com/dataset/bisect). There are also "sentence combination" exercises that language students do; there are probably some datasets from those.
 
 ### Effect of different loss functions for NLP
 
