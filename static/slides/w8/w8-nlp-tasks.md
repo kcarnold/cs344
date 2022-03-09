@@ -1,0 +1,80 @@
+---
+title: "NLP Tasks"
+author: 
+  - "Ken Arnold"
+date: '2022-03-09'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: false
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source("../slides-common.R")
+slideSetup()
+```
+
+## Logistics
+
+- Project Milestone
+- 
+
+---
+
+## NLP Tasks
+
+- Classify whole documents: Doc -> Label
+- Classify each word
+- Complete a prompt (optionally based on some context)
+- Fill in blanks
+- Extract an answer
+
+---
+
+## Which NLP task could you use to...
+
+- for a smart home device: given a command, determine which lights to turn on/off
+- for a review site: identify which reviews have a balance of positive and negative sentences
+- The Wikipedia articles for some people are missing infoboxes. Extract the birthdate and birthplace.
+- Detecting homophone confusions in a text editor, e.g., "affect" vs "effect", "there" vs "their".
+- tl;dr a long article.
+
+---
+
+## Jargon Note: Few-Shot and Zero-Shot Learning
+
+shot, *noun*, *informal*: an example input-output pair
+
+- few-shot: model given few examples for a specific task.
+- zero-shot: model given **no** examples of that task.
+
+---
+
+## Text to Numbers (and back)
+
+- Neural nets work with numbers. **How do we convert text to numbers** that we can feed into our models?
+
+- Neural nets give us numbers as output. **How do we go back from numbers into text**?
+
+---
+
+## Tokenization
+
+Two parts:
+
+- splitting strings into tokens
+  - sometimes just called **tokenization**
+  - may or may not be reversible, e.g., strips special characters
+- converting tokens into numbers
+  - *vocabulary*: the mapping of number to token (e.g., a list)
+  - size and contents of vocabulary don't change
+
+---
+
+## Practice with tokenization
