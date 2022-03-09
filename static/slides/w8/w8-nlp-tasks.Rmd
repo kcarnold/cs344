@@ -23,7 +23,8 @@ slideSetup()
 ## Logistics
 
 - Project Milestone
-- 
+- Discussion Summary Report
+- Still catching up on feedback...
 
 ---
 
