@@ -4,7 +4,8 @@ from pathlib import Path
 
 def get_title(filename):
     nb = nbformat.read(filename, as_version=nbformat.NO_CONVERT)
-    return nb['cells'][0].source.split('\n')[0].lstrip('#').strip().replace('`', '')
+    cells = [cell for cell in nb['cells'] if cell.source.lstrip().startswith('#')]
+    return cells[0].source.split('\n')[0].lstrip('#').strip().replace('`', '')
 
 nb_name_re = re.compile('^u(\d+)n(\d+)-(.+).ipynb')
 
