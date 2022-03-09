@@ -17,3 +17,5 @@ title: "Fundamentals Index"
 - Unit 7
   - {{% fundamentals name="Regression in scikit-learn" nbname="u7n1-sklearn-regression.ipynb" %}}
   - {{% fundamentals name="Classification in scikit-learn" nbname="u7n2-sklearn-classification.ipynb" %}}
+- Unit 8
+  - {{% fundamentals name="Tokenization" nbname="u8n1-tokenization.ipynb" %}}
