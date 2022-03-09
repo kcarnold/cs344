@@ -39,8 +39,15 @@ Lecture: NLP Intro and Predictive Text ([slides](https://cs.calvin.edu/courses/c
 
 ### Wednesday
 
+- Discussion summary (come prepared to contribute)
+- [Slides](/slides/w8/w8-nlp-tasks.html)
+  - Language understanding *tasks*
+  - Tokenization
 
 ### Friday
+
+- Word embeddings
+- Tokenization practice
 
 ### Homework
 
