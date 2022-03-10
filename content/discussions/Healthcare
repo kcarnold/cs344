@@ -1,0 +1,53 @@
+---
+title: "AI in Healthcare"
+author: "Sharon Velpula"
+---
+
+> source: The potential for artificial intelligence in healthcare (nih.gov)
+
+## Background
+
+### What is it
+
+A very brief description of what it is.
+The complexities involved in healthcare industries are no less than that of tech companies. With huge amounts of data and labor-intensive tasks to be done, the struggles of healthcare employees were most vividly seen during the pandemic. 
+
+Artificial Intelligence and related technologies have the potential to make lives better of these employees by assisting in various aspects of patient care, as well as administrative processes within the organizations. While the future is uncertain about the role of AI, our current focus should be on how it can be integrated into our …, thus providing efficiency and simplicity. 
+
+### Uses
+Based on the article above, various research studies have suggested that AI can perform well at key healthcare tasks. Here are some applications:  
+
+1.	A common application of deep learning in healthcare is recognition of potentially cancerous lesions in radiology images.4 Deep learning is increasingly being applied to radiomics, or the detection of clinically relevant features in imaging data beyond what can be perceived by the human eye
+2.	The dominant applications of NLP involve the creation, understanding and classification of clinical documentation and published research. NLP systems can analyze unstructured clinical notes on patients, prepare reports (eg on radiology examinations), transcribe patient interactions and conduct conversational AI. 
+3.	Surgical robots, initially approved in the USA in 2000, provide ‘superpowers’ to surgeons, improving their ability to see, create precise and minimally invasive incisions, stitch wounds and so forth.6 Important decisions are still made by human surgeons, however. Common surgical procedures using robotic surgery include gynecologic surgery, prostate surgery and head and neck surgery.
+4.	Improves operational efficiency and performance: In a radiology department, AI would assist in management of referrals, patient scheduling, and exam preparations to enhance the patient experience and allow an efficient use of the facilities. 
+5.	Aids clinical decision support: AI could help combine large amounts of clinical data to generate a more holistic view of patients. 
+6.	Enables population health management: Using predictive analytics with patient populations, healthcare providers can take preventative action, reduce health risk, and save unnecessary costs. 
+
+### Potential concerns
+
+Dangers: The Dangers of AI in the Healthcare Industry [Report] (thomasnet.com)
+1.	Insensitivity to impact: AI does not yet have the ability to take into account false negatives or false positives
+2.	Unsafe failure mode: Unlink a human doctor, an AI system can diagnose patients without having confidence in its prediction, even when working with insufficient information
+3.	Reinforcement of outmoded practice: AI can’t adapt when developments or changes in medical policy are implemented since they are trained using historical data 
+4.	Negative side effects: AI may suggest a treatment but fail to consider any potential unintended consequences
+5.	Unscalable oversight: Because AI systems are capable of carrying out countless jobs and activities, including multitasking, monitoring such a machine can be near impossible.
+
+
+### News
+
+BAMF Health
+
+## Provocations
+
+Machine learning systems in healthcare may also be subject to algorithmic bias, perhaps predicting greater likelihood of disease on the basis of gender or race when those are not actually causal factors
+If there is a discrepancy in a diagnosis or an incorrect treatment is administered to the patient based on an AI generated. 
+
+If a patient is informed that an image has led to a diagnosis of cancer, he or she will likely want to know why. Deep learning algorithms, and even physicians who are generally familiar with their operation, may be unable to provide an explanation
+
+## Further reading
+
+The potential for artificial intelligence in healthcare (nih.gov)
+Four Applications of AI in Healthcare | Philips Healthcare
+The Dangers of AI in the Healthcare Industry [Report] (thomasnet.com)
+
