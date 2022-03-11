@@ -13,7 +13,6 @@ Students who complete this unit will demonstrate that they can:
 - Describe causal language modeling as a prediction problem
 - Explain at least two different approaches for converting text data into a form usable by a machine learning model.
 - Identify both word and character n-grams in a given string.
-- Describe how perplexity relates to log-likelihood and cross-entropy (and the general concept of partial credit in classifiers)
 - Implement basic data manipulation operations in language processing
 
 ## Preparation
@@ -46,10 +45,6 @@ Lecture: NLP Intro and Predictive Text ([slides](https://cs.calvin.edu/courses/c
 
 ### Friday
 
-- Word embeddings
+- Discussion intro
+- Word embeddings (see [slides from last week](https://cs.calvin.edu/courses/cs/344/22sp/slides/w7/w7-recsys-embedding.html#26))
 - Tokenization practice
-
-### Homework
-
-- tokenization fundamentals
-- n-gram LM
