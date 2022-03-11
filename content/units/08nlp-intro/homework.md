@@ -36,6 +36,9 @@ Many students have mentioned wanting to review material from prior weeks. This e
 - For each one, **write a quiz question**, and a correct answer about that topic. (You may need to review prior material to do this.)
   - Optional but encouraged: ask another student in the class your question. Compare your answers.
 - Aim for one question about *concepts*/*math* and one question about *implementation*/*coding*.
+- Aim for at least one question being on something that you weren't actually solid on.
+
+I recommend chatting in office hours about this, and sharing questions/answers before the due date.
 
 ## Submitting
 
