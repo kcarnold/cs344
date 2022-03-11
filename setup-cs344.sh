@@ -19,6 +19,16 @@ else
     echo 'export TORCH_HOME=/scratch/cs344/torch' >> ~/.profile
 fi
 
+# Set HF_HOME so that Hugging Face libraries use the shared cache.
+if grep -q -F "HF_HOME" ~/.profile; then
+    echo "HF_HOME looks ok."
+else
+    echo "setting up HF_HOME"
+    echo >> ~/.profile
+    echo 'export HF_HOME=/scratch/cs344/huggingface' >> ~/.profile
+fi
+
+
 # Use the scratch area.
 if grep -qsF "/scratch" ~/.fastai/config.ini
 then
