@@ -6,12 +6,12 @@ weight: 9
 
 TODO INTRO and OBJECTIVES
 
+- Describe how perplexity relates to log-likelihood and cross-entropy (and the general concept of partial credit in classifiers)
+
+
 ## Preparation
 
-Try some [HuggingFace Transformers](https://huggingface.co/transformers/) notebooks, specifically:
-
-- [overall functionality](https://colab.research.google.com/github/huggingface/transformers/blob/master/notebooks/03-pipelines.ipynb)
-- [text generation](https://colab.research.google.com/github/huggingface/blog/blob/master/notebooks/02_how_to_generate.ipynb)
+Review Hugging Face course chapter 2, read chapter 3.
 
 ### Supplemental Material
 
