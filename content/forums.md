@@ -2,6 +2,11 @@
 title: "Forum Posts 22SP"
 ---
 
+## Week 9: NLP Modeling
+
+- Discussion - topic sign-up!
+
+
 ## Week 7: Embeddings
 
 Welcome to unit 7, the week before Spring Break!
