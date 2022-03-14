@@ -33,22 +33,26 @@ Now that we've seen the basic capabilities of NLP models, let's start getting un
     - What does `model(**batch)` give us? (Note: the `**` means to pass everything in `batch` as *keyword arguments* ("kwargs") to the function. So gets parameters like `input_ids=SOMETHING, attention_mask=SOMETHING, labels=SOMETHING`.)
     - Be able to explain what each line of code in the code chunk right before "The evaluation loop" does.
     - You can skip the section on `accelerate`.
+- Read [Evaluation Metrics for Language Modeling](https://thegradient.pub/understanding-evaluation-metrics-for-language-models/); stop at "Reasoning about entropy as a metric"
 
 ### Supplemental Material
-
-[Evaluation Metrics for Language Modeling](https://thegradient.pub/understanding-evaluation-metrics-for-language-models/)
 
 ## Class Meetings
 
 ### Monday
 
 - Code Together: Inside an NLP pipeline
-- `perplexity = cross_entropy.exp()` and what that means
+  - What's the shape of everything? What are batches?
+- `perplexity = mean_cross_entropy.exp()` and what that means
 
 ### Wednesday
 
 - Discussion summary
 - More coding together
+  - Review what we did last time, label each part.
+  - How to read the [implementation](https://github.com/huggingface/transformers/blob/1d43933fbc1c1e40fd26117e47910a18c69fca74/src/transformers/models/gpt2/modeling_gpt2.py#L946): find the data flow
+  - Review perplexity, look at how it's implemented
+  - Hidden states (`output_hidden_states`) and word embeddings
 
 ### Friday
 
