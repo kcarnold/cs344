@@ -4,8 +4,17 @@ title: "Forum Posts 22SP"
 
 ## Week 9: NLP Modeling
 
-- Discussion - topic sign-up!
+Welcome to week 9! This is the week we get to dig into Transformers and see how it works. I've found these models really useful and cool to think about because you can be so creative with how you use them. I hope this week you get a bit of a taste of that---and maybe a desire to play with them for your final project (see the Projects page for the research projects I'm offering for this class).
 
+A few things:
+
+- **Masks in class**: As mentioned last class, I'm planning to make class "masks optional". If you have any concerns about this, please let me know and we can back off. Of course you may decide day by day; for example, if you have a cold, or live with someone who does, I'd encourage wearing a mask.
+- Due this week (you can always look at the [Moodle calendar](https://moodle.calvin.edu/calendar/view.php?view=month&course=55940))
+  - **Prep 9**. The assignment includes a "study guide" of some questions to help you focus your thinking. I'm not expecting anything turned in, but I'd be very happy to chat about anything you're unclear about.
+  - **Project Proposals**. I'm really looking forward to reading these!
+  - **Discussion 9** posts and replies. Also, please **[sign up](https://calvincollege.sharepoint.com/sites/Section_81629/_layouts/15/Doc.aspx?sourcedoc=%7BC84B7BF4-354E-44EE-B329-BEAB4FA69EDC%7D&file=Discussion%20Topic%20Signup.xlsx&action=default&mobileredirect=true) for a topic**; we have some blank spots coming up!
+  - **Homework 8**
+- Student Senate sponsors coffee or lunch with profs. I like coffee and lunch, and I like talking with you, so that sounds like a great idea. Anyone interested?
 
 ## Week 7: Embeddings
 
