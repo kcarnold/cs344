@@ -4,10 +4,11 @@ date: 2022-03-14
 weight: 9
 ---
 
-TODO INTRO and OBJECTIVES
+Now that we've seen the basic capabilities of NLP models, let's start getting under the hood. How do they work? How do we measure that?
 
-- Describe how perplexity relates to log-likelihood and cross-entropy (and the general concept of partial credit in classifiers)
-
+- Describe the basic steps in an NLP pipeline and what the data looks like coming into and going out of each step.
+- Describe practical considerations of handling batches of variable-length sequences, such as padding, attention masking, and truncation.
+- Define *perplexity*, and describe how it relates to log-likelihood and cross-entropy (and the general concept of partial credit in classifiers)
 
 ## Preparation
 
@@ -35,13 +36,19 @@ TODO INTRO and OBJECTIVES
 
 ### Supplemental Material
 
+[Evaluation Metrics for Language Modeling](https://thegradient.pub/understanding-evaluation-metrics-for-language-models/)
 
 ## Class Meetings
 
 ### Monday
 
+- Code Together: Inside an NLP pipeline
+- `perplexity = cross_entropy.exp()` and what that means
+
 ### Wednesday
 
+- Discussion summary
+- More coding together
 
 ### Friday
 
