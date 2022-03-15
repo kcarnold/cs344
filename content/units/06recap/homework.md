@@ -36,3 +36,27 @@ In the Moodle assignment for this Homework:
 2. Copy and paste your paragraph answer to the Narrative section into the Moodle text box.
 3. Copy and paste your responses to the Analysis questions (where applicable) into the text box.
 
+<!--
+Grading:
+
+- Missing the Narrative part
+
+Narrative: good.
+
+- Why 10 output features? One score (logit) for each of the 10 digits.
+- Cross-entropy explanation was unclear.
+- Describe *why* you conclude that the loss curves are bad.
+- The weight images won't look exactly like a digit even at convergence--why?
+
+Notes (mostly generic notes I'm giving to everyone):
+
+- The initialization was good because the predicted probabilities before training ended up approximately equal across the 10 categories, so the model was rightly telling us "I don't know" before training. We could see that because the cross-entropy (log loss) was about -ln(1/10), so whatever the true digit was, the classifier was giving it a probability of about 1/10. So the loss wasn't huge early in training, so the gradient updates weren't huge either.
+- Look at both the shape of the loss curve and also the values it achieves. Note, for example, that both too-small and too-large learning rates end up with loss values that are much higher than what you see with a reasonable learning rate, though they take a different trajectory to get there. (Why?)
+- The weight images *do* look like the digits because we're basically comparing them with the input images, pixel-by-pixel, to see how much overlap there is.
+- The weight images *don't* look like the digits because:
+  - they're trained on the *differences* between the digit images, not the images themselves (think about how this relates to the softmax properties we studied in hw5),
+  - all of the values could have been shifted up or down by a constant without affecting the result, so negative values aren't meaningful per se (if we had used any kind of *regularization* this wouldn't be true anymore), and
+  - some digits can be drawn in different ways. Without any hidden layers to build up representations, the only thing this network can do with digits that are drawn different ways is to take the average of the two.
+- This model massively underfits--much better performance is possible. (But hm, look at the weight images... could it have also been *overfitting*? Yes you can have both at the same time.)
+
+-->
