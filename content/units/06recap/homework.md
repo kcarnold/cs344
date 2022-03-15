@@ -39,20 +39,27 @@ In the Moodle assignment for this Homework:
 <!--
 Grading:
 
+Great overall. A few minor notes, see below.
+
 - Missing the Narrative part
 
 Narrative: good.
+Narrative: clarify. What was the problem being solved?
 
 - Why 10 output features? One score (logit) for each of the 10 digits.
-- Cross-entropy explanation was unclear.
+- Cross-entropy explanation was unclear. See below.
+- Cross-entropy: on the right track, but not quite. See below.
 - Describe *why* you conclude that the loss curves are bad.
+- Learning rates: the basic shape will typically be something like 1/x, but with differences in shape and, most significantly, ending values.
+- Think more about why the weights sorta look like the digits in this case. See below.
 - The weight images won't look exactly like a digit even at convergence--why?
 
 Notes (mostly generic notes I'm giving to everyone):
 
 - The initialization was good because the predicted probabilities before training ended up approximately equal across the 10 categories, so the model was rightly telling us "I don't know" before training. We could see that because the cross-entropy (log loss) was about -ln(1/10), so whatever the true digit was, the classifier was giving it a probability of about 1/10. So the loss wasn't huge early in training, so the gradient updates weren't huge either.
 - Look at both the shape of the loss curve and also the values it achieves. Note, for example, that both too-small and too-large learning rates end up with loss values that are much higher than what you see with a reasonable learning rate, though they take a different trajectory to get there. (Why?)
-- The weight images *do* look like the digits because we're basically comparing them with the input images, pixel-by-pixel, to see how much overlap there is.
+  - Importantly: the problem with learning rates like 1.0 or 0.5 isn't the steep initial descent (actually that can be a good thing!), it's the fact that the weights jump around too much between batches so the weights never get close enough to their best values. You can see this because the loss jumps around too.
+- The weight images *do* look like the digits because the dot product that `linear_1` does is basically comparing them with the input images, pixel-by-pixel, to see how much overlap there is.
 - The weight images *don't* look like the digits because:
   - they're trained on the *differences* between the digit images, not the images themselves (think about how this relates to the softmax properties we studied in hw5),
   - all of the values could have been shifted up or down by a constant without affecting the result, so negative values aren't meaningful per se (if we had used any kind of *regularization* this wouldn't be true anymore), and
