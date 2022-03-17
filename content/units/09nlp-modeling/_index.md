@@ -53,10 +53,9 @@ Now that we've seen the basic capabilities of NLP models, let's start getting un
     - Review the tensors: what they mean, what their shapes are
     - Label each part.
   - How to read the [implementation](https://github.com/huggingface/transformers/blob/1d43933fbc1c1e40fd26117e47910a18c69fca74/src/transformers/models/gpt2/modeling_gpt2.py#L946): *find the data flow*
-  - Review loss, look at how it's implemented, clarify perplexity
   - Hidden states (`output_hidden_states`) and word embeddings
 
 ### Friday
 
-### Homework
-
+- Review loss, look at how it's implemented, clarify perplexity
+- Review embeddings and hidden states
