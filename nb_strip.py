@@ -50,10 +50,6 @@ def strip_source(source):
             # last time unconditional
             result.append(line)
             continue
-        if 'your code here' in line:
-            result.append(line)
-            skip_until = '-'*1000 # FIXME: weird sentinel
-            continue
         is_commented = line.strip().startswith("# ")
         if is_commented:
             uncommented = re.sub(r'^(\s*)(# )(.+)$', r'\1\3', line)
@@ -75,6 +71,12 @@ def strip_source(source):
                 else:
                     print("ERROR: failed match", uncommented)
                     sys.exit(1)
+
+        if 'your code here' in line:
+            result.append(line)
+            skip_until = '-'*1000 # FIXME: weird sentinel
+            continue
+
         result.append(line)
     return '\n'.join(result)
 
