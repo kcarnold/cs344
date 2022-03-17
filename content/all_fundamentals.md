@@ -19,3 +19,5 @@ title: "Fundamentals Index"
   - {{% fundamentals name="Classification in scikit-learn" nbname="u7n2-sklearn-classification.ipynb" %}}
 - Unit 8
   - {{% fundamentals name="Tokenization" nbname="u8n1-tokenization.ipynb" %}}
+- Unit 9
+  - {{% fundamentals name="Logits in Causal Language Models" nbname="u9n1-lm-logits.ipynb" %}}
