@@ -9,7 +9,7 @@ In this lesson we'll start learning about how we can extend the sort of modeling
 
 Students who complete this unit will demonstrate that they can:
 
-- Identify at least two different language understanding tasks that can be addressed using machine learning methods.
+- Identify at least two different language understanding tasks that can be addressed using machine learning methods. <!-- Causal language modeling, Sequence translation, Sequence classification, Token classification, Information extraction -->
 - Describe causal language modeling as a prediction problem
 - Explain at least two different approaches for converting text data into a form usable by a machine learning model.
 - Identify both word and character n-grams in a given string.
