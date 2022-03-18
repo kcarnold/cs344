@@ -2,6 +2,10 @@
 title: "Forum Posts 22SP"
 ---
 
+## Week 10
+
+- Study Quizzes
+
 ## Week 9: NLP Modeling
 
 Welcome to week 9! This is the week we get to dig into Transformers and see how it works. I've found these models really useful and cool to think about because you can be so creative with how you use them. I hope this week you get a bit of a taste of that---and maybe a desire to play with them for your final project (see the Projects page for the research projects I'm offering for this class).
