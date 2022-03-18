@@ -2,12 +2,13 @@
 title: "Homework 9"
 date: 2022-03-18
 due: 2022-03-24
-draft: true
+draft: false
 ---
 
 Our goals for the homework assignment this week are:
 
 - Practice working with language modeling logits
+- Fill in gaps in your PyTorch knowledge
 
 ## Tutorials
 
@@ -22,6 +23,7 @@ Notice that the left menu on the PyTorch tutorials list has many categories. Pic
 - Text: these actually aren't as good because they use different abstractions than the Hugging Face library.
 - RL, Deploying, Parallel, Mobile, and Recommendation are more advanced options that may appeal to some students. (We'll do a bit of RL later.)
 
+> **Alternative**: If you prefer, you can instead do the [classifier-from-scratch mini-project](https://cs.calvin.edu/courses/cs/344/22sp/units/06recap/mini-proj/) that we made optional back in Unit 6.
 
 ## This Week's Fundamentals
 
