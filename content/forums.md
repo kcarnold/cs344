@@ -5,6 +5,7 @@ title: "Forum Posts 22SP"
 ## Week 10
 
 - Study Quizzes
+- [Mid-Semester Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUMUtET1YyOFk0MFkzSTVISk9OR1I4RllETC4u)
 
 ## Week 9: NLP Modeling
 

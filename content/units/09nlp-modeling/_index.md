@@ -57,5 +57,9 @@ Now that we've seen the basic capabilities of NLP models, let's start getting un
 
 ### Friday
 
+- Notes:
+  - [Feedback survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUMUtET1YyOFk0MFkzSTVISk9OR1I4RllETC4u) posted
+  - Study Quizzes posted
+  - Outcomes grading
 - Review loss, look at how it's implemented, clarify perplexity
 - Review embeddings and hidden states
