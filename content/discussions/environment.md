@@ -5,22 +5,22 @@ author: "Kelsey Yen"
 
 ### Background
 
-In our current world, there is a large push for sustainability. This includes conserving the environment by preserving naatural land, reducing carbon emissions, 
+In our current world, there is a large push for sustainability. This includes conserving the environment by preserving natural land, reducing carbon emissions, 
 developing renewable energy sources, eliminating waste, etc.
 In a study assessing the potential impact of AI on the UN's 2017 [Sustainable Development Goals](https://sdgs.un.org/goals) (which encompasses societal, economic, 
 and environmental outcomes), researchers found that AI could potentially enable 93% of the UN's environmental targets.
 
 ### Examples
 
- - [Internet of Things (IoT) devices and appliances](https://www.eptac.com/making-smart-homes-green-with-iot-technology/)
- - [smart and low-carbon cities](https://www.forbes.com/sites/uhenergy/2019/10/22/smart-low-carbon-cities-big-changes-ahead/?sh=59936be94984)
- - [smart power grids](https://insights.sap.com/smart-grid-ai-in-energy-technologies/#:~:text=A%20smart%20grid%20is%20a,transmission%2C%20and%20distribution%20of%20electric)
- - [drones for combating marine pollution](https://aiforgood.itu.int/how-ai-powered-drones-are-helping-fight-ocean-plastic/)
- - [geographical data processing with satellite imagery](https://news.berkeley.edu/2021/07/20/a-machine-learning-breakthrough-using-satellite-images-to-improve-human-lives/)
+- [Internet of Things (IoT) devices and appliances](https://www.eptac.com/making-smart-homes-green-with-iot-technology/)
+- [smart and low-carbon cities](https://www.forbes.com/sites/uhenergy/2019/10/22/smart-low-carbon-cities-big-changes-ahead/?sh=59936be94984)
+- [smart power grids](https://insights.sap.com/smart-grid-ai-in-energy-technologies/#:~:text=A%20smart%20grid%20is%20a,transmission%2C%20and%20distribution%20of%20electric)
+- [drones for combating marine pollution](https://aiforgood.itu.int/how-ai-powered-drones-are-helping-fight-ocean-plastic/)
+- [geographical data processing with satellite imagery](https://news.berkeley.edu/2021/07/20/a-machine-learning-breakthrough-using-satellite-images-to-improve-human-lives/)
 
 ### Potential Concerns
 
-- energy-intensive GPUs add to environmental degredation
+- energy-intensive GPUs add to environmental degradation
 - control (loss?) over large-scale AI systems
 - AI making decisions on energy use for homes and cities
 - issues with big data
