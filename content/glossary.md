@@ -2,25 +2,39 @@
 title: "Glossary"
 ---
 
-## Error Rate
+## Classification Metrics
+
+### Error Rate
 
 - Fraction of results that were incorrect. i.e., number of wrong results divided by total number of images used to evaluate.
 - Also known as "zero-one loss" (because you're penalized 1 point for every incorrect answer, no partial credit).
 - *accuracy* = 1 - error rate
 
-## Epoch
+### Sensitivity and Specificity
+
+[Sensitivity/Specificity / Confusion Matrix on Wikipedia](https://en.wikipedia.org/wiki/Sensitivity_and_specificity#Confusion_matrix)
+
+### Area Under the Curve (AUC)
+
+- Area Under the Curve = chance of correctly ranking a random positive-negative pair
+  - [A visual explanation](https://madrury.github.io/jekyll/update/statistics/2017/06/21/auc-proof.html)
+  - [A math-y explanation](https://www.alexejgossmann.com/auc/)
+
+## Training Stuff
+
+### Epoch
 
 - One pass through the training set
 - The book and course materials use 1 in some cases where the task is relatively easy or just to make the computation take less time. That doesn't mean you should.
 - Generally you'll need several epochs to reach good performance.
 
-## (Mini-)Batch
+### (Mini-)Batch
 
 A collection of data points that are processed together. Using bigger batches can lead to more efficient processing because more work can be done in parallel, and can sometimes stabilize training, but it gives the network fewer chances to update itself per epoch, and batches that are too large may harm generalization unless mitigation measures are taken.
 
 Not to be confused with "training set" or "validation set", both of which are processed in batches.
 
-## Stochastic Gradient Descent
+### Stochastic Gradient Descent
 
 An algorithm for finding parameters to a function that are in the neighborhood of a shallow local minimum.
 
@@ -63,6 +77,11 @@ For the math, and extra details like the momentum parameter, see, e.g., the [PyT
 ### MAE
 
 ### Cross-Entropy Loss
+
+Resources:
+
+- [Understanding binary cross-entropy / log loss: a visual explanation](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
+- related: [Visualizing Information Theory](http://colah.github.io/posts/2015-09-Visual-Information/)
 
 ## Embeddings
 

@@ -21,6 +21,7 @@ Students who complete this unit will demonstrate that they can:
 - Watch {{< fastvideo num="3" >}}.
 - Watch the first hour of {{< fastvideo num="4" >}}.
 - Complete the prep quiz in Moodle.
+- Play [the loss game](https://ds100.org/fa18/assets/lectures/lec09/loss_game.html)
 
 ### Prep Notes
 
