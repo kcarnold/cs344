@@ -264,3 +264,41 @@ Speech recognition technology is a powerful and efficient way to enter text on a
 ### De-EQ
 
 Given a sound corrupted by a random EQ curve or other processing step, predict the parameters for that processing step. *This kind of task is called [self supervised learning](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html).* See Microsoft's [HEXA](https://www.microsoft.com/en-us/research/blog/hexa-self-supervised-pretraining-with-hard-examples-improves-visual-representations/).
+
+<!--
+
+Feedback:
+
+I wrote up some general comments here: https://cs.calvin.edu/courses/cs/344/22sp/project/#choosing-a-replication-project
+
+These are both replication projects; they could be great **if** you find good data and an exemplar write-up. I wrote up some general comments here: https://cs.calvin.edu/courses/cs/344/22sp/project/#choosing-a-replication-project
+
+I think the tl;dr generator (summary generator) could be an excellent project. There\'s a lot of good systems out there, including an example in the transformers repo. You might try to reproduce the results of one of the papers on the repo README list that tries to do summarization.\
+
+Generative art is cool. You\'ll need to think about how you\'ll make it your own, though. Last year, several groups worked with image generation projects, but they ended up treating the model as a totally black box because it was too complicated. One approach would be to dig into a codebase and try intentionally changing something about it\... maybe you\'d \"\"break\"\" it in the process, but understanding what happened could be insightful.
+
+
+Kaggle will be most straightforward, the others more interesting.
+
+If you can get access to the dataset, the replication project could also be cool, especially if it connects with some of your personal interests.
+
+Have you found existing work that you\'d replicate?
+
+I agree that a Kaggle competition would be good for you. Maybe warm up on a closed competition to get used to how it works, then jump to a live one when you feel ready?
+
+For tabular data, get a random forest running first, then try xgboost, and only after that go for anything more complicated.
+
+All three look pretty good. The house prices competition is going to be the most straightforward but hardest to make interesting, because there\'s been so much done on that competition already, and the data isn\'t super-rich.
+
+Prompt engineering is pretty cool overall. See https://arxiv.org/abs/2106.13884 for a simple approach to that idea.
+
+If you want to try the research project, that would be cool. If so, let\'s find a time to meet. Easiest would be to try to book an "advising" meeting with me: https://outlook.office365.com/owa/calendar/Arnoldmeetings@calvincollege.onmicrosoft.com/bookings/s/HPLJtsUd4EWK0_CV-nIgEg2
+
+I wrote up some general comments about replication projects that might help you here: https://cs.calvin.edu/courses/cs/344/22sp/project/#choosing-a-replication-project
+
+General notes to everyone:
+
+- this is rough feedback on project proposals. I probably haven\'t clicked on any of your links or thought deeply about what issues you might encounter.
+- A positive reaction to one of your project ideas isn\'t necessarily a negative reaction to the others, but I am going to try to pick the project that I think will work out best.
+
+-->
