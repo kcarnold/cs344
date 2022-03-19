@@ -14,9 +14,9 @@ Our goals for the homework assignment this week are:
 
 By now we've worked with PyTorch a lot, but there are probably some gaps in your knowledge. PyTorch has extensive [tutorials](https://pytorch.org/tutorials) on various topics, at various different levels, so everyone should be able to find something to learn there. So: **pick two resources** from the tutorials, **work through them on your own**, and **write a paragraph** about your experience for each. *Try to make this something you learn from, not just something you "get through".*
 
-Notice that the left menu on the PyTorch tutorials list has many categories. Pick something from two different categories. I recommend considering:
+Notice that the left menu on the PyTorch tutorials list has many categories. Pick something from **two different categories**. I recommend considering:
 
-- PyTorch Recipes: *there's lots of options here; I might try the Captum one myself*
+- PyTorch Recipes: *there's lots of good options here*
 - Introduction to PyTorch: *if you choose this category, consider the entire category to be one of your two resources to work through*, though you will probably be able to skim.
 - Introduction on YouTube: *if you choose this category, type out the code yourself*.
 - Image and Video: these all look good
