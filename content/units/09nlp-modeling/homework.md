@@ -37,5 +37,5 @@ I recommend working on the other answers outside of Moodle (e.g., in Word or Goo
 
 In the Moodle assignment for this Homework:
 
-1. Attach the `ipynb` file.
+1. Attach the `ipynb` file. **Make sure you've done a "Restart and Run All" before submitting.**
 2. Copy and paste your responses to the Analysis questions into the text box.
