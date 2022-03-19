@@ -2,7 +2,7 @@
 title: "Forum Posts 22SP"
 ---
 
-## Week 10
+## Week 10: Transformers (self-attention)
 
 This coming week is advising week, which means we take a break on Wednesday. I also reduced the intensity of other things we're doing, so hopefully you can take a good break to celebrate figuring out Workday Student!
 
@@ -10,8 +10,8 @@ You've now seen that Transformers-based models can do pretty neat things with te
 
 A few things:
 
-- This last week would have been another Reflection week, but we skipped it in favor of an anonymous [Mid-Semester Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUMUtET1YyOFk0MFkzSTVISk9OR1I4RllETC4u). It will probably take 5 minutes or less to complete, and your input will help improve the class (at least next year, and maybe even the rest of this year too).
-- I've put up a few Study Quizzes (see top of Moodle) to help review material from earlier in the class. They're all from the first couple of weeks; more are coming (especially since now some of you have given some ideas!). They are short and low-stakes; I haven't decided if they should be entirely optional or not yet.
+- Last week would have been another Reflection week, but we skipped it in favor of an anonymous [Mid-Semester Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUMUtET1YyOFk0MFkzSTVISk9OR1I4RllETC4u). It will probably take 5 minutes or less to complete, and your input will help improve the class (at least next year, and maybe even the rest of this year too).
+- I've put up a few Study Quizzes (see top of Moodle) to help review material from earlier in the class. They're all from the first couple of weeks; more are coming (especially since now some of you have given some ideas!). They are short and low-stakes; I haven't yet decided if they should be entirely optional or not.
 - I've learned that the Mastery grades aren't showing up on the individual assignments for some people--and the gradebook is only showing the bad-looking numeric grades instead of the scale I configured. I'm working with CIT to figure out what's going on. If there's anything else that seems wrong about the grading so far (besides some things that I haven't gotten to grade yet showing up as Dropped), let me know!
 - Prep 10, Discussion 10, and Homework 9 are due this week as normal, though both the Prep and the Homework are intended to be shorter than normal.
 
