@@ -33,6 +33,7 @@ After all of this, self-attention may not actually be best. Amazingly (to me) a 
 
 - Review Transformers layers
 - Attention: draw it, code it.
+  - [bertviz](https://github.com/jessevig/bertviz)
 
 ### Wednesday: Advising Break
 
