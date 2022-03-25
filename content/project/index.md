@@ -14,6 +14,36 @@ This course will culminate in a semester project. Successful projects will demon
 
 Projects should generally be done in pairs, though allowances may be made on request.
 
+## Milestones
+
+### Proposal
+
+First, read the [Project Guidelines](https://cs.calvin.edu/courses/cs/344/22sp/project/) for a description of what sort of projects are expected in this class.
+
+Then, think of two or three potential project ideas. (Note that there are three types of projects; you might perhaps try to think of an idea for each type.)
+
+For each idea, write a paragraph (or informative bullet points) to address:
+
+-   What are you trying to do? (What would a successful project look like?)
+-   What overall approach or technology are you thinking about using? (Do you need help picking between several approaches?)
+-   What data have you found, if applicable? (Do you need help finding data?)
+
+Mention whom you might work with (the ideal team size is probably 2, but 1 or 3 is ok too). It may be different for different projects. Submit individually, though.
+
+### Updated Proposal
+
+Submit (as a Jupyter notebook, `proposal.ipynb`), an enhanced version of your vision statement. It should include two things:
+
+1. Preliminary drafts of all of the sections of your final report (leave clearly marked placeholders as necessary):
+
+    - *Vision*: Overview of your project and its purpose.
+    - *Background*: Describe the technologies you're using and why you chose to use them. Include citations of the work on which you've based your system, both what we've used in class and new technologies you've experimented with (include descriptions of these if applicable).
+    - *Implementation*: Summarize your implementation and, if appropriate, how it extends the work you've reverenced.
+    - *Results*: Include quantitative (tables, plots) and qualitative (examples) results, including comparisons with similar work if applicable.
+    - *Implications*: Discuss the social and ethical implications of using the technologies you've chosen for your project.
+
+2. A description of what concrete steps you've taken towards the project, typically trying out an example of some related system. Some concrete step is expected; it could be "I tried out this example notebook (URL). It worked on Colab but failed on the lab machines ..."
+
 ## Picking a Project
 
 Your project should be one of the following 3 types. The criteria for success differ by type:
