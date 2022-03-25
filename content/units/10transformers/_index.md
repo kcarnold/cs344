@@ -39,5 +39,9 @@ After all of this, self-attention may not actually be best. Amazingly (to me) a 
 
 ### Friday
 
+- Logistics
+  - Feedback survey
+  - Project milestones
+- Transformer architecture: [Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
 - Position embeddings
 - Encoders and decoders
