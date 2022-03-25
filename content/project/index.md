@@ -32,17 +32,26 @@ Mention whom you might work with (the ideal team size is probably 2, but 1 or 3 
 
 ### Updated Proposal
 
-Submit (as a Jupyter notebook, `proposal.ipynb`), an enhanced version of your vision statement. It should include two things:
+Submit (as a Jupyter notebook, `proposal.ipynb`), an enhanced version of your vision statement. It should include:
 
-1. Preliminary drafts of all of the sections of your final report (leave clearly marked placeholders as necessary):
+1. *Who* is working on this project. (One person submits the document, other teammates just submit a note about who submitted the document.) Describe how you plan to work together so that everyone feels ownership of the result.
 
-    - *Vision*: Overview of your project and its purpose.
-    - *Background*: Describe the technologies you're using and why you chose to use them. Include citations of the work on which you've based your system, both what we've used in class and new technologies you've experimented with (include descriptions of these if applicable).
-    - *Implementation*: Summarize your implementation and, if appropriate, how it extends the work you've reverenced.
+2. Very preliminary drafts of all of the sections of your final report (leave clearly marked placeholders as necessary):
+
+    - *Vision*: Overview of your project and its purpose. What are you trying to do? Why is it important or interesting? What does a successful project outcome look like?
+    - *Background*:
+      - What *data* are you using? Describe what you chose and why. Include a "backup" dataset in case the primary one doesn't work out (or give specific evidence for your confidence in the primary dataset).
+      - What *technologies* are you using? Briefly describe a few options you're considering and what criteria you'll use to evaluate them.
+      - Your final report will describe the technologies you're using and why you chose to use them. Include citations of the work on which you've based your system, both what we've used in class and new technologies you've experimented with (include descriptions of these if applicable).
+    - *Implementation*: 
+      - What prior code can you build on?
+      - Your final report will summarize your implementation and, if appropriate, how it extends the work you've reverenced.
     - *Results*: Include quantitative (tables, plots) and qualitative (examples) results, including comparisons with similar work if applicable.
     - *Implications*: Discuss the social and ethical implications of using the technologies you've chosen for your project.
 
-2. A description of what concrete steps you've taken towards the project, typically trying out an example of some related system. Some concrete step is expected; it could be "I tried out this example notebook (URL). It worked on Colab but failed on the lab machines ..."
+3. A description of what concrete steps you've taken towards the project, typically trying out an example of some related system. Some concrete step is expected; it could be "I tried out this example notebook (URL). It worked on Colab but failed on the lab machines ..."
+
+4. What *help* you think you'll need from the course staff? (If this is substantial, follow up in person or on Teams).
 
 ## Picking a Project
 
