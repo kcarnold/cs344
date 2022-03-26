@@ -12,9 +12,10 @@ By the end of this week you should be able to answer the following questions:
 
 ## Preparation
 
-A basic introduction to *decoding*:
+- **Read** A basic introduction to *decoding*: [How to generate text: using different decoding methods for language generation with Transformers](https://huggingface.co/blog/how-to-generate)
+- **Watch** Lecture 4 of [MIT 6.S191](http://introtodeeplearning.com/) (skim Lecture 3 if needed)
 
-[How to generate text: using different decoding methods for language generation with Transformers](https://huggingface.co/blog/how-to-generate)
+We'll also discuss GANs and Diffusion Models. I found the [Foreward](https://link.springer.com/content/pdf/bfm%3A978-3-030-93158-2%2F1.pdf) to this [book on Deep Generative Modeling](https://link.springer.com/book/10.1007/978-3-030-93158-2) (Available through Calvin library) to be reasonably accessible, but you may prefer the author's [blog posts](https://jmtomczak.github.io/blog.html). ([github](https://github.com/jmtomczak/intro_dgm)).
 
 Now, how do you control *what* gets generated? Choose your favorite modality and skim a very recent paper:
 
