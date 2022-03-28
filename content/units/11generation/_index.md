@@ -35,6 +35,6 @@ Now, how do you control *what* gets generated? Choose your favorite modality and
 
 ### Monday
 
-### Wednesday
+### Wednesday: Guest Lecture
 
-### Friday: Guest Lecture
+### Friday
