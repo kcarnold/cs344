@@ -1,0 +1,34 @@
+# Decoding
+
+## Goals
+
+## Instructions
+
+Open THIS NOTEBOOK, which contains an encoder-decoder (sequence-to-sequence / seq2seq) model for machine translation.
+
+### Greedy Decoding
+
+Generate one complete translation. At each step, use the single most likely token. Compute the total log probability by taking the sum of the logprobs for each token.
+
+Our translation (logprob = `______`): `______ ______ ______ ______ ______ ______ `
+
+### Sampling Decoding
+
+Generate one complete translation. At each step, sample from the top tokens according to their probability. *To do this, pick a random number between 0 and 1, and find the first number under the **cumulative probability** column that is less than it.*
+
+Then repeat the process again, drawing different random numbers. (If you don't end up with different choices within the first few tokens, re-draw until you do.)
+
+Our translations:
+
+1. (logprob = `______`): `______ ______ ______ ______ ______ ______ `
+2. (logprob = `______`): `______ ______ ______ ______ ______ ______ `
+
+### Beam Search Decoding
+
+Generate 2 complete translations. Start by taking the top 2 starting tokens. For each of them, find the most likely *following* token. But instead of keeping all 4 possible sequences, only keep the sequences with the largest total logprob (including the new token).
+
+
+
+
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script> 
