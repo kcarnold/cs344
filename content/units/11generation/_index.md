@@ -35,6 +35,8 @@ Now, how do you control *what* gets generated? Choose your favorite modality and
 
 ### Monday
 
+We worked through the [decoding activity](decoding-handout) ([PDF](decoding-handout.pdf)) using {{% fundamentals name="Translation as Language Modeling notebook" nbname="translation_lm.ipynb" %}}
+
 ### Wednesday: Guest Lecture
 
 ### Friday

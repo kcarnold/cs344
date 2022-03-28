@@ -5,19 +5,19 @@ HUGO_FLAGS := --buildDrafts --buildFuture
 DEST_DIR := /tmp/cs344-build/
 
 slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides -iname '*.Rmd' -and -not -iname "*slides-common*"))
-post_markdowns := $(patsubst %.Rmarkdown,%.markdown,$(shell find content -name '*.Rmarkdown'))
 slide_pdfs := $(patsubst %.html,%.pdf,$(slide_htmls))
 fundamentals_soln := $(wildcard static/fundamentals/*_soln.ipynb)
 fundamentals := $(subst _soln,,$(fundamentals_soln))
 fundamentals_html := $(patsubst %.ipynb,%.html,$(sort $(fundamentals) $(fundamentals_soln) $(wildcard static/fundamentals/*.ipynb)))
 
+handouts := $(patsubst %.md,%.pdf,$(shell find content -name '*-handout.md'))
+
 # Build slides
 %.html: %.Rmd
 	Rscript -e "rmarkdown::render('"$<"')"
 
-# I don't think we need this rule anymore.
-%.html: %.md
-	Rscript -e "rmarkdown::render('"$<"')"
+$(handouts) : %.pdf: %.md
+	pandoc "$<" -o "$@"
 
 # Build PDFs of slides
 %.pdf: %.html
@@ -39,7 +39,7 @@ content/all_fundamentals.md: $(fundamentals)
 	python gen_fundamentals_index.py > "$@"
 
 # Deploy to cs-prod, first pass (before building slide PDFs)
-deploy-quick: $(slide_htmls) $(post_markdowns) $(fundamentals) $(fundamentals_html) content/all_fundamentals.md
+deploy-quick: $(slide_htmls) $(fundamentals) $(fundamentals_html) content/all_fundamentals.md $(handouts)
 	hugo $(HUGO_FLAGS) --destination ${DEST_DIR} --cleanDestinationDir
 	rsync -rxi --delete-after ${DEST_DIR}/ cs-prod:/webroot/courses/cs/344/22sp/
 # --times --delete-after --delete-excluded
