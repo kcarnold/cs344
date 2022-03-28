@@ -29,7 +29,7 @@ Now, how do you control *what* gets generated? Choose your favorite modality and
 ### Supplemental Material
 
 - [ML and NLP Research Highlights of 2021](https://ruder.io/ml-highlights-2021/)
-- [Some slides]([cs224n-2019-lecture15-nlg - cs224n-2019-lecture15-nlg.pdf](https://web.stanford.edu/class/cs224n/slides/cs224n-2019-lecture15-nlg.pdf))
+- [Some slides](https://web.stanford.edu/class/cs224n/slides/cs224n-2019-lecture15-nlg.pdf)
 
 ## Class Meetings
 
