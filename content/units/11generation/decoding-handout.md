@@ -1,10 +1,7 @@
-# Decoding
-
-## Goals
-
-## Instructions
-
-Open THIS NOTEBOOK, which contains an encoder-decoder (sequence-to-sequence / seq2seq) model for machine translation.
+---
+title: "Decoding (CS 344)"
+geometry: "margin=1in"
+---
 
 ### Greedy Decoding
 
@@ -26,9 +23,3 @@ Our translations:
 ### Beam Search Decoding
 
 Generate 2 complete translations. Start by taking the top 2 starting tokens. For each of them, find the most likely *following* token. But instead of keeping all 4 possible sequences, only keep the sequences with the largest total logprob (including the new token).
-
-
-
-
-
-<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script> 
