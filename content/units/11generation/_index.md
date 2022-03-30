@@ -25,6 +25,7 @@ Now, how do you control *what* gets generated? Choose your favorite modality and
   - [Multimodal Few-Shot Learning with Frozen Language Models](https://arxiv.org/abs/2106.13884); extension: [MAGMA -- Multimodal Augmentation of Generative Models through Adapter-based Finetuning](https://arxiv.org/abs/2112.05253)
 - Generating images
   - [GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models | Abstract](https://arxiv.org/abs/2112.10741)
+  - *probably the best starting point for a project like this*: [Autoregressive Image Generation using Residual Quantization | Papers With Code](https://paperswithcode.com/paper/autoregressive-image-generation-using?from=n28) - pretrained models in the [official implementation](https://github.com/kakaobrain/rq-vae-transformer), nice clean implementation in [lucidrains/vector-quantize-pytorch: Vector Quantization, in Pytorch](https://github.com/lucidrains/vector-quantize-pytorch)
 
 ### Supplemental Material
 
