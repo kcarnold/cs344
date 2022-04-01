@@ -1,14 +1,17 @@
 ---
 title: "Unit 11: Generation"
-date: 2022-03-21
-weight: 10
+date: 2022-03-28
+weight: 11
 ---
 
 We've seen models that *classify* images and text, then more recently models that can generate one single token. What if we want to generate whole articles? Or images? Music? Programs? We can adapt the same basic approaches that we used already, but with interesting twists... and, I must admit, the results are fun.
 
+{{% next-year %}}
 By the end of this week you should be able to answer the following questions:
 
 - TODO
+
+{{% /next-year %}}
 
 ## Preparation
 
