@@ -11,11 +11,14 @@ weight: 12
 
 ### Supplemental Material
 
+- [AlphaGo Documentary](https://www.youtube.com/watch?v=WXuK6gekU1Y)
+
+
 ## Class Meetings
 
 ### Monday
 
-- Strategies for Missing Data
+- Strategies for Missing Data ([a stats reference](http://www.stat.columbia.edu/~gelman/arm/missing.pdf))
 - Review of neural network architectures:
   - Basic
     - Feed-forward (MLP)
