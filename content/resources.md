@@ -12,6 +12,15 @@ If you need more computing power or storage than the lab machines for your final
 
 To set up your environment, run `/storage/ArnoldGroup/anaconda3/bin/conda init`, then log off and log back on.
 
+> Pro tip for accessing `borg`: put the following in `~/.ssh/config`
+>
+> ```
+> Host borg
+>     Hostname borg.calvin.edu
+>     Port 22122
+>     User YOUR_USERNAME
+>     IdentityFile ~/.ssh/keys/borg OR WHEREVER YOUR KEY IS
+> ```
 
 The easiest way to use Borg is by running a training script from the command line. For example, you could make an `sbatch` script like this:
 
