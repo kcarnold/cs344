@@ -1,0 +1,63 @@
+$CATEGORY: generative-models
+
+::seq-single::Which sequence generation algorithm will give only a single output? {
+  =greedy
+  ~sampling
+  ~beam search
+}
+
+::seq-rand::Which sequence generation algorithm yields different results each time it is run? {
+  ~greedy
+  =sampling
+  ~beam search
+}
+
+::seq-compute::Which sequence generation algorithm requires the most computation (i.e., number of forward passes through the model required to generate a translation) {
+  ~greedy
+  ~sampling
+  =beam search
+}
+
+::seq-quality::Why might beam search give higher quality translations than greedy sampling? {
+  =Beam search allows the generation algorithm to revisit prior decisions.
+  ~Greedy sampling is too noisy.
+  ~The network was trained using beam search, not greedy.
+}
+
+::in-gan::The following questions refer to a generative adversarial network (GAN).
+
+::gan-input-is::[markdown]Which of the following is a correct description of the *input* to a generator network (typically called `z`)? {
+  =A random vector
+  ~The generated image, expressed as a vector
+  ~A vector that has been optimized to represent a specific given image
+  # There are ways to "invert" an image to find a z vector that would generate something close to it. But that sometimes requires training a second network.
+}
+
+::gan-interpolate::If z1 and z2 are both input vectors to a generator network, what can you say about a linear interpolation between z1 and z2, i.e., alpha * z1 + (1 - alpha) * z2)? {
+  =The generated image will probably look like a reasonable image.
+  ~When alpha is 1, the output image will correspond to z2
+  ~The output will be a cross-fade between the two images, like a double-exposure.
+  ~The operation is invalid because the dimensionality doesn't match up.
+}
+
+::gan-discriminator-input::The *input* to the discriminator network of a GAN is...{
+  =Images, either real images or outputs of the generator network. 
+  ~The same vectors that are given to the generator network (z1, z2, etc.)
+  ~Binary labels, representing *real* or *fake*
+}
+
+::gan-discriminator-description::A discriminator network is best described as{
+  =A binary classifier computing the probability of an image being real or fake.
+  ~A probability distribution that defines the manifold of generated images.
+  ~A function that gives the probability of the next pixel
+}
+
+::gan-train-d::When training the discriminator (D), we want to take gradient steps that...{
+  =Reduce the cross-entropy loss of the real-fake classifier
+  ~Increase the cross-entropy loss of the real-fake classifier
+}
+
+::gan-train-g::When training the generator (G), we want to take gradient steps that...{
+  ~Reduce the cross-entropy loss of the real-fake classifier
+  =Increase the cross-entropy loss of the real-fake classifier
+}
