@@ -2,6 +2,25 @@
 title: "Forum Posts 22SP"
 ---
 
+## Week 12: Review and Reinforcement Learning
+
+Happy Saturday everyone!
+
+This coming week we'll be reviewing some things and then moving on to Reinforcement Learning, the engine behind models that have learned to play games like Go and Starcraft, and also behind some kinds of robotics (self-driving cars?). The plan after this week is to discuss human-centered topics like fairness, transparency, and HCI. (If there's a topic you've been wanting to learn about, now is the time to let me know!)
+
+
+Notes:
+
+- Please fill out the [feedback survey for our guest lecture](https://forms.gle/HQs6nap2Y1ngzJoQA) by class time Monday if you haven't yet. This is important because it helps us make decisions about future instructors.
+- There's a **Prep** activity and quiz to do; by Friday should be fine.
+- **Project**
+  - If you need more compute for your final project, you can use Calvin's supercomputer, [Borg](https://borg.calvin.edu). You should all have received an email from Chris about setting up your account. I've written some [notes on the Resources page](https://cs.calvin.edu/courses/cs/344/22sp/resources/#borg-supercomputer) about how to run our software on it.
+  - I'm working on project feedback. We'll have another milestone the following week.
+- **Homework**: For homework for this week, I've posted a Study Quiz that closes at homework due time. It's an Effort grade only.
+  - Sorry I didn't get a Fundamentals ready in time this week either. If you're interested in getting extra practice with the code behind what we were working with last week, you can work through the rest of the notebook that we worked with on Monday.
+  - I haven't posted a Reflection because it was the part of the course that most people who took the mid-semester survey found least helpful. But for those who *have* found it helpful, you can write up your reflections informally and share them with me for feedback.
+
+
 ## Week 10: Transformers (self-attention)
 
 This coming week is advising week, which means we take a break on Wednesday. I also reduced the intensity of other things we're doing, so hopefully you can take a good break to celebrate figuring out Workday Student!
