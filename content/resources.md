@@ -6,6 +6,59 @@ title: "Resources"
 
 Here's a [Glossary](../glossary/) of some terms we've used in class. Please suggest additional terms to add!
 
+## `borg` Supercomputer
+
+If you need more computing power or storage than the lab machines for your final projects, you can run on Borg.
+
+To set up your environment, run `/storage/ArnoldGroup/anaconda3/bin/conda init`, then log off and log back on.
+
+
+The easiest way to use Borg is by running a training script from the command line. For example, you could make an `sbatch` script like this:
+
+```bash
+#!/bin/bash
+#
+# Run on the GPU node with one GPU, 4 CPUS, and 64GB of RAM
+# Reserve one GPU
+#SBATCH --gres=gpu:1
+#
+# Reserve four CPU cores
+#SBATCH -c 4
+#
+# Reserve 64GB of RAM
+#SBATCH --mem=64G
+#
+# Run in the GPUs queue
+#SBATCH -p gpus
+
+echo -n "Starting at "
+date
+echo "GPU info:"
+nvidia-smi
+which python
+python -c 'import torch; print("PyTorch", torch.__version__, "CUDA=", torch.cuda.is_available())'
+
+# Call the script here:
+python training_script.py --input-data=... --batch-size=...
+
+echo -n "Done at "
+date
+```
+
+Then run it like `sbatch train_model.sbatch`.
+
+If you need a notebook, please *don't* use the GPU node, because we only have 4 GPUs to share among all of us. Instead, use a compute node. Here's how to do it (could be more tested... let me know how it goes):
+
+1. Get on a Linux machine (lab machine) unless you know what you're doing.
+2. Set up an ssh keypair, where the lab machine has your private key and borg has the public key listed in `~/.ssh/authorized_keys`. Make sure permissions are set correctly: `chmod 700 ~/.ssh; chmod 600 ~/.ssh/authorized_keys`
+3. Get a shell on a compute note: on borg, run `srun -c 2 --mem=64G  --pty bash`.
+4. Note what machine you're on, e.g., `borg-node-01` (the .calvin.edu part is optional).
+5. Run `jupyter notebook --no-browser`.
+5. On a second terminal on the lab machine, run `ssh -L 8888:borg-node-01:8888 borg`. (replace the node name appropriately)
+6. Back in the first terminal, copy and paste the link that `jupyter notebook` gave you.
+
+General instructions for using the [Slurm scheduler on Borg](https://borg.calvin.edu/resources-slurm.html)
+
 ## fastai hotfixes
 
 **Warning**: fastai drops incomplete batches in the training set, and `bs=1` would fail because of batch normalization. So use `bs = 2` for small data. (And more epochs.)
