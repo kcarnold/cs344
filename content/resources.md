@@ -61,10 +61,15 @@ If you need a notebook, please *don't* use the GPU node, because we only have 4 
 1. Get on a Linux machine (lab machine) unless you know what you're doing.
 2. Set up an ssh keypair, where the lab machine has your private key and borg has the public key listed in `~/.ssh/authorized_keys`. Make sure permissions are set correctly: `chmod 700 ~/.ssh; chmod 600 ~/.ssh/authorized_keys`
 3. Get a shell on a compute note: on borg, run `srun -c 2 --mem=64G  --pty bash`.
-4. Note what machine you're on, e.g., `borg-node-01` (the .calvin.edu part is optional).
+4. Note what machine you're on, e.g., `borg-node01` (the .calvin.edu part is optional).
 5. Run `jupyter notebook --no-browser`.
-5. On a second terminal on the lab machine, run `ssh -L 8888:borg-node-01:8888 borg`. (replace the node name appropriately)
-6. Back in the first terminal, copy and paste the link that `jupyter notebook` gave you.
+6. On a second terminal on the lab machine, run `ssh -L 8888:borg-node01:8888 borg`. (replace the node name appropriately)
+  
+    There's a chance this might not work. If it fails, then in that second terminal instead just `ssh borg`, and then from there, `ssh -L8888:127.0.0.1:8888 borg-node01` or whatever node it is. Also, if you get a port number other than 8888 (because something else is using that port), use that port number in the commands above instead.
+
+    Alternative: `ssh -J username@borg-node01 -L 8888:localhost:8888 borg`.
+
+7. Back in the first terminal, copy and paste the link that `jupyter notebook` gave you into your web browser.
 
 General instructions for using the [Slurm scheduler on Borg](https://borg.calvin.edu/resources-slurm.html)
 
