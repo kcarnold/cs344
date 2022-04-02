@@ -12,7 +12,8 @@ weight: 12
 ### Supplemental Material
 
 - [AlphaGo Documentary](https://www.youtube.com/watch?v=WXuK6gekU1Y)
-
+- [ACM Selects: AI for Robotics](https://selects.acm.org/selections/ai-for-robotics)
+- [Sequence Modeling Solutions for Reinforcement Learning Problems](https://bair.berkeley.edu/blog/2021/11/19/trajectory-transformer/) (a simple and clever approach)
 
 ## Class Meetings
 
