@@ -12,6 +12,7 @@ weight: 12
 ### Supplemental Material
 
 - [AlphaGo Documentary](https://www.youtube.com/watch?v=WXuK6gekU1Y)
+- [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/) - a hands-on introduction to reinforcement learning in PyTorch by OpenAI
 - [ACM Selects: AI for Robotics](https://selects.acm.org/selections/ai-for-robotics)
 - [Sequence Modeling Solutions for Reinforcement Learning Problems](https://bair.berkeley.edu/blog/2021/11/19/trajectory-transformer/) (a simple and clever approach)
 - Strategies for Missing Data ([a stats reference](http://www.stat.columbia.edu/~gelman/arm/missing.pdf))
