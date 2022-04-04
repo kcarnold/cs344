@@ -14,22 +14,19 @@ weight: 12
 - [AlphaGo Documentary](https://www.youtube.com/watch?v=WXuK6gekU1Y)
 - [ACM Selects: AI for Robotics](https://selects.acm.org/selections/ai-for-robotics)
 - [Sequence Modeling Solutions for Reinforcement Learning Problems](https://bair.berkeley.edu/blog/2021/11/19/trajectory-transformer/) (a simple and clever approach)
+- Strategies for Missing Data ([a stats reference](http://www.stat.columbia.edu/~gelman/arm/missing.pdf))
+
 
 ## Class Meetings
 
 ### Monday
 
-- Strategies for Missing Data ([a stats reference](http://www.stat.columbia.edu/~gelman/arm/missing.pdf))
 - Review of neural network architectures:
-  - Basic
-    - Feed-forward (MLP)
-  - Temporal
-    - Recurrent Neural Nets (RNN)
-    - LSTM
-  - Spatial
-    - Convolutional (CNN)
-  - General
-    - Transformer
+  - Wiring doesn't change: Feed-forward (MLP)
+  - Current sample wired to previous sample:
+    - Recurrent Networks ([Elman](https://en.wikipedia.org/wiki/Recurrent_neural_network#Architectures); [LSTM and GRU](http://colah.github.io/posts/2015-08-Understanding-LSTMs/))
+  - Current sample wired to surrounding samples: Convolutional Networks (CNN)
+  - Wiring computed dynamically based on "self-attention": Transformer
 - Tricks
   - Residual Connections
   - Dropout
