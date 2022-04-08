@@ -21,3 +21,8 @@ title: "Fundamentals Index"
   - {{% fundamentals name="Tokenization" nbname="u8n1-tokenization.ipynb" %}}
 - Unit 9
   - {{% fundamentals name="Logits in Causal Language Models" nbname="u9n1-lm-logits.ipynb" %}}
+- Unit 11
+  - {{% fundamentals name="Translation as Language Modeling" nbname="u11n1-decoding.ipynb" %}}
+- Unit 12
+  - {{% fundamentals name="Models for Sequence Data" nbname="u12n1-seq-models.ipynb" %}}
+  - {{% fundamentals name="Time Series Modeling and EDA" nbname="u12n1-time-series.ipynb" %}}
