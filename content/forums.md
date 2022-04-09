@@ -2,6 +2,25 @@
 title: "Forum Posts 22SP"
 ---
 
+## Week 13: Finishing RL, Starting Human-Centered AI
+
+What happens when AI meets people? We've been discussing this informally throughout the semester (haven't lately because nobody signed up to lead a topic!). This week we'll start asking: how can we ensure that AI results are
+
+- Correct,
+- Just, and
+- Useful?
+
+We'll start this week with how we might convince ourselves that model outputs are (or aren't) *correct*. But we have some important things to wrap up from our brief intro to Reinforcement Learning, so we'll tackle that on Monday.
+
+Notes:
+
+- **Project**: Your next milestone is a 15-minute meeting with me sometime before Reading Recess. [Sign-up page](https://outlook.office365.com/owa/calendar/Arnoldmeetings@calvincollege.onmicrosoft.com/bookings/s/y0nbaR21m0Wx1Rq44MD2Aw2).
+- **Prep 13** is posted. Remember to finish Prep 12; you have a few more days until it closes.
+- **Homework**: Homework 12 is a Fundamentals notebook to help think about and practice the different sequence models we've been looking at. I really enjoyed making it, and I hope you enjoy going through it.
+  - There may be some things about it that aren't quite clear, since some of the topics get advanced. Please ask questions on Piazza or in class!
+  - Want extra practice with anything we've done so far? I have a bunch of notebooks that I didn't get finished in time for this year. If your current project isn't working out well, you could even make a project out of turning a few of them into exercises for next year. Let me know if you're interested!
+- **Discussion**: The PaLM paper I showed in class will actually be the subject of a Discussion for this week. As such, it'll be due at the usual Discussion due time (Wednesday). See Moodle.
+
 ## Week 12: Review and Reinforcement Learning
 
 Happy Saturday everyone!
