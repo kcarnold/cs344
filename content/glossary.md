@@ -2,6 +2,13 @@
 title: "Glossary"
 ---
 
+## Data
+
+### Tabular Data
+
+- Sometimes specific input features have a clear meaning (examples: the age of a patient, the price of a product, etc.). If our data has mostly these sorts of features, then we call it *tabular* data. Traditional machine learning models like Random Forests and gradient boosting (XGBoost) tend to work well for these types of data. [scikit-learn](https://scikit-learn.org/stable/) has high-quality implementations of the most important algorithms here.
+- However, if many features don't have a clear meaning (examples: each individual pixel in an image, each sample in a sound wave, etc.), the main task of the algorithm is to *come up with a useful internal representation* of the data. This is where *deep neural nets* shine.
+
 ## Classification Metrics
 
 ### Error Rate
@@ -85,3 +92,11 @@ Resources:
 
 ## Embeddings
 
+An *embedding* is:
+
+- a *vector* representation of something
+- that is *learned from data*
+- such that *similarity can be measured by dot products between embeddings*
+  - i.e., [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) is meaningful
+  - i.e., similar vectors are closer together in the vector space than dissimilar vectors
+- where similarity is defined *based on the task to be performed* (e.g., predicting the next word, a user's rating on a new product, etc.)
