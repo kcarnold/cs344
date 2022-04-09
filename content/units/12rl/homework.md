@@ -23,7 +23,7 @@ Google recently released a paper on an enormous language model that they built. 
 - **Architecture**: How does this model relate with the models we have been studying (Transformers in general, or specific models like GPT-2 or MarianMT that we used in notebooks)? Specifically, section 2 describes various modifications to the standard architecture.
   - What aspects of the model architecture or training setup (e.g., vocabulary) do you think you understand? Make a sketch of that part of the model, either on paper or in code.
   - What aspects do you not quite understand?
-- **Infrastructure**: if you're into software engineering: what aspects of Section 4 do you find interesting?
+- **Infrastructure**: What technical problems did they have to solve to get this model to train quickly and correctly? What considerations came up that you might not have expected? How big of a model could you train on infrastructure you can access free (our lab machines, Borg, Google Colab)?
 - **Training setup**: You should be able to read much of Section 5. What do you find interesting? What length of documents do you expect this model to be able to handle?
 - **Experiments**: pick one or two experiments (sections 6 through 9). What is the experiment meant to test? What input was provided to the model? What output did it generate? Was any fine-tuning required? What do you think about the example results given?
 - **Bias, Fairness, and Ethics**: See sections 10 and 11, and Appendices B--E. What do we learn from this model? Is it good that this model exists? Was it worth the environmental cost to train? Should Google deploy anything based on it in their products?
