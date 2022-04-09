@@ -9,6 +9,16 @@ title: "Glossary"
 - Sometimes specific input features have a clear meaning (examples: the age of a patient, the price of a product, etc.). If our data has mostly these sorts of features, then we call it *tabular* data. Traditional machine learning models like Random Forests and gradient boosting (XGBoost) tend to work well for these types of data. [scikit-learn](https://scikit-learn.org/stable/) has high-quality implementations of the most important algorithms here.
 - However, if many features don't have a clear meaning (examples: each individual pixel in an image, each sample in a sound wave, etc.), the main task of the algorithm is to *come up with a useful internal representation* of the data. This is where *deep neural nets* shine.
 
+### Text Data
+
+#### Padding issues
+
+Sentences have different lengths. But models generally need rectangular inputs, so everything has to be the same length. What do we do? *pad* inputs to be the right length.
+
+- No padding -> can't use different size sequences in the same batch -> slow.
+- Too much padding -> lots of wasted effort -> slow.
+- Get it right -> fast.
+
 ## Classification Metrics
 
 ### Error Rate
@@ -90,6 +100,12 @@ Resources:
 - [Understanding binary cross-entropy / log loss: a visual explanation](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
 - related: [Visualizing Information Theory](http://colah.github.io/posts/2015-09-Visual-Information/)
 
+Related: *perplexity*:
+
+- A problem with entropy as a measure is that it depends on what base you use for the logarithm. One unit of cross-entropy for the natural log (log base *e*) is one *nat*, which is *log_2(exp(1))* = 1.44 bits.
+- So instead we sometimes just consider the *perplexity*, which is the exponentiation of the entropy. A coin flip has a perplexity of 2, a standard dice roll has a perplexity of 6; roughly speaking, the perplexity measures degree of confusion by way of how many items we're taking a random guess among.
+- For language models, perplexity is often reported [*per word*](https://en.wikipedia.org/wiki/Perplexity#Perplexity_per_word) or *per character*. 
+
 ## Embeddings
 
 An *embedding* is:
@@ -100,3 +116,9 @@ An *embedding* is:
   - i.e., [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) is meaningful
   - i.e., similar vectors are closer together in the vector space than dissimilar vectors
 - where similarity is defined *based on the task to be performed* (e.g., predicting the next word, a user's rating on a new product, etc.)
+
+## Tasks
+
+### Named-Entity Recognition
+
+Pick out things with names: people, places, organizations, etc. Sometimes includes years. Useful for when you want to identify what a sentence or article is "talking about".
