@@ -19,7 +19,9 @@ Notes:
 - **Homework**: Homework 12 is a Fundamentals notebook to help think about and practice the different sequence models we've been looking at. I really enjoyed making it, and I hope you enjoy going through it.
   - There may be some things about it that aren't quite clear, since some of the topics get advanced. Please ask questions on Piazza or in class!
   - Want extra practice with anything we've done so far? I have a bunch of notebooks that I didn't get finished in time for this year. If your current project isn't working out well, you could even make a project out of turning a few of them into exercises for next year. Let me know if you're interested!
+  - Did you miss last week's homework quiz? Message me and I can open it back up.
 - **Discussion**: The PaLM paper I showed in class will actually be the subject of a Discussion for this week. As such, it'll be due at the usual Discussion due time (Wednesday). See Moodle.
+
 
 ## Week 12: Review and Reinforcement Learning
 
