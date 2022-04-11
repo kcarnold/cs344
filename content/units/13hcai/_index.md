@@ -40,12 +40,17 @@ Watch:
 
 ### Monday
 
-- Continue Reinforcement Learning from Friday
-  - Types of learning: Supervised, Self-Supervised, Reinforcement
-  - RL formalism: Markov Decision Process
-  - What functions can we learn: value, Q, policy
-    - How does MuZero work?
-  - Code
+Continue our discussion of Reinforcement Learning (learning from feedback)
+
+- Reward Discounting, quantifying the good life, and value alignment
+- Types of learning: Supervised, Self-Supervised, Reinforcement
+- Challenges of RL
+  - Exploration
+  - Credit assignment
+- RL formalism: Markov Decision Process
+- What functions can we learn: value, Q, policy
+  - [Playground](https://distill.pub/2019/paths-perspective-on-value-learning/)
+- How does MuZero work?
 
 ### Wednesday
 
@@ -56,3 +61,4 @@ Watch:
 
 ### Friday
 
+Good Friday break!
