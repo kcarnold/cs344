@@ -48,11 +48,18 @@ Continue our discussion of Reinforcement Learning (learning from feedback)
   - Exploration
   - Credit assignment
 - RL formalism: Markov Decision Process
-- What functions can we learn: value, Q, policy
-  - [Playground](https://distill.pub/2019/paths-perspective-on-value-learning/)
-- How does MuZero work?
+- What functions can we learn: value, Q, policy (see [lab](lab/))
+- (Didn't get to) How does [MuZero](https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules) work?
 
 ### Wednesday
+
+- Reminder about course evals
+- Project logistics
+- Discussion: [PaLM](../12rl/discussion/)
+- Q&A (homework, RL, interpretability, ...)
+- Lab time
+
+Topics we could discuss:
 
 - Interpretability and Explanation
   - Post-hoc explanation (salience, etc.)
