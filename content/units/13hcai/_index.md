@@ -24,7 +24,10 @@ Read:
   - [Activation Atlas](https://distill.pub/2019/activation-atlas/)
   - [Visualizing Neural Networks with the Grand Tour](https://distill.pub/2020/grand-tour/)
   - [Multimodal Neurons in Artificial Neural Networks](https://distill.pub/2021/multimodal-neurons/)
-- [imodels: leveraging the unreasonable effectiveness of rules – The Berkeley Artificial Intelligence Research Blog](https://bair.berkeley.edu/blog/2022/02/02/imodels/)
+- Techniques and limitations of post-hoc interpretability
+  - [Problems with Shapley-value-based explanations as feature importance measures](http://proceedings.mlr.press/v119/kumar20e.html)
+  - [The Science Behind InterpretML: SHAP - YouTube](https://www.youtube.com/watch?v=-taOhqkiuIo)
+- Built-in interpretability: [imodels: leveraging the unreasonable effectiveness of rules – The Berkeley Artificial Intelligence Research Blog](https://bair.berkeley.edu/blog/2022/02/02/imodels/)
 
 Watch:
 
