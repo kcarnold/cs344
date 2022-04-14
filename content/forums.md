@@ -14,7 +14,7 @@ We'll start this week with how we might convince ourselves that model outputs ar
 
 Notes:
 
-- **Project**: Your next milestone is a 15-minute meeting with me sometime before Reading Recess. [Sign-up page](https://outlook.office365.com/owa/calendar/Arnoldmeetings@calvincollege.onmicrosoft.com/bookings/s/y0nbaR21m0Wx1Rq44MD2Aw2).
+- **Project**: Your next milestone is a 15-minute meeting with me sometime before Reading Recess. [Sign-up page](https://outlook.office365.com/owa/calendar/Arnoldmeetings@calvincollege.onmicrosoft.com/bookings/s/u-L9xl9pHkOh-NBDCyyiNA2).
 - **Prep 13** is posted. Remember to finish Prep 12; you have a few more days until it closes.
 - **Homework**: Homework 12 is a Fundamentals notebook to help think about and practice the different sequence models we've been looking at. I really enjoyed making it, and I hope you enjoy going through it.
   - There may be some things about it that aren't quite clear, since some of the topics get advanced. Please ask questions on Piazza or in class!
