@@ -4,19 +4,37 @@ title: "Project"
 
 This course will culminate in a semester project. Successful projects will demonstrate that you can:
 
--   Design, implement, and/or analyze an intelligent system
-
-    -   Your work should dig below the surface in some way, but how you do it is up to you. Some suggestions are given below.
-
--   Communicate your work in both technical and non-technical terms.
-
-    -   You should include a summary that's understandable to the general public (friends and family, for example) as well as a detailed report.
+- **Design, implement, and/or analyze an intelligent system**. So your work should dig below the surface in some way, but how you do it is up to you. Some suggestions are given below.
+- **Communicate your work in both technical and non-technical terms.** So you will include a summary that's understandable to the general public (friends and family, for example) as well as a detailed report.
 
 Projects should generally be done in pairs, though allowances may be made on request.
 
+## Grading
+
+Projects will count for 5 Mastery grades. You will include a brief summary at the end of your report of how the project demonstrates mastery of various components.
+
+All projects must demonstrate mastery of the following objectives:
+
+- Technical writing (precise and concise)
+- Nontechnical writing (simple and understandable)
+- Quantification (putting a number on something)
+
+Successful projects will also demonstrate mastery of various other skills, but the specific skills will vary between people and projects. Some options include:
+
+- systematic experimentation
+- detailed understanding of model architecture and function
+- structuring (or wrangling) data
+- detailed assessment of model performance
+- systematic exploration of variations (parameter choices, architecture choices, data choices, etc.)
+- Clean coding
+- Efficient coding
+- ...many others are possible.
+
 ## Milestones
 
-### Proposal
+<details>
+
+<summary>Proposal</summary>
 
 First, read the [Project Guidelines](https://cs.calvin.edu/courses/cs/344/22sp/project/) for a description of what sort of projects are expected in this class.
 
@@ -30,7 +48,11 @@ For each idea, write a paragraph (or informative bullet points) to address:
 
 Mention whom you might work with (the ideal team size is probably 2, but 1 or 3 is ok too). It may be different for different projects. Submit individually, though.
 
-### Updated Proposal
+</details>
+
+<details>
+
+<summary>Updated Proposal</summary>
 
 Submit (as a Jupyter notebook, `proposal.ipynb`), an enhanced version of your vision statement. It should include:
 
@@ -53,17 +75,14 @@ Submit (as a Jupyter notebook, `proposal.ipynb`), an enhanced version of your vi
 
 4. What *help* you think you'll need from the course staff? (If this is substantial, follow up in person or on Teams).
 
-### Walkthrough meetings
+</details>
 
-Meet with the professor (in person or online) before Reading Recess. Show what steps you have taken so far.
+- **Walkthrough meetings**: Meet with the professor (in person or online) before Reading Recess. Show what steps you have taken so far.
+- Attend the **final project showcase** in which you can see everyone’s project. Be prepared to demo your system and to explain its key points.
 
-### Showcase
+## Final Deliverables
 
-Attend the final project showcase in which you can see everyone’s project. Be prepared to demo your system and to explain its key points.
-
-### Final Deliverable
-
-The project includes the components outlined below:
+By the **end of the day of final presentations**, submit the following:
 
 -   A technical report on the project
 -   A **short explanation of the technology you build on** for a nontechnical audience.
@@ -75,7 +94,7 @@ The following sections provide additional detail about each component.
 
 The report should be at the level of polish and formality of a blog post (more than a class homework assignment, less than an academic paper). Precise technical language should be used in descriptions of methods.
 
--   Assume an audience that is familiar with AI / machine learning in general but none of the specific software used (e.g., fastai or transformers).
+-   Assume an audience that is familiar with AI / machine learning in general but none of the specific software used (e.g., `fastai` or Hugging Face `transformers`).
 -   The report should still make sense if all of the source code is hidden.
 -   Submit your work as a Jupyter Notebook (`.ipynb`) file if possible.
 -   Use Markdown (text) cells to format headers (`## Header`) and links.
@@ -105,9 +124,9 @@ Artistic or exploratory projects may need other elements.
 
 Include a **short explanation of the technology you build on** for a nontechnical audience.
 
--   You may choose to do this on a different technology instead; ask the instructor.
+- You may choose to do this on a different technology instead; ask the instructor.
 
--   The explanation should make sense without reference to the rest of your project, though you may use the project as an example.
+- The explanation should make sense without reference to the rest of your project, though you may use the project as an example.
 
 Aim for a description that would fit on one page or less, including a carefully selected supporting image or two.
 
@@ -121,33 +140,12 @@ Aim for about 5 minutes of content. All team members should present.
 
 Submit code needed to replicate the visual and quantitative results in your report.
 
--   Share any github repos with `kcarnold` or make them public.
-
--   Include the notebooks you used.
-
-    -   If you used Colab, download the `ipynb` file.
-
-    -   "Restart and Run All" before submitting, if possible.
-
-    -   The technical report may include all of the needed code; if so, nothing more is required.
-
--   Include clear instructions for how to acquire any data you used. (Don't upload the dataset itself, unless it happens to be very small.)
-
-## General Advice
-
-* **Repeat trials** with different random seeds. Consider the variability of results.
-* **Notice decisions** you make during data prep and modeling.
-    * What data did you omit?
-    * How did you set up the modeling problem?
-    * What’s missing?
-* **Analyze errors**
-    * What systematic mistakes did the model make?
-    * What effect did decisions have on those mistakes?
-
-
-Technically: **keep it simple**. A thoughtful analysis of a technically simple thing is much better than a hasty analysis of a technically fancy thing.
-
--   [🚧 Simple considerations for simple people building fancy neural networks](https://huggingface.co/blog/simple-considerations)
+- Share any github repos with `kcarnold` or make them public.
+- Include the notebooks you used.
+  - If you used Colab, download the `ipynb` file.
+  - "Restart and Run All" before submitting, if possible.
+  - The technical report may include all of the needed code; if so, nothing more is required.
+- Include clear instructions for how to acquire any data you used. (Don't upload the dataset itself, unless it happens to be very small.)
 
 ## Picking a Project
 
@@ -171,6 +169,22 @@ Your project should be one of the following 3 types. The criteria for success di
 3. **Research** along one of the directions listed [on this page](research/).
 
     - For these projects, any meaningful progress towards answering the research question will be considered a successful project, if reported well.
+
+## General Advice
+
+- **Repeat trials** with different random seeds. Consider the variability of results.
+- **Notice decisions** you make during data prep and modeling.
+  - What data did you omit?
+  - How did you set up the modeling problem?
+  - What’s missing?
+- **Analyze errors**
+  - What systematic mistakes did the model make?
+  - What effect did decisions have on those mistakes?
+
+Technically: **keep it simple**. A thoughtful analysis of a technically simple thing is much better than a hasty analysis of a technically fancy thing.
+
+See the Resources page here, especially [Tools](/resources/#tools).
+
 
 <!--
 
