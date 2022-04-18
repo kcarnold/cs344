@@ -53,14 +53,21 @@ Submit (as a Jupyter notebook, `proposal.ipynb`), an enhanced version of your vi
 
 4. What *help* you think you'll need from the course staff? (If this is substantial, follow up in person or on Teams).
 
-## Project Components
+### Walkthrough meetings
+
+Meet with the professor (in person or online) before Reading Recess. Show what steps you have taken so far.
+
+### Showcase
+
+Attend the final project showcase in which you can see everyone’s project. Be prepared to demo your system and to explain its key points.
+
+### Final Deliverable
 
 The project includes the components outlined below:
 
 -   A technical report on the project
 -   A **short explanation of the technology you build on** for a nontechnical audience.
 -   Supporting materials, including code, as appropriate
--   Brief presentation to the class during final exam period
 
 The following sections provide additional detail about each component.
 
