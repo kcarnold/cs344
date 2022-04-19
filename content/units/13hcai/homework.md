@@ -11,10 +11,13 @@ Our goal for the homework assignment this week is:
 
 ## Count the Parameters
 
-- Where do the parameter counts in last week's Fundamentals come from?
-  - {{% fundamentals name="Models for Sequence Data" nbname="u12n1-seq-models.ipynb" %}}
-- Where does 540 billion parameters come from in PaLM? See section 2.1.
-- How much memory would it take, if each parameter is stored as a float16?
+The large language model we looked at for our discussion last week, PaLM, reports that it has 540 billion parameters. What are all of those numbers used for? This week, we'll count parameters.
+
+Where do the parameter counts in last week's Fundamentals come from? ({{% fundamentals name="Models for Sequence Data" nbname="u12n1-seq-models.ipynb" %}})
+
+1. Work through *this notebook*.
+2. Apply what you discovered to PaLM: write an expression that shows where the number 540 billion parameters might come from in PaLM. See section 2.1 of the paper for the constants you might need.
+3. How much memory would it take, if each parameter is stored as a float16?
 
 ## Train a Sequence Model on Your Own Data
 
