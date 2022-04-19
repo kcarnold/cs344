@@ -30,6 +30,8 @@ Successful projects will also demonstrate mastery of various other skills, but t
 - Efficient coding
 - ...many others are possible.
 
+You are encouraged to try to demonstrate mastery of several of these topics even before the final project submission. Please either write a note or arrange a brief meeting.
+
 ## Milestones
 
 <details>
