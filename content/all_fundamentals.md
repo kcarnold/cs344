@@ -26,3 +26,5 @@ title: "Fundamentals Index"
 - Unit 12
   - {{% fundamentals name="Models for Sequence Data" nbname="u12n1-seq-models.ipynb" %}}
   - {{% fundamentals name="Time Series Modeling and EDA" nbname="u12n1-time-series.ipynb" %}}
+- Unit 13
+  - {{% fundamentals name="Why so big? Counting parameters in sequence models" nbname="u13n1-count-params.ipynb" %}}
