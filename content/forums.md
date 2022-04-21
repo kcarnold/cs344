@@ -2,6 +2,32 @@
 title: "Forum Posts 22SP"
 ---
 
+## Week 14: Wrap-Up
+
+**Have you done your course evals?**
+
+### Projects
+
+Revised specs are on the website, including grading and some detailed pointers on how to do an "expository notebook" project.
+
+Also, several projects might benefit from using [captum](https://captum.ai/tutorials/) (for interpreting model predictions) and [streamlit](https://streamlit.io/) (for an extremely easy way to make AI-powered web apps).
+
+### Optional Homework
+
+I've posted an optional homework. It's pretty practical and hands-on, and may actually help some people with their projects. You can choose to use it to replace any of your other mastery grades, including the project grade. (You don't have to specify which one, I'll just configure Moodle to drop the lowest.)
+
+If you started it already, I made a minor revision: the example Transformer model now implements multi-head attention. (I couldn't stop myself.)
+
+### Summer Opportunities
+
+I'm running an open summer research team on applying language models to help people communicate. At least 8 people have expressed interest in participating in some way. I'd like to invite you to also. There are two aspects to consider:
+
+1. I'm going to be teaching an unofficial "May intensive" (aka bootcamp), starting May 9, for the summer team. The goal is to bring everyone up to speed on language modeling with Transformers and some basic web development. We'll get our hands quite dirty (replicating a research paper from scratch and building a web UI for it, for example). We'll have some students who haven't done much CS and some who are coming from this class, so it should be a diverse crowd!
+2. After the intensive, we'll break out into small groups to do projects. If you've wanted to do an AI project beyond the constraints of this class, here's an opportunity. Participating in the intensive is highly recommended but not strictly required for this part.
+
+If you're interested in either part, please let me know!
+
+
 ## Week 13: Finishing RL, Starting Human-Centered AI
 
 What happens when AI meets people? We've been discussing this informally throughout the semester (haven't lately because nobody signed up to lead a topic!). This week we'll start asking: how can we ensure that AI results are
