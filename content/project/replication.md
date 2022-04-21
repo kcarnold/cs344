@@ -10,6 +10,20 @@ If you're choosing a replication project, ask yourself:
 2. Can I easily access the same data that the original authors used? (Does it fit on computing hardware I can easily access?)
 3. Do I understand the basic approach? Maybe there's fancy stuff too, but you should be able to think of how you'd implement a simple version of it.
 
+### Expository Notebooks ("Notebookify")
+
+One strategy to take when starting with an existing code is to "Notebookify" it. Most notebooks you'll find are *demo* notebooks, designed to show off the best results but hide a lot of details behind opaque code chunks or external libraries. In contrast, an *expository* notebook **walks the reader through what's going on**.
+
+The code part of such a project is relatively straightforward: find a demo notebook, step through it, pull in the contents of the "do-all-the-stuff" functions (test that it still works), split things up into individual cells (test that it still works), and show intermediate results and shapes. But you'll also write up descriptions of what's happening.
+
+You will almost certainly want to refer to a paper by the original authors. It'll usually explain the names of variables and methods, and it'll show what parameters and data are likely to work well.
+
+If the original has big loops, flatten them. For example, show one example of how the data is prepared, run one minibatch of the model training, show how the evaluation scores are computed for one datapoint.
+
+Simplify the code as needed. e.g., if there are `if`s to do different things depending on configuration, remove the code that isn't actually run in your case.
+
+Most importantly, explain what is going on. Start with an intro about the overall goal of the approach you're demoing, and the basic outline of what the process looks like. Then dive in. End with a conclusion summarizing the main points that you highlighted about what's going on. Perhaps end with some questions and future directions: what decisions did the original authors make that aren't clear to you? What ideas might you have for doing something differently?
+
 ### How to replicate without duplicating
 
 One strategy: the Benjamin Franklin replication. Here's how I adapt it to code:
