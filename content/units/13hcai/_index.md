@@ -91,8 +91,27 @@ Easter Break!
 
 ### Wednesday 4/20
 
-- Interpretability and Explanation
+Interpretability and Explanation ([slides](/slides/2022-04-20%20Explainable%20and%20Usable.pdf))
 
 ### Thursday 4/21
 
+Fairness and Wrap-Up [slides](/slides/2022-04-21%20Fairness%20and%20Wrap-Up.pdf)
 
+Final Discussion topics
+
+- Personal Impacts
+  - How AI has impacted my life in the past few years. For better? For worse?
+  - How AI has impacted the lives of people unlike me.
+  - How AI might impact our lives in the next 5 years.
+- Development
+  - Something useful or cool that has recently become possible thanks to AI.
+  - What are some things that AI systems are already better than humans at?
+  - What are some things that humans are still much better at than AI systems?
+- Broader impacts
+  - Earth Day is tomorrow. Is AI good for the environment? Bad?
+  - Is AI good for society? Bad?
+  - Is AI good for human creativity? is it bad?
+- Christian perspective
+  - Something that Christians should consider as people who *consume* AI-powered products
+  - ...As people who *use* AI in their organizations
+  - ...as people who *develop* AI?
