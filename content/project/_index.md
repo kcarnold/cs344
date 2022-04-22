@@ -1,5 +1,6 @@
 ---
 title: "Project"
+toc: true
 ---
 
 This course will culminate in a semester project. Successful projects will demonstrate that you can:
