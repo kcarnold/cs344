@@ -2,31 +2,45 @@
 title: "Forum Posts 22SP"
 ---
 
-## Week 14: Wrap-Up
+## Wrap-Up
 
 **Have you done your course evals?**
 
 ### Projects
 
-Revised specs are on the website, including grading and some detailed pointers on how to do an "expository notebook" project.
+- Showcase is next Thursday 9am in our normal lab space.
+  - There are about 18 projects, so we will divide into 5 clusters of 3 or 4 projects each.
+  - Everyone will demo their work to the others in their clusters.
+  - Each cluster will pick one or two projects to present to the whole class.
+  - Everyone is expected to attend; Effort points will be awarded.
+- Revised specs are on the website, including [grading](https://cs.calvin.edu/courses/cs/344/22sp/project/#grading) and some detailed [pointers on how to do an "expository notebook" project](https://cs.calvin.edu/courses/cs/344/22sp/project/replication/#expository-notebooks-notebookify).
 
 Also, several projects might benefit from using [captum](https://captum.ai/tutorials/) (for interpreting model predictions) and [streamlit](https://streamlit.io/) (for an extremely easy way to make AI-powered web apps).
 
 ### Optional Homework
 
-I've posted an optional homework. It's pretty practical and hands-on, and may actually help some people with their projects. You can choose to use it to replace any of your other mastery grades, including the project grade. (You don't have to specify which one, I'll just configure Moodle to drop the lowest.)
+As mentioned in class, I've posted an *optional* [homework](https://cs.calvin.edu/courses/cs/344/22sp/units/13hcai/homework/). It's pretty practical and hands-on, and may actually help some people with their projects. You can choose to use it to replace any of your other mastery grades, including the project grade. (You don't have to specify which one, I'll just configure Moodle to drop the lowest.)
 
 If you started it already, I made a minor revision: the example Transformer model now implements multi-head attention. (I couldn't stop myself.)
 
 ### Summer Opportunities
 
-I'm running an open summer research team on applying language models to help people communicate. At least 8 people have expressed interest in participating in some way. I'd like to invite you to also. There are two aspects to consider:
+I'm running an open summer research team on applying language models to help people communicate. At least 8 people have expressed interest in participating in some way. I'd like to invite you to join us. There are two parts to consider:
 
 1. I'm going to be teaching an unofficial "May intensive" (aka bootcamp), starting May 9, for the summer team. The goal is to bring everyone up to speed on language modeling with Transformers and some basic web development. We'll get our hands quite dirty (replicating a research paper from scratch and building a web UI for it, for example). We'll have some students who haven't done much CS and some who are coming from this class, so it should be a diverse crowd!
 2. After the intensive, we'll break out into small groups to do projects. If you've wanted to do an AI project beyond the constraints of this class, here's an opportunity. Participating in the intensive is highly recommended but not strictly required for this part.
 
 If you're interested in either part, please let me know!
 
+### Grading
+
+Sorry I'm still behind on grading. Since this means that you haven't had the revision opportunities for a few assignments, I'll be extra lenient when assigning final grades.
+
+### Feedback
+
+The course evals give only a narrow view of your experience with this course. More feedback will help us continue to improve. **Simple way to leave anonymous feedback**: reply to this Piazza post.
+
+Thanks for a great semester, and see you Thursday!
 
 ## Week 13: Finishing RL, Starting Human-Centered AI
 
