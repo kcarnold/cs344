@@ -5,10 +5,6 @@ due: 2022-04-21
 draft: false
 ---
 
-Our goal for the homework assignment this week is:
-
-- Practice thinking about and working with different kinds of sequence models
-
 ## Count the Parameters
 
 The large language model we looked at for our discussion last week, PaLM, reports that it has 540 billion parameters. What are all of those numbers used for? This week, we'll count parameters.
