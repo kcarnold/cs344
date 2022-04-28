@@ -81,15 +81,15 @@ Submit (as a Jupyter notebook, `proposal.ipynb`), an enhanced version of your vi
 </details>
 
 - **Walkthrough meetings**: Meet with the professor (in person or online) before Reading Recess. Show what steps you have taken so far.
-- Attend the **final project showcase** in which you can see everyone’s project. Be prepared to demo your system and to explain its key points.
+- Attend the **final project showcase** in which you can see everyone’s project. Be prepared to demo your system and to explain its key points. Presentations are informal, so slides are not required (but may be helpful if your notebook is large or your results don't easily fit in a notebook.)
 
 ## Final Deliverables
 
 By the **end of the day of final presentations**, submit the following:
 
--   A technical report on the project
+-   A technical report on the project. This can be your Jupyter notebook file, or you may use a different technology if you want to include results that don't fit in a notebook easily.
 -   A **short explanation of the technology you build on** for a nontechnical audience.
--   Supporting materials, including code, as appropriate
+-   Supporting materials, including code/notebooks, as appropriate
 
 The following sections provide additional detail about each component.
 

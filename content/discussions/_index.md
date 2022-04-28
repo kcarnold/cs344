@@ -131,8 +131,12 @@ You may also just send the file directly to the instructor. But if you do the ab
 
 ## Summary Report
 
-At the end of the course, you'll write a 1000-word (TODO: finalize word count) essay for a nontechnical audience about the broader issues raised by an AI topic of your choice. You may choose a topic of one of the discussion forums or listed on the topic sign-up sheet; if you would like to write about a topic other than those, please ask the instructor for approval first.
+At the end of the course, you'll write a short essay for a nontechnical audience about the broader issues raised by an AI topic of your choice. You may choose a topic of one of the discussion forums or listed on the topic sign-up sheet; if you would like to write about a topic other than those, please ask the instructor for approval first.
 
 Your essay should address all of the applicable questions in the "Questions about Technologies" section above.
 
-You are encouraged to discuss how any of the issues you discuss arose in your course project. However, if your course project does not address related issues, make sure to include a brief statement in your project report about broader perspectives, such as answers to the main questions above.
+You are strongly encouraged to make connections to the topic of your course project, where possible.
+
+Aim for a length between 600 and 1000 words, but more importantly, aim to be clear while being concise.
+
+You are encouraged to discuss these issues with other students, such as those in your project team; however, *the writing should be your own*.
