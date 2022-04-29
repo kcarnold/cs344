@@ -81,7 +81,7 @@ Submit (as a Jupyter notebook, `proposal.ipynb`), an enhanced version of your vi
 </details>
 
 - **Walkthrough meetings**: Meet with the professor (in person or online) before Reading Recess. Show what steps you have taken so far.
-- Attend the **final project showcase** in which you can see everyone’s project. Be prepared to demo your system and to explain its key points. Presentations are informal, so slides are not required (but may be helpful if your notebook is large or your results don't easily fit in a notebook.)
+- Attend the **final project showcase** in which you can see everyone’s project. See details below.
 
 ## Final Deliverables
 
@@ -137,7 +137,9 @@ Aim for a description that would fit on one page or less, including a carefully 
 
 The final course meeting (during the designated final exam period) will be devoted to final project presentations. Feedback on others' projects is expected, so attendance is mandatory.
 
-Aim for about 5 minutes of content. All team members should present.
+Be prepared to demo your system and to explain its key points. Presentations are informal, so slides are not required (but may be helpful if your notebook is large or your results don't easily fit in a notebook.)
+
+Aim for about 5 minutes of content. All team members should participate.
 
 ### Supporting Material
 
