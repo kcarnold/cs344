@@ -3,6 +3,7 @@ all: deploy
 
 HUGO_FLAGS := --buildDrafts --buildFuture
 DEST_DIR := /tmp/cs344-build/
+DEPLOY_TARGET := csweb:/webroot/courses/cs/344/23sp/
 
 slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides -iname '*.Rmd' -and -not -iname "*slides-common*"))
 slide_pdfs := $(patsubst %.html,%.pdf,$(slide_htmls))
@@ -41,12 +42,12 @@ content/all_fundamentals.md: $(fundamentals)
 # Deploy to cs-prod, first pass (before building slide PDFs)
 deploy-quick: $(slide_htmls) $(fundamentals) $(fundamentals_html) content/all_fundamentals.md $(handouts)
 	hugo $(HUGO_FLAGS) --destination ${DEST_DIR} --cleanDestinationDir
-	rsync -rxi --delete-after ${DEST_DIR}/ cs-prod:/webroot/courses/cs/344/22sp/
+	rsync -rxi --delete-after ${DEST_DIR}/ ${DEPLOY_TARGET}
 # --times --delete-after --delete-excluded
 
 # Deploy again after building slide PDFs (which are slow).
 deploy-pdf: deploy-quick $(slide_pdfs)
-	rsync -rxi --delete-after ${DEST_DIR}/ cs-prod:/webroot/courses/cs/344/22sp/
+	rsync -rxi --delete-after ${DEST_DIR}/ ${DEPLOY_TARGET}
 
 deploy: deploy-quick deploy-pdf
 

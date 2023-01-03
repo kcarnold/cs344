@@ -1,6 +1,6 @@
-baseurl: 'https://cs.calvin.edu/courses/cs/344/22sp/'
+baseurl: 'https://cs.calvin.edu/courses/cs/344/23sp/'
 languageCode: "en-us"
-title: "CS 344 Spring 2022 at Calvin University"
+title: "CS 344 Spring 2023 at Calvin University"
 theme: "hugo-xmin"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 footnotereturnlinkcontents: "↩"
