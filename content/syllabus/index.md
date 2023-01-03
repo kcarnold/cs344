@@ -4,7 +4,7 @@ title: "Syllabus"
 
 This is a hands-on course on AI systems using machine learning, with a particular emphasis on deep neural networks.
 
-- **Instructor**: Kenneth C. Arnold, Calvin University, North Hall NH298
+- **Instructor**: [Ken Arnold](https://kenarnold.org), Calvin University, North Hall NH298
 - **Meeting Time**: MWF 11:00-11:50, SB 354 (Gold Lab)
 - **Lab Hours**: Generally Monday and Thursday afternoons; see my [Calendar](https://kenarnold.org/calendar.html) for details and exceptions. Or message me directly; time permitting, I'd love to chat.
 
@@ -25,7 +25,7 @@ By the end of this course, you will demonstrate growth in your ability to:
 
 ## Prerequisites
 
-Familiarity with computer science concepts at the level of CS 212 will be generally expected. Beyond that, students should come to this course with some (perhaps rusty) ability to:
+A background at the level of either CS 212 or DATA 202 will be be generally expected. Beyond that, students should come to this course with some (perhaps rusty) ability to:
 
 - Read and write Python code (or be willing to invest significant energy the first few weeks picking it up)
 - Think systematically, generate and test hypotheses to explain observations, and communicate that thinking in precise language
@@ -42,6 +42,8 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
   - Links will also be provided to the author's [video lectures](https://course.fast.ai/videos/?lesson=1) corresponding to each section, where applicable.
   - You may find it helpful to browse their [forum](https://forums.fast.ai/c/part1-v4/46), or even post questions there.
 
+- After the fast.ai material we'll switch to the [Natural Language Processing with Transformers Book](https://transformersbook.com/), which is also available in the bookstore. (If cost is a barrier for you, talk with me.)
+
 - We will be using *Ed Discussions* for Q&A. Many students have found that Ed works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Ed. Access Ed by clicking on the link in Moodle.
 
 - The lab machines are configured with the software needed in Linux. We'll generally use the Gold lab because its GPUs are slightly better, but Maroon should usually work too. For times when you need or want additional computing resources, you may use [Borg](https://borg.calvin.edu/), [Google Colab](https://colab.research.google.com/), [Paperspace](https://gradient.paperspace.com/), or other services. **The Guacamole remote access machines have older GPUs**, so see notes in the Lab 1 and 2 instructions for tips on making things run there (or just use Google Colab).
@@ -52,46 +54,28 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
 
 The final course grade will be composed of 2 elements:
 
-- **Effort**: did you do it, on time?
-- **Mastery**: did you get it?
+- **Outcome**: did you achieve the learning objectives?
+- **Process**: did you put *wise effort* into this class?
 
-### How are Effort grades computed?
+The Moodle gradebook will compute an approximate suggested grade based on weighting both elements equally. However, in the closing weeks of the semester you'll have a one-on-one meeting with the instructor to discuss your final grade. You will propose a final grade and justify it using your current work and write a contract of what you will achieve by the end of the semester (primarily the final project).
 
-Effort points are awarded for satisfactory effort by the due date and are intended to keep you from getting behind in the course. The following types of activities count as effort points:
+### How are Process grades computed?
 
-- **Labs**, **Homework**, and **Reflections** (see below) will be considered satisfactory if an attempt has been made to answer all questions by the due date. Each activity will be allocated 5 effort points. On-time submissions receive all 5 points; late turn-ins are penalized by 1 point each business day (i.e., excluding weekends).
-- **Discussion Forums** (see [details](/discussions/)) will be awarded 2 effort points if an original post with intellectual substance is made by the due date. Many discussion assignments will also include one or two replies to other students, which will count for 1 effort point each. Late posts may receive half credit.
-- All **Quizzes** (both preparation and review) count as 5 effort points. The actual score will be used: unlimited attempts will be allowed, so perfect scores are expected. Moodle makes it tedious to manage late quizzes, so each quiz will officially close a week late and no late quizzes will be accepted.
+Most Process points are awarded for satisfactory effort on selected assignments (not announced in advance) by the due date, to incentivize staying on track in the course. Other activities, such as reflections and peer feedback, will also be graded for Process.
+
+Process points vary based on type of assignment:
+
+- **Fundamentals Notebooks**, **Homework** and **Reflections** (see below) will be considered satisfactory if an attempt has been made to answer all questions by the due date. Each activity will be allocated 5 Process points. On-time submissions receive all 5 points; late turn-ins are penalized by 1 point each business day (i.e., excluding weekends).
+- **Discussion Forums** (see [details](/discussions/)) will be awarded 2 Process points if an original post with intellectual substance is made by the due date. Many discussion assignments will also include one or two replies to other students, which will count for 1 Process point each. Late posts may receive half credit.
+- **Quizzes** (both preparation and review) can earn up to 5 Process points.
 
 ### Can I turn in things late?
 
-Everyone will receive 5 free effort points, i.e., you get five grace days. Please reserve these for cases of personal hardship. Exemptions per assignment will be granted in very limited circumstances.
+Everyone will receive 5 free Process points, i.e., you get five grace days. Please reserve these for cases of personal hardship. Exemptions per assignment will be granted in limited circumstances.
 
-When you're turning in something late, you will mention this in the Reflection for the week.
+### How are Outcome grades computed?
 
-### What are Mastery grades?
-
-The *mastery* component of grading (inspired by a system used at [Grinnell College](https://osera.cs.grinnell.edu/csc151/syllabus/)) will be composed of one or two grades for each unit, corresponding to key assignments in that unit (typically a Homework).
-
-Mastery will be graded on a four-point scale (adapted from the [EMRF rubric](http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf) by Stutzman and Race):
-
-- **E**: Excellent
-  - Demonstrates complete understanding of the material
-  - No errors; could serve as an example solution
-- **M**: Meets expectations
-  - Demonstrates complete understanding of the material
-  - Minor errors
-- **R**: Needs Revision
-  - Demonstrates limited understanding of the material
-  - Many minor errors or one or more major errors
-- **N**: Not completed
-  - Not completed to a degree where understanding is evident
-
-Grades on the semester project and on perspectival reports will add additional mastery grades.
-
-### How are Mastery grades computed?
-
-The mapping of Mastery grades to numbers and their weighting with Effort grades will be determined at the end of the semester so that if you achieve all M grades with minimal late submissions you should expect at least a B+. I will make a reasonable attempt to keep the gradebook in Moodle configured to approximate this grade, but do not be discouraged by temporary low numerical grades in Moodle.
+Outcome grades will be computed by an equal weighting between Homework, Tests (3 midterms, no final) and the Final Project.
 
 ### How do I revise assignments?
 
@@ -102,17 +86,9 @@ Revisions are expected and highly encouraged. You may submit **up to one revisio
   - What assignment you're revising (you may revise any past assignment that was graded for Mastery)
   - A concise and specific explanation of the original error(s) and how you addressed them. This should convince the instructor that you have not only achieved a correct result but have learned through the process.
 
-Revisions with a convincing explanation can achieve up to an Excellent grade for its Mastery component. Submitting a revision has no effect on the Effort grade.
-
-### This sounds unusual. Will we actually be doing this??
-
-This grading policy is experimental and depends on student buy-in and participation. I reserve the right to change the grading policy at any point.
-
 ### Can we work in pairs?
 
-Lab, homework, and project activities should generally be done in pairs, though solo work is also fine. Teams of 3 can be okay too.
-
-Some weeks there will be review assignments available, which will provide you the opportunity to demonstrate individual mastery. These assignments *must* be done individually, without consulting other students or aids.
+Everything you turn in in this class should be your own work. However, there will be *structured* opportunities to provide help and feedback to other students; these opportunities will be discussed in class.
 
 ### Are Incomplete grades offered?
 
@@ -152,17 +128,17 @@ We will not always do this well. If you or someone else in this class is hurt by
 
 ## Typical Weekly Expectations
 
-- **Weekend**: read (actively!) a textbook chapter, watch a video lecture
-- **Monday**: prep quiz should be completed.
-- **Tuesday**: lab due (if there is a lab)
+- **Weekend**: read (actively!) a textbook chapter and/or watch a video lecture; complete a prep quiz before class on Monday.
 - **Wednesday**: discussion forum due by class time, come to class with insights to share
-- **Thursday**: weekly homework due; reflection due (every other week)
+- **Friday 5pm**: homework and/or reflection due
 
 ### Reflections
 
-A *Reflection* is a summary of your learning the past two weeks. They are typically *due Thursday end of day* and typically include:
+A *Reflection* is a summary of your learning the past two weeks. They typically include:
 
 - A response to each of the learning objectives for each of the two weeks.
 - Feedback to the instructor about how things are going
 
 Details are given in the specific assignments.
+
+*Note*: We have not yet finalized whether or not to do reflections this year.
