@@ -5,21 +5,22 @@ title: "Syllabus"
 This is a hands-on course on AI systems using machine learning, with a particular emphasis on deep neural networks.
 
 - **Instructor**: Kenneth C. Arnold, Calvin University, North Hall NH298
-- **Meeting Time**: MWF 11:30-12:20, SB 354 (Gold Lab)
-- **Office/Teams Hours**: Generally Monday and Thursday afternoons; see my [Google Calendar](https://kenarnold.org/calendar.html) for details and exceptions. Or message me directly; time permitting, I'd love to chat.
+- **Meeting Time**: MWF 11:00-11:50, SB 354 (Gold Lab)
+- **Lab Hours**: Generally Monday and Thursday afternoons; see my [Calendar](https://kenarnold.org/calendar.html) for details and exceptions. Or message me directly; time permitting, I'd love to chat.
 
 ## Objective
 
 By the end of this course, you will demonstrate growth in your ability to:
 
-- Design a machine learning system to address a given challenge.
+- Design a machine learning (ML) system to address a given challenge.
   - Select an appropriate ML approach to solve a problem.
   - Map characteristics of the problem onto elements of the approach.
   - Identify necessary characteristics of the data required for an ML system.
 - Implement machine learning systems using both high-level and low-level programming interfaces.
-  - Write code to implement the forward pass of linear regression, logistic regression, and neural net extensions thereof. (compute predictions and loss)
   - Design and implement data preprocessing processes to encode data into a format appropriate for machine learning modeling.
-- Critically analyze the use and misuse of AI and ML techniques in situations affecting people.
+  - Write code to implement the forward pass (computing predictions and loss) for linear regression, logistic regression, and neural net extensions thereof.
+  - Use automatic differentiation to train a model using stochastic gradient descent.
+- Analyze the use and misuse of AI and ML techniques in situations affecting people.
 - Describe the history and trajectory of artificial intelligence.
 
 ## Prerequisites
@@ -27,7 +28,7 @@ By the end of this course, you will demonstrate growth in your ability to:
 Familiarity with computer science concepts at the level of CS 212 will be generally expected. Beyond that, students should come to this course with some (perhaps rusty) ability to:
 
 - Read and write Python code (or be willing to invest significant energy the first few weeks picking it up)
-- Think systematically, generate and test hypotheses to explain observations, and communicate that thinking precisely.
+- Think systematically, generate and test hypotheses to explain observations, and communicate that thinking in precise language
 - Manage time, individually and in small groups
 - Collaborate to solve problems
 
@@ -41,7 +42,7 @@ Familiarity with computer science concepts at the level of CS 212 will be genera
   - Links will also be provided to the author's [video lectures](https://course.fast.ai/videos/?lesson=1) corresponding to each section, where applicable.
   - You may find it helpful to browse their [forum](https://forums.fast.ai/c/part1-v4/46), or even post questions there.
 
-- We will be using Piazza for Q&A. Many students have found that Piazza works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Access Piazza by clicking on the link in Moodle.
+- We will be using *Ed Discussions* for Q&A. Many students have found that Ed works well for getting you help fast and efficiently from classmates and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Ed. Access Ed by clicking on the link in Moodle.
 
 - The lab machines are configured with the software needed in Linux. We'll generally use the Gold lab because its GPUs are slightly better, but Maroon should usually work too. For times when you need or want additional computing resources, you may use [Borg](https://borg.calvin.edu/), [Google Colab](https://colab.research.google.com/), [Paperspace](https://gradient.paperspace.com/), or other services. **The Guacamole remote access machines have older GPUs**, so see notes in the Lab 1 and 2 instructions for tips on making things run there (or just use Google Colab).
 
