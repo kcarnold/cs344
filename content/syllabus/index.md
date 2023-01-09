@@ -5,7 +5,7 @@ title: "Syllabus"
 This is a hands-on course on AI systems using machine learning, with a particular emphasis on deep neural networks.
 
 - **Instructor**: [Ken Arnold](https://kenarnold.org), Calvin University, North Hall NH298
-- **Meeting Time**: MWF 11:00-11:50, SB 354 (Gold Lab)
+- **Meeting Time**: MWF 11:00-11:50, NH 253 or SB 354 (Gold Lab).
 - **Lab Hours**: Generally Monday and Thursday afternoons; see my [Calendar](https://kenarnold.org/calendar.html) for details and exceptions. Or message me directly; time permitting, I'd love to chat.
 
 ## Objective
