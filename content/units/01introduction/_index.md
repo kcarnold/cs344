@@ -1,6 +1,5 @@
 ---
 title: "Unit 1: Introduction"
-date: 2022-01-10
 weight: 1
 ---
 
@@ -10,7 +9,7 @@ Students who complete this unit will demonstrate that they can:
 - Describe the overall approach of how modern AI learns from data
 - Identify some of the major milestones in the history of AI.
 - Implement basic numerical computing operations using PyTorch
-- Implement a simple image classifier on a pre-wrangled dataset using fast.ai.
+- Implement a simple image classifier on a pre-wrangled dataset using the `fastai` library.
 
 ## Preparation
 
