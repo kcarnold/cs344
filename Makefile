@@ -22,7 +22,7 @@ $(handouts) : %.pdf: %.md
 
 # Build PDFs of slides
 %.pdf: %.html
-	decktape --pause 500 --chrome-arg=--allow-file-access-from-files "$<" "$@"
+	decktape --pause 250 --chrome-arg=--allow-file-access-from-files "$<" "$@"
 
 # Build source files from RMarkdown (blogdown). Not currently using this.
 %.markdown: %.Rmarkdown
