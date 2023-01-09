@@ -1,8 +1,6 @@
 ---
 title: 'Lab 1: Warmup'
-date: 2022-01-14
-tags:
-  - lab
+draft: true
 ---
 
 <!-- Next year:
