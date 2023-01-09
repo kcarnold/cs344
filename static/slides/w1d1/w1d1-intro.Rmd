@@ -1,9 +1,8 @@
 ---
 title: "Welcome to CS 344"
-subtitle: "AI / Machine Learning<br>Spring 2022"
+subtitle: "AI / Machine Learning<br>Spring 2023"
 author: 
   - "Ken Arnold"
-date: '2022-01-10'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -12,7 +11,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      ratio: "4:3"
+      ratio: "16:9"
 ---
 
 ```{r setup, include=FALSE}
@@ -30,13 +29,15 @@ library(xaringanthemer)
 #)
 ```
 
-## Masks required.
+## My Story
 
-- Even if you're fully vaccinated.
-- Even if you just recovered from COVID
-- Up over nose, down over chin.
-
-Recommended: surgical + cloth, or N95/KN95/KF94
+- Cornell
+- MIT Media Lab (+humanism)
+- Luminoso
+- Harvard
+  - organizing things
+  - writing and predictive text
+- "Do justice with tech"?
 
 ---
 
@@ -69,19 +70,28 @@ To understand this, we must act intelligently—we must recall what God did in a
 
 ---
 
+## Objectives
+
+- Dispel any magic about AI
+- Bring wisdom to AI use and development
+- Get y'all jobs that ChatGPT won't replace
+- Sharpen coding skills
+
+---
+
 ## Minimal Logistics
 
 Before Wednesday class:
 
-* Skim the Syllabus
-* Sign up for Piazza
-* Fill out survey
+- Skim the Syllabus
+- Sign up for Ed
+- Fill out survey
 
 Before Friday class:
 
-* Get *Deep Learning for Coders* (or read the notebook version) and read chapter 1
-* Watch <https://course.fast.ai/videos/?lesson=1>
-* Complete the reading quiz on Moodle
+- Get *Deep Learning for Coders* (or read the notebook version) and read chapter 1
+- Watch <https://course.fast.ai/Lessons/lesson1.html> - includes extra material so don't expect mastery.
+- Complete the reading quiz on Moodle
 
 
 ---
