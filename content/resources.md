@@ -156,12 +156,14 @@ Tips and Notes:
 
 ### Tools
 
-- [GitHub's Git Handbook](https://guides.github.com/introduction/git-handbook/)
+- Git and GitHub
+  - [GitHub's Git Handbook](https://guides.github.com/introduction/git-handbook/)
+  - [Learn Git Branching](https://learngitbranching.js.org/?locale=en_US)
 - Training Tips
   - <https://huggingface.co/blog/simple-considerations>
   - <http://josh-tobin.com/assets/pdf/troubleshooting-deep-neural-networks-01-19.pdf>
   - A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
-  - https://blog.floydhub.com/training-neural-nets-a-hackers-perspective/>
+  - https://blog.floydhub.com/training-neural-nets-a-hackers-perspective/
 - [RunwayML](https://runwayml.com/) (very high-level interface)
 - Streamlit
 - [WandB](https://wandb.ai/) (experiment tracking)
