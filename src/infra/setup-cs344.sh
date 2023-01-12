@@ -2,12 +2,13 @@
 
 #source ~/.profile
 
-if grep -q -F "/home/cs/344" ~/.profile; then
+if grep -q -F "/home/cs/344" ~/.bashrc; then
     echo "CS 344 already set up."
 else
     # Make sure to leave a blank line in case there isn't.
-    echo >> ~/.profile
-    echo "[ -f /home/cs/344/cs344-rc ] && source /home/cs/344/cs344-rc" >> ~/.profile
+    echo >> ~/.bashrc
+    echo "# Setup for CS344" >> ~/.bashrc
+    echo "[ -f /home/cs/344/cs344-rc.sh ] && source /home/cs/344/cs344-rc.sh" >> ~/.bashrc
     echo "Done. You may need to log out and back in."
 fi
 
