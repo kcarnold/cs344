@@ -41,12 +41,11 @@ You have a choice between several different ways to run your code
 #### Setup on Kaggle or Colab
 
 - https://course.fast.ai/Lessons/lesson1.html#how-to-complete-lesson-1
-- You'll need to link GitHub.
-
-### Environment Setup
-
+- You'll need to "Link to GitHub" (on the File menu)
 
 ## Jupyter Notebooks
+
+On a lab computer, run 
 
 Make a folder for this class, perhaps `cs344`. Download the [Lab 1 Template notebook](lab01.ipynb) and put it in your folder.
 
