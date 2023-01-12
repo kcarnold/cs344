@@ -12,41 +12,37 @@ draft: true
 
 ## Objectives
 
-- Use a Jupyter notebook to run Python code on the lab computers
+- Use a Jupyter notebook to run Python code
 - Start to uncover how the fast.ai image classifier training pipeline works
 - Apply mathematical operations to arrays using PyTorch
 - Encapsulate functionality into functions
 
-<div class="boxed" style="background: #fee;">
+## Step 1: Create your portfolio repo
 
-### Hotfix
+Go to this GitHub Classroom link and follow the instructions.
 
-If you were hitting problems on Friday in lab, it was probably because of a [bug](https://github.com/fastai/fastcore/issues/353). The fix didn't make it into the version that's installed on the lab computers, so here's a hot-fix:
+### Step 2: Setup your Environment
 
-1. In the folder where your `lab01.ipynb` notebook file was, you may find a temporary folder named `tmpXXXXX`, where `XXX` are random characters. Look inside to see if it has folders named `annotations` and/or `images`. If so, you should delete this `tmpXXX` folder.
-2. On the Terminal, run `pip install 'fastcore>1.3.26'`.
-3. Restart the kernel on any Jupyter notebook that's running: on the "Kernel" menu, select "Restart and Run All".
+You have a choice between several different ways to run your code
 
-All the image-classifier code should now run.
+1. Use the lab computers. Pro: all the software is installed; you can use nice tools like VS Code. Con: you need to be physically in the lab. (Guacamole remote access is limited and doesn't have good GPUs.)
+2. Use a cloud provider, like Kaggle or Google Colab. Pro: can run things anywhere, with decent GPUs. Con: availability may be limited if servers are busy; Git integration is not as refined.
+3. Set things up on your laptop. Some things might be quite slow if you don't have a GPU configured.
 
-> If anyone is interested in what happened: the `untar_data` function extracts the archive into a temporary directory and then moves it to where you want it. (This is a bug because only the target directory should need to have space for the extracted data.) The temporary directory was incorrectly specified to be the *current* directory (`.`), which on our lab computers is on a network filesystem. So a room full of computers all running that same command increased the load on our local network to the point where the command took unacceptably long. The fix in the new release is to use the system temp storage, which is not necessarily the right place either but at least isn't on the network.
-
-</div>
-
-### Environment Setup
+#### Setup on Lab Computers
 
 1. Boot the computer to Linux and log in.
 2. Open a Terminal (main menu in top-left, start typing "term" and it should show up)
 3. Practice using tab-complete: type `/home/cs/344/set` and press the Tab key. You should get `/home/cs/344/setup-cs344.sh`. Run that script.
-   You should see something like:
-
-  ```
-  setting up Anaconda
-  setting up TORCH_HOME
-  setting up FastAI config
-  Done.
-  ```
 4. Log off and log back in.
+
+#### Setup on Kaggle or Colab
+
+- https://course.fast.ai/Lessons/lesson1.html#how-to-complete-lesson-1
+- You'll need to link GitHub.
+
+### Environment Setup
+
 
 ## Jupyter Notebooks
 
