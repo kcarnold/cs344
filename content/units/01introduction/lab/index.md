@@ -19,7 +19,9 @@ draft: true
 
 ## Step 1: Create your portfolio repo
 
-Go to this GitHub Classroom link and follow the instructions.
+Go to [this GitHub Classroom link](https://classroom.github.com/a/n7uoibsq) and follow the instructions.
+
+> We're only using GitHub Classroom to get you set up with a repo quickly. You don't need to save the classroom link, just your repo.
 
 ### Step 2: Setup your Environment
 
