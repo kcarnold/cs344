@@ -43,3 +43,7 @@ Thumbs.db
 
 # Hugo
 .hugo_build.lock
+
+/moodle
+
+.vscode/*.log
