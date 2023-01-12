@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ~/.profile
+#source ~/.profile
 
 if grep -q -F "/home/cs/344" ~/.profile; then
     echo "CS 344 already set up."
@@ -8,8 +8,8 @@ else
     # Make sure to leave a blank line in case there isn't.
     echo >> ~/.profile
     echo "[ -f /home/cs/344/cs344-rc ] && source /home/cs/344/cs344-rc" >> ~/.profile
+    echo "Done. You may need to log out and back in."
 fi
-echo Done.
 
 
 # # Set up conda environment
