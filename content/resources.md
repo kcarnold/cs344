@@ -123,6 +123,7 @@ Tips and Notes:
 
 -   [Appendix](https://nbviewer.jupyter.org/github/fastai/fastbook/blob/master/app_jupyter.ipynb) from our book
 -   some [tips and tricks](https://github.com/NirantK/best-of-jupyter)
+- If you're using git on the command line (instead of VS Code), you may appreciate `nbdiff`.
 
 ## Materials
 
