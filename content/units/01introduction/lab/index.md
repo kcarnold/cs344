@@ -29,7 +29,7 @@ You have a choice between several different ways to run your code
 
 1. Use the lab computers. Pro: all the software is installed; you can use nice tools like VS Code. Con: you need to be physically in the lab. (Guacamole remote access is limited and doesn't have good GPUs.)
 2. Use a cloud provider, like Kaggle or Google Colab. Pro: can run things anywhere, with decent GPUs. Con: availability may be limited if servers are busy; Git integration is not as refined.
-3. Set things up on your laptop. Some things might be quite slow if you don't have a GPU configured.
+3. Set things up on your laptop. Some things might be quite slow if you don't have a GPU configured. But you'll be able to use your own filesystem, and you'll have everything with you when you come to class.
 
 #### Setup on Lab Computers
 
