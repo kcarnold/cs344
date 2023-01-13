@@ -36,9 +36,14 @@ You'll need to "Link to GitHub" (on the File menu)
 
 ## Jupyter Notebooks
 
+In this section, we'll practice working with Jupyter notebooks. You may find these references helpful:
+
+- [fast.ai Jupyter Notebook 101](https://nbviewer.org/github/fastai/course22/blob/master/01-jupyter-notebook-101.ipynb)
+- The Help menu in Jupyter
+
 On a **lab computer**, clone your Portfolio repo. The easiest way is to start VS Code, launch the command palette (Ctrl-Shift-P), and type Clone.
 
-Get the following notebook. On a lab computer, right click the link (not the preview). On Kaggle or Calab
+Get the following notebook. On a lab computer, right click the link (not the preview). For Kaggle, you'll Copy Link and then Import the notebook from that pasted link. There's a direct link to Colab.
 
 {{% fundamentals name="Jupyter Notebook Warmup" nbname="u01n0-notebook-warmup.ipynb" %}}
 
