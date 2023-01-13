@@ -48,12 +48,9 @@ You'll need to "Link to GitHub" (on the File menu)
 
 On a **lab computer**, clone your Portfolio repo. The easiest way is to start VS Code, launch the command palette (Ctrl-Shift-P), and type Clone.
 
-
-Make a folder for this class, perhaps `cs344`. Download the [Lab 1 Template notebook](lab01.ipynb) and put it in your folder.
-
-You can start the Jupyter Notebook server either by finding it on the main menu
+You can run your notebook code within VS Code, or if you prefer a simpler interface, you can use Jupyter. You can start the Jupyter Notebook server either by finding it on the main menu
 (start typing "jup" and it should come right up) or running `jupyter notebook`
-in a Terminal window. Find your Lab 1 notebook and open it.
+in a Terminal window.
 
 Run the Environment Check cells by selecting the first one and pressing Shift-Enter once for each cell. Stop when you get to "Jupyter Notebooks". A number will appear next to each of the code cells when they have run successfully.
 
