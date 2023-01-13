@@ -2,19 +2,10 @@
 title: 'Lab 1: Warmup'
 ---
 
-<!-- Next year:
-
-- test cases for linear layer
-- make sure that w.sum() != w @ x
-
--->
-
 ## Objectives
 
 - Use a Jupyter notebook to run Python code
 - Start to uncover how the fast.ai image classifier training pipeline works
-- Apply mathematical operations to arrays using PyTorch
-- Encapsulate functionality into functions
 
 ## Step 1: Create your portfolio repo
 

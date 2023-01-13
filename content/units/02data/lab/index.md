@@ -1,17 +1,24 @@
 ---
 title: 'Lab 2: Comparing classifiers, image batch structure'
-date: 2022-01-17
 summary: 'Try out some variations on a classification model.'
-draft: false
+draft: true
 ---
 
-<!-- next year: make it mandatory to do at least 2 trials and report a range of accuracy values -->
 
 ## Objectives
 
 - Run experiments to determine the effects of hyperparameters on classifier performance
 - Describe the structure of image batches
 - Write code to access and modify image data
+- Apply mathematical operations to arrays using PyTorch
+- Encapsulate functionality into functions
+
+## TODO
+
+- Reorganize this into the fundamentals
+- test cases for linear layer
+- make sure that w.sum() != w @ x
+- make it mandatory to do at least 2 trials and report a range of accuracy values
 
 ## Getting Started
 
