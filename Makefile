@@ -29,7 +29,7 @@ $(handouts) : %.pdf: %.md
 	Rscript -e "rmarkdown::render_site('"$<"', encoding = 'UTF-8')"
 
 # Generate distributed notebooks from Solutions notebooks.
-$(fundamentals) : %.ipynb : %_soln.ipynb
+$(fundamentals) : %.ipynb : %_soln.ipynb nb_strip.py
 	python nb_strip.py "$<" "$@"
 
 # Generate HTML previews of notebooks.

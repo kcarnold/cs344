@@ -9,6 +9,11 @@ nb = nbformat.read(in_filename, as_version=nbformat.NO_CONVERT)
 
 # Reset the kernel spec because sometimes my local environment has a different ipykernel name.
 nb['metadata']['kernelspec'] = {'display_name': 'Python 3', 'language': 'python', 'name': 'python3'}
+if 'vscode' in nb['metadata']:
+    del nb['metadata']['vscode']
+# https://github.com/jupyter/nbconvert/issues/1731
+if 'widgets' in nb['metadata']:
+    del nb['metadata']['widgets']
 
 out_switch_re = re.compile('\s*#([+-])out')
 
