@@ -100,6 +100,11 @@ Which one gets displayed? Can you figure out the general rule for what output ge
 
 In the next section, you'll find the image classifier code from Chapter 1 of the textbook.
 
+> References:
+> 
+> - https://github.com/fastai/course22/blob/master/00-is-it-a-bird-creating-a-model-from-your-own-data.ipynb
+> - https://github.com/fastai/course22/blob/master/02-saving-a-basic-fastai-model.ipynb
+
 Although the original was famously short, it was inhospitably jam-packed. So I've taken the liberty to space things out a bit and split it into multiple cells.
 
 {{% task %}}Run the code blocks as is.{{% /task %}}
