@@ -14,12 +14,12 @@
 {{ if .Sections }}
 {{ range .Sections }}
 <details open>
-  <summary><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> ({{.Date.Format "Jan 2"}})</summary>
+  <summary><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></summary>
   <ul style="margin: 0;">
       {{- $pages := .Pages.ByDate -}}
       {{- range (where $pages "Section" .Section ) -}}
       <li>
-        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> ({{ .Date.Format "Mon Jan 2" }})
+        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
       </li>
       {{- end -}}
     </ul>      
@@ -34,7 +34,7 @@
   {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
   {{ range (where $pages "Section" .Section ) }}
   <li>
-    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>  ({{with .Params.due }}due {{ (time .).Format "Mon Jan 2" }}{{ else }}{{ .Date.Format "Mon Jan 2" }}{{ end }})
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
   </li>
   {{ end }}
 </ul>
