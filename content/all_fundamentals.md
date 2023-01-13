@@ -2,6 +2,8 @@
 title: "Fundamentals Index"
 ---
 
+- Unit 1
+  - {{% fundamentals name="Jupyter Notebook Warmup" nbname="u01n0-notebook-warmup.ipynb" %}}
 - Unit 2
   - {{% fundamentals name="Classifier Diagnostics" nbname="u2n1-diagnose-image-classifier.ipynb" %}}
   - {{% fundamentals name="Image Operations" nbname="u2n2-image-ops.ipynb" %}}
