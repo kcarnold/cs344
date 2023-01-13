@@ -75,7 +75,7 @@ To understand this, we must act intelligently—we must recall what God did in a
 - Dispel any magic about AI
 - Bring wisdom to AI use and development
 - Get y'all jobs that ChatGPT won't replace
-- Sharpen coding skills
+- Sharpen coding skills (practice Python programming)
 
 ---
 
