@@ -14,13 +14,19 @@ Students who complete this unit will demonstrate that they can:
 ## Preparation
 
 - Read {{< fastbook num="2" nbname="02_production.ipynb" >}}
-    - *note: ignore the implementation details of `class DataLoaders`*; you only need to know that it has a  `.train` and a `.valid`, each of which are `DataLoader`s that take filenames and give batches of `(image, label)` pairs.
-    - If you want to replicate the code, use duckduckgo instead of trying to get a Bing API key.
+    - *note: ignore the implementation details of `class DataLoaders`*; you only need to know that it has a  `.train` and a `.valid`, each of which are `DataLoader`s that turn filenames into batches of `(image, label)` pairs.
+    - If you want to replicate the code, use duckduckgo (as the Unit 1 video does) instead of trying to get a Bing API key.
 - Start reading {{< fastbook num="3" nbname="03_ethics.ipynb" >}}
     - *note*: you can spread out this reading between this week and next week.
 - Watch {{< fastvideo num="2" >}}
-    - *note*: The first hour of {{< fastvideo num="3" >}} finishes up this chapter's material. The first 12 or so minutes may be particularly helpful at this point.
 - Complete the preparation quiz in Moodle.
+
+Note: to get the Jupyter Notebook extensions that Jeremy discusses on the lab machines, run the following at a Terminal:
+
+```sh
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+```
 
 <!-- Note for next year: 
 
