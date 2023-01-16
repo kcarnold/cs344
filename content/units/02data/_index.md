@@ -43,17 +43,19 @@ Read the paper that introduced a well-known dataset: [ImageNet](https://ieeexplo
 
 {{% details summary="Monday class" %}}
 
-- From Every Nation
-  - Scripture
-  - Vision
+- [From Every Nation](https://calvin.edu/directory/publications/from-every-nation-fen) (Calvin College, 2004)
+  - Scripture: [Revelation 7:9-10](https://www.biblegateway.com/passage/?search=Revelation+7%3A9-10&version=NIV&interface=print)
+  - <details><summary>Vision (p.9)</summary>
+    We envision a kingdom community in which cultural diversity is seen as normal; a Christian "family" that transcends ethnic, cultural, racial, and class boundaries: a communion of saints in which "each member should consider it his duty to use his gifts readily and cheerfully for the service and enrichment of the other members" (Lord's Day 21 of the Heidelberg Catechism); a community in which Reformed Christians from all of these groups see Calvin as their college. It is the biblical vision of Pentecost rather than the vision of Babel.</details>
   - Luxury of Remaining Neutral
+  - Reminder: January Series talk today (["To Stick with Love: King’s Vision for Today’s Movement"](https://calvin.edu/calendar/event.html?id=bda267a6-fe09-4417-883d-5a9ad6426c8a))
 - Examples of current racial justice concerns in AI
   - Facial Recognition, e.g., [Gender Shades](http://gendershades.org/overview.html)
   - Criminal Risk Assessment, e.g., [COMPAS](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
 - Class logistics
   - Guest lecture Wednesday
   - How does a college class look different in an AI world, changing rapidly, saturated with info? My emphasis: activities in community
-  - How to find all the things
+  - How to find all the things: Units page on the class website
     - Make sure you've got the right year! (Google gets 2022 😢)
 - Review [Lab 1](/units/01introduction/lab/)
   - How Fundamentals notebooks work
