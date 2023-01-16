@@ -105,3 +105,23 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 .exercise .highlight code {
   background: none;
 }
+
+/* details fixes, https://css-tricks.com/two-issues-styling-the-details-element-and-how-to-solve-them/ */
+details summary {
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+}
+
+/* details styling */
+details {
+  border: 1px solid #D6E0CC;
+  border-radius: 4px;
+}
+
+details > summary {
+  background-color: #D6E0CC;
+  padding: .5rem 1rem;
+}
