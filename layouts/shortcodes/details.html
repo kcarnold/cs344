@@ -1,9 +1,4 @@
 <details>
-  {{ $level := .Get "level" }}
-  {{ with .Get "summary"}}<summary>
-    {{ if $level }}<h{{ $level }}>{{ end }}
-      {{ . }}
-    {{ if $level }}</h{ $level }}>{{ end }}
-  </summary>{{ end }}
+  {{ $level := .Get "level" }}{{ with .Get "summary"}}<summary>{{ if $level }}<h{{ $level }}>{{ end }}{{ . }}{{ if $level }}</h{ $level }}>{{ end }}</summary>{{ end }}
   <div>{{ .Inner }}</div>
 </details>
