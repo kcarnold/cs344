@@ -117,11 +117,24 @@ details summary > * {
 
 /* details styling */
 details {
-  border: 1px solid #D6E0CC;
+  border: 1px solid #ccc;
   border-radius: 4px;
+  margin: 0.25rem 0;
 }
 
 details > summary {
   background-color: #D6E0CC;
   padding: .5rem 1rem;
+  overflow: auto; /* contain the floating description even if window is narrow */
+}
+
+/* discoverability */
+details > summary::after {
+  content: "(Click to open)";
+  float: right;
+  font-size: 75%;
+}
+
+details[open] > summary::after {
+  content: "(Click to close)";
 }
