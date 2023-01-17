@@ -59,7 +59,7 @@ In this section, we'll practice working with Jupyter notebooks. You may find the
 On a **lab computer**, clone your Portfolio repo. The easiest way is to start VS Code, launch the command palette (Ctrl-Shift-P), and type Clone.
 
 {{% task %}}
-Get the following notebook. On a lab computer, right click the link (not the preview). For Kaggle, you'll Copy Link and then Import the notebook from that pasted link. There's a direct link to Colab.
+Get the following notebook. On a lab computer, download the link (not the preview). For Kaggle, right-click and select Copy Link, then create a new Kaggle notebook and select Import from the File menu, then paste the link in the "Link" tab. For Colab, click the Colab link.
 
 {{% fundamentals name="Jupyter Notebook Warmup" nbname="u01n0-notebook-warmup.ipynb" %}}
 {{% /task %}}
