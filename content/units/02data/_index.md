@@ -96,6 +96,20 @@ Read the paper that introduced a well-known dataset: [ImageNet](https://ieeexplo
 
 {{% /details %}}
 
+{{% details summary="Wednesday class" %}}
+
+Guest lecture by Colin Davison. 
+
+- The basic process he walked through is the same in essence as the image classification we started working on last week and are continuing with over the next few weeks.
+- Here are some questions that you should ask yourself to check your understanding of the lecture (nothing formal to turn in yet, but these might show up on a future quiz, so think and discuss...):
+  1. What about his task made it supervised learning?
+  1. Why did he need to split the data? (What happened when he didn’t split it?)
+  1. What did he need to do to the text to make it usable by his classifier? (bonus: in what sense was the input a “bag of words”)
+  1. Can you give an example of a bigram? A unigram?
+  1. How did he put a number on how well the classifier did? (bonus: what additional numbers did he show at the seminar? What insight did they provide?)
+ 
+{{% /details %}}
+
 <!-- 
 Discussion Forum:
 
