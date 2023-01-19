@@ -64,7 +64,7 @@ def strip_source(source):
         if is_commented:
             uncommented = re.sub(r'^(\s*)(# )(.+)$', r'\1\3', line)
 
-            heredoc_match = re.match(r'(.+)\s+<<(.+)', uncommented)
+            heredoc_match = re.match(r'(.*)\s+<<(.+)', uncommented)
             if heredoc_match is not None:
                 result.append(heredoc_match.group(1))
                 end_str = heredoc_match.group(2).strip()
