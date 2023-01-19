@@ -6,8 +6,9 @@ title: "Fundamentals Index"
   - {{% fundamentals name="Jupyter Notebook Warmup" nbname="u01n0-notebook-warmup.ipynb" %}}
   - {{% fundamentals name="Train a simple image classifier" nbname="u01n1-train-clf.ipynb" %}}
 - Unit 2
+  - {{% fundamentals name="PyTorch Warmup" nbname="u02n1-pytorch.ipynb" %}}
   - {{% fundamentals name="Classifier Diagnostics" nbname="u2n1-diagnose-image-classifier.ipynb" %}}
-  - {{% fundamentals name="Image Operations" nbname="u2n2-image-ops.ipynb" %}}
+  - {{% fundamentals name="Image Operations" nbname="u02n2-image-ops.ipynb" %}}
 - Unit 4
   - {{% fundamentals name="compute-grad-PyTorch" nbname="u4n1-compute-grad-PyTorch.ipynb" %}}
   - {{% fundamentals name="Trace Simple Image Classifier" nbname="u4n2-trace-mnist.ipynb" %}}
