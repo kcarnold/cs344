@@ -6,7 +6,16 @@ title: "Resources"
 
 Here's a [Glossary](../glossary/) of some terms we've used in class. Please suggest additional terms to add!
 
-## `borg` Supercomputer
+## Coding Tips
+
+- General: [How to be a Wizard](https://wizardzines.com/zines/wizard/)
+- Debugging
+  - [A debugging manifesto](https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/)
+  - Python specific: Read the **end** of the traceback.
+
+## Computing
+
+{{% details summary="`borg` Supercomputer" level="3" %}}
 
 If you need more computing power or storage than the lab machines for your final projects, you can run on Borg.
 
@@ -73,29 +82,11 @@ If you need a notebook, please *don't* use the GPU node, because we only have 4 
 
 General instructions for using the [Slurm scheduler on Borg](https://borg.calvin.edu/resources-slurm.html)
 
-## fastai hotfixes
+{{% /details %}}
+
+### fastai hotfixes
 
 **Warning**: fastai drops incomplete batches in the training set, and `bs=1` would fail because of batch normalization. So use `bs = 2` for small data. (And more epochs.)
-
-`plot_top_losses` is broken. Here's a monkey-patch; add this as a new code cell just after your fastai imports:
-
-```python
-def _plot_top_losses(self, k, largest=True, **kwargs):
-    losses,idx = self.top_losses(k, largest)
-    if not isinstance(self.inputs, tuple): self.inputs = (self.inputs,)
-    if isinstance(self.inputs[0], Tensor): inps = tuple(o[idx] for o in self.inputs)
-    else: inps = self.dl.create_batch(self.dl.before_batch([tuple(o[i] for o in self.inputs) for i in idx]))
-    b = inps + tuple(o[idx] for o in (self.targs if is_listy(self.targs) else (self.targs,)))
-    x,y,its = self.dl._pre_show_batch(b, max_n=k)
-    b_out = inps + tuple(o[idx] for o in (self.decoded if is_listy(self.decoded) else (self.decoded,)))
-    x1,y1,outs = self.dl._pre_show_batch(b_out, max_n=k)
-    if its is not None:
-        plot_top_losses(x, y, its, outs.itemgot(slice(len(inps), None)), self.preds[idx], losses,  **kwargs)
-ClassificationInterpretation.plot_top_losses = _plot_top_losses
-```
-
-
-## Running Code
 
 ### Google Colab
 
@@ -109,11 +100,9 @@ To install fastai, insert a cell at the top that contains:
 from fastbook import *
 ```
 
-(In the past it was also necessary to install `torchtext==0.8.1`. I suspect this is no longer required but I have not tested that.)
-
 Tips and Notes:
 
-- Under the *Runtime* menu, select **Change runtime type** and select **GPU**. Otherwise many things will run very slowly.
+- If (and only if) you're working with images: Under the *Runtime* menu, select **Change runtime type** and select **GPU**. Otherwise many things will run very slowly.
 - If you open a notebook from GitHub, **any changes are not saved**! Make sure you select "*Copy to Drive*" on the toolbar if you want to save changes.
 - [intro](https://colab.research.google.com/notebooks/intro.ipynb), [overview](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
 - Press Ctrl-Shift-P to open the Command Palette. Lots of useful stuff there; try the "scratch code cell".
@@ -163,7 +152,7 @@ Tips and Notes:
 - Training Tips
   - <https://huggingface.co/blog/simple-considerations>
   - <http://josh-tobin.com/assets/pdf/troubleshooting-deep-neural-networks-01-19.pdf>
-  - A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
+  - [A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
   - https://blog.floydhub.com/training-neural-nets-a-hackers-perspective/
 - [RunwayML](https://runwayml.com/) (very high-level interface)
 - Streamlit
