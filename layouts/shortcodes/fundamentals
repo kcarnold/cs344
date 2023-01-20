@@ -1,4 +1,4 @@
 <a href="/fundamentals/{{ .Get "nbname" }}">{{ .Get "name" }}</a>
-(<a href="/fundamentals/{{ strings.TrimSuffix ".ipynb" (.Get "nbname") }}.html">preview</a>,
-<a href="https://colab.research.google.com/github/kcarnold/cs344/blob/main/static/fundamentals/{{ .Get "nbname" }}">Colab</a>)
+(name: <code>{{ .Get "nbname" }}</code>; show <a href="/fundamentals/{{ strings.TrimSuffix ".ipynb" (.Get "nbname") }}.html">preview</a>,
+open in <a href="https://colab.research.google.com/github/kcarnold/cs344/blob/main/static/fundamentals/{{ .Get "nbname" }}">Colab</a>)
 {{- /* strip trailing whitespace */ -}}
