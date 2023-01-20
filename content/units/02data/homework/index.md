@@ -25,7 +25,7 @@ To keep it manageable, we'll just work with the first 3 letters (`a` through `c`
 Try to make the best model you can, under the following constraints:
 
 1. No more than 100 training images.
-2. No more than 5 minutes compute time (on a Kaggle GPU) to train a model.
+2. No more than 5 minutes compute time (on a Kaggle, Colab, or lab machine GPU) to train a model.
 3. Only use models that are already built into `fastai`.
 
 ## Instructions
@@ -37,6 +37,7 @@ Try to make the best model you can, under the following constraints:
     - You can also take pictures of sketches on paper, whiteboards, etc.
     - You can share images, but no single image should be used by more than 3 people.
     - You should have at least 10 images per letter.
+    - To get started, you can use [this dataset](https://students.cs.calvin.edu/~ka37/example_letter_images.zip) I hacked together very quickly. But it's bad in various ways, so please collect your own.
 2. Organize your dataset into a folder structure like `images/c/c01.png`.
     - Make an `images/README.txt` describing how you collected the images (e.g., whether you used a mouse/finger/pen or took pictures of paper/whiteboard/chalkboard/documents you found in the Meeter Center/...)
 3. Train a classifier to indicate which letter is contained in the image.
