@@ -1,25 +1,16 @@
 ---
-title: "Homework 2: Train and evaluate a classifier on your own images"
-date: 2022-01-21
+title: "Homework 1: Train and evaluate a classifier on your own images"
 draft: false
 ---
 
 <!-- next year:
 
-- watch out for fastai small dataset issues. **GIVE A MINIMUM COUNT**.
-- maybe disable validation entirely, just use hw3 for validation?
 - Give students a clear outline of the code, and the structure of the responses (maybe even templates).
-- description of dataset
-  - examples of images
-- accuracy range observed
-  - prediction of what range of accuracy will likely be achieved in *future* unseen imaes
-- example and characterization of a mistake it made
-- summary of mistakes
 -->
 
 ## Goal
 
-In this assignment, you will train and evaluate your own image classifier using `fastai`.
+In this assignment, you will train and evaluate your own image classifier.
 
 Completing this homework will give you practice
 
@@ -28,35 +19,54 @@ Completing this homework will give you practice
 - Evaluating image classifiers
 - Explaining your decisions and their possible consequences.
 
+A famous image classification example is handwritten digits (called MNIST). For fun, we'll remix that idea and classify handwritten *letters*.
+To keep it manageable, we'll just work with the first 3 letters (`a` through `c`).
+
+Try to make the best model you can, under the following constraints:
+
+1. No more than 100 training images.
+2. No more than 5 minutes compute time (on a Kaggle GPU) to train a model.
+3. Only use models that are already built into `fastai`.
+
 ## Instructions
 
-**Do this assignment individually.** You may help each other, but *use Piazza* so all benefit.
+**Do this assignment individually.** You may help each other, but *use Ed* so all benefit.
 
-Pick two buildings on campus. Make a classifier that distinguishes photos of one from photos of the other.
+1. Collect your own set of images of handwritten letters, one letter per image. (Do this yourself, don't get it from the Internet.)
+    - I've hacked together [this little webapp](https://codepen.io/kcarnold/full/poZpdqX) to let you sketch and share/save. It's clunky; improvements welcome!
+    - You can also take pictures of sketches on paper, whiteboards, etc.
+    - You can share images, but no single image should be used by more than 3 people.
+    - You should have at least 10 images per letter.
+2. Organize your dataset into a folder structure like `images/c/c01.png`.
+    - Make an `images/README.txt` describing how you collected the images (e.g., whether you used a mouse/finger/pen or took pictures of paper/whiteboard/chalkboard/documents you found in the Meeter Center/...)
+3. Train a classifier to indicate which letter is contained in the image.
+4. Evaluate the accuracy of the classifier on the validation set.
+    - How accurate is the classifier overall?
+    - Which letter is it most successful at classifying? Give an example of a correctly classified image (show a specific image file and its classification).
+    - What mistakes does it make most frequently? Give an example of a mistake (show a specific image file and its classification).
+    - For the previous 3 questions, any ideas about *why*?
+    - Suppose someone else gave you one of their images. How likely do you think your classifier would be to get it right? *report your answer in terms of a percentage, either overall or by letter*.
+    - What choices did you have to make in the process of collecting data, processing it, and analyzing the results?
+      - What are one or two choices that you could have made differently?
+      - What do you expect would be different if you made that different choice?
+5. Share the results (including code and answers to the above questions) in a Jupyter Notebook in your portfolio repo.
+    - Submit a link to the notebook on Moodle.
+    - **Don't** include your dataset. Instead, link to a ZIP (or `tgz`) file of your dataset. Then your notebook can start with `dataset_path = untar_data("https://your-url.../images.zip")`.
+    - The easiest way to get a ZIP file with direct download is to put it your `public_html` folder on the lab computers. Then you can access it at `https://students.cs.calvin.edu/~username/filename.zip` (make sure you include the tilde.)
 
-- Take your own photos; don't use photos from the Internet.
-- Please avoid recognizable images of people.
+### Notes
 
-You will need to organize your photos into a dataset. I suggest:
+- Include all the code needed to get *one* good accuracy number.
+- *Don't* try to show the results of every model you trained, but *do* make a single cell to change numbers for any aspects you varied (e.g., the seed, how many images you used)
+- *Don't* include extraneous code
+- Use *Markdown* cells, not code comments, to report results.
 
-- Name photos like `NorthHall_3.jpg`.
-- Place all your photos in a folder for each building. So an image will actually be at `NorthHall/NorthHall_3.jpg`. (This way it's easy to rename buildings.)
+### Tips
 
-Submit a Jupyter Notebook reporting your findings on Moodle. In addition to the code needed, include answers to these questions:
-
-- How accurate is your classifier? Report your answer as a *range* (lower to upper) of expected accuracy values.
-- What sort of mistakes did it make? Why do you think it may have made those mistakes?
-- How many images do you need to get good accuracy? (Try your classifier on fewer images.)
-- What choices did you have to make in the process of collecting data, processing it, and analyzing the results?
-  - What are one or two choices that you could have made differently?
-  - What do you expect would be different if you made that different choice?
-
-Tips:
-
+- `set_seed()` for reproducible results. Also, sort your image files, as we did in lab 1.
 - Chapter 2 has some helpful low-level code for constructing an `ImageDataLoader`. Alternatively, use `ImageDataLoaders.from_path_func(..., label_func=parent_label, bs=2)`.)
-- You can use the same techniques you used in Lab 2 to evaluate the classifier. See chapter 2 for examples of how to make a confusion matrix and plot top losses (and Resources here for a bugfix for `plot_top_losses`.)
+- You can use the same techniques you used in Lab 2 to evaluate the classifier. See chapter 2 for examples of how to make a confusion matrix and plot top losses.
 - You probably need to set the batch size to be smaller than the default (which is 64 images). Do this by passing `bs=2` as a keyword parameter to your `ImageDataLoader`.
-- Like in Lab 2, just hard-code the accuracy values you get from multiple different `seed`s.
 - Visualize things:
   - What does one batch of your `DataLoader` look like?
   - What do the predictions of your classifier look like?
@@ -64,17 +74,3 @@ Tips:
   - *refer to Chapter 2 for the code for these*.
 - Note that `from_name_func` fails silently with `parent_label`. (It should throw an exception. I submitted [this bug](https://github.com/fastai/fastai/issues/3559) to propose that it does.) Use `from_path_func` instead if you want to use that approach.
 
-### Submission
-
-Upload only your `ipynb` file to Moodle, not the image files.
-
-Guidance:
-
-- Include all the code needed to get *one* accuracy number.
-- *Don't* try to show the results of every model you trained, but *do* make a single cell to change numbers for any aspects you varied (e.g., the seed, how many images you used)
-- *Don't* include extraneous code (like the `pip` code to check the environment, or the batch practice from Lab 2)
-- Use *Markdown* cells, not code comments, to report results.
-
-### Common Dataset
-
-Please contribute your photos to [this folder in our class Team](https://calvincollege.sharepoint.com/:f:/s/Section_81629/EpapLK3FkZlBm-AQutdecNEB8U9a6SXGDXEEGcFnTJ5YwA?e=FK6vVj). Make a new folder with your username. Upload your two folders into it. (Drag and drop should work.)
