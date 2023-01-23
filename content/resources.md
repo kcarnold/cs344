@@ -11,6 +11,7 @@ Here's a [Glossary](../glossary/) of some terms we've used in class. Please sugg
 - General: [How to be a Wizard](https://wizardzines.com/zines/wizard/)
 - Debugging
   - [A debugging manifesto](https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/)
+    - Longer version: [The Pocket Guide to Debugging](https://wizardzines.com/zines/debugging-guide/)
   - Python specific: Read the **end** of the traceback.
 
 ## Computing
