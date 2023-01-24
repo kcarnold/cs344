@@ -17,6 +17,19 @@ Students who complete this unit will demonstrate that they can:
 
 ## Preparation
 
+- Check your prior knowledge:
+  - can you define the Mean Squared Error (MSE) of a linear regression (i.e., `y = m*x + b`)?
+  - can you write an algorithm that, given some data and a starting `m` and `b`, returns a new `m` and `b` that give a lower MSE?
+- If not, skim through [this linreg explainer](https://cs.calvin.edu/courses/info/602/resources/linreg-explainer/) originally by Amazon Web Services, some [edits by Prof Arnold](https://github.com/kcarnold/aws-mlu-explain))
+
+**New way**: Watch [Zero to Hero](https://karpathy.ai/zero-to-hero.html) part 1: [The spelled-out intro to neural networks and backpropagation: building micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0)
+
+- First, watch the video and take conceptual notes.
+- Then, do [these exercises](https://colab.research.google.com/drive/1FPTx1RXtBfc4MaTkf7viZZD4U2F9gtKN?usp=sharing#scrollTo=qXaH59eL9zxf)
+- Then, re-watch and write the code along with him.
+
+**Old way** (still valid, though video links were for the previous version of the course)
+
 - Read {{< fastbook num="4" nbname="04_mnist_basics.ipynb" >}}.
 - Watch {{< fastvideo num="3" >}}.
 - Watch the first hour of {{< fastvideo num="4" >}}.
