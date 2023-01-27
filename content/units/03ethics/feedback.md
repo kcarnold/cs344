@@ -1,7 +1,7 @@
 ---
 title: "Week 3 Feedback"
-date: 2022-01-27
 type: Feedback
+draft: true
 ---
 
 ## General
@@ -23,12 +23,6 @@ type: Feedback
 - Good questions about clarifying learning objectives. I've made some revisions accordingly.
 - Needs to point to *evidence* of achievement; not just watching a lecture. (I replaced those with grades for homeworks this time.)
 - Preparation assignments probably aren't strong enough evidence in general. Some exceptions were made this round.
-
-## Grading
-
-- The mapping of E/M/R/N to numbers is currently the Moodle default, but I may change that. In particular, "Meets expectations" grades currently show up as 75%. Even if I don't change the mapping, remember that Effort grades will average against Mastery grades (exact balance will be decided at end of semester).
-- I set up Discussion 3 grades incorrectly; extra Effort points for everybody!
-- The Moodle gradebook is better now, but still doesn't have all the details set up. If you're keeping up with things, don't worry about bad-looking course grades yet.
 
 ## Homework 1
 
