@@ -27,14 +27,6 @@ slideSetup()
 
 ---
 
-## Homework 2
-
-- How accurate did you get?
-- How many images did you need?
-- What sort of decisions did you make?
-
----
-
 ## AI Ethics?
 
 .tc[
@@ -107,13 +99,43 @@ What issues might come up?
 
 ---
 
-class: middle, center
+## Hypothetical Example: Popularity Prediction
 
-## How to evaluate a classifier
+- Problem: past ad campaigns fell flat.
+- Input: image to be used in social media marketing
+- Output: predicted level of engagement (likes, shares, comments)
+
+What issues might come up?
+
+--
+
+- **measurement bias**
+- **stereotyping**
+- **clickbait**
 
 ---
 
-## Overfitting
+# A few questions to ask about ML
+
+- General
+  - Is our data *representative*? (vs, e.g., feedback loops)
+  - Were stakeholders involved in the design?
+  - How vulnerable is the system to attack?
+- Performance
+  - Robust? Reliable?
+  - Testable
+- Clarity
+  - Are results accurate in real-world?
+  - Are system's biases understood and reported?
+  - Is there recourse if the system is wrong?
+  - Can decisions be explained?
+
+.floating-source[Shneiderman, Human-Centered AI, pp 246-247]
+
+---
+
+
+## Why transparency?
 
 Did this classifier successfully learn to recognize a "dumbbell"?
 
@@ -121,25 +143,6 @@ Did this classifier successfully learn to recognize a "dumbbell"?
 .small[.right[*"Dumbbell"*]]
 
 .floating-source[<https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html>]
-
----
-
-## Other Overfitting Examples
-
----
-
-.pull-left[
-Can my kids solve jigsaw puzzles... or just *this* jigsaw puzzle?
-
-<img src="https://www.melissaanddoug.com/dw/image/v2/BBDH_PRD/on/demandware.static/-/Sites-master-catalog/default/dwac79566a/large/000413_1.jpg?sw=562&sh=570&sm=fit">
-]
-
-.pull-right[
-<img src="https://media.nature.com/lw800/magazine-assets/d41586-021-00340-4/d41586-021-00340-4_18841126.jpg" style="height: 700px">
-]
-
-.floating-source[<https://www.nature.com/articles/d41586-021-00340-4>]
-
 
 ---
 
@@ -182,6 +185,12 @@ and `DataLoader`
 
 * need to align sizes of each image (or text document, or sound, or ...)
 * limited by GPU memory (especially for the *backward* pass)
+
+---
+
+class: middle, center
+
+## How to evaluate a classifier
 
 ---
 

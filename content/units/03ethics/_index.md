@@ -59,9 +59,7 @@ raw data ---------------------> | extractor | ------------> | classifier | --> l
 
 {{% details summary="Wednesday class" %}}
 
-- Scripture: wisdom and imitation
-- Ethical Reflection: popularity prediction scenario. Suppose our company wants to build a product that predicts how much engagement an image will get on social media.
-  - What could possibly go wrong?
-  - How might we raise questions or concerns winsomely?
+- Scripture: [Isaiah 58](https://www.biblegateway.com/passage/?search=isa+58&version=NIV&interface=print): imitation? justice?
+- Intro to AI Tech Questions: [slides](/slides/w3/w3-data-and-ethics.html)
 
 {{% /details %}}
