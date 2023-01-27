@@ -20,7 +20,7 @@ Because it's a core building block to neural net modeling. You'll see in Lab 4 a
 Depends!
 
 - For training models out-of-the-box, almost no math at all, just like you don't need to know about how hash tables work to write SQL queries against databases.
-- For pushign the envelope of machine learning, we need all the creativity we can get, coming from any corner of math, physics, CS, statistics, etc. For example, one very promising new kind of neural network, [S4](https://srush.github.io/annotated-s4/), uses state-space models from physics and signal processing.
+- For pushing the envelope of machine learning, we need all the creativity we can get, coming from any corner of math, physics, CS, statistics, etc. For example, one very promising new kind of neural network, [S4](https://srush.github.io/annotated-s4/), uses state-space models from physics and signal processing.
 - Most of our work will be somewhere between these two extremes.
 
 ### What's a test set?
