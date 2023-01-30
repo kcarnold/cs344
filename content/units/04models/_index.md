@@ -61,7 +61,7 @@ There are too many videos out there on deep learning to list here, but here's a 
   - We are surrounded by rich data.
 - Modeling Fundamentals
   - What are the basic steps of gradient-based learning?
-  - How does a neural net make a prediction?
+  - How does a neural net make a prediction? Simple MLP.
   - How do we evaluate those predictions?
   - How do we iteratively improve a model?
 - some [slides from last week](https://cs.calvin.edu/courses/cs/344/23sp/slides/w3/w3-data-and-ethics.html#21)
