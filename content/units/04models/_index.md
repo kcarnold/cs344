@@ -53,3 +53,18 @@ There are too many videos out there on deep learning to list here, but here's a 
 - (mathy) [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) (highly recommended channel for math)
 
 <!-- - [$1 gesture recognizer](https://depts.washington.edu/acelab/proj/dollar/index.html) for a different style of simple model (we won't study this) -->
+
+{{% details summary="Monday Class" %}}
+
+- Scripture: [Genesis 1](https://www.biblegateway.com/passage/?search=Genesis%201&version=NIV)
+  - Ctrl-F for "saw"
+  - We are surrounded by rich data.
+- Modeling Fundamentals
+  - What are the basic steps of gradient-based learning?
+  - How does a neural net make a prediction?
+  - How do we evaluate those predictions?
+  - How do we iteratively improve a model?
+- some [slides from last week](https://cs.calvin.edu/courses/cs/344/23sp/slides/w3/w3-data-and-ethics.html#21)
+- Programming Moment: [Comprehensions](https://cs.calvin.edu/courses/cs/106/cur/units/14bonus/slides.html#/comprehensions) <!-- TODO: move these into local slides -->
+
+{{% /details %}}
