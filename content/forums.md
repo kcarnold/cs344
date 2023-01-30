@@ -2,6 +2,20 @@
 title: "Forum Posts 23SP"
 ---
 
+## Week 4: Models
+
+This week we're pulling off the covers to see how these machine learning models actually work. Hang on for the ride, and keep your favorite thing-explainer (ChatGPT, YouTube, etc.) close at hand.
+
+- Prep 4 should be done by Monday class as usual. (I just discovered the date on Moodle was a week off, so the Calendar didn't show it.)
+- Now that we've had a few weeks together, let's pick regular due dates that work well for everyone. Specifically, we need weekly dates for Homework, Lab, Discussions, and any weekly Quizzes. We also need to pick a few class meeting days for midterm exams. Please reply to this post on Ed: what would work well for you? What wouldn't?
+- I had actually prepared a Fundamentals for this week, but didn't assign it because people asked for more time on Homework 1. But it's probably still good practice, and will help with Homework 2. Find it on the [All Fundamentals](https://cs.calvin.edu/courses/cs/344/23sp/all_fundamentals/) page.
+- Homework 2 will be posted this week, due next week (on the day we decide that homework should be due). Here's the [draft](https://cs.calvin.edu/courses/cs/344/23sp/units/03ethics/homework/).
+- There's another Study Quiz and Python Practice Quiz up on Moodle. These are for you. e.g., I added a question about random seeds after our discussion about that yesterday.
+
+I forgot something about loss curves on Friday, when mentioning that training loss was higher than validation loss. Training loss gets computed *during training*, and *Dropout* is active during training. We'll talk more about that in a couple of weeks, but for now, the intuition is that the training process *intentionally handicaps the model* to avoid overfitting.
+
+See you Monday! Remember to come with questions about the reading or video-watching.
+
 ## Week 2: Data
 
 I'm excited to have you all in class. The semester start was a bit bumpy for various reasons, but I'm hoping we can settle into a rhythm soon.
