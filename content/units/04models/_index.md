@@ -59,9 +59,13 @@ There are too many videos out there on deep learning to list here, but here's a 
 - Scripture: [Genesis 1](https://www.biblegateway.com/passage/?search=Genesis%201&version=NIV)
   - Ctrl-F for "saw"
   - We are surrounded by rich data.
+- Logistics
+  - Homework images upload
+  - Due date suggestions
 - Modeling Fundamentals
   - What are the basic steps of gradient-based learning?
-  - How does a neural net make a prediction? Simple MLP.
+  - How does a neural net make a prediction?
+    - equinox examples: [Linear layer](https://github.com/patrick-kidger/equinox/blob/27c985fb155aa36998c6e65c60ae50a818b1435d/equinox/nn/linear.py#L11) [Simple MLP](https://github.com/patrick-kidger/equinox/blob/27c985fb155aa36998c6e65c60ae50a818b1435d/equinox/nn/composed.py#L99).
   - How do we evaluate those predictions?
   - How do we iteratively improve a model?
 - some [slides from last week](https://cs.calvin.edu/courses/cs/344/23sp/slides/w3/w3-data-and-ethics.html#21)
