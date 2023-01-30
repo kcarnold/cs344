@@ -8,6 +8,8 @@ draft: false
 - Give students a clear outline of the code, and the structure of the responses (maybe even templates).
 -->
 
+[**Upload here**](https://www.dropbox.com/request/5qyUKpV45HS0Wg7vKA4Y)
+
 ## Goal
 
 In this assignment, you will train and evaluate your own image classifier.
