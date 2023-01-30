@@ -2,6 +2,9 @@
 title: "Fundamentals Index"
 ---
 
+**Note**: Notebooks beyond the current unit may not be updated for the current year.
+
+
 - Unit 1
   - {{% fundamentals name="Jupyter Notebook Warmup" nbname="u01n0-notebook-warmup.ipynb" %}}
   - {{% fundamentals name="Train a simple image classifier" nbname="u01n1-train-clf.ipynb" %}}

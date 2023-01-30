@@ -26,6 +26,9 @@ nbs.sort()
 print('''---
 title: "Fundamentals Index"
 ---
+
+**Note**: Notebooks beyond the current unit may not be updated for the current year.
+
 ''')
 
 for unit in sorted(set(nb[0] for nb in nbs)):
