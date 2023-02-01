@@ -52,8 +52,7 @@ In general we're going to be faced with a dataset with an unknown and probably n
     
 ![png](./lab04-solutions_6_0.png)
 
-(the code to generate this is in your template)    
-
+(The code to generate this is in your template.)
 
 Let's fit a line to that!
 
@@ -82,20 +81,31 @@ We'll minimize the Mean Squared Error (MSE) loss. MSE is not the only possible l
 > 2. `widgets.interact()` makes a slider widget and reruns the function when the slider changes. The `(-5.0, 5.0)` sets the *range* of the slider. Don't worry, `bias` is just a normal `float`. When 
 > 3. The `f"MSE: {mse}"` is an `f`-string. Expressions in `{}` get evaluated. You can format them too: `f"MSE: {mse:0.3f}"`.
 
+{{% task %}}
+
+On a piece of paper, manually plot a curve of MSE on the y axis and `bias` on the x axis.
+
+- What value of `bias` minimizes this function? What is the slope of the function at that value of `bias`?
+- Just eyeballing the graph, what is the slope when bias is 0?
+
+{{% /task %}}
+
 ### Gradient
 
 As you were tweaking the bias, you were effectively estimating the *gradient* of the loss function with respect to the parameter. The *gradient* tells us which direction (and how much) to change a value like *bias* if we want to *increase* a number like the MSE. Basically, how much does MSE change when we change that parameter?
 
-Soon see how we can compute the gradient exactly using code. But for now, let's estimate that gradient *numerically*. Remember that the derivative of `f(x)` is defined as a zoomed-in "rise over run" -- how much `f(x)` changes when you make small (`eps`) changes to `x`, divided by the size of that change, i.e., `f(x + eps) - f(x)` divided by `eps`.
+Soon see how we can compute the gradient exactly using code. But for now, let's estimate that gradient *numerically*. Remember that the derivative of `f(x)` is defined as a zoomed-in "rise over run" -- how much `f(x)` changes when you make small (`eps`ilon-sized) changes to `x`, divided by the size of that change, i.e., `f(x + eps) - f(x)` (the "rise") divided by `eps` (the "run").
+
+(In essence, we're going to wiggle the bias slider automatically. `eps` is how big of a wiggle to make.)
 
 {{% task %}}
 
 1. Write a function `linreg_mse` that computes the MSE for a given bias. (Start with the function above, add a `return`, and remove the plotting, printing, and `@interact`.) Test that function at a few specific values of `bias`; check that you get the same result as before.
 2. Write a function `compute_grad_wrt_bias` that uses numerical difference to compute the gradient of the loss with respect to (`wrt`) the bias parameter. We can compute the gradient using a numerical difference: `(linreg_mse(x0 + eps) - linreg_mse(x0)) / eps`. Set `eps` ("epsilon") to 1e-3 and use two different values of `x0`: 0.0, and the value that you wrote down above that minimizes the MSE.
+3. Refer back to the sketch you made of the function. Discuss with your partner how the gradient values you just computed connect with what you observed about that sketch.
 
 {{% /task %}}
 
-Write a brief description of how the numerical gradient behaves.
 
 ### Gradient Descent
 
@@ -103,10 +113,9 @@ Now that we know the gradient, we can use it to change the bias. Let's try **gra
 
 {{% task %}}
 
-1. Set `bias = 0.0` and look at what the loss is using `linreg_mse`.
-2. Compute the gradient as `gradient = compute_grad_wrt_bias(bias)`.
-3. Take a small step in the direction of the gradient: `bias += 0.01 * gradient`.
-4. Evaluate the loss again. How did it change?
+1. In one code chunk, set `bias = 0.0`, `loss` to the result of calling `linreg_mse`, and `gradient = compute_grad_wrt_bias(bias)`. Print these three values. (Suggestion: use `f`-strings to make a nicely formatted output.)
+2. In a second code chunk, take a small step in the direction of the gradient: `bias += 0.01 * gradient`.
+3. Rerun the first code chunk. How did the loss change? How did the gradient change?
 
 {{% /task %}}
 
@@ -114,13 +123,14 @@ The gradient tells us how much the loss will *increase* as bias increases. But w
 
 {{% task %}}
 
-1. Set `bias = 0.0` and look at what the loss is using `linreg_mse`.
-2. Take a small step in the *descent direction*, the opposite direction of the gradient: `bias -= 0.01 * gradient`.
-3. Evaluate the loss again. How did it change?
+1. Repeat the above task, but instead, take a small step in the *descent direction*, the opposite direction of the gradient: `bias -= 0.01 * gradient`. What effect did that have on the loss?
+2. Combine the two code chunks into one. Run it several times and watch what happens to the bias, loss, and gradient.
 
 {{% /task %}}
 
-The constant multiple 0.1 is called the *learning rate*. We'll worry about tuning it later; for now 0.01 is fine.
+The constant multiple 0.01 is called the *learning rate*. We'll worry about tuning it later; for now 0.01 is fine.
+
+> You might try setting the learning rate higher. What happens when you set it to a larger value, like near 1.0 or perhaps a bit larger?
 
 ### Gradient Descent Loop (*optional*)
 
@@ -137,6 +147,12 @@ What happens if we repeatedly take steps in the descent direction? Let's try it!
 
 {{% /task %}}
 
+## Extension
+
+Try to minimize both `weights` and `bias`. What needs to change?
+
+> When we're evaluating the loss or gradient with respect to the weights, why can't we just set `bias` to 0.0?
+
 ## Check for Understanding
 
 You should now be able to answer the following questions:
@@ -144,6 +160,9 @@ You should now be able to answer the following questions:
 1. Considering the gradient of the bias parameter with respect to the MSE: if the value of the gradient is *positive*, which direction do we need to move to get a lower MSE?
 2. If the value of the gradient is *negative*, which direction do we need to move to get a lower MSE?
 3. What can we say about the gradient when the parameter minimizes the MSE?
-4. What would we need to change in order to use gradient descent to minimize the MAE instead?
+4. What would we need to change in order to use gradient descent to minimize the MAE (mean *absolute* error) instead?
+
+- Which of the following is 0 at the optimal value: the bias, loss, or gradient?
+
 
 *In future labs you will turn in these questions. For this lab it's optional.*
