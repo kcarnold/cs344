@@ -10,8 +10,8 @@ slide_pdfs := $(patsubst %.html,%.pdf,$(slide_htmls))
 fundamentals_soln := $(wildcard static/fundamentals/*_soln.ipynb)
 fundamentals := $(subst _soln,,$(fundamentals_soln))
 fundamentals_html := $(patsubst %.ipynb,%.html,$(sort $(fundamentals) $(fundamentals_soln) $(wildcard static/fundamentals/*.ipynb)))
-
 handouts := $(patsubst %.md,%.pdf,$(shell find content -name '*-handout.md'))
+extra_notebooks := content/units/04models/homework/example-homework-2.html
 
 # Build slides
 %.html: %.Rmd
@@ -33,14 +33,14 @@ $(fundamentals) : %.ipynb : %_soln.ipynb nb_strip.py
 	python nb_strip.py "$<" "$@"
 
 # Generate HTML previews of notebooks.
-$(fundamentals_html) : %.html : %.ipynb
+%.html : %.ipynb
 	jupyter nbconvert --to=html "$<"
 
 content/all_fundamentals.md: $(fundamentals)
 	python gen_fundamentals_index.py > "$@"
 
 # Deploy to cs-prod, first pass (before building slide PDFs)
-deploy-quick: $(slide_htmls) $(fundamentals) $(fundamentals_html) content/all_fundamentals.md $(handouts)
+deploy-quick: $(slide_htmls) $(fundamentals) $(fundamentals_html) content/all_fundamentals.md $(handouts) $(extra_notebooks)
 	hugo $(HUGO_FLAGS) --destination ${DEST_DIR} --cleanDestinationDir
 	rsync -rxi --delete-after ${DEST_DIR}/ ${DEPLOY_TARGET}
 # --times --delete-after --delete-excluded

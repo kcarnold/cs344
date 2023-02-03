@@ -1,6 +1,6 @@
 ---
 title: "Homework 2: Generalization"
-draft: true
+draft: false
 ---
 
 ## Outcomes
