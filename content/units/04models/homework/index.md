@@ -9,6 +9,7 @@ The process of completing this assignment will improve your ability to:
 
 - Explain the importance of evaluating image classifiers on unseen data. <!-- TODO: could align more with this -->
 - Describe characteristics of a dataset that are relevant to downstream performance.
+- Tweak a model to try to improve its performance.
 
 <!-- ## Other Notes
 
@@ -31,6 +32,15 @@ To keep our attention on the data instead of the process of writing code, an [ex
 2. What were your classifier's most frequent mistakes? Describe both quantitatively (via the confusion matrix) and qualitatively (by studying the top losses).
 3. Recall that in Homework 1 you estimated the accuracy that your classifier would obtain on other people's images. Compare the accuracy you observe to the accuracy that you thought you'd get.
 4. Now let's write a **datasheet for the specific training data you collected**. Read the introduction to the [Dataset Documentation (Datasheets for Datasets) template](https://www.microsoft.com/en-us/research/uploads/prod/2022/07/aether-datadoc-082522.pdf). Then, skim through the questions that follow. **Choose two or three questions** that are most relevant to *how well the model that you trained worked on new data*. At the end of your notebook, include both the question texts and your answers.
+5. Go back to your Homework 1 classifier. Make one change to how the classifier is trained. Evaluate the change in accuracy you observe during training, and the change in accuracy you observe here.
+
+Possible things to adjust:
+
+- How big your validation set is
+- Which foundation model to use (e.g., `resnet34` vs `resnet16`)
+- What data augmentation (if any) to apply
+- How many epochs to train
+- What learning rate to use
 
 ## Details
 
