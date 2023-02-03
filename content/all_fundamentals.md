@@ -47,7 +47,7 @@ We also strive for the sequence to make sense.
 - Unit 3
   - {{% fundamentals name="Classifier Diagnostics" nbname="u03n1-diagnose-image-classifier.ipynb" %}}
 - Unit 4
-  - {{% fundamentals name="compute-grad-PyTorch" nbname="u04n1-compute-grad-PyTorch.ipynb" %}}
+  - {{% fundamentals name="Compute gradients using PyTorch" nbname="u04n1-compute-grad-PyTorch.ipynb" %}}
   - {{% fundamentals name="Linear Regression the PyTorch Way" nbname="u04n2-linreg-manual.ipynb" %}}
 - Unit 5
   - {{% fundamentals name="Softmax, part 1" nbname="u5n1-softmax.ipynb" %}}
