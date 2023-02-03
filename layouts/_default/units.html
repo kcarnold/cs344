@@ -19,6 +19,7 @@
       {{- $pages := .Pages.ByDate -}}
       {{- range (where $pages "Section" .Section ) -}}
       <li>
+        {{if .Draft}}(Draft!){{end}}
         <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
       </li>
       {{- end -}}
