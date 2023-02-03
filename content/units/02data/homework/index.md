@@ -8,7 +8,7 @@ draft: false
 - Give students a clear outline of the code, and the structure of the responses (maybe even templates).
 -->
 
-[**Upload here**](https://www.dropbox.com/request/5qyUKpV45HS0Wg7vKA4Y)
+[**Upload images here**](https://www.dropbox.com/request/5qyUKpV45HS0Wg7vKA4Y)
 
 ## Goal
 
