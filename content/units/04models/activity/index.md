@@ -16,9 +16,13 @@ Today's exercise is about the *process*, not the *product*; only future exercise
 This activity will improve your ability to:
 
 - Describe the parameters and operation of a linear layer.
+  - Implement single linear regression manually and calculate MSE
 - Identify the Mean Squared Error loss function.
-- Compute the gradients of programs with respect to parameters using one level of backpropagation
+- Estimate the gradient numerically, by hand and then in code.
+  - Explain why the gradient for one parameter may initially seem to go in the wrong direction.
+  - Contrast the effects of gradient *ascent* and gradient *descent*.
 - Implement a training loop for a simple model.
+  - Descend the estimated gradient until convergence.
 
 ## Outline
 
@@ -33,16 +37,7 @@ Here's what we'll do today:
 
 ## Setup
 
-Download the template: [`lab04.ipynb`](lab04.ipynb).
-
-
-```python
-import torch
-from torch import tensor
-import ipywidgets as widgets
-import matplotlib.pyplot as plt
-%matplotlib inline
-```
+Download the [template](lab04.ipynb).
 
 ## Task
 
@@ -85,8 +80,9 @@ We'll minimize the Mean Squared Error (MSE) loss. MSE is not the only possible l
 
 On a piece of paper, manually plot a curve of MSE on the y axis and `bias` on the x axis.
 
-- What value of `bias` minimizes this function? What is the slope of the function at that value of `bias`?
-- Just eyeballing the graph, what is the slope when bias is 0?
+- What value of `bias` minimizes this function? (We'll call this `bias_opt`.)
+- Draw the line tangent to the MSE curve at `bias = 0`. Just eyeballing the graph, what is the slope of that line?
+- Draw the tangent line at `bias_opt`. What is the slope of that tangent line? (Can you know it exactly?)
 
 {{% /task %}}
 
