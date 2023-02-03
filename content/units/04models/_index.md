@@ -72,3 +72,9 @@ There are too many videos out there on deep learning to list here, but here's a 
 - Programming Moment: [Comprehensions](https://cs.calvin.edu/courses/cs/106/cur/units/14bonus/slides.html#/comprehensions) <!-- TODO: move these into local slides -->
 
 {{% /details %}}
+
+{{% details summary="Wednesday class" %}}
+
+We did [linear regression the hard way](activity/).
+
+{{% /details %}}
