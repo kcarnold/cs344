@@ -47,7 +47,7 @@ We also strive for the sequence to make sense.
 - Unit 3
   - {{% fundamentals name="Classifier Diagnostics" nbname="u03n1-diagnose-image-classifier.ipynb" %}}
 - Unit 4
-  - {{% fundamentals name="compute-grad-PyTorch" nbname="u04n1-compute-grad-PyTorch.ipynb" %}}
+  - {{% fundamentals name="Compute Gradients with PyTorch" nbname="u04n1-compute-grad-PyTorch.ipynb" %}}
   - {{% fundamentals name="Trace Simple Image Classifier" nbname="u4n2-trace-mnist.ipynb" %}}
   - {{% fundamentals name="Linear Regression the PyTorch Way" nbname="u04n3-linreg-manual.ipynb" %}}
 - Unit 5
