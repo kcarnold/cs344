@@ -1,6 +1,6 @@
 ---
 title: "Lab 4: Gradients"
-draft: true
+draft: false
 ---
 
 The notebooks include all of the details.
