@@ -8,17 +8,24 @@ draft: true
 The process of completing this assignment will improve your ability to:
 
 - Explain the importance of evaluating image classifiers on unseen data. <!-- TODO: could align more with this -->
-- Describe factors that affect how image classifiers generalize.
-
+- Describe characteristics of a dataset that are relevant to downstream performance.
 
 <!-- ## Other Notes
 
 - Describe how the concept of *distributions* applies to image data. -->
 
-
 ## Task
 
-Load up the classifier you trained in [Homework 1](../../02data/homework/). **Evaluate it on a set of images collected by others** in the class. Report the following:
+Load up the classifier you trained in [Homework 1](../../02data/homework/). **Evaluate it on a set of images collected by others** in the class.
+
+To keep our attention on the data instead of the process of writing code, an [example is provided of all of the code necessary for a basic analysis](example-homework-2.html). However, *please do not simply copy and paste from this notebook*; retype any code you need yourself. That should help you make sure that you understand what each step is for.
+
+Provide the questions and answers for the most relevant parts of a Datasheet for your dataset.
+https://www.microsoft.com/en-us/research/project/datasheets-for-datasets/
+https://www.microsoft.com/en-us/research/uploads/prod/2022/07/aether-datadoc-082522.pdf
+
+
+1. 
 
 1. Metadata about your original (Homework 1) dataset (see below for details),
 2. Metadata about the dataset you are testing on.
@@ -38,7 +45,14 @@ Also, make sure you include at least the following *metadata* about both dataset
 
 ### Obtaining data
 
-TODO to get the shared dataset.
+A dataset of images uploaded by 11 different students is available here: <https://students.cs.calvin.edu/~ka37/letter_images_dataset_v0.zip>. The structure is the same as what was expected in Homework 1. So you should be able to run:
+
+```python
+dataset_path = untar_data(url)
+
+```
+
+Note: if more students upload their data, I )
 
 ### Loading Data
 
