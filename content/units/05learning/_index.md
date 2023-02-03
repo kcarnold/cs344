@@ -12,7 +12,7 @@ Students who complete this unit will demonstrate that they can:
 - Describe and compute cross-entropy loss
 - Explain the purpose and mathematical properties of the softmax operation.
 - Explain the role of nonlinearities in a neural network (e.g., why they are used between linear layers)
-- Implement a logistic regression model using basic numerical computing primitives **optional for 22SP**
+- Implement a logistic regression model using basic numerical computing primitives
 
 <!-- - Activities
 	- some variation on Learning Proportions lab? ^^bandit learning^^: how likely is each arm to give a payout? -->
@@ -21,11 +21,12 @@ Students who complete this unit will demonstrate that they can:
 
 The fastai course videos are a bit disorganized here, sorry about that.
 
-- Watch the Lab 4 [walk-through video](https://calvincollege.sharepoint.com/:f:/s/Section_81629/EiZcXdth0VZMhjz4S_69w0oByq-i_tuvqJMm1VgDMjNtJw?e=EC58DP) if you have not yet.
+<!-- - Watch the Lab 4 [walk-through video](https://calvincollege.sharepoint.com/:f:/s/Section_81629/EiZcXdth0VZMhjz4S_69w0oByq-i_tuvqJMm1VgDMjNtJw?e=EC58DP) if you have not yet. -->
+
 - Read {{< fastbook num="5" nbname="05_pet_breeds.ipynb" >}}.
   - skip (or skim) Presizing and the LR finder
   - skim "discriminative" rates (which would better be called "layer-dependent learning rates")
-  - Watch {{< fastvideo num="4" >}} (starting about 1 hr in) and {{<fastvideo num="6">}} (first half hour) for this material.
+  - Some of this material was covered in {{< fastvideo num="3" >}}, and the rest is in {{<fastvideo num="5">}}. 
 - *Recommended* skim {{<fastbook num="17" nbname="17_foundations.ipynb">}}.
   - This should reinforce what we've been studying about how linear regression works and how Tensors work, and give you a preview of how we'll extend it to a full neural net.
 
@@ -58,5 +59,4 @@ We're using Elo scores for intuition a few times this week, but we're intentiona
 
 ### Friday
 
-- Discussion presentation
 - Nonlinearities (continuing ([slides](/slides/w5/w5-classification.html)))
