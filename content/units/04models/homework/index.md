@@ -14,32 +14,23 @@ The process of completing this assignment will improve your ability to:
 
 - Describe how the concept of *distributions* applies to image data. -->
 
+We'll be making a [Datasheets for Datasets](https://www.microsoft.com/en-us/research/project/datasheets-for-datasets/).
+
 ## Task
 
 Load up the classifier you trained in [Homework 1](../../02data/homework/). **Evaluate it on a set of images collected by others** in the class.
 
 To keep our attention on the data instead of the process of writing code, an [example is provided of all of the code necessary for a basic analysis](example-homework-2.html). However, *please do not simply copy and paste from this notebook*; retype any code you need yourself. That should help you make sure that you understand what each step is for.
 
-Provide the questions and answers for the most relevant parts of a Datasheet for your dataset.
-https://www.microsoft.com/en-us/research/project/datasheets-for-datasets/
-https://www.microsoft.com/en-us/research/uploads/prod/2022/07/aether-datadoc-082522.pdf
+> Note: The example provided would re-train the training set classifier each time, leading 
+> to different performance depending on the random initialization of the classifiaction head. 
+> **You may want to save your trained classifier**. (e.g., `saved_clf_file = Path('classifier.pkl'); if saved_clf_file.exists(): learn.load(saved_clf_file); else: learn = ...; learn.export(saved_clf_file)`.
+> Think about what other sources of variation might come up, and how you might be systematic about them.
 
-
-1. 
-
-1. Metadata about your original (Homework 1) dataset (see below for details),
-2. Metadata about the dataset you are testing on.
-3. What accuracy range you estimated on Homework 1,
-4. What accuracy you obtain on your test set,
-5. Whether the answer to Q4 is within the range of Q3, and
-6. What factors may have influenced the answer to Question 5.
-
-Include both *helpful* and *hurtful* factors in your answer to Question 5. (That is, you should have something substantial to say regardless of whether the answer turned out to be "yes" or "no".)
-
-Also, make sure you include at least the following *metadata* about both datasets:
-
-- How big the dataset is (number of images per building and total)
-- Any other characteristics that are relevant
+1. Report what actual accuracy you got.
+2. What were your classifier's most frequent mistakes? Describe both quantitatively (via the confusion matrix) and qualitatively (by studying the top losses).
+3. Recall that in Homework 1 you estimated the accuracy that your classifier would obtain on other people's images. Compare the accuracy you observe to the accuracy that you thought you'd get.
+4. Now let's write a **datasheet for the specific training data you collected**. Read the introduction to the [Dataset Documentation (Datasheets for Datasets) template](https://www.microsoft.com/en-us/research/uploads/prod/2022/07/aether-datadoc-082522.pdf). Then, skim through the questions that follow. **Choose two or three questions** that are most relevant to *how well the model that you trained worked on new data*. At the end of your notebook, include both the question texts and your answers.
 
 ## Details
 
@@ -52,66 +43,6 @@ dataset_path = untar_data(url)
 
 ```
 
-Note: if more students upload their data, I )
+### Other details
 
-### Loading Data
-
-You will need to create a new `DataLoader` for the test dataset. Here's how to do that.
-
-First, you'll need to get the image files for your test set:
-
-```python
-test_path = Path('/wherever/.../...')
-test_image_files = get_image_files(test_path)
-```
-
-Then ask your original `dataloaders` object (the book calls it `dls`) to create a new, *test* `DataLoader`. (This is different than creating a new `dataloaders` because we don't want to split the new data into a training set and validation set; we want to use the whole thing.)
-
-```python
-test_dl = dataloaders.test_dl(test_files, with_labels=True)
-```
-
-Once we have the test `DataLoader`, we can use it for `ClassificationInterpretation`. By default, the *validation* set is used, but we can tell it to use `test_dl` instead:
-
-```python
-interp = ClassificationInterpretation.from_learner(learn, dl=test_dl)
-```
-
-And finally we can ask it for various things, like the confusion matrix, top losses, or classification report, just like Chapter 2 shows:
-
-```python
-interp.plot_top_losses(k = 5)
-interp.plot_confusion_matrix()
-```
-
-To get the accuracy, you can either use the classification report...
-
-```python
-interp.print_classification_report()
-```
-
-... or you can compute the accuracy or error rate directly by treating a correct prediction as a 1 and an incorrect prediction as 0 (I call this the *sum-as-count pattern*). This code also demonstrates a clean way to spread out a Python expression over multiple lines: put everything in parentheses.
-
-TODO: this needs to use `get_preds` instead because `interp` no longer stores the predictions.
-
-```python
-(
-    # Make a Tensor of Trues and Falses, True if the classifier got the corresponding image right
-    (
-        # the predictions that the model made on the test set
-        interp.decoded
-        # compare with the target labels provided by the DataLoader
-        == interp.targs
-    )
-    # convert True to 1.0, False to 0.0
-    .to(float)
-    # Compute the fraction of True's.
-    .mean()
-)
-```
-
-I think this should work too:
-
-```python
-accuracy(interp.preds, interp.targs)
-```
+All code is given in the example linked above.
