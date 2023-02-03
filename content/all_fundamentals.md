@@ -48,11 +48,12 @@ We also strive for the sequence to make sense.
   - {{% fundamentals name="Classifier Diagnostics" nbname="u03n1-diagnose-image-classifier.ipynb" %}}
 - Unit 4
   - {{% fundamentals name="Compute Gradients with PyTorch" nbname="u04n1-compute-grad-PyTorch.ipynb" %}}
+  - {{% fundamentals name="Linear Regression the PyTorch Way" nbname="u04n2-linreg-manual.ipynb" %}}
   - {{% fundamentals name="Trace Simple Image Classifier" nbname="u4n2-trace-mnist.ipynb" %}}
-  - {{% fundamentals name="Linear Regression the PyTorch Way" nbname="u04n3-linreg-manual.ipynb" %}}
 - Unit 5
   - {{% fundamentals name="Softmax, part 1" nbname="u5n1-softmax.ipynb" %}}
   - {{% fundamentals name="Softmax and Sigmoid" nbname="u5n2-softmax-2.ipynb" %}}
+  - {{% fundamentals name="Trace Simple Image Classifier" nbname="u5n3-trace-mnist.ipynb" %}}
 - Unit 6
   - {{% fundamentals name="Train Simple Image Classifier" nbname="u6n1-mnist-clf.ipynb" %}}
 - Unit 7
