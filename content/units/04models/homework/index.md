@@ -53,6 +53,13 @@ dataset_path = untar_data(url)
 
 ```
 
+### Batches
+
+- `fastai` drops incomplete batches in the training set. Unfortunately you can't set the batch size to 1 (because the model uses *batch normalization*--beyond the scope of this course). So give the keyword arg `bs = 2` to whatever creates your `dataloaders` (e.g., `ImageDataLoaders.from_path_func(..., bs = 2)`).
+  - There's a code chunk in the sample solution that demonstrates how to look at the batch sizes and number of images that your classifier actually gets trained on.
+- Since you have so little data, `fine_tune()` for several epochs -- at least `fine_tune(4)`.
+
+
 ### Other details
 
 All code is given in the example linked above.

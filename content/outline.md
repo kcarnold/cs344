@@ -138,3 +138,27 @@ One full pass through the training data. Not uncommon to see tens or hundreds of
 - Gradient descent: which little wiggle would improve performance on the whole dataset?
 - SGD: which would improve performance on *these few images I just saw*?
 - SGD gets to a *better* solution *faster* than complete gradient descent. (intuition: more chances to try something and get feedback.)
+
+## Unit 2
+
+### General
+
+- **Your notebooks should generally make sense when read top to bottom**. So:
+  - Use Markdown cells to narrate what you're doing, and for narrative answers (like the rule for Jupyter cell output).
+  - Intersperse Markdown cells with corresponding code, so you don't have to scroll up and down to match things up.
+  - Write narrative answers in complete sentences, so you don't have to look at the questions to understand the answers.
+    - I suggest one response per cell; start each response with a `**bold**` micro-heading, e.g., `**accuracy**: My classifier achieved accuracies between 75% and 100%.`
+  - *Read it* before you submit it.
+- We'll get to the low-level details that matter soon, so:
+  - Don't worry that you don't know all the low-level details of how classifiers work, e.g., what all the numbers do. We're gradually peeling back layers over the next few weeks.
+  - Don't worry about not knowing the low-level details of how to make fastai `DataLoaders`. That's not a learning objective of this class.
+    - If you understand what the data loaders give you (batches of numbers paired with labels), you're set.
+    - I've had to look up things in the tutorials and docs; see, e.g., [Homework 3](../homework/).
+- Be clear what the notebook output rule is: the value of the last expression in the cell. (Assignments aren't expressions.) It also shows the result of any `print()`, `display()`, or plotting.
+  - Instead of `print()`ing outputs, leverage the notebook cell output rule: just put the variable name on the last line of the cell. e.g.:
+      ```python
+      resid = y_true - y_pred
+      resid
+      ```
+- `show_batch` shows the *labels*, not the model's *predictions*. (for that you can `show_predictions`.)
+
