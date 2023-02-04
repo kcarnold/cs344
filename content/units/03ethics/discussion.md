@@ -1,6 +1,6 @@
 ---
 title: "Discussion 3: Facial Recognition"
-date: 2022-01-26
+draft: true
 ---
 
 For this week's Discussion:
