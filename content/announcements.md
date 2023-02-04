@@ -1,6 +1,27 @@
 ---
-title: "Forum Posts 23SP"
+title: "Announcements 23SP"
 ---
+
+## Week 5: Learning
+
+Last week we studied the very basics of learning by gradient descent. We implemented one of the simplest possible models--linear regression--and saw how to fit it using gradient descent. This week we'll see how to fit more complex models: we'll change the loss function so that it can perform classification instead of regression, and we'll add a nonlinearity to the model so that it can fit more complex functions. We're well on our way to understanding how to build a neural network!
+
+Logistics:
+
+- Prep 5 should be done by Monday class as usual. (I figured out why some people were confused about the dates on Moodle; I've added separate assignments with the date marked explicitly to make that more clear.) We switched back to the fastai videos, but if you liked the Zero to Hero videos, the next one of those should be fine too.
+- Homework 2 is due on Friday. (Homework 3 is already posted on the website, if you want to get a head start.)
+- Discussion 2 revisions are due on Wednesday; see instructions on Moodle.
+- Discussion 3 continues our theme of practicing how you'd answer questions that you might actually get as an AI expert. See instructions on Moodle.
+- The two notebooks for Lab 4 are due on Friday.
+- Since this week has Homework, Lab, and Discussion due, we'll skip the Study Quiz and Python Review Quiz this week.
+
+Notes:
+
+If last week's material was unclear for you, I recommend going over the Wednesday activity again; I've made some additions to it to help clarify some of the concepts. I also made some improvements to the Fundamentals notebooks to help explain things better, so if you're still having trouble with those, you might want to download the new versions. (The old version is just fine too.)
+
+I'm working on clarifying the Moodle calendar and grading. You probably got a notification about grades for Labs 1 and 2. If you didn't realize that labs have the Moodle check-in quizzes, I'll allow grace for completing those through this week. The course grades in Moodle are meaningless right now, but I'll be updating them soon.
+
+See you on Monday! As usual, we'll be in the classroom, reviewing last week's material and starting on this week's. Come with questions about the reading or video-watching!
 
 ## Week 4: Models
 
