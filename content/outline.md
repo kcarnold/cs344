@@ -4,6 +4,45 @@ title: "Outline"
 
 This page will become an outline of the entire class.
 
+## Moments
+
+Please feel free to ask us to do one of these in class.
+
+### Coding
+
+- Python tips and tricks
+  - list, set, and dict comprehensions
+  - `zip`
+  - `enumerate`
+  - iterators and generators
+  - `*args` and `**kwargs`
+  - `@property`
+  - decorators
+  - `functools.partial`
+- AI engineering
+  - stream processing
+  - data pipelines
+
+### Math
+
+- Estimating things
+  - variance of validation set accuracy estimate (how big of a validation set do you need?)
+
+### Theory
+
+- Empirical risk minimization
+- Generalization
+- Overfitting
+- Double descent
+- Bias-variance tradeoff
+- Regularization
+- Inductive bias
+
+### News
+
+- Anything you want to share or ask about
+- [Grokking paper](https://arxiv.org/abs/2201.02177)
+
 ## Unit 1: Introduction
 
 {{% details level="2" summary="Overfitting as a problem?" %}}
