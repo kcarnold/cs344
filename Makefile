@@ -51,7 +51,7 @@ deploy-pdf: deploy-quick $(slide_pdfs)
 
 deploy: deploy-quick deploy-pdf
 
-serve:
+preview:
 	hugo server --disableFastRender $(HUGO_FLAGS)
 
 # Check links.
