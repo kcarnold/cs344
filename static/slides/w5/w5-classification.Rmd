@@ -21,18 +21,6 @@ slideSetup()
 #reticulate::use_condaenv("fastai")
 ```
 
-## Logistics
-
-- Reflection and Homework due tomorrow
-
----
-
-## Interesting Points from Discussion?
-
-- Share with neighbors.
-- Then we'll share with everyone.
-
----
 
 ## How to classify?
 
@@ -56,7 +44,30 @@ A measure of relative skill:
 
 ## How do we measure how good a classifier is?
 
-Cross Entropy: should give high probability to correct result.
+- Why isn't *accuracy* useful for learning by gradient descent?
+- Why isn't Mean Squared Error a good measure? (Think of a concrete scenario, e.g., deciding whether an image is of an A, B, or C.)
+
+--
+
+- Cross Entropy: a good classifier should give high probability to correct result.
+- Intuition: surprise.
+
+---
+
+## Example: An unfair coin
+
+I think this coin is actually "heads" on both sides. But I flip it 10 times and get 8 heads and 2 tails. How surprised am I?
+
+---
+
+## Math aside: Cross-Entropy
+
+- A general concept: comparing two distributions. 
+- Most common use: classification.
+  - Classifier outputs a probability distribution over classes.
+  - Cross-entropy is a distance between that distribution and the "true" distribution.
+  - Estimate the true distribution using a 1-hot vector with 1 in the correct class and 0 elsewhere.
+- But it applies to any two distributions.
 
 ---
 
@@ -71,20 +82,9 @@ Cross Entropy: should give high probability to correct result.
 
 ---
 
-# Friday
-
----
-
-## Discussion Intro
-
-(Caleb)
-
----
-
 ## Review
 
 Which of the following two classifiers has a better *accuracy*? Which has a better *cross-entropy loss*? 
-
 
 ---
 
@@ -119,14 +119,13 @@ A and B play. Who wins?
 A and C play. Who wins?
 
 
-
 ---
 
 ## Softmax
 
-This year the Super Bowl is between the LA Rams and the Cincinnati Bengals.
+Last year the Super Bowl was between the LA Rams and the Cincinnati Bengals.
 
-FiveThirtyEight rates their team Elo scores at 1661 for the Rams and 1593 for the Bengals.
+FiveThirtyEight rated their team Elo scores at 1661 for the Rams and 1593 for the Bengals.
 
 Continue [here](https://colab.research.google.com/drive/1CdTEcZP2bOx7zbPltAdTE7xBse6JI9z5)
 
@@ -163,10 +162,6 @@ Where do Linear, Cross-Entropy and Softmax or Sigmoid go?
 
 ## Going deeper
 
-Open our Trace Simple Classifier in [Colab](https://colab.research.google.com/github/kcarnold/cs344/blob/main/static/fundamentals/u4n2-trace-mnist.ipynb).
-
----
-
 ```python
 new_linear = nn.Linear(in_features=784, out_features=1)
 new_linear.weight.data = (linear_2.weight.data @ linear_1.weight.data)
@@ -178,4 +173,4 @@ new_linear(example_3_flat)
 
 ## ReLU Intuition
 
-Piecewise linear. Ramps. See [this notebook](https://colab.research.google.com/github/kcarnold/cs344/blob/main/static/fundamentals/u5n3-linreg-manual.ipynb).
+Piecewise linear. Ramps.
