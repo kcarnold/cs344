@@ -47,6 +47,12 @@ We're using Elo scores for intuition a few times this week, but we're intentiona
 > 
 > Exodus 21:33-36 (NIV)
 
+- **Discuss**: Explain "gradient" in the context of last week's activity and lab.
+- Where we are: review last week's learning objectives
+- Where we're going: review this week's learning objectives
+- Where a linear layer fits in a neural net
+- Introduction to classification
+
 {{% /details %}}
 
 {{% details summary="Wednesday Class" %}}
