@@ -162,3 +162,50 @@ One full pass through the training data. Not uncommon to see tens or hundreds of
       ```
 - `show_batch` shows the *labels*, not the model's *predictions*. (for that you can `show_predictions`.)
 
+## Unit 5
+
+- Cross-entropy loss: negative log likelihood of the correct class.
+  - How to compute it, for a classification setting?
+    1. Compute the classifier's scores for each class.
+    2. Convert them into probabilities (usually by softmax)
+    3. Look up what the right answer was (which class it should have been).
+    4. Look up what probability the classifier gave to that class.
+    5. Compute the negative logarithm of that probability.
+    6. Do this same thing for all the examples in the batch; average the results.
+  - Why do we take the logarithm?
+    - Intuition 1: information theory.
+      - If there were 2 classes, but we had no information about which class it was, we'd learn 1 bit of information from finding out what the right answer was.
+      - If there were 4 classes, but we had no information about which class it was, we'd learn 2 bits of information from finding out what the right answer was.
+      - The pattern: we learn log2(number of classes) bits of information from finding out what the right answer was -- if we had no prior idea what the right answer was.
+      - That's the *loss*: how uncertain we were about this example.
+      - If we were 100% certain (and right), we'd learn 0 bits of information.
+      - The better the classifier, the less uncertain we are about the right answer.
+    - Intuition 2: product of probabilities
+      - The probability of two independent events is the product of their individual probabilities.
+      - But products are hard to deal with
+      - So it's easier to work with sums of logs.
+        - An average is just a sum divided by the number of things being averaged.
+- Softmax: how did we get probabilities from scores?
+  - Remember the two rules for probabilities:
+    - All probabilities are between 0 and 1.
+    - The sum of all probabilities is 1.
+  - Scores might be negative, or positive, or both, and they probably don't sum to 1, so we can't use them as probabilities.
+  - But we can fix both problems:
+    1. Subtract the largest score from all the scores, so the largest score becomes 0. (optional, but we'll see why it's useful later.)
+    2. Take the exponential of each score, so all the scores are positive.
+    3. Divide each score by the sum of all the scores, so the sum of all the scores is 1.
+  - So now we have a function that takes scores and gives probabilities, and it satisfies the two rules for probabilities.
+  - This function is called `softmax`.
+    - In math notation, `softmax(x)` is written `exp(x) / sum(exp(x))`.
+    - `exp` is the exponential function, e.g., `exp(1) == e`.
+    - In code, `softmax(x)` is written `exp(x) / exp(x).sum()`.
+    - In PyTorch, `softmax(x)` is written `F.softmax(x, dim=1)` (where `dim=1` indicates which axis has the scores for each class).
+- Where do scores come from?
+  - A linear regression for each class
+  - So each score is the dot product of the input with the weights for that class.
+  - So, intuitively, the classifier is measuring how similar the input is to each class, and then converting those similarities into probabilities.
+- Numerical aside: Why do we subtract the largest score?
+  - If we don't, then the largest score might be so large that the exponential overflows.
+  - So we subtract the largest score, so the largest score becomes 0, and the exponential doesn't overflow.
+  - This is a common trick in numerical computing: subtract the largest number to avoid overflows.
+  - This works because you can add or subtract a constant from the input to `softmax` without changing the output. (exercise to the reader: prove it!)
