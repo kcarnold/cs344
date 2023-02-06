@@ -109,11 +109,21 @@ Moreover, automatic differentiation can often take advantage of intermediate res
 
 Note that reverse-mode autodiff (like PyTorch uses) isn't necessarily optimal for all problems. For example, it's great when you have one output from lots of inputs, but it would be terrible if you had one input and lots of outputs; in that case *forward-mode autodiff* works much better. In general the optimal approach combines forward accumulation and backward accumulation; figuring out the optimal sequencing is NP-hard in general. So we just backward-mode everything and it generally works well enough.
 
+## For fitting a line, there's a closed-form solution. Why not just use that?
+
+For a single linear layer (which is what linear regression is) there's a closed-form solution (the projection), but once you get to multiple layers there's no closed-form solution.
+
+Note: a random projection is actually a pretty good feature extractor: make a linear layer with random weights (check the signs of the outputs; each feature should have a mix of positive and negative), then add a ReLU, then fit the result with ordinary linear regression. It's a pretty good baseline.
+
 ### What are limitations of SGD?
 
 - Getting the learning rate right is hard. Hence there's been a whole bunch of research on *adaptive* optimizers that automatically tune the learning rates. The most popular is probably one called Adam.
 - It requires being able to compute the gradient. That might be tricky if, for example, your model is making a discrete choice and only gets information about the results of one action out of many.
 - For structured problems (like classic linear regression and its relatives) there are often *much* faster algorithms.
+
+## How much harder is it to code up a CNN?
+
+It's not that much harder. The tricky part is implementing the "convolution" operation, which is just a matrix multiplication but "sliding" over the input. It's not too hard to get an implementation that's working but slow.
 
 ## Other questions and clarifications
 
