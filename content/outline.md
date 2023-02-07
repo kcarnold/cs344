@@ -169,12 +169,13 @@ One full pass through the training data. Not uncommon to see tens or hundreds of
 Classification = scores (from linear layers), transformed to *probabilities* via softmax, trained to optimize *cross-entropy loss*.
 
 ```goat
-                                              correct answer
-                                                  |
-                                                  v
-  .--------.  scores   .---------.  probs   .---------------. 
-  | Linear |---------->| softmax |--------->| cross-entropy |-----> loss
-  '--------'           '---------'          '---------------'
+                                                            correct answer
+                                                                 |
+                            scores                               v
+                .--------. (logits)  .---------.  probs   .---------------. 
+in features --->| Linear +---------->| softmax +--------->| cross-entropy +-----> loss
+                '--------'       n   '---------'      n   '---------------'    1
+                              (vector)              (vector)                (number)
 ```
 
 note: *scores* are more commonly called *logits*.
@@ -199,6 +200,9 @@ Negative logarithm of the probability of the correct class.
 
 Let `$y_i$` be the correct class for the `$i$`th example in a batch. Let `$p_i$` be the probability of that class, as computed by the softmax function. Then the cross-entropy loss for that example is `$-\log(p_i)$`. The cross-entropy loss for the whole batch is the average of the losses for each example.
 
+- Can be thought of as "surprise"
+- Like MSE, lower is better.
+- How to get lower? Be confident in the right answer, and not confident in the wrong answers.
 - How to compute it, for a classification setting?
   1. Compute the classifier's scores for each class.
   2. Convert them into probabilities (usually by softmax)
@@ -224,6 +228,7 @@ Let `$y_i$` be the correct class for the `$i$`th example in a batch. Let `$p_i$`
   - A nat is just log2(e) (about 1.4) bits.
   - So they're the same thing, just in different units.
 
+> *Aside*: cross-entropy is a general idea, not just for classification. For example, MSE for a regression problem can be viewed as a cross-entropy loss, where we view the model as predicting the mean of a distribution with constant variance. It's related to the idea of maximum likelihood estimation.
 
 ### Softmax
 
