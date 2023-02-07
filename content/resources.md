@@ -9,6 +9,9 @@ Here's a [Glossary](../glossary/) of some terms we've used in class. Please sugg
 ## Coding Tips
 
 - General: [How to be a Wizard](https://wizardzines.com/zines/wizard/)
+- Learning Python
+  - [roadmap.sh: Learn to become a modern Python developer](https://roadmap.sh/python)
+  - [Kaggle: Learn Python Tutorials](https://www.kaggle.com/learn/python)
 - Debugging
   - [A debugging manifesto](https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/)
     - Longer version: [The Pocket Guide to Debugging](https://wizardzines.com/zines/debugging-guide/)
