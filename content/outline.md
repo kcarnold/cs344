@@ -180,9 +180,12 @@ in features --->| Linear +---------->| softmax +--------->| cross-entropy +-----
 
 note: *scores* are more commonly called *logits*.
 
+### Basic Implementation of a Classifier
+
+We do the normal training loop: `for batch, labels in dataloader:`. Inside the training loop:
+
 ```python
 logits = model(batch)
-prediction = logits.argmax(axis=1)
 probs = F.softmax(logits, axis=1)
 loss = F.nll_loss(probs, labels)
 # Or, better replacement for the above two lines:
@@ -193,6 +196,29 @@ loss.backward()
 optimizer.step()
 model.zero_grad()
 ```
+
+We also usually want to keep track of our metrics. So we might do:
+
+```python
+prediction = logits.argmax(axis=1)
+num_correct_this_batch = (prediction == labels).float().sum()
+num_correct += num_correct_this_batch
+```
+
+- Logistic regression
+  - `model = nn.Linear(n_input_features, n_classes)`.
+  - That is, the model is a single linear layer.
+  - Its weight matrix is `n_input_features` by `n_classes`.
+  - Its bias vector is `n_classes` long.
+    - It adds a fixed amount to each class score, to allow us to model some classes as being just more likely than others a priori.
+
+### Metric vs Loss
+
+- **Metric**: a number that tells you how well your model is doing. (e.g., accuracy)
+- **Loss**: a number that tells you how well your model is doing, but is used to train the model. (e.g., cross-entropy loss)
+- **Why do we need both?** Because we want to know how well our model is doing, but we also want to train it to do better.
+- **Why not just use the loss?** Because the loss is not always a good metric. For example, if you're ultimately trying to make a decision, you might want to optimize for accuracy (or a related measure like false-positive rate), not cross-entropy loss.
+- **Why can't we train using a metric?** Because metrics are not differentiable. (e.g., accuracy is not differentiable.) The gradient of accuracy with respect to any of the model parameters is always zero, so the model can't learn anything.
 
 ### Cross-entropy loss
 
@@ -258,6 +284,34 @@ $$\text{softmax}(scores) = \frac{\exp{score_i}}{\sum_j \exp{score_j}}$$
 
 ### Where do scores come from?
 
-- A linear regression for each class
-- So each score is the dot product of the input with the weights for that class.
-- So, intuitively, the classifier is measuring how similar the input is to each class, and then converting those similarities into probabilities.
+- How does the classifier compute scores?
+  - A linear regression for each class
+  - So each score is the dot product of the input with the weights for that class.
+  - So, intuitively, the classifier is measuring how similar the input is to each class, and then converting those similarities into probabilities.
+- How do we know what was the *right* score?
+  - In linear regression we were given the right scores.
+  - In classification, we have to learn the scores from data. (hence Elo scores)
+
+### Why nonlinearities?
+
+- Remember we're trying to fit a function from inputs to outputs.
+  - The function is a model.
+  - The inputs are the (training) data.
+  - The outputs are the labels.
+  - A wide range of interesting problems can be expressed as a function from inputs to outputs.
+    - Example: classifying an image. The inputs are the pixels, and the outputs are the probabilities of each class.
+    - Example: predicting the price of a house. The inputs are the features of the house, and the outputs are the price.
+    - Example: predicting the next word in a sentence. The inputs are the previous words, and the outputs are the probabilities of each word.
+- Without nonlinearities, the model is just a linear regression.
+  - Linear regression is not powerful enough to learn anything interesting.
+  - So we need nonlinearities to make the model more powerful.
+- Example nonlinearity: the rectifier (ReLU)
+  - other examples: sigmoid, tanh, leaky ReLU, etc.
+  - ReLU is the most common (and simplest)
+- Why is ReLU useful?
+  - We can approximate any function as a piecewise linear function.
+    - It's easiest to see this with a 1D function, as we started to see in last week's lab.
+    - But it's true for any number of dimensions.
+  - We can make any piecewise linear function we want by combining ReLUs.
+  - So we can approximate any function we want by combining ReLUs.
+- The same applies for other nonlinearities also.
