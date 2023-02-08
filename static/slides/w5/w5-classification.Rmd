@@ -79,12 +79,42 @@ What if you played 5 times? What's the total surprise?
 
 ---
 
+## Use surprise to compare two models
+
+Suppose A and B are playing chess. Model M gives them equal odds (50-50), Model Q gives A an 80% win chance.
+
+| Player | Model M win prob | Model Q win prob
+|--------|------------------|-----------------|
+| A | 50% | 80% |
+| B | 50% | 20% |
+
+Now we let them play 5 games, and A wins each time.
+
+What is P(AAAAA) for each model?
+
+- Model M: `0.5 * 0.5 * 0.5 * 0.5 * 0.5` = (0.5)^5 = 0.03125
+- Model Q: `0.8 * 0.8 * 0.8 * 0.8 * 0.8` = (0.8)^5 = 0.32768
+
+Which model was better able to predict the outcome?
+
+---
+
 ## Cross-Entropy Loss
 
 - A good classifier should give high probability to correct result.
 - Cross-entropy loss = **average surprise**.
 
 Definition: Negative log of probability of the correct class.
+
+- Likelihood of data: model M (50-50): (0.5)^5 = 0.03125: model Q (80-20): (0.8)^5 = 0.32768
+- Negative log-likelihood of data: model M: `-5 * log2(0.5)` = 5 bits
+- Negative log-likelihood of data: model Q: `-5 * log2(0.8)` = 1.61 bits
+
+We usually report the average over the whole dataset, so model M has average cross-entropy loss of 5 bits, model Q has average cross-entropy loss of 1.61 bits.
+
+(Log of a product = sum of logs. Much easier to work with computationally.)
+
+(Usually use *natural* log, so units are *nats*.)
 
 ---
 
