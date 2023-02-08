@@ -32,6 +32,16 @@ An outline of all this week's material is available on the website.
 
 ---
 
+## Logistics Reminders
+
+- Preparation should be done by Monday class.
+- Discussion should be done by Wednesday class (this week: a revision and a new post)
+- Don't forget check-in quizzes for labs.
+- Homework 2 due Friday
+- Homework 3 posted, due in 2 weeks.
+
+---
+
 ## Review
 
 Can we use *accuracy* as a loss function? Why or why not?
@@ -147,7 +157,9 @@ Continue [here](https://colab.research.google.com/drive/1CdTEcZP2bOx7zbPltAdTE7x
 ## Softmax
 
 1. Start with scores (use variable name `logits`), which can be any numbers (positive, negative, whatever)
-2. Make them only positive by exponentiating: `xx = exp(logits)` or `10 ** logits`
+2. Make them only positive by exponentiating:
+  - `xx = exp(logits)` (`logits.exp()` in PyTorch)
+  - `10 ** logits`
 3. Make them sum to 1: `probs = xx / xx.sum()`
 
 ---
