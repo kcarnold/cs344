@@ -2,7 +2,6 @@
 title: "Learning to Classify"
 author: 
   - "Ken Arnold"
-date: '2022-02-09'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -22,41 +21,60 @@ slideSetup()
 ```
 
 
-## How to classify?
+## This week's objectives
 
-- How do we measure how good a classifier is?
-- How do we turn scores into probabilities?
+- Describe the difference between a metric and a loss function.
+- Describe and compute cross-entropy loss
+- Explain the purpose and mathematical properties of the softmax operation.
+- Explain the role of nonlinearities in a neural network (e.g., why they are used between linear layers)
 
----
-
-## Elo
-
-A measure of relative skill:
-
-- Higher Elo more likely to win
-- Greater point spread -> more confidence in win
-
-- Uses: [chess](https://en.wikipedia.org/wiki/Elo_rating_system), [NFL](https://projects.fivethirtyeight.com/complete-history-of-the-nfl/)
-- 538's [Superbowl prediction](https://projects.fivethirtyeight.com/2021-nfl-predictions/games/) 
-([discussion](https://fivethirtyeight.com/features/rams-or-bengals-our-guide-to-super-bowl-lvi/))
+An outline of all this week's material is available on the website.
 
 ---
 
-## How do we measure how good a classifier is?
+## Review
 
-- Why isn't *accuracy* useful for learning by gradient descent?
-- Why isn't Mean Squared Error a good measure? (Think of a concrete scenario, e.g., deciding whether an image is of an A, B, or C.)
+Can we use *accuracy* as a loss function? Why or why not?
 
 --
 
-- Cross Entropy: a good classifier should give high probability to correct result.
-- Intuition: surprise.
+No, because its derivative is almost always 0.
+
 
 ---
 
-## Example: An unfair coin
+## Today: Classification
 
-I think this coin is actually "heads" on both sides. But I flip it 10 times and get 8 heads and 2 tails. How surprised am I?
+- How do we measure how good a classifier is? **cross-entropy loss**
+- Cross-entropy depends on probabilities, but the model gives us scores. *How do we turn scores into probabilities?*
+
+---
+
+## Intuition: Predicting the outcome of a game
+
+- Suppose you play Gary Kasparov in chess. Who wins?
+- Suppose you play someone with roughly equal skill. Who wins?
+
+---
+
+## Good predictions give meaningful probabilities
+
+- How surprised would you be if you played Gary Kasparov and he won?
+- If you won?
+- Intuition: surprise
+
+--
+
+What if you played 5 times? What's the total surprise?
+
+---
+
+## Cross-Entropy Loss
+
+- A good classifier should give high probability to correct result.
+- Cross-entropy loss = **average surprise**.
+
+Definition: Negative log of probability of the correct class.
 
 ---
 
@@ -71,34 +89,29 @@ I think this coin is actually "heads" on both sides. But I flip it 10 times and 
 
 ---
 
+class: center, middle
+
 ## How do we turn scores into probabilities?
 
 ---
 
-## Where do the "right" scores come from?
+## Intuition: Elo
 
-- In linear regression we were given the right scores.
-- In classification, we have to learn the scores from data.
+A measure of relative skill:
 
----
+- Higher Elo more likely to win
+- Greater point spread -> more confidence in win
 
-## Review
+Formal definition:
 
-Which of the following two classifiers has a better *accuracy*? Which has a better *cross-entropy loss*? 
+Pr(A wins) = 1 / (1 + 10^(-EloDiff / 400))
 
----
+EloDiff = A Elo - B Elo
 
-## Review
-
-Which of the following is a good *loss function* for classification?
-
-1. Mean squared error
-2. Softmax (generalization of sigmoid to multiple categories)
-3. Error rate (number of answers that were incorrect)
-4. Average of the probability the classifier assigned to the wrong answer
-5. Average of the negative of the log of the probability the classifier assigned to the right answer
-
-Why?
+- Uses: [chess](https://en.wikipedia.org/wiki/Elo_rating_system), [NFL](https://projects.fivethirtyeight.com/complete-history-of-the-nfl/)
+- 538's [Superbowl prediction](https://projects.fivethirtyeight.com/2022-nfl-predictions/games/) 
+([discussion](https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/))
+- sometimes adjusted, e.g., for playoffs, 538 multiplies EloDiff by 1.2 (wider margins in playoffs)
 
 ---
 
@@ -123,9 +136,9 @@ A and C play. Who wins?
 
 ## Softmax
 
-Last year the Super Bowl was between the LA Rams and the Cincinnati Bengals.
+This year: Chiefs vs Eagles.
 
-FiveThirtyEight rated their team Elo scores at 1661 for the Rams and 1593 for the Bengals.
+Current Elo estimates: Chiefs at 1715, Eagles at 1679.
 
 Continue [here](https://colab.research.google.com/drive/1CdTEcZP2bOx7zbPltAdTE7xBse6JI9z5)
 
@@ -151,6 +164,29 @@ Continue [here](https://colab.research.google.com/drive/1CdTEcZP2bOx7zbPltAdTE7x
 ## Sigmoid
 
 Special case of softmax when you just have one `score` (binary classification): use `logits = [score, 0.0]`
+
+
+---
+
+## Where do the "right" scores come from?
+
+- In linear regression we were given the right scores.
+- In classification, we have to learn the scores from data.
+
+---
+
+## Review
+
+Which of the following is a good *loss function* for classification?
+
+1. Mean squared error
+2. Softmax (generalization of sigmoid to multiple categories)
+3. Error rate (number of answers that were incorrect)
+4. Average of the probability the classifier assigned to the wrong answer
+5. Average of the negative of the log of the probability the classifier assigned to the right answer
+
+Why?
+
 
 ---
 
