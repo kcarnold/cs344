@@ -1,6 +1,5 @@
 ---
 title: "Unit 5: Learning and Classification"
-date: 2022-02-07
 weight: 5
 ---
 
@@ -47,9 +46,10 @@ We're using Elo scores for intuition a few times this week, but we're intentiona
 > 
 > Exodus 21:33-36 (NIV)
 
+Correction: we did Deuteronomy 22:4, not Exodus 21:33-36.
+
 - **Discuss**: Explain "gradient" in the context of last week's activity and lab.
 - Where we are: review last week's learning objectives
-- Where we're going: review this week's learning objectives
 - Where a linear layer fits in a neural net
 - Introduction to classification
 
@@ -57,7 +57,6 @@ We're using Elo scores for intuition a few times this week, but we're intentiona
 
 {{% details summary="Wednesday Class" %}}
 
-- Discussion summary (come prepared to contribute)
 - Classification ([slides](/slides/w5/w5-classification.html))
   - intuition of scores: Elo
   - cross-entropy
@@ -66,13 +65,9 @@ We're using Elo scores for intuition a few times this week, but we're intentiona
     - math: sum the *log of* the prob given to the right answer
   - how do we make probabilities? softmax (and its relative the sigmoid)
   - where do the "right" scores come from?
-    - In linear regression we were given the right scores.
-    - In classification, we have to learn the scores from data. (hence Elo scores)
 
 {{% /details %}}
 
-{{% details summary="Friday Class" %}}
-
-- Nonlinearities (continuing ([slides](/slides/w5/w5-classification.html)))
+{{% details summary="Friday Lab" %}}
 
 {{% /details %}}
