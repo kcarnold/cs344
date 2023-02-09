@@ -36,6 +36,7 @@ Strategies for getting state-of-the-art performance:
 We'll be doing some automatic differentiation this week:
 
 - [Yet another backpropagation tutorial](https://windowsontheory.org/2020/11/03/yet-another-backpropagation-tutorial/) by Harvard CS Professor Boaz Barak
+[Overview of PyTorch Autograd Engine | PyTorch](https://pytorch.org/blog/overview-of-pytorch-autograd-engine/)
 - [Automatic differentiation in machine learning: a survey](https://arxiv.org/abs/1502.05767)
 - [`autograd-for-dummies`: A minimal autograd engine and neural network library for machine learning students.](https://github.com/malwaredllc/autograd-for-dummies)
 
