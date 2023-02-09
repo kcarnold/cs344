@@ -4,7 +4,7 @@ draft: false
 ---
 
 
-### Task
+## Task
 
 Build a simple image classifier from scratch, using only basic numerical computing primitives (like matrix multiplication).
 
@@ -23,7 +23,7 @@ Constraints:
 - Do not use any `fastai` capabilities beyond the data loading code provided.
 - *Optional*: do not use any of the PyTorch autograd mechanisms.
 
-### Why?
+## Why?
 
 - How everything works from the ground up
 - Practice with array computing
@@ -31,7 +31,7 @@ Constraints:
 
 Remember, this is about the *process*, not the result. You may be able to find a solution to this problem on the internet, but that's not the point. The point is to learn how to build a model from scratch, and to understand the process of training a model. If you find a solution on the internet, you should try to understand it, and then try to implement it yourself without looking at that solution. Please collaborate with your classmates, but all of the code you submit should be your own work.
 
-### Instructions
+## Instructions
 
 Create a new notebook. You may start with this code, which sets up the data loading.
 
@@ -64,13 +64,13 @@ print(f"{dataloaders.train.n} training images, {dataloaders.valid.n} validation 
 
 Beyond that, you're on your own! See "constraints" above.
 
-### Optional Constraint: No Autograd
+## Optional Constraint: No Autograd
 
 I have a suggested structure for implementing backpropagation yourself in a modular way. If you're interested, please ask me.
 
 Note: the PyTorch `cross_entropy` function does some interesting things under the hood. See {{% fundamentals name="this notebook" nbname="cross_entropy_logsumexp.ipynb" %}}.
 
-### Suggested Steps
+## Suggested Steps
 
 (This section was written largely by GitHub Copilot.)
 
