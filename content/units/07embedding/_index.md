@@ -16,13 +16,14 @@ Students who complete this unit will demonstrate that they can:
 
 ## Preparation
 
-- Read {{<fastbook num="8" nbname="08_collab.ipynb">}}.
+- Introduction to Embeddings via Recommender Systems {{<fastbook num="8" nbname="08_collab.ipynb">}}.
   - Their `DotProduct` class doesn't *implement* a dot product; it *uses* it for a rating prediction task.
   - Think about how this task is *almost* equivalent to a logistic regression that takes a user embedding and predicts the score of each of the movie classes: the shape of the movie weights and biases are the same. What's different?
-- Watch {{<fastvideo num="6">}} from 1h30m to the end.
-- *Skim* {{<fastbook num="9" nbname="09_tabular.ipynb">}}
-  - Focus on what kinds of models are used (decision tree, random forest) and the `sklearn` API for them (`fit()` and `predict()`).
-  - {{<fastvideo num="7">}} discusses this material. Watching it is optional but encouraged.
+  - {{<fastvideo num="7">}}
+- Models for tabular data
+  - *Skim* {{<fastbook num="9" nbname="09_tabular.ipynb">}}
+    - Focus on what kinds of models are used (decision tree, random forest) and the `sklearn` API for them (`fit()` and `predict()`).
+  - {{<fastvideo num="6">}} discusses how to train and use a useful and powerful *non-neural* machine learning model called Random Forests (and gradient boosting, aka, XGBoost and LightGBM). We'll work with these a bit next week.
 
 ## Class Meetings
 

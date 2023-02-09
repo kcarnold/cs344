@@ -25,7 +25,7 @@ The fastai course videos are a bit disorganized here, sorry about that.
 - Read {{< fastbook num="5" nbname="05_pet_breeds.ipynb" >}}.
   - skip (or skim) Presizing and the LR finder
   - skim "discriminative" rates (which would better be called "layer-dependent learning rates")
-  - Some of this material was covered in {{< fastvideo num="3" >}}, and the rest is in {{<fastvideo num="5">}}. 
+  - Some of this material was covered in {{<fastvideo num="3" >}}, and the rest is in {{<fastvideo num="5">}}. 
 - *Recommended* skim {{<fastbook num="17" nbname="17_foundations.ipynb">}}.
   - This should reinforce what we've been studying about how linear regression works and how Tensors work, and give you a preview of how we'll extend it to a full neural net.
 
