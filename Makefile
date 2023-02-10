@@ -1,6 +1,8 @@
 ALL: deploy
 all: deploy
 
+.PHONY: deploy deploy-quick deploy-pdf preview check ALWAYS_REBUILD
+
 HUGO_FLAGS := --buildDrafts --buildFuture
 DEST_DIR := /tmp/cs344-build/
 DEPLOY_TARGET := csweb:/webroot/courses/cs/344/23sp/
@@ -36,7 +38,7 @@ $(fundamentals) : %.ipynb : %_soln.ipynb nb_strip.py
 %.html : %.ipynb
 	jupyter nbconvert --to=html "$<"
 
-content/all_fundamentals.md: $(fundamentals)
+content/all_fundamentals.md: $(fundamentals) ALWAYS_REBUILD
 	python gen_fundamentals_index.py > "$@"
 
 # Deploy to cs-prod, first pass (before building slide PDFs)
