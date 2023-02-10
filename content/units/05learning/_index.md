@@ -11,7 +11,7 @@ Students who complete this unit will demonstrate that they can:
 - Describe and compute cross-entropy loss
 - Explain the purpose and mathematical properties of the softmax operation.
 - Explain the role of nonlinearities in a neural network (e.g., why they are used between linear layers)
-- Implement a logistic regression model using basic numerical computing primitives
+- Implement a multi-layer neural network using basic numerical computing primitives
 
 <!-- - Activities
 	- some variation on Learning Proportions lab? ^^bandit learning^^: how likely is each arm to give a payout? -->
