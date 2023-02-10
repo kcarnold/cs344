@@ -50,11 +50,13 @@ We also strive for the sequence to make sense.
   - {{% fundamentals name="Compute gradients using PyTorch" nbname="u04n1-compute-grad-PyTorch.ipynb" %}}
   - {{% fundamentals name="Linear Regression the PyTorch Way" nbname="u04n2-linreg-manual.ipynb" %}}
 - Unit 5
-  - {{% fundamentals name="Softmax, part 1" nbname="u5n1-softmax.ipynb" %}}
-  - {{% fundamentals name="Softmax and Sigmoid" nbname="u5n2-softmax-2.ipynb" %}}
-  - {{% fundamentals name="Trace Simple Image Classifier" nbname="u5n3-trace-mnist.ipynb" %}}
+  - {{% fundamentals name="Softmax, part 1" nbname="u05n1-softmax.ipynb" %}}
+  - {{% fundamentals name="Softmax and Sigmoid" nbname="u05n2-softmax-2.ipynb" %}}
+  - {{% fundamentals name="Train Simple Image Classifier" nbname="u05n3-mnist-clf.ipynb" %}}
 - Unit 6
-  - {{% fundamentals name="Train Simple Image Classifier" nbname="u6n1-mnist-clf.ipynb" %}}
+  - {{% fundamentals name="009-linreg-learner" nbname="u06n1-linreg-learner.ipynb" %}}
+  - {{% fundamentals name="Trace Simple Image Classifier" nbname="u06n1-trace-mnist.ipynb" %}}
+  - {{% fundamentals name="Nonlinear Regression" nbname="u06n3-nn-regression.ipynb" %}}
 - Unit 7
   - {{% fundamentals name="Regression in scikit-learn" nbname="u7n1-sklearn-regression.ipynb" %}}
   - {{% fundamentals name="Classification in scikit-learn" nbname="u7n2-sklearn-classification.ipynb" %}}
