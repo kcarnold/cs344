@@ -15,12 +15,14 @@ Specifically:
   - Then, try to predict the digit as a *classification* task, using cross-entropy loss.
 - Evaluate the accuracy on the test set.
 - Compare two different models: a single layer (logistic regression) model and a two-layer model with 30 hidden dimensions and ReLU activation.
+  - Optionally, try regularization.
 
 Constraints:
 
 - You may refer only to Fundamentals notebooks, and you must retype all code that you use for this assignment.
 - Do not use any material other than the official documentation for PyTorch Tensors.
 - Do not use any `fastai` capabilities beyond the data loading code provided.
+  - In particular, don't use `Learner`. You should implement your own training loop.
 - *Optional*: do not use any of the PyTorch autograd mechanisms.
 
 ## Why?
@@ -90,3 +92,9 @@ Notes:
   - Update the weights (step the optimizer)
   - log the loss and other metrics
   - Repeat until convergence
+
+## Reflection Questions
+
+- What did you learn about neural networks from this exercise?
+- What did you learn about your own problem-solving process?
+- How would you describe this experience in a job interview?
