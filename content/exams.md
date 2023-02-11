@@ -32,9 +32,9 @@ Short answer questions might start with words like "Explain", "Compare", "Descri
 You should try to vary the difficulty of your questions. As a rough guide, aim for each question to be at a different level of Bloom's Taxonomy. Concentrate on the first 4 levels:
 
 - Remembering (words like "define", "list", "name")
-- Understanding (words like "explain", "describe", "compare")
-- Applying (words like "use", "apply", "solve")
-- Analyzing (words like "analyze", "distinguish", "differentiate")
+- Understanding (words like "give an example", "explain", "describe", "identify")
+- Applying (words like "implement", "apply", "solve")
+- Analyzing (words like "analyze", "distinguish", "contrast")
 
 ## Stage 2: Reviewing Questions
 
