@@ -2,6 +2,21 @@
 title: "Announcements 23SP"
 ---
 
+## Week 6: Recap and Regularization
+
+Happy Saturday, Neural Network coders!
+
+The next unit discusses state-of-the-art models (still focusing on computer vision). We’ll introduce or revisit tools that allow our models to achieve high performance, such as data augmentation and regularization. But we'll actually spend most of our time together getting more practice with how neural networks work from the ground up as we implement our own simple neural net image classifier from scratch (definitely something to mention in an interview!).
+
+Logistics:
+
+- Prep 6 for Monday (note that the quiz is always open through the end of the semester, unlimited attempts, but you must complete it by Monday to get Process credit.)
+- We'll meet in the classroom on Monday to review some things, but we'll be in lab on Wednesday and Friday. There's lots of hands-on work to do! This should give you time to finish up Lab 5, which is due on Friday, and also start on Lab 6, which will be due next week as usual.
+- In lieu of a Discussion this week, I'd like you to start thinking about your *exam questions*. I've drafted the logistics for this unconventional assessment method; have a look at the [website](https://cs.calvin.edu/courses/cs/344/23sp/exams/). I'll post a few example questions there soon.
+- Homework 3 is due the Friday after this (right before Spring Break). It's a big one, so start early!
+
+I've started working on making sure that the [Moodle Calendar](https://moodle.calvin.edu/calendar/view.php?view=month&course=58526) is up to date. I'll try to keep it that way, but if you notice something missing, please let me know.
+
 ## Week 5: Learning
 
 Last week we studied the very basics of learning by gradient descent. We implemented one of the simplest possible models--linear regression--and saw how to fit it using gradient descent. This week we'll see how to fit more complex models: we'll change the loss function so that it can perform classification instead of regression, and we'll add a nonlinearity to the model so that it can fit more complex functions. We're well on our way to understanding how to build a neural network!
