@@ -44,26 +44,28 @@ Finally, I sometimes remark that "machine learning is lazy" (in that it tends to
 
 ## Class Meetings
 
-### Monday
+{{% details summary="Monday class" %}}
 
-Review:
+> If anyone uncovers a pit or digs one and fails to cover it and an ox or a donkey falls into it, the one who opened the pit must pay the owner for the loss and take the dead animal in exchange.
+>
+> If anyone’s bull injures someone else’s bull and it dies, the two parties are to sell the live one and divide both the money and the dead animal equally. However, if it was known that the bull had the habit of goring, yet the owner did not keep it penned up, the owner must pay, animal for animal, and take the dead animal in exchange.
+> 
+> Exodus 21:33-36 (NIV)
+
+- [Slides](../../slides/w6/w6-recap.html): Head and Body
+
+{{% /details %}}
+
+{{% details summary="Wednesday in lab" %}}
 
 - [Week 5 Q&A](../05learning/qa/)
+
 - Linear layers
   - What are their parameters? How do they use them to compute the results?
   - Why do we need nonlinearities? without them, a stack of Linear layers is just a Linear layer.
   - How do ReLUs allow piecewise linear function approximation?
 
-### Wednesday
-
-- Discussion summary (come prepared to contribute)
-- [Slides](../../slides/w6/w6-recap.html): Head and Body
-
-### Friday
-
-- Finish Wednesday lecture
-  - Augmentation and Regularization
-  - Backpropagation (moved to video)
+{{% /details %}}
 
 <!--
 

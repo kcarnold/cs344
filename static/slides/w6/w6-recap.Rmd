@@ -21,10 +21,16 @@ slideSetup()
 #reticulate::use_condaenv("fastai")
 ```
 
-## Interesting Points from Discussion?
+## Review Quiz
 
-- Share with neighbors.
-- Then we'll share with everyone.
+1. Suppose a classifier outputs a score (logit) of 0 for every class. Compute the probabilities:
+  - if there are 2 possible classes?
+  - if there are 256 possible classes?
+  - what is the cross-entropy loss (in *bits*)?
+2. Suppose that there are 2 possible classes, and again the classifier outputs 0 and 0. The correct answer for a certain example is class A.
+  - What happens to the cross-entropy when we increase the score of class A by 1?
+  - What if we instead *decrease* the score of class B by 1?
+  - (First give a general intuitive answer. Then, compute the actual cross-entropies.)
 
 ---
 
@@ -35,10 +41,17 @@ slideSetup()
 - Predict the effect of data augmentation and regularization on model training.
 - Implement a multi-layer neural network using basic numerical computing primitives
 
-
 ---
 
-## Backpropagation Review
+## Clarification: Regression
+
+- Predict a continuous value, vs a category
+- Describes the *result*, not the *method*
+- Method: **Not necessarily a linear function!**
+  - Decision trees ("CART" algorithm = "Classification and Regression Trees")
+  - Random forests
+  - Neural networks
+
 
 
 ---
@@ -49,9 +62,65 @@ Linear regression and logistic classification are the final layers of models.
 
 ---
 
-## Overfitting in Classification
+## Logistic Classification: Two variations
 
-Intuition: overconfidence
+1. "Pick the best answer": one big softmax
+2. "Choose all that apply": a softmax (really a sigmoid) for each class
+
+What's the difference between the two?
+
+--
+
+- For a "yes"/"no" question, they're equivalent.
+- Pick the best: zero-sum. Increasing probability of one class decreases probability of all others.
+- Choose all that apply: each class is chosen independently.
+- Which to choose: match your situation. Rarely makes a big difference.
+
+---
+
+## Thresholds
+
+At what probability do you decide that a class is present?
+
+- Medical alarm example: may want to signal a potential problem even if uncertain
+- Trade-off between false positives and false negatives
+- Applies to both "pick the best" and "choose all that apply"
+- Can be different for each class
+
+---
+
+## Backpropagation
+
+How much does a change in each input affect the output?
+
+Consider plotting the loss as a function of each parameter. What's the slope of that plot at the current value?
+
+---
+
+## The Backpropagation Trick
+
+- Start with the simplest gradient to compute.
+- Work backwards one step at a time.
+
+---
+
+## Overfitting
+
+Suppose you carefully study past exams.
+
+> When the question includes the letter "m", the answer is always "B".
+
+--
+
+- Can you get low loss on the practice exam?
+- Will you do well on the real exam?
+
+---
+
+## Overfitting
+
+- Learning the real relationship between inputs and outputs is harder than learning a shortcut.
+- [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law): "When a measure becomes a target, it ceases to be a good measure."
 
 ---
 

@@ -388,9 +388,14 @@ $$\text{softmax}(scores) = \frac{\exp{score_i}}{\sum_j \exp{score_j}}$$
       - We can also use MAE or MAPE
 - Making models generalize better
   - Augmentation: make your training data more diverse
+  - Intuition: carefully studying past exams.
+    - What if you say: 'When the question includes the letter "m", the answer is always "B".'
+    - That's much easier to learn than how to think through solving the question.
+      - So it leads to higher confidence in answers for practice exams.
   - Regularization: avoid excesses
     - excessive use of individual features
       - problem: might overfit to the training data
       - solution: penalize large weights
     - excessive confidence in predictions
-      - problem: 
+      - problem: might overfit to the training data, even mistaken labels
+      - solution: penalize probabilities that are too close to 0 or 1.

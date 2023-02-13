@@ -40,13 +40,7 @@ We're using Elo scores for intuition a few times this week, but we're intentiona
 
 {{% details summary="Monday Class" %}}
 
-> If anyone uncovers a pit or digs one and fails to cover it and an ox or a donkey falls into it, the one who opened the pit must pay the owner for the loss and take the dead animal in exchange.
->
-> If anyone’s bull injures someone else’s bull and it dies, the two parties are to sell the live one and divide both the money and the dead animal equally. However, if it was known that the bull had the habit of goring, yet the owner did not keep it penned up, the owner must pay, animal for animal, and take the dead animal in exchange.
-> 
-> Exodus 21:33-36 (NIV)
-
-Correction: we did Deuteronomy 22:4, not Exodus 21:33-36.
+- Deuteronomy 22:4: responsibility for what we build. Resilience.
 
 - **Discuss**: Explain "gradient" in the context of last week's activity and lab.
 - Where we are: review last week's learning objectives
@@ -69,5 +63,7 @@ Correction: we did Deuteronomy 22:4, not Exodus 21:33-36.
 {{% /details %}}
 
 {{% details summary="Friday Lab" %}}
+
+[Lab 5](lab/)
 
 {{% /details %}}
