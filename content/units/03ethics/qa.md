@@ -46,3 +46,19 @@ The book mentions gradient-boosted trees in Chapter 2 as an alternative approach
 ### Do we really need labels?
 
 **No**: a big area of growth now is in *self-supervised* learning, where the model learns overall patterns in the data independent of labels, then only needs a small amount of labeled data (or none at all, in some cases) to make conclusions. For example, consider learning to predict what text ends up near an image on a website... or blanking out part of an image and learning to fill it in.
+
+### Predictions vs Recommended Actions
+
+Imagine Amazon's if-you-liked-this product recommender. It's probably seeded by trying to predict what product people actually bought. But you can only buy things that you're already aware of. So they probably tweaked it to recommend products that they think people will be interested in and *wouldn't* already know about.
+
+### Why does fast.ai `import *`?
+
+I wish they didn't.
+
+### Any real-life examples of overfitting?
+
+See an example in slides. Also, have a look at "adversarial examples".
+
+### Could we still "overfit" if we had infinite data?
+
+Yes, if the data were from a different *distribution*. For example, if you trained on an infinite set of black cats and white dogs, your model would struggle with white cats or black dogs.
