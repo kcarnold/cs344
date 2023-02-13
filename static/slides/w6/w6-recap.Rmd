@@ -87,6 +87,10 @@ At what probability do you decide that a class is present?
 - Applies to both "pick the best" and "choose all that apply"
 - Can be different for each class
 
+[Receiver Operationg Characteristic curve]((https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Curves_in_ROC_space)
+
+![](https://upload.wikimedia.org/wikipedia/commons/8/8c/Receiver_Operating_Characteristic.png)
+
 ---
 
 ## Backpropagation
