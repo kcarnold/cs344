@@ -7,7 +7,7 @@ HUGO_FLAGS := --buildDrafts --buildFuture
 DEST_DIR := /tmp/cs344-build/
 DEPLOY_TARGET := csweb:/webroot/courses/cs/344/23sp/
 
-slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides -iname '*.Rmd' -and -not -iname "*slides-common*"))
+slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides \( -iname '*.Rmd' -o -iname '*.qmd' \) -and -not -iname "*slides-common*"))
 slide_pdfs := $(patsubst %.html,%.pdf,$(slide_htmls))
 fundamentals_soln := $(wildcard static/fundamentals/*_soln.ipynb)
 fundamentals := $(subst _soln,,$(fundamentals_soln))
@@ -18,6 +18,9 @@ extra_notebooks := content/units/04models/homework/example-homework-2.html
 # Build slides
 %.html: %.Rmd
 	Rscript -e "rmarkdown::render('"$<"')"
+
+%.html: %.qmd
+	quarto render "$<"
 
 $(handouts) : %.pdf: %.md
 	pandoc "$<" -o "$@"

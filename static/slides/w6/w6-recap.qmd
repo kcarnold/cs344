@@ -1,36 +1,22 @@
 ---
 title: "Learning Recap and Avoiding Overfitting"
-author: 
-  - "Ken Arnold"
-date: 2022-02-16
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    css: xaringan-themer.css
-    nature:
-      highlightStyle: github
-      highlightLines: false
-      countIncrementalSlides: false
-      ratio: "16:9"
+format:
+  revealjs
+jupyter: py3-fa22
+execute:
+  echo: true
 ---
 
-```{r setup, include=FALSE}
-source("../slides-common.R")
-slideSetup()
-#library(reticulate)
-#reticulate::use_condaenv("fastai")
-```
-
-## Review Quiz
+## Review Quiz {.smaller}
 
 1. Suppose a classifier outputs a score (logit) of 0 for every class. Compute the probabilities:
-  - if there are 2 possible classes?
-  - if there are 256 possible classes?
-  - what is the cross-entropy loss (in *bits*)?
+    - if there are 2 possible classes?
+    - if there are 256 possible classes?
+    - what is the cross-entropy loss (in *bits*)?
 2. Suppose that there are 2 possible classes, and again the classifier outputs 0 and 0. The correct answer for a certain example is class A.
-  - What happens to the cross-entropy when we increase the score of class A by 1?
-  - What if we instead *decrease* the score of class B by 1?
-  - (First give a general intuitive answer. Then, compute the actual cross-entropies.)
+    - What happens to the cross-entropy when we increase the score of class A by 1?
+    - What if we instead *decrease* the score of class B by 1?
+    - (First give a general intuitive answer. Then, compute the actual cross-entropies.)
 
 ---
 
@@ -62,14 +48,14 @@ Linear regression and logistic classification are the final layers of models.
 
 ---
 
-## Logistic Classification: Two variations
+## Logistic Classification: Two variations {.smaller}
 
 1. "Pick the best answer": one big softmax
 2. "Choose all that apply": a softmax (really a sigmoid) for each class
 
 What's the difference between the two?
 
---
+. . .
 
 - For a "yes"/"no" question, they're equivalent.
 - Pick the best: zero-sum. Increasing probability of one class decreases probability of all others.
@@ -78,7 +64,7 @@ What's the difference between the two?
 
 ---
 
-## Thresholds
+## Thresholds {.smaller}
 
 At what probability do you decide that a class is present?
 
@@ -87,9 +73,16 @@ At what probability do you decide that a class is present?
 - Applies to both "pick the best" and "choose all that apply"
 - Can be different for each class
 
-[Receiver Operationg Characteristic curve]((https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Curves_in_ROC_space)
+::: {.columns}
 
+::: {.column}
+[Receiver Operating Characteristic curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Curves_in_ROC_space)
+:::
+
+::: {.column}
 ![](https://upload.wikimedia.org/wikipedia/commons/8/8c/Receiver_Operating_Characteristic.png)
+:::
+:::
 
 ---
 
@@ -114,7 +107,7 @@ Suppose you carefully study past exams.
 
 > When the question includes the letter "m", the answer is always "B".
 
---
+. . .
 
 - Can you get low loss on the practice exam?
 - Will you do well on the real exam?
