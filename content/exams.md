@@ -46,6 +46,8 @@ Individually: Each student should take a stratified random sample of questions. 
 
 We will also collaboratively test ChatGPT. Each student will give ChatGPT a question, then reflect on whether the answer is correct.
 
+We will also reflect on our experience with this first exam and how we can improve it for the next one.
+
 ## Logistics
 
 We'll do this all in a GitHub repo: https://github.com/kcarnold/cs344-exam-23sp
@@ -65,3 +67,4 @@ We'll do this all in a GitHub repo: https://github.com/kcarnold/cs344-exam-23sp
 
 - https://li.wsu.edu/documents/2018/01/student-generated-test-questions.pdf/  
 - https://www.researchgate.net/publication/279747608_Asking_the_Right_Questions_Using_Student-Written_Exams_as_an_Innovative_Approach_to_Learning_and_Evaluation  
+- [“Exams by You”: Having Students Write and Complete Their Own Exams During the COVID-19 Pandemic - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9082101/)

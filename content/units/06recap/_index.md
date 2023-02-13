@@ -28,6 +28,8 @@ The fastai course videos are still a bit disorganized, sorry about that.
 
 ### Supplemental Materials
 
+A nice intuition about why layers matter: [Why depth matters in a neural network (Deep Learning / AI) - YouTube](https://www.youtube.com/watch?v=e5xKayCBOeU&list=PLbg3ZX2pWlgKV8K6bFJr5dhM7oOClExUJ&index=4)
+
 Strategies for getting state-of-the-art performance:
 
 - [Simple considerations for simple people building fancy neural networks](https://huggingface.co/blog/simple-considerations)
