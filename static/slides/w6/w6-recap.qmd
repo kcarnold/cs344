@@ -46,6 +46,9 @@ execute:
 
 Linear regression and logistic classification are the final layers of models.
 
+<!-- this could be more clear -- make it concrete? show the vector that comes out of the foundation model? We could use a better picture on the slide. -->
+
+
 ---
 
 ## Logistic Classification: Two variations {.smaller}
@@ -86,6 +89,22 @@ At what probability do you decide that a class is present?
 
 ---
 
+## Day 2
+
+> If anyone uncovers a pit or digs one and fails to cover it and an ox or a donkey falls into it, the one who opened the pit must pay the owner for the loss and take the dead animal in exchange.
+>
+> If anyone’s bull injures someone else’s bull and it dies, the two parties are to sell the live one and divide both the money and the dead animal equally. However, if it was known that the bull had the habit of goring, yet the owner did not keep it penned up, the owner must pay, animal for animal, and take the dead animal in exchange.
+> 
+> Exodus 21:33-36 (NIV)
+
+---
+
+## Logistics
+
+- Exams-by-us first milestone: write one draft question by Monday.
+
+---
+
 ## Backpropagation
 
 How much does a change in each input affect the output?
@@ -98,6 +117,26 @@ Consider plotting the loss as a function of each parameter. What's the slope of 
 
 - Start with the simplest gradient to compute.
 - Work backwards one step at a time.
+
+
+---
+
+## Example: Linear Regression with MSE
+
+Notation: `x_grad` means "the gradient of the **loss** with respect to x", or $\frac{\partial L}{\partial x}$.
+
+```python
+y = x @ w + b
+resid = y - y_true
+resid_squared = resid ** 2
+loss = resid_squared.mean()
+```
+
+- What's `resid_grad`? (the gradient of the loss with respect to the *residuals*)
+- What's `b_grad`? (the gradient of the loss with respect to the *intercept*)
+- Chain rule: $\frac{\partial L}{\partial b} = \frac{\partial L}{\partial resid} \frac{\partial resid}{\partial b}$
+- Key idea: `resid_grad` is already computed!
+- All we need to calculate is $\frac{\partial resid}{\partial b}$
 
 ---
 
