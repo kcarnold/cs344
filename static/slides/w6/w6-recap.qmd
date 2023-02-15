@@ -16,7 +16,7 @@ execute:
 2. Suppose that there are 2 possible classes, and again the classifier outputs 0 and 0. The correct answer for a certain example is class A.
     - What happens to the cross-entropy when we increase the score of class A by 1?
     - What if we instead *decrease* the score of class B by 1?
-    - (First give a general intuitive answer. Then, compute the actual cross-entropies.)
+    - (First give a back-of-the-envelope estimate. Then, compute the actual cross-entropies.)
 
 ---
 
@@ -89,13 +89,29 @@ At what probability do you decide that a class is present?
 
 ---
 
-## Day 2
+
+## Wednesday
+
 
 > If anyone uncovers a pit or digs one and fails to cover it and an ox or a donkey falls into it, the one who opened the pit must pay the owner for the loss and take the dead animal in exchange.
 >
 > If anyone’s bull injures someone else’s bull and it dies, the two parties are to sell the live one and divide both the money and the dead animal equally. However, if it was known that the bull had the habit of goring, yet the owner did not keep it penned up, the owner must pay, animal for animal, and take the dead animal in exchange.
 > 
 > Exodus 21:33-36 (NIV)
+
+---
+
+## Review {.smaller}
+
+1. Which of the following is a *regression* in the sense we've been using? (A) logistic regression, (B) a decision tree predicting a number, (C) finding the slope of the line tangent to the loss function, (D) taking the average of the log of a probability
+
+2. When you fine-tune a model, you can (A) replace the "body", (B) replace the "head".
+
+3. T/F: you need to set a decision threshold before training a model.
+
+4. Changing the decision threshold affects (A) training loss, (B) validation loss, (C) false positive rate, (D) the dimensionality of the last linear layer.
+
+5. Suppose the input to the last linear layer is a 512-dimensional vector. Describe the shape of the weight matrix and output vector for (1) predicting the vertical position of the nose in a face, (2) labeling an image as blurry vs focused, and (3) labeling an image as A, B, or C.
 
 ---
 
