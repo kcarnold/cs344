@@ -48,7 +48,7 @@ Try to make the best model you can, under the following constraints:
     - Which letter is it most successful at classifying? Give an example of a correctly classified image (show a specific image file and its classification).
     - What mistakes does it make most frequently? Give an example of a mistake (show a specific image file and its classification).
     - For the previous 3 questions, any ideas about *why*?
-    - Suppose someone else gave you one of their images. How likely do you think your classifier would be to get it right? *report your answer in terms of a percentage, either overall or by letter*.
+    - Suppose someone else gave you one of their images. How likely do you think your classifier would be to get it right? *report your answer in terms of a percentage, either overall or broken down by which letter*.
     - What choices did you have to make in the process of collecting data, processing it, and analyzing the results?
       - What are one or two choices that you could have made differently?
       - What do you expect would be different if you made that different choice?
