@@ -42,7 +42,7 @@ Each student should contribute two revisions to questions written by other stude
 
 ## Stage 3: Taking the Exam
 
-Individually: Each student should take a stratified random sample of questions. The sample should include one question from each unit, and one question from each type (multiple-choice, short-answer, etc.).
+Individually: Each student will get a stratified random sample of questions. The sample should include one question from each unit, and one question from each type (multiple-choice, short-answer, etc.).
 
 We will also collaboratively test ChatGPT. Each student will give ChatGPT a question, then reflect on whether the answer is correct.
 
@@ -59,9 +59,12 @@ We'll do this all in a GitHub repo: https://github.com/kcarnold/cs344-exam-23sp
     - `mc` means "multiple choice". Other types include `sa` (short answer), `tf` (true/false), or other.
   - In each directory, make a `README.md` file that contains the question.
   - In each directory, make an `answer.md` file that contains the answer, and an explanation of why the answer is correct.
-- Stage 2:  
-	- Each student picks a stratified random set of questions  
-
+  - In each directory, make a `SLO.md` that contains the learning objective(s) that the question is testing. You can generally copy and paste these from the unit's Objectives section on the website.
+- Stage 2: Reviewing Questions
+  - Each student makes two revisions to questions written by other students.
+  - Make your edits in a branch, then make a pull request to merge your branch into `main`.
+- Stage 3:
+  - Each student picks a stratified random set of questions  
 
 ## References
 
