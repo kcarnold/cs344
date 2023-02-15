@@ -53,6 +53,8 @@ dataset_path = untar_data(url)
 
 ```
 
+*In future years we might actually make this a Kaggle competition, but I couldn't get the logistics worked out in time this year.*
+
 ### Batches
 
 - `fastai` drops incomplete batches in the training set. Unfortunately you can't set the batch size to 1 (because the model uses *batch normalization*--beyond the scope of this course). So give the keyword arg `bs = 2` to whatever creates your `dataloaders` (e.g., `ImageDataLoaders.from_path_func(..., bs = 2)`).
