@@ -5,7 +5,7 @@ weight: 7
 
 In this unit we introduce one of the most powerful concepts in machine learning: the *embedding*. It's the idea that instead of being explicitly given a representation for something, we *learn* it from data *based on the properties it should have*. We've actually already seen embeddings of various kinds (the inputs to the last layer of an image classifier for one), but we'll look at two examples where the embedding aspect is even clearer: movies and words.
 
-We'll also look a bit at some very useful non-neural models for tabular data, and the sklearn fit-predict API.
+We'll also look a bit at some very useful non-neural models for tabular data, and the sklearn fit-predict API. But since this material is reviewed in DATA 202 and DATA 303, we won't spend much time on it.
 
 Students who complete this unit will demonstrate that they can:
 
@@ -24,7 +24,7 @@ Students who complete this unit will demonstrate that they can:
 - Models for tabular data
   - *Skim* {{<fastbook num="9" nbname="09_tabular.ipynb">}}
     - Focus on what kinds of models are used (decision tree, random forest) and the `sklearn` API for them (`fit()` and `predict()`).
-  - {{<fastvideo num="6">}} discusses how to train and use a useful and powerful *non-neural* machine learning model called Random Forests (and gradient boosting, aka, XGBoost and LightGBM). We'll work with these a bit next week.
+  - {{<fastvideo num="6">}} discusses how to train and use a useful and powerful *non-neural* machine learning model called Random Forests (and gradient boosting, aka, XGBoost and LightGBM).
 
 ## Class Meetings
 
