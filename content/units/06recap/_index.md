@@ -62,6 +62,7 @@ Finally, I sometimes remark that "machine learning is lazy" (in that it tends to
 
 See Slides for the precision-recall chart I was trying to draw in class. (I almost had it right: it's True Positive vs *False* Positive.)
 
+- [Slides](../../slides/w6/w6-recap.html)
 - [Week 5 Q&A](../05learning/qa/)
 
 - Linear layers
