@@ -1,18 +1,16 @@
 ---
 title: "Unit 9: NLP Modeling"
-date: 2022-03-14
 weight: 9
 ---
 
 Now that we've seen the basic capabilities of NLP models, let's start getting under the hood. How do they work? How do we measure that?
 
 - Describe the basic steps in an NLP pipeline and what the data looks like coming into and going out of each step.
-- Describe practical considerations of handling batches of variable-length sequences, such as padding, attention masking, and truncation.
-- Define *perplexity*, and describe how it relates to log-likelihood and cross-entropy (and the general concept of partial credit in classifiers)
 
 ## Preparation
 
-- Review chapters 1 and 2 of the [Hugging Face NLP Course](https://huggingface.co/course/); do the end-of-chapter quizzes if you have not.
+- Read NLPT Chapter 2
+- Read chapter 2 of the [Hugging Face NLP Course](https://huggingface.co/course/); do the end-of-chapter quizz.
 - Read chapter 3 of the course. Do the end-of-chapter quiz. Additionally, be able to answer the following questions:
   - Section 2
     - In the first code chunk:
@@ -60,6 +58,5 @@ Now that we've seen the basic capabilities of NLP models, let's start getting un
 - Notes:
   - [Feedback survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUMUtET1YyOFk0MFkzSTVISk9OR1I4RllETC4u) posted
   - Study Quizzes posted
-  - Outcomes grading
 - Review loss, look at how it's implemented, clarify perplexity
 - Review embeddings and hidden states

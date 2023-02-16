@@ -5,10 +5,13 @@ weight: 10
 ---
 
 The Transformers architecture (sometimes called *self-attention networks*) has been the power behind many recent advances not just in NLP but also vision, audio, etc.
-The week we'll see how they work!
+That's because they're currently one of the best tools we have for representing *high-dimensional joint distributions*, such as the distribution over all possible sequences of words or images.
+This week we'll see how they work!
 
 By the end of this week you should be able to answer the following questions:
 
+- Describe practical considerations of handling batches of variable-length sequences, such as padding, attention masking, and truncation.
+- Define *perplexity*, and describe how it relates to log-likelihood and cross-entropy (and the general concept of partial credit in classifiers)
 - What is a *layer* in a self-attention network: what goes in, what comes out, and what are the shapes of all those things?
 - Why are variable-length sequences challenging for neural nets? How do self-attention networks handle that challenge? (Bonus: what are some alternative approaches? convolutional nets, recurrent nets, all-MLP ([spatial gating](https://arxiv.org/abs/2105.08050)) networks, etc.)
 - How does data flow in a self-attention network? In what sense does it use *conditional logic*?
@@ -20,12 +23,14 @@ By the end of this week you should be able to answer the following questions:
 
 Read and/or watch two things about how Transformers work.
 
-- [Transformers Study Materials](https://github.com/dair-ai/Transformers-Recipe) at a range of levels of detail.
-- Twitter threads more your thing? [Part 1](https://twitter.com/MishaLaskin/status/1479246928454037508), [Part 2](https://twitter.com/MishaLaskin/status/1481767733972901888)
+- NLPT Chapter 3
 
 ### Supplemental Material
 
-After all of this, self-attention may not actually be best. Amazingly (to me) a precomputed token mixing matrix might actually outperform self-attention: [[2203.06850] Efficient Language Modeling with Sparse all-MLP](https://arxiv.org/abs/2203.06850).
+- A story-like derivation of Transformers: [Transformers from Scratch](https://e2eml.school/transformers.html)
+- Other study material:
+  - [Transformers Study Materials](https://github.com/dair-ai/Transformers-Recipe) at a range of levels of detail.
+  - Twitter threads more your thing? [Part 1](https://twitter.com/MishaLaskin/status/1479246928454037508), [Part 2](https://twitter.com/MishaLaskin/status/1481767733972901888)
 
 ## Class Meetings
 
