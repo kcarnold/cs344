@@ -54,8 +54,8 @@ We also strive for the sequence to make sense.
   - {{% fundamentals name="Softmax and Sigmoid" nbname="u05n2-softmax-2.ipynb" %}}
   - {{% fundamentals name="Train Simple Image Classifier" nbname="u05n3-mnist-clf.ipynb" %}}
 - Unit 6
-  - {{% fundamentals name="009-linreg-learner" nbname="u06n1-linreg-learner.ipynb" %}}
   - {{% fundamentals name="Trace Simple Image Classifier" nbname="u06n1-trace-mnist.ipynb" %}}
+  - {{% fundamentals name="Linear Regression using the Fast.ai Learner" nbname="u06n2-linreg-learner.ipynb" %}}
   - {{% fundamentals name="Nonlinear Regression" nbname="u06n3-nn-regression.ipynb" %}}
 - Unit 7
   - {{% fundamentals name="Regression in scikit-learn" nbname="u7n1-sklearn-regression.ipynb" %}}
