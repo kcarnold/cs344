@@ -5,8 +5,9 @@ draft: true
 
 Complete the following notebooks for this week. Do your work in the corresponding notebook.
 
-- {{% fundamentals name="Regression in scikit-learn" nbname="u7n1-sklearn-regression.ipynb" %}}
-- {{% fundamentals name="Classification in scikit-learn" nbname="u7n2-sklearn-classification.ipynb" %}}
+- {{% fundamentals name="Regression in scikit-learn" nbname="u07n1-sklearn-regression.ipynb" %}}
+- {{% fundamentals name="Classification in scikit-learn" nbname="u07n2-sklearn-classification.ipynb" %}}
+
 
 <!--
 
