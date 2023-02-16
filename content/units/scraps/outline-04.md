@@ -1,7 +1,6 @@
 ---
 title: "Friday class"
-date: 2022-02-04
-type: Class
+draft: true
 ---
 
 Plan:
