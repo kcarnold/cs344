@@ -30,18 +30,10 @@ Hopefully quick revisions:
 - image-ops: mean image didn't work. Use `axis=0` or `axis=1` etc.
 - image-ops: blacking out part of the image didn't work. See [the revised instructions](https://cs.calvin.edu/courses/cs/344/22sp/fundamentals/u2n2-image-ops.html), search for the phrase "assign to slices".
 - image-ops: only-red-channel didn't work. Use assignment like the previous problem.
-- trace-mnist: the *activations* are the *results* of the layers, not the layers themselves.
-- trace-mnist: you need to pass the *output* of one layer as the *input* to the next one.
-- trace-mnist: the activation shapes are incorrect (Maybe you're thinking the *weight* shapes). Check `act1_shape` against `act1.shape`.
-- trace-mnist: weight shapes should, like activation shapes, be lists of numbers (in this case, two numbers), e.g., `linear_1_weight_shape = [linear_3.middle_features, linear_17.special_features]` but the right numbers instead. Then, check that `linear_1_weight_shape` matches `linear_1.weight.shape`.
 
 Optional revisions:
 
 - diagnose-classifier: the probability number is actually the probability that the classifier assigned to the decision that it made. (I think it should be the probability that it assigns to the *correct* answer, but they're not going to change that now.)
 - image ops: grayscale should have used the average of all 3 channels (mean on axis 1)
 - black-out could have used negative indexing (e.g., `-50:`)
-
-
-[22SP]
-trace-mnist is still somewhat confused. A lot of people made a similar confusion, so I added some hints and assertions to the notebook. Download the notebook again (or look at the preview) and it should be much clearer.
 -->
