@@ -42,7 +42,7 @@ $(fundamentals) : %.ipynb : %_soln.ipynb nb_strip.py
 	jupyter nbconvert --to=html "$<"
 
 content/all_fundamentals.md: $(fundamentals) ALWAYS_REBUILD
-	python gen_fundamentals_index.py > "$@"
+	python gen_fundamentals_index.py --output="$@"
 
 # Deploy to cs-prod, first pass (before building slide PDFs)
 deploy-quick: $(slide_htmls) $(fundamentals) $(fundamentals_html) content/all_fundamentals.md $(handouts) $(extra_notebooks)

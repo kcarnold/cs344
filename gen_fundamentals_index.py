@@ -23,6 +23,15 @@ for filename in sorted(p.glob("*.ipynb")):
 
 nbs.sort()
 
+# Accept a single argument to specify the output file
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--output')
+args = parser.parse_args()
+
+out_file = Path(args.output)
+out_fp = out_file.open('w')
+
 print('''---
 title: "Fundamentals Index"
 ---
@@ -62,11 +71,13 @@ We also strive for the sequence to make sense.
 
 **Note**: Notebooks beyond the current unit may not be updated for the current year.
 
-''')
+''', file=out_fp)
 
 for unit in sorted(set(nb[0] for nb in nbs)):
-    print(f"- Unit {unit}")
+    print(f"- Unit {unit}", file=out_fp)
     for nb in nbs:
         if nb[0] != unit:
             continue
-        print('  - {{% fundamentals name="' + nb[3] + '" nbname="' + nb[2] + '" %}}')
+        print('  - {{% fundamentals name="' + nb[3] + '" nbname="' + nb[2] + '" %}}', file=out_fp)
+
+out_fp.close()
