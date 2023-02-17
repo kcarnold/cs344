@@ -320,6 +320,13 @@ $$\text{softmax}(scores) = \frac{\exp{score_i}}{\sum_j \exp{score_j}}$$
   - So we subtract the largest score, so the largest score becomes 0, and the exponential doesn't overflow.
   - This is a common trick in numerical computing: subtract the largest number to avoid overflows.
   - This works because you can add or subtract a constant from the input to `softmax` without changing the output. (exercise to the reader: prove it!)
+- Logits vs logprobs
+  - The model's output is called the *logits*, which is a vector with one number for each class.
+  - Usually they're the result of a Linear layer, so they're not constrained to be probabilities.
+  - We interpret each logit as the *log* of the *unnormalized* probability of each class. (hence the name)
+  - To *normalize* the probabilities, we could apply `softtmax` and then take the log of the result. But `log(softmax(x)) = log(exp(x) / sum(exp(x))) = x - log(sum(exp(x)))`. So we can just subtract the log of the sum of the exponentials of the logits, and we get the same result. This is called the [The Log-Sum-Exp Trick](https://gregorygundersen.com/blog/2020/02/09/log-sum-exp/).
+
+Additional resource: [Softmax for neural networks](https://e2eml.school/softmax.html)
 
 ### Where do scores come from?
 
