@@ -406,3 +406,32 @@ Additional resource: [Softmax for neural networks](https://e2eml.school/softmax.
     - excessive confidence in predictions
       - problem: might overfit to the training data, even mistaken labels
       - solution: penalize probabilities that are too close to 0 or 1.
+
+## Unit 7
+
+### Embeddings
+
+- How a model can *think* about complex objects
+  - Example we've already seen: the outputs of the "body" of an image classifier are a vector of numbers that capture most of the information about the image. This is an image "embedding".
+  - New examples this week:
+    - Recommendation systems: movies, users
+    - Language models: words have embeddings
+- Learned from data by gradient descent
+
+### How to compare embeddings
+
+- *Dot product*: multiply corresponding elements, sum the result.
+  - Higher when the two vectors are pointing in the same direction.
+  - Higher when each vector is larger.
+- *Cosine similarity*: Divide the dot product by the length of each vector
+  - Gives the *cosine of the angle between the two vectors*: `cos(theta) = dot((x / x.magnitude()), (y / y.magnitude()))`.
+  - Dividing by length means it doesn't care about length.
+  - So it just measures the angle between the two vectors.
+  - Higher when the two vectors are pointing in the same direction.
+  - Aside: `magnitude(x) = sqrt(dot(x, x))`.
+
+These give *similarity* (higher is more similar). We could also measure *distance* (lower is more similar):
+
+- *Euclidean distance*: `sqrt(sum((x - y)^2))` = `sqrt(sum(x^2) + sum(y^2) - 2 * dot(x, y))`
+  - Note that, if the vectors are normalized, then the dot product is the cosine similarity, and the Euclidean distance is `sqrt(2 - 2 * dot(x, y))`.
+  - TODO: check the math here
