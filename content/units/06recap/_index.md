@@ -72,6 +72,13 @@ See Slides for the precision-recall chart I was trying to draw in class. (I almo
 
 {{% /details %}}
 
+{{% details summary="Friday in lab" %}}
+
+- [Lab 6](lab/)
+
+{{% /details %}}
+
+
 <!--
 
 Next year: the diagram of overconfidence kinda worked, but:
