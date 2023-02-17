@@ -10,12 +10,14 @@ Build a simple image classifier from scratch, using only basic numerical computi
 
 Specifically:
 
-- Train a model to label the MNIST handwritten digits
-  - First, try to predict the digit as a *regression* task using Mean Squared Error loss. Analyze the results of this exercise.
-  - Then, try to predict the digit as a *classification* task, using cross-entropy loss.
+- Train a model to label the MNIST handwritten digits (10 classes, cross-entropy loss, see below for model details)
 - Evaluate the accuracy on the test set.
-- Compare two different models: a single layer (logistic regression) model and a two-layer model with 30 hidden dimensions and ReLU activation.
-  - Optionally, try regularization.
+- Compare the results of the following different models:
+  - a single layer (logistic regression) model
+  - a two-layer model with 30 hidden dimensions and ReLU activation.
+- Optionally, also compare these variations:
+  - try regularization, e.g., weight decay
+  - Try to predict the digit as a *regression* task (i.e., predict a single number) using Mean Squared Error loss. Analyze the results -- why was this a bad idea?
 
 Constraints:
 
@@ -23,6 +25,7 @@ Constraints:
 - Do not use any material other than the official documentation for PyTorch Tensors.
 - Do not use any `fastai` capabilities beyond the data loading code provided.
   - In particular, don't use `Learner`. You should implement your own training loop.
+- *Optional*: don't use `torch.nn` or `torch.optim`.
 - *Optional*: do not use any of the PyTorch autograd mechanisms.
 
 ## Why?
