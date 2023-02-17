@@ -12,11 +12,12 @@ Specifically:
 
 - Train a model to label the MNIST handwritten digits (10 classes, cross-entropy loss, see below for model details)
 - Evaluate the accuracy on the test set.
-- Compare the results of the following different models:
+- Compare the results of the following different models (tune the learning rate and number of epochs as needed to get a good fit):
   - a single layer (logistic regression) model
   - a two-layer model with 30 hidden dimensions and ReLU activation.
 - Optionally, also compare these variations:
   - try regularization, e.g., weight decay
+  - Try different hidden dimensionality
   - Try to predict the digit as a *regression* task (i.e., predict a single number) using Mean Squared Error loss. Analyze the results -- why was this a bad idea?
 
 Constraints:
@@ -25,7 +26,7 @@ Constraints:
 - Do not use any material other than the official documentation for PyTorch Tensors.
 - Do not use any `fastai` capabilities beyond the data loading code provided.
   - In particular, don't use `Learner`. You should implement your own training loop.
-- *Optional*: don't use `torch.nn` or `torch.optim`.
+- *Optional*: don't use `torch.nn` or `torch.optim`. You'll need to look at how `torch.nn.Linear` initializes its weights and implement that for yourself.
 - *Optional*: do not use any of the PyTorch autograd mechanisms.
 
 ## Why?
@@ -77,24 +78,13 @@ Note: the PyTorch `cross_entropy` function does some interesting things under th
 
 ## Suggested Steps
 
-(This section was written largely by GitHub Copilot.)
+(This section was written largely by GitHub Copilot -- and then rewritten, so I'm not sure how much Copilot text is left.)
 
-1. Set up a simple model with a single layer, and train it to predict the digit as a regression task.
-2. Set up a simple model with a single layer, and train it to predict the digit as a classification task.
-3. Set up a two-layer model with 30 hidden dimensions and ReLU activation, and train it to predict the digit as a classification task.
-4. Compare the results of the two models.
-5. Try to improve the results by changing the learning rate, the number of epochs, or the number of hidden dimensions.
-
-Notes:
-
-- Remember the basic steps of training a model:
-  - Initialize the weights
-  - Compute the predictions
-  - Compute the loss
-  - Compute the gradients
-  - Update the weights (step the optimizer)
-  - log the loss and other metrics
-  - Repeat until convergence
+1. Start with one of the labs that does something similar, such as the MNIST logistic regression lab. Don't copy-paste code; retype everything you need for this assignment.
+2. Add a second layer, like we did in lab. Make sure to add the ReLU. Tune the learning rate and number of epochs to get a good fit.
+3. Compare the results of the two models.
+4. Try some variations, like changing the number of hidden dimensions.
+5. Try one of the optional extensions, like replacing `nn.Linear` with your own implementation. You can start with the implementation you wrote in prior labs.
 
 ## Reflection Questions
 
