@@ -39,7 +39,7 @@ Thumbs.db
 
 # Student data
 /repos/
-/student_data/
+/student_data
 
 # Hugo
 .hugo_build.lock
