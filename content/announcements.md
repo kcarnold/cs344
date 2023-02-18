@@ -2,6 +2,33 @@
 title: "Announcements 23SP"
 ---
 
+## Week 7
+
+Welcome to unit 7, the week before Spring Break!
+
+In this unit we introduce one of the most powerful concepts in machine learning: the *embedding*. It's the idea that instead of being explicitly given a representation for something, we *learn* it from data *based on the properties it should have*. We've actually already seen embeddings of various kinds (the inputs to the last layer of an image classifier for one), but we'll look at two examples where the embedding aspect is even clearer: movies and words.
+
+News:
+
+1. As usual, during/after the Lab I made some clarifications and improvements to the instructions. One that I'm particularly happy about this year is that I've added code to the NN Regression notebook that shows what *features* the model learned. Have a look at the [preview](https://cs.calvin.edu/courses/cs/344/23sp/fundamentals/u06n3-nn-regression.html) of that notebook.
+2. I simplified Homework 3 a bit, to make "doing it the wrong way" an *optional* extension. I've also clarified the strategy suggestions.
+3. After Spring Break we'll start on Transformers, which means we'll be using a new textbook. Unfortunately this one doesn't have a free online version. If cost is an issue, talk with me.
+4. I recorded a video walking through backpropagation last year that you might find helpful. I had it buried in a private Teams folder, but I just put it up as a [playlist on YouTube](https://www.youtube.com/playlist?list=PLYvyo-La3zBMsd_9WAF7MrfjwmkxuXrTb).
+5. In lieu of a normal Discussion this week, we get to start thinking about **project ideas**! I've put up a Forum on Moodle for this week if you'd like to pitch an idea and are looking for partners. We'll talk more about projects in class this week; here's the [overall description](https://cs.calvin.edu/courses/cs/344/23sp/project/).
+
+Logistics:
+
+1. Prep 7 is due on Monday as usual.
+2. Also due Monday is for you to contribute the first of your Exam Questions; see the [Instructions](https://cs.calvin.edu/courses/cs/344/23sp/exams/).
+2. Homework 3 is due on Friday.
+3. No discussion this week either.
+4. Lab 6 is due on Friday as usual.
+5. If you've gotten behind in completing assignments, don't wait until Spring Break to start catching up. Remember our late policy: you can get full Outcome credit for late assignments, but you lose a Process point for each business day late. So getting behind will sting, but catching up is always worth it.
+6. Back to normal schedule: Monday and Wednesday in classroom, Friday in lab.
+
+See you Monday in class!
+
+
 ## Week 6: Recap and Regularization
 
 Happy Saturday, Neural Network coders!
