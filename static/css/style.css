@@ -128,6 +128,10 @@ details > summary {
   overflow: auto; /* contain the floating description even if window is narrow */
 }
 
+details > div {
+  margin: 0.5rem 1rem;
+}
+
 /* discoverability */
 details > summary::after {
   content: "(Click to open)";
