@@ -5,20 +5,11 @@ toc: true
 
 This course will culminate in a semester project. Successful projects will demonstrate that you can:
 
-- **Design, implement, and/or analyze an intelligent system**. So your work should dig below the surface in some way, but how you do it is up to you. Some suggestions are given below.
-- **Communicate your work in both technical and non-technical terms.** So you will include a summary that's understandable to the general public (friends and family, for example) as well as a detailed report.
+- **Apply fundamental ML concepts** to the task of designing, implementing, and/or analyzing an intelligent system. So your work should dig below the surface in some way, but how you do it is up to you. Some suggestions are given below.
+- **Implement and/or experiment** with a system that uses ML. 
+- **Communicate your work** using text and visuals that are precise, concise, and appropriate for the audience.
 
 Projects should generally be done in pairs, though allowances may be made on request.
-
-## Grading
-
-Projects will count for 5 Mastery grades. You will include a brief summary at the end of your report of how the project demonstrates mastery of various components.
-
-All projects must demonstrate mastery of the following objectives:
-
-- Technical writing (precise and concise)
-- Nontechnical writing (simple and understandable)
-- Quantification (putting a number on something)
 
 Successful projects will also demonstrate mastery of various other skills, but the specific skills will vary between people and projects. Some options include:
 
@@ -33,13 +24,11 @@ Successful projects will also demonstrate mastery of various other skills, but t
 
 You are encouraged to try to demonstrate mastery of several of these topics even before the final project submission. Please either write a note or arrange a brief meeting.
 
-## Milestones
+## Milestones and Deliverables
 
-<details>
+{{% details summary="Proposal" %}}
 
-<summary>Proposal</summary>
-
-First, read the [Project Guidelines](https://cs.calvin.edu/courses/cs/344/22sp/project/) for a description of what sort of projects are expected in this class.
+First, read the [Project Guidelines](/project/) for a description of what sort of projects are expected in this class.
 
 Then, think of two or three potential project ideas. (Note that there are three types of projects; you might perhaps try to think of an idea for each type.)
 
@@ -51,11 +40,9 @@ For each idea, write a paragraph (or informative bullet points) to address:
 
 Mention whom you might work with (the ideal team size is probably 2, but 1 or 3 is ok too). It may be different for different projects. Submit individually, though.
 
-</details>
+{{% /details %}}
 
-<details>
-
-<summary>Updated Proposal</summary>
+{{% details summary="Updated Proposal" %}}
 
 Submit (as a Jupyter notebook, `proposal.ipynb`), an enhanced version of your vision statement. It should include:
 
@@ -78,12 +65,22 @@ Submit (as a Jupyter notebook, `proposal.ipynb`), an enhanced version of your vi
 
 4. What *help* you think you'll need from the course staff? (If this is substantial, follow up in person or on Teams).
 
-</details>
+{{% /details %}}
+
+{{% details summary="Walkthrough and Showcase" %}}
 
 - **Walkthrough meetings**: Meet with the professor (in person or online) before Reading Recess. Show what steps you have taken so far.
 - Attend the **final project showcase** in which you can see everyone’s project. See details below.
 
-## Final Deliverables
+The final course meeting (during the designated final exam period) will be devoted to final project presentations. Feedback on others' projects is expected, so attendance is mandatory.
+
+Be prepared to demo your system and to explain its key points. Presentations are informal, so slides are not required (but may be helpful if your notebook is large or your results don't easily fit in a notebook.)
+
+Aim for about 5 minutes of content. All team members should participate.
+
+{{% /details %}}
+
+{{% details summary="Final Deliverables" %}}
 
 By the **end of the day of final presentations**, submit the following:
 
@@ -97,14 +94,15 @@ The following sections provide additional detail about each component.
 
 The report should be at the level of polish and formality of a blog post (more than a class homework assignment, less than an academic paper). Precise technical language should be used in descriptions of methods.
 
--   Assume an audience that is familiar with AI / machine learning in general but none of the specific software used (e.g., `fastai` or Hugging Face `transformers`).
--   The report should still make sense if all of the source code is hidden.
+- Audience:
+  - The introduction and conclusion should be written for a general audience (friends and family, for example).
+  - The rest of the report should be written for someone who is familiar with AI / machine learning in general but none of the specific software used (e.g., `fastai` or Hugging Face `transformers`).
+- Explain your overall approach and the choices you make along the way.
+  - The report should still make sense if all of the source code is hidden. (i.e., don't use code comments to explain what you're doing or why)
+  - Use Markdown (text) cells appropriately, e.g., to format headers (`## Header`) and links.
 -   Submit your work as a Jupyter Notebook (`.ipynb`) file if possible.
--   Use Markdown (text) cells to format headers (`## Header`) and links.
 
-Here are some elements that would generally be expected in a report. Not all reports need to have all elements, and reports may include other elements. The following table is formatted in a way that should be useful as a checklist to include in your submission; see the [source code for this page](https://raw.githubusercontent.com/kcarnold/cs344/main/content/project/index.md) for how to include it in your report.
-
-Reports should generally include:
+Here are some elements that would generally be expected in a report. Not all reports need to have all elements, and reports may include other elements. Reports should *generally* include:
 
 - A succinct but descriptive **title**
 - A **real-world question or goal** and *why* it's interesting.
@@ -123,23 +121,17 @@ Reports should generally include:
 
 Artistic or exploratory projects may need other elements.
 
-### Nontechnical explanation
+### Reflection
 
-Include a **short explanation of the technology you build on** for a nontechnical audience.
+Write, individually, about a page on:
 
-- You may choose to do this on a different technology instead; ask the instructor.
+1. What was your role or contribution to the project (if it was a team project)? Look at some examples of Author contributions statements, such as [this one](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html#author-contributions).
+2. How you would describe the project in a technical job interview.
+3. A summary of the main things you learned from the process of doing the project.
+4. Superlatives: most fun part? most proud of part? frustrating? surprising? interesting? challenging? rewarding? most useful part of the course for your project? 
+5. Wishes: what would you do differently next time? advice for someone else doing a similar project? material you wish you had learned in the course?
 
-- The explanation should make sense without reference to the rest of your project, though you may use the project as an example.
-
-Aim for a description that would fit on one page or less, including a carefully selected supporting image or two.
-
-### Presentation
-
-The final course meeting (during the designated final exam period) will be devoted to final project presentations. Feedback on others' projects is expected, so attendance is mandatory.
-
-Be prepared to demo your system and to explain its key points. Presentations are informal, so slides are not required (but may be helpful if your notebook is large or your results don't easily fit in a notebook.)
-
-Aim for about 5 minutes of content. All team members should participate.
+At the end of your report, include a brief summary of how the project demonstrates mastery of various components.
 
 ### Supporting Material
 
@@ -152,28 +144,124 @@ Submit code needed to replicate the visual and quantitative results in your repo
   - The technical report may include all of the needed code; if so, nothing more is required.
 - Include clear instructions for how to acquire any data you used. (Don't upload the dataset itself, unless it happens to be very small.)
 
+{{% /details %}}
+
 ## Picking a Project
 
-Your project should be one of the following 3 types. The criteria for success differ by type:
+Several types of projects are permissible, with different criteria for success.
 
-1. **Application** of a specific technique that we studied in class to a different situation. For example, you might train an image classifier on a new set of images, or a text classification model on a new domain.
+{{% details summary="Application" %}}
 
-    - For these projects, we will allow simple methods (e.g., using code right out of class materials) but expect high-quality motivation, execution, and analysis.
-    - Participating in a Kaggle competition could be one good version of this project (or a Replication project).
-    - [More details on Application projects](application/)
+You could **apply** an ML technique (from class or otherwise) to some real-world problem. For example, you might train an image classifier on a new set of images, or a text classification model on a new domain.
 
-2. **Replication** of a quantitative result that you find in a research paper, blog post, etc.
+- For these projects, we will allow simple methods (e.g., using code right out of class materials) but expect high-quality motivation, execution, and analysis.
+- Participating in a Kaggle competition could be one good version of this project (or a Replication project).
+- Since you should be able to get a baseline approach working quickly, here are some ways you can deepen this kind of project:
+  -   Analyze the model's **errors**, both quantitatively and qualitatively.
+  -   **Compare several approaches.** You can consider differences in model architecture, specific task, hyperparameter choices, inclusion/exclusion criteria, etc. Remember to think about the choice of **metrics** and the **uncertainty** involved in any estimate of them.
+  -   Generate **explanations** of the model's decisions, using the model interpretation methods described in the book or otherwise.
+  -   Discuss how you were able to **tune** the performance of the model.
 
-    - For these projects, we will not expect as much discussion of motivation, assuming that the original artifact took care of that.
-    - Depending on your results, you should either:
-      - Demonstrate *surmounting significant technical challenge* in attaining the result,
-      - Provide a thoughtful *analysis* of the decisions you and the original authors made, or
-      - Improve on the quantitative result in some measurable and well-motivated way.
-    - [More details on Replication projects](replication/)
+{{% /details %}}
 
-3. **Research** along one of the directions listed [on this page](research/).
+{{% details summary="Replication" %}}
 
-    - For these projects, any meaningful progress towards answering the research question will be considered a successful project, if reported well.
+- Pick a single quantitative result from a research paper, blog post, etc. and try to replicate it. (*"They got a number. Can we get the same number?" (or better?)*)
+- Write some part of the code yourselves (data input, modeling, optimizer, experiment harness, etc.)
+- Then **extend** in some way.
+
+One way you could extend a replication project is to add constraints: limited compute (e.g., lab computers, your laptop, Raspberry Pi), limited data (a small subset of the original dataset), limited model size (fits in xx MB), etc.
+
+One example I'd really like to see: **Train the best language model you can on our lab computers** (or your laptop).
+
+### Expectations for Replication Projects
+
+- For these projects, we will not expect as much discussion of motivation, assuming that the original artifact took care of that.
+- Depending on your results, you should either:
+  - Demonstrate *surmounting significant technical challenge* in attaining the result,
+  - Provide a thoughtful *analysis* of the decisions you and the original authors made, or
+  - Improve on the quantitative result in some measurable and well-motivated way.
+
+### Choosing a Replication Project
+
+If you're choosing a replication project, ask yourself:
+
+1. Is there some specific write-up, with quantitative results clearly reported, that I can use to anchor the project?
+2. Can I easily access the same data that the original authors used? (Does it fit on computing hardware I can easily access?)
+3. Do I understand the basic approach? Maybe there's fancy stuff too, but you should be able to think of how you'd implement a simple version of it.
+
+### Expository Notebooks ("Notebookify")
+
+One strategy to take when starting with an existing code is to "Notebookify" it. Most notebooks you'll find are *demo* notebooks, designed to show off the best results but hide a lot of details behind opaque code chunks or external libraries. In contrast, an *expository* notebook **walks the reader through what's going on**.
+
+The code part of such a project is relatively straightforward: find a demo notebook, step through it, pull in the contents of the "do-all-the-stuff" functions (test that it still works), split things up into individual cells (test that it still works), and show intermediate results and shapes. But you'll also write up descriptions of what's happening.
+
+You will almost certainly want to refer to a paper by the original authors. It'll usually explain the names of variables and methods, and it'll show what parameters and data are likely to work well.
+
+If the original has big loops, flatten them. For example, show one example of how the data is prepared, run one minibatch of the model training, show how the evaluation scores are computed for one datapoint.
+
+Simplify the code as needed. e.g., if there are `if`s to do different things depending on configuration, remove the code that isn't actually run in your case.
+
+Most importantly, explain what is going on. Start with an intro about the overall goal of the approach you're demoing, and the basic outline of what the process looks like. Then dive in. End with a conclusion summarizing the main points that you highlighted about what's going on. Perhaps end with some questions and future directions: what decisions did the original authors make that aren't clear to you? What ideas might you have for doing something differently?
+
+### How to replicate without duplicating
+
+One strategy: the Benjamin Franklin replication. Here's how I adapt it to code:
+
+1. Read the original. Take notes in a separate document. Make them mostly in human language or math; put code in your notes only sparingly.
+2. Close the original. Try to write a replication based on your notes.
+3. Fail at some point because your notes aren't detailed enough. So **close your replication** and open the original again, and return to step 1.
+
+### Tips for Replication Projects
+
+Basic outline of a project here:
+
+- Get the code running (could be very easy if you find a Colab notebook etc)
+- Replicate something interesting that's already been done.
+- Use an example that you provide instead of one of their pre-built ones.
+- Push the limits a bit.
+
+### Ideas of what to replicate
+
+See <https://paperswithcode.com/> for some examples. Their [newsletter](https://paperswithcode.com/newsletter) is particularly approachable.
+
+Also, see proceedings of general conferences like NeurIPS, ICML, ICLR, ..., or domain-focused conferences: text (EMNLP, ACL), speech and music (ISMIR, InterSpeech), computer vision (ICCV, SIGGRAPH), recommender systems (RecSys), etc.
+
+### Some potential papers to replicate
+
+A very incomplete list of things that crossed my radar once.
+
+-   [Deep Image Prior](https://dmitryulyanov.github.io/deep_image_prior): doing cool stuff with images and deep neural nets, without even training them.
+-   [Image Representations Learned With Unsupervised Pre-Training Contain Human-like Biases](https://arxiv.org/abs/2010.15052)
+-   <https://towardsdatascience.com/how-to-build-a-controllable-writing-assistant-for-novel-authors-a9fa15b57c6a>
+-   [Taming Transformers for High-Resolution Image Synthesis](https://compvis.github.io/taming-transformers/)
+-   [Multimodal Few-Shot Learning with Frozen Language Models](https://arxiv.org/abs/2106.13884) or [Prefix Tuning](https://arxiv.org/pdf/2101.00190.pdf)
+-   [Concept Bottleneck Models](https://arxiv.org/abs/2007.04612)
+-   [GradInit](https://paperswithcode.com/paper/gradinit-learning-to-initialize-neural) (try this on some simple models)
+
+Some potential libraries or codebases:
+
+- [NVIDIA/NeMo: NeMo: a toolkit for conversational AI](https://github.com/NVIDIA/NeMo)
+- Demos from Google's [Magenta group](https://github.com/magenta/magenta-demos).
+- Lots of stuff on PapersWithCode
+
+{{% /details %}}
+
+{{% details summary="Exploration Project" %}}
+
+- Try out some variation on a common ML technique
+- e.g., lots of variations possible on the Transformers architecture ("what if...")
+  - if we included a key with a value that's always zero?
+  - if each layer could query the prior layer?
+  - if different layers had different numbers of heads?
+- Try out different activation functions (stairsteps?)
+
+If you're interested in this sort of project, ask me and I can explain those ideas or provide some others.
+
+For example, I have a description of [research projects](research/) that needs updating.
+
+{{% /details %}}
+
 
 ## General Advice
 
