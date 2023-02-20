@@ -41,7 +41,7 @@ Reading for this unit:
 
 ### Monday
 
-Lecture: NLP Intro and Predictive Text ([slides](https://cs.calvin.edu/courses/cs/344/22sp/slides/2022-03-07%20NLP%20intro%20and%20Predictive%20Text.pdf))
+Lecture: NLP Intro and Predictive Text ([slides](/slides/2022-03-07%20NLP%20intro%20and%20Predictive%20Text.pdf))
 
 ### Wednesday
 
@@ -53,5 +53,5 @@ Lecture: NLP Intro and Predictive Text ([slides](https://cs.calvin.edu/courses/c
 ### Friday
 
 - Discussion intro
-- Word embeddings (see [slides from last week](https://cs.calvin.edu/courses/cs/344/22sp/slides/w7/w7-recsys-embedding.html#26))
+- Word embeddings (see [slides from last week](/slides/w7/w7-recsys-embedding.html#26))
 - Tokenization practice
