@@ -86,6 +86,7 @@ def setup_repos(config):
 def fetch_all(config):
     ghclass_data = config['ghclass_data']
     main_repo = config['main_repo']
+    repos = config['repos']
     
     for i in tqdm.trange(len(ghclass_data)):
         remote_name = ghclass_data['remote_name'].iloc[i]
@@ -93,6 +94,7 @@ def fetch_all(config):
             continue
         print(remote_name)
         subprocess.run(['git', 'fetch', remote_name], cwd=main_repo)
+        subprocess.run(['git', 'pull', '--ff-only'], cwd=repos / remote_name)
 
     # Run gc
     subprocess.run(['git', 'gc'], cwd=main_repo)

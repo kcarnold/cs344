@@ -1,7 +1,7 @@
 ALL: deploy
 all: deploy
 
-.PHONY: deploy deploy-quick deploy-pdf preview check ALWAYS_REBUILD
+.PHONY: deploy deploy-quick deploy-pdf preview check ALWAYS_REBUILD fetch
 
 HUGO_FLAGS := --buildDrafts --buildFuture
 DEST_DIR := /tmp/cs344-build/
@@ -65,3 +65,5 @@ preview:
 check:
 	htmlproofer --check-html --check-img-http --disable-external --report-invalid-tags --report-mismatched-tags --report-missing-names ${DEST_DIR}
 
+fetch:
+	python src/portfolio_repo_management.py fetch-all
