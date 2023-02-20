@@ -9,11 +9,15 @@ We'll also look a bit at some very useful non-neural models for tabular data, an
 
 Students who complete this unit will demonstrate that they can:
 
-- Describe how *embeddings* are used in recommender systems.
-- Describe how embeddings can be learned from data by gradient descent.
-- Explain both intuitively and mathematically what it means for the vectors for two items to be "close".
-- Explain how a trained decision tree makes a prediction.
-- Fit and evaluate a model on tabular data using `scikit-learn`
+- Embeddings:
+  - Describe how *embeddings* are used in recommender systems.
+  - Describe how embeddings can be learned from data by gradient descent.
+  - Describe how embeddings address the problem of *high cardinality*.
+  - Explain both intuitively and mathematically what it means for the vectors for two items to be "close".
+  - Compare and contrast the use of embeddings in recommender systems and word embeddings.
+- Tabular ML:
+  - Explain how a trained decision tree makes a prediction.
+  - Fit and evaluate a model on tabular data using `scikit-learn`
 
 ## Preparation
 
@@ -30,7 +34,7 @@ Students who complete this unit will demonstrate that they can:
 
 ### Monday
 
-- [Slides](https://cs.calvin.edu/courses/cs/344/22sp/slides/w7/w7-recsys-embedding.html#1)
+- [Slides](/slides/w7/w7-recsys-embedding.html#1)
 - Project
 - Introduction to Recommendation Systems
 - Latent Factors

@@ -41,6 +41,7 @@ Can be in teams. Each member documents contribution.
 * Describe how embeddings address the problem of *high cardinality*.
 * Compare and contrast *item embeddings* (in recommender systems) and *word embeddings* (in language modeling).
 
+(We'll practice with sklearn, but won't lecture on it)
 
 ---
 
@@ -52,6 +53,14 @@ Think of a few experiences you've had with recommender systems.
 - What were some signals that you gave to the system that the recommendation was good (or not)?
 - What other data did the system have about you?
 - What other data did the system have about the items it recommended to you?
+
+---
+
+## Collaborative Filtering
+
+- Goal: predict how much a user will like an item (movie, book, song, etc.)
+- "Collaborative": based on what other users have done
+- "Filtering": lots of possible items; find the few relevant ones
 
 ---
 
@@ -69,6 +78,7 @@ class: center
 knitr::include_graphics("images/yt-recsys-p1.png")
 ```
 .floating-source[[Deep Neural Networks for YouTube Recommendations](https://research.google.com/pubs/pub45530.html)]
+
 ---
 
 ## RecSys Data
@@ -131,6 +141,8 @@ knitr::include_graphics("images/yt-candidate-generation-no-serving.png")
 - Imagine you know the "genre" of each video.
 - "Will user X like video Y?" = how many of the *movie's* genres does the *user* like?
 
+(In practice we don't actually know all of the "genre" features. Soon we'll see how we can learn them.)
+
 ---
 
 
@@ -183,6 +195,8 @@ print(with_rating_count[['title'] + column_names[6:]].iloc[:10].T.to_markdown())
 
 * A *vector* for each *thing*
 * Typically *tens* or *hundreds* of numbers
+  - fewer numbers than the number of things (so can't be one-hot)
+  - a "bottleneck": has to represent everything important about the thing
 * Typically *trained* so that *similarity* is meaningful.
 
 ---
@@ -213,10 +227,23 @@ Can you think of a math operation that would give us the number of genres in com
 
 ---
 
+## User Vectors
+
+- We can represent each user by a vector too
+- Simple model: rating = dot product of user vector and movie vector
+  - Intuition: how much does that user like each genre?
+  - e.g., "I like action movies, but not horror movies"
+  - More complex models are possible too.
+
+What would *your* user vector look like?
+
+
+---
+
 ## Learn User Vectors by Gradient Descent
 
-* Imagine you know the "genre" of each video.
-* Use data to determine which genres each *user* likes.
+- Imagine you know the "genre" of each video.
+- Use data to determine which genres each *user* likes.
 
 How might we do that?
 
@@ -234,6 +261,20 @@ How might we do that?
 --
 
 - Turns out we don't need *any* prior genre information; just initialize randomly and learn from data.
+
+---
+
+## Algorithm to Learn Embeddings from Data
+
+Same as usual:
+
+- Construct a model with vectors for each user and each movie
+- Initialize randomly
+- For each batch of ratings:
+  1. Compute the predictions
+  2. Compute the loss
+  3. Compute the gradients
+  4. Update the parameters
 
 ---
 
@@ -336,12 +377,36 @@ knitr::include_graphics("images/slp3-skipgram.png")
 
 ---
 
+class: center, middle
 
-## Objectives
+## Other topics
 
-* What data do recommender systems work with?
-* What outputs do recommender systems produce?
-* What are the core ideas behind the collaborative filtering approach to recommender systems?
-* Identify what *embeddings* are.
-* Describe how embeddings address the problem of *high cardinality*.
-* Compare and contrast *item embeddings* (in recommender systems) and *word embeddings* (in language modeling).
+---
+
+## Weight Decay
+
+Which would need larger weights?
+
+1. One neuron activates for each training example
+2. Several different neurons activate for each training example
+
+Weight decay encourages #2
+
+---
+
+## Sigmoid-range
+
+- `sigmoid(x) = softmax([x, 0])` (so it's between 0 and 1)
+  - But can't be *exactly* 0 or 1 unless x is huge or tiny
+- Can shift and scale to get any range, e.g., `5 * sigmoid(x)`
+  - Useful for ratings (1-5)
+  - To let it output 5 without extreme values, scale to a bit larger, e.g., `6*sigmoid(x)`
+
+---
+
+## PCA (Principal Component Analysis)
+
+- A simple, unsupervised method to get embeddings from data
+- Tries to capture the variance of the data
+- If all of the variance is in one direction, then the first principal component will be that direction
+- Constraint: can only project onto lines
