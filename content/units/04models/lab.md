@@ -28,7 +28,6 @@ Hopefully quick revisions:
 - compute-grad analysis: `x1_grad` is incorrect (try it for several different values, or think symbolically about the derivative of the function)
 - compute-grad analysis: compute-grad: The function is f(x1, x2) = 2x1 + x2^2 + 5. x1_grad = df/dx1 = 2 (note that it doesn't depend on x2. Now try the same for x2_grad.
 - image-ops: mean image didn't work. Use `axis=0` or `axis=1` etc.
-- image-ops: blacking out part of the image didn't work. See [the revised instructions](https://cs.calvin.edu/courses/cs/344/22sp/fundamentals/u2n2-image-ops.html), search for the phrase "assign to slices".
 - image-ops: only-red-channel didn't work. Use assignment like the previous problem.
 
 Optional revisions:
