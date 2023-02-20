@@ -2,7 +2,6 @@
 title: "Recommender Systems and Emdeddings"
 author: 
   - "Ken Arnold"
-date: '2022-02-21'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -22,13 +21,56 @@ slideSetup()
 
 ## Projects
 
+- Project showcase instead of final exam
+- Can be in teams (if each member has a clear role and contribution)
+- Should demonstrate:
+  - *understanding* of how something in ML works
+  - *implementation* and *experimentation* skills
+  - *communication* skills
+
+---
+
+## Replication Project
+
 - **Replicate** some prior result
-  - "They got a number. Can we get the same number?"
+  - "They got a number. Can we get the same number?" (or better?)
   - Pick a single, simple result
   - Write some part of the code yourselves (data input, modeling, optimizer, experiment harness, etc.)
-- Then **extend** in some way.
+  - Then **extend** in some way.
 
-Can be in teams. Each member documents contribution.
+---
+
+## Mechanistic Interpretatability Project
+
+- Try to understand how a model works
+- many examples of open questions
+
+---
+
+## Application Project
+
+- Try to use ML to solve a problem
+- I have lots of ideas, but you can also propose your own
+
+---
+
+## Exploration Project
+
+- Try out some variation on a common ML technique
+- e.g., lots of variations possible on the Transformers architecture ("what if...")
+  - if we included a key with a value that's always zero?
+  - if each layer could query the prior layer?
+  - if different layers had different numbers of heads?
+- Try out different activation functions (stairsteps?)
+
+---
+
+## Best Performance Under Constraints Project
+
+- Limited compute (e.g., our lab computers or your laptop)
+- Limited data (small subset?)
+- Simplest model (e.g., less than N parameters or bytes)
+- Fastest training (e.g., less than N seconds)
 
 ---
 
