@@ -19,6 +19,13 @@ source("../slides-common.R")
 slideSetup()
 ```
 
+## Logistics
+
+- Reminder: exam questions
+- Pulse check: Are expectations and workload clear? reasonable?
+
+---
+
 ## Projects
 
 - Project showcase instead of final exam
