@@ -409,6 +409,22 @@ Additional resource: [Softmax for neural networks](https://e2eml.school/softmax.
 
 ## Unit 7
 
+### Recommender Systems
+
+(no Copilot in this section)
+
+- Classical approach:
+  - manually annotate every item with metadata (e.g., highly nuanced movie genres)
+  - user says what genres they like, get a ranked list of movies.
+  - but: tedious for platform and user, doesn't capture nuances.
+- Collaborative Filtering approach
+  - uses only interaction data
+  - intuition: recommend things that similar people liked
+  - common implementation: learn a compact numerical representations (*embeddings*) of items and users
+- Hybrid approach: some side information (metadata )available
+  - use the side info to help compute embeddings
+  - still train the embeddings end-to-end
+
 ### Embeddings
 
 - How a model can *think* about complex objects
@@ -432,6 +448,45 @@ Additional resource: [Softmax for neural networks](https://e2eml.school/softmax.
 
 These give *similarity* (higher is more similar). We could also measure *distance* (lower is more similar):
 
-- *Euclidean distance*: `sqrt(sum((x - y)^2))` = `sqrt(sum(x^2) + sum(y^2) - 2 * dot(x, y))`
-  - Note that, if the vectors are normalized, then the dot product is the cosine similarity, and the Euclidean distance is `sqrt(2 - 2 * dot(x, y))`.
+- *Euclidean distance*: `(x - y).magnitude() = sqrt(sum((x - y)(x - y)^T))` = `sqrt(sum(x^2) + sum(y^2) - 2 * dot(x, y))`
+  - Note that, if the vectors are normalized, then the dot product is the cosine similarity, and the Euclidean distance is `sqrt(1 - dot(x, y))*sqrt(2)`.
   - TODO: check the math here
+
+(some Copilot was used in this section.)
+
+### Matrix Factorization View
+
+- Imagine a matrix of $n$ users by $m$ items
+  - Entry `A(i,j)` gives how much user `i` likes item `j` (star rating, watch time, purchase, etc.)
+- Can write it as a product of two matrices `A = UV^T`
+  - Inner dimension has to match, let's call it $r$
+  - `U(i)` is the embedding for user `i` ($r$ numbers).
+  - `V(j)` is the embedding for item `j` ($r$ numbers).
+  - `A(i, j) = dot(U(i), V(j))` by definition of matrix multiply
+  - Process of computing embeddings = how to factor this matrix.
+- If $r$ is as big as $m$ or $n$, solution is trivial (just make either `U` or `V` the identity matrix). But:
+  1. The matrix is *enormous*
+  2. Nothing generalizable gets learned. Learning that a user likes one movie tells you nothing about whether the user likes another movie, even if they're highly related.
+- When $r$ is smaller, the embeddings *have to* capture important patterns.
+- How to compute this factorization?
+  - One common loss: `loss = MSE(A(i,j), dot(U(i), V(j)))`
+  - Minimizing this across every element of `A(i,j)` (including unobserved pairs as A(i,j)=0) computes the [Singular Value Decomposition](https://en.wikipedia.org/wiki/Singular_value_decomposition)
+
+### Neural Networks for Embeddings
+
+- Two approaches (see [diagram](https://www.sbert.net/docs/pretrained_cross-encoders.html))
+  - *Cross-encoder* (described in fastai text):
+    - learn a function `f(user, item)` that outputs the value at `A(i,j)`. e.g., `f(user, item) = MLP(concat(embed(user), embed(item)))`, where `embed(x)` is also learnable.
+    - pro: can learn very flexible relationships.
+    - con: have to run a forward pass for each item for each user (expensive inference), especially if the neural net (`MLP`) is deep or complex.
+    - con: may be harder to learn simple relationships.
+  - *Bi-encoder*:
+    - `A(i, j) = dot(embed(user), embed(item))`, i.e., last operation is just a dot product
+      - sometimes `softmax()` around it, if we want a distribution over items.
+    - So it's just one big logistic regression
+    - pro: can precompute all the embeddings, store in a database, use efficient approximate similarity search like Meta's [faiss](https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/) or a [vector database](https://www.pinecone.io/learn/vector-database/)
+    - con: have to cram everything relevant into a single embedding
+- In practice bi-encoders are ubiquitous. Sometimes: **reranking**
+  - Fast technique (inverted index, vector database, etc.) to extract many candidate documents
+  - Slow technique (cross-encoder, etc.) to find the best among the candidates
+
