@@ -19,6 +19,8 @@ In this stage, each student will write questions. Expectations:
 - Each question should include an answer key.
 - One question should be multiple-choice. One question should be short-answer. The third question can be in a format of your choice (e.g. fill-in-the-blank, true-false, multiple-choice, short-answer, etc.).
 
+Aim for a range of questions about different topics. For example, when we first ran this, we got lots of questions about loss function selection early on. Review what's already there before you suggest your own.
+
 ### Multiple Choice
 
 A multiple-choice question should have one clearly correct answer, and three relevant detractors. The question should be clear, and the distractors should be relevant. The distractors should not be so similar that they could be confused with the correct answer.
@@ -40,6 +42,7 @@ You should try to vary the difficulty of your questions. As a rough guide, aim f
 
 Each student should contribute two revisions to questions written by other students. Revisions can be improvements to the clarity of the question (it should be clear what the question is asking), or improvements to the answer key (it should be clear what the correct answer is, and why it's correct).
 
+
 ## Stage 3: Taking the Exam
 
 Individually: Each student will get a stratified random sample of questions. The sample should include one question from each unit, and one question from each type (multiple-choice, short-answer, etc.).
@@ -60,9 +63,12 @@ We'll do this all in a GitHub repo: https://github.com/kcarnold/cs344-exam-23sp
   - In each directory, make a `README.md` file that contains the question.
   - In each directory, make an `answer.md` file that contains the answer, and an explanation of why the answer is correct.
   - In each directory, make a `SLO.md` that contains the learning objective(s) that the question is testing. You can generally copy and paste these from the unit's Objectives section on the website.
+    - In some cases, the Objectives list may not bo complete, correct, or clear. Suggestions for improvement there count as a Review.
 - Stage 2: Reviewing Questions
   - Each student makes two revisions to questions written by other students.
-  - Make your edits in a branch, then make a pull request to merge your branch into `main`.
+  - Either open a PR suggesting a specific fix, or open an Issue or Discussion with a link to what you're commenting on.
+    - To link to a specific line in a file, go to that file, click the `<>` in the bar above the file contents, click the line number, then select "Reference in new issue" from the `...` menu.
+    - Use `@` to reference the original author, so they can revise based on your feedback.
 - Stage 3:
   - Each student picks a stratified random set of questions  
 
