@@ -24,6 +24,8 @@ Reading for this unit:
 - Optional but recommended:
   - Watch Jay Alammar's "gentle visual intro to Transformers models" from the [Part 2 Release Event](https://huggingface.co/course/event/1?fw=pt), and one more of your choice.
 
+**Alternative** ("Zero to Hero"): [Let's build GPT: from scratch, in code, spelled out. - YouTube](https://www.youtube.com/watch?v=kCc8FmEb1nY)
+
 ### Supplemental Material
 
 <!--
