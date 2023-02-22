@@ -206,17 +206,32 @@ One full pass through the training data. Not uncommon to see tens or hundreds of
 
 Classification = scores (from linear layers), transformed to *probabilities* via softmax, trained to optimize *cross-entropy loss*.
 
+### Classification Diagram
+
 ```goat
                                                             correct answer
                                                                  |
                             scores                               v
                 .--------. (logits)  .---------.  probs   .---------------. 
-in features --->| Linear +---------->| softmax +--------->| cross-entropy +-----> loss
+in features --->| Model  +---------->| softmax +--------->| cross-entropy +-----> loss
                 '--------'       n   '---------'      n   '---------------'    1
                               (vector)              (vector)                (number)
 ```
 
 note: *scores* are more commonly called *logits*.
+
+### Models
+
+- For **logistic classification** (commonly but confusingly called *logistic regression*), `model = nn.Linear(in_features, out_features, bias=True)`.
+- For an **MLP** (Multi-Layer Perceptron) with a single hidden layer of `n_hidden` hidden features and ReLU activation:
+
+```python
+model = nn.Sequential(
+  nn.Linear(in_features, n_hidden, bias=True),
+  nn.ReLU(),
+  nn.Linear(n_hidden, out_features, bias=True)
+)
+```
 
 ### Basic Implementation of a Classifier
 
