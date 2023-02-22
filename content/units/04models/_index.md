@@ -10,6 +10,7 @@ Students who complete this unit will demonstrate that they can:
 - Describe the overall approach of Stochastic Gradient Descent: how does it use information from a batch of data to improve its performance on that and other data?
 - Describe the parameters of a linear layer and how they are used to compute its output.
 - Identify the following loss functions: Mean Squared Error and Mean Absolute Difference.
+- Define what a Multi-Layer Perceptron (MLP) is and identify the terms "input features", "hidden features", "activation function", and "output features".
 - Trace the execution of a basic image classifier model using a fully-connected network. <!-- next year: clarify this one; it's currently trace-mnist fundamentals -->
 - Apply automatic differentiation (as implemented in PyTorch) to compute the gradients of programs
 
