@@ -2,6 +2,27 @@
 title: "Announcements 23SP"
 ---
 
+## Week 7 mid-week
+
+- We had an excellent class meeting today.
+  - If you didn't come, I highly recommend you work through the Embeddings Worksheet on your own: [docx](https://cs.calvin.edu/courses/cs/344/23sp/units/07embedding/embedding_worksheet.docx), [PDF](https://cs.calvin.edu/courses/cs/344/23sp/units/07embedding/embedding_worksheet.pdf)
+  - Many students were still computing gradients like diligent calculus students, not like neural net coders. We'll review this on Friday.
+  - As a warm-up, try writing the code that would compute the gradient as a function of `m1`, no PyTorch.
+- Midterm collective exam questions
+  - Second question should be done Friday.
+  - There are lots of questions about loss function selection already. Review what's already there before you suggest your own.
+  - Also first review. Either open a PR suggesting a specific fix, or open an Issue or Discussion with a link to what you're commenting on.
+    - To link to a specific line in a file, go to that file, click the `<>` in the bar above the file contents, click the line number, then select "Reference in new issue" from the `...` menu.
+    - Use `@` to reference the original author, so they can revise based on your feedback.
+  - Many of the learning objectives don't actually match the questions. In some cases that's because I didn't accurately describe the relevant objective on the course website! Suggestions for improvement there count as a Review.
+- Homework 3 due Friday also
+  - Assignment document suggests a strategy.
+  - Students today reported that starting with u05n3 was helpful.
+- Lab 6 should be done by Friday also. Remember that the main point is the check-in quizzes on Moodle.
+- Projects: share ideas and inspirations in the [Discussion Forum](https://moodle.calvin.edu/mod/forum/view.php?id=1575228). Goal: find partners.
+
+See you Friday!
+
 ## Week 7
 
 Welcome to unit 7, the week before Spring Break!
