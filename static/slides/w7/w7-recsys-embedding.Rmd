@@ -185,6 +185,33 @@ knitr::include_graphics("images/yt-candidate-generation-no-serving.png")
 
 ---
 
+class: center, middle
+
+## Wednesday
+
+---
+
+## Logistics
+
+- Reminder: exam questions
+  - Friday: second question and first *review*
+- Project ideas: see Moodle forum
+
+---
+
+## Recap
+
+Which data do you absolutely need in your database for training a movie recommender system based on collaborative filtering? Choose all that apply:
+
+1. Title
+2. Genre
+3. User
+4. User's Stated Genre Preferences
+5. User's Reaction
+6. User's Watch Timestamp
+
+---
+
 ## Latent Vectors: Genres
 
 - Imagine you know the "genre" of each video.
