@@ -472,6 +472,14 @@ These give *similarity* (higher is more similar). We could also measure *distanc
   - One common loss: `loss = MSE(A(i,j), dot(U(i), V(j)))`
   - Minimizing this across every element of `A(i,j)` (including unobserved pairs as A(i,j)=0) computes the [Singular Value Decomposition](https://en.wikipedia.org/wiki/Singular_value_decomposition)
 
+### One-Hot vs Embedding
+
+- Traditional approaches generally treat every categorical value independently
+  - one-hot or dummy encoding in linear/logistic regression
+  - category membership tests in tree-based methods
+- For lookup-based embedding, `embed(x) = linear(one_hot(x))`, i.e., looking up an embedding in a table is like hitting a one-hot vector with the corresponding matrix
+  - That linear layer doesn't need bias terms; think about why.
+
 ### Neural Networks for Embeddings
 
 - Two approaches (see [diagram](https://www.sbert.net/docs/pretrained_cross-encoders.html))
