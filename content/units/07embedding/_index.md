@@ -32,51 +32,30 @@ Students who complete this unit will demonstrate that they can:
 
 ## Class Meetings
 
-### Monday
-
 - [Slides](/slides/w7/w7-recsys-embedding.html#1)
-- Project
+
+{{% details summary="Monday class" %}}
+
+- Project types
 - Introduction to Recommendation Systems
 - Latent Factors
 
-### Wednesday
+{{% /details %}}
 
-- (No discussion this week)
-- Continue lecture: Embeddings
+{{% details summary="Wednesday Class" %}}
+
+- Embeddings (see Slides)
   - What do they look like?
   - Where do they come from?
-  - [Worksheet](embedding_worksheet.pdf): exploring movie embeddings
+- **Exploring Embeddings** Worksheet: [docx](embedding_worksheet.docx), [PDF](embedding_worksheet.pdf)
 - It's still all about functions from data to outputs.
 
-### Friday
+{{% /details %}}
 
-- Discussion kickoff
+{{% details summary="Friday Lab" %}}
+
 - sklearn bootcamp:
   - The `fit`-`predict` API
   - Decision Trees and Random Forests
-- Start Homework 7
 
-<!--
-Prep question
-
-Suppose we have (correctly) defined the function `dot_product(x1, x2)` that computes the dot product of two vectors (stored as lists of numbers).
-
-What would the following code print?
-
-```python
-print(dot_product(
-  [1.0, 2.0, -1.0],
-  [0.0, 2.0, -1.0]
-))
-```
-
-Fill in the blanks to implement `dot_product(x1, x2)`:
-
-```python
-def dot_product(x1, x2):
-    result = 0.0
-    for ... in range(...):
-        ...
-    return result
-```
--->
+{{% /details %}}
