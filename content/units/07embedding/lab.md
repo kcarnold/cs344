@@ -5,9 +5,12 @@ draft: false
 
 Complete the following notebooks for this week. Do your work in the corresponding notebook.
 
+Spring 2023 note: only the first notebook is expected.
+
 - {{% fundamentals name="Regression in scikit-learn" nbname="u07n1-sklearn-regression.ipynb" %}}
 - {{% fundamentals name="Classification in scikit-learn" nbname="u07n2-sklearn-classification.ipynb" %}}
 
+**Also**: complete the check-in quiz in Moodle for Wednesday's activity.
 
 <!--
 
