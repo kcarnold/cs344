@@ -1,6 +1,6 @@
 ---
 title: "Lab 7"
-draft: true
+draft: false
 ---
 
 Complete the following notebooks for this week. Do your work in the corresponding notebook.
