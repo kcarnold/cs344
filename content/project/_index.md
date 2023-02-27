@@ -24,6 +24,8 @@ Successful projects will also demonstrate mastery of various other skills, but t
 
 You are encouraged to try to demonstrate mastery of several of these topics even before the final project submission. Please either write a note or arrange a brief meeting.
 
+One measure of a successful project would be one that has a path towards commercialization. We have connections to funding for students interested in pursuing this.
+
 ## Milestones and Deliverables
 
 {{% details summary="Proposal" %}}
