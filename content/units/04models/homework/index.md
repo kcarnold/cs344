@@ -23,16 +23,11 @@ Load up the classifier you trained in [Homework 1](../../02data/homework/). **Ev
 
 To keep our attention on the data instead of the process of writing code, an [example is provided of all of the code necessary for a basic analysis](example-homework-2.html). However, *please do not simply copy and paste from this notebook*; retype any code you need yourself. That should help you make sure that you understand what each step is for.
 
-> Note: The example provided would re-train the training set classifier each time, leading 
-> to different performance depending on the random initialization of the classifiaction head. 
-> **You may want to save your trained classifier**. (e.g., `saved_clf_file = Path('classifier.pkl'); if saved_clf_file.exists(): learn.load(saved_clf_file); else: learn = ...; learn.export(saved_clf_file)`.
-> Think about what other sources of variation might come up, and how you might be systematic about them.
-
-1. Report what actual accuracy you got.
-2. What were your classifier's most frequent mistakes? Describe both quantitatively (via the confusion matrix) and qualitatively (by studying the top losses).
-3. Recall that in Homework 1 you estimated the accuracy that your classifier would obtain on other people's images. Compare the accuracy you observe to the accuracy that you thought you'd get.
-4. Now let's write a **datasheet for the specific training data you collected**. Read the introduction to the [Dataset Documentation (Datasheets for Datasets) template](https://www.microsoft.com/en-us/research/uploads/prod/2022/07/aether-datadoc-082522.pdf). Then, skim through the questions that follow. **Choose two or three questions** that are most relevant to *how well the model that you trained worked on new data*. At the end of your notebook, include both the question texts and your answers.
-5. Go back to your Homework 1 classifier. Make one change to how the classifier is trained. Evaluate the change in accuracy you observe during training, and the change in accuracy you observe here.
+1. Report what actual accuracy you got. Also report the *loss*, if you can.
+2. What were your classifier's most frequent mistakes? Quantify the mistakes (using the confusion matrix) and make an educated guess as to *why* these might be the most common mistakes (by, for example, studying the top losses).
+3. Recall that in Homework 1 you estimated the accuracy that your classifier would obtain on other people's images. **Compare the accuracy you observe to the accuracy that you thought you'd get.**
+4. Now let's write a **datasheet for the specific training data you collected**. Read the introduction to the [Dataset Documentation (Datasheets for Datasets) template](https://www.microsoft.com/en-us/research/uploads/prod/2022/07/aether-datadoc-082522.pdf). Then, skim through the questions that follow. **Choose two or three questions** that are most relevant to *how well the model that you trained on that data worked on new data*. At the end of your notebook, include both the **question texts** and your answers. Good answers are those that would most help someone who is training on your dataset predict how it will work on new data.
+5. Go back to your Homework 1 classifier. **Make one change to how the classifier is trained.** Evaluate the change in accuracy you observe *during training*, and the change in accuracy you observe *here* (i.e., on the broader set of data). (Note: 0/1 accuracy has high variance with such a small dataset, so you probably want to compare the cross-entropy loss values you see on the validation set.)
 
 Possible things to adjust:
 
@@ -54,6 +49,12 @@ dataset_path = untar_data(url)
 ```
 
 *In future years we might actually make this a Kaggle competition, but I couldn't get the logistics worked out in time this year.*
+
+> Note: The example provided would re-train the training set classifier each time, leading 
+> to different performance depending on the random initialization of the classifiaction head. 
+> **You may want to save your trained classifier**. (e.g., `saved_clf_file = Path('classifier.pkl'); if saved_clf_file.exists(): learn.load(saved_clf_file); else: learn = ...; learn.export(saved_clf_file)`.
+> Think about what other sources of variation might come up, and how you might be systematic about them.
+
 
 ### Batches
 
