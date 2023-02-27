@@ -54,6 +54,7 @@ Students who complete this unit will demonstrate that they can:
 
 {{% details summary="Friday Lab" %}}
 
+- Review embeddings activity: backprop!
 - sklearn bootcamp:
   - The `fit`-`predict` API
   - Decision Trees and Random Forests
