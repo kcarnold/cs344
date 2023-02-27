@@ -2,6 +2,15 @@
 title: "Announcements 23SP"
 ---
 
+## Week 8
+
+- Homework 3 due today, but turning in the Monday after Spring Break counts as only one day late.
+  - Many students are plotting the loss for both the training and validation, which is a really good idea.
+- Outline on website
+- embedding worksheet on Moodle
+- [Mid-Semester Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUQzQ0RTM5MktKTVpCMDBYSjIwREFVS0k0SC4u)
+- Project proposals: which initiative to join (do this as a survey? Apply to join?)
+
 ## Week 7 mid-week
 
 - We had an excellent class meeting today.
