@@ -3,6 +3,8 @@ title: "Homework 2: Generalization"
 draft: false
 ---
 
+<!-- Next year: more clarity about goals, expectations, standards I'm aiming for, WHY -->
+
 ## Outcomes
 
 The process of completing this assignment will improve your ability to:
