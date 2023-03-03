@@ -28,19 +28,27 @@ One measure of a successful project would be one that has a path towards commerc
 
 ## Initiatives
 
-As an experiment this year, we'll group projects by *initiatives* of related ideas. For the first milestone, simply choose which initiative you'd like to be a part of, if any.
+As an experiment this year, we'll group projects by *initiatives* of related ideas. For the first milestone, simply choose which initiative you'd like to be a part of, if any. Projects in the same initiative can share ideas, resources, and debugging, enabling each individual project to be 
 
 - **Vision Applications**.
   - Be creative.
   - Compete in [Stable Diffusion - Image to Prompts | Kaggle](https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/overview)?
-- **NLP Applications**:
+  - Prof Norman's [fish tracking project](https://moodle.calvin.edu/mod/forum/discuss.php?d=303460)?
+- **NLP Applications**. Some ideas:
   - Add details to image descriptions, ask questions, present some options
+  - Unpack run-together words. For example, a truck drove by with "inontime" written on it; output "in on time".
+  - Decompiler: given assembly or bytecode, generate the source code, including comments and variable names.
+  - organizing personal info: given a block of text, figure out where it goes in an existing organization system
 - **Mechanistic Interpretability**: Probe at how things work. [details](interpret/)
   - Find training set examples that might influence the current output.
   - Can we identify the latent behaviors in language models? Can we factor the model into activating and then executing behaviors? Structure of soft prompts?
 - **Architectural Variations**
   - Experiment with some variations on a popular architecture (like the Transformer).
     - It’s kinda strange that the main job of the transformer is to transform the current token into the next, by residuals. … what about letting any pair of tokens subtract? 
+    - Are there simpler networks that can do the same thing as transformers?
+      - Smaller heads?
+      - Fixed weights?
+      - Hardwired data flows?
   - Experiment with different ways of training. 
     - sequence: Starting with cartoon images? Child-directed speech? Different subsets of *The Pile* first?
     - task: Humans, like like language models, have trouble remembering where an inspiration comes from. Give the LM some episodic memory? Predict where the current text is coming from. Something else in the context. Prior text?
