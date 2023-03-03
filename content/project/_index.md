@@ -26,6 +26,26 @@ You are encouraged to try to demonstrate mastery of several of these topics even
 
 One measure of a successful project would be one that has a path towards commercialization. We have connections to funding for students interested in pursuing this.
 
+## Initiatives
+
+As an experiment this year, we'll group projects by *initiatives* of related ideas. For the first milestone, simply choose which initiative you'd like to be a part of, if any.
+
+- **Vision Applications**.
+  - Be creative.
+  - Compete in [Stable Diffusion - Image to Prompts | Kaggle](https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/overview)?
+- **NLP Applications**:
+  - Add details to image descriptions, ask questions, present some options
+- **Mechanistic Interpretability**: Probe at how things work. [details](interpret/)
+  - Find training set examples that might influence the current output.
+  - Can we identify the latent behaviors in language models? Can we factor the model into activating and then executing behaviors? Structure of soft prompts?
+- **Architectural Variations**
+  - Experiment with some variations on a popular architecture (like the Transformer).
+    - It’s kinda strange that the main job of the transformer is to transform the current token into the next, by residuals. … what about letting any pair of tokens subtract? 
+  - Experiment with different ways of training. 
+    - sequence: Starting with cartoon images? Child-directed speech? Different subsets of *The Pile* first?
+    - task: Humans, like like language models, have trouble remembering where an inspiration comes from. Give the LM some episodic memory? Predict where the current text is coming from. Something else in the context. Prior text?
+
+
 ## Milestones and Deliverables
 
 {{% details summary="Proposal" %}}
