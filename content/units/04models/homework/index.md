@@ -3,7 +3,7 @@ title: "Homework 2: Generalization"
 draft: false
 ---
 
-<!-- Next year: more clarity about goals, expectations, standards I'm aiming for, WHY -->
+<!-- Next year: more clarity about goals, expectations, standards I'm aiming for, WHY. Also: give some patterns for students to write augmentation code, to mess up clean images. -->
 
 ## Outcomes
 
