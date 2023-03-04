@@ -30,11 +30,10 @@ One measure of a successful project would be one that has a path towards commerc
 
 As an experiment this year, we'll group projects by *initiatives* of related ideas. For the first milestone, simply choose which initiative you'd like to be a part of, if any. Projects in the same initiative can share ideas, resources, and debugging, enabling each individual project to be 
 
-- **Vision Applications**.
-  - Be creative.
+- **Applications**. Some ideas:
   - Compete in [Stable Diffusion - Image to Prompts | Kaggle](https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/overview)?
   - Prof Norman's [fish tracking project](https://moodle.calvin.edu/mod/forum/discuss.php?d=303460)?
-- **NLP Applications**. Some ideas:
+  - Work with CIT to make an augmented helpdesk
   - Add details to image descriptions, ask questions, present some options
   - Unpack run-together words. For example, a truck drove by with "inontime" written on it; output "in on time".
   - Decompiler: given assembly or bytecode, generate the source code, including comments and variable names.
