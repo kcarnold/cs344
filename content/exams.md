@@ -70,7 +70,38 @@ We'll do this all in a GitHub repo: https://github.com/kcarnold/cs344-exam-23sp
     - To link to a specific line in a file, go to that file, click the `<>` in the bar above the file contents, click the line number, then select "Reference in new issue" from the `...` menu.
     - Use `@` to reference the original author, so they can revise based on your feedback.
 - Stage 3:
-  - Each student picks a stratified random set of questions  
+  - Start a new document (Word, GDocs, etc.) for collecting your responses.
+  - Each student picks a stratified random set of questions. For each one:
+    - Feed it verbatim to ChatGPT (perhaps adjusting formatting as necessary, if copy-paste fails). Copy and paste your original prompt and its answer into your document.
+    - Try to get ChatGPT to improve its answer. You might edit the prompt or add another message.
+    - Copy and paste the new prompt and response into your document.
+    - Grade the ChatGPT response on (1) accuracy and (2) usefulness for understanding the concept.
+  - Submit your document to the assignment in Moodle.
+
+### How to take a random sample of questions?
+
+Run this in your JavaScript console in 
+
+```js
+(() => {
+  let byUnit = new Map();
+  document.querySelectorAll('[aria-label="Directory"]').forEach(x => {
+    let name = x.closest('[role="row"]').querySelector('a').textContent;
+    let unit = /^(u|uc)(\d+)-(.+)$/.exec(name)[2];
+    let contents = byUnit.get(unit) || [];
+    contents.push(name);
+    byUnit.set(unit, contents);
+    console.log(unit)
+  })
+
+  let result = [];
+  for (let [unit, options] of byUnit) {
+    console.log(options)
+    result.push(options[Math.floor(Math.random() * options.length)]);
+  }
+  document.body.innerHTML = `<h1>Your questions</h1>${result.join(', ')}`;
+})()
+```
 
 ## References
 
