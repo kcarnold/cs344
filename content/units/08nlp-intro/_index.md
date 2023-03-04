@@ -41,6 +41,29 @@ Reading for this unit:
 
 ## Class Meetings
 
+{{% details summary="Monday class" %}}
+
+- Language Modeling Intro
+- OpenAI Playground Activities
+
+{{% /details %}}
+
+{{% details summary="Wednesday class" %}}
+
+- NLP tasks
+- Tokenization
+
+{{% /details %}}
+
+{{% details summary="Friday lab" %}}
+
+- Tokenization
+- Word Embeddings(?)
+
+{{% /details %}}
+
+<!--
+
 ### Monday
 
 Lecture: NLP Intro and Predictive Text ([slides](/slides/2022-03-07%20NLP%20intro%20and%20Predictive%20Text.pdf))
@@ -57,3 +80,5 @@ Lecture: NLP Intro and Predictive Text ([slides](/slides/2022-03-07%20NLP%20intr
 - Discussion intro
 - Word embeddings (see [slides from last week](/slides/w7/w7-recsys-embedding.html#26))
 - Tokenization practice
+
+-->
