@@ -4,12 +4,30 @@ title: "Announcements 23SP"
 
 ## Week 8
 
-- Homework 3 due today, but turning in the Monday after Spring Break counts as only one day late.
+Welcome back from Spring Break! We're starting the second half of the class(*), switching from the basics of deep learning to one of its most transformational applications: language models. Yup, this is where we learn about ChatGPT and its cousins. We'll start with a high-level view of how language modeling works, then dig into the strange yet strangely simple Transformer family of neural architectures. We'll also discuss image generation, human-AI interaction, transparency, and a few other topics in future weeks.
+
+### Logistics
+
+- **Make an OpenAI account** [here](platform.openai.com/). For Monday's class, it'll be helpful if a good fraction of the class has an account. It requires a phone number verification and maybe a credit card, but they provide a generous trial balance.
+- Please fill out the [Mid-Semester Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUQzQ0RTM5MktKTVpCMDBYSjIwREFVS0k0SC4u) sometime this week.
+- The next step in our alternative exam model is for you to quiz ChatGPT. I've put some preliminary instructions on the [Exam Instructions page](https://cs.calvin.edu/courses/cs/344/23sp/exams/). To debug this, let's have everyone try doing *one question* by the end of the week.
+- Homework 3 was due last week, but turning in the Monday after Spring Break counts as only one day late.
   - Many students are plotting the loss for both the training and validation, which is a really good idea.
-- Outline on website
-- embedding worksheet on Moodle
-- [Mid-Semester Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUQzQ0RTM5MktKTVpCMDBYSjIwREFVS0k0SC4u)
-- Project proposals: which initiative to join (do this as a survey? Apply to join?)
+  - We will be doing *peer review* with the notebooks, so please try to finish soon!
+- Project proposals are due this week. To keep it simple for everyone, especially since we haven't gotten to see much of NLP, all I'm asking you to do is choose which *initiative* to join (or, alternatively, propose your own independent project).
+- Same schedule as usual (in lab on Friday).
+
+### Notes
+
+- I've found that some people aren't aware that I've been writing an [*outline of the course*](https://cs.calvin.edu/courses/cs/344/23sp/outline/) on the website. It's not complete; suggestions for additions welcome either by asking me or by just directly [editing it on GitHub](https://github.com/kcarnold/cs344/blob/main/content/outline.md).
+- I've posted the embedding worksheet we annotated in class (where we worked out the backpropagation logic) on Moodle.
+- I've caught up some on the prep quizzes on Moodle.
+  - I grade Moodle quizzes by spot-check, so if the autograder made a mistake, please lmk.
+  - Another consequence of spot-check grading is that I don't get to actually responding to the Q&As until it's past that part of the class. And responses get lost in Moodle anyway. So if there's something you actually want to discuss, please raise it in class or on Ed. There were lots of interesting issues raised in Chapter 3, for example--bring those up on Ed!
+
+See you Monday!
+
+(*) It's actually more than halfway through the semester, thanks to days off for Advising and Easter.
 
 ## Week 7 mid-week
 
