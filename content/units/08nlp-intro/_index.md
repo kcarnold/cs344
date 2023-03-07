@@ -44,7 +44,7 @@ Reading for this unit:
 {{% details summary="Monday class" %}}
 
 - Language Modeling Intro
-- OpenAI Playground Activities
+- OpenAI Playground Activities: [docx](exploring-lm.docx), [pdf](exploring-lm.pdf)
 
 {{% /details %}}
 
