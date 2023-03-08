@@ -88,6 +88,12 @@ Note: the PyTorch `cross_entropy` function does some interesting things under th
 4. Try some variations, like changing the number of hidden dimensions.
 5. Try one of the optional extensions, like replacing `nn.Linear` with your own implementation. You can start with the implementation you wrote in prior labs.
 
+Some things to check:
+
+- Did you include biases in the linear layers? Why or why not?
+- How's your initialization? Compute what loss you'd expect at the start of training, and make sure your loss is starting out around there.
+- Is the 2-layer network getting a substantially lower loss than the 1-layer network?
+
 ## Reflection Questions
 
 - What did you learn about neural networks from this exercise?
