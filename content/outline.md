@@ -473,6 +473,100 @@ These give *similarity* (higher is more similar). We could also measure *distanc
   - Fast technique (inverted index, vector database, etc.) to extract many candidate documents
   - Slow technique (cross-encoder, etc.) to find the best among the candidates
 
+## Unit 8: NLP Intro
+
+### Language Models
+
+- Language models (LMs) are trained to predict the next word in a document.
+- Next-word prediction = classification
+  - Input: document up to the current word
+  - Output: probability distribution over all possible words
+- Training set: a huge set of documents from the Internet
+  - Append an "end of text" token to know where the document ends
+- Trained to minimize "surprise" (cross-entropy loss)
+  - Model predicts a distribution P(word | document so far)
+  - Surprise = how much probability mass the model gave to the actual next word
+    - Low surprise = it made a really good guess
+    - High surprise = its guess was bad (or perhaps the model was rightly unsure)
+- Mathematically:
+  - the model assigns a probability distribution to all possible documents.
+  - P(document) = P(word 1) * P(word 2 | word 1) * P(word 3 | word 1, word 2) * ...
+  - These probabilities would be tiny, so we take the log:
+    - log P(document) = log P(word 1) + log P(word 2 | word 1) + log P(word 3 | word 1, word 2) + ...
+    - The log of a product is the sum of the logs
+    - This is the log-likelihood of the document under the model. The negative of this (NLL for negative log-likelihood) is also called the cross-entropy loss.
+    - Dividing this by the number of words in the document gives the average log-likelihood per word, or average cross-entropy loss per word
+  - The model is a function that outputs log P(word | document so far) for each word in the vocabulary
+    - Typically the model outputs logits, which are then passed through a softmax to get probabilities.
+  - The model is trained to minimize cross-entropy loss by stochastic gradient descent on a training set of documents.
+
+### Sampling from a Language Model
+
+- How to generate text from a language model?
+  - Start with a prompt (e.g., "Every morning I wake up and")
+  - Use the model to predict the next word
+  - Use the predicted distribution to choose the next word
+  - Keep adding words until the end-of-text token is generated
+- This corresponds to the left-to-right factorization of the joint probability distribution over documents:
+  - P(document) = P(word 1) * P(word 2 | word 1) * P(word 3 | word 1, word 2) * ...
+  - At each step, we're sampling from a conditional distribution
+  - That distribution only depends on the words that came before it
+  - So we can sample from it independently of the words that come after it
+- Implications:
+  - the model never "looks ahead" to see what words come after the current word.
+  - We can get the model to "rationalize" a statement by including that statement as part of its prompt. The model's only "memory" is contained in the words it's already generated, so we can "edit" that memory by changing the document so far.
+- Temperature
+  - The model's predictions are a probability distribution over all possible words
+  - We can control how much randomness is in the distribution by changing the temperature
+  - Can be used to control the "creativity" or "diversity" of the model's output
+    - Higher temperature = more randomness. Extreme: infinite temperature = uniform distribution over all words
+    - Lower temperature = less randomness. Extreme: 0 temperature = always choose the most likely word
+  - Computed by dividing the logits by the temperature before passing them through the softmax
+  - Temperature = 1.0 means no change
+  - In practice, it's a balance:
+    - Too high temperature = output isn't dependable. With some probability, the model will output something highly unusual.
+    - Too low temperature = output is unusually dull. Human communication rarely chooses the single most likely thing (otherwise why would we bother communicating?), so always picking the most likely word yields text that is unusually flat.
+  - OpenAI's default temperature is 0.7 (a balance between predictability and interestingness)
+
+### Text as Input
+
+How to represent text as input to a neural network?
+
+- Input: a sequence of token ids. Output: a probability distribution over all possible tokens.
+- Token: a single unit. Can be a word, a character, a subword, etc.
+- Classical approaches:
+  - Character-level language models
+    - Input: a sequence of characters
+    - Output: probability distribution over all possible characters
+  - Word-level language models
+    - Input: a sequence of words
+    - Output: probability distribution over all possible words
+- Pros and cons
+  - Character-level models:
+    - Pros: robust to spelling variations or unknown words
+    - Cons: each word requires many tokens, so requires more computation. Difficult to learn long-range dependencies (many tokens away, info is spread over many tokens). Internals of the model are hard to interpret.
+  - Word-level models:
+    - Pros: each word requires only one token, so requires less computation. Relationships between words are easier to learn. Internals of the model are easier to interpret.
+    - Cons:
+      - no sharing between obviously related words (e.g., "dog" and "dogs" are completely separate tokens; can only learn their relationship by example)
+      - any word that doesn't appear in the training set is completely unknown (even if its spelling is similar to a word that does appear in the training set, e.g., "dog" vs. "dogg")
+- Modern approach: sub-word tokenization (e.g., Byte-Pair Encoding, SentencePiece, etc.)
+  - Common words are represented by a single token
+  - Less common words are represented by a sequence of tokens
+    - e.g., "dogg" might be represented by "dog" + "##g" (where "##" is a special token that indicates a sub-word)
+    - Alternative to marking sub-words with "##" is to include the leading space in the first token of the sub-word sequence (e.g., "dogg" might be represented by " dog" + "g")
+
+### Instruction Fine-Tuning (IFT) and Reinforcement Learning (RLHF)
+
+The `text-davinci-003` model we were using was trained by:
+
+1. LM pretraining: Pretraining via language modeling on a large corpus of text
+  - Almost certainly includes a lot of synthesized text, such as math problems and examples of spelling out words. Probably also includes synthetic or curated data on rhyming, word pronunciation, etc.
+2. <abbr title="Instruction Fine-Tuning">IFT</abbr>: Fine-tuning on a dataset of examples of instructions ("tell me a joke", "summarize this article", etc.) paired with a "demonstration" of the desired output.
+3. <abbr title="Reinforcement Learning from Human Feedback">RLHF</abbr> with <abbr title="Proximal Policy Optimization">PPO</abbr>: Let the model generate outputs, and then have a human judge whether they're good or bad. Use this feedback to improve the model.
+  - Tweak: Instead of asking humans about every output, they (1) ask a human to rate a few outputs, (2) train a model to predict the human's rating from the output, and (3) use that model's rating as the reward signal for RLHF.
+
+For details, see [Illustrating Reinforcement Learning from Human Feedback (RLHF)](https://huggingface.co/blog/rlhf) and [What Makes a Dialog Agent Useful?](https://huggingface.co/blog/dialog-agents) on the Hugging Face blog.
 
 ## Other Topics on Demand
 
