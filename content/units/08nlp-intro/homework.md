@@ -1,15 +1,11 @@
 ---
-title: "Homework 8"
-date: 2022-03-11
-due: 2022-03-17
-draft: false
+title: "Lab 8"
+draft: true
 ---
 
 Our goals for the homework assignment this week are:
 
 - Practice working with tokenization, so that you have a clear idea about how you might convert strings into sequences of numbers that you can provide to a neural net
-- Try out some NLP tasks on real data.
-- Review what we've done in the past.
 
 ## This Week's Fundamentals
 
@@ -17,35 +13,21 @@ There's only one notebook this week, designed to help you practice with tokenize
 
 - {{% fundamentals name="Tokenization" nbname="u8n1-tokenization.ipynb" %}}
 
-## Try Out NLP Tasks
+## Try Out NLP Benchmarks
 
-Try out two different pre-built Transformers models on some real data. For each model, write a brief summary (bullet point is fine) including:
+Try out a benchmark of NLP progress. I suggest [BIG-Bench](https://github.com/google/BIG-bench), organized by Google, but you're welcome to try a different one. 
 
-- What you ran (see below for a list of options). Include the full URL or `pipeline()` construction code
-- A specific example where it works well (copy and paste the input and output). Use public data as examples (e.g., Wikipedia, review sites, news articles, etc.)
-- A specific example where it breaks (returns incorrect results).
-- A brief reaction. You might discuss: is this a useful model? How easy was it to break it? How did its behavior compare with your expectations?
+1. Pick one task, e.g., [one of these](https://github.com/google/BIG-bench/blob/main/bigbench/benchmark_tasks/keywords_to_tasks.md#summary-table).
+2. Pick two example items from that task, arbitrarily. For example, if you're using BIG-Bench, I clicked the first task, [bbq-lite](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/bbq_lite), clicked the first JSON file under Resources, and grabbed an example from there.
+  - If you have the patience, the BIG-Bench [Task Testing Notebook](https://colab.research.google.com/github/google/BIG-bench/blob/main/notebooks/TaskTestingNotebook.ipynb#scrollTo=t9qUsUiWczu6) is really useful for exploring the tasks, but it takes a while to initially set up.
+3. Test three different models:
+  1. Yourself.
+  2. ChatGPT or the OpenAI Playground
+  3. A pre-built model from Hugging Face, such as [flan-ul2](https://huggingface.co/google/flan-ul2)
 
-**Where to find a model?** The Hugging Face course discussed several different NLP tasks, many of which are bundled up into ready-to-run "pipelines". You might run that code on Colab or a lab machine. In addition to the out-of-the-box pipelines, you can find tasks and models on the [Models](https://huggingface.co/models) page, or look through the list of demos on [Spaces](https://huggingface.co/spaces).
+Provide a brief reflection on the experience.
 
-## Review Prior Weeks
-
-Many students have mentioned wanting to review material from prior weeks. This exercise might help:
-
-- Pick two previous learning objectives (see the list under each [unit](/units)).
-- For each one, **write a quiz question**, and a correct answer about that topic. (You may need to review prior material to do this.)
-  - Optional but encouraged: ask another student in the class your question. Compare your answers.
-- Aim for one question about *concepts*/*math* and one question about *implementation*/*coding*.
-- Aim for at least one question being on something that you weren't actually solid on.
-
-I recommend chatting in office hours about this, and sharing questions/answers before the due date.
-
-## Submitting
-
-I recommend working on the other answers outside of Moodle (e.g., in Word or Google Docs), then copy-pasting in.
-
-In the Moodle assignment for this Homework:
-
-1. Attach the `ipynb` files.
-2. Copy and paste your responses to the Analysis questions into the text box.
-3. Copy and paste your Try Out and Review responses here too, separated by headings so we know which part is which.
+- Which task did you pick? (Give enough detail so that someone else would be able to try it too.)
+- Do you think the task is a good measure of progress in NLP? Why or why not?
+- Did you find it easy to do yourself?
+- How did the models do?
