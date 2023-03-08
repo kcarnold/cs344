@@ -561,12 +561,14 @@ How to represent text as input to a neural network?
 The `text-davinci-003` model we were using was trained by:
 
 1. LM pretraining: Pretraining via language modeling on a large corpus of text
-  - Almost certainly includes a lot of synthesized text, such as math problems and examples of spelling out words. Probably also includes synthetic or curated data on rhyming, word pronunciation, etc.
+    - Almost certainly includes a lot of synthesized text, such as math problems and examples of spelling out words. Probably also includes synthetic or curated data on rhyming, word pronunciation, etc.
 2. <abbr title="Instruction Fine-Tuning">IFT</abbr>: Fine-tuning on a dataset of examples of instructions ("tell me a joke", "summarize this article", etc.) paired with a "demonstration" of the desired output.
 3. <abbr title="Reinforcement Learning from Human Feedback">RLHF</abbr> with <abbr title="Proximal Policy Optimization">PPO</abbr>: Let the model generate outputs, and then have a human judge whether they're good or bad. Use this feedback to improve the model.
-  - Tweak: Instead of asking humans about every output, they (1) ask a human to rate a few outputs, (2) train a model to predict the human's rating from the output, and (3) use that model's rating as the reward signal for RLHF.
+    - Tweak: Instead of asking humans about every output, they (1) ask a human to rate a few outputs, (2) train a model to predict the human's rating from the output, and (3) use that model's rating as the reward signal for RLHF.
 
 For details, see [Illustrating Reinforcement Learning from Human Feedback (RLHF)](https://huggingface.co/blog/rlhf) and [What Makes a Dialog Agent Useful?](https://huggingface.co/blog/dialog-agents) on the Hugging Face blog.
+
+For sources for this claim, see <https://platform.openai.com/docs/model-index-for-researchers>.
 
 ## Other Topics on Demand
 
