@@ -50,7 +50,7 @@ Reading for this unit:
 
 {{% details summary="Wednesday class" %}}
 
-- NLP tasks
+- NLP tasks ([slides](/slides/w8/w8-nlp-tasks.html))
 - Tokenization
 
 {{% /details %}}
