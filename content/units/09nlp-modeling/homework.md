@@ -1,8 +1,6 @@
 ---
 title: "Homework 9"
-date: 2022-03-18
-due: 2022-03-24
-draft: false
+draft: true
 ---
 
 Our goals for the homework assignment this week are:
