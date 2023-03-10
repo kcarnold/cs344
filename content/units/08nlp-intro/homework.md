@@ -1,17 +1,7 @@
 ---
-title: "Lab 8"
+title: "Homework 8"
 draft: true
 ---
-
-Our goals for the homework assignment this week are:
-
-- Practice working with tokenization, so that you have a clear idea about how you might convert strings into sequences of numbers that you can provide to a neural net
-
-## This Week's Fundamentals
-
-There's only one notebook this week, designed to help you practice with tokenizers. As usual, do your work in the corresponding notebook.
-
-- {{% fundamentals name="Tokenization" nbname="u8n1-tokenization.ipynb" %}}
 
 ## Try Out NLP Benchmarks
 
