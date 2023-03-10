@@ -19,7 +19,7 @@ We now switch to the [Natural Language Processing with Transformers Book](https:
 
 Reading for this unit:
 
-- NLPT: Foreword, Preface, and Chapter 1. Do the end-of-chapter quiz.
+- NLPT: Foreword, Preface, and Chapter 1.
 - [Hugging Face NLP Course](https://huggingface.co/course/) Chapter 1. Complete the end-of-chapter quiz, not for credit.
 - Optional but recommended:
   - Watch Jay Alammar's "gentle visual intro to Transformers models" from the [Part 2 Release Event](https://huggingface.co/course/event/1?fw=pt), and one more of your choice.

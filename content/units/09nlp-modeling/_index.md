@@ -17,7 +17,7 @@ Now that we've seen the basic capabilities of NLP models, let's start getting un
       - Was the `model` given the desired output for each sentence?
       - For how many iterations was the model trained?
       - *Review*: What does `loss.backward()` do?
-      - *Note*: We didn't see `optimizer` objects before; see the new [*Extension* of Fundamentals u6n1](/fundamentals/u6n1-mnist-clf.html#Extension)
+      - *Note*: In case you haven't seen an `optimizer` object before, go back to the [*Extension* section of Fundamentals u05n3](/fundamentals/u05n3-mnist-clf.html#Extension)
     - What information is contained in each row of the MPRC dataset?
     - How does the tokenizer tell the model which part of the input is the first sentence vs second sentence?
     - Why do we need to pad the the inputs?
