@@ -28,7 +28,7 @@ One measure of a successful project would be one that has a path towards commerc
 
 ## Initiatives
 
-As an experiment this year, we'll group projects by *initiatives* of related ideas. For the first milestone, simply choose which initiative you'd like to be a part of, if any. Projects in the same initiative can share ideas, resources, and debugging, enabling each individual project to be 
+As an experiment this year, we'll group projects by *initiatives* of related ideas. For the first milestone, simply choose which initiative you'd like to be a part of, if any. Projects in the same initiative can share ideas, resources, and debugging, enabling each individual project to be more ambitious but less risky.
 
 - **Applications**. Some ideas:
   - Compete in [Stable Diffusion - Image to Prompts | Kaggle](https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/overview)?
@@ -41,15 +41,24 @@ As an experiment this year, we'll group projects by *initiatives* of related ide
 - **Mechanistic Interpretability**: Probe at how things work. [details](interpret/)
   - Find training set examples that might influence the current output.
   - Can we identify the latent behaviors in language models? Can we factor the model into activating and then executing behaviors? Structure of soft prompts?
+  - How does the model encode literal phrases of text? Can you "read off" a phrase that the model was trained on using any less computation than running the full model would require?
 - **Architectural Variations**
-  - Experiment with some variations on a popular architecture (like the Transformer).
+  - Try out some variation on a common ML technique. If you're interested in this sort of project, ask me and I can explain those ideas or provide some others. For example, I have a description of [research projects](research/) that needs updating.
+  - Experiment with some variations on a popular architecture (like the Transformer). We might find a shared code-base to use for this, and each project can focus on a different variation. Some ideas:
     - It’s kinda strange that the main job of the transformer is to transform the current token into the next, by residuals. … what about letting any pair of tokens subtract? 
+    - What might happen to performance if...
+      - we included a key with a value that's always zero?
+      - each layer could query the prior layer?
+      - different layers had different numbers of heads?
+    - Try out different activation functions (stairsteps?)
     - Are there simpler networks that can do the same thing as transformers?
       - Smaller heads?
       - Fixed weights?
       - Hardwired data flows?
   - Experiment with different ways of training. 
     - sequence: Starting with cartoon images? Child-directed speech? Different subsets of *The Pile* first?
+    - task: what if we have the model predict a token other than the next one, e.g., 2 tokens ahead?
+    - task: model a document in reverse. What if each document starts with a special token that indicates whether the text is presented forward or backward? Does pretraining on this task help any downstream tasks? Related [post on the fastai forum](https://forums.fast.ai/t/pre-trained-language-model-for-texts-that-are-read-backward/87486).
     - task: Humans, like like language models, have trouble remembering where an inspiration comes from. Give the LM some episodic memory? Predict where the current text is coming from. Something else in the context. Prior text?
 
 
@@ -278,16 +287,7 @@ Some potential libraries or codebases:
 
 {{% details summary="Exploration Project" %}}
 
-- Try out some variation on a common ML technique
-- e.g., lots of variations possible on the Transformers architecture ("what if...")
-  - if we included a key with a value that's always zero?
-  - if each layer could query the prior layer?
-  - if different layers had different numbers of heads?
-- Try out different activation functions (stairsteps?)
-
-If you're interested in this sort of project, ask me and I can explain those ideas or provide some others.
-
-For example, I have a description of [research projects](research/) that needs updating.
+Probably you'll do this as part of one of the *initiatives*; see above.
 
 {{% /details %}}
 
