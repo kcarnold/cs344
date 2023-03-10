@@ -61,7 +61,7 @@ We also strive for the sequence to make sense.
   - {{% fundamentals name="Regression in scikit-learn" nbname="u07n1-sklearn-regression.ipynb" %}}
   - {{% fundamentals name="Classification in scikit-learn" nbname="u07n2-sklearn-classification.ipynb" %}}
 - Unit 8
-  - {{% fundamentals name="Tokenization" nbname="u8n1-tokenization.ipynb" %}}
+  - {{% fundamentals name="Tokenization" nbname="u08n1-tokenization.ipynb" %}}
 - Unit 9
   - {{% fundamentals name="Logits in Causal Language Models" nbname="u9n1-lm-logits.ipynb" %}}
 - Unit 11
