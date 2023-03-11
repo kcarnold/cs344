@@ -12,6 +12,7 @@ title: "Interpretability Initiative"
 - [We Found An Neuron in GPT-2 - Clement Neo](https://clementneo.com/posts/2023/02/11/we-found-an-neuron)  
 - [Discovering Latent Concepts Learned in BERT | OpenReview](https://openreview.net/forum?id=POTMtpYI1xH)  
 - [Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small | Abstract](https://arxiv.org/abs/2211.00593)  
+- A cool example: [Othello-GPT](https://thegradient.pub/othello/)
 
 ## Projects
 
