@@ -2,6 +2,26 @@
 title: "Announcements 23SP"
 ---
 
+## Week 9
+
+Welcome to week 9! This week start to take off the covers of NLP models, just like we took off the covers of image models in the first half of the class. In particular, we'll get our first taste of the Transformer model, the most important model in machine learning today. For full disclosure, we won't get to a lot of new content this week because I'm traveling for part of the week, but it'll be a good chance to catch up and review.
+
+This week:
+
+- **Prep 9**. The assignment itself includes a "study guide" of some questions to help you focus your thinking. The Moodle check-in quiz is just one open-ended reflection, but please turn that in so I can give you credit for the reading. There are two options for the reading; the textbook is a new option and I'm curious what you think of it.
+- **Lab 8** is due on Friday as usual. If you didn't get to do a peer feedback on Homework 3 during lab, you'll need to find someone to do that with this week.
+- **Discussion for Week 8** -- this was going to be homework, but I've changed it into a discussion post because it should be more interesting that way. Due at the normal *homework* time, though (Friday end of day).
+
+Reminders:
+
+- [Mid-Semester Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUQzQ0RTM5MktKTVpCMDBYSjIwREFVS0k0SC4u) has gotten 10 responses so far. Everybody loves the labs so far, but other topics are more mixed, so it will be helpful to get your perspectives!
+- **Project Proposals** were due yesterday, but many people haven't gotten them in yet. Please do so. Since so many initial proposals aren't in yet, I'm pushing back the deadline for revised proposals.
+- Initial ChatGPT responses to exam questions were due yesterday also.
+- The [*course outline*](https://cs.calvin.edu/courses/cs/344/23sp/outline/) has been updated with some material from this past week.
+
+I'll be out of town on Friday. I might be able to hold a remote session, though, so don't cancel your plans quite yet.
+
+
 ## Week 8
 
 Welcome back from Spring Break! We're starting the second half of the class(*), switching from the basics of deep learning to one of its most transformational applications: language models. Yup, this is where we learn about ChatGPT and its cousins. We'll start with a high-level view of how language modeling works, then dig into the strange yet strangely simple Transformer family of neural architectures. We'll also discuss image generation, human-AI interaction, transparency, and a few other topics in future weeks.
