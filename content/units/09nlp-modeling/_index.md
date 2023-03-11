@@ -9,8 +9,13 @@ Now that we've seen the basic capabilities of NLP models, let's start getting un
 
 ## Preparation
 
+Either:
+
 - Read NLPT Chapter 2
-- Read chapter 2 of the [Hugging Face NLP Course](https://huggingface.co/course/); do the end-of-chapter quizz.
+
+Or:
+
+- Read chapter 2 of the [Hugging Face NLP Course](https://huggingface.co/course/); do the end-of-chapter quiz.
 - Read chapter 3 of the course. Do the end-of-chapter quiz. Additionally, be able to answer the following questions:
   - Section 2
     - In the first code chunk:
