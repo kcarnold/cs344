@@ -1,6 +1,5 @@
 ---
 title: "Discussion for Week 8"
-draft: true
 ---
 
 This short task is intended to help you get a sense of how we might evaluate a model's performance in a natural language processing task. Clearly a model can't understand language in the way that humans do, but what happens if we take a reductionist lens and ask how well it does on specific tasks?
@@ -18,10 +17,16 @@ Try out a benchmark of NLP progress. I suggest [BIG-Bench](https://github.com/go
     2. ChatGPT or the OpenAI Playground
     3. A pre-built model from Hugging Face, such as [flan-ul2](https://huggingface.co/google/flan-ul2)
 
+## Initial Post
+
 Post a brief reflection on the experience.
 
 - Which task did you pick? (Give enough detail so that someone else would be able to try it too.)
-- Do you think the task is a good measure of progress in NLP? Why or why not?
+- Copy and paste one interesting example of an item from the task. Include the answer choices (if any) but not the correct answer.
 - How easy or difficult was the task you chose?
 - How did the models do?
+- Do you think the task is a good indicator of how well someone or something understands language? Why or why not?
 
+## Replies
+
+Give the answer to the example item that someone else posted. (Pick one that hasn't already been answered.) Also respond to their comments about the task.
