@@ -1,0 +1,122 @@
+---
+title: "NLP Tasks and Data"
+format:
+  revealjs:
+    width: 1280
+    height: 720
+execute: 
+  echo: true
+---
+
+## Logistics
+
+- Project Proposals
+- Exam: remaining ChatGPT grading by end of week.
+  - Thinking about next week...
+- Lab 8: due Friday
+  - Homework 3 peer review included
+- Project Proposals
+
+---
+
+## Objectives
+
+- Identify at least two different language understanding tasks that can be addressed using machine learning methods and describe the inputs and targets of each.
+- Explain at least two different approaches for converting text data into a form usable by a machine learning model.
+- Identify both word and character n-grams in a given string.
+- Implement basic data manipulation operations in language processing
+
+---
+
+## A few kinds of NLP Tasks
+
+- Classify whole documents
+- Extract parts of the document (named entities, question answers, parts of speech, ...)
+- Generate^[or compute a score for] text based on a prompt (summarize, translate, respond in a dialogue)
+- Compute an embedding of a document (for similarity scoring, etc.)^[this wasn't discussed in the textbook]
+
+---
+
+## Which NLP task could you use to... {.smaller}
+
+::: {.columns}
+::: {.column width="60%"}
+
+1. for a smart home device: given a command, determine which lights to turn on/off
+2. for a text editor, generate summaries of each paragraph to help writers reflect on their work
+3. for a travel review site: identify which reviews have a balance of *positive* and *negative* sentences
+4. on Wikipedia, fill in missing infobox data, such as birthdates and birthplaces for people, based on the article text.
+5. search for support tickets that might be duplicates of the one currently being typed.
+:::
+
+::: {.column style="color: grey; width: 40%;"}
+for reference: 
+
+- Classify whole documents
+- Extract parts of the document
+- Generate text based on a prompt
+- Compute an embedding of a document
+
+:::
+:::
+
+---
+
+## Jargon Note: Few-Shot and Zero-Shot Learning
+
+shot, *noun*, *informal*: an example input-output pair
+
+- few-shot: model given few examples for a specific task.
+- zero-shot: model given **no** examples of that task.
+
+---
+
+## Text to Numbers (and back)
+
+- Neural nets work with numbers. **How do we convert text to numbers** that we can feed into our models?
+
+- Neural nets give us numbers as output. **How do we go back from numbers into text**?
+
+---
+
+## Tokenization
+
+Two parts:
+
+- splitting strings into tokens
+  - sometimes just called **tokenization**
+  - may or may not be reversible, e.g., strips special characters
+- converting tokens into numbers
+  - *vocabulary*: the mapping of number to token (e.g., a list)
+  - size and contents of vocabulary don't change
+
+---
+
+## Tokenization Examples
+
+```{python}
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("distilgpt2", add_prefix_space=True)
+```
+
+. . .
+
+```{python}
+tokens = tokenizer.tokenize("Hello, world!")
+tokens
+```
+
+(The "Ġ" is an internal detail to GPT-2; ignore it for now.)
+
+. . .
+
+```{python}
+token_ids = tokenizer.convert_tokens_to_ids(tokens)
+token_ids
+```
+
+. . .
+
+```{python}
+tokenizer.decode(token_ids)
+```
