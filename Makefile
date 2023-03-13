@@ -25,9 +25,9 @@ extra_notebooks := content/units/04models/homework/example-homework-2.html
 $(handouts) : %.pdf: %.md
 	pandoc "$<" -o "$@"
 
-# Build PDFs of slides
+# Build PDFs of slides. Needs decktape: `pnpm install decktape`.
 %.pdf: %.html
-	decktape --pause 250 --chrome-arg=--allow-file-access-from-files "$<" "$@"
+	node_modules/.bin/decktape --pause 250 --chrome-arg=--allow-file-access-from-files "$<" "$@"
 
 # Build source files from RMarkdown (blogdown). Not currently using this.
 %.markdown: %.Rmarkdown
