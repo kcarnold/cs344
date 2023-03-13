@@ -7,7 +7,7 @@ Now that we've seen the basic capabilities of NLP models, let's start getting un
 
 - Describe the basic steps in an NLP pipeline and what the data looks like coming into and going out of each step.
 
-## Preparation
+{{% details summary="Preparation" %}}
 
 Either:
 
@@ -38,30 +38,54 @@ Or:
     - You can skip the section on `accelerate`.
 - Read [Evaluation Metrics for Language Modeling](https://thegradient.pub/understanding-evaluation-metrics-for-language-models/); stop at "Reasoning about entropy as a metric"
 
-### Supplemental Material
+{{% /details %}}
 
-## Class Meetings
+{{% details summary="Monday class" %}}
 
-### Monday
+- NLP tasks ([slides](/slides/w9/w9-nlp.html))
+
+
+{{% /details %}}
+
+{{% details summary="Wednesday class" %}}
+
+{{% /details %}}
+
+{{% details summary="Friday lab" %}}
+
+{{% /details %}}
+
+{{% details summary="Q&A" %}}
+
+- What's a hidden state?
+  - It's the output of a layer of a neural network.
+  - It's an *embedding* of the part of the input needed to continue the current calculation (e.g., predict the next token).
+- Why is just the start token's hidden state typically used for classification?
+  - Any individual token would otherwise contain some information from that single token as well as information from the entire sequence.
+  - Note: It can attend to the entire sequence (in a bidirectional model like BERT).
+  - Its hidden state representation doesn't need to be used for anything else (unlike other tokens, which need to be able to decode to a token.)
+  - There may be better ways to do this, but this is a common approach.
+- Why do we need padding?
+  - Everything needs to be a tensor.
+  - Tensors generally need to be rectangular, not ragged.
+  - But when we put multiple sentences into a batch, they might have different lengths.
+  - So we pad them to the same length.
+  - (We could use ragged tensors instead, but hardware support for them isn't as good.)
+  - This is mainly a concern when *training*. At inference time we often only have one sequence at a time. (unless we're doing beam search, which we'll talk about later.)
+- Why is GPT-3 encoder-only?
+  - See [UL2: Unifying Language Learning Paradigms | Abstract](https://arxiv.org/abs/2205.05131v3)
+
+{{% /details %}}
+
+<!-- 
 
 - Code Together: Inside an NLP pipeline
   - What's the shape of everything? What are batches?
-- `perplexity = mean_cross_entropy.exp()` and what that means
-
-### Wednesday
-
-- Discussion summary
-- More coding together
-  - Review what we did last time
     - Review the tensors: what they mean, what their shapes are
     - Label each part.
-  - How to read the [implementation](https://github.com/huggingface/transformers/blob/1d43933fbc1c1e40fd26117e47910a18c69fca74/src/transformers/models/gpt2/modeling_gpt2.py#L946): *find the data flow*
   - Hidden states (`output_hidden_states`) and word embeddings
-
-### Friday
-
-- Notes:
-  - [Feedback survey](https://forms.office.com/Pages/ResponsePage.aspx?id=uUljdRAGAUuReypKwQ35Rw0bDGF2ImlDp6FjI7QrXehUMUtET1YyOFk0MFkzSTVISk9OR1I4RllETC4u) posted
-  - Study Quizzes posted
+- `perplexity = mean_cross_entropy.exp()` and what that means
 - Review loss, look at how it's implemented, clarify perplexity
 - Review embeddings and hidden states
+
+-->
