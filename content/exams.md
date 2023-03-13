@@ -80,7 +80,9 @@ We'll do this all in a GitHub repo: https://github.com/kcarnold/cs344-exam-23sp
 
 ### How to take a random sample of questions?
 
-Run this in your JavaScript console in 
+We want a *stratified* random sample, with one question per unit. You could do this by hand, but here's some code to do it. Run this in your JavaScript console on the GitHub repo page. (If this is the first time you're pasting something into the Console, you may get a message saying that you need to type something like "allow pasting". Do that, then paste again.)
+
+The result will show up in the Console and in the page body.
 
 ```js
 (() => {
@@ -99,6 +101,7 @@ Run this in your JavaScript console in
     console.log(options)
     result.push(options[Math.floor(Math.random() * options.length)]);
   }
+  console.log(result.join(', ');
   document.body.innerHTML = `<h1>Your questions</h1>${result.join(', ')}`;
 })()
 ```
