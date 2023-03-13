@@ -44,6 +44,9 @@ Thumbs.db
 # Hugo
 .hugo_build.lock
 
+# node (for decktape)
+node_modules
+
 # misc
 /moodle
 .vscode/*.log
