@@ -570,6 +570,38 @@ For details, see [Illustrating Reinforcement Learning from Human Feedback (RLHF)
 
 For sources for this claim, see <https://platform.openai.com/docs/model-index-for-researchers>.
 
+## Unit 9: NLP
+
+- Review of MLP
+  - We reviewed Homework 3, discussing hidden dimensions, activation functions, and loss.
+  - We diagrammed the model next to the code.
+    - Each linear layer does `x_nplus1 = x_n @ W_n + b_n`, where `x_n` is the input to the layer, `W_n` is the weight matrix, and `b_n` is the bias vector.
+    - Each activation function does `x_nplus1 = f(x_n)`, where `f` is the activation function.
+  - After each linear layer comes an activation function, except for the last layer.
+    - For classification, we could think of the last layer as a linear layer followed by a softmax activation function.
+    - But that has numerical issues, since the softmax function is exponential, and exponentials can get very large or very small.
+    - Instead, we use the cross-entropy loss function, which is equivalent to the softmax activation function followed by the negative log-likelihood loss function. The cross-entropy loss function is more numerically stable than the softmax activation function.
+- Encoder-Decoder vs Decoder-Only (or Encoder-Only)
+  - Decoder-only model (GPT-3, probably ChatGPT): Input is a sequence of tokens, output is a distribution over the next token.
+  - Encoder-decoder models (like T5 and BART) have two parts: an encoder and a decoder.
+    - The encoder takes the input and produces a representation of it.
+    - The decoder takes the representation and produces the output.
+    - Classic example: machine translation
+      - Input: a sequence of tokens in one language
+      - Output: a sequence of tokens in another language
+      - Encoder: generates an internal representation of the input
+      - Decoder: given a translation so far, generates the next token in the translation
+  - Both types of models are used in state-of-the-art NLP.
+    - The separation between encoder and decoder can be useful
+      - The encoder can be shared between different tasks
+      - The model doesn't need to learn to distinguish input from output; it's provided.
+    - But encoder-decoder models require data that is split between input and output
+      - So you can't just pull in the whole Internet and train a model on it
+    - And decoder-only models can be simpler and more efficient
+      - No need for a separate "cross-attention" layer in the decoder to attend to the encoder's hidden states
+  - Recent advances in encoder-decoder models put them back in first place for various NLP tasks: see [UL2: Unifying Language Learning Paradigms | Abstract](https://arxiv.org/abs/2205.05131v3). But this might change back again in the future.
+
+
 ## Other Topics on Demand
 
 Please feel free to ask to do one of these in class.

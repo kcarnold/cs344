@@ -42,12 +42,14 @@ Or:
 
 {{% details summary="Monday class" %}}
 
-- NLP tasks ([slides](/slides/w9/w9-nlp.html))
-
+- Review of MLP (Homework 3).
+- Brief discussion on encoder-decoder models (see [Outline](/outline/))
 
 {{% /details %}}
 
 {{% details summary="Wednesday class" %}}
+
+- NLP tasks ([slides](/slides/w9/w9-nlp.html))
 
 {{% /details %}}
 
@@ -73,7 +75,7 @@ Or:
   - (We could use ragged tensors instead, but hardware support for them isn't as good.)
   - This is mainly a concern when *training*. At inference time we often only have one sequence at a time. (unless we're doing beam search, which we'll talk about later.)
 - Why is GPT-3 encoder-only?
-  - See [UL2: Unifying Language Learning Paradigms | Abstract](https://arxiv.org/abs/2205.05131v3)
+  - See the Outline.
 
 {{% /details %}}
 
