@@ -7,7 +7,9 @@ HUGO_FLAGS := --buildDrafts --buildFuture
 DEST_DIR := /tmp/cs344-build/
 DEPLOY_TARGET := csweb:/webroot/courses/cs/344/23sp/
 
-slide_htmls := $(patsubst %.Rmd,%.html,$(shell find static/slides \( -iname '*.Rmd' -o -iname '*.qmd' \) -and -not -iname "*slides-common*"))
+slide_html_from_rmd := $(patsubst %.Rmd,%.html,$(shell find static/slides -iname '*.Rmd' -and -not -iname "*slides-common*"))
+slide_html_from_qmd := $(patsubst %.qmd,%.html,$(shell find static/slides -iname '*.qmd' -and -not -iname "*slides-common*"))
+slide_htmls := ${slide_html_from_rmd} ${slide_html_from_qmd}
 slide_pdfs := $(patsubst %.html,%.pdf,$(slide_htmls))
 fundamentals_soln := $(wildcard static/fundamentals/*_soln.ipynb)
 fundamentals := $(subst _soln,,$(fundamentals_soln))
