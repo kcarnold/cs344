@@ -49,6 +49,7 @@ Or:
 
 {{% details summary="Wednesday class" %}}
 
+- MLP review worksheet [docx](mlp_review.docx) [pdf](mlp_review.pdf)
 - NLP tasks ([slides](/slides/w9/w9-nlp.html))
 
 {{% /details %}}
