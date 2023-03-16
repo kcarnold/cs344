@@ -11,10 +11,12 @@ execute:
 ## Logistics
 
 - Project Proposals
-- Exam: remaining ChatGPT grading by end of week.
-  - Thinking about next week...
+- Exam
+  - remaining ChatGPT grading by end of week.
+  - Midterm in class next Friday.
 - Lab 8: due Friday
-  - Homework 3 peer review included
+  - Homework 3 peer review included (not many submitted yet!)
+- NLP Benchmarks homework/discussion due Friday
 - Project Proposals
 
 ---
