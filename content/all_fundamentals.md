@@ -63,7 +63,8 @@ We also strive for the sequence to make sense.
 - Unit 8
   - {{% fundamentals name="Tokenization" nbname="u08n1-tokenization.ipynb" %}}
 - Unit 9
-  - {{% fundamentals name="Logits in Causal Language Models" nbname="u9n1-lm-logits.ipynb" %}}
+  - {{% fundamentals name="Logits in Causal Language Models" nbname="u09n1-lm-logits.ipynb" %}}
+  - {{% fundamentals name="An exercise on bias in word embeddings." nbname="u09n1-word-embeddings.ipynb" %}}
 - Unit 11
   - {{% fundamentals name="Translation as Language Modeling" nbname="u11n1-decoding.ipynb" %}}
 - Unit 12
