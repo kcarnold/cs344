@@ -56,6 +56,8 @@ Or:
 
 {{% details summary="Friday lab" %}}
 
+- [LM Logits Lab](lab/)
+
 {{% /details %}}
 
 {{% details summary="Q&A" %}}
