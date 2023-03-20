@@ -1,6 +1,5 @@
 ---
 title: "Unit 10: Transformers"
-date: 2022-03-21
 weight: 10
 ---
 
@@ -34,19 +33,28 @@ Read and/or watch two things about how Transformers work.
 
 ## Class Meetings
 
-### Monday
-
-- Review Transformers layers
-- Attention: draw it, code it.
-  - [bertviz](https://github.com/jessevig/bertviz)
-
-### Wednesday: Advising Break
-
-### Friday
+{{% details summary="Monday class" %}}
 
 - Logistics
-  - Feedback survey
-  - Project milestones
+  - Advising break Wednesday
+  - Midterm Friday
+  - Go over survey results
+- GPT-4: [announcement](https://openai.com/research/gpt-4), [Video](https://www.youtube.com/live/outcGtbnMuQ?feature=share&t=971), [Evals](https://github.com/openai/evals)
+- Questions for midterm?
+- Questions about last week's lab?
+- Word and context embeddings: logits = dot product of word and context embeddings
+
+[bertviz](https://github.com/jessevig/bertviz)
+
+{{% /details %}}
+
+Wednesday: Advising Break
+
+Friday: Midterm
+
+<!--
 - Transformer architecture: [Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
 - Position embeddings
 - Encoders and decoders
+
+-->
