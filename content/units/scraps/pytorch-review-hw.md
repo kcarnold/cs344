@@ -5,7 +5,6 @@ draft: true
 
 Our goals for the homework assignment this week are:
 
-- Practice working with language modeling logits
 - Fill in gaps in your PyTorch knowledge
 
 ## Tutorials
@@ -20,12 +19,6 @@ Notice that the left menu on the PyTorch tutorials list has many categories. Pic
 - Image and Video: these all look good
 - Text: these actually aren't as good because they use different abstractions than the Hugging Face library.
 - RL, Deploying, Parallel, Mobile, and Recommendation are more advanced options that may appeal to some students. (We'll do a bit of RL later.)
-
-## This Week's Fundamentals
-
-There's only one notebook this week, designed to help you practice with language modeling. As usual, do your work in the corresponding notebook.
-
-- {{% fundamentals name="Logits in Causal Language Models" nbname="u9n1-lm-logits.ipynb" %}}
 
 ## Submitting
 
