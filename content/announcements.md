@@ -2,6 +2,23 @@
 title: "Announcements 23SP"
 ---
 
+## Week 11
+
+Sorry I didn't get a logistics email out last week. Between traveling, advising, and our midterm, I've been swamped. I recognize you all may have been swamped too, so if you need leniency on any due dates, please let me know.
+
+This week:
+
+- The take-home midterm should be returned to my office by Tuesday morning.
+- No prep reading this week. If you have bandwidth, review previously posted material about the Transformer architecture.
+- We'll be in *lab* on Monday, *classroom* on Wednesday, and *lab* on Friday
+
+I'm sorry for the continued delay in getting project proposal feedback back to you, and the gradebook is still not accurate. I hope to catch up this week!
+
+Since we're a bit lighter this week, take the opportunity to catch up on anything you've missed -- or revise a prior assignment for a better grade. Let me know if you choose to do that.
+
+See you in lab on Monday!
+
+
 ## Week 9
 
 Welcome to week 9! This week start to take off the covers of NLP models, just like we took off the covers of image models in the first half of the class. In particular, we'll get our first taste of the Transformer model, the most important model in machine learning today. For full disclosure, we won't get to a lot of new content this week because I'm traveling for part of the week, but it'll be a good chance to catch up and review.
