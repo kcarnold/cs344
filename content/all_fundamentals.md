@@ -66,7 +66,9 @@ We also strive for the sequence to make sense.
   - {{% fundamentals name="Logits in Causal Language Models" nbname="u09n1-lm-logits.ipynb" %}}
   - {{% fundamentals name="An exercise on bias in word embeddings." nbname="u09n1-word-embeddings.ipynb" %}}
 - Unit 11
+  - {{% fundamentals name="Demo of Logits and Embeddings from a Language Model" nbname="u11n0-logits-demo.ipynb" %}}
   - {{% fundamentals name="Translation as Language Modeling" nbname="u11n1-decoding.ipynb" %}}
+  - {{% fundamentals name="Programming with Self-Attention" nbname="u11n1-self-attention.ipynb" %}}
 - Unit 12
   - {{% fundamentals name="Models for Sequence Data" nbname="u12n1-seq-models.ipynb" %}}
   - {{% fundamentals name="Time Series Modeling and EDA" nbname="u12n1-time-series.ipynb" %}}

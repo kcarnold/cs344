@@ -80,14 +80,21 @@ Now, how do you control *what* gets generated? Choose your favorite modality and
 
 ### Monday
 
-We worked through the [decoding activity](decoding-handout) ([PDF](decoding-handout.pdf)) using {{% fundamentals name="Translation as Language Modeling notebook" nbname="translation_lm.ipynb" %}}
+<!-- We worked through the [decoding activity](decoding-handout) ([PDF](decoding-handout.pdf)) using {{% fundamentals name="Translation as Language Modeling notebook" nbname="translation_lm.ipynb" %}} -->
 
 ### Wednesday
 
+We worked through:
+
+{{% fundamentals name="Programming with Self-Attention" nbname="u11n1-self-attention.ipynb" %}}
+
+<!--
 - [Slides](/slides/2022-03-30%20Generative%20Models.pdf)
 - We briefly discussed [StyleGAN 3](https://nvlabs.github.io/stylegan3/) ([blog post](https://lambdalabs.com/blog/stylegan-3/)).
   - The demo was done in [this notebook](https://colab.research.google.com/drive/1eYlenR1GHPZXt-YuvXabzO9wfh9CWY36) which also includes text-guided refinements via a method called [CLIP: Connecting Text and Images](https://openai.com/blog/clip/) ([code](https://github.com/openai/CLIP))
   - Here is the [core code for StyleGAN 3](https://github.com/NVlabs/stylegan3/blob/main/training/networks_stylegan3.py)
+
+-->
 
 {{% next-year %}}
 
@@ -96,4 +103,4 @@ We worked through the [decoding activity](decoding-handout) ([PDF](decoding-hand
 
 {{% /next-year %}}
 
-### Friday: Guest Lecture
+### Friday: More transformers.
