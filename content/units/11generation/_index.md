@@ -82,6 +82,11 @@ Now, how do you control *what* gets generated? Choose your favorite modality and
 
 <!-- We worked through the [decoding activity](decoding-handout) ([PDF](decoding-handout.pdf)) using {{% fundamentals name="Translation as Language Modeling notebook" nbname="translation_lm.ipynb" %}} -->
 
+We reviewed and extended Lab 9. Summary in the following:
+
+- {{% fundamentals name="Demo of Logits and Embeddings from a Language Model" nbname="u11n0-logits-demo.ipynb" %}}
+
+
 ### Wednesday
 
 We worked through:
