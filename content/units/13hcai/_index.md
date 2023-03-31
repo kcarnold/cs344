@@ -56,19 +56,8 @@ Read or watch something from [Human-Centered Artificial Intelligence](https://hc
 
 ## Class Meetings
 
-### Monday
+### No Class Monday (Easter Monday)
 
-Continue our discussion of Reinforcement Learning (learning from feedback)
-
-- Reward Discounting, quantifying the good life, and value alignment
-  - Jesus’s discount factor: he endured the cross for the joy set before him. Infinite time horizon, no convergence problems.
-- Types of learning: Supervised, Self-Supervised, Reinforcement
-- Challenges of RL
-  - Exploration
-  - Credit assignment
-- RL formalism: Markov Decision Process
-- What functions can we learn: value, Q, policy (see [lab](lab/))
-- (Didn't get to) How does [MuZero](https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules) work?
 
 ### Wednesday
 
@@ -84,12 +73,6 @@ Topics we could discuss:
   - Post-hoc explanation (salience, etc.)
   - Interpretable models
 - Human Trust of AI Explanations
-
-### Friday and Monday
-
-Easter Break!
-
-### Wednesday 4/20
 
 Interpretability and Explanation ([slides](/slides/2022-04-20%20Explainable%20and%20Usable.pdf))
 
