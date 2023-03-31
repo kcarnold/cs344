@@ -69,8 +69,9 @@ We also strive for the sequence to make sense.
   - {{% fundamentals name="Demo of Logits and Embeddings from a Language Model" nbname="u11n0-logits-demo.ipynb" %}}
   - {{% fundamentals name="Translation as Language Modeling" nbname="u11n1-decoding.ipynb" %}}
   - {{% fundamentals name="Programming with Self-Attention" nbname="u11n1-self-attention.ipynb" %}}
+  - {{% fundamentals name="Implementing self-attention" nbname="u11n2-implement-transformer.ipynb" %}}
 - Unit 12
   - {{% fundamentals name="Models for Sequence Data" nbname="u12n1-seq-models.ipynb" %}}
   - {{% fundamentals name="Time Series Modeling and EDA" nbname="u12n1-time-series.ipynb" %}}
 - Unit 13
-  - {{% fundamentals name="Why so big? Counting parameters in sequence models" nbname="u13n1-count-params.ipynb" %}}
+  - {{% fundamentals name="Implementing self-attention" nbname="u13n1-count-params.ipynb" %}}
