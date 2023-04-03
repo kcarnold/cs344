@@ -55,16 +55,27 @@ where $f_1$ and $f_2$ are both linear transformations ($f_i(x) = x W_i + b$)
 
 ## Example
 
-What is the month of your birthday?
+On what day of the week will your next birthday be?
+
+. . .
+
+- Input: birthday, for each student in the class
+- Output: day of week, for each student in the class
+
+Information flow between students?
+
+. . .
+
+none needed.
 
 ---
 
-## Attention Head
+## Self-Attention: One Attention Head
 
 - Information flow computed dynamically
-   - Each token computes a *query* and a *key*
-   - Each query is compared with each key.
-   - When query matches key, info flows ("attends") via *value*
+   - Each token $i$ computes a *query* and a *key*: $q_i = x_i W_Q$; $k_i = x_i W_K$
+   - Each query is compared with each key: $A_{i\cdot{}} = \operatorname{softmax}(q_i k_u^T)$
+   - When query matches key, info flows ("attends") via *value* $v_i = x_i W_V$: $\text{out} = \sum_j v_j A_{ij}$
 - **masking**: During training, need to ensure only valid flows
 - **parallel**
   - no explicit representation of *neighbor*
@@ -74,7 +85,35 @@ What is the month of your birthday?
 
 ## Example
 
-Count the number of people with your same birth month.
+Find another student whose birthday will be the same day of week as you.
+
+. . .
+
+Count the number of other students who will have the same birth-day as you.
+
+. . .
+
+What are the keys? queries? values?
+
+. . .
+
+How could we query the class to get the count of Monday birthdays?
+
+---
+
+## In practice {.smaller}
+
+- Multi-Head Attention (MHA)
+  - Several attention "head"s (8, 16, 48, ...)
+  - Each head computes a query, key, and value.
+  - Sum the outputs of all the heads.
+- Intersperse MHA and FFN layers
+  - FFN: local computation
+  - MHA: share information
+- Residual connections: output = input + f(input)
+  - Gradients flow easier -> many more layers possible
+  - Common trick for other architectures also (LSTM, ResNet CNNs)
+  - Layers need to share a common dimensionality
 
 ---
 
@@ -107,3 +146,29 @@ What is the latest-in-the-year birthday?
 ## Example
 
 Which part of the class has the farthest-apart birthdays?
+
+---
+
+## Compare and Contrast
+
+Which of these exercises could we have solved using a different architecture? How?
+
+::: {.columns}
+
+::: {.column}
+Architectures:
+
+- Self-Attention
+- Recurrent (RNN, LSTM)
+- Convolutional (CNN)
+:::
+
+::: {.column}
+Exercises:
+
+- Find another student whose birthday will be the same day of week as you.
+- What is the latest-in-the-year birthday?
+- Which part of the class has the farthest-apart birthdays?
+:::
+
+:::
