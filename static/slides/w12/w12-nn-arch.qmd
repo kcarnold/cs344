@@ -11,7 +11,8 @@ execute:
 ## Logistics
 
 - Focus on projects
-- Short weeks: Goode Friday and Easter Monday
+- Short weeks: Good Friday and Easter Monday
+- Wednesday lab
 - Midterm 2 last day of class.
   - Language Modeling
   - Transformers
@@ -46,22 +47,34 @@ Modular components, often connected sequentially
   - But not necessarily *efficient*
 - Fixed information flow within layer
 
-\[f(x) = f_2(RELU(f_1(x))\]
+$$f(x) = f_2(RELU(f_1(x))$$
 
-where $f_1$ and $f_2$ are both linear transformations ($f_i(x) = x W_i + b)
+where $f_1$ and $f_2$ are both linear transformations ($f_i(x) = x W_i + b$)
+
+---
+
+## Example
+
+What is the month of your birthday?
 
 ---
 
 ## Attention Head
 
 - Information flow computed dynamically
- - Each token computes a *query* and a *key*
- - Each query is compared with each key.
- - When query matches key, info flows ("attends") via *value*
+   - Each token computes a *query* and a *key*
+   - Each query is compared with each key.
+   - When query matches key, info flows ("attends") via *value*
 - **masking**: During training, need to ensure only valid flows
 - **parallel**
   - no explicit representation of *neighbor*
   - anything can attend to anything
+
+---
+
+## Example
+
+Count the number of people with your same birth month.
 
 ---
 
@@ -75,6 +88,12 @@ where $f_1$ and $f_2$ are both linear transformations ($f_i(x) = x W_i + b)
 
 ---
 
+## Example
+
+What is the latest-in-the-year birthday?
+
+---
+
 ## Convolution and Pooling
 
 - Feed-Forward Network on a *patch*; slide the patch around to compute many outputs
@@ -82,3 +101,9 @@ where $f_1$ and $f_2$ are both linear transformations ($f_i(x) = x W_i + b)
 - Parallel
 - Summarize regions of the input
 - Efficient inference
+
+---
+
+## Example
+
+Which part of the class has the farthest-apart birthdays?
