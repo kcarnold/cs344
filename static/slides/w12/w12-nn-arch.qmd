@@ -1,0 +1,84 @@
+---
+title: "Neural Architectures"
+format:
+  revealjs:
+    width: 1280
+    height: 720
+execute: 
+  echo: true
+---
+
+## Logistics
+
+- Focus on projects
+- Short weeks: Goode Friday and Easter Monday
+- Midterm 2 last day of class.
+  - Language Modeling
+  - Transformers
+  - Basics of generative modeling and reinforcement learning
+
+---
+
+## Objectives
+
+- Compare and contrast the main types of deep neural network models (Transformers, Convolutional Networks, and Recurrent Networks) in terms of how information flows through them
+
+---
+
+## Deep Neural Net = stack of layers
+
+Modular components, often connected sequentially
+
+- MLP (Feed-forward)
+- Self-Attention
+- Convolution
+- Pooling
+- Recurrent (RNN, LSTM)
+- Normalization (BatchNorm, LayerNorm)
+- Dropout
+
+
+---
+
+## Feed-Forward / MLP
+
+- Universal function approximator
+  - But not necessarily *efficient*
+- Fixed information flow within layer
+
+\[f(x) = f_2(RELU(f_1(x))\]
+
+where $f_1$ and $f_2$ are both linear transformations ($f_i(x) = x W_i + b)
+
+---
+
+## Attention Head
+
+- Information flow computed dynamically
+ - Each token computes a *query* and a *key*
+ - Each query is compared with each key.
+ - When query matches key, info flows ("attends") via *value*
+- **masking**: During training, need to ensure only valid flows
+- **parallel**
+  - no explicit representation of *neighbor*
+  - anything can attend to anything
+
+---
+
+## Recurrent (RNN, LSTM)
+
+- One step at a time
+- Sequential
+- Update a "hidden state"
+- Efficient at inference time
+- Difficult to learn long-range dependencies 
+
+---
+
+## Convolution and Pooling
+
+- Feed-Forward Network on a *patch*; slide the patch around to compute many outputs
+- Information flow fixed but *local* (neighbors)
+- Parallel
+- Summarize regions of the input
+- Efficient inference

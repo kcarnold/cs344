@@ -1,8 +1,12 @@
 ---
-title: "Unit 12: Review, Reinforcement Learning"
-date: 2022-04-04
+title: "Unit 12: Review, Generative Models"
 weight: 12
 ---
+
+## Objectives
+
+- Compare and contrast the main types of deep neural network models (Transformers, Convolutional Networks, and Recurrent Networks) in terms of how information flows through them
+- Describe how the different types of generative networks use function approximators in different ways
 
 ## Preparation
 
@@ -35,8 +39,11 @@ Recommended but not essential:
 
 ### Monday
 
-- Review of neural network architectures:
-  - Wiring doesn't change: Feed-forward (MLP)
+- Review: Self-Attention = conditional information flow
+  - Software: describe the wiring, then what flows through the wires.
+  - Hardware: compute queries, keys, and values, then compute the attention matrix, then compute the output.
+- Neural network architectures:
+  - Fixed wiring: Feed-forward (MLP)
   - Current sample wired to previous sample:
     - Recurrent Networks ([Elman](https://en.wikipedia.org/wiki/Recurrent_neural_network#Architectures); [LSTM and GRU](http://colah.github.io/posts/2015-08-Understanding-LSTMs/))
   - Current sample wired to surrounding samples: Convolutional Networks (CNN)
