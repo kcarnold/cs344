@@ -16,6 +16,8 @@ We'll start this week with how we might convince ourselves that model outputs ar
 
 ## Preparation
 
+Background / review: my blog post on [Mapping to Mimicry](https://kenarnold.org/posts/map-to-mimic/).
+
 ### Correctness and Transparency / Explainability
 
 Read one or more of these:

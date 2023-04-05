@@ -2,7 +2,7 @@
 title: "Homework 13"
 date: 2022-04-14
 due: 2022-04-21
-draft: false
+draft: true
 ---
 
 ## Count the Parameters
@@ -25,6 +25,15 @@ This is the Fundamentals notebook for this week:
   - What data did you use?
   - What sort of results did you get?
   - How did the generation results compare between the two different models?
+
+### Step 2: Evaluation
+
+- Pick a phrase from your corpus.
+- Evaluate the perplexity of three different models on your phrase:
+    - The original GPT-2 model
+    - Your fine-tuned model
+    - A model in the OpenAI Playground (use Full Spectrum probabilities to show request the logprobs)
+- What do you notice about the perplexities of the three models?
 
 ## Submitting
 
