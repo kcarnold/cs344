@@ -47,9 +47,11 @@ Modular components, often connected sequentially
   - But not necessarily *efficient*
 - Fixed information flow within layer
 
-$$f(x) = f_2(RELU(f_1(x))$$
+$$f(x) = f_2(ReLU(f_1(x))$$
 
-where $f_1$ and $f_2$ are both linear transformations ($f_i(x) = x W_i + b$)
+where $f_1$ and $f_2$ are both linear transformations ($f_i(x) = x W_i + b$) and ReLU(x) = max(0, x) elementwise.
+
+(Other nonlinearities are sometimes used instead of ReLU)
 
 ---
 
@@ -70,11 +72,12 @@ none needed.
 
 ---
 
-## Self-Attention: One Attention Head
+## Self-Attention: One Attention Head {.smaller}
 
 - Information flow computed dynamically
    - Each token $i$ computes a *query* and a *key*: $q_i = x_i W_Q$; $k_i = x_i W_K$
-   - Each query is compared with each key: $A_{i\cdot{}} = \operatorname{softmax}(q_i k_u^T)$
+   - Each query is compared with each key: $S = Q K^T$ (i.e., compute dot product of a token's query with each other token's key)
+   - Compute softmax across each row: $A = \operatorname{softmax}(S)$
    - When query matches key, info flows ("attends") via *value* $v_i = x_i W_V$: $\text{out} = \sum_j v_j A_{ij}$
 - **masking**: During training, need to ensure only valid flows
 - **parallel**
@@ -146,6 +149,14 @@ What is the latest-in-the-year birthday?
 ## Example
 
 Which part of the class has the farthest-apart birthdays?
+
+---
+
+# Visualizations
+
+- What convolution does to an image: [Image Kernels explained visually](https://setosa.io/ev/image-kernels/)
+- How to use convolutions in a neural network: [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/)
+- What they learn: [Feature Visualization](https://distill.pub/2017/feature-visualization/)
 
 ---
 

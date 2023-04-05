@@ -39,20 +39,28 @@ Recommended but not essential:
 
 ### Monday
 
-- Review: Self-Attention = conditional information flow
-  - Software: describe the wiring, then what flows through the wires.
-  - Hardware: compute queries, keys, and values, then compute the attention matrix, then compute the output.
-- Neural network architectures:
+- Neural network architectures ([slides](/slides/w12/w12-nn-arch.html))
   - Fixed wiring: Feed-forward (MLP)
   - Current sample wired to previous sample:
     - Recurrent Networks ([Elman](https://en.wikipedia.org/wiki/Recurrent_neural_network#Architectures); [LSTM and GRU](http://colah.github.io/posts/2015-08-Understanding-LSTMs/))
   - Current sample wired to surrounding samples: Convolutional Networks (CNN)
+    - What convolution does to an image: [Image Kernels explained visually](https://setosa.io/ev/image-kernels/)
+    - How to use convolutions in a neural network: [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/)
+    - What they learn: [Feature Visualization](https://distill.pub/2017/feature-visualization/)
   - Wiring computed dynamically based on "self-attention": Transformer
 - Tricks
   - Residual Connections
   - Dropout
 
-### Wednesday
+### Wednesday in lab
+
+- Finish Monday lecture
+- Review: Self-Attention = conditional information flow
+  - Software: describe the wiring, then what flows through the wires.
+  - Hardware: compute queries, keys, and values, then compute the attention matrix, then compute the output.
+
+
+### bumped to next week: RL
 
 Reinforcement Learning (learning from feedback)
 
