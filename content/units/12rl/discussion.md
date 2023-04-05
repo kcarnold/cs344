@@ -1,0 +1,30 @@
+---
+title: "Discussion: Fans and Skeptics, Optimists and Pessimists"
+---
+
+Some people are impressed by AI developments (we'll call them "fans"). Others are skeptical (we'll call them "skeptics"). Some people are optimistic about how AI will improve society ("optimists"). Others are worried, to the point of worrying about the future of humanity (we could call them "pessimists", but maybe instead we'll call them "concerned"). And some people are both impressed and concerned, or skeptical and optimistic, or any other combination.
+
+To be wise, we should consider various points of view: fans and skeptics, optimists and concerned. So, for this Discussion, read two articles with different perspectives. Read with hospitality: you'll need to be able to articulate the other side's point of view.
+
+For this discussion:
+
+1. For your first article:
+    - Provide a well-formatted link (that indicates the source without having to click it).
+    - State the overall stance in a keyword or two, e.g., `[skeptical, optimistic]` or `[fan, concerned]`
+    - Summarize your first article in a few sentences. Make your summary convince someone who holds a different view to at least open the article and read it. (Yeah, you can use ChatGPT, but give it some guidance and edit its response.)
+2. Repeat for your second article.
+3. Articulate your own nuanced position, drawing on both articles. What stance should we take?
+
+## Articles
+
+Here is a sample of a few recent (and a few not-so-recent) ones. Lengths vary widely, my apologies. Note that I have not included many "fans" here, because they should be very easy to find on the Internet these days.
+
+- [A misleading open letter about sci-fi AI dangers ignores the real risks](https://aisnakeoil.substack.com/p/a-misleading-open-letter-about-sci)
+- [Natural Selection Favors AIs over Humans | Abstract](https://arxiv.org/pdf/2303.16200)
+- [Why Do A.I. Chatbots Tell Lies and Act Weird? Look in the Mirror. - The New York Times](https://www.nytimes.com/2023/02/26/technology/ai-chatbot-information-truth.html)
+- [Sparks of Artificial General Intelligence: Early experiments with GPT-4 | Abstract](https://arxiv.org/pdf/2303.12712)
+- [GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models | Abstract](https://arxiv.org/pdf/2303.10130)
+- [How AI Fails Us](https://ethics.harvard.edu/files/center-for-ethics/files/aifailsus.jhdcarr_final_2.pdf)
+- [You Are Not a Parrot And a chatbot is not a human. And a linguist named Emily M. Bender is very worried what will happen when we forget this.](https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html)
+- [Enchanted Determinism: Power without Responsibility in Artificial Intelligence](https://estsjournal.org/index.php/ests/article/view/277)
+- [The AI Revolution: The Road to Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) (note: this is a rabbit hole, especially if you go on to [part 2](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html))
