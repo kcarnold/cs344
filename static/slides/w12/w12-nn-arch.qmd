@@ -136,6 +136,34 @@ What is the latest-in-the-year birthday?
 
 ---
 
+## Review
+
+Which is the most natural architecture for each of the following tasks?
+
+::: {.columns}
+
+::: {.column}
+Architectures:
+
+- Feed-Forward (MLP)
+- Self-Attention
+- Recurrent (RNN, LSTM)
+- *Convolutional (CNN)* (not yet)
+:::
+
+::: {.column}
+Exercises:
+
+- On what day of the week will your next birthday be?
+- Find another student whose birthday will be the same day of week as you.
+- What is the latest-in-the-year birthday?
+- Which part of the class has the farthest-apart birthdays?
+:::
+
+:::
+
+---
+
 ## Convolution and Pooling
 
 - Feed-Forward Network on a *patch*; slide the patch around to compute many outputs
