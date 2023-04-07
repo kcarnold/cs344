@@ -1,8 +1,58 @@
 ---
-title: "Unit 13: Human-Centered AI"
-date: 2022-04-11
+title: "Unit 13: Generation and Miscellaneous Topics"
 weight: 13
 ---
+
+The main objective of the rest of our time together is to understand how, at a high level, how AI models can *generate* dialogues, code, images, and other kinds of data.
+
+We'll also mention some other topics that you should be aware of, but that we won't have time to cover in detail.
+
+{{% details summary="Objectives" %}}
+
+- Describe how autoregressive generation works
+- Describe how generative adversarial networks work
+- Describe how diffusion models work
+
+(By "work", I mean, how do they use the building blocks of neural networks, which we've studied so far, to generate data.)
+
+### Supplemental Objectives
+
+Here are a few more things that would be helpful to know *about*, even though they're not the main focus of this class:
+
+- Robotics: Reinforcement Learning (RL) and Transformers
+- Explainable AI (XAI)
+- Human-Centered AI
+
+{{% /details %}}
+
+{{% details summary="Reading" %}}
+
+Please read the following sometime before the last day of class:
+
+### Background
+
+Review my blog post on [Mapping to Mimicry](https://kenarnold.org/posts/map-to-mimic/). I wrote it in one short sprint; feedback welcome!
+
+### Generative Models
+
+[The Illustrated Stable Diffusion – Jay Alammar – Visualizing machine learning one concept at a time.](https://jalammar.github.io/illustrated-stable-diffusion/)
+
+- More resources: [Ai generative art tools](https://pharmapsychotic.com/tools.html)
+
+### Robotics
+
+Rather than study theory, let's look at two recent blog advances:
+
+- An upgrade on a classic RL approach (Q-learning): [Pre-training generalist agents using offline reinforcement learning – Google AI Blog](https://ai.googleblog.com/2023/02/pre-training-generalist-agents-using.html)
+- A new kind of approach: just use Transformers for everything. [PaLM-E: An embodied multimodal language model – Google AI Blog](https://ai.googleblog.com/2023/03/palm-e-embodied-multimodal-language.html)
+
+### Explainable and Human-Centered AI
+
+[ACM Selects: Trustworthy AI in Healthcare #02](https://selects.acm.org/selections/trustworthy-ai-in-healthcare-02)
+
+{{% /details %}}
+
+{{% details summary="Supplemental" %}}
 
 What happens when AI meets people? How can we ensure that AI results are:
 
@@ -11,12 +61,6 @@ What happens when AI meets people? How can we ensure that AI results are:
 - Useful?
 
 The first two are the subject of a subfield called Fairness, Accountability, and Transparency; the last is the subject of much research in human-computer interaction (HCI) and computer-supported cooperative work (CSCW). We'll explore all three in these last two weeks of class.
-
-We'll start this week with how we might convince ourselves that model outputs are (or aren't) *correct*.
-
-## Preparation
-
-Background / review: my blog post on [Mapping to Mimicry](https://kenarnold.org/posts/map-to-mimic/).
 
 ### Correctness and Transparency / Explainability
 
@@ -56,29 +100,27 @@ Supplemental: [The Effects of Regularization and Data Augmentation are Class Dep
 
 Read or watch something from [Human-Centered Artificial Intelligence](https://hcil.umd.edu/human-centered-ai/).
 
-## Class Meetings
+{{% /details %}}
 
-### No Class Monday (Easter Monday)
+
+{{% details summary="Class Meetings" %}}
+
+No Class Monday (Easter Monday)
 
 
 ### Wednesday
 
-- Reminder about course evals
-- Project logistics
-- Discussion: [PaLM](../12rl/discussion/)
-- Q&A (homework, RL, interpretability, ...)
-- Lab time
+Generating images
 
-Topics we could discuss:
+## Friday
 
-- Interpretability and Explanation
-  - Post-hoc explanation (salience, etc.)
-  - Interpretable models
-- Human Trust of AI Explanations
+Lab: generation: autoregressive, GAN, diffusion.
+
+### Monday
 
 Interpretability and Explanation ([slides](/slides/2022-04-20%20Explainable%20and%20Usable.pdf))
 
-### Thursday 4/21
+## Wednesday
 
 Fairness and Wrap-Up [slides](/slides/2022-04-21%20Fairness%20and%20Wrap-Up.pdf)
 
@@ -100,3 +142,7 @@ Final Discussion topics
   - Something that Christians should consider as people who *consume* AI-powered products
   - ...As people who *use* AI in their organizations
   - ...as people who *develop* AI?
+
+## Thursday: Midterm 2
+
+{{% /details %}}

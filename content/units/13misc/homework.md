@@ -5,14 +5,6 @@ due: 2022-04-21
 draft: true
 ---
 
-## Count the Parameters
-
-The large language model we looked at for our discussion last week, PaLM, reports that it has 540 billion parameters. What are all of those numbers used for? This week, we'll count parameters.
-
-This is the Fundamentals notebook for this week:
-
-- {{% fundamentals name="Why so big? Counting parameters in sequence models" nbname="u13n1-count-params.ipynb" %}}
-
 ## Train a Sequence Model on Your Own Data
 
 - Collect a plain text file (`.txt`) of things that you've written recently. (perhaps all of your discussion posts in this class, or all of the papers you've written in the past year, or even all of the code you've written for a recent project). It should be your own work.
@@ -34,6 +26,15 @@ This is the Fundamentals notebook for this week:
     - Your fine-tuned model
     - A model in the OpenAI Playground (use Full Spectrum probabilities to show request the logprobs)
 - What do you notice about the perplexities of the three models?
+
+## Count the Parameters
+
+The large language model we looked at for our discussion last week, PaLM, reports that it has 540 billion parameters. What are all of those numbers used for? This week, we'll count parameters.
+
+This is the Fundamentals notebook for this week:
+
+- {{% fundamentals name="Why so big? Counting parameters in sequence models" nbname="u13n1-count-params.ipynb" %}}
+
 
 ## Submitting
 

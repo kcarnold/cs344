@@ -1,12 +1,11 @@
 ---
-title: "Unit 12: Review, Generative Models"
+title: "Unit 12: Review, Neural Architectures"
 weight: 12
 ---
 
 ## Objectives
 
 - Compare and contrast the main types of deep neural network models (Transformers, Convolutional Networks, and Recurrent Networks) in terms of how information flows through them
-- Describe how the different types of generative networks use function approximators in different ways
 
 ## Preparation
 
