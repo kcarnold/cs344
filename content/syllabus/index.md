@@ -12,16 +12,24 @@ This is a hands-on course on AI systems using machine learning, with a particula
 
 By the end of this course, you will demonstrate growth in your ability to:
 
-- Design a machine learning (ML) system to address a given challenge.
+- Apply machine learning technology to solve real-world problems. You should be able to:
   - Select an appropriate ML approach to solve a problem.
-  - Map characteristics of the problem onto elements of the approach.
+  - Translate a problem statement into a system design.
   - Identify necessary characteristics of the data required for an ML system.
-- Implement machine learning systems using both high-level and low-level programming interfaces.
   - Design and implement data preprocessing processes to encode data into a format appropriate for machine learning modeling.
-  - Write code to implement the forward pass (computing predictions and loss) for linear regression, logistic regression, and neural net extensions thereof.
+  - Evaluate how well an ML system performs on a task.
+- Explain and debug a machine learning system. You should be able to:
+  - Describe the basic components of modern ML systems.
+  - Write the computations of simple models (linear regression, logistic regression, and a one-layer MLP) in math and code.
+  - Select appropriate loss functions and metrics for a given task.
+  - Identify hyperparameters that can be adjusted to improve the performance of a model.
+  - Identify and recognize problems in model training, such as overfitting, underfitting, divergence, poor initialization, and poor hyperparameter choices.
   - Use automatic differentiation to train a model using stochastic gradient descent.
-- Analyze the use and misuse of AI and ML techniques in situations affecting people.
-- Describe the history and trajectory of artificial intelligence.
+- Analyze the history and ongoing development of using AI and ML techniques in situations affecting people. You should be able to:
+  - Identify and describe specific historical and contemporary examples of ethical and social issues that arise around ML systems, both in terms of risks and opportunities.
+  - Explain machine learning concepts in a way that is understandable to non-technical audiences.
+  - Apply Reformed Christian concepts such as shalom, humanity in the image of God, and the creation-fall-redemption-restoration narrative to both critique existing systems and envision new ones.
+
 
 ## Prerequisites
 
