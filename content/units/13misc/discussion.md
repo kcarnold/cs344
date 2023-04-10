@@ -14,10 +14,15 @@ For this discussion:
     - Summarize your first article in a few sentences. Make your summary convince someone who holds a different view to at least open the article and read it. (Yeah, you can use ChatGPT, but give it some guidance and edit its response.)
 2. Repeat for your second article.
 3. Articulate your own nuanced position, drawing on both articles. What stance should we take?
+    - You are highly encouraged, but not required, to draw on what you have learned about Reformed Christian perspectives on technology in this and other classes. Examples:
+      - Creation (unfolding latent potential possibilities, the Image of God, work as good)
+      - the Fall (and its effect on relationships, work, and technology), idolatry, Mammon, etc.
+      - Redemption and Restoration (Jesus reconciling *everything*), shalom (right relationships, flourishing, peace, rest, justice)
+
 
 ## Articles
 
-Here is a sample of a few recent (and a few not-so-recent) ones. Lengths vary widely, my apologies. Note that I have not included many "fans" here, because they should be very easy to find on the Internet these days.
+Here is a sample of a few recent (and a few not-so-recent) ones. Lengths vary widely, my apologies. Note that I have not included many "fans" here, because they should be very easy to find on the Internet these days. For example, look at any tech company's AI blog, or any AI conference's website, or techie YouTube channels.
 
 - [A misleading open letter about sci-fi AI dangers ignores the real risks](https://aisnakeoil.substack.com/p/a-misleading-open-letter-about-sci)
 - [Natural Selection Favors AIs over Humans | Abstract](https://arxiv.org/pdf/2303.16200)
