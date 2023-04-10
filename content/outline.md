@@ -601,6 +601,43 @@ For sources for this claim, see <https://platform.openai.com/docs/model-index-fo
       - No need for a separate "cross-attention" layer in the decoder to attend to the encoder's hidden states
   - Recent advances in encoder-decoder models put them back in first place for various NLP tasks: see [UL2: Unifying Language Learning Paradigms | Abstract](https://arxiv.org/abs/2205.05131v3). But this might change back again in the future.
 
+## Transformer architecture
+
+See the study guide.
+
+## Generative Models
+
+How can we generate text, images, sound, etc.?
+
+- Generation as sampling from a distribution
+  - Real stuff is a small subset of all possible stuff
+  - A random combination of letters or pixels or whatever is unlikely to be real
+  - Challenge
+    1. How to identify when something is real?
+    2. How to generate something that is real?
+- Autoregressive approach (e.g., GPT-3)
+  - Mostly applied to text generation, sometimes sounds, sometimes (but rarely) images
+  - Transformers are great models of multivariate conditional distributions, so if we express generation as a conditional distribution problem, we can use them.
+  - When there's a natural ordering to the input, we can use an autoregressive model.
+    - E.g., for text, we can use a language model
+    - E.g., for images, we can use a pixel-by-pixel model
+  - The model generates one token at a time, conditioned on all the tokens that came before it.
+  - Learning signal: what probability the model assigned to the "true" next token. (softmax cross-entropy loss)
+  - Assumptions: we have tokens (so we're predicting categorical distributions) and we have time to generate them sequentially.
+- GAN approach
+  - Mostly applied to images. Generally hasn't been successful for text.
+  - Learning signal: "This is real" vs. "This is fake" (binary classification)
+  - Generation approach: sample uncorrelated noise, learn a function that turns noise into real images.
+- Diffusion approach
+  - Unmixing process: mix up images so much that they all look alike (e.g., add lots of noise), but do so step-by-step
+  - Learning signal: predict what noise was added (equivalent to predicting an image with slightly less noise) (regression loss)
+
+## Learning to Act
+
+- Classically: RL
+- Modern alternatives: use Transformers as big world model.
+
+
 
 ## Other Topics on Demand
 
