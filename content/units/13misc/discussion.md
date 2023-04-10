@@ -2,11 +2,15 @@
 title: "Discussion: Fans and Skeptics, Optimists and Pessimists"
 ---
 
+You've just taken an AI class. You might get asked: where is AI going? And is it good or bad? Now that you've engaged with the details of how some AI systems work, you're much more qualified than average to answer those questions. But even experts disagree about those questions.
+
 Some people are impressed by AI developments (we'll call them "fans"). Others are skeptical (we'll call them "skeptics"). Some people are optimistic about how AI will improve society ("optimists"). Others are worried, to the point of worrying about the future of humanity (we could call them "pessimists", but maybe instead we'll call them "concerned"). And some people are both impressed and concerned, or skeptical and optimistic, or any other combination.
 
-To be wise, we should consider various points of view: fans and skeptics, optimists and concerned. So, for this Discussion, read two articles with different perspectives. Read with hospitality: you'll need to be able to articulate the other side's point of view.
+To be wise, we should consider various points of view: fans and skeptics, optimists and concerned.
 
-For this discussion:
+## Instructions
+
+Read two articles with different perspectives. Read with hospitality: you'll need to be able to articulate the other side's point of view.
 
 1. For your first article:
     - Provide a well-formatted link (that indicates the source without having to click it).
@@ -19,6 +23,9 @@ For this discussion:
       - the Fall (and its effect on relationships, work, and technology), idolatry, Mammon, etc.
       - Redemption and Restoration (Jesus reconciling *everything*), shalom (right relationships, flourishing, peace, rest, justice)
 
+## Responses
+
+Read a few of your classmates' responses to learn about their articles and positions. Respond to at least one of them. 
 
 ## Articles
 
