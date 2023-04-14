@@ -75,3 +75,4 @@ We also strive for the sequence to make sense.
   - {{% fundamentals name="Time Series Modeling and EDA" nbname="u12n1-time-series.ipynb" %}}
 - Unit 13
   - {{% fundamentals name="Why so big? Counting parameters in sequence models" nbname="u13n1-count-params.ipynb" %}}
+  - {{% fundamentals name="Stable Diffusion Deep Dive" nbname="u13n2-stable-diffusion.ipynb" %}}
