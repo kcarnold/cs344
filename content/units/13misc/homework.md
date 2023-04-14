@@ -1,9 +1,11 @@
 ---
-title: "Homework the last"
-draft: true
+title: "Final Homework"
 ---
 
+You have two options for this final assignment. You may choose to do one or both.
 
+1. Do the assignment described here, on your own or with a partner.
+2. Do the [discussion](../discussion/) assignment and post in the Forum on Moodle.
 
 ## Train a Sequence Model on Your Own Data
 
@@ -18,7 +20,7 @@ draft: true
 
 Generate some example text. We did this in a Fundamentals notebook a few weeks ago, or you can use [this script](https://github.com/huggingface/transformers/tree/main/examples/pytorch/text-generation).
 
-### Part 3: Evaluation
+### Part 3: Evaluations
 
 - Pick a phrase from your corpus.
 - Evaluate the perplexity of three different models on your phrase:

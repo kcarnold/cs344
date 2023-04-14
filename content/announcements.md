@@ -2,6 +2,36 @@
 title: "Announcements 23SP"
 ---
 
+## Final Week
+
+Congratulations on making it to the end of the semester!
+
+### *Timeline* of the rest of the semester
+
+- Monday, Wednesday, Thursday in lab. Schedule: 15-20 minute review, 30 min project work time
+- Thursday: Midterm 2 released, due no later than final project presentations
+- Thursday: last day to submit assignments and revisions
+- Wednesday 4/26 9am: Final project presentations (in lab)
+
+### Notes
+
+- There's one [Final Homework](https://cs.calvin.edu/courses/cs/344/23sp/units/13misc/homework/) and one final [Discussion](https://cs.calvin.edu/courses/cs/344/23sp/units/13misc/discussion/). **Choose one or the other**.
+- I've prepared a [Study Guide](https://calvincollege-my.sharepoint.com/:w:/g/personal/ka37_calvin_edu/EY6kpVqeGvRBoRrVUYxlzcoBNmUGn3l29Q-71E4xqwkUSw) for Midterm 2. 
+- Each project team should meet with me at least once by next Friday (Reading Recess).
+- Please complete your **Course Evaluations** using the link you received in your Calvin email. This course is being re-architected into 2 8-week courses next year; your feedback on what worked and what didn't will help us make sure that we don't inadvertently lose anything that was valuable to you.
+
+### Final Project Presentations
+
+- Each team will have 10 minutes to present their project, plus 3 minutes for questions.
+- Presentations will be in lab on Wednesday 4/26 at 9am.
+- Presentations should (I tab-completed this list from Copilot):
+  - Describe the problem you're trying to solve
+  - Describe the data and/or model you used
+  - Describe the results you got (including a demo, if applicable)
+  - Describe what you learned
+  - Describe what you would do next
+
+
 ## Week 11
 
 Sorry I didn't get a logistics email out last week. Between traveling, advising, and our midterm, I've been swamped. I recognize you all may have been swamped too, so if you need leniency on any due dates, please let me know.
