@@ -15,7 +15,7 @@ fundamentals_soln := $(wildcard static/fundamentals/*_soln.ipynb)
 fundamentals := $(subst _soln,,$(fundamentals_soln))
 fundamentals_html := $(patsubst %.ipynb,%.html,$(sort $(fundamentals) $(fundamentals_soln) $(wildcard static/fundamentals/*.ipynb)))
 handouts := $(patsubst %.md,%.pdf,$(shell find content -name '*-handout.md'))
-extra_notebooks := content/units/04models/homework/example-homework-2.html
+extra_notebooks := content/units/04models/homework/example-homework-2.html content/units/05learning/hw3_example.html
 
 # Build slides
 %.html: %.Rmd
