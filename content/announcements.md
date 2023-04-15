@@ -19,6 +19,13 @@ Congratulations on making it to the end of the semester!
 - I've prepared a [Study Guide](https://calvincollege-my.sharepoint.com/:w:/g/personal/ka37_calvin_edu/EY6kpVqeGvRBoRrVUYxlzcoBNmUGn3l29Q-71E4xqwkUSw) for Midterm 2. 
 - Each project team should meet with me at least once by next Friday (Reading Recess).
 - Please complete your **Course Evaluations** using the link you received in your Calvin email. This course is being re-architected into 2 8-week courses next year; your feedback on what worked and what didn't will help us make sure that we don't inadvertently lose anything that was valuable to you.
+- I keep forgetting to mention this in class: several common mistakes in Homework 3 were:
+  - Not writing it like a report (what are you doing, why, what did you find, explain choices)
+  - Leaving code that was just pedagogical from the labs, rather than writing the relevant code yourself
+  - Forgetting to use the validation set!
+  - Making some choices without explaining them, e.g., whether to have a bias term, or what changes to make in the tuned model
+  - I've written an example of a [Homework 3 report](https://cs.calvin.edu/courses/cs/344/23sp/units/05learning/hw3_example.html) with just the structure that I'd suggest for a report like this.
+
 
 ### Final Project Presentations
 
