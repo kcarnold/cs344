@@ -25,7 +25,8 @@ Congratulations on making it to the end of the semester!
   - Forgetting to use the validation set!
   - Making some choices without explaining them, e.g., whether to have a bias term, or what changes to make in the tuned model
   - I've written an example of a [Homework 3 report](https://cs.calvin.edu/courses/cs/344/23sp/units/05learning/hw3_example.html) with just the structure that I'd suggest for a report like this.
-
+  - **Revisions are still welcome** but must be in by Thursday end of day.
+- As noted in the syllabus, I'd like to check in with everyone to discuss where your grade is now and what you need to do to get to the grade you want. I'll be reaching out by Teams individually, but if you want to stop by my office (e.g., Monday afternoon before 4), that could also be great too.
 
 ### Final Project Presentations
 
@@ -37,6 +38,8 @@ Congratulations on making it to the end of the semester!
   - Describe the results you got (including a demo, if applicable)
   - Describe what you learned
   - Describe what you would do next
+
+See you on Monday in lab!
 
 
 ## Week 11
