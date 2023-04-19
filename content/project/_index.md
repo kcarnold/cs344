@@ -26,6 +26,8 @@ You are encouraged to try to demonstrate mastery of several of these topics even
 
 One measure of a successful project would be one that has a path towards commercialization. We have connections to funding for students interested in pursuing this.
 
+**See the rubric in Moodle** for more specifics on the areas of evaluation.
+
 ## Initiatives
 
 As an experiment this year, we'll group projects by *initiatives* of related ideas. For the first milestone, simply choose which initiative you'd like to be a part of, if any. Projects in the same initiative can share ideas, resources, and debugging, enabling each individual project to be more ambitious but less risky.
@@ -105,16 +107,36 @@ Submit (as a Jupyter notebook, `proposal.ipynb`), an enhanced version of your vi
 
 {{% /details %}}
 
-{{% details summary="Walkthrough and Showcase" %}}
+{{% details summary="Walkthrough" %}}
 
 - **Walkthrough meetings**: Meet with the professor (in person or online) before Reading Recess. Show what steps you have taken so far.
-- Attend the **final project showcase** in which you can see everyone’s project. See details below.
+
+{{% /details %}}
+
+{{% details summary="Presentations" %}}
 
 The final course meeting (during the designated final exam period) will be devoted to final project presentations. Feedback on others' projects is expected, so attendance is mandatory.
 
-Be prepared to demo your system and to explain its key points. Presentations are informal, so slides are not required (but may be helpful if your notebook is large or your results don't easily fit in a notebook.)
+Presentations should communicate the key points (not every detail) of your project, such as:
 
-Aim for about 5 minutes of content. All team members should participate.
+- What **problem** are you trying to solve?
+- **How you approached** that problem: what model did you use, what did you train/fine-tune on, etc.?
+- What **results** did you get?
+  - Include both specific examples and summary numbers, if applicable.
+  - This would be a good place to give a demo -- but maybe record a video in case it doesn't work.
+- What did you **learn**? you could take this in various ways:
+  - about your problem?
+  - about the model or data you're using?
+  - about AI/ML more generally?
+  - about your problem-solving process?
+  - etc.
+- What should others take away?
+  - If someone in the audience gets asked "what was that presentation about?", how would you want them to answer?
+  - What are some limitations of your project?
+  - What broader questions might your project raise? How might you contribute to the discussion?
+  - What might you do next?
+
+Slides are not strictly required (you could talk as you scroll through a notebook) but are probably helpful. Aim for 5-10 minutes of content. All team members should participate.
 
 {{% /details %}}
 
