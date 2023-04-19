@@ -15,6 +15,7 @@ You have two options for this final assignment. You may choose to do one or both
 - Fine-tune the GPT-2 on your text using the [`run_clm.py` script](https://github.com/huggingface/transformers/tree/main/examples/pytorch/language-modeling) documented in the Hugging Face Transformers repo.
   - You will need a validation `txt` file also, but it need not be large. You may even be able to leave it empty, I haven't tested.
   - Unless line breaks are significant, use `--keep_linebreaks=false`.
+  - If you get complains about the version of `transformers`, grab the script from an older release tag, e.g., [4.27.0](https://github.com/huggingface/transformers/tree/v4.27.0/examples/pytorch/language-modeling)
 
 ### Part 2: Generation
 
