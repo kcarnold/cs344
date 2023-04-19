@@ -601,6 +601,8 @@ For sources for this claim, see <https://platform.openai.com/docs/model-index-fo
       - No need for a separate "cross-attention" layer in the decoder to attend to the encoder's hidden states
   - Recent advances in encoder-decoder models put them back in first place for various NLP tasks: see [UL2: Unifying Language Learning Paradigms | Abstract](https://arxiv.org/abs/2205.05131v3). But this might change back again in the future.
 
+Example of an encoder-decoder model generating a translation: [Next-Token Predictions - a Hugging Face Space by kcarnold](https://huggingface.co/spaces/kcarnold/next-token)
+
 ## Transformer architecture
 
 See the study guide.
