@@ -2,6 +2,27 @@
 title: "Announcements 23SP"
 ---
 
+## Reading Recess Reminders
+
+### Midterm
+- **Academic Integrity**: Obviously I'm trusting you to do your own work on the midterm and not to discuss it with others. If you have questions about what is and isn't allowed, please ask me.
+- **Work on paper**. If you would like a printout, stop by my office and I'll print one for you.
+- **Clarifications**: A few have already been posted. Please don't hesitate to ask if anything is unclear. You are welcome to send me an answer that you're not sure about; if it shows that something is unclear in the question, I'll clarify it for everyone.
+- **Study Guide**: There were some things on the study guide that we didn't go over in class. So feel free to ask me about those (by Teams, or Ed, or in person)
+- **Time**: If you're spending more than 2 hours on it, that probably means you're stuck on something. Please reach out to me, and in the meantime, work on your project.
+
+### Project
+
+- Here's an [**example template**](https://calvincollege-my.sharepoint.com/:p:/g/personal/ka37_calvin_edu/EZxWbwqjrrZPt-rI6oy4QX4BLze-345NqVk5N31DrU45KA?e=eTASk8) for presentations, just so you don't spend time worrying about how to structure or format it.
+- **Check-ins**: if you haven't yet had a check-in meeting with me, please reach out to me so we can schedule one. I'm available until 3:30 today, and then again on Monday and Tuesday.
+- **Going deeper**: The first rubric item is "The project dug below the surface in some way, to connect to fundamental ML concepts." If you're not sure what that means, here are some ideas:
+  - **How do your modeling choices relate to your task?** e.g., you chose a specific pretrained model (over another one) or augmentation strategy because of some characteristic of your data. You chose a non-obvious loss function or evaluation metric because of the task you're addressing. etc.
+  - **What did the model learn?** e.g., you make a hypothesis about what it learned, then test that hypothesis in some way (e.g., by predicting how it would work on some examples you put together by hand, by visualizing the weights in some way, by looking at the model's internal representations for different dataset samples, etc.)
+  - **What are the limitations of your model?** e.g., you identify some ways in which your model could be improved, or some ways in which it might not generalize well to other data.
+  - **What improvements might you make to your model?** even if you don't have time or skill to implement them, you can still describe what the improvements might be and why they might be helpful.
+  - etc.
+
+
 ## Final Week
 
 Congratulations on making it to the end of the semester!
