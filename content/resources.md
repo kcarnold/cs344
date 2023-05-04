@@ -120,6 +120,8 @@ Tips and Notes:
 
 ## Materials
 
+[Text and Image Generation](https://www.youtube.com/playlist?list=PLWfDJ5nla8UoG2mvvHs_OS0asAKC5HJeu) -- short and very clear YouTube videos
+
 ### fastai
 
 -   Our book: [Deep Learning for Coders](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527/)
@@ -141,6 +143,8 @@ Tips and Notes:
   - [3Blue1Brown Neural Network Videos](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
   - [Art of the Problem - Deep Learning Playlist](https://www.youtube.com/playlist?list=PLbg3ZX2pWlgKV8K6bFJr5dhM7oOClExUJ): "Mathematics of Neural Networks" is a nice explanation of how neural nets use vector spaces.
 - "Advice on getting started in deep learning" by Andrew Ng
+- Deliberate practice. It's prerequisite to expertise. https://youtu.be/5eW6Eagr9XA?t=936 — I'll add: those four things are exactly what is needed for an AI to do something well also.
+
 
 ### Community
 
